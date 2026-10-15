@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "applyboard",
+  "name": "ApplyBoard",
+  "aliases": [],
+  "website_url": "https://applyboard.com",
+  "logo_url": "https://didmdw8v48h5q.cloudfront.net/wp-content/uploads/2020/09/favicon-2-50x50.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

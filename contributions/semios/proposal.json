@@ -1,0 +1,191 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "semios",
+    "name": "Semios",
+    "aliases": [],
+    "website_url": "https://semios.com",
+    "logo_url": "https://www.semios.com/favicon-96x96.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "semios",
+    "company_id": "semios",
+    "revision": 1,
+    "label": "Semios public careers",
+    "careers_url": "https://apply.workable.com/semios",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Semios",
+      "careers_url": "https://apply.workable.com/semios",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "apply.workable.com",
+        "www.workable.com"
+      ],
+      "request": {
+        "url": "https://www.workable.com/api/accounts/semios",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "shortcode",
+        "title": "title",
+        "location": "city",
+        "url": "url",
+        "description": "description",
+        "posted_date": "published_on",
+        "employment_type": "employment_type"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.workable.com/api/accounts/semios",
+    "fetched_at": "2026-10-15T17:43:58.961233+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "title": "Accounting Manager (Interim)",
+          "shortcode": "A9698F8F42",
+          "code": "",
+          "employment_type": "Temporary",
+          "telecommuting": false,
+          "department": "Finance",
+          "url": "https://apply.workable.com/j/A9698F8F42",
+          "shortlink": "https://apply.workable.com/j/A9698F8F42",
+          "application_url": "https://apply.workable.com/j/A9698F8F42/apply",
+          "published_on": "2026-10-01",
+          "created_at": "2026-10-01",
+          "country": "Canada",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "education": "",
+          "experience": "",
+          "function": "Finance",
+          "industry": "Farming",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Vancouver",
+              "region": "British Columbia",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "Corporate Development & Market Strategy Lead",
+          "shortcode": "4708134E21",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": true,
+          "department": "Product",
+          "url": "https://apply.workable.com/j/4708134E21",
+          "shortlink": "https://apply.workable.com/j/4708134E21",
+          "application_url": "https://apply.workable.com/j/4708134E21/apply",
+          "published_on": "2026-09-25",
+          "created_at": "2026-09-25",
+          "country": "United States",
+          "city": "",
+          "state": "",
+          "education": "",
+          "experience": "",
+          "function": "",
+          "industry": "Farming",
+          "locations": [
+            {
+              "country": "United States",
+              "countryCode": "US",
+              "city": "",
+              "region": null,
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "Corporate Development & Market Strategy Lead",
+          "shortcode": "4708134E21",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": true,
+          "department": "Product",
+          "url": "https://apply.workable.com/j/4708134E21",
+          "shortlink": "https://apply.workable.com/j/4708134E21",
+          "application_url": "https://apply.workable.com/j/4708134E21/apply",
+          "published_on": "2026-09-25",
+          "created_at": "2026-09-25",
+          "country": "United States",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "education": "",
+          "experience": "",
+          "function": "",
+          "industry": "Farming",
+          "locations": [
+            {
+              "country": "United States",
+              "countryCode": "US",
+              "city": "Minneapolis",
+              "region": "Minnesota",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://semios.com",
+    "explanation": "Official employer homepage: https://semios.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://apply.workable.com/j/A9698F8F42",
+      "https://apply.workable.com/j/4708134E21",
+      "https://apply.workable.com/j/8F2C496035"
+    ]
+  }
+}

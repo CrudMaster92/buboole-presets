@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "float",
+  "name": "Float",
+  "aliases": [],
+  "website_url": "https://floatfinancial.com",
+  "logo_url": "https://cdn.prod.website-files.com/692f04f1ba20ea9a568d1b6d/699ccbc65580f9a914da8293_favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

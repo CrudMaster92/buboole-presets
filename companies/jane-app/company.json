@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jane-app",
+  "name": "Jane App",
+  "aliases": [],
+  "website_url": "https://jane.app",
+  "logo_url": "https://jane.app/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

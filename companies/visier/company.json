@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "visier",
+  "name": "Visier",
+  "aliases": [],
+  "website_url": "https://visier.com",
+  "logo_url": "https://www.visier.com/favicon-32x32.png?v=e8ec1f4912f47be2b7d645b2d5d5b0d6",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

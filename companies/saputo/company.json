@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "saputo",
+  "name": "Saputo",
+  "aliases": [],
+  "website_url": "https://saputo.com",
+  "logo_url": "https://saputo.com/-/media/ecosystem/divisions/corporate-services/sites/saputo-com/saputo-com-images/favicon-32x32-2.png?h=32&w=32&rev=6dd9bf3ba99544edbcb96cfb0140b53d&hash=05307D8789A6831124F8DF42CD2662EE",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

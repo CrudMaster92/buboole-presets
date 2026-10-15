@@ -1,0 +1,128 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "cae",
+    "name": "CAE",
+    "aliases": [],
+    "website_url": "https://cae.com",
+    "logo_url": "https://www.cae.com/assets/favicon/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "cae",
+    "company_id": "cae",
+    "revision": 1,
+    "label": "CAE public careers",
+    "careers_url": "https://cae.wd3.myworkdayjobs.com/career",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "CAE",
+      "careers_url": "https://cae.wd3.myworkdayjobs.com/career",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "cae.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "cae",
+        "site": "career"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/jobs",
+    "fetched_at": "2026-10-15T17:37:28.359250+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Account Executive",
+          "externalPath": "/job/Lake-Nona-FL-USA/Account-Executive_123626",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "123626"
+          ]
+        },
+        {
+          "title": "Simulator Technician I",
+          "externalPath": "/job/Whippany/Simulator-Technician-I_124039",
+          "locationsText": "Whippany",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "124039"
+          ]
+        },
+        {
+          "title": "Weapons System Operator (WSOp) Electronic Warfare (EW) Instructor",
+          "externalPath": "/job/Moray/Weapons-System-Operator--WSOp--Electronic-Warfare--EW--Instructor_123673",
+          "locationsText": "Moray",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "123673"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://cae.com",
+    "explanation": "Official employer homepage: https://cae.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://cae.wd3.myworkdayjobs.com/career/job/Lake-Nona-FL-USA/Account-Executive_123626",
+      "https://cae.wd3.myworkdayjobs.com/career/job/Whippany/Simulator-Technician-I_124039",
+      "https://cae.wd3.myworkdayjobs.com/career/job/Moray/Weapons-System-Operator--WSOp--Electronic-Warfare--EW--Instructor_123673"
+    ]
+  }
+}

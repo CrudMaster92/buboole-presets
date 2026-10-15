@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "deep-genomics",
+  "name": "Deep Genomics",
+  "aliases": [],
+  "website_url": "https://deepgenomics.com",
+  "logo_url": "https://cdn.prod.website-files.com/6a5fb6d9b3255dab3ed1c348/6a62416d337156cff7236f9e_favicon-256.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

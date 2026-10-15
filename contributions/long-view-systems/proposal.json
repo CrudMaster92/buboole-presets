@@ -1,0 +1,251 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "long-view-systems",
+    "name": "Long View Systems",
+    "aliases": [],
+    "website_url": "https://longviewsystems.com",
+    "logo_url": "https://www.longviewsystems.com/wp-content/uploads/2020/08/cropped-favicon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "long-view-systems",
+    "company_id": "long-view-systems",
+    "revision": 1,
+    "label": "Long View Systems public careers",
+    "careers_url": "https://jobs.lever.co/lvs1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Long View Systems",
+      "careers_url": "https://jobs.lever.co/lvs1",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/lvs1",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "mode": "json"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/lvs1",
+    "fetched_at": "2026-10-15T17:39:41.975681+00:00",
+    "payload": [
+      {
+        "additionalPlain": "Benefits\nLong View Systems (LVS) is proud to offer a comprehensive benefits package to eligible, full-time employees who work 30 or more hours per week. You share the costs of some benefits (medical/prescription, dental, vision) and LVS provides other benefits at no cost to you (group life insurance, accidental death & dismemberment insurance, short-term disability, and long-term disability). In addition, there are voluntary benefits with reasonable group rates that you can purchase through LVS payroll deductions (supplemental life insurance, Flexible Spending Accounts, accident insurance, and critical illness insurance).\n\nBenefits Offered\nMedical, Accident Insurance, Critical Illness Insurance, Dental, Vision, Health Savings Account (HSA) (LVS contributes $500 per plan year), Flexible Spending Account (FSA), Short-term Disability, Long-term Disability, Life Insurance, Accidental Death & Dismemberment, Voluntary Life and Accidental Death & Dismemberment, Retirement Savings 401(k) (LVS contributes 5% of previous year’s W2 earnings) and ROTH, Discount Program, and Employee Assistance Program\n\n\nWant to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!\n\nLong View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.\n\nLong View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know\n",
+        "additional": "<div><span data-teams=\"true\"><strong>Benefits</strong><br>Long View Systems (LVS) is proud to offer a comprehensive benefits package to eligible, full-time employees who work 30 or more hours per week. You share the costs of some benefits (medical/prescription, dental, vision) and LVS provides other benefits at no cost to you (group life insurance, accidental death &amp; dismemberment insurance, short-term disability, and long-term disability). In addition, there are voluntary benefits with reasonable group rates that you can purchase through LVS payroll deductions (supplemental life insurance, Flexible Spending Accounts, accident insurance, and critical illness insurance).<br><br><strong>Benefits Offered</strong><br>Medical, Accident Insurance, Critical Illness Insurance, Dental, Vision, Health Savings Account (HSA) (LVS contributes $500 per plan year), Flexible Spending Account (FSA), Short-term Disability, Long-term Disability, Life Insurance, Accidental Death &amp; Dismemberment, Voluntary Life and Accidental Death &amp; Dismemberment, Retirement Savings 401(k) (LVS contributes 5% of previous year’s W2 earnings) and ROTH, Discount Program, and Employee Assistance Program</span></div><div><br></div><div><span style=\"font-size: 16px\"><b>Want to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!</b></span></div><div><br></div><div><span style=\"font-size: 16px\">Long View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.</span></div><div><br></div><div><span style=\"font-size: 16px\">Long View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know</span></div>",
+        "categories": {
+          "commitment": "Permanent Employee",
+          "department": "Texas Branch",
+          "location": "Houston",
+          "team": "Sales",
+          "allLocations": [
+            "Houston",
+            "Remote Opportunities - US"
+          ]
+        },
+        "createdAt": 1788212219946,
+        "descriptionPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n\n\nAre you a proven hunter who thrives in a fast‑paced IT sales environment and consistently wins new business by uncovering and solving client challenges?  Do you excel at building long‑term customer relationships while strategically aligning IT services and solutions to evolving business needs?\n \nWe are looking for a high‑performing Account Executive based out of Texas branch with a proven hunter mindset who thrives in a fast‑paced, sales‑driven IT environment. You’ll own and grow long‑term customer relationships while driving sales from discovery through close. As a trusted advisor, you’ll quickly develop deep expertise in Long View’s services and solutions, uncover buying opportunities, and align technology to solve real business challenges.\n",
+        "description": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div><div><br></div><div>\n<p><strong>Are you a proven hunter who thrives in a fast‑paced IT sales environment and consistently wins new business by uncovering and solving client challenges?&nbsp; Do you excel at building long‑term customer relationships while strategically aligning IT services and solutions to evolving business needs?</strong></p>\n<p>&nbsp;</p>\n<p>We are looking for a high‑performing <strong>Account Executive</strong> based out of <strong>Texas</strong> branch with a proven hunter mindset who thrives in a fast‑paced, sales‑driven IT environment. You’ll own and grow long‑term customer relationships while driving sales from discovery through close. As a trusted advisor, you’ll quickly develop deep expertise in Long View’s services and solutions, uncover buying opportunities, and align technology to solve real business challenges.</p>\n</div>",
+        "id": "1b254d6e-9d64-490d-a41c-8e88d544fc0a",
+        "lists": [
+          {
+            "text": "A Day in the Life:",
+            "content": "<div>\n\n<li>\n<p>Own customer satisfaction and revenue growth across your territory and surrounding areas</p>\n</li>\n<li>\n<p>Partner with Practice Leads to aggressively grow Long View’s presence, with a clear goal of becoming the dominant IT player in the US market</p>\n</li>\n<li>\n<p>Build and leverage strong field relationships, expand existing accounts, and proactively pursue leads from Long View and strategic manufacturer partners</p>\n</li>\n<li>\n<p>Proactively identify, qualify, and advance new business opportunities</p>\n</li>\n<li>\n<p>Represent Long View’s value proposition and messaging as the primary relationship owner for your accounts</p>\n</li>\n<li>\n<p>Own and manage the sales funnel end‑to‑end, from prospecting to close</p>\n</li>\n<li>\n<p>Develop deep expertise in Long View’s full portfolio of services and solutions</p>\n</li>\n<li>\n<p>Lead the creation of compelling proposals in collaboration with Service Delivery and Response Management teams</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "What You Bring:",
+            "content": "<div>\n\n<li>\n<p>7+ years of proven success selling integrated, advanced IT services and solutions</p>\n</li>\n<li>\n<p>A strong track record of owning, growing, and retaining complex client accounts</p>\n</li>\n<li>\n<p>Demonstrated success in&nbsp;hunting and closing net‑new business</p>\n</li>\n<li>\n<p>Hands‑on experience using&nbsp;professional sales methodologies to manage and close deals</p>\n</li>\n<li>\n<p>Proven ability to sell through a&nbsp;solution‑based, consultative approach tied to real business outcomes</p>\n</li>\n<li>\n<p>Solid understanding of&nbsp;manufacturer and partner‑led sales models</p>\n</li>\n<li>\n<p>Willingness and ability to&nbsp;complete required training and maintain manufacturer certifications</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "What Makes You Extra Awesome:",
+            "content": "<div>\n\n<li>\n<p>A Bachelor's degree or equivalent training in business and / or sales management</p>\n</li>\n<li>\n<p>Experience using Microsoft D365</p>\n</li>\n<li>\n<p>Knowledge of prospecting tools like Zoom Info</p>\n</li>\n<li>\n<p>Completion of Microsoft Fundamentals in Azure or Dynamics</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Why Work at Long View:",
+            "content": "<div>\n\n<li><strong>Great people and culture&nbsp;</strong></li>\n<li><strong>Fun is one of our core values</strong></li>\n<li><strong>Career growth&nbsp;</strong>– Permanent staff positions, paid training, career life planning, and relocation and travel opportunities</li>\n<li><strong>Interesting work&nbsp;</strong>– Be part of exciting projects while accessing all the latest technologies</li>\n<li><strong>Flexible environment&nbsp;</strong>– A workplace that values the importance of flexibility for personal/professional growth, happiness and wellness</li>\n\n</div>"
+          }
+        ],
+        "salaryRange": {
+          "min": 115840,
+          "max": 152040,
+          "currency": "USD",
+          "interval": "per-year-salary"
+        },
+        "salaryDescription": "<div>The target salary range is $115,840- $152,040 with a variable incentive plan.</div>",
+        "salaryDescriptionPlain": "The target salary range is $115,840- $152,040 with a variable incentive plan.\n",
+        "text": "Account Executive",
+        "country": "US",
+        "workplaceType": "hybrid",
+        "opening": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div>",
+        "openingPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n",
+        "descriptionBody": "<div>\n<p><strong>Are you a proven hunter who thrives in a fast‑paced IT sales environment and consistently wins new business by uncovering and solving client challenges?&nbsp; Do you excel at building long‑term customer relationships while strategically aligning IT services and solutions to evolving business needs?</strong></p>\n<p>&nbsp;</p>\n<p>We are looking for a high‑performing <strong>Account Executive</strong> based out of <strong>Texas</strong> branch with a proven hunter mindset who thrives in a fast‑paced, sales‑driven IT environment. You&rsquo;ll own and grow long‑term customer relationships while driving sales from discovery through close. As a trusted advisor, you&rsquo;ll quickly develop deep expertise in Long View&rsquo;s services and solutions, uncover buying opportunities, and align technology to solve real business challenges.</p>\n</div>",
+        "descriptionBodyPlain": "Are you a proven hunter who thrives in a fast‑paced IT sales environment and consistently wins new business by uncovering and solving client challenges?  Do you excel at building long‑term customer relationships while strategically aligning IT services and solutions to evolving business needs?\n \nWe are looking for a high‑performing Account Executive based out of Texas branch with a proven hunter mindset who thrives in a fast‑paced, sales‑driven IT environment. You’ll own and grow long‑term customer relationships while driving sales from discovery through close. As a trusted advisor, you’ll quickly develop deep expertise in Long View’s services and solutions, uncover buying opportunities, and align technology to solve real business challenges.\n",
+        "hostedUrl": "https://jobs.lever.co/lvs1/1b254d6e-9d64-490d-a41c-8e88d544fc0a",
+        "applyUrl": "https://jobs.lever.co/lvs1/1b254d6e-9d64-490d-a41c-8e88d544fc0a/apply"
+      },
+      {
+        "additionalPlain": "To help streamline our hiring process, we may use AI-powered tools to support activities such as application review and interview evaluation. These tools assist our team but do not make hiring decisions.\nWe encourage candidates to share their own experiences and perspectives throughout the process so we can get to know the person behind the application.\nWe are committed to fair, transparent, and inclusive hiring practices. If you have questions or need accommodation at any stage, please contact us.\n\n\nWant to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!\n\nLong View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.\n\nLong View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know\n",
+        "additional": "<div>\n<p><em>To help streamline our hiring process, we may use AI-powered tools to support activities such as application review and interview evaluation. These tools assist our team but do not make hiring decisions.</em></p>\n<p><em>We encourage candidates to share their own experiences and perspectives throughout the process so we can get to know the person behind the application.</em></p>\n<p><em>We are committed to fair, transparent, and inclusive hiring practices. If you have questions or need accommodation at any stage, please contact us.</em></p>\n</div><div><br></div><div><span style=\"font-size: 16px\"><b>Want to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!</b></span></div><div><br></div><div><span style=\"font-size: 16px\">Long View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.</span></div><div><br></div><div><span style=\"font-size: 16px\">Long View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know</span></div>",
+        "categories": {
+          "commitment": "Permanent Employee",
+          "department": "Toronto Branch",
+          "location": "Toronto",
+          "team": "Sales",
+          "allLocations": [
+            "Toronto"
+          ]
+        },
+        "createdAt": 1779986600360,
+        "descriptionPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n\n\nAre you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?\n \nLong View is seeking an ambitious and results-focused Account Executive for our Toronto office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Ontario Public Sector and enterprise clients is required. \n",
+        "description": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div><div><br></div><div><strong style=\"font-size: 16px;\">Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?</strong></div>\n<div><span style=\"font-size: 16px;\">&nbsp;</span></div>\n<div><span style=\"font-size: 16px;\">Long View is seeking an ambitious and results-focused </span><strong style=\"font-size: 16px;\">Account Executive </strong><span style=\"font-size: 16px;\">for our </span><strong style=\"font-size: 16px;\">Toronto </strong><span style=\"font-size: 16px;\">office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide<span data-contrast=\"auto\" style=\"list-style-type: disc;\">&nbsp;IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Ontario Public Sector and enterprise clients is required.</span>&nbsp;</span></div>",
+        "id": "579c33f3-84f2-4971-911f-f980e604a027",
+        "lists": [
+          {
+            "text": "A Day in the Life: ",
+            "content": "\n<li>Develop and maintain strong, trusting relationships with key client stakeholders, ensuring their satisfaction and fostering long-term partnerships</li>\n<li>Collaborate with technical teams to ensure timely and successful delivery of IT projects, meeting client expectations and deadlines</li>\n<li><span data-teams=\"true\">Advise clients on best practices for optimizing their AI Strategy, IT infrastructure, including cloud solutions, data management, network design, security, and IT systems integration</span></li>\n<li>Identify opportunities to expand service offerings within existing accounts, cross-sell and upsell additional services, and support the growth of the company's client base</li>\n<li>Monitor project budgets, timelines, and scope changes, ensuring projects are delivered on-time, within scope, and within budget</li>\n<li>Ensure clear, consistent communication with clients throughout the project lifecycle, providing regular updates, and addressing any concerns or issues promptly</li>\n<li>Provide detailed reporting on project progress, account status, and performance metrics, both internally and to clients</li>\n<li>Work closely with sales, marketing, and technical teams to ensure alignment between client needs and the company's offerings</li>\n<li>Develop account plans to align client goals with company offerings</li>\n<li>Stay informed about industry trends, emerging technologies, and competitors to provide strategic advice to clients</li>\n<li>Monitor Key Performance Indicators (KPIs) to measure success and identify areas for improvement</li>\n"
+          },
+          {
+            "text": "What You Bring: ",
+            "content": "\n<li>\n<p>10+ years of experience in public sector account management, business development, client relationship management, and technology services sales within the IT consulting, managed services, or professional services industry</p>\n</li>\n<li>\n<p>Proven track record of developing and growing public sector accounts through the sale of managed IT services, professional services, cloud solutions, and digital transformation initiatives. Extensive experience working with government, municipal, healthcare, education, and broader public sector organizations</p>\n</li>\n<li>\n<p>Demonstrated success in solution-based and consultative selling across key technology domains, including IT Security, Microsoft Azure, Copilot AI, Data &amp; Analytics, Dynamics 365, Modern Workplace, Infrastructure Modernization, and Managed IT Services</p>\n</li>\n<li>\n<p>Strong expertise in driving complex sales cycles, identifying client business challenges, developing strategic account plans, and aligning technology solutions to public sector priorities, procurement frameworks, and funding initiatives</p>\n</li>\n<li>\n<p>Deep understanding of Microsoft and Cisco technology ecosystems, cloud adoption strategies, enterprise infrastructure, cybersecurity, networking, and digital government transformation programs</p>\n</li>\n<li>\n<p>Excellent executive-level communication, stakeholder engagement, presentation, and negotiation skills, with the ability to build trusted advisor relationships across technical, operational, and senior leadership teams</p>\n</li>\n<li>\n<p>Experience using Microsoft Dynamics CRM to manage pipeline development, account planning, forecasting, opportunity tracking, and customer engagement activities</p>\n</li>\n<li>\n<p>Solid knowledge of IT infrastructure and enterprise technology solutions, including cloud computing, networking, security, storage, business applications, and hybrid environments</p>\n</li>\n<li>\n<p>Familiarity with public sector procurement processes, RFP/RFQ responses, ITIL and ITSM frameworks, Agile project delivery methodologies, and enterprise service management best practices</p>\n</li>\n<li>\n<p>Strong analytical and problem-solving capabilities with the ability to assess client needs, identify growth opportunities, and develop tailored technology and service solutions that deliver measurable business outcomes</p>\n</li>\n"
+          },
+          {
+            "text": "What Makes You Extra Awesome: ",
+            "content": "\n<li>Ability to travel as needed to meet clients (Ontario and Eastern Canada)</li>\n<li>Proficiency in CRM software (e.g., Salesforce, MS Dynamics) and Microsoft Office Suite</li>\n<li>Previous experience in the IT consulting industry or a related field is highly desirable</li>\n<li><span data-contrast=\"auto\">Bilingualism in English and French is an asset</span></li>\n<li><span data-contrast=\"auto\">Public sector security clearance is an asset</span></li>\n"
+          },
+          {
+            "text": "Why Work at Long View? ",
+            "content": "\n<li><strong>Great people and culture&nbsp;</strong></li>\n<li><strong>Recognition programs </strong></li>\n<li><strong>Fun is one of our core values</strong></li>\n<li><strong>Interesting work&nbsp;</strong>– Be part of exciting projects while accessing all the latest technologies</li>\n<li><strong>Flexible environment&nbsp;</strong>– A workplace that values the importance of flexibility for personal/professional growth, happiness and wellness</li>\n"
+          }
+        ],
+        "salaryRange": {
+          "currency": "CAD",
+          "interval": "per-year-salary",
+          "min": 102520,
+          "max": 140000
+        },
+        "salaryDescription": "<div>Expected Salary Range plus variable earnings</div>",
+        "salaryDescriptionPlain": "Expected Salary Range plus variable earnings\n",
+        "text": "Account Executive",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div>",
+        "openingPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n",
+        "descriptionBody": "<div><strong style=\"font-size: 16px;\">Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?</strong></div>\n<div><span style=\"font-size: 16px;\">&nbsp;</span></div>\n<div><span style=\"font-size: 16px;\">Long View is seeking an ambitious and results-focused </span><strong style=\"font-size: 16px;\">Account Executive </strong><span style=\"font-size: 16px;\">for our </span><strong style=\"font-size: 16px;\">Toronto </strong><span style=\"font-size: 16px;\">office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide<span style=\"list-style-type: disc;\" xml:lang=\"EN-US\" data-contrast=\"auto\">&nbsp;IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Ontario Public Sector and enterprise clients is required.</span>&nbsp;</span></div>",
+        "descriptionBodyPlain": "Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?\n \nLong View is seeking an ambitious and results-focused Account Executive for our Toronto office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Ontario Public Sector and enterprise clients is required. \n",
+        "hostedUrl": "https://jobs.lever.co/lvs1/579c33f3-84f2-4971-911f-f980e604a027",
+        "applyUrl": "https://jobs.lever.co/lvs1/579c33f3-84f2-4971-911f-f980e604a027/apply"
+      },
+      {
+        "additionalPlain": "To help streamline our hiring process, we may use AI-powered tools to support activities such as application review and interview evaluation. These tools assist our team but do not make hiring decisions.\nWe encourage candidates to share their own experiences and perspectives throughout the process so we can get to know the person behind the application.\nWe are committed to fair, transparent, and inclusive hiring practices. If you have questions or need accommodation at any stage, please contact us.\n\n\nWant to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!\n\nLong View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.\n\nLong View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know\n",
+        "additional": "<div>\n<p><em>To help streamline our hiring process, we may use AI-powered tools to support activities such as application review and interview evaluation. These tools assist our team but do not make hiring decisions.</em></p>\n<p><em>We encourage candidates to share their own experiences and perspectives throughout the process so we can get to know the person behind the application.</em></p>\n<p><em>We are committed to fair, transparent, and inclusive hiring practices. If you have questions or need accommodation at any stage, please contact us.</em></p>\n</div><div><br></div><div><span style=\"font-size: 16px\"><b>Want to learn more about our culture and life at Long View? Check us out on LinkedIn and Instagram!</b></span></div><div><br></div><div><span style=\"font-size: 16px\">Long View’s mission of building the best and most sustainable team-driven organization requires dedicated and ambitious people. Through employee resource groups, impactful and effective conversations, townhalls and various company-wide training, including how to reduce unconscious bias, we are fostering an inclusive environment. We are committed to taking consistent, positive and lifelong action to be a diverse and equitable workplace because we know that the most effective companies are made up of people with varied identities, experiences and backgrounds.</span></div><div><br></div><div><span style=\"font-size: 16px\">Long View is an equal opportunity employer. If you have any accommodation requests for your interview or the role, please let your friendly Recruiter know</span></div>",
+        "categories": {
+          "commitment": "Permanent Employee",
+          "department": "Edmonton Branch",
+          "location": "Edmonton",
+          "team": "Sales",
+          "allLocations": [
+            "Edmonton"
+          ]
+        },
+        "createdAt": 1788794480768,
+        "descriptionPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n\n\nAre you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?\n \nLong View is seeking an ambitious and results-focused Account Executive for our Edmonton office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Alberta Public Sector and enterprise clients is preferred. \n",
+        "description": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div><div><br></div><div><strong style=\"font-size: 16px;\">Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?</strong></div>\n<div><span style=\"font-size: 16px;\">&nbsp;</span></div>\n<div><span style=\"font-size: 16px;\">Long View is seeking an ambitious and results-focused </span><strong style=\"font-size: 16px;\">Account Executive </strong><span style=\"font-size: 16px;\">for our </span><strong style=\"font-size: 16px;\">Edmonton </strong><span style=\"font-size: 16px;\">office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide<span data-contrast=\"auto\" style=\"list-style-type: disc;\"> IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Alberta Public Sector and enterprise clients is preferred.</span>&nbsp;</span></div>",
+        "id": "b2907359-6638-4765-833f-29da4d406d69",
+        "lists": [
+          {
+            "text": "A Day in the Life: ",
+            "content": "\n<li>Develop and maintain strong, trusting relationships with key client stakeholders, ensuring their satisfaction and fostering long-term partnerships</li>\n<li>Collaborate with technical teams to ensure timely and successful delivery of IT projects, meeting client expectations and deadlines</li>\n<li><span data-teams=\"true\">Advise clients on best practices for optimizing their AI Strategy, IT infrastructure, including cloud solutions, data management, network design, security, and IT systems integration</span></li>\n<li>Identify opportunities to expand service offerings within existing accounts, cross-sell and upsell additional services, and support the growth of the company's client base</li>\n<li>Monitor project budgets, timelines, and scope changes, ensuring projects are delivered on-time, within scope, and within budget</li>\n<li>Ensure clear, consistent communication with clients throughout the project lifecycle, providing regular updates, and addressing any concerns or issues promptly</li>\n<li>Provide detailed reporting on project progress, account status, and performance metrics, both internally and to clients</li>\n<li>Work closely with sales, marketing, and technical teams to ensure alignment between client needs and the company's offerings</li>\n<li>Develop account plans to align client goals with company offerings</li>\n<li>Stay informed about industry trends, emerging technologies, and competitors to provide strategic advice to clients</li>\n<li>Monitor Key Performance Indicators (KPIs) to measure success and identify areas for improvement</li>\n"
+          },
+          {
+            "text": "What You Bring: ",
+            "content": "\n<li>\n<p>10+ years of experience in public sector account management, business development, client relationship management, and technology services sales within the IT consulting, managed services, or professional services industry</p>\n</li>\n<li>\n<p>Proven track record of developing and growing public sector accounts through the sale of managed IT services, professional services, cloud solutions, and digital transformation initiatives. Extensive experience working with government, municipal, healthcare, education, and broader public sector organizations</p>\n</li>\n<li>\n<p>Demonstrated success in solution-based and consultative selling across key technology domains, including IT Security, Microsoft Azure, Copilot AI, Data &amp; Analytics, Dynamics 365, Modern Workplace, Infrastructure Modernization, and Managed IT Services</p>\n</li>\n<li>\n<p>Strong expertise in driving complex sales cycles, identifying client business challenges, developing strategic account plans, and aligning technology solutions to public sector priorities, procurement frameworks, and funding initiatives</p>\n</li>\n<li>\n<p>Deep understanding of Microsoft and Cisco technology ecosystems, cloud adoption strategies, enterprise infrastructure, cybersecurity, networking, and digital government transformation programs</p>\n</li>\n<li>\n<p>Excellent executive-level communication, stakeholder engagement, presentation, and negotiation skills, with the ability to build trusted advisor relationships across technical, operational, and senior leadership teams</p>\n</li>\n<li>\n<p>Experience using Microsoft Dynamics CRM to manage pipeline development, account planning, forecasting, opportunity tracking, and customer engagement activities</p>\n</li>\n<li>\n<p>Solid knowledge of IT infrastructure and enterprise technology solutions, including cloud computing, networking, security, storage, business applications, and hybrid environments</p>\n</li>\n<li>\n<p>Familiarity with public sector procurement processes, RFP/RFQ responses, ITIL and ITSM frameworks, Agile project delivery methodologies, and enterprise service management best practices</p>\n</li>\n<li>\n<p>Strong analytical and problem-solving capabilities with the ability to assess client needs, identify growth opportunities, and develop tailored technology and service solutions that deliver measurable business outcomes</p>\n</li>\n"
+          },
+          {
+            "text": "What Makes You Extra Awesome: ",
+            "content": "\n<li>Ability to travel as needed to meet clients</li>\n<li>Proficiency in CRM software (e.g., Salesforce, MS Dynamics) and Microsoft Office Suite</li>\n<li>Previous experience in the IT consulting industry or a related field is highly desirable</li>\n<li><span data-contrast=\"auto\">Public sector security clearance is an asset</span></li>\n"
+          },
+          {
+            "text": "Why Work at Long View? ",
+            "content": "\n<li><strong>Great people and culture&nbsp;</strong></li>\n<li><strong>Recognition programs </strong></li>\n<li><strong>Fun is one of our core values</strong></li>\n<li><strong>Interesting work&nbsp;</strong>– Be part of exciting projects while accessing all the latest technologies</li>\n<li><strong>Flexible environment&nbsp;</strong>– A workplace that values the importance of flexibility for personal/professional growth, happiness and wellness</li>\n"
+          }
+        ],
+        "salaryRange": {
+          "currency": "CAD",
+          "interval": "per-year-salary",
+          "min": 102520,
+          "max": 140000
+        },
+        "salaryDescription": "<div>Expected Salary Range plus variable earnings</div>",
+        "salaryDescriptionPlain": "Expected Salary Range plus variable earnings\n",
+        "text": "Account Executive",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "<div><b><span style=\"font-size: 16px\">Long View. A career that helps you get more out of life.</span></b></div><div><span style=\"font-size: 16px\">&nbsp;</span></div><div><span style=\"font-size: 16px\">A Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!</span></div>",
+        "openingPlain": "Long View. A career that helps you get more out of life.\n \nA Long View career helps you get more out of life. We don’t just say it, we prove it. Every day. We’re proud of our reputation as one of North America’s most dynamic IT providers — and we’re even prouder of our culture that allows our people to live life to its fullest. At Long View, we create an environment of collaboration and support, of innovation and enthusiasm, of inclusion and belonging. As a member of the Long View team, you’ll see how our company’s core pillars — Integrity, Competence, Value, and Fun — resonate through the workplace. And in a recent survey, 89% of Long View team members rated Long View as a good or great place to work!\n",
+        "descriptionBody": "<div><strong style=\"font-size: 16px;\">Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?</strong></div>\n<div><span style=\"font-size: 16px;\">&nbsp;</span></div>\n<div><span style=\"font-size: 16px;\">Long View is seeking an ambitious and results-focused </span><strong style=\"font-size: 16px;\">Account Executive </strong><span style=\"font-size: 16px;\">for our </span><strong style=\"font-size: 16px;\">Edmonton </strong><span style=\"font-size: 16px;\">office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide<span style=\"list-style-type: disc;\" xml:lang=\"EN-US\" data-contrast=\"auto\"> IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Alberta Public Sector and enterprise clients is preferred.</span>&nbsp;</span></div>",
+        "descriptionBodyPlain": "Are you passionate about providing solutions to your client and want to work for a company that believes in Integrity, Competence, Value and Fun?\n \nLong View is seeking an ambitious and results-focused Account Executive for our Edmonton office who has experience selling Hybrid IT solutions. You will collaborate with cross-functional teams to provide IT solutions across Managed Services, Professional Services, Azure/AWS cloud, Data, ERP, the Microsoft technology stack, Cisco software and infrastructure, and other technologies through our broad alliance partner ecosystem. Experience serving Alberta Public Sector and enterprise clients is preferred. \n",
+        "hostedUrl": "https://jobs.lever.co/lvs1/b2907359-6638-4765-833f-29da4d406d69",
+        "applyUrl": "https://jobs.lever.co/lvs1/b2907359-6638-4765-833f-29da4d406d69/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://longviewsystems.com",
+    "explanation": "Official employer homepage: https://longviewsystems.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/lvs1/1b254d6e-9d64-490d-a41c-8e88d544fc0a",
+      "https://jobs.lever.co/lvs1/579c33f3-84f2-4971-911f-f980e604a027",
+      "https://jobs.lever.co/lvs1/b2907359-6638-4765-833f-29da4d406d69"
+    ]
+  }
+}

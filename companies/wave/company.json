@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wave",
+  "name": "Wave",
+  "aliases": [],
+  "website_url": "https://waveapps.com",
+  "logo_url": "https://cdn.prod.website-files.com/62446230dcb514b828a6e237/67dc615447285df192591015_favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

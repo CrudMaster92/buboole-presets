@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "absorb-software",
+  "name": "Absorb Software",
+  "aliases": [],
+  "website_url": "https://absorblms.com",
+  "logo_url": "https://cdn.prod.website-files.com/67e5b0da600dc9b00112eac4/67e5b81da20360c4a032cb89_67afb4cad2812e66e1d7dab6_abs32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

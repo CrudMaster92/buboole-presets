@@ -1,0 +1,131 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "psp-investments",
+    "name": "PSP Investments",
+    "aliases": [],
+    "website_url": "https://investpsp.com",
+    "logo_url": "https://www.investpsp.com/static/assets/images/icons/PSP-favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "psp-investments",
+    "company_id": "psp-investments",
+    "revision": 1,
+    "label": "PSP Investments public careers",
+    "careers_url": "https://investpsp.wd3.myworkdayjobs.com/psp_careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "PSP Investments",
+      "careers_url": "https://investpsp.wd3.myworkdayjobs.com/psp_careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "investpsp.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://investpsp.wd3.myworkdayjobs.com/wday/cxs/investpsp/psp_careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "investpsp",
+        "site": "psp_careers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://investpsp.wd3.myworkdayjobs.com/wday/cxs/investpsp/psp_careers/jobs",
+    "fetched_at": "2026-10-15T17:40:26.626635+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Analyst/Senior Analyst, Real Estate Investments",
+          "externalPath": "/job/London/Analyst-Senior-Analyst--Real-Estate-Investments_R4810",
+          "timeType": "Full time",
+          "locationsText": "London",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R4810"
+          ]
+        },
+        {
+          "title": "Advisor, Vendor Governance",
+          "externalPath": "/job/Montreal/Advisor--Vendor-Governance_R4918",
+          "timeType": "Full time",
+          "locationsText": "Montreal",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R4918"
+          ]
+        },
+        {
+          "title": "Solution Designer, Total Fund Solutions",
+          "externalPath": "/job/Montreal/Solution-Designer--Total-Fund-Solutions_R4953",
+          "timeType": "Full time",
+          "locationsText": "Montreal",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R4953"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://investpsp.com",
+    "explanation": "Official employer homepage: https://investpsp.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://investpsp.wd3.myworkdayjobs.com/psp_careers/job/London/Analyst-Senior-Analyst--Real-Estate-Investments_R4810",
+      "https://investpsp.wd3.myworkdayjobs.com/psp_careers/job/Montreal/Advisor--Vendor-Governance_R4918",
+      "https://investpsp.wd3.myworkdayjobs.com/psp_careers/job/Montreal/Solution-Designer--Total-Fund-Solutions_R4953"
+    ]
+  }
+}

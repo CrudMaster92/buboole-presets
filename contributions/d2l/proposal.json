@@ -1,0 +1,233 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "d2l",
+    "name": "D2L",
+    "aliases": [],
+    "website_url": "https://d2l.com",
+    "logo_url": "https://cdn.shortpixel.ai/spai/ret_img/www.d2l.com/wp-content/themes/bigdrop-theme/favicon.svg",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "d2l",
+    "company_id": "d2l",
+    "revision": 1,
+    "label": "D2L public careers",
+    "careers_url": "https://job-boards.greenhouse.io/d2l",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "D2L",
+      "careers_url": "https://job-boards.greenhouse.io/d2l",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
+        "www.d2l.com"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/d2l/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/d2l/jobs",
+    "fetched_at": "2026-10-15T17:43:52.357769+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.d2l.com/careers/jobs/?job_id=7696196&gh_jid=7696196",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 900805,
+          "location": {
+            "name": "Kitchener Ontario,  Toronto, Ontario, Ontario (Remote)"
+          },
+          "metadata": [
+            {
+              "id": 4990579,
+              "name": "Senior Leader",
+              "value": "Stephen Laster",
+              "value_type": "single_select"
+            },
+            {
+              "id": 20077,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 21517,
+              "name": "Short Description (completed by Recruitment)",
+              "value": "We are seeking a Product Support Analyst with a flexible schedule and experience working in a fast paced environment.",
+              "value_type": "short_text"
+            }
+          ],
+          "id": 7696196,
+          "updated_at": "2026-07-21T16:04:41-04:00",
+          "requisition_id": null,
+          "title": "Bilingual Product Support Analyst (Canadian French)",
+          "company_name": "D2L",
+          "first_published": "2026-03-09T13:59:23-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.d2l.com/careers/jobs/?job_id=8243583&gh_jid=8243583",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3566871,
+          "location": {
+            "name": "Canada"
+          },
+          "metadata": [
+            {
+              "id": 4990579,
+              "name": "Senior Leader",
+              "value": "Brian Finnerty",
+              "value_type": "single_select"
+            },
+            {
+              "id": 20077,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 21517,
+              "name": "Short Description (completed by Recruitment)",
+              "value": "The Director, Public Relations & Communications, is responsible for leading the execution and ongoing evolution of D2L’s global PR and communications strategy. This role will shape how we communicate our mission, values, AI leadership, and the global customer win to the market. The Director leads public relations, media relations, awards, brand sentiment, and executive communications, translating corporate priorities into integrated communications programs. This role will lead a high-performing team, manage agency relationships, and collaborate cross-functionally to ensure compelling messaging across all channels. The successful candidate will bring practical experience using artificial intelligence to improve the speed, quality, insight, and impact of all communications work.",
+              "value_type": "short_text"
+            }
+          ],
+          "id": 8243583,
+          "updated_at": "2026-10-05T12:34:32-04:00",
+          "requisition_id": "3611",
+          "title": "Director, Public Relations & Communications",
+          "company_name": "D2L",
+          "first_published": "2026-09-30T13:43:22-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.d2l.com/careers/jobs/?job_id=73320&gh_jid=73320",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 83681,
+          "location": {
+            "name": "Multiple"
+          },
+          "metadata": [
+            {
+              "id": 4990579,
+              "name": "Senior Leader",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 20077,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 21517,
+              "name": "Short Description (completed by Recruitment)",
+              "value": "Don't see your D2L Dream Job Listed? Submit a general application here!",
+              "value_type": "short_text"
+            }
+          ],
+          "id": 73320,
+          "updated_at": "2026-06-19T16:44:06-04:00",
+          "requisition_id": null,
+          "title": "Dream Job Not Listed? Click Here!",
+          "company_name": "D2L",
+          "first_published": null,
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://d2l.com",
+    "explanation": "Official employer homepage: https://d2l.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.d2l.com/careers/jobs?job_id=7696196&gh_jid=7696196",
+      "https://www.d2l.com/careers/jobs?job_id=8243583&gh_jid=8243583",
+      "https://www.d2l.com/careers/jobs?job_id=73320&gh_jid=73320"
+    ]
+  }
+}

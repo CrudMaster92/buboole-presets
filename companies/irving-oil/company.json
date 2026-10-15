@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "irving-oil",
+  "name": "Irving Oil",
+  "aliases": [],
+  "website_url": "https://irvingoil.com",
+  "logo_url": "https://www.irvingoil.com/themes/custom/irvingoil/touch-icons/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "capital-power",
+  "name": "Capital Power",
+  "aliases": [],
+  "website_url": "https://capitalpower.com",
+  "logo_url": "https://www.capitalpower.com/wp-content/uploads/2019/07/CPTL_FAV_Icon_256x256-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

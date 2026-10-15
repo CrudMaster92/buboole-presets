@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "clearco",
+  "name": "Clearco",
+  "aliases": [],
+  "website_url": "https://clear.co",
+  "logo_url": "https://cdn.prod.website-files.com/65fde10e62e6a7603e9221cc/6626c6a349f641d1f93514ad_clearco_icon_black_circle32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "deep-genomics",
+    "name": "Deep Genomics",
+    "aliases": [],
+    "website_url": "https://deepgenomics.com",
+    "logo_url": "https://cdn.prod.website-files.com/6a5fb6d9b3255dab3ed1c348/6a62416d337156cff7236f9e_favicon-256.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "deep-genomics",
+    "company_id": "deep-genomics",
+    "revision": 1,
+    "label": "Deep Genomics public careers",
+    "careers_url": "https://jobs.lever.co/deepgenomics",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Deep Genomics",
+      "careers_url": "https://jobs.lever.co/deepgenomics",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/deepgenomics",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "mode": "json"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/deepgenomics",
+    "fetched_at": "2026-10-15T17:41:26.210576+00:00",
+    "payload": [
+      {
+        "additionalPlain": "Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company. \n \nIf you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.\n \n \n*This posting reflects a current vacancy. \n \nWe offer competitive compensation aligned with local market benchmarks. The salary range for this role is $135,000 - 165,000, and reflects Cambridge, USA-based roles. \n",
+        "additional": "<div>\n<div><span style=\"color: #000000;\">Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company.&nbsp;</span></div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">If you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.</span></div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">*This posting reflects a current vacancy.&nbsp;</span></div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">We offer competitive compensation aligned with local market benchmarks. The salary range for this role is $135,000 - 165,000, and reflects Cambridge, USA-based roles.&nbsp;</span></div>\n</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Cambridge, MA",
+          "team": "In Vitro",
+          "allLocations": [
+            "Cambridge, MA"
+          ]
+        },
+        "createdAt": 1790873473051,
+        "descriptionPlain": "About Us\nDeep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.\n \nAbout the Role\nWe are seeking a Research Scientist to design and execute cell-based studies that evaluate the functional impact of oligo-based therapeutic modalities including ADAR-mediated RNA editing and siRNA on liver disease. You will build and apply advanced two-dimensional co-culture and three-dimensional liver disease models, connect editing measurements to biological outcomes, and help teams decide which therapeutic approaches to advance. This is a hands-on, individual contributor role based in Cambridge, Massachusetts. You will work closely with colleagues in Cambridge, MA and Toronto, Canada and may travel occasionally between sites. The position does not initially have direct reports.\n",
+        "description": "<h3>About Us</h3>\n<div>Deep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.</div>\n<div>&nbsp;</div>\n<h3>About the Role</h3>\n<div>We are seeking a Research Scientist to design and execute cell-based studies that evaluate the functional impact of oligo-based therapeutic modalities including ADAR-mediated RNA editing and siRNA on liver disease. You will build and apply advanced two-dimensional co-culture and three-dimensional liver disease models, connect editing measurements to biological outcomes, and help teams decide which therapeutic approaches to advance. This is a hands-on, individual contributor role based in Cambridge, Massachusetts. You will work closely with colleagues in Cambridge, MA and Toronto, Canada and may travel occasionally between sites. The position does not initially have direct reports.</div>",
+        "id": "2ec45717-17a1-47a7-8e41-737ec3bc9bf9",
+        "lists": [
+          {
+            "text": "Key Responsibilities",
+            "content": "\n<li>Design, optimize, and run functional assays in appropriate cellular liver disease models, selecting systems that capture the relevant disease biology and therapeutic mechanism.</li>\n<li>Evaluate ADAR-mediated RNA editing and siRNA candidates and characterize dose response, durability, cellular phenotype, and disease-relevant biomarkers using orthogonal readouts.</li>\n<li>Develop and apply key end points for functional assays (viability assays, ELISA or MSD, and Western blot or Jess) and high-content imaging workflows for phenotyping and quantitative analysis.</li>\n<li>Interpret results of cell-based functional assays including imaging, protein biomarkers, and phenotypic readouts as well as molecular assays and transcriptomic responses in collaboration with computational colleagues.</li>\n<li>Use laboratory automation where appropriate to improve assay throughput, reproducibility, and data quality; document methods, controls, and results rigorously.</li>\n<li>Collaborate across Cambridge and Toronto with program, computational biology, AI and machine learning, and other research teams.</li>\n<li>Communicate findings and recommendations clearly to leadership, scientific peers, and research associates.</li>\n"
+          },
+          {
+            "text": "Basic Qualifications",
+            "content": "\n<li>Ph.D. in cell biology, molecular biology, biochemistry, genetics, gene therapy, immunology, or a related field with 0-3+ years of postgraduate experience or Masters/B.S. with 6+ years of experience. Biotech or pharmaceutical experience is preferred.</li>\n<li>In depth understanding of disease models for liver diseases and hands on experience developing and interpreting functional assays relevant to liver disease.</li>\n<li>Experience with RNA therapeutics, such as oligonucleotide or mRNA-based approaches, and an understanding of experimental controls needed to assess mechanism and function.</li>\n<li>Experience with foundational functional assay techniques: ELISA, MSD, Western blot or Jess, viability assays, and experience with high-content imaging and quantitative analysis.</li>\n<li>Ability to integrate phenotypic data with molecular analyses performed by computational partners; independent pipeline development is not required.</li>\n<li>Experience using laboratory automation and strong experimental design, troubleshooting, data analysis, and record-keeping skills.</li>\n<li>Ability to explain complex results directly and clearly to audiences with different technical backgrounds, and to work effectively across sites.</li>\n"
+          },
+          {
+            "text": "Preferred Qualifications",
+            "content": "\n<li>Direct experience with ADAR-mediated RNA editing and siRNA, or related RNA editing therapeutics.</li>\n<li>Experience with liver disease biology, including steatosis, inflammation, fibrosis, or cirrhosis, and with primary cells, organoids, or multicellular systems.</li>\n<li>Direct experience with molecular techniques such as RNAseq and next generation sequencing.</li>\n<li>Computational background or experience working closely with bioinformatics, AI, or machine-learning teams on experimental design and interpretation.</li>\n"
+          },
+          {
+            "text": "What We Offer",
+            "content": "<div>\n\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">A collaborative and innovative environment at the frontier of computational biology, machine learning, and drug discovery.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Highly competitive compensation, including meaningful stock ownership.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Comprehensive benefits - including health, vision, and dental coverage for employees and families, employee and family assistance program.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Flexible work environment - including flexible hours, extended long weekends, holiday shutdown, unlimited personal days.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Maternity and parental leave top-up coverage, as well as new parent paid time off.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Focus on learning and growth for all employees - learning and development budget &amp; lunch and learns.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Facilities located in the heart of Toronto - the epicenter of machine learning and AI research and development, and in Kendall Square, Cambridge, Mass. - a global center of biotechnology and life sciences.</span></li>\n\n</div>"
+          }
+        ],
+        "text": "Research Scientist In Vitro Pharmacology",
+        "country": "US",
+        "workplaceType": "onsite",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<h3>About Us</h3>\n<div>Deep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.</div>\n<div>&nbsp;</div>\n<h3>About the Role</h3>\n<div>We are seeking a Research Scientist to design and execute cell-based studies that evaluate the functional impact of oligo-based therapeutic modalities including ADAR-mediated RNA editing and siRNA on liver disease. You will build and apply advanced two-dimensional co-culture and three-dimensional liver disease models, connect editing measurements to biological outcomes, and help teams decide which therapeutic approaches to advance. This is a hands-on, individual contributor role based in Cambridge, Massachusetts. You will work closely with colleagues in Cambridge, MA and Toronto, Canada and may travel occasionally between sites. The position does not initially have direct reports.</div>",
+        "descriptionBodyPlain": "About Us\nDeep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.\n \nAbout the Role\nWe are seeking a Research Scientist to design and execute cell-based studies that evaluate the functional impact of oligo-based therapeutic modalities including ADAR-mediated RNA editing and siRNA on liver disease. You will build and apply advanced two-dimensional co-culture and three-dimensional liver disease models, connect editing measurements to biological outcomes, and help teams decide which therapeutic approaches to advance. This is a hands-on, individual contributor role based in Cambridge, Massachusetts. You will work closely with colleagues in Cambridge, MA and Toronto, Canada and may travel occasionally between sites. The position does not initially have direct reports.\n",
+        "hostedUrl": "https://jobs.lever.co/deepgenomics/2ec45717-17a1-47a7-8e41-737ec3bc9bf9",
+        "applyUrl": "https://jobs.lever.co/deepgenomics/2ec45717-17a1-47a7-8e41-737ec3bc9bf9/apply"
+      },
+      {
+        "additionalPlain": "Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company. \n \nIf you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.\n \n \n*This posting reflects a current vacancy. \n \nWe offer competitive compensation aligned with local market benchmarks. The salary range for this role is $90,000 - 110,000, and reflects Cambridge, USA-based roles. \n",
+        "additional": "<div>\n<div><span style=\"color: #000000;\">Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company.&nbsp;</span></div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">If you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.</span></div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">*This posting reflects a current vacancy.&nbsp;</span></div>\n<div>&nbsp;</div>\n<div><span style=\"color: #000000;\">We offer competitive compensation aligned with local market benchmarks. The salary range for this role is $90,000 - 110,000, and reflects Cambridge, USA-based roles.&nbsp;</span></div>\n</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Cambridge, MA",
+          "team": "in vivo",
+          "allLocations": [
+            "Cambridge, MA"
+          ]
+        },
+        "createdAt": 1789068313071,
+        "descriptionPlain": "About Us\nDeep Genomics is at the forefront of integrating artificial intelligence and complex biology to transform drug discovery. Our proprietary machine learning platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, genetics, chemistry and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how medicines are created.\nAbout the role\nThe Senior Research Associate will join our in vivo Pharmacology team within the Platform Biology group and will be a key player in driving our cutting-edge AI RNA therapeutics discovery platform. In this role, you will be responsible for helping support in vivo therapeutic efficacy testing efforts of novel RNA therapeutics in various animal models. The ideal candidate will have strong hands-on experience with in vivo animal handling and rodent models, expertise in tissue collection and sample processing, and some background in molecular biology techniques. Experience or familiarity with RNA-based therapeutic modalities is highly desirable.\nThe successful candidate will be a proactive, detail-oriented, and collaborative team member who demonstrates scientific curiosity and initiative. The candidate should be comfortable working both mostly independently and within cross-functional teams in a dynamic, fast-paced biotech environment.\nThis position is onsite at our Cambridge, MA site.\n",
+        "description": "<div>\n<h3><span style=\"color: #000000;\"><strong>About Us</strong></span></h3>\n<p><span style=\"color: #000000;\">Deep Genomics is at the forefront of integrating artificial intelligence and complex biology to transform drug discovery. Our proprietary machine learning platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, genetics, chemistry and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how medicines are created.</span></p>\n<h3><span style=\"color: #000000;\"><strong>About the role</strong></span></h3>\n<p><span style=\"color: #000000;\">The Senior Research Associate will join our in vivo Pharmacology team within the Platform Biology group and will be a key player in driving our cutting-edge AI RNA therapeutics discovery platform. In this role, you will be responsible for helping support in vivo therapeutic efficacy testing efforts of novel RNA therapeutics in various animal models. The ideal candidate will have strong hands-on experience with in vivo animal handling and rodent models, expertise in tissue collection and sample processing, and some background in molecular biology techniques. Experience or familiarity with RNA-based therapeutic modalities is highly desirable.</span></p>\n<p><span style=\"color: #000000;\">The successful candidate will be a proactive, detail-oriented, and collaborative team member who demonstrates scientific curiosity and initiative. The candidate should be comfortable working both mostly independently and within cross-functional teams in a dynamic, fast-paced biotech environment.</span></p>\n<span style=\"color: #000000;\">This position is <strong>onsite</strong> at our Cambridge, MA site.</span></div>",
+        "id": "f3fba58f-97f0-441b-b578-af055fce2e8f",
+        "lists": [
+          {
+            "text": "Key Responsibilities",
+            "content": "<div>\n\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Coordinate study logistics, including dosing schedules, sample collection plans, reagent preparation, and communication with research partners.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Manage i<em>n vivo</em> samples and prepare samples for downstream analysis.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Perform standard molecular biology techniques in a consistent and reproducible manner (<em>e.g.</em> PCR, qPCR, ddPCR, ELISA, Western blot, Jess/Leo capillary-based Western blot, etc.).</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Support the development of novel molecular and functional assays on animal samples for our internal therapeutic pipeline.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Analyze, visualize, and summarize study data while maintaining accurate and timely documentation of experiments, protocols/SOPs, sample inventories, and results in an electronic lab notebook (ELN). </span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Collaborate with cross-functional teams to support project goals and meet company timelines.</span></li>\n\n</div>"
+          },
+          {
+            "text": "Basic Qualifications",
+            "content": "\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Degree in Pharmacology, Biology, Molecular Biology, Genetics, Biochemistry or a related field with a BS and 2-4+ years of relevant experience, a MS and 1-2+ years of relevant&nbsp; pharmaceutical or biotechnology experience.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Basic understanding of molecular biology and tissue sample processing for RNA and protein readouts.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Hands on experience with rodents, basic injections (ex. tail vein, SubQ, IP, etc.), necropsy, and some in vivo study coordination is mandatory.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Demonstrate ability to execute various ex vivo molecular assays.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Excellent communication, organizational skills and a willingness to learn.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Ability to work collaboratively in a fast-paced technical environment.</span></li>\n"
+          },
+          {
+            "text": "Preferred Qualifications",
+            "content": "<div>\n\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Past experience with RNA oligonucleotide therapeutics in animal models is preferred.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Basic knowledge of histology and immunohistochemical assays and quantification is a bonus.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Demonstrated experience working in cross-functional teams.</span></li>\n<li style=\"color: #000000;\"><span style=\"color: #000000;\">Experience working in an advanced data and computing environment.</span></li>\n\n</div>"
+          },
+          {
+            "text": "What We Offer",
+            "content": "<div>\n\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">A collaborative and innovative environment at the frontier of computational biology, machine learning, and drug discovery.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Highly competitive compensation, including meaningful stock ownership.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Comprehensive benefits - including health, vision, and dental coverage for employees and families, employee and family assistance program.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Flexible work environment - including flexible hours, extended long weekends, holiday shutdown, unlimited personal days.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Maternity and parental leave top-up coverage, as well as new parent paid time off.&nbsp;</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Focus on learning and growth for all employees - learning and development budget &amp; lunch and learns.</span></li>\n<li style=\"list-style-type: revert; color: #000000;\"><span style=\"color: #000000;\">Facilities located in the heart of Toronto - the epicenter of machine learning and AI research and development, and in Kendall Square, Cambridge, Mass. - a global center of biotechnology and life sciences.</span></li>\n\n</div>"
+          }
+        ],
+        "text": "Senior Research Associate, in vivo Pharmacology",
+        "country": "US",
+        "workplaceType": "onsite",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div>\n<h3><span style=\"color: #000000;\"><strong>About Us</strong></span></h3>\n<p><span style=\"color: #000000;\">Deep Genomics is at the forefront of integrating artificial intelligence and complex biology to transform drug discovery. Our proprietary machine learning platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, genetics, chemistry and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how medicines are created.</span></p>\n<h3><span style=\"color: #000000;\"><strong>About the role</strong></span></h3>\n<p><span style=\"color: #000000;\">The Senior Research Associate will join our in vivo Pharmacology team within the Platform Biology group and will be a key player in driving our cutting-edge AI RNA therapeutics discovery platform. In this role, you will be responsible for helping support in vivo therapeutic efficacy testing efforts of novel RNA therapeutics in various animal models. The ideal candidate will have strong hands-on experience with in vivo animal handling and rodent models, expertise in tissue collection and sample processing, and some background in molecular biology techniques. Experience or familiarity with RNA-based therapeutic modalities is highly desirable.</span></p>\n<p><span style=\"color: #000000;\">The successful candidate will be a proactive, detail-oriented, and collaborative team member who demonstrates scientific curiosity and initiative. The candidate should be comfortable working both mostly independently and within cross-functional teams in a dynamic, fast-paced biotech environment.</span></p>\n<span style=\"color: #000000;\">This position is <strong>onsite</strong> at our Cambridge, MA site.</span></div>",
+        "descriptionBodyPlain": "About Us\nDeep Genomics is at the forefront of integrating artificial intelligence and complex biology to transform drug discovery. Our proprietary machine learning platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, genetics, chemistry and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how medicines are created.\nAbout the role\nThe Senior Research Associate will join our in vivo Pharmacology team within the Platform Biology group and will be a key player in driving our cutting-edge AI RNA therapeutics discovery platform. In this role, you will be responsible for helping support in vivo therapeutic efficacy testing efforts of novel RNA therapeutics in various animal models. The ideal candidate will have strong hands-on experience with in vivo animal handling and rodent models, expertise in tissue collection and sample processing, and some background in molecular biology techniques. Experience or familiarity with RNA-based therapeutic modalities is highly desirable.\nThe successful candidate will be a proactive, detail-oriented, and collaborative team member who demonstrates scientific curiosity and initiative. The candidate should be comfortable working both mostly independently and within cross-functional teams in a dynamic, fast-paced biotech environment.\nThis position is onsite at our Cambridge, MA site.\n",
+        "hostedUrl": "https://jobs.lever.co/deepgenomics/f3fba58f-97f0-441b-b578-af055fce2e8f",
+        "applyUrl": "https://jobs.lever.co/deepgenomics/f3fba58f-97f0-441b-b578-af055fce2e8f/apply"
+      },
+      {
+        "additionalPlain": "Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company. \n \nIf you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.\n \n \n*This posting reflects a current vacancy. \n \nWe offer competitive compensation aligned with local market benchmarks. The salary range for this role is $175,000 - $200,000, and reflects Canada-based roles; compensation may differ for U.S.-based candidates.\n",
+        "additional": "<div>\n<div>Deep Genomics encourages applications from all backgrounds who seek the opportunity to build the world's leading AI-driven genetic medicine company.&nbsp;</div>\n<div>&nbsp;</div>\n<div>If you have a disability or special need, accommodation is available on request for candidates taking part in all aspects of the selection process.</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>*This posting reflects a current vacancy.&nbsp;</div>\n<div>&nbsp;</div>\n<div><span style=\"font-size: 11pt;\">We offer competitive compensation aligned with local market benchmarks. The salary range for this role is $175,000 - $200,000, and reflects Canada-based roles; compensation may differ for U.S.-based candidates.</span></div>\n</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Toronto, Ontario",
+          "team": "Machine Learning",
+          "allLocations": [
+            "Toronto, Ontario"
+          ]
+        },
+        "createdAt": 1780951198761,
+        "descriptionPlain": "About Us\nDeep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.\nOpportunity\nWe are seeking an exceptional and creative Senior/Staff Machine Learning Scientist to lead and innovate within our core AI research team, specifically focusing on the creative building of Biological Foundation Models (BioFMs). You will pioneer novel deep learning architectures and pre-training paradigms that learn the fundamental language of the genome and cellular biology. Rather than just applying out-of-the-box ML to biological datasets, you will design the next generation of BioFMs from tackling complex -omics data at scale. If you are a first-principles thinker excited to bridge advanced ML with genome biology to solve high-impact, frontier problems in human health and drug discovery, this is a unique opportunity.\n\n\n",
+        "description": "<h3><strong>About Us</strong></h3>\n<p><strong><br></strong>Deep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.</p>\n<h3><strong>Opportunity</strong></h3>\n<p><strong><br></strong>We are seeking an exceptional and creative Senior/Staff Machine Learning Scientist to lead and innovate within our core AI research team, specifically focusing on the creative building of Biological Foundation Models (BioFMs). You will pioneer novel deep learning architectures and pre-training paradigms that learn the fundamental language of the genome and cellular biology. Rather than just applying out-of-the-box ML to biological datasets, you will design the next generation of BioFMs from tackling complex -omics data at scale. If you are a first-principles thinker excited to bridge advanced ML with genome biology to solve high-impact, frontier problems in human health and drug discovery, this is a unique opportunity.</p>\n<p><br><br></p>",
+        "id": "74978439-123f-4000-ae76-e70730c6cfa0",
+        "lists": [
+          {
+            "text": "Key Responsibilities",
+            "content": "\n<li>Lead the creative research, architecture design, and training of Biological Foundation Models (BioFMs), on massive-scale genomic, transcriptomic, and single-cell datasets.</li>\n<li>Collaborate closely with computational biologists and drug developers to integrate deep biological priors directly into model architectures and training objectives, ensuring our BioFMs capture fundamental and scientifically meaningful representations.</li>\n<li>Rigorously implement, train, debug, and evaluate large-scale models to demonstrate scientific validity and drive progress on frontier problems in human health and genetic medicines.</li>\n<li>Stay current with advancements in machine learning and computational biology research, identifying cross-disciplinary applications to solve real-world challenges.</li>\n<li>Mentor junior scientists and engineers, fostering a culture of technical excellence and scientific curiosity through leadership and high-quality code review.</li>\n<li>Share research findings through internal presentations and contribute to the scientific community via publications in top-tier venues.</li>\n"
+          },
+          {
+            "text": "Basic Qualifications",
+            "content": "\n<li>PhD (or evidence of equivalent level of expertise) with a strongly distinguished research focus in Computational Biology, Machine Learning, Computer Science, or a related quantitative field.</li>\n<li>Deep understanding of modern deep learning and the creative building of foundation models, including CNNs, Transformers, and related sequence models (e.g., state-space models) specifically tailored for biological or genomic sequence data.</li>\n<li>A demonstrated track record of building and scaling AI models for complex biological datasets (e.g., single-cell genomics, DNA/RNA sequences) from initial conception to production.</li>\n<li>Proven ability to implement, train, and debug highly-performant deep learning models using frameworks like PyTorch.</li>\n<li>Experience working with massive datasets and a deep understanding of the engineering and algorithmic challenges associated with scale.</li>\n<li>Excellent communication skills, capable of discussing complex ideas seamlessly with both ML engineers and biological domain experts.</li>\n"
+          },
+          {
+            "text": "Preferred Qualifications",
+            "content": "\n<li>A strong track record of impactful research demonstrated through first-author publications in high-impact scientific journals (e.g., Nature, Science, Cell) or top-tier ML/CompBio conferences (e.g., NeurIPS, ICML, ICLR, ISMB, RECOMB).</li>\n<li>2+ years of relevant post-graduate experience at a leading industrial R&amp;D lab or in a highly competitive academic environment building genomics AI.</li>\n<li>Experience technically leading projects or mentoring junior researchers/engineers.</li>\n<li>Proficiency with cloud computing platforms (e.g., GCP) for large-scale model training and experimentation.</li>\n<li>Contributions to open-source projects demonstrating the ability to solve complex research problems in ML or computational biology.</li>\n"
+          },
+          {
+            "text": "What We Offer ",
+            "content": "<div>\n\n<li style=\"list-style-type: revert;\">A collaborative and innovative environment at the frontier of computational biology, machine learning, and drug discovery.&nbsp;</li>\n<li style=\"list-style-type: revert;\">Highly competitive compensation, including meaningful stock ownership.</li>\n<li style=\"list-style-type: revert;\">Comprehensive benefits - including health, vision, and dental coverage for employees and families, employee and family assistance program.&nbsp;</li>\n<li style=\"list-style-type: revert;\">Flexible work environment - including flexible hours, extended long weekends, holiday shutdown, unlimited personal days.</li>\n<li style=\"list-style-type: revert;\">Maternity and parental leave top-up coverage, as well as new parent paid time off.&nbsp;</li>\n<li style=\"list-style-type: revert;\">Focus on learning and growth for all employees - learning and development budget &amp; lunch and learns.</li>\n<li style=\"list-style-type: revert;\">Facilities located in the heart of Toronto - the epicenter of machine learning and AI research and development, and in Kendall Square, Cambridge, Mass. - a global center of biotechnology and life sciences.</li>\n\n</div>"
+          }
+        ],
+        "text": "Senior Research Scientist, Machine Learning (BioFM)",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<h3><strong>About Us</strong></h3>\n<p><strong><br></strong>Deep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.</p>\n<h3><strong>Opportunity</strong></h3>\n<p><strong><br></strong>We are seeking an exceptional and creative Senior/Staff Machine Learning Scientist to lead and innovate within our core AI research team, specifically focusing on the creative building of Biological Foundation Models (BioFMs). You will pioneer novel deep learning architectures and pre-training paradigms that learn the fundamental language of the genome and cellular biology. Rather than just applying out-of-the-box ML to biological datasets, you will design the next generation of BioFMs from tackling complex -omics data at scale. If you are a first-principles thinker excited to bridge advanced ML with genome biology to solve high-impact, frontier problems in human health and drug discovery, this is a unique opportunity.</p>\n<p><br><br></p>",
+        "descriptionBodyPlain": "About Us\nDeep Genomics is at the forefront of using artificial intelligence to transform drug discovery. Our proprietary AI platform decodes the complexity of RNA biology to identify novel drug targets, mechanisms, and therapeutics inaccessible through traditional methods. With expertise spanning machine learning, bioinformatics, data science, engineering, and drug development, our multidisciplinary team in Toronto and Cambridge, MA is revolutionizing how new medicines are created.\nOpportunity\nWe are seeking an exceptional and creative Senior/Staff Machine Learning Scientist to lead and innovate within our core AI research team, specifically focusing on the creative building of Biological Foundation Models (BioFMs). You will pioneer novel deep learning architectures and pre-training paradigms that learn the fundamental language of the genome and cellular biology. Rather than just applying out-of-the-box ML to biological datasets, you will design the next generation of BioFMs from tackling complex -omics data at scale. If you are a first-principles thinker excited to bridge advanced ML with genome biology to solve high-impact, frontier problems in human health and drug discovery, this is a unique opportunity.\n\n\n",
+        "hostedUrl": "https://jobs.lever.co/deepgenomics/74978439-123f-4000-ae76-e70730c6cfa0",
+        "applyUrl": "https://jobs.lever.co/deepgenomics/74978439-123f-4000-ae76-e70730c6cfa0/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://deepgenomics.com",
+    "explanation": "Official employer homepage: https://deepgenomics.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/deepgenomics/2ec45717-17a1-47a7-8e41-737ec3bc9bf9",
+      "https://jobs.lever.co/deepgenomics/f3fba58f-97f0-441b-b578-af055fce2e8f",
+      "https://jobs.lever.co/deepgenomics/74978439-123f-4000-ae76-e70730c6cfa0"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-tire",
+  "name": "Canadian Tire",
+  "aliases": [],
+  "website_url": "https://corp.canadiantire.ca",
+  "logo_url": "https://s201.q4cdn.com/326551073/files/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

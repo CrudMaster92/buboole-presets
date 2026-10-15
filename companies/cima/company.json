@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cima",
+  "name": "CIMA+",
+  "aliases": [],
+  "website_url": "https://cima.ca",
+  "logo_url": "https://www.cima.ca/wp-content/themes/cima/favicon/apple-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

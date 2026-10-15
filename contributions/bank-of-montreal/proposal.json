@@ -1,0 +1,130 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "bank-of-montreal",
+    "name": "Bank of Montreal",
+    "aliases": [],
+    "website_url": "https://bmo.com",
+    "logo_url": "https://www.bmo.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "bank-of-montreal",
+    "company_id": "bank-of-montreal",
+    "revision": 1,
+    "label": "Bank of Montreal public careers",
+    "careers_url": "https://bmo.wd3.myworkdayjobs.com/External",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Local listing traversal remained incomplete; collector must resume its checkpoint and must not close unseen roles.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Bank of Montreal",
+      "careers_url": "https://bmo.wd3.myworkdayjobs.com/External",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "bmo.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "bmo",
+        "site": "External"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs",
+    "fetched_at": "2026-10-15T17:38:53.113996+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Analyst, Global Markets Client Analytics",
+          "externalPath": "/job/Toronto-ON-CAN/Analyst--Global-Markets-Client-Analytics_R260029106",
+          "locationsText": "Toronto, ON, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R260029106"
+          ]
+        },
+        {
+          "title": "Senior Manager, Model Validation",
+          "externalPath": "/job/Toronto-ON-CAN/Senior-Manager--Model-Validation_R260029132",
+          "locationsText": "Toronto, ON, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R260029132"
+          ]
+        },
+        {
+          "title": "Customer Service Representative",
+          "externalPath": "/job/Victoria-BC-CAN/Customer-Service-Representative_R260028574",
+          "locationsText": "Victoria, BC, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R260028574"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://bmo.com",
+    "explanation": "Official employer homepage: https://bmo.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Analyst--Global-Markets-Client-Analytics_R260029106",
+      "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Senior-Manager--Model-Validation_R260029132",
+      "https://bmo.wd3.myworkdayjobs.com/External/job/Victoria-BC-CAN/Customer-Service-Representative_R260028574"
+    ]
+  }
+}

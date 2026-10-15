@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cogeco",
+  "name": "Cogeco",
+  "aliases": [],
+  "website_url": "https://cogeco.ca",
+  "logo_url": "https://www.cogeco.ca/static/media/assets/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

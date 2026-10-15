@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kepler-communications",
+  "name": "Kepler Communications",
+  "aliases": [],
+  "website_url": "https://keplercommunications.com",
+  "logo_url": "https://logo.freehire.me/Kepler%20Communications?domain=keplercommunications.com",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "league",
+    "name": "League",
+    "aliases": [],
+    "website_url": "https://league.com",
+    "logo_url": "https://logo.freehire.me/League?domain=league.com",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "league",
+    "company_id": "league",
+    "revision": 1,
+    "label": "League public careers",
+    "careers_url": "https://job-boards.greenhouse.io/leagueinc",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "League",
+      "careers_url": "https://job-boards.greenhouse.io/leagueinc",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
+    "fetched_at": "2026-10-15T17:41:22.465700+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/leagueinc/jobs/6145664004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5201228004,
+          "location": {
+            "name": "Toronto"
+          },
+          "metadata": [
+            {
+              "id": 8786262004,
+              "name": "USA Salary Band Ranges",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 8786350004,
+              "name": "Pay Band - Job Posting Notice",
+              "value": null,
+              "value_type": "long_text"
+            },
+            {
+              "id": 8877388004,
+              "name": "USA Salary Band",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 11902218004,
+              "name": "Canada Salary Band Ranges",
+              "value": "BDR1-CAN\t$57,300 -\t$70,100",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11902260004,
+              "name": "Canada Salary Band",
+              "value": {
+                "unit": "CAD",
+                "max_value": "65000.0",
+                "min_value": "55000.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 6145664004,
+          "updated_at": "2026-08-19T10:12:35-04:00",
+          "requisition_id": "AD26BF2",
+          "title": "Business Development Representative",
+          "company_name": "League Inc.",
+          "first_published": "2026-08-17T15:52:44-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/leagueinc/jobs/6104019004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5180163004,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": [
+            {
+              "id": 8786262004,
+              "name": "USA Salary Band Ranges",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 8786350004,
+              "name": "Pay Band - Job Posting Notice",
+              "value": null,
+              "value_type": "long_text"
+            },
+            {
+              "id": 8877388004,
+              "name": "USA Salary Band",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 11902218004,
+              "name": "Canada Salary Band Ranges",
+              "value": "M5-CAN\t$147,600 -\t$180,400",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11902260004,
+              "name": "Canada Salary Band",
+              "value": {
+                "unit": "CAD",
+                "max_value": "170000.0",
+                "min_value": "145000.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 6104019004,
+          "updated_at": "2026-07-09T11:22:00-04:00",
+          "requisition_id": "CB26BF6",
+          "title": "Director, Growth Marketing",
+          "company_name": "League Inc.",
+          "first_published": "2026-06-29T13:27:55-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/leagueinc/jobs/6134603004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 5195479004,
+          "location": {
+            "name": "Canada"
+          },
+          "metadata": [
+            {
+              "id": 8786262004,
+              "name": "USA Salary Band Ranges",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 8786350004,
+              "name": "Pay Band - Job Posting Notice",
+              "value": null,
+              "value_type": "long_text"
+            },
+            {
+              "id": 8877388004,
+              "name": "USA Salary Band",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 11902218004,
+              "name": "Canada Salary Band Ranges",
+              "value": "DS5-CAN\t$174,100\t-\t$212,700",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11902260004,
+              "name": "Canada Salary Band",
+              "value": {
+                "unit": "CAD",
+                "max_value": "200000.0",
+                "min_value": "175000.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 6134603004,
+          "updated_at": "2026-08-04T16:02:55-04:00",
+          "requisition_id": "CL26BF5-1",
+          "title": "Director, Platform and AI Sales",
+          "company_name": "League Inc.",
+          "first_published": "2026-08-04T16:02:55-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://league.com",
+    "explanation": "Official employer homepage: https://league.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/leagueinc/jobs/6145664004",
+      "https://job-boards.greenhouse.io/leagueinc/jobs/6104019004",
+      "https://job-boards.greenhouse.io/leagueinc/jobs/6134603004"
+    ]
+  }
+}

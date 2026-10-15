@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "league",
+  "name": "League",
+  "aliases": [],
+  "website_url": "https://league.com",
+  "logo_url": "https://logo.freehire.me/League?domain=league.com",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

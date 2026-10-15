@@ -1,0 +1,406 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "air-transat",
+    "name": "Air Transat",
+    "aliases": [],
+    "website_url": "https://transat.com",
+    "logo_url": "https://static.transat.com/favicon-transat/icon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "air-transat",
+    "company_id": "air-transat",
+    "revision": 1,
+    "label": "Air Transat public careers",
+    "careers_url": "https://careers.smartrecruiters.com/TransatAT1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Air Transat",
+      "careers_url": "https://careers.smartrecruiters.com/TransatAT1",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings",
+    "fetched_at": "2026-10-15T17:40:26.973487+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155744499",
+          "name": "Agent.e, centre d'appel",
+          "uuid": "6fb72322-3336-4769-851f-e76697dce1ec",
+          "jobAdId": "c2f14196-dd3e-464c-8efb-2972f34217b1",
+          "defaultJobAd": true,
+          "refNumber": "REF1173E",
+          "company": {
+            "identifier": "TransatAT1",
+            "name": "Transat AT"
+          },
+          "releasedDate": "2026-10-15T12:14:33.966Z",
+          "location": {
+            "city": "Montreal",
+            "region": "Quebec",
+            "country": "ca",
+            "address": "300 rue Léo-Pariseau",
+            "postalCode": "H2X 4C2",
+            "remote": false,
+            "hybrid": true,
+            "fullLocation": "Montreal, Quebec, Canada"
+          },
+          "industry": {
+            "id": "airlines_aviation",
+            "label": "Airlines/Aviation"
+          },
+          "department": {
+            "id": "4960505",
+            "label": "Centres de contact"
+          },
+          "function": {
+            "id": "customer_service",
+            "label": "Customer Service"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63f514624c42462dab2edbe9",
+              "fieldLabel": "Contract Type",
+              "valueId": "d25531d9-8774-4035-9d3f-85c0681df8f6",
+              "valueLabel": "Permanent - Full Time"
+            },
+            {
+              "fieldId": "63f515cd11672751929c9a08",
+              "fieldLabel": "Lieu de travail",
+              "valueId": "d86ac5f0-0ab6-4fcc-bfc7-9f09133c7882",
+              "valueLabel": "Hybride (Présentiel et télétravail) / Hybrid (face-to-face and telework)"
+            },
+            {
+              "fieldId": "63f5165d24a0a976b619df71",
+              "fieldLabel": "Unionized Job",
+              "valueId": "5c2c6da5-158f-419e-b4fa-ce6bb9fd812f",
+              "valueLabel": "No"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f5",
+              "fieldLabel": "Brands",
+              "valueId": "e212768a-f56e-4e10-a0e1-e566394d9cce",
+              "valueLabel": "Transat Tours Canada"
+            },
+            {
+              "fieldId": "63f5157e11672751929c9a07",
+              "fieldLabel": "Type d'horaire",
+              "valueId": "30997b49-c843-4928-a83b-6a1f2e002554",
+              "valueLabel": "Horaire variable - 37.5h/semaine selon l'agence / Variable hours - 37.5h/week depending on agency"
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f6",
+              "fieldLabel": "Department",
+              "valueId": "4960505",
+              "valueLabel": "Centres de contact"
+            },
+            {
+              "fieldId": "63f5148e8181c229d6f56624",
+              "fieldLabel": "Job Category",
+              "valueId": "ebb99906-954f-4469-82b9-330ca7a2594a",
+              "valueLabel": "Non-Unionized"
+            },
+            {
+              "fieldId": "63f514d24c42462dab2edbea",
+              "fieldLabel": "Niveau du poste",
+              "valueId": "24e8caa9-3438-41d4-b021-e74996b75db5",
+              "valueLabel": "18"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155744499",
+          "language": {
+            "code": "fr-CA",
+            "label": "French (Canada)",
+            "labelNative": "français (Canada)"
+          }
+        },
+        {
+          "id": "744000155356937",
+          "name": "Leisure Travel Agent",
+          "uuid": "eadc50c7-fd6d-45ca-ab0f-6215a2bcdf0f",
+          "jobAdId": "e2044c1f-3b66-442b-8ffd-8c01543005bf",
+          "defaultJobAd": true,
+          "refNumber": "REF1192A",
+          "company": {
+            "identifier": "TransatAT1",
+            "name": "Transat AT"
+          },
+          "releasedDate": "2026-10-13T20:37:35.442Z",
+          "location": {
+            "city": "Abbotsford",
+            "region": "British Columbia",
+            "country": "ca",
+            "address": "32900 South Fraser Way #102",
+            "postalCode": "V2S 5A1",
+            "remote": false,
+            "hybrid": false,
+            "fullLocation": "Abbotsford, British Columbia, Canada"
+          },
+          "industry": {
+            "id": "airlines_aviation",
+            "label": "Airlines/Aviation"
+          },
+          "department": {
+            "id": "4960709",
+            "label": "Exploitation - Agences"
+          },
+          "function": {
+            "id": "sales",
+            "label": "Sales"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63f514624c42462dab2edbe9",
+              "fieldLabel": "Contract Type",
+              "valueId": "d25531d9-8774-4035-9d3f-85c0681df8f6",
+              "valueLabel": "Permanent - Full Time"
+            },
+            {
+              "fieldId": "63f515cd11672751929c9a08",
+              "fieldLabel": "Lieu de travail",
+              "valueId": "4bab0384-8fc8-4fae-8e73-fca9ebbac098",
+              "valueLabel": "Poste en présentiel / On-site position"
+            },
+            {
+              "fieldId": "63f5165d24a0a976b619df71",
+              "fieldLabel": "Unionized Job",
+              "valueId": "5c2c6da5-158f-419e-b4fa-ce6bb9fd812f",
+              "valueLabel": "No"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f5",
+              "fieldLabel": "Brands",
+              "valueId": "3a1a7ac4-efe4-4dcc-9da6-e35018f70b1d",
+              "valueLabel": "Transat Distribution Canada"
+            },
+            {
+              "fieldId": "63f5157e11672751929c9a07",
+              "fieldLabel": "Type d'horaire",
+              "valueId": "30997b49-c843-4928-a83b-6a1f2e002554",
+              "valueLabel": "Horaire variable - 37.5h/semaine selon l'agence / Variable hours - 37.5h/week depending on agency"
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f6",
+              "fieldLabel": "Department",
+              "valueId": "4960709",
+              "valueLabel": "Exploitation - Agences"
+            },
+            {
+              "fieldId": "63f5148e8181c229d6f56624",
+              "fieldLabel": "Job Category",
+              "valueId": "ebb99906-954f-4469-82b9-330ca7a2594a",
+              "valueLabel": "Non-Unionized"
+            },
+            {
+              "fieldId": "63f514d24c42462dab2edbea",
+              "fieldLabel": "Niveau du poste",
+              "valueId": "282c44ea-3fba-48e2-a68a-24cad51cf8cc",
+              "valueLabel": "80"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155356937",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155270259",
+          "name": "Coordonnateur.trice, bureau d'affectation des équipages (BADE) - Temporaire 6 mois",
+          "uuid": "bafa3d61-8ed7-465c-ad06-e1afba55e1b7",
+          "jobAdId": "31064cd3-4b7d-4010-8030-a657416ecbf4",
+          "defaultJobAd": true,
+          "refNumber": "REF1183Y",
+          "company": {
+            "identifier": "TransatAT1",
+            "name": "Transat AT"
+          },
+          "releasedDate": "2026-10-13T13:49:38.593Z",
+          "location": {
+            "city": "Montreal",
+            "region": "Quebec",
+            "country": "ca",
+            "address": "5959 Boul de la Côte-Vertu",
+            "postalCode": "H4S 2E6",
+            "remote": false,
+            "hybrid": false,
+            "fullLocation": "Montreal, Quebec, Canada"
+          },
+          "industry": {
+            "id": "airlines_aviation",
+            "label": "Airlines/Aviation"
+          },
+          "department": {
+            "id": "12188191",
+            "label": "Opérations réseaux"
+          },
+          "function": {
+            "id": "other",
+            "label": "Other"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63f515cd11672751929c9a08",
+              "fieldLabel": "Lieu de travail",
+              "valueId": "4bab0384-8fc8-4fae-8e73-fca9ebbac098",
+              "valueLabel": "Poste en présentiel / On-site position"
+            },
+            {
+              "fieldId": "63f5165d24a0a976b619df71",
+              "fieldLabel": "Unionized Job",
+              "valueId": "188c3078-4a15-4021-9c4b-03d86dae316e",
+              "valueLabel": "Yes"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f5",
+              "fieldLabel": "Brands",
+              "valueId": "4377426f-5664-471c-a46b-2bd0ed9ecc47",
+              "valueLabel": "Air Transat"
+            },
+            {
+              "fieldId": "63f5157e11672751929c9a07",
+              "fieldLabel": "Type d'horaire",
+              "valueId": "aa0f7116-260c-4fe1-b2b0-594c9e8b5af0",
+              "valueLabel": "Horaire rotatif – 12H : 14 x 12h sur 35 jours, rotation jour/nuit / Rotating schedule – 12H: 14 x 12h over 35 days, day/night rotation."
+            },
+            {
+              "fieldId": "63eff0f011672751929c99f6",
+              "fieldLabel": "Department",
+              "valueId": "12188191",
+              "valueLabel": "Opérations réseaux"
+            },
+            {
+              "fieldId": "63f514624c42462dab2edbe9",
+              "fieldLabel": "Contract Type",
+              "valueId": "2f5edd19-570c-4994-9baa-6831fc1d9363",
+              "valueLabel": "Temporary -  Full Time"
+            },
+            {
+              "fieldId": "63f5148e8181c229d6f56624",
+              "fieldLabel": "Job Category",
+              "valueId": "42ba9b1b-3766-47bb-b519-1c56f1ab3c7c",
+              "valueLabel": "Unionized"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155270259",
+          "language": {
+            "code": "fr-CA",
+            "label": "French (Canada)",
+            "labelNative": "français (Canada)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://transat.com",
+    "explanation": "Official employer homepage: https://transat.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155744499",
+      "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155356937",
+      "https://api.smartrecruiters.com/v1/companies/TransatAT1/postings/744000155270259"
+    ]
+  }
+}

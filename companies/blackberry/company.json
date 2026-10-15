@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "blackberry",
+  "name": "BlackBerry",
+  "aliases": [],
+  "website_url": "https://blackberry.com",
+  "logo_url": "https://www.blackberry.com/favicons/favicon-32-corporate.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

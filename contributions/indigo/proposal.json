@@ -1,0 +1,466 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "indigo",
+    "name": "Indigo",
+    "aliases": [],
+    "website_url": "https://indigo.ca",
+    "logo_url": "https://www.indigo.ca/cdn/shop/files/favicon-180.png?crop=center&height=32&v=1744153454&width=32",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "indigo",
+    "company_id": "indigo",
+    "revision": 1,
+    "label": "Indigo public careers",
+    "careers_url": "https://careers.smartrecruiters.com/IndigoBooksMusic",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Indigo",
+      "careers_url": "https://careers.smartrecruiters.com/IndigoBooksMusic",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings",
+    "fetched_at": "2026-10-15T17:38:58.008162+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155814689",
+          "name": "Seasonal Customer Experience Representative ",
+          "uuid": "cf3576f3-cb6c-4316-afe1-d342bab51aff",
+          "jobAdId": "c26e16fd-e83e-4e83-b00a-7e13e0b881ca",
+          "defaultJobAd": true,
+          "refNumber": "REF10936W",
+          "company": {
+            "identifier": "IndigoBooksMusic",
+            "name": "Indigo Books & Music"
+          },
+          "releasedDate": "2026-10-15T17:07:16.265Z",
+          "location": {
+            "city": "Mississauga",
+            "region": "ON",
+            "country": "ca",
+            "address": "3050 Vega Boulevard",
+            "postalCode": "L5L 5X8",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.5150825",
+            "longitude": "-79.6914999",
+            "fullLocation": "Mississauga, ON, Canada"
+          },
+          "industry": {
+            "id": "retail",
+            "label": "Retail"
+          },
+          "department": {
+            "id": "807235",
+            "label": "Customer Service"
+          },
+          "function": {
+            "id": "sales",
+            "label": "Sales"
+          },
+          "typeOfEmployment": {
+            "id": "contract",
+            "label": "Contract"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "573f30c6e4b056dd66cc2bec",
+              "fieldLabel": "Position Level",
+              "valueId": "57448176-cc1c-4979-9b02-859c50be55a3",
+              "valueLabel": "Entry Level"
+            },
+            {
+              "fieldId": "573f308fe4b056dd66cc2beb",
+              "fieldLabel": "Position Segment",
+              "valueId": "STHRLY",
+              "valueLabel": "Retail Hourly (STHRLY)"
+            },
+            {
+              "fieldId": "573f2bb5e4b056dd66cc2be8",
+              "fieldLabel": "Region/Department",
+              "valueId": "32b767af-5e11-4171-b3ba-51a6fff5de80",
+              "valueLabel": "8007"
+            },
+            {
+              "fieldId": "573f3f24e4b037c0e46b281d",
+              "fieldLabel": "Position Sub-Segment",
+              "valueId": "82eacc2d-5172-4fce-876e-4bd9e581e5e2",
+              "valueLabel": "Retail - CER"
+            },
+            {
+              "fieldId": "60a6ba363f0dc532d260d743",
+              "fieldLabel": "Internal Job Title",
+              "valueId": "RTCERON",
+              "valueLabel": "CUSTOMER EXPERIENCE REPRESENTATIVE, ON (RTCERON)"
+            },
+            {
+              "fieldId": "60df37a269ae442a6df9269b",
+              "fieldLabel": "Employee Type",
+              "valueId": "SEA",
+              "valueLabel": "Seasonal"
+            },
+            {
+              "fieldId": "60df3788efd4f907e5ddea46",
+              "fieldLabel": "Full-Time/Part-Time",
+              "valueId": "PT",
+              "valueLabel": "Part-Time"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "573f2b2be4b037c0e46b281a",
+              "fieldLabel": "Store Name",
+              "valueId": "782",
+              "valueLabel": "Chapters Vega"
+            },
+            {
+              "fieldId": "58b7e4d1e4b0885c92cd9890",
+              "fieldLabel": "Department",
+              "valueId": "807235",
+              "valueLabel": "Customer Service"
+            },
+            {
+              "fieldId": "573f3050e4b056dd66cc2bea",
+              "fieldLabel": "Company Segment",
+              "valueId": "ST",
+              "valueLabel": "Retail Stores (ST)"
+            },
+            {
+              "fieldId": "58b7e4d1e4b0885c92cd988f",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Indigo Books & Music"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155814689",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155621259",
+          "name": "Seasonal Customer Experience Representative ",
+          "uuid": "23689611-aa3d-4000-b436-91e646503916",
+          "jobAdId": "6f659a97-3487-4fa0-af79-366558d7f9f1",
+          "defaultJobAd": true,
+          "refNumber": "REF10933W",
+          "company": {
+            "identifier": "IndigoBooksMusic",
+            "name": "Indigo Books & Music"
+          },
+          "releasedDate": "2026-10-14T22:25:45.315Z",
+          "location": {
+            "city": "Chilliwack",
+            "region": "BC",
+            "country": "ca",
+            "address": "45585 Luckakuck Way",
+            "postalCode": "V2R 1A1",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "49.1421888",
+            "longitude": "-121.9623532",
+            "fullLocation": "Chilliwack, BC, Canada"
+          },
+          "industry": {
+            "id": "retail",
+            "label": "Retail"
+          },
+          "department": {},
+          "function": {
+            "id": "sales",
+            "label": "Sales"
+          },
+          "typeOfEmployment": {
+            "id": "part-time",
+            "label": "Part-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "573f30c6e4b056dd66cc2bec",
+              "fieldLabel": "Position Level",
+              "valueId": "57448176-cc1c-4979-9b02-859c50be55a3",
+              "valueLabel": "Entry Level"
+            },
+            {
+              "fieldId": "573f308fe4b056dd66cc2beb",
+              "fieldLabel": "Position Segment",
+              "valueId": "STHRLY",
+              "valueLabel": "Retail Hourly (STHRLY)"
+            },
+            {
+              "fieldId": "573f2bb5e4b056dd66cc2be8",
+              "fieldLabel": "Region/Department",
+              "valueId": "220858e5-eb1c-4f71-987d-f98bfbdef8c6",
+              "valueLabel": "8013"
+            },
+            {
+              "fieldId": "64777c147f81254b8a67039d",
+              "fieldLabel": "Rate of Pay",
+              "valueId": "bec6e2e8-06d4-4074-979a-2a62012123c0",
+              "valueLabel": "$18.25 - $20.95"
+            },
+            {
+              "fieldId": "573f3f24e4b037c0e46b281d",
+              "fieldLabel": "Position Sub-Segment",
+              "valueId": "82eacc2d-5172-4fce-876e-4bd9e581e5e2",
+              "valueLabel": "Retail - CER"
+            },
+            {
+              "fieldId": "60a6ba363f0dc532d260d743",
+              "fieldLabel": "Internal Job Title",
+              "valueId": "RTCERBC",
+              "valueLabel": "CUSTOMER EXPERIENCE REPRESENTATIVE, BC (RTCERBC)"
+            },
+            {
+              "fieldId": "60df37a269ae442a6df9269b",
+              "fieldLabel": "Employee Type",
+              "valueId": "SEA",
+              "valueLabel": "Seasonal"
+            },
+            {
+              "fieldId": "60df3788efd4f907e5ddea46",
+              "fieldLabel": "Full-Time/Part-Time",
+              "valueId": "PT",
+              "valueLabel": "Part-Time"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "573f2b2be4b037c0e46b281a",
+              "fieldLabel": "Store Name",
+              "valueId": "77",
+              "valueLabel": "Coles Cottonwood Corner"
+            },
+            {
+              "fieldId": "573f3050e4b056dd66cc2bea",
+              "fieldLabel": "Company Segment",
+              "valueId": "ST",
+              "valueLabel": "Retail Stores (ST)"
+            },
+            {
+              "fieldId": "58b7e4d1e4b0885c92cd988f",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Indigo Books & Music"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155621259",
+          "creator": {
+            "name": "Virginia Nieuwenhuis"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155598744",
+          "name": "Seasonal Customer Experience Representative ",
+          "uuid": "4378fc3f-3018-4db1-8c3a-92b76e02b31e",
+          "jobAdId": "e238e4e1-7e61-4f76-8571-3a8d4787e0cc",
+          "defaultJobAd": true,
+          "refNumber": "REF10884G",
+          "company": {
+            "identifier": "IndigoBooksMusic",
+            "name": "Indigo Books & Music"
+          },
+          "releasedDate": "2026-10-14T19:42:53.754Z",
+          "location": {
+            "city": "Milton",
+            "region": "ON",
+            "country": "ca",
+            "address": "1180 Steeles Avenue East",
+            "postalCode": "L9T 6C8",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.5404223",
+            "longitude": "-79.8718828",
+            "fullLocation": "Milton, ON, Canada"
+          },
+          "industry": {
+            "id": "retail",
+            "label": "Retail"
+          },
+          "department": {},
+          "function": {
+            "id": "sales",
+            "label": "Sales"
+          },
+          "typeOfEmployment": {
+            "id": "part-time",
+            "label": "Part-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "573f30c6e4b056dd66cc2bec",
+              "fieldLabel": "Position Level",
+              "valueId": "57448176-cc1c-4979-9b02-859c50be55a3",
+              "valueLabel": "Entry Level"
+            },
+            {
+              "fieldId": "573f308fe4b056dd66cc2beb",
+              "fieldLabel": "Position Segment",
+              "valueId": "STHRLY",
+              "valueLabel": "Retail Hourly (STHRLY)"
+            },
+            {
+              "fieldId": "573f2bb5e4b056dd66cc2be8",
+              "fieldLabel": "Region/Department",
+              "valueId": "13f2b83e-4657-43ab-94a5-7352afaa51bf",
+              "valueLabel": "8055"
+            },
+            {
+              "fieldId": "573f3f24e4b037c0e46b281d",
+              "fieldLabel": "Position Sub-Segment",
+              "valueId": "82eacc2d-5172-4fce-876e-4bd9e581e5e2",
+              "valueLabel": "Retail - CER"
+            },
+            {
+              "fieldId": "60a6ba363f0dc532d260d743",
+              "fieldLabel": "Internal Job Title",
+              "valueId": "RTCERON",
+              "valueLabel": "CUSTOMER EXPERIENCE REPRESENTATIVE, ON (RTCERON)"
+            },
+            {
+              "fieldId": "60df37a269ae442a6df9269b",
+              "fieldLabel": "Employee Type",
+              "valueId": "SEA",
+              "valueLabel": "Seasonal"
+            },
+            {
+              "fieldId": "60df3788efd4f907e5ddea46",
+              "fieldLabel": "Full-Time/Part-Time",
+              "valueId": "PT",
+              "valueLabel": "Part-Time"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "573f2b2be4b037c0e46b281a",
+              "fieldLabel": "Store Name",
+              "valueId": "409",
+              "valueLabel": "Indigo Milton Crossroads"
+            },
+            {
+              "fieldId": "573f3050e4b056dd66cc2bea",
+              "fieldLabel": "Company Segment",
+              "valueId": "ST",
+              "valueLabel": "Retail Stores (ST)"
+            },
+            {
+              "fieldId": "58b7e4d1e4b0885c92cd988f",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Indigo Books & Music"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155598744",
+          "creator": {
+            "name": "Richard Gavin"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://indigo.ca",
+    "explanation": "Official employer homepage: https://indigo.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155814689",
+      "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155621259",
+      "https://api.smartrecruiters.com/v1/companies/IndigoBooksMusic/postings/744000155598744"
+    ]
+  }
+}

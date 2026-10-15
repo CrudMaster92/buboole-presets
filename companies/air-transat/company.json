@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "air-transat",
+  "name": "Air Transat",
+  "aliases": [],
+  "website_url": "https://transat.com",
+  "logo_url": "https://static.transat.com/favicon-transat/icon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

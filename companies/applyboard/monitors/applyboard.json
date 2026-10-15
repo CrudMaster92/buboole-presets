@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "applyboard",
+  "company_id": "applyboard",
+  "revision": 1,
+  "label": "ApplyBoard public careers",
+  "careers_url": "https://applyboard.wd3.myworkdayjobs.com/ApplyBoardNH",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "ApplyBoard",
+    "careers_url": "https://applyboard.wd3.myworkdayjobs.com/ApplyBoardNH",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "applyboard.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://applyboard.wd3.myworkdayjobs.com/wday/cxs/applyboard/ApplyBoardNH/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "applyboard",
+      "site": "ApplyBoardNH"
+    }
+  }
+}

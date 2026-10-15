@@ -1,0 +1,102 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "purolator",
+    "name": "Purolator",
+    "aliases": [],
+    "website_url": "https://purolator.com",
+    "logo_url": "https://rmkcdn.successfactors.com/a0268dd4/d7d11aa9-1039-413d-8c08-e.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "purolator",
+    "company_id": "purolator",
+    "revision": 1,
+    "label": "Purolator public careers",
+    "careers_url": "https://careers.purolator.com/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Local listing traversal remained incomplete; collector must resume its checkpoint and must not close unseen roles.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Purolator",
+      "careers_url": "https://careers.purolator.com/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.purolator.com"
+      ],
+      "request": {
+        "url": "https://careers.purolator.com/search/",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "q": "",
+          "startrow": 0
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "startrow",
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr.data-row",
+        "title": "a.jobTitle-link",
+        "link": "a.jobTitle-link",
+        "location": ".jobLocation",
+        "posted_date": ".jobDate"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.purolator.com/search/",
+    "fetched_at": "2026-10-15T17:39:24.338454+00:00",
+    "payload": "<html><body><table><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Richmond-Fleet-Engineer-Brit-V7B-1M5/1430654200/\">Fleet Engineer</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Richmond-Fleet-Engineer-Brit-V7B-1M5/1430654200/\">Fleet Engineer</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            Richmond, British Columbia, CA, V7B 1M5\n            \n                <small class=\"nobr\">+3 more…</small>\n</span></span>\n<span class=\"jobDate visible-phone\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            Richmond, British Columbia, CA, V7B 1M5\n            \n                <small class=\"nobr\">+3 more…</small>\n</span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Sydney-CourierSorter-Relief-170-Nova-B1P-6Z3/1420598700/\">Courier/Sorter Relief  170</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Sydney-CourierSorter-Relief-170-Nova-B1P-6Z3/1420598700/\">Courier/Sorter Relief  170</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            Sydney, Nova Scotia, CA, B1P 6Z3\n            \n        </span></span>\n<span class=\"jobDate visible-phone\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            Sydney, Nova Scotia, CA, B1P 6Z3\n            \n        </span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Langley-Retail-Representative-Port-Kells-Brit-V1M-3A7/1440328400/\">Retail Representative - Port Kells</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Langley-Retail-Representative-Port-Kells-Brit-V1M-3A7/1440328400/\">Retail Representative - Port Kells</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            Langley, British Columbia, CA, V1M 3A7\n            \n        </span></span>\n<span class=\"jobDate visible-phone\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            Langley, British Columbia, CA, V1M 3A7\n            \n        </span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">15 Oct 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></table></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://purolator.com",
+    "explanation": "Official employer homepage: https://purolator.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.purolator.com/job/Richmond-Fleet-Engineer-Brit-V7B-1M5/1430654200",
+      "https://careers.purolator.com/job/Sydney-CourierSorter-Relief-170-Nova-B1P-6Z3/1420598700",
+      "https://careers.purolator.com/job/Langley-Retail-Representative-Port-Kells-Brit-V1M-3A7/1440328400"
+    ]
+  }
+}

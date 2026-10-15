@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "desjardins",
+  "name": "Desjardins",
+  "aliases": [],
+  "website_url": "https://desjardins.com",
+  "logo_url": "https://www.desjardins.com/etc.clientlibs/dcom/clientlibs/clientlib-base/resources/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

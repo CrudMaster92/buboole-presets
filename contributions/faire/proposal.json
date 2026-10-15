@@ -1,0 +1,196 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "faire",
+    "name": "Faire",
+    "aliases": [],
+    "website_url": "https://faire.com",
+    "logo_url": "https://cdn.faire.com/favicon_v2-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "faire",
+    "company_id": "faire",
+    "revision": 1,
+    "label": "Faire public careers",
+    "careers_url": "https://job-boards.greenhouse.io/faire",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Faire",
+      "careers_url": "https://job-boards.greenhouse.io/faire",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/faire/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/faire/jobs",
+    "fetched_at": "2026-10-15T17:39:21.087016+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://boards.greenhouse.io/faire/jobs/8876236002?gh_jid=8876236002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6554338002,
+          "location": {
+            "name": "New York City, NY; San Francisco, CA"
+          },
+          "metadata": [
+            {
+              "id": 4008562002,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8876236002,
+          "updated_at": "2026-10-13T09:36:24-04:00",
+          "requisition_id": "1530",
+          "title": "Account Executive",
+          "company_name": "Faire",
+          "first_published": "2026-10-07T15:23:54-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://boards.greenhouse.io/faire/jobs/8746116002?gh_jid=8746116002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6497757002,
+          "location": {
+            "name": "London, UK"
+          },
+          "metadata": [
+            {
+              "id": 4008562002,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8746116002,
+          "updated_at": "2026-08-31T10:03:27-04:00",
+          "requisition_id": "1471",
+          "title": "Account Executive Bilingual (Spanish/English)",
+          "company_name": "Faire",
+          "first_published": "2026-08-25T13:26:03-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6552010002,
+          "location": {
+            "name": "San Francisco, CA"
+          },
+          "metadata": [
+            {
+              "id": 4008562002,
+              "name": "Employment Type",
+              "value": "Intern",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8870975002,
+          "updated_at": "2026-10-09T18:51:44-04:00",
+          "requisition_id": "1525",
+          "title": "Applied AI/ML Scientist, Intern",
+          "company_name": "Faire",
+          "first_published": "2026-10-06T16:16:58-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://faire.com",
+    "explanation": "Official employer homepage: https://faire.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://boards.greenhouse.io/faire/jobs/8876236002?gh_jid=8876236002",
+      "https://boards.greenhouse.io/faire/jobs/8746116002?gh_jid=8746116002",
+      "https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002"
+    ]
+  }
+}

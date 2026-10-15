@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "d2l",
+  "name": "D2L",
+  "aliases": [],
+  "website_url": "https://d2l.com",
+  "logo_url": "https://cdn.shortpixel.ai/spai/ret_img/www.d2l.com/wp-content/themes/bigdrop-theme/favicon.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

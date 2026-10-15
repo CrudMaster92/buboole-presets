@@ -1,0 +1,184 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "alayacare",
+    "name": "AlayaCare",
+    "aliases": [],
+    "website_url": "https://alayacare.com",
+    "logo_url": "https://alayacare.com/wp-content/uploads/2026/07/cropped-512-x-512-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "alayacare",
+    "company_id": "alayacare",
+    "revision": 1,
+    "label": "AlayaCare public careers",
+    "careers_url": "https://job-boards.greenhouse.io/alayacare",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "AlayaCare",
+      "careers_url": "https://job-boards.greenhouse.io/alayacare",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
+        "alayacare.com"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/alayacare/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": "true"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/alayacare/jobs",
+    "fetched_at": "2026-10-15T17:46:13.378767+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://alayacare.com/open-positions?gh_jid=8635701002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6447851002,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": null,
+          "id": 8635701002,
+          "updated_at": "2026-07-17T01:01:25-04:00",
+          "requisition_id": "867",
+          "title": "Controller, North America",
+          "company_name": "AlayaCare",
+          "first_published": "2026-07-15T16:06:57-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://alayacare.com/open-positions?gh_jid=8790000002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6486740002,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": null,
+          "id": 8790000002,
+          "updated_at": "2026-09-09T12:15:56-04:00",
+          "requisition_id": "885",
+          "title": "Customer Success Manager",
+          "company_name": "AlayaCare",
+          "first_published": "2026-09-09T12:15:56-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://alayacare.com/open-positions?gh_jid=8827515002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6493508002,
+          "location": {
+            "name": "Montréal, Quebec, Canada"
+          },
+          "metadata": null,
+          "id": 8827515002,
+          "updated_at": "2026-10-06T09:42:07-04:00",
+          "requisition_id": "886",
+          "title": "Implementation Consultant (Bilingual)",
+          "company_name": "AlayaCare",
+          "first_published": "2026-09-21T12:02:38-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://alayacare.com",
+    "explanation": "Official employer homepage: https://alayacare.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://alayacare.com/open-positions?gh_jid=8635701002",
+      "https://alayacare.com/open-positions?gh_jid=8790000002",
+      "https://alayacare.com/open-positions?gh_jid=8827515002"
+    ]
+  }
+}

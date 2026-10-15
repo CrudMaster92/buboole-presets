@@ -1,0 +1,191 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "nuvei",
+    "name": "Nuvei",
+    "aliases": [],
+    "website_url": "https://nuvei.com",
+    "logo_url": "https://cdn.prod.website-files.com/69bbe852f53519cb6c89312c/69dcf0eac485075180e47ef4_favicon.jpg",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "nuvei",
+    "company_id": "nuvei",
+    "revision": 1,
+    "label": "Nuvei public careers",
+    "careers_url": "https://apply.workable.com/nuvei",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Nuvei",
+      "careers_url": "https://apply.workable.com/nuvei",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "apply.workable.com",
+        "www.workable.com"
+      ],
+      "request": {
+        "url": "https://www.workable.com/api/accounts/nuvei",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "shortcode",
+        "title": "title",
+        "location": "city",
+        "url": "url",
+        "description": "description",
+        "posted_date": "published_on",
+        "employment_type": "employment_type"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.workable.com/api/accounts/nuvei",
+    "fetched_at": "2026-10-15T17:43:56.054578+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "title": "Agentic Softwaer Engineering Expert",
+          "shortcode": "CC1691A47F",
+          "code": null,
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Product & Technology",
+          "url": "https://apply.workable.com/j/CC1691A47F",
+          "shortlink": "https://apply.workable.com/j/CC1691A47F",
+          "application_url": "https://apply.workable.com/j/CC1691A47F/apply",
+          "published_on": "2026-10-15",
+          "created_at": "2026-10-12",
+          "country": "Israel",
+          "city": "Tel Aviv-Yafo",
+          "state": "Tel Aviv District",
+          "education": null,
+          "experience": "Mid-Senior level",
+          "function": "Engineering",
+          "industry": "Financial Services",
+          "locations": [
+            {
+              "country": "Israel",
+              "countryCode": "IL",
+              "city": "Tel Aviv-Yafo",
+              "region": "Tel Aviv District",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "Agentic Software Engineer",
+          "shortcode": "F0C5556A76",
+          "code": null,
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Product & Technology",
+          "url": "https://apply.workable.com/j/F0C5556A76",
+          "shortlink": "https://apply.workable.com/j/F0C5556A76",
+          "application_url": "https://apply.workable.com/j/F0C5556A76/apply",
+          "published_on": "2026-10-15",
+          "created_at": "2026-10-12",
+          "country": "Israel",
+          "city": "Tel Aviv-Yafo",
+          "state": "Tel Aviv District",
+          "education": null,
+          "experience": "Mid-Senior level",
+          "function": "Engineering",
+          "industry": "Financial Services",
+          "locations": [
+            {
+              "country": "Israel",
+              "countryCode": "IL",
+              "city": "Tel Aviv-Yafo",
+              "region": "Tel Aviv District",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "BackOffice Specialist",
+          "shortcode": "E23598C240",
+          "code": null,
+          "employment_type": null,
+          "telecommuting": false,
+          "department": "Global Operations",
+          "url": "https://apply.workable.com/j/E23598C240",
+          "shortlink": "https://apply.workable.com/j/E23598C240",
+          "application_url": "https://apply.workable.com/j/E23598C240/apply",
+          "published_on": "2026-06-19",
+          "created_at": "2026-04-29",
+          "country": "Colombia",
+          "city": "Bogotá",
+          "state": "Bogota",
+          "education": null,
+          "experience": null,
+          "function": null,
+          "industry": null,
+          "locations": [
+            {
+              "country": "Colombia",
+              "countryCode": "CO",
+              "city": "Bogotá",
+              "region": "Bogota",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://nuvei.com",
+    "explanation": "Official employer homepage: https://nuvei.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://apply.workable.com/j/CC1691A47F",
+      "https://apply.workable.com/j/F0C5556A76",
+      "https://apply.workable.com/j/E23598C240"
+    ]
+  }
+}

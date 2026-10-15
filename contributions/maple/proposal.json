@@ -1,0 +1,247 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "maple",
+    "name": "Maple",
+    "aliases": [],
+    "website_url": "https://getmaple.ca",
+    "logo_url": "https://www.getmaple.ca/assets/favicon/favicon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "maple",
+    "company_id": "maple",
+    "revision": 1,
+    "label": "Maple public careers",
+    "careers_url": "https://jobs.lever.co/getmaple",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Maple",
+      "careers_url": "https://jobs.lever.co/getmaple",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/getmaple",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "mode": "json"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/getmaple",
+    "fetched_at": "2026-10-15T17:40:49.012189+00:00",
+    "payload": [
+      {
+        "additional": "",
+        "additionalPlain": "",
+        "categories": {
+          "commitment": "Full-Time Employee",
+          "location": "Toronto, Ontario",
+          "team": "Commercial Team",
+          "allLocations": [
+            "Toronto, Ontario"
+          ]
+        },
+        "createdAt": 1791231430546,
+        "descriptionPlain": "Build better healthcare together\nMaple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.\nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.\n",
+        "description": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.</p>",
+        "id": "bd3efbfb-4eef-4a72-8124-d5d0507882d1",
+        "lists": [
+          {
+            "text": "The role",
+            "content": "<p>We're looking for a Client Success Manager, Bilingual (French/English) to own a portfolio of client relationships within either our Channel Partnerships team (insurers, benefits administrators and brokers who bring Maple's care to Maple members through embedded, reseller and referral models) or our Direct Partnerships team (Enterprise and Strategic accounts that partner with Maple directly).</p>\n<p>In this role, you'll manage complex, multi-stakeholder accounts independently — leading program launches or onboarding, running business reviews, and driving renewals, expansion and retention across your portfolio. You'll lead relationships and communications in both French and English, partner cross-functionally with Sales, Marketing, Product and Support, and work closely with Client Success leadership to grow a book of business that drives real impact.&nbsp;</p>"
+          },
+          {
+            "text": "Your responsibilities",
+            "content": "<p>As a Bilingual Client Success Manager, you will:</p>\n\n<li>\n<p>Lead program launches and onboarding with a client-first mindset, ensuring smooth starts that align with each client's goals.</p>\n</li>\n<li>\n<p>Build and maintain trust-based relationships across your portfolio, acting as the primary point of contact and strategic advisor — in both French and English.</p>\n</li>\n<li>\n<p>Develop a deep understanding of each account's goals, business landscape and decision-makers, and tailor resources and strategy accordingly.</p>\n</li>\n<li>\n<p>Conduct regular business reviews, translating data into actionable insights and strategic recommendations for clients and internal stakeholders.</p>\n</li>\n<li>\n<p>Identify and drive expansion, upsell and cross-sell opportunities, and manage full renewal cycles — including forecasting and negotiation — in partnership with Sales.</p>\n</li>\n<li>\n<p>Surface account themes, risks and opportunities to internal leadership along with proposed solutions, and contribute to playbooks and best practices that support team growth.</p>\n</li>\n<li>\n<p>Partner cross-functionally across Sales, Marketing, Product and Support to ensure a seamless experience for your accounts.</p>\n</li>\n"
+          },
+          {
+            "text": "What success looks like",
+            "content": "<p>In your first 90 days, you'll complete onboarding and ramp up on Maple's tools and processes, then take full ownership of your portfolio with no disruption to client relationships during handoff. You'll complete an initial touchpoint or business review with each account to build relationships and surface immediate risks or opportunities, and get up to speed on any active renewals, transitions or expansion opportunities in motion.</p>\n<p>Over your first 12–18 months, you'll own your portfolio's Net Revenue Retention performance in line with your team's target. You'll identify and close upsell and cross-sell opportunities, serve as a senior bilingual resource for your pod, and contribute to playbooks and process improvements that support long-term bilingual client success capacity across the team.</p>"
+          },
+          {
+            "text": "What you bring",
+            "content": "\n<li>\n<p>Full bilingual fluency in French and English (spoken and written), with the confidence to lead relationships, meetings and written communication in both languages.</p>\n</li>\n<li>\n<p>4-6+ years of client-facing experience in Client Success, Account Management or Sales, managing complex, multi-stakeholder accounts — such as multi-program channel partnerships or Enterprise-tier direct accounts — with a track record of retaining and growing a portfolio and meeting or exceeding NRR targets.</p>\n</li>\n<li>\n<p>Comfort operating independently, including on long, non-standard renewal or transition cycles, with limited guidance.</p>\n</li>\n<li>\n<p>Strong data fluency, with the ability to translate performance data into insights and recommendations for internal and client-facing audiences.</p>\n</li>\n<li>\n<p>Experience leading cross-functional initiatives and partnering with senior stakeholders to align on account strategy.</p>\n</li>\n<li>\n<p>Excellent relationship management, presentation and communication skills across all stakeholder levels, in both French and English.</p>\n</li>\n<li>\n<p>A strategic, results-driven mindset — comfortable operating in ambiguity, with a strong sense of ownership and urgency.</p>\n</li>\n\n<p><strong>Play to your strengths. </strong>Finding the right fit goes both ways—so this section is yours to complete. When you join, you'll add the unique strengths you bring that aren't captured above.</p>"
+          },
+          {
+            "text": "How we'll support you",
+            "content": "<div>We recognise our people's health is everything. That's why we take care of them.</div>\n\n<li>\n<p><strong>Maple for you and your family: </strong>24/7 access to general practitioners, pediatrics and mental health therapy for you and your family. Care starts on day one.</p>\n</li>\n<li>\n<p><strong>Comprehensive health coverage:</strong> Medical, dental and life insurance because your peace of mind—and your loved ones—matter most.</p>\n</li>\n<li>\n<p><strong>Health spending account: </strong>Extra funds to cover the essentials that make a difference, from new glasses to specialised therapy.</p>\n</li>\n<li>\n<p><strong>Flex benefits:</strong> An annual budget built for your growth and well-being. Use it for professional development, wellness expenses or a one-time boost to your retirement savings. You choose what matters most.</p>\n</li>\n<li>\n<p><strong>Health days:</strong> Life happens. We provide 10 dedicated days for rest, medical appointments or caregiving, so you can show up at your best.</p>\n</li>\n<li>\n<p><strong>Destination days: </strong>Work from anywhere. Enjoy the flexibility to work internationally in eligible countries for up to five days per year.</p>\n</li>\n<li>\n<p><strong>Group retirement savings plan: </strong>We're here for the long haul. Invest in your future with our group retirement plan.</p>\n</li>\n"
+          },
+          {
+            "text": "",
+            "content": "\n<li>\n<p><strong>Job type:</strong> Existing vacancy, full-time</p>\n</li>\n<li>\n<p><strong>Hiring manager: </strong>Manager, Client Success&nbsp;</p>\n</li>\n<li>\n<p><strong>Location: </strong>Remote within Canada, or Hybrid for Toronto/GTA-based candidates</p>\n</li>\n<li>\n<p><strong>Start date: </strong>November/December 2026</p>\n</li>\n<li>\n<p><strong>Vacation: </strong>3 weeks</p>\n</li>\n<li><strong>Pay range:</strong> $88,000 - $100,000 + variable pay</li>\n\n<p><br>Offers can vary depending on skills, experience and readiness to meet Maple's expectations for this level. We encourage open conversations about pay. If you have questions about how compensation works at Maple, you're welcome to ask at any point in the interview process.</p>\n<p>We're committed to the safety and security of our platform. Please note that any offer of employment is subject to a criminal record check (EPIC) and identity verification. Additional checks, including employment or education verification, may be conducted depending on the role's requirements.</p>\n<p><strong>Use of artificial intelligence</strong></p>\n<p>We don't currently use artificial intelligence (AI) or automated tools to screen, assess or select candidates. Every application is thoughtfully reviewed by our Talent Acquisition team or hiring managers.</p>"
+          }
+        ],
+        "text": "Bilingual Client Success Manager",
+        "country": "CA",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives&mdash;including your own.</p>",
+        "descriptionBodyPlain": "Build better healthcare together\nMaple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.\nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.\n",
+        "hostedUrl": "https://jobs.lever.co/getmaple/bd3efbfb-4eef-4a72-8124-d5d0507882d1",
+        "applyUrl": "https://jobs.lever.co/getmaple/bd3efbfb-4eef-4a72-8124-d5d0507882d1/apply"
+      },
+      {
+        "additional": "",
+        "additionalPlain": "",
+        "categories": {
+          "commitment": "Full-Time Employee",
+          "location": "Toronto, Ontario",
+          "team": "Clinical and Customer Support Operations",
+          "allLocations": [
+            "Toronto, Ontario"
+          ]
+        },
+        "createdAt": 1789585485603,
+        "descriptionPlain": "Build better healthcare together\nMaple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.\nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.\n",
+        "description": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.</p>",
+        "id": "0f3c2e1e-dd90-4fda-bfae-28e6d2436586",
+        "lists": [
+          {
+            "text": "The role",
+            "content": "<p>We're looking for our next cohort of Bilingual Customer Support Coordinators to join our Customer Support team as the first point of contact for Maple's patients, providers and prospective customers.</p>\n<p>In this role, you'll handle a high volume of live chat and email conversations, helping patients and providers navigate the platform, resolve issues and get the support they need quickly and clearly. You'll follow established workflows, use our internal tools to troubleshoot and know when to loop in other teams for more complex cases — building sharper judgment over time in how you prioritize, respond and deliver a consistently great support experience.</p>"
+          },
+          {
+            "text": "Your responsibilities",
+            "content": "<p>As a Bilingual Customer Support Coordinator, you will:</p>\n\n<li>\n<p>Respond to live chat and email inquiries, delivering clear, accurate and timely support to patients and providers</p>\n</li>\n<li>\n<p>Troubleshoot common platform issues by following established workflows and guiding users through step-by-step solutions</p>\n</li>\n<li>\n<p>Identify when issues need escalation and route them to the right internal team quickly</p>\n</li>\n<li>\n<p>Manage a high volume of conversations while keeping a sharp eye for detail and quality</p>\n</li>\n<li>\n<p>Deliver a consistent, professional and empathetic experience in every interaction</p>\n</li>\n<li>\n<p>Adapt quickly to changes in workflows, tools and processes as Maple grows</p>\n</li>\n"
+          },
+          {
+            "text": "What success looks like",
+            "content": "<p>In your first 90 days, you'll get comfortable with Maple's support workflows, tools and troubleshooting processes. You'll start independently managing live chat and email conversations, balancing speed and accuracy while learning how to prioritize and escalate the right way.</p>\n<p>Over the next 12–18 months, you'll consistently deliver high-quality, efficient support at scale. You'll build strong judgment across a wide range of inquiries, share feedback that helps improve our workflows and knowledge base, and play a key role in keeping support reliable and seamless as Maple continues to grow.</p>"
+          },
+          {
+            "text": "What you bring ",
+            "content": "\n<li>\n<p>Fully bilingual in English and French, with strong written communication skills in both languages.</p>\n</li>\n<li>\n<p>Experience in a customer-facing role, e.g. retail, hospitality, call centre or administrative support</p>\n</li>\n<li>\n<p>Comfortable juggling multiple priorities while staying organized and detail-oriented</p>\n</li>\n<li>\n<p>A clear, professional communicator, even when handling repetitive or high-volume interactions</p>\n</li>\n<li>\n<p>A practical problem-solver who can follow structured workflows and apply them consistently</p>\n</li>\n<li>\n<p>Confident working in a digital environment, including macOS, Google Workspace (Docs, Sheets, Gmail) and tools like Slack — and quick to pick up new systems</p>\n</li>\n<li>\n<p>Experience using AI tools (like ChatGPT, Claude or Gemini) to boost productivity or streamline your work</p>\n</li>\n<li>\n<p>Calm and focused under pressure, even during busy periods</p>\n</li>\n<li>\n<p>Someone who takes ownership of their work and follows through, every time</p>\n</li>\n\n<p>Nice to have:</p>\n\n<li>\n<p>Experience with ticketing or live chat tools (like Intercom, Zendesk or Freshdesk).</p>\n</li>\n<li>\n<p>Experience working in a remote or shift-based environment.</p>\n</li>\n\n<p><em>A healthcare background isn't required — this role is about platform support and troubleshooting, not medical advice.</em></p>\n<p><strong>Play to your strengths.</strong> Finding the right fit goes both ways—so this section is yours to complete. When you join, you'll add the unique strengths you bring that aren't captured above.</p>"
+          },
+          {
+            "text": "How we'll support you ",
+            "content": "<p>We recognise our people's health is everything. That's why we take care of them.</p>\n\n<li>\n<p><strong>Maple for you and your family:</strong> 24/7 access to general practitioners, pediatrics and mental health therapy for you and your family. Care starts on day one.</p>\n</li>\n<li>\n<p><strong>Comprehensive health coverage:</strong> Medical, dental and life insurance because your peace of mind—and your loved ones—matter most.</p>\n</li>\n<li>\n<p><strong>Health spending account:</strong> Extra funds to cover the essentials that make a difference, from new glasses to specialised therapy.</p>\n</li>\n<li>\n<p><strong>Flex benefits: An</strong> annual budget built for your growth and well-being. Use it for professional development, wellness expenses or a one-time boost to your retirement savings. You choose what matters most.</p>\n</li>\n<li>\n<p><strong>Health days: </strong>Life happens. We provide 10 dedicated days for rest, medical appointments or caregiving, so you can show up at your best.</p>\n</li>\n<li>\n<p><strong>Destination days: </strong>Work from anywhere. Enjoy the flexibility to work internationally in eligible countries for up to five days per year.</p>\n</li>\n<li>\n<p><strong>Group retirement savings plan: </strong>We're here for the long haul. Invest in your future with our group retirement plan.</p>\n</li>\n"
+          },
+          {
+            "text": "The details",
+            "content": "\n<li>\n<p><strong>Job type: </strong>Full-time (40–44 hours per week) or part-time (25-30 hours per week).&nbsp;</p>\n</li>\n<li>\n<p><strong>Hiring manager:</strong> Team Lead, Customer Support</p>\n</li>\n<li>\n<p><strong>Location:</strong> This is a fully remote position within Canada. All work must be performed while physically located in Canada.</p>\n</li>\n<li>\n<p><strong>Support hours:</strong> Our customer support hours are currently 7:00 AM–10:00 PM Eastern Time (ET), seven days a week, 365 days a year.</p>\n</li>\n<li>\n<p><strong>Shift requirements:</strong> This is a synchronous, shift-based role, and we're hiring primarily to cover evenings and weekends, when support demand is highest. You'll need the flexibility to work evening, weekend, and holiday shifts as required.</p>\n</li>\n<li>\n<p><strong>Start date:</strong> October 2026</p>\n</li>\n<li>\n<p><strong>Vacation:</strong> 3 weeks</p>\n</li>\n<li>\n<p><strong>Pay range:</strong> $21.30 - $23.15</p>\n</li>\n\n<p>Offers can vary depending on skills, experience and readiness to meet Maple's expectations for this level. We encourage open conversations about pay. If you have questions about how compensation works at Maple, you're welcome to ask at any point in the interview process.</p>\n<p>We're committed to the safety and security of our platform. Please note that any offer of employment is subject to a criminal record check (EPIC) and identity verification. Additional checks, including employment or education verification, may be conducted depending on the role's requirements.</p>\n<p><strong>Use of artificial intelligence</strong></p>\n<p>We don't currently use artificial intelligence (AI) or automated tools to screen, assess or select candidates. Every application is thoughtfully reviewed by our Talent Acquisition team or hiring managers.</p>"
+          }
+        ],
+        "text": "Bilingual Customer Support Coordinator",
+        "country": "CA",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives&mdash;including your own.</p>",
+        "descriptionBodyPlain": "Build better healthcare together\nMaple's purpose is to meet the world's healthcare needs. We're Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we're proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what's possible every day.\nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you'll do work that changes lives—including your own.\n",
+        "hostedUrl": "https://jobs.lever.co/getmaple/0f3c2e1e-dd90-4fda-bfae-28e6d2436586",
+        "applyUrl": "https://jobs.lever.co/getmaple/0f3c2e1e-dd90-4fda-bfae-28e6d2436586/apply"
+      },
+      {
+        "additional": "",
+        "additionalPlain": "",
+        "categories": {
+          "commitment": "Full-Time Employee",
+          "location": "Toronto, Ontario",
+          "team": "Clinical and Customer Support Operations",
+          "allLocations": [
+            "Toronto, Ontario"
+          ]
+        },
+        "createdAt": 1788191180414,
+        "descriptionPlain": "Build better healthcare together\nMaple’s purpose is to meet the world's healthcare needs. We’re Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we’re proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what’s possible every day.  \nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you’ll do work that changes lives—including your own.\n",
+        "description": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple’s purpose is to meet the world's healthcare needs. We’re Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we’re proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what’s possible every day.&nbsp;&nbsp;</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you’ll do work that changes lives—including your own.</p>",
+        "id": "bc85fe3b-31ab-4e85-a895-9636123ce393",
+        "lists": [
+          {
+            "text": "The role",
+            "content": "<p>We're looking for our next cohort of Bilingual Lab and Referral Operations Coordinators (French/English) to join our Care Delivery Operations team. This is a role where the details matter—where your precision, reliability and follow-through directly support the clinicians, patients and partners who depend on us every day.</p>\n<p>In this role, you'll own the day-to-day administrative workflows that keep lab and referral processes running smoothly—reviewing, processing and routing documentation, making sure nothing gets missed and everything meets our privacy and quality standards. Key to success will be your technical confidence, sharp organizational instincts, strong problem-solving skills and the ability to work both independently and collaboratively—all while managing multiple priorities without losing accuracy in a fast-paced environment.</p>\n<p>Please note this is a fully administrative role—medical or clinical experience isn't required, though prior admin work in a healthcare setting is an asset. This isn't a lab-based position; Maple is a virtual platform connecting patients with doctors and nurse practitioners.</p>"
+          },
+          {
+            "text": "Your responsibilities",
+            "content": "<p>As a Bilingual Lab and Referral Operations Coordinator (French/English), you will:</p>\n\n<li>\n<p>Take ownership of a high volume of incoming lab and referral documentation—faxes, voicemails and digital records—processing and managing each one in line with Maple's privacy and security standards</p>\n</li>\n<li>\n<p>Upload, route and track lab results and referral information so clinicians can review and follow up without delay</p>\n</li>\n<li>\n<p>Respond to urgent lab communications and escalate critical results quickly—because getting it right the first time supports patient safety</p>\n</li>\n<li>\n<p>Dig into missing, incomplete or unclear documentation and coordinate with labs, clinics and internal teams to get it resolved</p>\n</li>\n<li>\n<p>Keep patient records accurate and ensure everything lines up between patient information and lab or referral data</p>\n</li>\n<li>\n<p>Support public health reporting and compliance-related documentation as required</p>\n</li>\n<li>\n<p>Work closely with Customer Support and Care Delivery teams to address lab- and referral-related questions from patients and providers</p>\n</li>\n<li>\n<p>Hold the bar high—consistently meeting accuracy, quality and turnaround expectations to keep care delivery running at its best</p>\n</li>\n"
+          },
+          {
+            "text": "What success looks like",
+            "content": "<p><strong>In your first 90 days, </strong>you’ll get a strong handle on Maple’s lab and referral workflows, tools and privacy requirements—and you'll start contributing right away. That means managing a real volume of administrative tasks independently, hitting your productivity benchmarks and building solid working relationships with your teammates and cross-functional partners.</p>\n<p><strong>Over the next 6 to 12 months,</strong> you’ll be a trusted, go-to contributor on the team—someone colleagues count on for accuracy, clear communication and consistent follow-through. You’ll consistently meet or exceed quality and productivity expectations, take ownership of more complex issues as they arise, &nbsp;and your work will be a visible part of what makes Care Delivery Operations run well.</p>"
+          },
+          {
+            "text": "What you bring",
+            "content": "\n<li>\n<p>Two or more years of experience in an administrative or operations role; a background as a Medical Office Assistant or Medical Receptionist, or experience in a healthcare or clinic environment, is an asset</p>\n</li>\n<li>\n<p>Fluency in both French and English—written and verbal—so you can support patients and partners across Canada</p>\n</li>\n<li>\n<p>A detail-oriented mindset with a genuine commitment to accuracy, quality and process adherence</p>\n</li>\n<li>\n<p>Confidence in managing multiple tasks and deadlines independently in a fast-paced, high-volume environment</p>\n</li>\n<li>\n<p>Strong written and verbal communication skills, with a natural ability to collaborate across teams</p>\n</li>\n<li>\n<p>Sharp problem-solving and critical thinking skills when navigating more complex or ambiguous issues</p>\n</li>\n<li>\n<p>Comfort learning and navigating multiple systems and tools; experience with Google Workspace, PDF management tools and Slack is an asset</p>\n</li>\n\n<p><br><strong>Play to your strengths. </strong>Finding the right fit goes both ways—so this section is yours to complete. When you join, you'll add the unique strengths you bring that aren't captured above.</p>"
+          },
+          {
+            "text": "How we'll support you",
+            "content": "<p>We recognize our people's health is everything. That's why we take care of them.</p>\n\n<li>\n<p><strong>Maple for you and your family:</strong> 24/7 access to general practitioners, pediatrics and mental health therapy for you and your family. Care starts on day one</p>\n</li>\n<li>\n<p><strong>Comprehensive health coverage: </strong>Medical, dental and life insurance because your peace of mind—and your loved ones—matter most</p>\n</li>\n<li>\n<p><strong>Health spending account: </strong>Extra funds to cover the essentials that make a difference, from new glasses to specialized therapy</p>\n</li>\n<li>\n<p><strong>Flex benefits: </strong>An annual budget built for your growth and well-being. Use it for professional development, wellness expenses or a one-time boost to your retirement savings. You choose what matters most</p>\n</li>\n<li>\n<p><strong>Health days: </strong>Life happens. We provide 10 dedicated days for rest, medical appointments or caregiving, so you can show up at your best</p>\n</li>\n<li>\n<p><strong>Destination days: </strong>Work from anywhere. Enjoy the flexibility to work internationally in eligible countries for up to five days per year</p>\n</li>\n<li>\n<p><strong>Group retirement savings plan: </strong>We're here for the long haul. Invest in your future with our group retirement plan</p>\n</li>\n"
+          },
+          {
+            "text": "The details",
+            "content": "<div>\n\n<li>\n<p><strong>Job type: </strong>Existing vacancy, full-time</p>\n</li>\n<li>\n<p><strong>Hiring manager:</strong> Team Lead, Care Delivery Operations</p>\n</li>\n<li>\n<p><strong>Location:</strong> Remote within Canada</p>\n</li>\n<li>\n<p><strong>Start date: </strong>October 2026</p>\n</li>\n<li>\n<p><strong>Vacation:</strong> 3 weeks</p>\n</li>\n<li>\n<p><strong>Pay range: </strong>$21.30 - $23.15</p>\n</li>\n\n<p>Offers can vary depending on skills, experience and readiness to meet Maple's expectations for this level. We encourage open conversations about pay. If you have questions about how compensation works at Maple, you're welcome to ask at any point in the interview process.</p>\n<p>We're committed to the safety and security of our platform. Please note that any offer of employment is subject to a criminal record check (EPIC) and identity verification. Additional checks, including employment or education verification, may be conducted depending on the role's requirements.</p>\n<p><strong>Use of artificial intelligence</strong></p>\n<p>We don't currently use artificial intelligence (AI) or automated tools to screen, assess or select candidates. Every application is thoughtfully reviewed by our Talent Acquisition team or hiring managers.</p>\n</div>"
+          }
+        ],
+        "text": "Bilingual Lab and Referral Operations Coordinators (French/English)",
+        "country": "CA",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<p><strong>Build better healthcare together</strong></p>\n<p>Maple&rsquo;s purpose is to meet the world's healthcare needs. We&rsquo;re Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we&rsquo;re proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what&rsquo;s possible every day.&nbsp;&nbsp;</p>\n<p>Bold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you&rsquo;ll do work that changes lives&mdash;including your own.</p>",
+        "descriptionBodyPlain": "Build better healthcare together\nMaple’s purpose is to meet the world's healthcare needs. We’re Canada's leading on-demand healthcare platform, connecting patients with Canadian-licensed doctors, nurse practitioners and specialists. Today, we’re proud that over 8 million patients and 7,000 businesses and government partners have access to same-day, proactive and ongoing care. We enable people to take control of their health and push the boundaries of what’s possible every day.  \nBold minds. Big impact. A career at Maple is about making an impact. We empower bold thinking, surround you with an inspiring team and are driven by a motivating purpose. Here, you’ll do work that changes lives—including your own.\n",
+        "hostedUrl": "https://jobs.lever.co/getmaple/bc85fe3b-31ab-4e85-a895-9636123ce393",
+        "applyUrl": "https://jobs.lever.co/getmaple/bc85fe3b-31ab-4e85-a895-9636123ce393/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://getmaple.ca",
+    "explanation": "Official employer homepage: https://getmaple.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/getmaple/bd3efbfb-4eef-4a72-8124-d5d0507882d1",
+      "https://jobs.lever.co/getmaple/0f3c2e1e-dd90-4fda-bfae-28e6d2436586",
+      "https://jobs.lever.co/getmaple/bc85fe3b-31ab-4e85-a895-9636123ce393"
+    ]
+  }
+}

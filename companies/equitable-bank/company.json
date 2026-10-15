@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "equitable-bank",
+  "name": "Equitable Bank",
+  "aliases": [],
+  "website_url": "https://eqbank.ca",
+  "logo_url": "https://www.eqbank.ca/eqbank/eqbank-favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

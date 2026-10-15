@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brookfield",
+  "name": "Brookfield",
+  "aliases": [],
+  "website_url": "https://brookfield.com",
+  "logo_url": "https://www.brookfield.com/themes/custom/brookfield/images/favicon/favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

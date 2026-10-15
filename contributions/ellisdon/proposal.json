@@ -1,0 +1,128 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ellisdon",
+    "name": "EllisDon",
+    "aliases": [],
+    "website_url": "https://ellisdon.com",
+    "logo_url": "https://www.ellisdon.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ellisdon",
+    "company_id": "ellisdon",
+    "revision": 1,
+    "label": "EllisDon public careers",
+    "careers_url": "https://ellisdon.wd3.myworkdayjobs.com/Ellis-Don",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "EllisDon",
+      "careers_url": "https://ellisdon.wd3.myworkdayjobs.com/Ellis-Don",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "ellisdon.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://ellisdon.wd3.myworkdayjobs.com/wday/cxs/ellisdon/Ellis-Don/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "ellisdon",
+        "site": "Ellis-Don"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://ellisdon.wd3.myworkdayjobs.com/wday/cxs/ellisdon/Ellis-Don/jobs",
+    "fetched_at": "2026-10-15T17:38:22.307827+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Assistant Superintendent",
+          "externalPath": "/job/Ontario-Projects/Assistant-Superintendent_R2026-01686",
+          "locationsText": "Ontario Projects",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R2026-01686"
+          ]
+        },
+        {
+          "title": "Senior Corporate Health, Safety & Environmental (HSE) Coordinator - Programs",
+          "externalPath": "/job/Mississauga-ON/Senior-Corporate-Health--Safety---Environmental--HSE--Coordinator---Programs_R2026-01684",
+          "locationsText": "Mississauga, ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R2026-01684"
+          ]
+        },
+        {
+          "title": "Project Coodinator",
+          "externalPath": "/job/Alberta-Projects/Project-Coodinator_R2026-01685",
+          "locationsText": "Alberta Projects",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R2026-01685"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://ellisdon.com",
+    "explanation": "Official employer homepage: https://ellisdon.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://ellisdon.wd3.myworkdayjobs.com/Ellis-Don/job/Ontario-Projects/Assistant-Superintendent_R2026-01686",
+      "https://ellisdon.wd3.myworkdayjobs.com/Ellis-Don/job/Mississauga-ON/Senior-Corporate-Health--Safety---Environmental--HSE--Coordinator---Programs_R2026-01684",
+      "https://ellisdon.wd3.myworkdayjobs.com/Ellis-Don/job/Alberta-Projects/Project-Coodinator_R2026-01685"
+    ]
+  }
+}

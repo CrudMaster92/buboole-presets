@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "manulife",
+  "name": "Manulife",
+  "aliases": [],
+  "website_url": "https://manulife.com",
+  "logo_url": "https://logo.freehire.me/Manulife?domain=manulife.com",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cibc",
+  "name": "CIBC",
+  "aliases": [],
+  "website_url": "https://cibc.com",
+  "logo_url": "https://www.cibc.com/content/dam/favicon/cibc-favicon/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

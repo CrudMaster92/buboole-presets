@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "purolator",
+  "name": "Purolator",
+  "aliases": [],
+  "website_url": "https://purolator.com",
+  "logo_url": "https://rmkcdn.successfactors.com/a0268dd4/d7d11aa9-1039-413d-8c08-e.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "intact-financial",
+  "company_id": "intact-financial",
+  "revision": 1,
+  "label": "Intact Financial public careers",
+  "careers_url": "https://intactfc.wd3.myworkdayjobs.com/intactfc",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Intact Financial",
+    "careers_url": "https://intactfc.wd3.myworkdayjobs.com/intactfc",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "intactfc.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://intactfc.wd3.myworkdayjobs.com/wday/cxs/intactfc/intactfc/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "intactfc",
+      "site": "intactfc"
+    }
+  }
+}

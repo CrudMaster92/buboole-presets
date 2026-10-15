@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "export-development-canada",
+  "name": "Export Development Canada",
+  "aliases": [],
+  "website_url": "https://edc.ca",
+  "logo_url": "https://www.edc.ca/etc.clientlibs/edc/clientlibs/clientlib-base/resources/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

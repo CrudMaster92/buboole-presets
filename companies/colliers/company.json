@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "colliers",
+  "name": "Colliers",
+  "aliases": [],
+  "website_url": "https://colliers.com",
+  "logo_url": "https://www.collierscanada.com/-/media/images/colliers/unitedstates/national/icons/faviconpng.ashx?bid=601ac88ad40f42dab8d759360ada768d",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

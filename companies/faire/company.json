@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "faire",
+  "name": "Faire",
+  "aliases": [],
+  "website_url": "https://faire.com",
+  "logo_url": "https://cdn.faire.com/favicon_v2-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

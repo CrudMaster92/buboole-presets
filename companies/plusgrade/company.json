@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "plusgrade",
+  "name": "Plusgrade",
+  "aliases": [],
+  "website_url": "https://plusgrade.com",
+  "logo_url": "https://www.plusgrade.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

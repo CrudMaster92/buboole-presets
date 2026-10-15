@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "magna-international",
+  "name": "Magna International",
+  "aliases": [],
+  "website_url": "https://magna.com",
+  "logo_url": "https://www.magna.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

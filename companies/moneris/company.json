@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "moneris",
+  "name": "Moneris",
+  "aliases": [],
+  "website_url": "https://moneris.com",
+  "logo_url": "https://www.moneris.com/Favicons/144x144/Moneris%20Logo%20-%20144x144.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

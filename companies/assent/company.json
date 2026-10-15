@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "assent",
+  "name": "Assent",
+  "aliases": [],
+  "website_url": "https://assent.com",
+  "logo_url": "https://www.assent.com/wp-content/uploads/2022/02/cropped-Assent-LogoArtboard-1-med-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

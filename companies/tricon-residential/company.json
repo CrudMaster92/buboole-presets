@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tricon-residential",
+  "name": "Tricon Residential",
+  "aliases": [],
+  "website_url": "https://triconresidential.com",
+  "logo_url": "https://res.cloudinary.com/triconresidential/images/w_100,h_100,c_fill,g_auto/f_auto,q_auto/v1762958729/website_uploads/favicon/favicon.png?_i=AA",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

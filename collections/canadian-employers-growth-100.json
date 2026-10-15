@@ -1,0 +1,828 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-growth-100",
+  "revision": 1,
+  "name": "Canadian Employers — Growth 100",
+  "description": "100 new employer careers monitors selected for Canadian hiring and major urban operations, prioritizing observed board volume. Employer boards include international and regional roles. Live findings are provisional; partial listings and description limitations are recorded per monitor. No territorial registry was used. Requires trusted review, maintainer merge and feed publication.",
+  "tags": [
+    "Canada",
+    "Hiring expansion"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "atkinsrealis",
+      "monitor_ids": [
+        "atkinsrealis"
+      ],
+      "rank": 1,
+      "note": "Local run observed 2,288 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "scotiabank",
+      "monitor_ids": [
+        "scotiabank"
+      ],
+      "rank": 2,
+      "note": "Local run observed 1,490 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "bank-of-montreal",
+      "monitor_ids": [
+        "bank-of-montreal"
+      ],
+      "rank": 3,
+      "note": "Local run observed 958 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "magna-international",
+      "monitor_ids": [
+        "magna-international"
+      ],
+      "rank": 4,
+      "note": "Local run observed 800 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "hatch",
+      "monitor_ids": [
+        "hatch"
+      ],
+      "rank": 5,
+      "note": "Local run observed 719 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "aecon",
+      "monitor_ids": [
+        "aecon"
+      ],
+      "rank": 6,
+      "note": "Local run observed 641 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "manulife",
+      "monitor_ids": [
+        "manulife"
+      ],
+      "rank": 7,
+      "note": "Local run observed 616 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "cibc",
+      "monitor_ids": [
+        "cibc"
+      ],
+      "rank": 8,
+      "note": "Local run observed 523 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "waste-connections",
+      "monitor_ids": [
+        "waste-connections"
+      ],
+      "rank": 9,
+      "note": "Local run observed 520 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "giant-tiger",
+      "monitor_ids": [
+        "giant-tiger"
+      ],
+      "rank": 10,
+      "note": "Local run observed 519 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "aritzia",
+      "monitor_ids": [
+        "aritzia"
+      ],
+      "rank": 11,
+      "note": "Local run observed 488 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "cima",
+      "monitor_ids": [
+        "cima"
+      ],
+      "rank": 12,
+      "note": "Local run observed 488 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "extendicare",
+      "monitor_ids": [
+        "extendicare"
+      ],
+      "rank": 13,
+      "note": "Local run observed 472 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "cae",
+      "monitor_ids": [
+        "cae"
+      ],
+      "rank": 14,
+      "note": "Local run observed 393 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "saputo",
+      "monitor_ids": [
+        "saputo"
+      ],
+      "rank": 15,
+      "note": "Local run observed 317 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "desjardins",
+      "monitor_ids": [
+        "desjardins"
+      ],
+      "rank": 16,
+      "note": "Local run observed 295 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "sun-life",
+      "monitor_ids": [
+        "sun-life"
+      ],
+      "rank": 17,
+      "note": "Local run observed 281 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "colliers",
+      "monitor_ids": [
+        "colliers"
+      ],
+      "rank": 18,
+      "note": "Local run observed 263 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "bdo-canada",
+      "monitor_ids": [
+        "bdo-canada"
+      ],
+      "rank": 19,
+      "note": "Local run observed 261 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "ellisdon",
+      "monitor_ids": [
+        "ellisdon"
+      ],
+      "rank": 20,
+      "note": "Local run observed 230 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "harris-computer",
+      "monitor_ids": [
+        "harris-computer"
+      ],
+      "rank": 21,
+      "note": "Local run observed 221 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "maintainx",
+      "monitor_ids": [
+        "maintainx"
+      ],
+      "rank": 22,
+      "note": "Local run observed 175 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "intact-financial",
+      "monitor_ids": [
+        "intact-financial"
+      ],
+      "rank": 23,
+      "note": "Local run observed 168 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "fidelity-canada",
+      "monitor_ids": [
+        "fidelity-canada"
+      ],
+      "rank": 24,
+      "note": "Local run observed 156 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "indigo",
+      "monitor_ids": [
+        "indigo"
+      ],
+      "rank": 25,
+      "note": "Local run observed 154 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "brookfield",
+      "monitor_ids": [
+        "brookfield"
+      ],
+      "rank": 26,
+      "note": "Local run observed 135 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "canadian-tire",
+      "monitor_ids": [
+        "canadian-tire"
+      ],
+      "rank": 27,
+      "note": "Local run observed 124 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "finning",
+      "monitor_ids": [
+        "finning"
+      ],
+      "rank": 28,
+      "note": "Local run observed 115 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "arctic-wolf",
+      "monitor_ids": [
+        "arctic-wolf"
+      ],
+      "rank": 29,
+      "note": "Local run observed 113 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "purolator",
+      "monitor_ids": [
+        "purolator"
+      ],
+      "rank": 30,
+      "note": "Local run observed 109 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "irving-oil",
+      "monitor_ids": [
+        "irving-oil"
+      ],
+      "rank": 31,
+      "note": "Local run observed 87 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "thomson-reuters",
+      "monitor_ids": [
+        "thomson-reuters"
+      ],
+      "rank": 32,
+      "note": "Local run observed 87 board listings. All locations; listing traversal remained partial. Trusted review pending."
+    },
+    {
+      "company_id": "soti",
+      "monitor_ids": [
+        "soti"
+      ],
+      "rank": 33,
+      "note": "Local run observed 85 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "tmx-group",
+      "monitor_ids": [
+        "tmx-group"
+      ],
+      "rank": 34,
+      "note": "Local run observed 85 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "equitable-bank",
+      "monitor_ids": [
+        "equitable-bank"
+      ],
+      "rank": 35,
+      "note": "Local run observed 84 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "fortisbc",
+      "monitor_ids": [
+        "fortisbc"
+      ],
+      "rank": 36,
+      "note": "Local run observed 83 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "faire",
+      "monitor_ids": [
+        "faire"
+      ],
+      "rank": 37,
+      "note": "Local run observed 79 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "stackadapt",
+      "monitor_ids": [
+        "stackadapt"
+      ],
+      "rank": 38,
+      "note": "Local run observed 78 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "pointclickcare",
+      "monitor_ids": [
+        "pointclickcare"
+      ],
+      "rank": 39,
+      "note": "Local run observed 77 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "tc-energy",
+      "monitor_ids": [
+        "tc-energy"
+      ],
+      "rank": 40,
+      "note": "Local run observed 73 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "ci-financial",
+      "monitor_ids": [
+        "ci-financial"
+      ],
+      "rank": 41,
+      "note": "Local run observed 72 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "1password",
+      "monitor_ids": [
+        "1password"
+      ],
+      "rank": 42,
+      "note": "Local run observed 69 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "interac",
+      "monitor_ids": [
+        "interac"
+      ],
+      "rank": 43,
+      "note": "Local run observed 69 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "canfor",
+      "monitor_ids": [
+        "canfor"
+      ],
+      "rank": 44,
+      "note": "Local run observed 67 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "applyboard",
+      "monitor_ids": [
+        "applyboard"
+      ],
+      "rank": 45,
+      "note": "Local run observed 65 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "neo-financial",
+      "monitor_ids": [
+        "neo-financial"
+      ],
+      "rank": 46,
+      "note": "Local run observed 63 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "geotab",
+      "monitor_ids": [
+        "geotab"
+      ],
+      "rank": 47,
+      "note": "Local run observed 60 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "export-development-canada",
+      "monitor_ids": [
+        "export-development-canada"
+      ],
+      "rank": 48,
+      "note": "Local run observed 58 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "nuvei",
+      "monitor_ids": [
+        "nuvei"
+      ],
+      "rank": 49,
+      "note": "Local run observed 58 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "enbridge",
+      "monitor_ids": [
+        "enbridge"
+      ],
+      "rank": 50,
+      "note": "Local run observed 54 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "telesat",
+      "monitor_ids": [
+        "telesat"
+      ],
+      "rank": 51,
+      "note": "Local run observed 52 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "business-development-bank-of-canada",
+      "monitor_ids": [
+        "business-development-bank-of-canada"
+      ],
+      "rank": 52,
+      "note": "Local run observed 50 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "cogeco",
+      "monitor_ids": [
+        "cogeco"
+      ],
+      "rank": 53,
+      "note": "Local run observed 49 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "felix-health",
+      "monitor_ids": [
+        "felix-health"
+      ],
+      "rank": 54,
+      "note": "Local run observed 43 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "later",
+      "monitor_ids": [
+        "later"
+      ],
+      "rank": 55,
+      "note": "Local run observed 43 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "psp-investments",
+      "monitor_ids": [
+        "psp-investments"
+      ],
+      "rank": 56,
+      "note": "Local run observed 41 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "quadreal",
+      "monitor_ids": [
+        "quadreal"
+      ],
+      "rank": 57,
+      "note": "Local run observed 41 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "moneris",
+      "monitor_ids": [
+        "moneris"
+      ],
+      "rank": 58,
+      "note": "Local run observed 40 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "cenovus-energy",
+      "monitor_ids": [
+        "cenovus-energy"
+      ],
+      "rank": 59,
+      "note": "Local run observed 37 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "air-transat",
+      "monitor_ids": [
+        "air-transat"
+      ],
+      "rank": 60,
+      "note": "Local run observed 36 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "cdpq",
+      "monitor_ids": [
+        "cdpq"
+      ],
+      "rank": 61,
+      "note": "Local run observed 36 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "abcellera",
+      "monitor_ids": [
+        "abcellera"
+      ],
+      "rank": 62,
+      "note": "Local run observed 35 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "hoopp",
+      "monitor_ids": [
+        "hoopp"
+      ],
+      "rank": 63,
+      "note": "Local run observed 35 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "long-view-systems",
+      "monitor_ids": [
+        "long-view-systems"
+      ],
+      "rank": 64,
+      "note": "Local run observed 35 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "ontario-teachers-pension-plan",
+      "monitor_ids": [
+        "ontario-teachers-pension-plan"
+      ],
+      "rank": 65,
+      "note": "Local run observed 34 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "capital-power",
+      "monitor_ids": [
+        "capital-power"
+      ],
+      "rank": 66,
+      "note": "Local run observed 31 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "borden-ladner-gervais",
+      "monitor_ids": [
+        "borden-ladner-gervais"
+      ],
+      "rank": 67,
+      "note": "Local run observed 26 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "jane-app",
+      "monitor_ids": [
+        "jane-app"
+      ],
+      "rank": 68,
+      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "medcan",
+      "monitor_ids": [
+        "medcan"
+      ],
+      "rank": 69,
+      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "blackberry",
+      "monitor_ids": [
+        "blackberry"
+      ],
+      "rank": 70,
+      "note": "Local run observed 24 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "tricon-residential",
+      "monitor_ids": [
+        "tricon-residential"
+      ],
+      "rank": 71,
+      "note": "Local run observed 24 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "absorb-software",
+      "monitor_ids": [
+        "absorb-software"
+      ],
+      "rank": 72,
+      "note": "Local run observed 22 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "fiera-capital",
+      "monitor_ids": [
+        "fiera-capital"
+      ],
+      "rank": 73,
+      "note": "Local run observed 22 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "float",
+      "monitor_ids": [
+        "float"
+      ],
+      "rank": 74,
+      "note": "Local run observed 21 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "alayacare",
+      "monitor_ids": [
+        "alayacare"
+      ],
+      "rank": 75,
+      "note": "Local run observed 20 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "lactalis-canada",
+      "monitor_ids": [
+        "lactalis-canada"
+      ],
+      "rank": 76,
+      "note": "Local run observed 20 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "miovision",
+      "monitor_ids": [
+        "miovision"
+      ],
+      "rank": 77,
+      "note": "Local run observed 20 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "assent",
+      "monitor_ids": [
+        "assent"
+      ],
+      "rank": 78,
+      "note": "Local run observed 19 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "auvik",
+      "monitor_ids": [
+        "auvik"
+      ],
+      "rank": 79,
+      "note": "Local run observed 18 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "bruce-power",
+      "monitor_ids": [
+        "bruce-power"
+      ],
+      "rank": 80,
+      "note": "Local run observed 17 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "kepler-communications",
+      "monitor_ids": [
+        "kepler-communications"
+      ],
+      "rank": 81,
+      "note": "Local run observed 17 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "plusgrade",
+      "monitor_ids": [
+        "plusgrade"
+      ],
+      "rank": 82,
+      "note": "Local run observed 17 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "semios",
+      "monitor_ids": [
+        "semios"
+      ],
+      "rank": 83,
+      "note": "Local run observed 16 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "transalta",
+      "monitor_ids": [
+        "transalta"
+      ],
+      "rank": 84,
+      "note": "Local run observed 16 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "achievers",
+      "monitor_ids": [
+        "achievers"
+      ],
+      "rank": 85,
+      "note": "Local run observed 15 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "choice-properties",
+      "monitor_ids": [
+        "choice-properties"
+      ],
+      "rank": 86,
+      "note": "Local run observed 15 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "fullscript",
+      "monitor_ids": [
+        "fullscript"
+      ],
+      "rank": 87,
+      "note": "Local run observed 14 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "maple",
+      "monitor_ids": [
+        "maple"
+      ],
+      "rank": 88,
+      "note": "Local run observed 13 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "aspect-biosystems",
+      "monitor_ids": [
+        "aspect-biosystems"
+      ],
+      "rank": 89,
+      "note": "Local run observed 12 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "d2l",
+      "monitor_ids": [
+        "d2l"
+      ],
+      "rank": 90,
+      "note": "Local run observed 11 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "league",
+      "monitor_ids": [
+        "league"
+      ],
+      "rank": 91,
+      "note": "Local run observed 11 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "domtar",
+      "monitor_ids": [
+        "domtar"
+      ],
+      "rank": 92,
+      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "purposemed",
+      "monitor_ids": [
+        "purposemed"
+      ],
+      "rank": 93,
+      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "riocan",
+      "monitor_ids": [
+        "riocan"
+      ],
+      "rank": 94,
+      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "visier",
+      "monitor_ids": [
+        "visier"
+      ],
+      "rank": 95,
+      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "koho",
+      "monitor_ids": [
+        "koho"
+      ],
+      "rank": 96,
+      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "wave",
+      "monitor_ids": [
+        "wave"
+      ],
+      "rank": 97,
+      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "workleap",
+      "monitor_ids": [
+        "workleap"
+      ],
+      "rank": 98,
+      "note": "Local run observed 5 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "clearco",
+      "monitor_ids": [
+        "clearco"
+      ],
+      "rank": 99,
+      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+    },
+    {
+      "company_id": "deep-genomics",
+      "monitor_ids": [
+        "deep-genomics"
+      ],
+      "rank": 100,
+      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+    }
+  ]
+}
