@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "flynn-group-of-companies",
+  "name": "Flynn Group of Companies",
+  "aliases": [],
+  "website_url": "https://flynncompanies.com",
+  "logo_url": "https://flynncompanies.com/wp-content/uploads/2018/05/favicon-1.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

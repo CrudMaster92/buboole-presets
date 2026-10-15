@@ -1,0 +1,403 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "eurofins",
+    "name": "Eurofins",
+    "aliases": [],
+    "website_url": "https://eurofins.com",
+    "logo_url": "https://careers.eurofins.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "eurofins",
+    "company_id": "eurofins",
+    "revision": 1,
+    "label": "Eurofins public careers",
+    "careers_url": "https://careers.smartrecruiters.com/Eurofins",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Eurofins",
+      "careers_url": "https://careers.smartrecruiters.com/Eurofins",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings",
+    "fetched_at": "2026-10-15T18:23:23.713583+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155825959",
+          "name": "DNA Synthesis Technician I/II",
+          "uuid": "4caaea3d-9e66-4b2e-b0ee-a28f80091e67",
+          "jobAdId": "786217e6-360f-4156-83c3-e8fe213c6c3f",
+          "defaultJobAd": true,
+          "refNumber": "REF82004W",
+          "company": {
+            "identifier": "Eurofins",
+            "name": "Eurofins"
+          },
+          "releasedDate": "2026-10-15T18:13:36.377Z",
+          "location": {
+            "city": "Louisville",
+            "region": "KY",
+            "country": "us",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "38.2468618",
+            "longitude": "-85.7663724",
+            "fullLocation": "Louisville, KY, United States"
+          },
+          "industry": {
+            "id": "biotechnology",
+            "label": "Biotechnology"
+          },
+          "department": {
+            "id": "1063357",
+            "label": "Testing & Laboratory"
+          },
+          "function": {
+            "id": "production",
+            "label": "Production"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "associate",
+            "label": "Associate"
+          },
+          "customField": [
+            {
+              "fieldId": "5ab8c5186d8bc519b1d9dc72",
+              "fieldLabel": "Full Time / Part Time ?",
+              "valueId": "27980a02-e19d-4f3e-b909-636c75c0e0b7",
+              "valueLabel": "Full Time"
+            },
+            {
+              "fieldId": "5ab8c5336d8bc519b1d9dc73",
+              "fieldLabel": "Contract Type",
+              "valueId": "dffae1c0-8810-4405-b067-67e458ef3c18",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "5ab8c1536d8bc519b1d9dc6e",
+              "fieldLabel": "Project type",
+              "valueId": "1bfdb239-4e70-48b1-bf84-1d05cef7e0c0",
+              "valueLabel": "Standard Job"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc5",
+              "fieldLabel": "Department",
+              "valueId": "1063357",
+              "valueLabel": "Testing & Laboratory"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc4",
+              "fieldLabel": "Brands",
+              "valueId": "7279e765-53af-4bc7-8812-11dca2c01bd1",
+              "valueLabel": "Eurofins USA Genomic Services"
+            },
+            {
+              "fieldId": "5b7194ef6d8bc55548ddd434",
+              "fieldLabel": "Legal Entity",
+              "valueId": "5a211eb7-39db-4134-b38f-095a1aa80a7d",
+              "valueLabel": "CUS013 - Eurofins Genomics LLC"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5ab8c7816d8bc519b1d9dc78",
+              "fieldLabel": "Business Lines",
+              "valueId": "56cf1e0c-f0c4-4000-b5ca-04ac21228c6f",
+              "valueLabel": "Genomic Services"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155825959",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155817228",
+          "name": "Part-Time Laboratory Technician I",
+          "uuid": "3fe973ec-c2b5-4cb3-94ea-daecf9ca2159",
+          "jobAdId": "31b2e42d-056c-496d-abc0-31790679610b",
+          "defaultJobAd": true,
+          "refNumber": "REF82288B",
+          "company": {
+            "identifier": "Eurofins",
+            "name": "Eurofins"
+          },
+          "releasedDate": "2026-10-15T17:19:39.122Z",
+          "location": {
+            "city": "DeSoto",
+            "region": "TX",
+            "country": "us",
+            "postalCode": "75115",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "32.5896998",
+            "longitude": "-96.8570738",
+            "fullLocation": "DeSoto, TX, United States"
+          },
+          "industry": {
+            "id": "biotechnology",
+            "label": "Biotechnology"
+          },
+          "department": {
+            "id": "1063357",
+            "label": "Testing & Laboratory"
+          },
+          "function": {
+            "id": "production",
+            "label": "Production"
+          },
+          "typeOfEmployment": {
+            "id": "part-time",
+            "label": "Part-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5ab8c5186d8bc519b1d9dc72",
+              "fieldLabel": "Full Time / Part Time ?",
+              "valueId": "c36a8f83-b574-40a1-beb6-230c1fc892ee",
+              "valueLabel": "Part Time"
+            },
+            {
+              "fieldId": "5ab8c5336d8bc519b1d9dc73",
+              "fieldLabel": "Contract Type",
+              "valueId": "dffae1c0-8810-4405-b067-67e458ef3c18",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "5ab8c1536d8bc519b1d9dc6e",
+              "fieldLabel": "Project type",
+              "valueId": "1bfdb239-4e70-48b1-bf84-1d05cef7e0c0",
+              "valueLabel": "Standard Job"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc5",
+              "fieldLabel": "Department",
+              "valueId": "1063357",
+              "valueLabel": "Testing & Laboratory"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc4",
+              "fieldLabel": "Brands",
+              "valueId": "730369f6-8494-4044-9197-03b550190e68",
+              "valueLabel": "Eurofins USA Food Testing"
+            },
+            {
+              "fieldId": "5b7194ef6d8bc55548ddd434",
+              "fieldLabel": "Legal Entity",
+              "valueId": "d1e66287-820e-4aa1-817c-3ee916bd0692",
+              "valueLabel": "CUS221 - Eurofins Rapid Microbiology Laboratory, LLC"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5ab8c7816d8bc519b1d9dc78",
+              "fieldLabel": "Business Lines",
+              "valueId": "34d3a8bb-73da-497f-b7f9-a33beab7bfe5",
+              "valueLabel": "Food & Feed Testing"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155817228",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155806102",
+          "name": "Courier - Environment Testing - Full-Time, 2nd Shift 1pm - 11pm ",
+          "uuid": "da45bca4-3762-41f5-a01d-53f995dca52d",
+          "jobAdId": "0c7480bd-a3fd-47b5-9c51-b9efea7d8ef5",
+          "defaultJobAd": true,
+          "refNumber": "REF82287P",
+          "company": {
+            "identifier": "Eurofins",
+            "name": "Eurofins"
+          },
+          "releasedDate": "2026-10-15T16:31:56.000Z",
+          "location": {
+            "city": "Lancaster",
+            "region": "PA",
+            "country": "us",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "40.0403279",
+            "longitude": "-76.30418329999999",
+            "fullLocation": "Lancaster, PA, United States"
+          },
+          "industry": {
+            "id": "environmental_services",
+            "label": "Environmental Services"
+          },
+          "department": {
+            "id": "1063357",
+            "label": "Testing & Laboratory"
+          },
+          "function": {
+            "id": "distribution",
+            "label": "Distribution"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5ab8c5186d8bc519b1d9dc72",
+              "fieldLabel": "Full Time / Part Time ?",
+              "valueId": "27980a02-e19d-4f3e-b909-636c75c0e0b7",
+              "valueLabel": "Full Time"
+            },
+            {
+              "fieldId": "5ab8c5336d8bc519b1d9dc73",
+              "fieldLabel": "Contract Type",
+              "valueId": "dffae1c0-8810-4405-b067-67e458ef3c18",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "5ab8c1536d8bc519b1d9dc6e",
+              "fieldLabel": "Project type",
+              "valueId": "1bfdb239-4e70-48b1-bf84-1d05cef7e0c0",
+              "valueLabel": "Standard Job"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc5",
+              "fieldLabel": "Department",
+              "valueId": "1063357",
+              "valueLabel": "Testing & Laboratory"
+            },
+            {
+              "fieldId": "59a7d7ad6d8bc52bd7e9dcc4",
+              "fieldLabel": "Brands",
+              "valueId": "bf2eef76-5f8e-40d7-9c6d-c479d9d6a567",
+              "valueLabel": "Eurofins USA Environment Testing"
+            },
+            {
+              "fieldId": "5b7194ef6d8bc55548ddd434",
+              "fieldLabel": "Legal Entity",
+              "valueId": "58c3f3ef-b372-42cf-a5fd-acf85dde7649",
+              "valueLabel": "CUS036 - Eurofins Lancaster Laboratories Environment Testing, LLC"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5ab8c7816d8bc519b1d9dc78",
+              "fieldLabel": "Business Lines",
+              "valueId": "d5e1cd1e-f47f-4654-8773-2479cef23c41",
+              "valueLabel": "Environment Testing"
+            },
+            {
+              "fieldId": "5ab8c0846d8bc519b1d9dc6b",
+              "fieldLabel": "Multiple possible locations ?",
+              "valueId": "5f00f192-a68a-46ec-aace-e3ed3401a428",
+              "valueLabel": "Yes"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155806102",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://eurofins.com",
+    "explanation": "Official employer homepage: https://eurofins.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155825959",
+      "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155817228",
+      "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000155806102"
+    ]
+  }
+}

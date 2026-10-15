@@ -1,0 +1,409 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "university-health-network",
+    "name": "University Health Network",
+    "aliases": [],
+    "website_url": "https://uhn.ca",
+    "logo_url": "https://www.uhn.ca/SiteAssets/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "university-health-network",
+    "company_id": "university-health-network",
+    "revision": 1,
+    "label": "University Health Network public careers",
+    "careers_url": "https://careers.smartrecruiters.com/UniversityHealthNetwork",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "University Health Network",
+      "careers_url": "https://careers.smartrecruiters.com/UniversityHealthNetwork",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings",
+    "fetched_at": "2026-10-15T18:26:54.193805+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155821159",
+          "name": "Occupational Therapist",
+          "uuid": "eeb9aabd-b315-41e1-bffa-93f00e17ee72",
+          "jobAdId": "08a165f1-f69d-4af2-ba8b-77da28e9d014",
+          "defaultJobAd": true,
+          "refNumber": "REF13315X",
+          "company": {
+            "identifier": "UniversityHealthNetwork",
+            "name": "University Health Network"
+          },
+          "releasedDate": "2026-10-15T17:40:27.554Z",
+          "location": {
+            "city": "Toronto",
+            "region": "ON",
+            "country": "ca",
+            "address": "399 Bathurst Street",
+            "postalCode": "M5T 2S8",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.6535326",
+            "longitude": "-79.4051892",
+            "fullLocation": "Toronto, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {
+            "id": "7026668",
+            "label": "Allied Health and Hyperbaric Chamber"
+          },
+          "function": {
+            "id": "health_care_provider",
+            "label": "Health Care Provider"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "650358f75c2bc17960ebaf04",
+              "fieldLabel": "Department",
+              "valueId": "7026668",
+              "valueLabel": "Allied Health and Hyperbaric Chamber"
+            },
+            {
+              "fieldId": "65ca67593cf25d53a576549b",
+              "fieldLabel": "UHN Site",
+              "valueId": "527e1799-0eaa-4857-9250-2302dfb7d06b",
+              "valueLabel": "Toronto Western Hospital"
+            },
+            {
+              "fieldId": "650358f75c2bc17960ebaf03",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "University Health Network"
+            },
+            {
+              "fieldId": "650c559d94b00d310a088882",
+              "fieldLabel": "VP Portfolio",
+              "valueId": "7d7bb85b-9141-44f5-802e-df25d56b4aaf",
+              "valueLabel": "VP Rehab & CCC"
+            },
+            {
+              "fieldId": "65144b12d493c2241eba4cc0",
+              "fieldLabel": "Position Employment Status",
+              "valueId": "8d445af3-3b82-4f82-ab30-1cd28dad17b7",
+              "valueLabel": "Permanent Full Time"
+            },
+            {
+              "fieldId": "6511a1a59b31b6513d5d5a04",
+              "fieldLabel": "Union (Comp Group Name)",
+              "valueId": "12d65536-6cb9-4493-bd64-e5cef624310c",
+              "valueLabel": "NON UNION"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "650daec47d09790483a85860",
+              "fieldLabel": "Single or Multiple Work Location?",
+              "valueId": "29c7f7f5-6a89-4dbe-8406-dad7cadfc97d",
+              "valueLabel": "Single Work Location"
+            },
+            {
+              "fieldId": "650c550508156859f0d26964",
+              "fieldLabel": "Screening Question Set",
+              "valueId": "15f38e6a-b118-4145-ade0-392cf0e8ef45",
+              "valueLabel": "Allied Health Collaborative Academic Practice Professions"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155821159",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155812633",
+          "name": "Medical Laboratory Technologist, Genetics",
+          "uuid": "6867d4df-4bda-404f-a6b4-d68f9250d631",
+          "jobAdId": "77ac0627-4025-4562-a3d9-d2a49149e218",
+          "defaultJobAd": true,
+          "refNumber": "REF13343M",
+          "company": {
+            "identifier": "UniversityHealthNetwork",
+            "name": "University Health Network"
+          },
+          "releasedDate": "2026-10-15T17:12:28.255Z",
+          "location": {
+            "city": "Toronto",
+            "region": "ON",
+            "country": "ca",
+            "address": "200 Elizabeth Street",
+            "postalCode": "M5G 1J5",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.658644",
+            "longitude": "-79.3866807",
+            "fullLocation": "Toronto, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {
+            "id": "7026243",
+            "label": "Laboratory Medicine"
+          },
+          "function": {
+            "id": "health_care_provider",
+            "label": "Health Care Provider"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "650358f75c2bc17960ebaf04",
+              "fieldLabel": "Department",
+              "valueId": "7026243",
+              "valueLabel": "Laboratory Medicine"
+            },
+            {
+              "fieldId": "65ca67593cf25d53a576549b",
+              "fieldLabel": "UHN Site",
+              "valueId": "93d8c17d-7f81-4050-9697-5e8deb61f366",
+              "valueLabel": "MaRS"
+            },
+            {
+              "fieldId": "650358f75c2bc17960ebaf03",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "University Health Network"
+            },
+            {
+              "fieldId": "650c559d94b00d310a088882",
+              "fieldLabel": "VP Portfolio",
+              "valueId": "0557cd9b-8f8a-4137-bd60-207201bb8cd8",
+              "valueLabel": "VP Diagnostics"
+            },
+            {
+              "fieldId": "65144b12d493c2241eba4cc0",
+              "fieldLabel": "Position Employment Status",
+              "valueId": "8d445af3-3b82-4f82-ab30-1cd28dad17b7",
+              "valueLabel": "Permanent Full Time"
+            },
+            {
+              "fieldId": "6511a1a59b31b6513d5d5a04",
+              "fieldLabel": "Union (Comp Group Name)",
+              "valueId": "9182413f-97ed-40eb-814b-244251ba7aa3",
+              "valueLabel": "OPSEU - Labs"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "650daec47d09790483a85860",
+              "fieldLabel": "Single or Multiple Work Location?",
+              "valueId": "29c7f7f5-6a89-4dbe-8406-dad7cadfc97d",
+              "valueLabel": "Single Work Location"
+            },
+            {
+              "fieldId": "650c550508156859f0d26964",
+              "fieldLabel": "Screening Question Set",
+              "valueId": "dc743589-4991-49ca-9bd3-15968e812869",
+              "valueLabel": "LMP, MLTs"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155812633",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155813924",
+          "name": "ECG Technician/Lab Assistant",
+          "uuid": "a076f6c1-4eb2-41e5-be02-2733db1fc11d",
+          "jobAdId": "07348c4c-35c7-4f11-b842-f86da711145e",
+          "defaultJobAd": true,
+          "refNumber": "REF13214W",
+          "company": {
+            "identifier": "UniversityHealthNetwork",
+            "name": "University Health Network"
+          },
+          "releasedDate": "2026-10-15T17:12:01.854Z",
+          "location": {
+            "city": "Toronto",
+            "region": "ON",
+            "country": "ca",
+            "address": "200 Elizabeth Street",
+            "postalCode": "M5G 1J5",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.658644",
+            "longitude": "-79.3866807",
+            "fullLocation": "Toronto, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {},
+          "function": {
+            "id": "health_care_provider",
+            "label": "Health Care Provider"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "65ca67593cf25d53a576549b",
+              "fieldLabel": "UHN Site",
+              "valueId": "68bb05bb-1e6a-495a-abd9-bf7c72d3c7fb",
+              "valueLabel": "Toronto General Hospital"
+            },
+            {
+              "fieldId": "650358f75c2bc17960ebaf03",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "University Health Network"
+            },
+            {
+              "fieldId": "650c559d94b00d310a088882",
+              "fieldLabel": "VP Portfolio",
+              "valueId": "0557cd9b-8f8a-4137-bd60-207201bb8cd8",
+              "valueLabel": "VP Diagnostics"
+            },
+            {
+              "fieldId": "65144b12d493c2241eba4cc0",
+              "fieldLabel": "Position Employment Status",
+              "valueId": "8d445af3-3b82-4f82-ab30-1cd28dad17b7",
+              "valueLabel": "Permanent Full Time"
+            },
+            {
+              "fieldId": "6511a1a59b31b6513d5d5a04",
+              "fieldLabel": "Union (Comp Group Name)",
+              "valueId": "9182413f-97ed-40eb-814b-244251ba7aa3",
+              "valueLabel": "OPSEU - Labs"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "650daec47d09790483a85860",
+              "fieldLabel": "Single or Multiple Work Location?",
+              "valueId": "3c782abc-22bd-4db7-a63d-d55693129291",
+              "valueLabel": "Multiple Work Location"
+            },
+            {
+              "fieldId": "650c550508156859f0d26964",
+              "fieldLabel": "Screening Question Set",
+              "valueId": "468737a9-eeb3-41aa-9373-efdcdd84c167",
+              "valueLabel": "Mandatory (Default)"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155813924",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://uhn.ca",
+    "explanation": "Official employer homepage: https://uhn.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155821159",
+      "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155812633",
+      "https://api.smartrecruiters.com/v1/companies/UniversityHealthNetwork/postings/744000155813924"
+    ]
+  }
+}

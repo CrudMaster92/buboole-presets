@@ -1,0 +1,424 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "halton-healthcare",
+    "name": "Halton Healthcare",
+    "aliases": [],
+    "website_url": "https://haltonhealthcare.on.ca",
+    "logo_url": "https://www.haltonhealthcare.on.ca/site_Files/Content/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "halton-healthcare",
+    "company_id": "halton-healthcare",
+    "revision": 1,
+    "label": "Halton Healthcare public careers",
+    "careers_url": "https://careers.smartrecruiters.com/HaltonHealthcare1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Halton Healthcare",
+      "careers_url": "https://careers.smartrecruiters.com/HaltonHealthcare1",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings",
+    "fetched_at": "2026-10-15T18:28:28.742619+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "3743990016154201",
+          "name": "Registered Nurse - Emergency Float Pool",
+          "uuid": "ad02429d-d5a8-4490-99a7-37603ae1c258",
+          "jobAdId": "139407fd-70f9-4e11-a9bd-71bb678a2ae8",
+          "defaultJobAd": true,
+          "refNumber": "REF4002M",
+          "company": {
+            "identifier": "HaltonHealthcare1",
+            "name": "Halton Healthcare"
+          },
+          "releasedDate": "2026-10-15T18:00:06.626Z",
+          "location": {
+            "city": "Milton",
+            "region": "ON",
+            "country": "ca",
+            "address": "725 Bronte Street South",
+            "postalCode": "L9T 9K1",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.4968782",
+            "longitude": "-79.8697638",
+            "fullLocation": "Milton, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {
+            "id": "3000000000196945",
+            "label": "MD Emergency"
+          },
+          "function": {
+            "id": "health_care_provider",
+            "label": "Health Care Provider"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "6616d9ea493c2e11c0fcd868",
+              "fieldLabel": "Employment Status",
+              "valueId": "b50e540d-a6fd-430b-b662-958c9e15e95b",
+              "valueLabel": "Permanent Full-time"
+            },
+            {
+              "fieldId": "65f96612676f757247c50737",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Halton Healthcare"
+            },
+            {
+              "fieldId": "65f96612676f757247c50738",
+              "fieldLabel": "Department",
+              "valueId": "3000000000196945",
+              "valueLabel": "MD Emergency"
+            },
+            {
+              "fieldId": "6616db45493c2e11c0fcd869",
+              "fieldLabel": "Screening Questions",
+              "valueId": "27271661-3e0d-49f9-b0bd-3437135519f0",
+              "valueLabel": "RN - EMERGENCY"
+            },
+            {
+              "fieldId": "661952788f73f300914c0fd8",
+              "fieldLabel": "FTE",
+              "valueId": "e90580a7-bbe9-4680-a7ee-164bef56a511",
+              "valueLabel": "1.0 FTE"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6616d940493c2e11c0fcd866",
+              "fieldLabel": "Union Status",
+              "valueId": "d438040d-6845-4e6f-8de7-6549747aab50",
+              "valueLabel": "ONA"
+            },
+            {
+              "fieldId": "661954076749e21165ba651d",
+              "fieldLabel": "Shift Schedule (Hours are subject to change based on operational needs)",
+              "valueId": "694d53c6-0d75-4292-b26e-4a81f5f89738",
+              "valueLabel": "Mon – Sun – Various rotating 12-hour shifts"
+            },
+            {
+              "fieldId": "6616d99c493c2e11c0fcd867",
+              "fieldLabel": "Site Location",
+              "valueId": "2bb39303-51b7-4223-9f5c-1d4ccb5f19b0",
+              "valueLabel": "Milton"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016154201",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "3743990016154056",
+          "name": "Medical Laboratory Technologist",
+          "uuid": "299290cb-0b24-4fbd-8f62-a4adffb61186",
+          "jobAdId": "99bdd56f-44e8-4230-b63d-9569ac5e2f3c",
+          "defaultJobAd": true,
+          "refNumber": "REF4272T",
+          "company": {
+            "identifier": "HaltonHealthcare1",
+            "name": "Halton Healthcare"
+          },
+          "releasedDate": "2026-10-15T17:55:17.763Z",
+          "location": {
+            "city": "Milton",
+            "region": "ON",
+            "country": "ca",
+            "address": "725 Bronte Street South",
+            "postalCode": "L9T 9K1",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.4968782",
+            "longitude": "-79.8697638",
+            "fullLocation": "Milton, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {
+            "id": "3000000000196741",
+            "label": "MD Lab Hematology"
+          },
+          "function": {
+            "id": "other",
+            "label": "Other"
+          },
+          "typeOfEmployment": {
+            "id": "contract",
+            "label": "Contract"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "6616d9ea493c2e11c0fcd868",
+              "fieldLabel": "Employment Status",
+              "valueId": "fa138b21-6b5c-4161-b13d-a85d0cf6fa2e",
+              "valueLabel": "Temporary Full-time"
+            },
+            {
+              "fieldId": "65f96612676f757247c50737",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Halton Healthcare"
+            },
+            {
+              "fieldId": "65f96612676f757247c50738",
+              "fieldLabel": "Department",
+              "valueId": "3000000000196741",
+              "valueLabel": "MD Lab Hematology"
+            },
+            {
+              "fieldId": "6619949a8f73f300914c0fdc",
+              "fieldLabel": "Length of temporary contract",
+              "valueId": "58175943-e0c6-4e64-bd95-2165deec99ad",
+              "valueLabel": "Approx. 6 months"
+            },
+            {
+              "fieldId": "6616db45493c2e11c0fcd869",
+              "fieldLabel": "Screening Questions",
+              "valueId": "fc4ab97d-14c2-4c29-b8da-f470055e129e",
+              "valueLabel": "REG LAB TECHNOLOGIST"
+            },
+            {
+              "fieldId": "661952788f73f300914c0fd8",
+              "fieldLabel": "FTE",
+              "valueId": "e90580a7-bbe9-4680-a7ee-164bef56a511",
+              "valueLabel": "1.0 FTE"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6616d940493c2e11c0fcd866",
+              "fieldLabel": "Union Status",
+              "valueId": "6f221d77-12c9-4e80-af30-dcaa55c0b429",
+              "valueLabel": "OPSEU"
+            },
+            {
+              "fieldId": "661954076749e21165ba651d",
+              "fieldLabel": "Shift Schedule (Hours are subject to change based on operational needs)",
+              "valueId": "fd4348e3-519e-48e1-9929-d1b1e152f5af",
+              "valueLabel": "Mon - Sun  - All Shifts, weekends and holidays"
+            },
+            {
+              "fieldId": "6616d99c493c2e11c0fcd867",
+              "fieldLabel": "Site Location",
+              "valueId": "2bb39303-51b7-4223-9f5c-1d4ccb5f19b0",
+              "valueLabel": "Milton"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016154056",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "3743990016153687",
+          "name": "RN",
+          "uuid": "5650094f-db4a-4951-bcaa-2f33f48c623e",
+          "jobAdId": "ccc90357-6b1b-416d-a733-c3344cac0ca3",
+          "defaultJobAd": true,
+          "refNumber": "REF4202I",
+          "company": {
+            "identifier": "HaltonHealthcare1",
+            "name": "Halton Healthcare"
+          },
+          "releasedDate": "2026-10-15T17:48:28.731Z",
+          "location": {
+            "city": "Oakville",
+            "region": "ON",
+            "country": "ca",
+            "address": "3001 Hospital Gate",
+            "postalCode": "L6M 0L8",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.45116355443082",
+            "longitude": "-79.76382365381313",
+            "fullLocation": "Oakville, ON, Canada"
+          },
+          "industry": {
+            "id": "hospital_and_health_care",
+            "label": "Hospital And Health Care"
+          },
+          "department": {
+            "id": "3000000000200124",
+            "label": "OT 3N CTC Unit 2"
+          },
+          "function": {
+            "id": "health_care_provider",
+            "label": "Health Care Provider"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "6616d9ea493c2e11c0fcd868",
+              "fieldLabel": "Employment Status",
+              "valueId": "b50e540d-a6fd-430b-b662-958c9e15e95b",
+              "valueLabel": "Permanent Full-time"
+            },
+            {
+              "fieldId": "65f96612676f757247c50737",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Halton Healthcare"
+            },
+            {
+              "fieldId": "65f96612676f757247c50738",
+              "fieldLabel": "Department",
+              "valueId": "3000000000200124",
+              "valueLabel": "OT 3N CTC Unit 2"
+            },
+            {
+              "fieldId": "6616db45493c2e11c0fcd869",
+              "fieldLabel": "Screening Questions",
+              "valueId": "74f240ac-3b1c-4270-8156-6b71a9874a54",
+              "valueLabel": "RN - CCC"
+            },
+            {
+              "fieldId": "661952788f73f300914c0fd8",
+              "fieldLabel": "FTE",
+              "valueId": "e90580a7-bbe9-4680-a7ee-164bef56a511",
+              "valueLabel": "1.0 FTE"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6616d940493c2e11c0fcd866",
+              "fieldLabel": "Union Status",
+              "valueId": "d438040d-6845-4e6f-8de7-6549747aab50",
+              "valueLabel": "ONA"
+            },
+            {
+              "fieldId": "661954076749e21165ba651d",
+              "fieldLabel": "Shift Schedule (Hours are subject to change based on operational needs)",
+              "valueId": "fd4348e3-519e-48e1-9929-d1b1e152f5af",
+              "valueLabel": "Mon - Sun  - All Shifts, weekends and holidays"
+            },
+            {
+              "fieldId": "6616d99c493c2e11c0fcd867",
+              "fieldLabel": "Site Location",
+              "valueId": "6a4bf4af-add1-42a5-9dc6-3c9ea94087b3",
+              "valueLabel": "Oakville"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016153687",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://haltonhealthcare.on.ca",
+    "explanation": "Official employer homepage: https://haltonhealthcare.on.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016154201",
+      "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016154056",
+      "https://api.smartrecruiters.com/v1/companies/HaltonHealthcare1/postings/3743990016153687"
+    ]
+  }
+}

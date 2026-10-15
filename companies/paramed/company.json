@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "paramed",
+  "name": "ParaMed",
+  "aliases": [],
+  "website_url": "https://paramed.com",
+  "logo_url": "https://paramedcom-1c124.kxcdn.com/wp-content/uploads/2025/08/cropped-Favicons_PM_512x512-01-32x32.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

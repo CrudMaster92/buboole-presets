@@ -1,0 +1,214 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "autotrader-canada",
+    "name": "AutoTrader Canada",
+    "aliases": [],
+    "website_url": "https://autotrader.ca",
+    "logo_url": "https://www.autotrader.ca/assets/acquisition-fragments/metatags/images/trader/favicon-16x16.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "autotrader-canada",
+    "company_id": "autotrader-canada",
+    "revision": 1,
+    "label": "AutoTrader Canada public careers",
+    "careers_url": "https://job-boards.greenhouse.io/autotradercanada",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "AutoTrader Canada",
+      "careers_url": "https://job-boards.greenhouse.io/autotradercanada",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/autotradercanada/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/autotradercanada/jobs",
+    "fetched_at": "2026-10-15T18:28:48.586324+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/autotradercanada/jobs/8031283003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5698332003,
+          "location": {
+            "name": "Remote (Canada)"
+          },
+          "metadata": [
+            {
+              "id": 4103294003,
+              "name": "Company",
+              "value": "Trader",
+              "value_type": "single_select"
+            },
+            {
+              "id": 18938306003,
+              "name": "Language",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8031283003,
+          "updated_at": "2026-10-13T14:20:54-04:00",
+          "requisition_id": "1682",
+          "title": "Account Executive - CRM (Atlantic Canada)",
+          "company_name": "AutoTrader.ca",
+          "first_published": "2026-10-13T14:20:54-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/autotradercanada/jobs/7724263003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5698332003,
+          "location": {
+            "name": "Toronto, ON (Canada) "
+          },
+          "metadata": [
+            {
+              "id": 4103294003,
+              "name": "Company",
+              "value": "Trader",
+              "value_type": "single_select"
+            },
+            {
+              "id": 18938306003,
+              "name": "Language",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 7724263003,
+          "updated_at": "2026-10-13T12:00:05-04:00",
+          "requisition_id": "1682",
+          "title": "Account Executive - CRM (Western/Southwestern Ontario)",
+          "company_name": "AutoTrader.ca",
+          "first_published": "2026-05-04T23:25:49-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/autotradercanada/jobs/8011332003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5892748003,
+          "location": {
+            "name": "Toronto, ON (Canada) "
+          },
+          "metadata": [
+            {
+              "id": 4103294003,
+              "name": "Company",
+              "value": "TRADER Corporation",
+              "value_type": "single_select"
+            },
+            {
+              "id": 18938306003,
+              "name": "Language",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8011332003,
+          "updated_at": "2026-10-02T08:50:59-04:00",
+          "requisition_id": "P-4434",
+          "title": "Bilingual Regional Sales Manager (EN/FR)",
+          "company_name": "AutoTrader.ca",
+          "first_published": "2026-10-02T08:50:59-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://autotrader.ca",
+    "explanation": "Official employer homepage: https://autotrader.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/autotradercanada/jobs/8031283003",
+      "https://job-boards.greenhouse.io/autotradercanada/jobs/7724263003",
+      "https://job-boards.greenhouse.io/autotradercanada/jobs/8011332003"
+    ]
+  }
+}

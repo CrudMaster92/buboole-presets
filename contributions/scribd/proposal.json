@@ -1,0 +1,469 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "scribd",
+    "name": "Scribd",
+    "aliases": [],
+    "website_url": "https://scribd.com",
+    "logo_url": "https://cdn.prod.website-files.com/6966ac99f846f9e44e0594ea/698d131f1234a138f9a1e854_Favicon%20Sml.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "scribd",
+    "company_id": "scribd",
+    "revision": 1,
+    "label": "Scribd public careers",
+    "careers_url": "https://jobs.ashbyhq.com/ScribdInc",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Scribd",
+      "careers_url": "https://jobs.ashbyhq.com/ScribdInc",
+      "strategy": "ashby",
+      "allowed_hosts": [
+        "api.ashbyhq.com",
+        "jobs.ashbyhq.com"
+      ],
+      "request": {
+        "url": "https://api.ashbyhq.com/posting-api/job-board/ScribdInc",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.ashbyhq.com/posting-api/job-board/ScribdInc",
+    "fetched_at": "2026-10-15T18:29:31.178668+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "id": "4a1a7e7b-11bd-4720-a49b-ac821555b4dc",
+          "title": "Senior Technical Program Manager",
+          "department": "Product, Design, & Analytics",
+          "team": "Technical Program Management",
+          "employmentType": "FullTime",
+          "location": "San Francisco",
+          "secondaryLocations": [
+            {
+              "location": "Toronto",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Ontario",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Toronto"
+                }
+              }
+            },
+            {
+              "location": "Los Angeles",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "California",
+                  "addressCountry": "United States",
+                  "addressLocality": "Los Angeles"
+                }
+              }
+            },
+            {
+              "location": "Denver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Colorado",
+                  "addressCountry": "United States",
+                  "addressLocality": "Denver"
+                }
+              }
+            },
+            {
+              "location": "Chicago",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Illinois ",
+                  "addressCountry": "United States",
+                  "addressLocality": "Chicago"
+                }
+              }
+            },
+            {
+              "location": "New York City",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "New York",
+                  "addressCountry": "United States",
+                  "addressLocality": "New York City"
+                }
+              }
+            },
+            {
+              "location": "Vancouver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "British Columbia",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Vancouver"
+                }
+              }
+            },
+            {
+              "location": "Seattle",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Washington",
+                  "addressCountry": "United States",
+                  "addressLocality": "Seattle"
+                }
+              }
+            },
+            {
+              "location": "Austin",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Austin"
+                }
+              }
+            },
+            {
+              "location": "Boston",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Massachusetts",
+                  "addressCountry": "United States",
+                  "addressLocality": "Boston"
+                }
+              }
+            },
+            {
+              "location": "Dallas",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Dallas"
+                }
+              }
+            }
+          ],
+          "publishedAt": "2026-10-14T20:57:51.815+00:00",
+          "isListed": true,
+          "isRemote": null,
+          "workplaceType": null,
+          "address": {
+            "postalAddress": {
+              "addressRegion": "California",
+              "addressCountry": "United States",
+              "addressLocality": "San Francisco"
+            }
+          },
+          "jobUrl": "https://jobs.ashbyhq.com/ScribdInc/4a1a7e7b-11bd-4720-a49b-ac821555b4dc",
+          "applyUrl": "https://jobs.ashbyhq.com/ScribdInc/4a1a7e7b-11bd-4720-a49b-ac821555b4dc/application",
+          "descriptionHtml": "<p style=\"min-height:1.5em\">Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.</p><p style=\"min-height:1.5em\"></p><h2><strong>Culture at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\">We support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">So what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This posting reflects an approved, open position within the organization.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the team and role </strong></p><p style=\"min-height:1.5em\">Welcome to our small but mighty TPM (Technical Program Management) team! We are the driving force that shapes how our company plans, prioritizes, and executes. As a Senior TPM, you will own program strategy and execution across our marketing organization, which owns two key pillars of work: Customer Operations and Brand Marketing.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Customer Operations is the pillar that reflects the voice of the customer back to the company, and the one that works to deliver an effortless customer support experience. You will partner with its leadership to drive the programs that connect that work to the rest of the company, from the voice of the customer program, to how that support experience is designed and delivered end to end, to the evolution of the operational model and team structure for Premium support.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Brand Marketing is the pillar that helps the company build and sustain brands people love and want to tell their friends about. You will act as the connector between brand strategy and product strategy and execution, working across stakeholders to design the processes, workflows, and tools that make sure the personality and identity of our brands are felt in the product itself and in our messaging and communications, which include larger brand campaigns as well as always-on communications.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You will drive the roadmap across both, connect them to the teams and leaders that depend on them, and bring a builder's instinct to the work, using AI and creative workflows to design better ways of running these programs.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About you </strong></p><p style=\"min-height:1.5em\">You are a thoughtful opinionator: you hold strong, well-reasoned views and are capable of voicing them respectfully to anyone, at any level. You are a proactive communicator who identifies possible problems before they surface.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You are a relationship builder and organizational navigator at heart, adept at building bridges across teams and functions. You are comfortable working with customer experience, marketing, and creative teams as well as product and engineering, able to follow the substance and hold your own with the subject matter experts you partner with.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You care about customers and about the power of building strong brands. You understand what a great customer experience is worth to a company, and you are intellectually curious about how brand personality and identity show up in consumer-facing  products. You have been part of efforts that connected brand strategy to how a product is built and experienced.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You are already working with AI, and you have a point of view on where the TPM craft is headed in an increasingly agentic world. You have changed how you operate because of it.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You are a continuous learner with a growth mindset and an appetite for unfamiliar problems. Lastly, you are a voracious reader with a passion for books and the written and spoken word in all its forms!</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What you will do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Act like an owner:</strong> Be an owner of program strategy and execution across our Customer Operations and Brand Marketing pillars, and serve as the connective tissue between those pillars and the partners they depend on.</p></li><li><p style=\"min-height:1.5em\"><strong>Build relationships:</strong> Our TPM team thrives on collaboration. You will work closely with stakeholders at every level, from customer experience and marketing teams to engineers and executives, and your ability to build trust and align diverse perspectives will be central to what you can accomplish.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive strategy:</strong> You will dive deep into the how and the why of your programs, developing plans that connect day-to-day execution to where these pillars need to go. Your judgment will shape how decisions get made.</p></li><li><p style=\"min-height:1.5em\"><strong>Decide what's worth doing:</strong> Partner with Customer Operations leadership to prioritize projects by customer impact, weigh them against team capacity, and defer or decline the rest. The customer's experience stays at the center of every tradeoff.</p></li><li><p style=\"min-height:1.5em\"><strong>Connect marketing and product:</strong> Act as a connector between our marketing organization and our product-centric teams, working across stakeholders to design the processes, workflows, and tools that make sure brand is part of our key releases, in the product experience itself and in the messaging and communications around it.</p></li><li><p style=\"min-height:1.5em\"><strong>Be a leader:</strong> Act as a leader within the TPM team. Identify opportunities to collaborate, share what works, and coach your teammates.</p></li><li><p style=\"min-height:1.5em\"><strong>Lead beyond your pillars:</strong> Our TPM team also owns cross-company processes like yearly planning. You will contribute to these shared efforts and take a leadership role in shaping them.</p></li><li><p style=\"min-height:1.5em\"><strong>Own the complexity:</strong> Drive multiple complex cross-functional programs simultaneously, and create scalable frameworks across pillars and functions to track work and communicate progress.</p></li><li><p style=\"min-height:1.5em\"><strong>Enable your drivers:</strong> Many of the people driving and contributing to Customer Operations initiatives are also handling day to day frontline work and escalations. You will plan around their real capacity and give them structure and support, rather than assigning tasks and chasing updates.</p></li><li><p style=\"min-height:1.5em\"><strong>Manage timelines:</strong> Lead the delivery timeline for your programs. Proactively identify risks and create mitigation strategies through workflows, communication, or resource allocation.</p></li><li><p style=\"min-height:1.5em\"><strong>Measure success:</strong> Proactively propose success metrics for yourself and your programs, and identify when those metrics are at risk.</p></li><li><p style=\"min-height:1.5em\"><strong>Build to move faster:</strong> Use AI and lightweight tooling to reduce the coordination tax on your teams. When you spot a manual, repetitive process, build something better.</p></li><li><p style=\"min-height:1.5em\"><strong>Improve how we work:</strong> Identify and drive process improvements at the team and cross-team level, so the whole organization delivers at a larger scale.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>We're looking for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of experience in a program management, operations, or equivalent role at a technology company.</p></li><li><p style=\"min-height:1.5em\">A track record of operating independently, leading through ambiguity, and navigating complex organizational dynamics.</p></li><li><p style=\"min-height:1.5em\">A structured approach to your work, paired with the judgment to know when to add process and when to remove it to reduce overhead and drive velocity.</p></li><li><p style=\"min-height:1.5em\">Experience partnering closely with customer operations, marketing, or brand teams, and connecting their work to product and engineering teams.</p></li><li><p style=\"min-height:1.5em\">An understanding of what great customer support is worth to a brand, and enough knowledge of brand to hold your own with marketers. You have worked with customer support teams, or know their workflows well enough to be a useful partner to them.</p></li><li><p style=\"min-height:1.5em\">A customer-first lens in how you make decisions, with the judgment to weigh customer impact against efficiency.</p></li><li><p style=\"min-height:1.5em\">Experience rolling out operational changes, such as process and tooling to a frontline team.</p></li><li><p style=\"min-height:1.5em\">Strong familiarity with the software development process, working with product and engineering teams from roadmapping through delivery.</p></li><li><p style=\"min-height:1.5em\">Experience working directly with product managers, engineers, marketers, and other subject matter experts.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience using AI in your work, and a clear point of view on how it changes the program management craft. You have already adjusted how you operate because of it.</p></li><li><p style=\"min-height:1.5em\">Experience using data to identify problems and communicate solutions.</p></li><li><p style=\"min-height:1.5em\">The ability to work and partner successfully across multiple functions in an organization.</p></li><li><p style=\"min-height:1.5em\">Excellent communication and interpersonal skills.</p></li><li><p style=\"min-height:1.5em\">Exceptional attention to detail and the ability to understand and articulate the big picture.</p></li><li><p style=\"min-height:1.5em\">Distinctive problem-solving and analytical skills.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Bonus Points</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You have held a program management role at a company where customer support sits at the heart of the brand.</p></li><li><p style=\"min-height:1.5em\">You have seen up close how great customer support works, even if you have not worked in it directly.</p></li><li><p style=\"min-height:1.5em\">You have run or helped run brand campaigns.</p></li><li><p style=\"min-height:1.5em\">You have worked in a brand or marketing role earlier in your career.</p></li><li><p style=\"min-height:1.5em\">You have designed AI workflows that enable customer operations or brand marketing teams to do their best work, whether that meant changing how a team handles its day-to-day or building something foundational they now can't imagine working without.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">----------------------------------------------------------------------------------</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">At Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the state of California, the reasonably expected salary range is between $124,000 [minimum salary in our lowest geographic market within California] to $172,000[maximum salary in our highest geographic market within California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the United States, outside of California, the reasonably expected salary range is between $102,000 [minimum salary in our lowest US geographic market outside of California] to $164,000 [maximum salary in our highest US geographic market outside of California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In Canada, the reasonably expected salary range is between $131,000 CAD[minimum salary in our lowest geographic market] to $152,000 CAD[maximum salary in our highest geographic market].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">We carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.</p><p style=\"min-height:1.5em\"></p><h2><strong>Working at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\"><strong>Are you currently based in a location where Scribd, Inc. can employ you? </strong><br />Employees must have their <strong>primary residence in or near</strong> one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:</p><p style=\"min-height:1.5em\"><br /><strong><u>United States</u>: </strong></p><p style=\"min-height:1.5em\">Atlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Canada</u>: </strong></p><p style=\"min-height:1.5em\">Ottawa | Toronto | Vancouver</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Mexico</u>: </strong></p><p style=\"min-height:1.5em\">Mexico City</p><h2></h2><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Benefits at Scribd, Inc.</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Scribd Flex (flexible work model)</p></li><li><p style=\"min-height:1.5em\">Comprehensive health, dental, and vision coverage</p></li><li><p style=\"min-height:1.5em\">Mental health support and disability coverage</p></li><li><p style=\"min-height:1.5em\">Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals</p></li><li><p style=\"min-height:1.5em\">Paid parental leave and family support benefits</p></li><li><p style=\"min-height:1.5em\">Retirement matching and employee equity</p></li><li><p style=\"min-height:1.5em\">Learning and development programs and professional growth opportunities</p></li><li><p style=\"min-height:1.5em\">Wellness and home office stipends</p></li><li><p style=\"min-height:1.5em\">Complimentary access to the Scribd, Inc. suite of products</p></li><li><p style=\"min-height:1.5em\">Enterprise access to leading AI tools</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Get to Know Scribd, Inc.</strong><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.scribdinc.com/about\"><strong>About Scribd, Inc.</strong></a><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bit.ly/ScribdonLinkedin\"><strong>Life at Scribd, Inc.</strong></a></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><em>We want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.</em></p><p style=\"min-height:1.5em\"><em>If you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection\"><em><u>here</u></em></a><em>.</em></p><p style=\"min-height:1.5em\"><em>Scribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful.</em></p>",
+          "descriptionPlain": "Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.\n\n\n\n\nCULTURE AT SCRIBD, INC.\n\nWe support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.\n\n\n\nWe believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.\n\n\n\nSo what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.\n\n\n\nThis posting reflects an approved, open position within the organization.\n\n\n\nAbout the team and role \n\nWelcome to our small but mighty TPM (Technical Program Management) team! We are the driving force that shapes how our company plans, prioritizes, and executes. As a Senior TPM, you will own program strategy and execution across our marketing organization, which owns two key pillars of work: Customer Operations and Brand Marketing.\n\n\n\nCustomer Operations is the pillar that reflects the voice of the customer back to the company, and the one that works to deliver an effortless customer support experience. You will partner with its leadership to drive the programs that connect that work to the rest of the company, from the voice of the customer program, to how that support experience is designed and delivered end to end, to the evolution of the operational model and team structure for Premium support.\n\n\n\nBrand Marketing is the pillar that helps the company build and sustain brands people love and want to tell their friends about. You will act as the connector between brand strategy and product strategy and execution, working across stakeholders to design the processes, workflows, and tools that make sure the personality and identity of our brands are felt in the product itself and in our messaging and communications, which include larger brand campaigns as well as always-on communications.\n\n\n\nYou will drive the roadmap across both, connect them to the teams and leaders that depend on them, and bring a builder's instinct to the work, using AI and creative workflows to design better ways of running these programs.\n\n\n\nAbout you \n\nYou are a thoughtful opinionator: you hold strong, well-reasoned views and are capable of voicing them respectfully to anyone, at any level. You are a proactive communicator who identifies possible problems before they surface.\n\n\n\nYou are a relationship builder and organizational navigator at heart, adept at building bridges across teams and functions. You are comfortable working with customer experience, marketing, and creative teams as well as product and engineering, able to follow the substance and hold your own with the subject matter experts you partner with.\n\n\n\nYou care about customers and about the power of building strong brands. You understand what a great customer experience is worth to a company, and you are intellectually curious about how brand personality and identity show up in consumer-facing  products. You have been part of efforts that connected brand strategy to how a product is built and experienced.\n\n\n\nYou are already working with AI, and you have a point of view on where the TPM craft is headed in an increasingly agentic world. You have changed how you operate because of it.\n\n\n\nYou are a continuous learner with a growth mindset and an appetite for unfamiliar problems. Lastly, you are a voracious reader with a passion for books and the written and spoken word in all its forms!\n\n\n\nWhat you will do\n\n - Act like an owner: Be an owner of program strategy and execution across our Customer Operations and Brand Marketing pillars, and serve as the connective tissue between those pillars and the partners they depend on.\n\n - Build relationships: Our TPM team thrives on collaboration. You will work closely with stakeholders at every level, from customer experience and marketing teams to engineers and executives, and your ability to build trust and align diverse perspectives will be central to what you can accomplish.\n\n - Drive strategy: You will dive deep into the how and the why of your programs, developing plans that connect day-to-day execution to where these pillars need to go. Your judgment will shape how decisions get made.\n\n - Decide what's worth doing: Partner with Customer Operations leadership to prioritize projects by customer impact, weigh them against team capacity, and defer or decline the rest. The customer's experience stays at the center of every tradeoff.\n\n - Connect marketing and product: Act as a connector between our marketing organization and our product-centric teams, working across stakeholders to design the processes, workflows, and tools that make sure brand is part of our key releases, in the product experience itself and in the messaging and communications around it.\n\n - Be a leader: Act as a leader within the TPM team. Identify opportunities to collaborate, share what works, and coach your teammates.\n\n - Lead beyond your pillars: Our TPM team also owns cross-company processes like yearly planning. You will contribute to these shared efforts and take a leadership role in shaping them.\n\n - Own the complexity: Drive multiple complex cross-functional programs simultaneously, and create scalable frameworks across pillars and functions to track work and communicate progress.\n\n - Enable your drivers: Many of the people driving and contributing to Customer Operations initiatives are also handling day to day frontline work and escalations. You will plan around their real capacity and give them structure and support, rather than assigning tasks and chasing updates.\n\n - Manage timelines: Lead the delivery timeline for your programs. Proactively identify risks and create mitigation strategies through workflows, communication, or resource allocation.\n\n - Measure success: Proactively propose success metrics for yourself and your programs, and identify when those metrics are at risk.\n\n - Build to move faster: Use AI and lightweight tooling to reduce the coordination tax on your teams. When you spot a manual, repetitive process, build something better.\n\n - Improve how we work: Identify and drive process improvements at the team and cross-team level, so the whole organization delivers at a larger scale.\n\n\n\nWe're looking for\n\n - 5+ years of experience in a program management, operations, or equivalent role at a technology company.\n\n - A track record of operating independently, leading through ambiguity, and navigating complex organizational dynamics.\n\n - A structured approach to your work, paired with the judgment to know when to add process and when to remove it to reduce overhead and drive velocity.\n\n - Experience partnering closely with customer operations, marketing, or brand teams, and connecting their work to product and engineering teams.\n\n - An understanding of what great customer support is worth to a brand, and enough knowledge of brand to hold your own with marketers. You have worked with customer support teams, or know their workflows well enough to be a useful partner to them.\n\n - A customer-first lens in how you make decisions, with the judgment to weigh customer impact against efficiency.\n\n - Experience rolling out operational changes, such as process and tooling to a frontline team.\n\n - Strong familiarity with the software development process, working with product and engineering teams from roadmapping through delivery.\n\n - Experience working directly with product managers, engineers, marketers, and other subject matter experts.\n\n - Hands-on experience using AI in your work, and a clear point of view on how it changes the program management craft. You have already adjusted how you operate because of it.\n\n - Experience using data to identify problems and communicate solutions.\n\n - The ability to work and partner successfully across multiple functions in an organization.\n\n - Excellent communication and interpersonal skills.\n\n - Exceptional attention to detail and the ability to understand and articulate the big picture.\n\n - Distinctive problem-solving and analytical skills.\n\n\n\nBonus Points\n\n - You have held a program management role at a company where customer support sits at the heart of the brand.\n\n - You have seen up close how great customer support works, even if you have not worked in it directly.\n\n - You have run or helped run brand campaigns.\n\n - You have worked in a brand or marketing role earlier in your career.\n\n - You have designed AI workflows that enable customer operations or brand marketing teams to do their best work, whether that meant changing how a team handles its day-to-day or building something foundational they now can't imagine working without.\n\n\n\n----------------------------------------------------------------------------------\n\n\n\nAt Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.\n\n \n\nIn the state of California, the reasonably expected salary range is between $124,000 [minimum salary in our lowest geographic market within California] to $172,000[maximum salary in our highest geographic market within California].\n\n \n\nIn the United States, outside of California, the reasonably expected salary range is between $102,000 [minimum salary in our lowest US geographic market outside of California] to $164,000 [maximum salary in our highest US geographic market outside of California].\n\n \n\nIn Canada, the reasonably expected salary range is between $131,000 CAD[minimum salary in our lowest geographic market] to $152,000 CAD[maximum salary in our highest geographic market].\n\n \n\nWe carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.\n\n\n\n\nWORKING AT SCRIBD, INC.\n\nAre you currently based in a location where Scribd, Inc. can employ you? \nEmployees must have their primary residence in or near one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:\n\n\nUnited States: \n\nAtlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.\n\n\n\nCanada: \n\nOttawa | Toronto | Vancouver\n\n\n\nMexico: \n\nMexico City\n\n\n\n\n\n\nBenefits at Scribd, Inc.\n\n - Scribd Flex (flexible work model)\n\n - Comprehensive health, dental, and vision coverage\n\n - Mental health support and disability coverage\n\n - Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals\n\n - Paid parental leave and family support benefits\n\n - Retirement matching and employee equity\n\n - Learning and development programs and professional growth opportunities\n\n - Wellness and home office stipends\n\n - Complimentary access to the Scribd, Inc. suite of products\n\n - Enterprise access to leading AI tools\n   \n   \n\nGet to Know Scribd, Inc.\nAbout Scribd, Inc. https://www.scribdinc.com/about\nLife at Scribd, Inc. https://bit.ly/ScribdonLinkedin\n\n\n\nWe want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.\n\nIf you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available here https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection.\n\nScribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful."
+        },
+        {
+          "id": "0a5b7c59-fe6e-43f6-8c0d-b0415a5ff1bd",
+          "title": "Senior Paid Social Manager",
+          "department": "Product, Design, & Analytics",
+          "team": "Product",
+          "employmentType": "FullTime",
+          "location": "San Francisco",
+          "secondaryLocations": [
+            {
+              "location": "Toronto",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Ontario",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Toronto"
+                }
+              }
+            },
+            {
+              "location": "Los Angeles",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "California",
+                  "addressCountry": "United States",
+                  "addressLocality": "Los Angeles"
+                }
+              }
+            },
+            {
+              "location": "Denver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Colorado",
+                  "addressCountry": "United States",
+                  "addressLocality": "Denver"
+                }
+              }
+            },
+            {
+              "location": "Chicago",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Illinois ",
+                  "addressCountry": "United States",
+                  "addressLocality": "Chicago"
+                }
+              }
+            },
+            {
+              "location": "New York City",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "New York",
+                  "addressCountry": "United States",
+                  "addressLocality": "New York City"
+                }
+              }
+            },
+            {
+              "location": "Vancouver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "British Columbia",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Vancouver"
+                }
+              }
+            },
+            {
+              "location": "Seattle",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Washington",
+                  "addressCountry": "United States",
+                  "addressLocality": "Seattle"
+                }
+              }
+            },
+            {
+              "location": "Austin",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Austin"
+                }
+              }
+            },
+            {
+              "location": "Boston",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Massachusetts",
+                  "addressCountry": "United States",
+                  "addressLocality": "Boston"
+                }
+              }
+            },
+            {
+              "location": "Dallas",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Dallas"
+                }
+              }
+            }
+          ],
+          "publishedAt": "2026-04-29T15:12:03.794+00:00",
+          "isListed": true,
+          "isRemote": true,
+          "workplaceType": "Hybrid",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "California",
+              "addressCountry": "United States",
+              "addressLocality": "San Francisco"
+            }
+          },
+          "jobUrl": "https://jobs.ashbyhq.com/ScribdInc/0a5b7c59-fe6e-43f6-8c0d-b0415a5ff1bd",
+          "applyUrl": "https://jobs.ashbyhq.com/ScribdInc/0a5b7c59-fe6e-43f6-8c0d-b0415a5ff1bd/application",
+          "descriptionHtml": "<p style=\"min-height:1.5em\">Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.</p><p style=\"min-height:1.5em\"></p><h2><strong>Culture at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\">We support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">So what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This posting reflects an approved, open position within the organization.</p><p style=\"min-height:1.5em\"></p><h3><strong>About the Role</strong></h3><p style=\"min-height:1.5em\">We're seeking an experienced Senior Paid Social Manager to join our performance marketing team, focusing on scaling our presence across Meta, TikTok, Reddit, and exploring other emerging social platforms. This role will be instrumental in driving user acquisition for our Everand and Fable products through social advertising strategies.</p><p style=\"min-height:1.5em\"></p><h3><strong>What you’ll do:</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own and optimize paid social advertising budgets across Meta, TikTok, Reddit, and other social platforms for web and mobile app campaigns</p></li><li><p style=\"min-height:1.5em\">Develop and execute paid social strategies aligned with our growth objectives and brand guidelines</p></li><li><p style=\"min-height:1.5em\">Build and maintain sophisticated audience targeting frameworks, sustaining results through platform shifts and creative fatigue</p></li><li><p style=\"min-height:1.5em\">Design and execute structured testing plans across bidding models, creative formats, and audience strategies; produce durable test plans and playbooks the team can reuse</p></li><li><p style=\"min-height:1.5em\">Collaborate with Creative to develop high-performing ad content, influencing briefs with performance data</p></li><li><p style=\"min-height:1.5em\">Leverage AI tools to accelerate experimentation and creative iteration. Ex: concept generation, dynamic creative optimization (DCO), and performance prediction to expand test velocity</p></li><li><p style=\"min-height:1.5em\">Lead learning reviews and document test results so insights are actionable and built into future planning cycles</p></li><li><p style=\"min-height:1.5em\">Partner with Product and Engineering to identify landing page friction points, propose A/B test hypotheses, and own a CRO testing roadmap across landing pages</p></li><li><p style=\"min-height:1.5em\">Analyze funnel performance from ad click through to subscription activation, connecting paid media inputs to downstream conversion outcomes</p></li><li><p style=\"min-height:1.5em\">Partner with data science to develop attribution models, incrementality tests, and LTV signaling pipelines</p></li><li><p style=\"min-height:1.5em\">Own regular analytics and reporting; effectively communicate performance, wins, and challenges to stakeholders</p></li></ul><p style=\"min-height:1.5em\"></p><h3><strong>Who you are:</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">6+ years of experience managing paid social campaigns, with at least 3 years focused on subscription or D2C products</p></li><li><p style=\"min-height:1.5em\">Proven track record of scaling social advertising spend efficiently while maintaining or improving LTV:CAC</p></li><li><p style=\"min-height:1.5em\">Deep expertise in Meta Ads Manager, TikTok Ads, and Reddit Ads platforms, including structured testing across bidding, creative, and audience</p></li><li><p style=\"min-height:1.5em\">Strong understanding of conversion optimization, audience targeting, and creative testing methodologies</p></li><li><p style=\"min-height:1.5em\">Experience with attribution models and incrementality testing; able to pressure-test data and validate what actually drove performance before scaling</p></li><li><p style=\"min-height:1.5em\">In-depth understanding of automated bid strategies with experience optimizing toward CPA or ROAS goals</p></li><li><p style=\"min-height:1.5em\">Comfortable using AI tools in your day-to-day workflow (Ex: for creative concepting, performance analysis, or experimentation) and genuinely curious about how emerging tools change what's possible</p></li><li><p style=\"min-height:1.5em\">Excellent analytical skills with proficiency in data visualization tools</p></li><li><p style=\"min-height:1.5em\">Track record of cross-functional collaboration and stakeholder management</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h3><strong>Preferred Qualifications</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience marketing subscription products or digital content services</p></li><li><p style=\"min-height:1.5em\">Google Tag Manager experience</p></li><li><p style=\"min-height:1.5em\">Familiarity with mobile app marketing and app store optimization</p></li><li><p style=\"min-height:1.5em\">Familiarity and eagerness to work with AI tools</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">At Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the state of California, the reasonably expected salary range is between $107,500 [minimum salary in our lowest geographic market within California] to $165,000 [maximum salary in our highest geographic market within California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the United States, outside of California, the reasonably expected salary range is between $89,000 [minimum salary in our lowest US geographic market outside of California] to $156,000 [maximum salary in our highest US geographic market outside of California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In Canada, the reasonably expected salary range is between $113,000 CAD[minimum salary in our lowest geographic market] to $144,000 CAD[maximum salary in our highest geographic market].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">We carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.</p><p style=\"min-height:1.5em\"></p><h2><strong>Working at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\"><strong>Are you currently based in a location where Scribd, Inc. can employ you? </strong><br />Employees must have their <strong>primary residence in or near</strong> one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:</p><p style=\"min-height:1.5em\"><br /><strong><u>United States</u>: </strong></p><p style=\"min-height:1.5em\">Atlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Canada</u>: </strong></p><p style=\"min-height:1.5em\">Ottawa | Toronto | Vancouver</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Mexico</u>: </strong></p><p style=\"min-height:1.5em\">Mexico City</p><h2></h2><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Benefits at Scribd, Inc.</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Scribd Flex (flexible work model)</p></li><li><p style=\"min-height:1.5em\">Comprehensive health, dental, and vision coverage</p></li><li><p style=\"min-height:1.5em\">Mental health support and disability coverage</p></li><li><p style=\"min-height:1.5em\">Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals</p></li><li><p style=\"min-height:1.5em\">Paid parental leave and family support benefits</p></li><li><p style=\"min-height:1.5em\">Retirement matching and employee equity</p></li><li><p style=\"min-height:1.5em\">Learning and development programs and professional growth opportunities</p></li><li><p style=\"min-height:1.5em\">Wellness and home office stipends</p></li><li><p style=\"min-height:1.5em\">Complimentary access to the Scribd, Inc. suite of products</p></li><li><p style=\"min-height:1.5em\">Enterprise access to leading AI tools</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Get to Know Scribd, Inc.</strong><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.scribdinc.com/about\"><strong>About Scribd, Inc.</strong></a><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bit.ly/ScribdonLinkedin\"><strong>Life at Scribd, Inc.</strong></a></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><em>We want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.</em></p><p style=\"min-height:1.5em\"><em>If you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection\"><em><u>here</u></em></a><em>.</em></p><p style=\"min-height:1.5em\"><em>Scribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful.</em></p>",
+          "descriptionPlain": "Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.\n\n\n\n\nCULTURE AT SCRIBD, INC.\n\nWe support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.\n\n\n\nWe believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.\n\n\n\nSo what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.\n\n\n\nThis posting reflects an approved, open position within the organization.\n\n\n\n\nABOUT THE ROLE\n\nWe're seeking an experienced Senior Paid Social Manager to join our performance marketing team, focusing on scaling our presence across Meta, TikTok, Reddit, and exploring other emerging social platforms. This role will be instrumental in driving user acquisition for our Everand and Fable products through social advertising strategies.\n\n\n\n\nWHAT YOU’LL DO:\n\n - Own and optimize paid social advertising budgets across Meta, TikTok, Reddit, and other social platforms for web and mobile app campaigns\n\n - Develop and execute paid social strategies aligned with our growth objectives and brand guidelines\n\n - Build and maintain sophisticated audience targeting frameworks, sustaining results through platform shifts and creative fatigue\n\n - Design and execute structured testing plans across bidding models, creative formats, and audience strategies; produce durable test plans and playbooks the team can reuse\n\n - Collaborate with Creative to develop high-performing ad content, influencing briefs with performance data\n\n - Leverage AI tools to accelerate experimentation and creative iteration. Ex: concept generation, dynamic creative optimization (DCO), and performance prediction to expand test velocity\n\n - Lead learning reviews and document test results so insights are actionable and built into future planning cycles\n\n - Partner with Product and Engineering to identify landing page friction points, propose A/B test hypotheses, and own a CRO testing roadmap across landing pages\n\n - Analyze funnel performance from ad click through to subscription activation, connecting paid media inputs to downstream conversion outcomes\n\n - Partner with data science to develop attribution models, incrementality tests, and LTV signaling pipelines\n\n - Own regular analytics and reporting; effectively communicate performance, wins, and challenges to stakeholders\n\n\n\n\nWHO YOU ARE:\n\n - 6+ years of experience managing paid social campaigns, with at least 3 years focused on subscription or D2C products\n\n - Proven track record of scaling social advertising spend efficiently while maintaining or improving LTV:CAC\n\n - Deep expertise in Meta Ads Manager, TikTok Ads, and Reddit Ads platforms, including structured testing across bidding, creative, and audience\n\n - Strong understanding of conversion optimization, audience targeting, and creative testing methodologies\n\n - Experience with attribution models and incrementality testing; able to pressure-test data and validate what actually drove performance before scaling\n\n - In-depth understanding of automated bid strategies with experience optimizing toward CPA or ROAS goals\n\n - Comfortable using AI tools in your day-to-day workflow (Ex: for creative concepting, performance analysis, or experimentation) and genuinely curious about how emerging tools change what's possible\n\n - Excellent analytical skills with proficiency in data visualization tools\n\n - Track record of cross-functional collaboration and stakeholder management\n\n \n\n\nPREFERRED QUALIFICATIONS\n\n - Experience marketing subscription products or digital content services\n\n - Google Tag Manager experience\n\n - Familiarity with mobile app marketing and app store optimization\n\n - Familiarity and eagerness to work with AI tools\n\n\n\nAt Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.\n\n \n\nIn the state of California, the reasonably expected salary range is between $107,500 [minimum salary in our lowest geographic market within California] to $165,000 [maximum salary in our highest geographic market within California].\n\n \n\nIn the United States, outside of California, the reasonably expected salary range is between $89,000 [minimum salary in our lowest US geographic market outside of California] to $156,000 [maximum salary in our highest US geographic market outside of California].\n\n \n\nIn Canada, the reasonably expected salary range is between $113,000 CAD[minimum salary in our lowest geographic market] to $144,000 CAD[maximum salary in our highest geographic market].\n\n \n\nWe carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.\n\n\n\n\nWORKING AT SCRIBD, INC.\n\nAre you currently based in a location where Scribd, Inc. can employ you? \nEmployees must have their primary residence in or near one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:\n\n\nUnited States: \n\nAtlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.\n\n\n\nCanada: \n\nOttawa | Toronto | Vancouver\n\n\n\nMexico: \n\nMexico City\n\n\n\n\n\n\nBenefits at Scribd, Inc.\n\n - Scribd Flex (flexible work model)\n\n - Comprehensive health, dental, and vision coverage\n\n - Mental health support and disability coverage\n\n - Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals\n\n - Paid parental leave and family support benefits\n\n - Retirement matching and employee equity\n\n - Learning and development programs and professional growth opportunities\n\n - Wellness and home office stipends\n\n - Complimentary access to the Scribd, Inc. suite of products\n\n - Enterprise access to leading AI tools\n   \n   \n\nGet to Know Scribd, Inc.\nAbout Scribd, Inc. https://www.scribdinc.com/about\nLife at Scribd, Inc. https://bit.ly/ScribdonLinkedin\n\n\n\nWe want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.\n\nIf you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available here https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection.\n\nScribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful."
+        },
+        {
+          "id": "15d3b241-e147-4d20-a1a2-ed28f2c75fae",
+          "title": "Software Engineer II (Fullstack), Growth Platform",
+          "department": "Engineering",
+          "team": "Growth Engineering",
+          "employmentType": "FullTime",
+          "location": "San Francisco",
+          "secondaryLocations": [
+            {
+              "location": "Toronto",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Ontario",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Toronto"
+                }
+              }
+            },
+            {
+              "location": "Los Angeles",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "California",
+                  "addressCountry": "United States",
+                  "addressLocality": "Los Angeles"
+                }
+              }
+            },
+            {
+              "location": "Denver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Colorado",
+                  "addressCountry": "United States",
+                  "addressLocality": "Denver"
+                }
+              }
+            },
+            {
+              "location": "Chicago",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Illinois ",
+                  "addressCountry": "United States",
+                  "addressLocality": "Chicago"
+                }
+              }
+            },
+            {
+              "location": "New York City",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "New York",
+                  "addressCountry": "United States",
+                  "addressLocality": "New York City"
+                }
+              }
+            },
+            {
+              "location": "Vancouver",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "British Columbia",
+                  "addressCountry": "Canada",
+                  "addressLocality": "Vancouver"
+                }
+              }
+            },
+            {
+              "location": "Seattle",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Washington",
+                  "addressCountry": "United States",
+                  "addressLocality": "Seattle"
+                }
+              }
+            },
+            {
+              "location": "Austin",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Austin"
+                }
+              }
+            },
+            {
+              "location": "Boston",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Massachusetts",
+                  "addressCountry": "United States",
+                  "addressLocality": "Boston"
+                }
+              }
+            },
+            {
+              "location": "Dallas",
+              "address": {
+                "postalAddress": {
+                  "addressRegion": "Texas",
+                  "addressCountry": "United States",
+                  "addressLocality": "Dallas"
+                }
+              }
+            }
+          ],
+          "publishedAt": "2026-10-02T00:27:28.266+00:00",
+          "isListed": true,
+          "isRemote": null,
+          "workplaceType": null,
+          "address": {
+            "postalAddress": {
+              "addressRegion": "California",
+              "addressCountry": "United States",
+              "addressLocality": "San Francisco"
+            }
+          },
+          "jobUrl": "https://jobs.ashbyhq.com/ScribdInc/15d3b241-e147-4d20-a1a2-ed28f2c75fae",
+          "applyUrl": "https://jobs.ashbyhq.com/ScribdInc/15d3b241-e147-4d20-a1a2-ed28f2c75fae/application",
+          "descriptionHtml": "<p style=\"min-height:1.5em\">Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.</p><p style=\"min-height:1.5em\"></p><h2><strong>Culture at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\">We support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">So what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This posting reflects an approved, open position within the organization.</p><p style=\"min-height:1.5em\"></p><h3><strong>About Our Team</strong></h3><p style=\"min-height:1.5em\">The Growth Platform team is the infrastructure squad for Growth at Scribd. We build the shared services and tooling that the other Growth teams build on, and we empower marketers, lifecycle teams, and partner channels by delivering MarTech solutions that drive efficiency, data-informed decisions, and scalable user acquisition across our brands: Scribd, Everand, Slideshare, and Fable.</p><p style=\"min-height:1.5em\">Our work spans self-service tooling, experimentation infrastructure, acquisition tracking and attribution, and integrations that share customer and event data with third-party platforms. Because we're a platform team, a lot of what we build ships through other teams' products, so we care about reliability and scalability, and about making our systems easy for others to build on. The team values collaboration, pragmatic problem-solving, and a culture of technical excellence.</p><p style=\"min-height:1.5em\"></p><h3><strong>About the Role</strong></h3><p style=\"min-height:1.5em\">We are seeking a determined Fullstack Software Engineer to join our Growth Platform team. In this role, you will design, build, and scale the shared systems that power Growth at Scribd, from self-service tooling and experimentation infrastructure to the data integrations behind our lifecycle marketing.</p><p style=\"min-height:1.5em\">You will partner closely with marketers, data analysts, lifecycle teams, and the other Growth engineering teams to deliver high-quality solutions that enhance cross-channel marketing effectiveness, attribution accuracy, and customer engagement. You’ll participate in technical design, code reviews, and best practice implementation while identifying opportunities to improve systems and processes.</p><p style=\"min-height:1.5em\">Key areas of responsibility include:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Building intuitive, performant self-service tools that let marketers and other teams move without engineering help.</p></li><li><p style=\"min-height:1.5em\">Building and maintaining integrations that share customer and event data with third-party platforms, including our lifecycle marketing tools.</p></li><li><p style=\"min-height:1.5em\">Ensuring scalability, testability, and maintainability throughout the development process.</p></li><li><p style=\"min-height:1.5em\">Collaborating across teams to drive impactful projects forward.</p></li><li><p style=\"min-height:1.5em\">Staying proactive by proposing innovative solutions to technical challenges.</p></li></ul><h3>What We’re Looking For</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A passionate engineer who takes pride in writing clean, maintainable, and scalable code.</p></li><li><p style=\"min-height:1.5em\">Someone who thrives in both backend system design and frontend feature development.</p></li><li><p style=\"min-height:1.5em\">A strong communicator and collaborator who enjoys working with marketers, data scientists, product managers, and engineers across the Growth Pillar to develop high-leverage, self-service tools and data activation workflows.</p></li><li><p style=\"min-height:1.5em\">An engineer who stays current with industry trends and technologies.</p></li><li><p style=\"min-height:1.5em\">A pragmatic problem-solver who balances technical rigor with business needs.</p></li></ul><h3>Required Qualifications</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">3+ years of professional software development experience.</p></li><li><p style=\"min-height:1.5em\">Proficiency with TypeScript, JavaScript, and modern frameworks like React.</p></li><li><p style=\"min-height:1.5em\">Familiarity with Ruby on Rails and its ecosystem.</p></li><li><p style=\"min-height:1.5em\">Understanding of database systems (SQL and NoSQL) and architectural tradeoffs.</p></li><li><p style=\"min-height:1.5em\">Experience designing and consuming APIs (REST, GraphQL a plus).</p></li><li><p style=\"min-height:1.5em\">Understanding of experimentation, A/B testing, personalization systems, and the MarTech landscape.</p></li><li><p style=\"min-height:1.5em\">Communicates clearly and frequently with cross-functional partners, influencing through technical depth and collaborative decision-making.</p></li><li><p style=\"min-height:1.5em\">Strong problem-solving skills and attention to detail.</p></li></ul><h3>Nice to Have</h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with instrumenting and working on data integration projects, such as event tracking, data pipelines, or syncing user data between internal systems and third-party platforms.</p></li><li><p style=\"min-height:1.5em\">Have worked in a Growth Engineering or Growth Platform team at a product-led company.</p></li><li><p style=\"min-height:1.5em\">Experience with backend technologies like Redis, Kafka, MySQL, and Terraform.</p></li><li><p style=\"min-height:1.5em\">Knowledge of GraphQL and Next.js.</p></li><li><p style=\"min-height:1.5em\">Familiarity with migrating monolithic architectures to microservices/frontends.</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\">At Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the state of California, the reasonably expected salary range is between $132,500 [minimum salary in our lowest geographic market within California] to $184,000 [maximum salary in our highest geographic market within California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In the United States, outside of California, the reasonably expected salary range is between $103,000 [minimum salary in our lowest US geographic market outside of California] to $175,000 [maximum salary in our highest US geographic market outside of California].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">In Canada, the reasonably expected salary range is between $132,000 CAD[minimum salary in our lowest geographic market] to $165,000 CAD[maximum salary in our highest geographic market].</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><p style=\"min-height:1.5em\">We carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><h2><strong>Working at Scribd, Inc.</strong></h2><p style=\"min-height:1.5em\"><strong>Are you currently based in a location where Scribd, Inc. can employ you? </strong><br />Employees must have their <strong>primary residence in or near</strong> one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:</p><p style=\"min-height:1.5em\"><br /><strong><u>United States</u>: </strong></p><p style=\"min-height:1.5em\">Atlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Canada</u>: </strong></p><p style=\"min-height:1.5em\">Ottawa | Toronto | Vancouver</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong><u>Mexico</u>: </strong></p><p style=\"min-height:1.5em\">Mexico City</p><h2></h2><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Benefits at Scribd, Inc.</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Scribd Flex (flexible work model)</p></li><li><p style=\"min-height:1.5em\">Comprehensive health, dental, and vision coverage</p></li><li><p style=\"min-height:1.5em\">Mental health support and disability coverage</p></li><li><p style=\"min-height:1.5em\">Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals</p></li><li><p style=\"min-height:1.5em\">Paid parental leave and family support benefits</p></li><li><p style=\"min-height:1.5em\">Retirement matching and employee equity</p></li><li><p style=\"min-height:1.5em\">Learning and development programs and professional growth opportunities</p></li><li><p style=\"min-height:1.5em\">Wellness and home office stipends</p></li><li><p style=\"min-height:1.5em\">Complimentary access to the Scribd, Inc. suite of products</p></li><li><p style=\"min-height:1.5em\">Enterprise access to leading AI tools</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Get to Know Scribd, Inc.</strong><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.scribdinc.com/about\"><strong>About Scribd, Inc.</strong></a><br /><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bit.ly/ScribdonLinkedin\"><strong>Life at Scribd, Inc.</strong></a></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><em>We want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.</em></p><p style=\"min-height:1.5em\"><em>If you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection\"><em><u>here</u></em></a><em>.</em></p><p style=\"min-height:1.5em\"><em>Scribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful.</em></p>",
+          "descriptionPlain": "Scribd, Inc. is on a mission to advance human understanding. Our four products — Scribd®, Slideshare®, Everand™, and Fable — help billions of people across the globe move beyond access and into insight, application, and expertise.\n\n\n\n\nCULTURE AT SCRIBD, INC.\n\nWe support a culture where our employees can be real and be bold; where we debate and commit as we embrace plot twists; and where every employee is empowered to take action as we prioritize the customer.\n\n\n\nWe believe the best work happens when individual flexibility is balanced with meaningful community connection. Scribd Flex empowers employees to choose the workstyle and location that support their best performance, while committing to intentional in-person moments that strengthen collaboration and culture. Occasional in-person attendance is required for all Scribd, Inc. employees, regardless of location.\n\n\n\nSo what are we looking for in new team members? At Scribd, Inc., we hire for “GRIT.” Traditionally defined as the intersection of passion and perseverance toward long-term goals, GRIT reflects the mindset we expect from every employee. For us, it also serves as a practical framework for how we work: setting and achieving Goals, delivering Results within your role, contributing Innovative ideas and solutions, and strengthening the broader Team through collaboration and attitude.\n\n\n\nThis posting reflects an approved, open position within the organization.\n\n\n\n\nABOUT OUR TEAM\n\nThe Growth Platform team is the infrastructure squad for Growth at Scribd. We build the shared services and tooling that the other Growth teams build on, and we empower marketers, lifecycle teams, and partner channels by delivering MarTech solutions that drive efficiency, data-informed decisions, and scalable user acquisition across our brands: Scribd, Everand, Slideshare, and Fable.\n\nOur work spans self-service tooling, experimentation infrastructure, acquisition tracking and attribution, and integrations that share customer and event data with third-party platforms. Because we're a platform team, a lot of what we build ships through other teams' products, so we care about reliability and scalability, and about making our systems easy for others to build on. The team values collaboration, pragmatic problem-solving, and a culture of technical excellence.\n\n\n\n\nABOUT THE ROLE\n\nWe are seeking a determined Fullstack Software Engineer to join our Growth Platform team. In this role, you will design, build, and scale the shared systems that power Growth at Scribd, from self-service tooling and experimentation infrastructure to the data integrations behind our lifecycle marketing.\n\nYou will partner closely with marketers, data analysts, lifecycle teams, and the other Growth engineering teams to deliver high-quality solutions that enhance cross-channel marketing effectiveness, attribution accuracy, and customer engagement. You’ll participate in technical design, code reviews, and best practice implementation while identifying opportunities to improve systems and processes.\n\nKey areas of responsibility include:\n\n - Building intuitive, performant self-service tools that let marketers and other teams move without engineering help.\n\n - Building and maintaining integrations that share customer and event data with third-party platforms, including our lifecycle marketing tools.\n\n - Ensuring scalability, testability, and maintainability throughout the development process.\n\n - Collaborating across teams to drive impactful projects forward.\n\n - Staying proactive by proposing innovative solutions to technical challenges.\n\n\nWHAT WE’RE LOOKING FOR\n\n - A passionate engineer who takes pride in writing clean, maintainable, and scalable code.\n\n - Someone who thrives in both backend system design and frontend feature development.\n\n - A strong communicator and collaborator who enjoys working with marketers, data scientists, product managers, and engineers across the Growth Pillar to develop high-leverage, self-service tools and data activation workflows.\n\n - An engineer who stays current with industry trends and technologies.\n\n - A pragmatic problem-solver who balances technical rigor with business needs.\n\n\nREQUIRED QUALIFICATIONS\n\n - 3+ years of professional software development experience.\n\n - Proficiency with TypeScript, JavaScript, and modern frameworks like React.\n\n - Familiarity with Ruby on Rails and its ecosystem.\n\n - Understanding of database systems (SQL and NoSQL) and architectural tradeoffs.\n\n - Experience designing and consuming APIs (REST, GraphQL a plus).\n\n - Understanding of experimentation, A/B testing, personalization systems, and the MarTech landscape.\n\n - Communicates clearly and frequently with cross-functional partners, influencing through technical depth and collaborative decision-making.\n\n - Strong problem-solving skills and attention to detail.\n\n\nNICE TO HAVE\n\n - Experience with instrumenting and working on data integration projects, such as event tracking, data pipelines, or syncing user data between internal systems and third-party platforms.\n\n - Have worked in a Growth Engineering or Growth Platform team at a product-led company.\n\n - Experience with backend technologies like Redis, Kafka, MySQL, and Terraform.\n\n - Knowledge of GraphQL and Next.js.\n\n - Familiarity with migrating monolithic architectures to microservices/frontends.\n   \n   \n\nAt Scribd, Inc., your base pay is one part of your total compensation package and is determined within a range. Our pay ranges are based on the local cost of labor benchmarks for each specific role, level, and geographic location. San Francisco is our highest geographic market in the United States.\n\n \n\nIn the state of California, the reasonably expected salary range is between $132,500 [minimum salary in our lowest geographic market within California] to $184,000 [maximum salary in our highest geographic market within California].\n\n \n\nIn the United States, outside of California, the reasonably expected salary range is between $103,000 [minimum salary in our lowest US geographic market outside of California] to $175,000 [maximum salary in our highest US geographic market outside of California].\n\n \n\nIn Canada, the reasonably expected salary range is between $132,000 CAD[minimum salary in our lowest geographic market] to $165,000 CAD[maximum salary in our highest geographic market].\n\n \n\nWe carefully consider a wide range of factors when determining compensation, including but not limited to experience; job-related skill sets; relevant education or training; and other business and organizational needs. The salary range listed is for the level at which this job has been scoped. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for a competitive equity ownership, and a comprehensive and generous benefits package.\n\n\n\n\n\n\nWORKING AT SCRIBD, INC.\n\nAre you currently based in a location where Scribd, Inc. can employ you? \nEmployees must have their primary residence in or near one of the following cities. This includes surrounding metro areas or locations within a typical commuting distance:\n\n\nUnited States: \n\nAtlanta | Austin | Boston | Dallas | Denver | Chicago | Houston | Jacksonville | Los Angeles | Miami | New York City | Phoenix | Portland | Sacramento | Salt Lake City | San Diego | San Francisco | Seattle | Washington D.C.\n\n\n\nCanada: \n\nOttawa | Toronto | Vancouver\n\n\n\nMexico: \n\nMexico City\n\n\n\n\n\n\nBenefits at Scribd, Inc.\n\n - Scribd Flex (flexible work model)\n\n - Comprehensive health, dental, and vision coverage\n\n - Mental health support and disability coverage\n\n - Generous paid time off, including vacation, sick time, holidays, winter break, volunteer time, and sabbaticals\n\n - Paid parental leave and family support benefits\n\n - Retirement matching and employee equity\n\n - Learning and development programs and professional growth opportunities\n\n - Wellness and home office stipends\n\n - Complimentary access to the Scribd, Inc. suite of products\n\n - Enterprise access to leading AI tools\n   \n   \n\nGet to Know Scribd, Inc.\nAbout Scribd, Inc. https://www.scribdinc.com/about\nLife at Scribd, Inc. https://bit.ly/ScribdonLinkedin\n\n\n\nWe want our interview process to be accessible to everyone. You can inform us of any reasonable adjustments we can make to better accommodate your needs by emailing accommodations@scribd.com about the need for adjustments at any point in the interview process.\n\nIf you apply for a job with Scribd, Inc. or otherwise engage with us in connection with employment (including as an employee, contractor, or other personnel), the personal information we process in that context is subject to our Employee and Applicant Privacy Policy, which is available here https://support.scribd.com/hc/en-us/articles/49754646187284-Employee-and-Applicant-Privacy-Policy-and-Notice-at-Collection.\n\nScribd, Inc. is committed to equal employment opportunity regardless of race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. We encourage people of all backgrounds to apply, and believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful."
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://scribd.com",
+    "explanation": "Official employer homepage: https://scribd.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.ashbyhq.com/ScribdInc/4a1a7e7b-11bd-4720-a49b-ac821555b4dc",
+      "https://jobs.ashbyhq.com/ScribdInc/0a5b7c59-fe6e-43f6-8c0d-b0415a5ff1bd",
+      "https://jobs.ashbyhq.com/ScribdInc/15d3b241-e147-4d20-a1a2-ed28f2c75fae"
+    ]
+  }
+}

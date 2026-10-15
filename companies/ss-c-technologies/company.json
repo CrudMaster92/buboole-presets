@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ss-c-technologies",
+  "name": "SS&C Technologies",
+  "aliases": [],
+  "website_url": "https://ssctech.com",
+  "logo_url": "https://www.ssctech.com/hubfs/favicon-ssctech-2021@48px.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

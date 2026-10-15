@@ -1,0 +1,196 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "flighthub",
+    "name": "FlightHub",
+    "aliases": [],
+    "website_url": "https://flighthub.com",
+    "logo_url": "https://www.flighthub.com/images/logo.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "flighthub",
+    "company_id": "flighthub",
+    "revision": 1,
+    "label": "FlightHub public careers",
+    "careers_url": "https://job-boards.greenhouse.io/flighthub",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "FlightHub",
+      "careers_url": "https://job-boards.greenhouse.io/flighthub",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/flighthub/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/flighthub/jobs",
+    "fetched_at": "2026-10-15T17:40:55.621634+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/flighthub/jobs/7943515",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3450631,
+          "location": {
+            "name": "Montreal, Quebec"
+          },
+          "metadata": [
+            {
+              "id": 26209357,
+              "name": "Language",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 7943515,
+          "updated_at": "2026-09-30T11:18:59-04:00",
+          "requisition_id": null,
+          "title": "AI Mobile Application Coder / Développeur d’applications mobiles IA",
+          "company_name": "FlightHub",
+          "first_published": "2026-05-19T14:30:13-04:00",
+          "language": "fr",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/flighthub/jobs/8089316",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3504684,
+          "location": {
+            "name": "Montreal, Quebec"
+          },
+          "metadata": [
+            {
+              "id": 26209357,
+              "name": "Language",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8089316,
+          "updated_at": "2026-09-15T15:37:27-04:00",
+          "requisition_id": null,
+          "title": "Customer Service Team Lead / Chef d'équipe du service à la clientèle",
+          "company_name": "FlightHub",
+          "first_published": "2026-07-27T14:25:45-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/flighthub/jobs/8103084",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3510474,
+          "location": {
+            "name": "Montreal, Quebec"
+          },
+          "metadata": [
+            {
+              "id": 26209357,
+              "name": "Language",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8103084,
+          "updated_at": "2026-09-30T11:18:30-04:00",
+          "requisition_id": null,
+          "title": "Digital Marketing Specialist  / Spécialiste du marketing numérique ",
+          "company_name": "FlightHub",
+          "first_published": "2026-08-03T10:57:21-04:00",
+          "language": "fr",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://flighthub.com",
+    "explanation": "Official employer homepage: https://flighthub.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/flighthub/jobs/7943515",
+      "https://job-boards.greenhouse.io/flighthub/jobs/8089316",
+      "https://job-boards.greenhouse.io/flighthub/jobs/8103084"
+    ]
+  }
+}

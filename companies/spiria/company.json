@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "spiria",
+  "name": "Spiria",
+  "aliases": [],
+  "website_url": "https://spiria.com",
+  "logo_url": "https://cdn.prod.website-files.com/67c06f07cfba9b0adb43e16c/67eeefed3cfa486f904d0594_favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

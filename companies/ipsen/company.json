@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ipsen",
+  "name": "Ipsen",
+  "aliases": [],
+  "website_url": "https://ipsen.com",
+  "logo_url": "https://www.ipsen.com/wp-content/client-mu-plugins/dist/images/favicon/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

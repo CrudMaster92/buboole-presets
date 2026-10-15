@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "halton-healthcare",
+  "name": "Halton Healthcare",
+  "aliases": [],
+  "website_url": "https://haltonhealthcare.on.ca",
+  "logo_url": "https://www.haltonhealthcare.on.ca/site_Files/Content/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

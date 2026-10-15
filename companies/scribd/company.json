@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "scribd",
+  "name": "Scribd",
+  "aliases": [],
+  "website_url": "https://scribd.com",
+  "logo_url": "https://cdn.prod.website-files.com/6966ac99f846f9e44e0594ea/698d131f1234a138f9a1e854_Favicon%20Sml.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

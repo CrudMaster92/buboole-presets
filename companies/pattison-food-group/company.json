@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pattison-food-group",
+  "name": "Pattison Food Group",
+  "aliases": [],
+  "website_url": "https://pattisonfoodgroup.com",
+  "logo_url": "https://pattisonfoodgroup.com/wp-content/uploads/2021/10/favicon-1.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

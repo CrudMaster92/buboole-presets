@@ -1,0 +1,410 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "canonical",
+    "name": "Canonical",
+    "aliases": [],
+    "website_url": "https://canonical.com",
+    "logo_url": "https://assets.ubuntu.com/v1/f38b9c7e-COF%20apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "canonical",
+    "company_id": "canonical",
+    "revision": 1,
+    "label": "Canonical public careers",
+    "careers_url": "https://job-boards.greenhouse.io/canonical",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Canonical",
+      "careers_url": "https://job-boards.greenhouse.io/canonical",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/canonical/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/canonical/jobs",
+    "fetched_at": "2026-10-15T18:26:24.440260+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/5569916",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 2108576,
+          "location": {
+            "name": "Home based - EMEA"
+          },
+          "metadata": [
+            {
+              "id": 186225,
+              "name": "People management responsibilities?",
+              "value": false,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 149021,
+              "name": "Employment Length",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 675557,
+              "name": "Core skills",
+              "value": [
+                "Analysers",
+                "Conscience",
+                "Fixer",
+                "Organiser",
+                "Planner",
+                "Problem Solver",
+                "Stalwart",
+                "Tester"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739136,
+              "name": "External Departments (website)",
+              "value": [
+                "Finance"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739137,
+              "name": "One line job description",
+              "value": "Join our global accounting team ensuring financial rigour worldwide",
+              "value_type": "long_text"
+            },
+            {
+              "id": 3209541,
+              "name": "Canonical site",
+              "value": [],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 3587161,
+              "name": "LinkedIn Posting Level",
+              "value": "Associate",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11961371,
+              "name": "Featured job (Talent Team to complete)",
+              "value": true,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 54742858,
+              "name": "Business Unit Type",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 54743567,
+              "name": "Req Category",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 56835606,
+              "name": "Discipline/Track",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 5569916,
+          "updated_at": "2026-08-05T18:23:33-04:00",
+          "requisition_id": "831",
+          "title": "Accountant",
+          "company_name": "Canonical",
+          "first_published": "2024-01-22T18:02:51-05:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/7971310",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 2230449,
+          "location": {
+            "name": "Home based - EMEA; Office Based - London, UK"
+          },
+          "metadata": [
+            {
+              "id": 186225,
+              "name": "People management responsibilities?",
+              "value": false,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 149021,
+              "name": "Employment Length",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 675557,
+              "name": "Core skills",
+              "value": [
+                "Analysers",
+                "Doer",
+                "Fixer",
+                "Helper",
+                "Organiser",
+                "Planner",
+                "Problem Solver"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739136,
+              "name": "External Departments (website)",
+              "value": [
+                "Finance"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739137,
+              "name": "One line job description",
+              "value": "Join our global accounting team ensuring financial rigour worldwide",
+              "value_type": "long_text"
+            },
+            {
+              "id": 3209541,
+              "name": "Canonical site",
+              "value": [],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 3587161,
+              "name": "LinkedIn Posting Level",
+              "value": "Entry level",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11961371,
+              "name": "Featured job (Talent Team to complete)",
+              "value": true,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 54742858,
+              "name": "Business Unit Type",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 54743567,
+              "name": "Req Category",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 56835606,
+              "name": "Discipline/Track",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 7971310,
+          "updated_at": "2026-10-02T10:59:56-04:00",
+          "requisition_id": "889",
+          "title": "Accounts Payable Clerk",
+          "company_name": "Canonical",
+          "first_published": "2026-05-31T15:37:49-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/5243483",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 2230449,
+          "location": {
+            "name": "Home based - EMEA"
+          },
+          "metadata": [
+            {
+              "id": 186225,
+              "name": "People management responsibilities?",
+              "value": false,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 149021,
+              "name": "Employment Length",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 675557,
+              "name": "Core skills",
+              "value": [
+                "Analysers",
+                "Doer",
+                "Fixer",
+                "Helper",
+                "Organiser",
+                "Planner",
+                "Problem Solver"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739136,
+              "name": "External Departments (website)",
+              "value": [
+                "Finance"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 2739137,
+              "name": "One line job description",
+              "value": "Join our global accounting team ensuring financial rigour worldwide",
+              "value_type": "long_text"
+            },
+            {
+              "id": 3209541,
+              "name": "Canonical site",
+              "value": [],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 3587161,
+              "name": "LinkedIn Posting Level",
+              "value": "Entry level",
+              "value_type": "single_select"
+            },
+            {
+              "id": 11961371,
+              "name": "Featured job (Talent Team to complete)",
+              "value": true,
+              "value_type": "yes_no"
+            },
+            {
+              "id": 54742858,
+              "name": "Business Unit Type",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 54743567,
+              "name": "Req Category",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 56835606,
+              "name": "Discipline/Track",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 5243483,
+          "updated_at": "2026-10-02T11:08:06-04:00",
+          "requisition_id": "889",
+          "title": "Accounts Receivable Clerk",
+          "company_name": "Canonical",
+          "first_published": "2023-07-27T16:52:55-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://canonical.com",
+    "explanation": "Official employer homepage: https://canonical.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/canonical/jobs/5569916",
+      "https://job-boards.greenhouse.io/canonical/jobs/7971310",
+      "https://job-boards.greenhouse.io/canonical/jobs/5243483"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "united-farmers-of-alberta",
+  "name": "United Farmers of Alberta",
+  "aliases": [],
+  "website_url": "https://ufa.com",
+  "logo_url": "https://ufa.com/_ui/responsive/theme-ufa/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

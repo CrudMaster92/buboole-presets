@@ -1,0 +1,239 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "pinterest",
+    "name": "Pinterest",
+    "aliases": [],
+    "website_url": "https://pinterest.com",
+    "logo_url": "https://www.pinterestcareers.com/images/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "pinterest",
+    "company_id": "pinterest",
+    "revision": 1,
+    "label": "Pinterest public careers",
+    "careers_url": "https://job-boards.greenhouse.io/pinterest",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Pinterest",
+      "careers_url": "https://job-boards.greenhouse.io/pinterest",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "www.pinterestcareers.com"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs",
+    "fetched_at": "2026-10-15T18:34:22.862424+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7488432",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3322455,
+          "location": {
+            "name": "San Francisco, CA, US; Remote, US"
+          },
+          "metadata": [
+            {
+              "id": 5955,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16373425,
+              "name": "Career Track",
+              "value": "Individual Contributor",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61175930,
+              "name": "Careers Page Department",
+              "value": [
+                "Engineering"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 7488432,
+          "updated_at": "2026-10-14T17:19:57-04:00",
+          "requisition_id": "R0006170",
+          "title": "Chief of Staff to GM, Ads",
+          "company_name": "Pinterest",
+          "first_published": "2026-10-14T17:19:57-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8135500",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3521784,
+          "location": {
+            "name": "Dublin, IE"
+          },
+          "metadata": [
+            {
+              "id": 5955,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16373425,
+              "name": "Career Track",
+              "value": "Individual Contributor",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61175930,
+              "name": "Careers Page Department",
+              "value": [
+                "Sales"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8135500,
+          "updated_at": "2026-10-06T08:14:26-04:00",
+          "requisition_id": "R0008113",
+          "title": "Client Account Manager, Enterprise Sales - Italian Market",
+          "company_name": "Pinterest",
+          "first_published": "2026-08-19T08:49:14-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8242487",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3566430,
+          "location": {
+            "name": "São Paulo, BR"
+          },
+          "metadata": [
+            {
+              "id": 5955,
+              "name": "Employment Type",
+              "value": "Temporary (Fixed Term)",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16373425,
+              "name": "Career Track",
+              "value": "Individual Contributor",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61175930,
+              "name": "Careers Page Department",
+              "value": [
+                "Sales"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8242487,
+          "updated_at": "2026-10-07T12:30:26-04:00",
+          "requisition_id": "R0008410",
+          "title": "Client Account Manager I (Fixed Term Contract)",
+          "company_name": "Pinterest",
+          "first_published": "2026-10-07T12:30:26-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://pinterest.com",
+    "explanation": "Official employer homepage: https://pinterest.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.pinterestcareers.com/jobs?gh_jid=7488432",
+      "https://www.pinterestcareers.com/jobs?gh_jid=8135500",
+      "https://www.pinterestcareers.com/jobs?gh_jid=8242487"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canonical",
+  "name": "Canonical",
+  "aliases": [],
+  "website_url": "https://canonical.com",
+  "logo_url": "https://assets.ubuntu.com/v1/f38b9c7e-COF%20apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

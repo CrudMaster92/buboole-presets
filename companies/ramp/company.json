@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ramp",
+  "name": "Ramp",
+  "aliases": [],
+  "website_url": "https://ramp.com",
+  "logo_url": "https://ramp.com/favicon.ico?favicon.1drlcmj-8oww8.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

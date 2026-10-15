@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-montoni",
+  "name": "Groupe Montoni",
+  "aliases": [],
+  "website_url": "https://groupemontoni.com",
+  "logo_url": "https://groupemontoni.com/favicon.ico?v=1",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

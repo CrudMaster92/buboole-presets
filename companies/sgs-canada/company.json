@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sgs-canada",
+  "name": "SGS",
+  "aliases": [],
+  "website_url": "https://sgs.com",
+  "logo_url": "https://www.sgs.com/icons/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

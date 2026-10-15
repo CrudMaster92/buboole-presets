@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "finastra",
+  "name": "Finastra",
+  "aliases": [],
+  "website_url": "https://finastra.com",
+  "logo_url": "https://www.finastra.com/sites/default/files/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

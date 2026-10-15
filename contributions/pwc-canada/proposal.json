@@ -1,0 +1,134 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "pwc-canada",
+    "name": "PwC",
+    "aliases": [],
+    "website_url": "https://pwc.com",
+    "logo_url": "https://www.pwc.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "pwc-canada",
+    "company_id": "pwc-canada",
+    "revision": 1,
+    "label": "PwC public careers",
+    "careers_url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Local listing traversal remained incomplete; collector must resume its checkpoint and must not close unseen roles.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "PwC",
+      "careers_url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "pwc.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "pwc",
+        "site": "Global_Experienced_Careers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
+    "fetched_at": "2026-10-15T18:23:23.718584+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Senior AI Consultant, AI Trust & Governance",
+          "externalPath": "/job/Brussels/Senior-AI-Consultant--AI-Trust---Governance_768257WD",
+          "timeType": "Full time",
+          "locationsText": "Brussels",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "768257WD"
+          ]
+        },
+        {
+          "title": "Indirect Tax – Payroll, Senior Associate (Bilingual ENG/FR)",
+          "externalPath": "/job/Toronto/Indirect-Tax---Payroll--Senior-Associate--Bilingual-ENG-FR-_767120WD",
+          "timeType": "Full time",
+          "locationsText": "9 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "767120WD"
+          ]
+        },
+        {
+          "title": "Real Estate Corporate Tax, Senior Manager",
+          "externalPath": "/job/Toronto/Real-Estate-Corporate-Tax--Senior-Manager_766188WD",
+          "timeType": "Full time",
+          "locationsText": "Toronto",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "766188WD"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://pwc.com",
+    "explanation": "Official employer homepage: https://pwc.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Transformation-Risk-and-Advisory-Manager_752009WD",
+      "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Project-Support-Office-Senior-Associate_765660WD",
+      "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Brussels/Senior-AI-Consultant--AI-Trust---Governance_768257WD"
+    ]
+  }
+}

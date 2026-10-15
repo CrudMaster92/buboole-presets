@@ -1,0 +1,99 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "carepartners",
+    "name": "CarePartners",
+    "aliases": [],
+    "website_url": "https://carepartners.ca",
+    "logo_url": "https://www.carepartners.ca/favicon/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "carepartners",
+    "company_id": "carepartners",
+    "revision": 1,
+    "label": "CarePartners public careers",
+    "careers_url": "https://careers-carepartners.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "CarePartners",
+      "careers_url": "https://careers-carepartners.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers-carepartners.icims.com"
+      ],
+      "request": {
+        "url": "https://careers-carepartners.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers-carepartners.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T18:28:32.133724+00:00",
+    "payload": "<html><body><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Stratford</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">ID</span>\n<span>\n2026-6068</span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-carepartners.icims.com/jobs/6068/team-coordinator---medical-scheduler/job?in_iframe=1\" title=\"6068 - Team Coordinator / Medical Scheduler\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nTeam Coordinator / Medical Scheduler</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nCarePartners is adding to our team and we are looking for Team Coordinators to ensure effective customer service and communication between patients, families, and staff. Our Team Coordinators ensure the scheduling of our PSWs, Nurses, and Therapists meets service delivery standards and administrative functions related to client services are performed in a timely manner.\r\n \r\nWe have an immediate Full-Time...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Category</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nAdministration</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Position Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nFull-Time</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Waterloo</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">ID</span>\n<span>\n2026-6067</span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-carepartners.icims.com/jobs/6067/manager%2c-coordination-excellence/job?in_iframe=1\" title=\"6067 - Manager, Coordination Excellence\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nManager, Coordination Excellence</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nWe are seeking a Manager, Coordination Excellence to lead the standardization, integration, and continuous improvement of coordination practices across Ontario. Supporting our nursing, therapy, and personal support service lines, this role will help ensure that coordination processes are efficient, consistent, and focused on delivering the best possible experience for patients, caregivers, and employees.\r\nReporting to the Director, Coordination Excellence, you will lead a team of coordination professionals and partner closely with operational...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Category</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nCorporate Services</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Uxbridge | CA-ON-Cannington | CA-ON-Port Perry | CA-ON-Beaverton</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">ID</span>\n<span>\n2026-6063</span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-carepartners.icims.com/jobs/6063/visiting-nurse--rn-rpn--community/job?in_iframe=1\" title=\"6063 - Visiting Nurse- RN/RPN- Community\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nVisiting Nurse- RN/RPN- Community</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nNurses working for us in community not only experience flexible scheduling and work-life balance, but they also appreciate the home care setting, where they develop meaningful therapeutic relationships with patients, while preserving patient dignity and privacy.\r\n \r\nWorking within an extremely supportive and collaborative environment focused exclusively on quality of patient care, community nurses have the chance to exercise their full scope of practice, pursue specialization and champion innovative,...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Category</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nNursing</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Position Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nCasual</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://carepartners.ca",
+    "explanation": "Official employer homepage: https://carepartners.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers-carepartners.icims.com/jobs/6068/team-coordinator---medical-scheduler/job?in_iframe=1",
+      "https://careers-carepartners.icims.com/jobs/6067/manager%2c-coordination-excellence/job?in_iframe=1",
+      "https://careers-carepartners.icims.com/jobs/6063/visiting-nurse--rn-rpn--community/job?in_iframe=1"
+    ]
+  }
+}

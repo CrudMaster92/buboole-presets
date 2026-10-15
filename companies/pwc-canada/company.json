@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pwc-canada",
+  "name": "PwC",
+  "aliases": [],
+  "website_url": "https://pwc.com",
+  "logo_url": "https://www.pwc.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

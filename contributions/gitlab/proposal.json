@@ -1,0 +1,196 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "gitlab",
+    "name": "GitLab",
+    "aliases": [],
+    "website_url": "https://gitlab.com",
+    "logo_url": "https://about.gitlab.com/images/ico/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "gitlab",
+    "company_id": "gitlab",
+    "revision": 1,
+    "label": "GitLab public careers",
+    "careers_url": "https://job-boards.greenhouse.io/gitlab",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "GitLab",
+      "careers_url": "https://job-boards.greenhouse.io/gitlab",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs",
+    "fetched_at": "2026-10-15T18:26:54.162219+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860302002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6547054002,
+          "location": {
+            "name": "Remote, France"
+          },
+          "metadata": [
+            {
+              "id": 4595831002,
+              "name": "Quota Coverage Type",
+              "value": "Account Executive",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8860302002,
+          "updated_at": "2026-10-02T11:31:50-04:00",
+          "requisition_id": "7109",
+          "title": "Account Executive - France",
+          "company_name": "GitLab",
+          "first_published": "2026-10-02T11:31:50-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8638232002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6449994002,
+          "location": {
+            "name": "Remote, United States"
+          },
+          "metadata": [
+            {
+              "id": 4595831002,
+              "name": "Quota Coverage Type",
+              "value": "n/a",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8638232002,
+          "updated_at": "2026-09-29T10:38:50-04:00",
+          "requisition_id": "6682",
+          "title": "AI Transformation Owner, CRO",
+          "company_name": "GitLab",
+          "first_published": "2026-07-22T13:38:40-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8716179002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 6483862002,
+          "location": {
+            "name": "Remote, Canada; Remote, United Kingdom; Remote, United States"
+          },
+          "metadata": [
+            {
+              "id": 4595831002,
+              "name": "Quota Coverage Type",
+              "value": "n/a",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8716179002,
+          "updated_at": "2026-09-29T10:38:50-04:00",
+          "requisition_id": "6821",
+          "title": "AI Transformation Owner, Product & Design",
+          "company_name": "GitLab",
+          "first_published": "2026-08-19T16:52:27-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://gitlab.com",
+    "explanation": "Official employer homepage: https://gitlab.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/gitlab/jobs/8860302002",
+      "https://job-boards.greenhouse.io/gitlab/jobs/8638232002",
+      "https://job-boards.greenhouse.io/gitlab/jobs/8716179002"
+    ]
+  }
+}

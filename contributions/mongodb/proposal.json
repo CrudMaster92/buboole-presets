@@ -1,0 +1,479 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "mongodb",
+    "name": "MongoDB",
+    "aliases": [],
+    "website_url": "https://mongodb.com",
+    "logo_url": "https://www.mongodb.com/assets/images/global/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "mongodb",
+    "company_id": "mongodb",
+    "revision": 1,
+    "label": "MongoDB public careers",
+    "careers_url": "https://job-boards.greenhouse.io/mongodb",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "MongoDB",
+      "careers_url": "https://job-boards.greenhouse.io/mongodb",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "www.mongodb.com"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+    "fetched_at": "2026-10-15T18:34:09.553655+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=8258279",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3573392,
+          "location": {
+            "name": "Dublin"
+          },
+          "metadata": [
+            {
+              "id": 22194060,
+              "name": "Position ID",
+              "value": "n/a",
+              "value_type": "short_text"
+            },
+            {
+              "id": 24918,
+              "name": "Department ID",
+              "value": "D26100-R&D Interns",
+              "value_type": "single_select"
+            },
+            {
+              "id": 22194061,
+              "name": "Team",
+              "value": "268-ENG Interns",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4914027,
+              "name": "Region",
+              "value": "EMEA",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4137836,
+              "name": "Working Model Eligibility",
+              "value": [
+                "1-In Office"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 4914029,
+              "name": "Job Level",
+              "value": "Intern",
+              "value_type": "single_select"
+            },
+            {
+              "id": 24109,
+              "name": "Employment Type",
+              "value": "Intern",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1073551,
+              "name": "Job Type",
+              "value": "Campus Intern",
+              "value_type": "single_select"
+            },
+            {
+              "id": 988684,
+              "name": "JD Link",
+              "value": "tbc.com",
+              "value_type": "url"
+            },
+            {
+              "id": 5525802,
+              "name": "Baseline Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 5525816,
+              "name": "Other Large Market Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 13324394,
+              "name": "Job Post Range (United States)",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.01",
+                "min_value": "0.01"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 40497768,
+              "name": "Job Post Range (Canada)",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 57694516,
+              "name": "Job Post Range (Poland)",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 64002488,
+              "name": "Job Post Range (Italy)",
+              "value": null,
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 8258279,
+          "updated_at": "2026-10-15T12:56:28-04:00",
+          "requisition_id": "426470",
+          "title": "2027 - Software Engineer Intern, Dublin - 6 Month Internship",
+          "company_name": "MongoDB",
+          "first_published": "2026-10-09T06:28:50-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=7318466",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3271434,
+          "location": {
+            "name": "Bengaluru"
+          },
+          "metadata": [
+            {
+              "id": 22194060,
+              "name": "Position ID",
+              "value": "N/A",
+              "value_type": "short_text"
+            },
+            {
+              "id": 24918,
+              "name": "Department ID",
+              "value": "D41350-Sales Dev(SDR)",
+              "value_type": "single_select"
+            },
+            {
+              "id": 22194061,
+              "name": "Team",
+              "value": "T10212-Sales Development RoW",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4914027,
+              "name": "Region",
+              "value": "APAC",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4137836,
+              "name": "Working Model Eligibility",
+              "value": [
+                "2-Flexible"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 4914029,
+              "name": "Job Level",
+              "value": "IC - Professional",
+              "value_type": "single_select"
+            },
+            {
+              "id": 24109,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1073551,
+              "name": "Job Type",
+              "value": "Pipeline",
+              "value_type": "single_select"
+            },
+            {
+              "id": 988684,
+              "name": "JD Link",
+              "value": "tbd.com",
+              "value_type": "url"
+            },
+            {
+              "id": 5525802,
+              "name": "Baseline Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 5525816,
+              "name": "Other Large Market Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 13324394,
+              "name": "Job Post Range (United States)",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.01",
+                "min_value": "0.01"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 40497768,
+              "name": "Job Post Range (Canada)",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 57694516,
+              "name": "Job Post Range (Poland)",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 64002488,
+              "name": "Job Post Range (Italy)",
+              "value": null,
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 7318466,
+          "updated_at": "2026-10-15T12:56:28-04:00",
+          "requisition_id": "425668",
+          "title": "Account Development Representative",
+          "company_name": "MongoDB",
+          "first_published": "2026-07-22T09:12:25-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=7318558",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3271444,
+          "location": {
+            "name": "Gurugram"
+          },
+          "metadata": [
+            {
+              "id": 22194060,
+              "name": "Position ID",
+              "value": "N/A",
+              "value_type": "short_text"
+            },
+            {
+              "id": 24918,
+              "name": "Department ID",
+              "value": "D41350-Sales Dev(SDR)",
+              "value_type": "single_select"
+            },
+            {
+              "id": 22194061,
+              "name": "Team",
+              "value": "T10212-Sales Development RoW",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4914027,
+              "name": "Region",
+              "value": "APAC",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4137836,
+              "name": "Working Model Eligibility",
+              "value": [
+                "2-Flexible"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 4914029,
+              "name": "Job Level",
+              "value": "IC - Professional",
+              "value_type": "single_select"
+            },
+            {
+              "id": 24109,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1073551,
+              "name": "Job Type",
+              "value": "Pipeline",
+              "value_type": "single_select"
+            },
+            {
+              "id": 988684,
+              "name": "JD Link",
+              "value": "tbd.com",
+              "value_type": "url"
+            },
+            {
+              "id": 5525802,
+              "name": "Baseline Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 5525816,
+              "name": "Other Large Market Budgeted Salary",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 13324394,
+              "name": "Job Post Range (United States)",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.01",
+                "min_value": "0.01"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 40497768,
+              "name": "Job Post Range (Canada)",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 57694516,
+              "name": "Job Post Range (Poland)",
+              "value": null,
+              "value_type": "currency_range"
+            },
+            {
+              "id": 64002488,
+              "name": "Job Post Range (Italy)",
+              "value": null,
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 7318558,
+          "updated_at": "2026-10-15T12:56:28-04:00",
+          "requisition_id": "425669",
+          "title": "Account Development Representative",
+          "company_name": "MongoDB",
+          "first_published": "2026-07-27T07:46:53-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://mongodb.com",
+    "explanation": "Official employer homepage: https://mongodb.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.mongodb.com/careers/job?gh_jid=8258279",
+      "https://www.mongodb.com/careers/job?gh_jid=7318466",
+      "https://www.mongodb.com/careers/job?gh_jid=7318558"
+    ]
+  }
+}

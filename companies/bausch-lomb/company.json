@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bausch-lomb",
+  "name": "Bausch Lomb",
+  "aliases": [],
+  "website_url": "https://bausch.com",
+  "logo_url": "https://www.bausch.com/Assets/Bausch-DTC/css/images/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "evolving-web",
+    "name": "Evolving Web",
+    "aliases": [],
+    "website_url": "https://evolvingweb.com",
+    "logo_url": "https://careers.evolvingweb.com/favicon-32x32.png?v=874c4e5ff4e8b5c9344e261c4f212757",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "evolving-web",
+    "company_id": "evolving-web",
+    "revision": 1,
+    "label": "Evolving Web public careers",
+    "careers_url": "https://apply.workable.com/evolving-web",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Evolving Web",
+      "careers_url": "https://apply.workable.com/evolving-web",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "apply.workable.com",
+        "www.workable.com"
+      ],
+      "request": {
+        "url": "https://www.workable.com/api/accounts/evolving-web",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "shortcode",
+        "title": "title",
+        "location": "city",
+        "url": "url",
+        "description": "description",
+        "posted_date": "published_on",
+        "employment_type": "employment_type"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.workable.com/api/accounts/evolving-web",
+    "fetched_at": "2026-10-15T18:30:05.152815+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "title": "Architecte WordPress / WordPress Architect",
+          "shortcode": "74F45A0FE4",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Development",
+          "url": "https://apply.workable.com/j/74F45A0FE4",
+          "shortlink": "https://apply.workable.com/j/74F45A0FE4",
+          "application_url": "https://apply.workable.com/j/74F45A0FE4/apply",
+          "published_on": "2026-10-14",
+          "created_at": "2026-10-14",
+          "country": "Canada",
+          "city": "Montreal",
+          "state": "Quebec",
+          "education": "",
+          "experience": "Mid-Senior level",
+          "function": "Information Technology",
+          "industry": "Internet",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Montreal",
+              "region": "Quebec",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "Architecte WordPress / WordPress Architect",
+          "shortcode": "540C6A9F6A",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": true,
+          "department": "Development",
+          "url": "https://apply.workable.com/j/540C6A9F6A",
+          "shortlink": "https://apply.workable.com/j/540C6A9F6A",
+          "application_url": "https://apply.workable.com/j/540C6A9F6A/apply",
+          "published_on": "2026-10-15",
+          "created_at": "2026-10-15",
+          "country": "Canada",
+          "city": "Montreal",
+          "state": "Quebec",
+          "education": "",
+          "experience": "Mid-Senior level",
+          "function": "Information Technology",
+          "industry": "Internet",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Montreal",
+              "region": "Quebec",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "title": "Développeur·euse WordPress Full Stack / Full Stack WordPress Developer",
+          "shortcode": "0637E6A531",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": true,
+          "department": "Development",
+          "url": "https://apply.workable.com/j/0637E6A531",
+          "shortlink": "https://apply.workable.com/j/0637E6A531",
+          "application_url": "https://apply.workable.com/j/0637E6A531/apply",
+          "published_on": "2026-10-02",
+          "created_at": "2026-10-02",
+          "country": "Canada",
+          "city": "Montreal",
+          "state": "Quebec",
+          "education": "",
+          "experience": "Mid-Senior level",
+          "function": "Information Technology",
+          "industry": "Internet",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Montreal",
+              "region": "Quebec",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://evolvingweb.com",
+    "explanation": "Official employer homepage: https://evolvingweb.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://apply.workable.com/j/74F45A0FE4",
+      "https://apply.workable.com/j/540C6A9F6A",
+      "https://apply.workable.com/j/0637E6A531"
+    ]
+  }
+}

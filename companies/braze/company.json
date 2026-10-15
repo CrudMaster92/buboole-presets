@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "braze",
+  "name": "Braze",
+  "aliases": [],
+  "website_url": "https://braze.com",
+  "logo_url": "https://www.braze.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

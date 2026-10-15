@@ -1,0 +1,128 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "southlake-health",
+    "name": "Southlake Health",
+    "aliases": [],
+    "website_url": "https://southlake.ca",
+    "logo_url": "https://southlake.ca/wp-content/themes/southlake/assets/favicon/new/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "southlake-health",
+    "company_id": "southlake-health",
+    "revision": 1,
+    "label": "Southlake Health public careers",
+    "careers_url": "https://southlake.wd10.myworkdayjobs.com/Southlake",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Southlake Health",
+      "careers_url": "https://southlake.wd10.myworkdayjobs.com/Southlake",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "southlake.wd10.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://southlake.wd10.myworkdayjobs.com/wday/cxs/southlake/Southlake/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "southlake",
+        "site": "Southlake"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://southlake.wd10.myworkdayjobs.com/wday/cxs/southlake/Southlake/jobs",
+    "fetched_at": "2026-10-15T18:28:37.766349+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Nurse Coordinator - Southlake@Home, Temporary Full Time",
+          "externalPath": "/job/Newmarket-ON/Nurse-Coordinator---Southlake-Home--Temporary-Full-Time_JR-102462",
+          "locationsText": "Newmarket ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR-102462"
+          ]
+        },
+        {
+          "title": "Registered Nurse, Vascular Access Team - Temporary Full Time",
+          "externalPath": "/job/Newmarket-ON/Registered-Nurse--Vascular-Access-Team---Temporary-Full-Time_JR-102502",
+          "locationsText": "Newmarket ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR-102502"
+          ]
+        },
+        {
+          "title": "Physiotherapist - Temporary Full Time",
+          "externalPath": "/job/Newmarket-ON/Physiotherapist---Temporary-Full-Time_JR-102416",
+          "locationsText": "Newmarket ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR-102416"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://southlake.ca",
+    "explanation": "Official employer homepage: https://southlake.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://southlake.wd10.myworkdayjobs.com/Southlake/job/Newmarket-ON/Nurse-Coordinator---Southlake-Home--Temporary-Full-Time_JR-102462",
+      "https://southlake.wd10.myworkdayjobs.com/Southlake/job/Newmarket-ON/Registered-Nurse--Vascular-Access-Team---Temporary-Full-Time_JR-102502",
+      "https://southlake.wd10.myworkdayjobs.com/Southlake/job/Newmarket-ON/Physiotherapist---Temporary-Full-Time_JR-102416"
+    ]
+  }
+}

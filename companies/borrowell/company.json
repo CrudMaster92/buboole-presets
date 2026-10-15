@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "borrowell",
+  "name": "Borrowell",
+  "aliases": [],
+  "website_url": "https://borrowell.com",
+  "logo_url": "https://logo.freehire.me/Borrowell?domain=borrowell.com",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

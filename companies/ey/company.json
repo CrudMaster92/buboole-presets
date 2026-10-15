@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ey",
+  "name": "EY",
+  "aliases": [],
+  "website_url": "https://ey.com",
+  "logo_url": "https://www.ey.com/content/dam/ey-unified-site/icon/ey-favicon.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

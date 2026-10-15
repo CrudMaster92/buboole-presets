@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brokerlink",
+  "name": "BrokerLink",
+  "aliases": [],
+  "website_url": "https://brokerlink.ca",
+  "logo_url": "https://www.brokerlink.ca/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

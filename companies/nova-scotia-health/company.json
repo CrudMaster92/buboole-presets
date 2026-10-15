@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nova-scotia-health",
+  "name": "Nova Scotia Health",
+  "aliases": [],
+  "website_url": "https://nshealth.ca",
+  "logo_url": "https://www.nshealth.ca/sites/default/files/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

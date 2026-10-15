@@ -1,0 +1,230 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "spiria",
+    "name": "Spiria",
+    "aliases": [],
+    "website_url": "https://spiria.com",
+    "logo_url": "https://cdn.prod.website-files.com/67c06f07cfba9b0adb43e16c/67eeefed3cfa486f904d0594_favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "spiria",
+    "company_id": "spiria",
+    "revision": 1,
+    "label": "Spiria public careers",
+    "careers_url": "https://jobs.lever.co/spiria",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Spiria",
+      "careers_url": "https://jobs.lever.co/spiria",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/spiria",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "mode": "json"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/spiria",
+    "fetched_at": "2026-10-15T18:29:48.562185+00:00",
+    "payload": [
+      {
+        "additionalPlain": "",
+        "additional": "<div>\n<div><strong>Work Environment</strong></div>\n<div>We believe work-life balance is essential. We make this possible through a flexible work organization and a personalized working style. Whether you’re at the office or in your location of choice, what matters most is the impact of your work, not where you're doing it from.</div>\n<div>&nbsp;</div>\n<div><strong>About Us</strong></div>\n<div>At Spiria, we’re a team of over 150 professionals across Canada. For more than 20 years, we’ve been building custom software solutions driven by a strong commitment to code quality, technological excellence, collaborative creation, and customer satisfaction.</div>\n<div>&nbsp;</div>\n<div>At Spiria, we believe diversity is a major strength. We therefore adhere to the principle of employment equity and encourage applications from women, visible minorities, Indigenous people, persons with disabilities, LGBTQIA2S+ individuals, and other marginalized communities.</div>\n<div>&nbsp;</div>\n<div>We are committed to the principle of employment equity and encourage women, visible minorities, Indigenous peoples, persons with disabilities, LGBTQ2S+ individuals, and other marginalized persons to apply.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>AI Notice</strong></div>\n<div>Our recruitment tools use AI to assist in the initial screening of applications, but never replace the intuition and expertise of our recruitment teams.</div>\n<div>&nbsp;</div>\n</div>",
+        "categories": {
+          "commitment": "EN",
+          "department": "Administration",
+          "location": "Montreal",
+          "team": "Culture and Talents",
+          "allLocations": [
+            "Montreal"
+          ]
+        },
+        "createdAt": 1792005741290,
+        "descriptionPlain": "",
+        "description": "<div>\n<p dir=\"ltr\">To keep our operations running smoothly, we are looking for a proactive, resourceful and dedicated person with a knack for finding solutions. In this pivotal role across Spiria’s departments, you will support teams with administrative, logistical and other matters. You will work with colleagues both in the office and remote.</p>\n<p dir=\"ltr\">&nbsp;</p>\n</div>",
+        "id": "9ff37138-9b97-498f-b6e2-4e214f683369",
+        "lists": [
+          {
+            "text": "As Administrative Coordinator at Spiria, you will:",
+            "content": "<div>\n<ul dir=\"ltr\">\n<li>Keep the office stocked with food and supplies, and oversee coffee machine maintenance;</li>\n<li>Handle building-related matters (air conditioning, employee and visitor access, equipment deliveries, etc.);</li>\n<li>Arrange travel and accommodation for employees on the road;</li>\n<li>Manage supplier relationships, obtain quotes, and follow up on orders and invoices;</li>\n<li>Plan, organize and coordinate corporate events and social activities;</li>\n<li>Coordinate logistics for one-off workspace projects, such as an office move or reconfiguration;</li>\n<li>Provide administrative support to various departments: taking meeting minutes, preparing documents, tracking deadlines, and maintaining and filing records;</li>\n<li>Welcome visitors, clients and candidates, and prepare meeting rooms;</li>\n<li>Suggest improvements to make administrative processes simpler and more efficient.</li>\n\n</ul></div>"
+          },
+          {
+            "text": "The keys to your success:",
+            "content": "<ul dir=\"ltr\">\n<li>At least 2 years of experience in administrative support, event planning, customer service or a similar role;</li>\n<li>Strong command of Microsoft 365, AI tools and apps commonly used in a professional setting (Slack, Canva, Google Workspace, Miro, Trello, etc.);</li>\n<li>Excellent French and English, spoken and written;</li>\n<li>Organized, rigorous and detail-oriented, with the ability to juggle multiple priorities;</li>\n<li>Resourceful and autonomous, and energized by the unexpected;</li>\n<li>Discretion and professionalism in handling confidential information;</li>\n<li>Empathy, a service mindset and a talent for building and maintaining strong relationships.</li>\n</ul>"
+          },
+          {
+            "text": "Employment détails:",
+            "content": "<div>\n<ul dir=\"ltr\">\n<li>In-person presence at the Montreal office required at least 3 days a week;</li>\n<li>Starting hourly wage: $25.00, based on a 25-hour work week (Possibility of moving to a full-time position.)</li>\n\n</ul></div>"
+          },
+          {
+            "text": "What we offer:",
+            "content": "<div>\n<ul dir=\"ltr\">\n<li>3 weeks of vacation (or more, depending on experience);</li>\n<li>5 days off over the holiday season;</li>\n<li>Flexible days off for personal reasons and life’s unexpected events;</li>\n<li>Annual Spiri-Flex reimbursement for health, ergonomics and connectivity expenses.</li>\n\n</ul></div>"
+          }
+        ],
+        "text": "Administrative Coordinator",
+        "country": "CA",
+        "workplaceType": "onsite",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div>\n<p dir=\"ltr\">To keep our operations running smoothly, we are looking for a proactive, resourceful and dedicated person with a knack for finding solutions. In this pivotal role across Spiria&rsquo;s departments, you will support teams with administrative, logistical and other matters. You will work with colleagues both in the office and remote.</p>\n<p dir=\"ltr\">&nbsp;</p>\n</div>",
+        "descriptionBodyPlain": "",
+        "hostedUrl": "https://jobs.lever.co/spiria/9ff37138-9b97-498f-b6e2-4e214f683369",
+        "applyUrl": "https://jobs.lever.co/spiria/9ff37138-9b97-498f-b6e2-4e214f683369/apply"
+      },
+      {
+        "additionalPlain": "Environnement de travail\nNous croyons que l’équilibre entre vie professionnelle et personnelle est essentiel. Nous le rendons possible grâce à une organisation du travail flexible et un mode de travail sur mesure. Que vous soyez au bureau ou à l’endroit de votre choix, ce qui compte avant tout, c’est l’impact de votre travail, pas où vous vous trouvez.\nÀ propos de nous!\nChez Spiria, nous sommes une équipe de plus de 150 professionnel(le)s réparti(e)s à travers le Canada. Depuis plus de 20 ans, nous créons des solutions logicielles sur mesure, alimentées par un profond engagement envers la qualité du code, l'excellence technologique, la création collaborative et la satisfaction clients.\nChez Spiria, nous croyons que la diversité est une grande force. Ainsi, nous souscrivons au principe de l’équité en matière d’emploi et invitons les femmes, les personnes de minorité visible, les personnes autochtones, les personnes avec un handicap, les personnes LGBTQIA2S+ et les personnes autrement marginalisées à poser leur candidature.\nAvis sur l’IA\nNos outils de recrutement utilisent de l’IA pour soutenir le tri initial de candidatures, sans jamais remplacer le flair et l’expertise de nos équipes de recrutement.\n*Le bilinguisme est essentiel pour ce rôle. La personne qui occupe ce rôle devra, pour l’ensemble de ses tâches, collaborer avec des clients internes et externes à travers l’Amérique du Nord autant en français qu’en anglais. \n",
+        "additional": "<p><strong>Environnement de travail</strong></p>\n<p>Nous croyons que l’équilibre entre vie professionnelle et personnelle est essentiel. Nous le rendons possible grâce à une organisation du travail flexible et un mode de travail sur mesure. Que vous soyez au bureau ou à l’endroit de votre choix, ce qui compte avant tout, c’est l’impact de votre travail, pas où vous vous trouvez.</p>\n<p><strong>À&nbsp;propos de nous!</strong></p>\n<p>Chez Spiria, nous sommes une équipe de plus de 150 professionnel(le)s réparti(e)s à travers le Canada. Depuis plus de 20 ans, nous créons des solutions logicielles sur mesure, alimentées par un profond engagement envers la qualité du code, l'excellence technologique, la création collaborative et la satisfaction clients.</p>\n<p>Chez Spiria, nous croyons que la diversité est une grande force. Ainsi, nous souscrivons au principe de l’équité en matière d’emploi et invitons les femmes, les personnes de minorité visible, les personnes autochtones, les personnes avec un handicap, les personnes LGBTQIA2S+ et les personnes autrement marginalisées à poser leur candidature.</p>\n<p><strong>Avis sur l’IA</strong></p>\n<p>Nos outils de recrutement utilisent de l’IA pour soutenir le tri initial de candidatures, sans jamais remplacer le flair et l’expertise de nos équipes de recrutement.</p>",
+        "categories": {
+          "commitment": "FR",
+          "department": "Production",
+          "location": "Montréal",
+          "team": "Business Analysis",
+          "allLocations": [
+            "Montréal",
+            "Gatineau",
+            "Toronto"
+          ]
+        },
+        "createdAt": 1784832027147,
+        "descriptionPlain": "Nous sommes à la recherche d’un(e) gestionnaire de comptes qui jouera un rôle clé dans le développement de relations d’affaires solides, durables et axées sur la confiance avec nos clients. \nDans ce rôle, vous serez responsable d’un portefeuille de clients existants, avec pour objectif d’en maximiser la valeur en identifiant et en développant de nouvelles opportunités d’affaires. Vous agirez comme partenaire stratégique auprès de vos clients, en comprenant leurs enjeux, en mobilisant les bonnes expertises internes et en contribuant activement à leur succès. \nVous serez imputable de l’ensemble du cycle commercial au sein de vos comptes, de la gestion des demandes clients à la croissance des revenus, en passant par la planification et les prévisions de ventes. \n",
+        "description": "<p>Nous recherchons une personne qui sera responsable d’analyser différents enjeux d'affaires de nos clients. La personne travaillera en amont des équipes techniques et elle devra assister les clients dans la définition de leurs projets. <strong>L'Analyste d'Affaires </strong>se concentrera sur les besoins et les processus et travaillera de concert avec les équipes d’experts afin de faire émerger des solutions. Cette personne sera également appelée à améliorer et développer des outils ou gabarits en collaboration avec les autres équipes pour bien documenter l’information reçue.&nbsp;&nbsp;</p>",
+        "id": "887b98e6-6baf-4f0b-8245-19b59a746ae9",
+        "lists": [
+          {
+            "text": "En tant qu'Analyste d'affaires chez Spiria, vous serez amené(e) à: ",
+            "content": "\n<li>Analyser, identifier, documenter et définir le contexte d’affaires des clients;&nbsp;&nbsp;</li>\n<li>Accompagner les clients dans la détermination de la valeur de leurs projets;&nbsp;&nbsp;</li>\n<li>Effectuer l’analyse des besoins des utilisateurs et documenter ceux-ci pour l’équipe de réalisation;&nbsp;&nbsp;</li>\n<li>Convertir les besoins opérationnels et les objectifs d’affaires des clients en exigences fonctionnelles;</li>\n<li>Participer à la conception des solutions et préciser les règles d’affaires;&nbsp;&nbsp;</li>\n<li>Assister à des rencontres sur les lieux de travail<strong> </strong>du client, lorsque requis;&nbsp;</li>\n<li>Collaborer et assumer un rôle-conseil de première ligne avec les intervenants des projets (équipe interne et externe);&nbsp;&nbsp;</li>\n<li>S’inspirant des meilleures pratiques, proposer des méthodes de travail, des gabarits ou outils qui permettront d’augmenter notre efficacité.&nbsp;&nbsp;</li>\n"
+          },
+          {
+            "text": "Les clés de votre succès : ",
+            "content": "\n<li><strong>Excellente communication orale et écrite (français et anglais) *;</strong>&nbsp;&nbsp;</li>\n<li><strong>Être orienté vers l'expérience client ;</strong>&nbsp;&nbsp;</li>\n<li>Détenir un BAC en développement informatique, en gestion informatique, informatique de gestion et expérience connexe ;&nbsp;</li>\n<li>Posséder un minimum de 5 années d'expérience dans l’industrie du développement web, logiciel et/ou jeux vidéos ;&nbsp;&nbsp;</li>\n<li>Expérience en développement de logiciel ou de solutions numériques (Applications web, mobiles, site web, etc.) de qualité ;&nbsp; &nbsp;&nbsp;</li>\n<li>Expérience en cadrage et en évaluation de projets ;&nbsp;&nbsp;</li>\n<li>Excellente connaissance des enjeux et défis des petites et moyennes entreprises ;&nbsp;&nbsp;</li>\n<li>Maîtrise des meilleures pratiques en analyse d'affaires et des outils reliés ;&nbsp;&nbsp;</li>\n<li>À l'aise avec les outils d'IA modernes pour améliorer la productivité, organiser l'information, générer des ébauches, résumer des discussions et automatiser les tâches répétitives ;<br>Curieux des nouvelles capacités de l'IA et désireux de faire évoluer continuellement vos façons de travailler ;</li>\n<li>Habileté pour travailler avec des équipes interdisciplinaires dans des contextes variés;&nbsp;&nbsp;</li>\n<li>Toute expérience dans un rôle d’analyste d’affaires ou Product Owner sera considérée un atout ;</li>\n<li>Détenir un MBA (atout) ;</li>\n"
+          },
+          {
+            "text": "Ce qu'on vous offre : ",
+            "content": "<ul type=\"disc\">\n<li>3 semaines de vacances ou selon votre expérience.</li>\n<li>5 jours de congé pendant les fêtes hivernales.</li>\n<li>Journées de congé flexibles pour des raisons personnelles et pour gérer les aléas de la vie.</li>\n<li>Programme RPDB-REER avec contribution de l’employeur.</li>\n<li>Régime d'assurances collectives à large couverture.</li>\n<li>Service de télémédecine et programme d’aide aux employés avec Dialogue.</li>\n<li>Remboursements liés à la formation, aux certifications et aux ordres professionnels.</li>\n<li>Remboursements Spiri-Flex annuellement pour des dépenses relatives à la santé, à l'ergonomie et à la connectivité.</li>\n</ul>"
+          },
+          {
+            "text": "Modalités d'emplois :",
+            "content": "<ul type=\"disc\">\n<li>Mode de travail flexible (à distance, hybride ou en personne), parce que l’important n’est généralement pas où vous êtes, mais bien ce que vous faites.</li>\n<li>Échelle salariale : 93 855$ - 119 035$, sur une base de 37,5 heures par semaine.</li>\n</ul>"
+          }
+        ],
+        "text": "Analyste d'affaires",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<p>Nous recherchons une personne qui sera responsable d&rsquo;analyser diff&eacute;rents enjeux d'affaires de nos clients. La personne travaillera en amont des &eacute;quipes techniques et elle devra assister les clients dans la d&eacute;finition de leurs projets. <strong>L'Analyste d'Affaires </strong>se concentrera sur les besoins et les processus et travaillera de concert avec les &eacute;quipes d&rsquo;experts afin de faire &eacute;merger des solutions. Cette personne sera &eacute;galement appel&eacute;e &agrave; am&eacute;liorer et d&eacute;velopper des outils ou gabarits en collaboration avec les autres &eacute;quipes pour bien documenter l&rsquo;information re&ccedil;ue.&nbsp;&nbsp;</p>",
+        "descriptionBodyPlain": "Nous sommes à la recherche d’un(e) gestionnaire de comptes qui jouera un rôle clé dans le développement de relations d’affaires solides, durables et axées sur la confiance avec nos clients. \nDans ce rôle, vous serez responsable d’un portefeuille de clients existants, avec pour objectif d’en maximiser la valeur en identifiant et en développant de nouvelles opportunités d’affaires. Vous agirez comme partenaire stratégique auprès de vos clients, en comprenant leurs enjeux, en mobilisant les bonnes expertises internes et en contribuant activement à leur succès. \nVous serez imputable de l’ensemble du cycle commercial au sein de vos comptes, de la gestion des demandes clients à la croissance des revenus, en passant par la planification et les prévisions de ventes. \n",
+        "hostedUrl": "https://jobs.lever.co/spiria/887b98e6-6baf-4f0b-8245-19b59a746ae9",
+        "applyUrl": "https://jobs.lever.co/spiria/887b98e6-6baf-4f0b-8245-19b59a746ae9/apply"
+      },
+      {
+        "additionalPlain": "Work Environment\nWe believe work-life balance is essential. We make this possible through a flexible work organization and a personalized working style. Whether you’re at the office or in your location of choice, what matters most is the impact of your work, not where you're doing it from.\n \nAbout Us\nAt Spiria, we’re a team of over 150 professionals across Canada. For more than 20 years, we’ve been building custom software solutions driven by a strong commitment to code quality, technological excellence, collaborative creation, and customer satisfaction.\n \nAt Spiria, we believe diversity is a major strength. We therefore adhere to the principle of employment equity and encourage applications from women, visible minorities, Indigenous people, persons with disabilities, LGBTQIA2S+ individuals, and other marginalized communities.\n \nWe are committed to the principle of employment equity and encourage women, visible minorities, Indigenous peoples, persons with disabilities, LGBTQ2S+ individuals, and other marginalized persons to apply. \n \nAI Notice\nOur recruitment tools use AI to assist in the initial screening of applications, but never replace the intuition and expertise of our recruitment teams.\n \n",
+        "additional": "<div><strong style=\"font-size: 11pt;\">Work Environment</strong></div>\n<div><span style=\"font-size: 11pt;\">We believe work-life balance is essential. We make this possible through a flexible work organization and a personalized working style. Whether you’re at the office or in your location of choice, what matters most is the impact of your work, not where you're doing it from.</span></div>\n<div>&nbsp;</div>\n<div><strong>About Us</strong></div>\n<div>At Spiria, we’re a team of over 150 professionals across Canada. For more than 20 years, we’ve been building custom software solutions driven by a strong commitment to code quality, technological excellence, collaborative creation, and customer satisfaction.</div>\n<div>&nbsp;</div>\n<div>At Spiria, we believe diversity is a major strength. We therefore adhere to the principle of employment equity and encourage applications from women, visible minorities, Indigenous people, persons with disabilities, LGBTQIA2S+ individuals, and other marginalized communities.</div>\n<div><span style=\"font-size: 10.5pt;\">&nbsp;</span></div>\n<div><span style=\"font-size: 10.5pt;\">We are committed to the principle of employment equity and encourage women, visible minorities, Indigenous peoples, persons with disabilities, LGBTQ2S+ individuals, and other marginalized persons to apply.&nbsp;</span></div>\n<div>&nbsp;</div>\n<div><strong>AI Notice</strong></div>\n<div>Our recruitment tools use AI to assist in the initial screening of applications, but never replace the intuition and expertise of our recruitment teams.</div>\n<div>&nbsp;</div>",
+        "categories": {
+          "commitment": "EN",
+          "department": "Production Management",
+          "location": "Montreal",
+          "team": "Project Manager",
+          "allLocations": [
+            "Montreal",
+            "Gatineau",
+            "Oakville"
+          ]
+        },
+        "createdAt": 1788966637570,
+        "descriptionPlain": "Are you an established project manager with a passion for complex digital projects? Do you enjoy working closely with customers, mobilizing multidisciplinary teams, and delivering concrete solutions while respecting budget, schedule and scope?\n \nJoin our dynamic project management team, supported by a structured PMO, reliable tools and a culture of continuous improvement. You'll take on a variety of software, web and mobile development mandates, all supported by a rigorous follow-up methodology.\n",
+        "description": "<div><span style=\"font-size: 11pt;\">Are you an established project manager with a passion for complex digital projects? Do you enjoy working closely with customers, mobilizing multidisciplinary teams, and delivering concrete solutions while respecting budget, schedule and scope?</span></div>\n<div><span style=\"font-size: 11pt;\">&nbsp;</span></div>\n<div><span style=\"font-size: 11pt;\">Join our dynamic project management team, supported by a structured PMO, reliable tools and a culture of continuous improvement. You'll take on a variety of software, web and mobile development mandates, all supported by a rigorous follow-up methodology.</span></div>",
+        "id": "b0604067-0391-4bac-a1c0-5a11f8fc276e",
+        "lists": [
+          {
+            "text": "As a Senior Project Manager at Spiria, you will be required to:",
+            "content": "\n<li>Lead teams in the design, execution and delivery of digital projects;</li>\n<li>Establish a relationship of trust with our clients by acting as their main point of contact and advisor;</li>\n<li>Keep projects on track in terms of time, budget and functionality, using performance indicators and Earned Value Management (EVM);</li>\n<li>Demonstrate a strong understanding and interest in the business reality and objectives pursued by customers;</li>\n<li>Identify the risks, estimate the efforts, anticipate the challenges and optimize the use of resources throughout the project;</li>\n<li>Participate in the continuous improvement of project management processes and the sharing of best practices within the team;</li>\n<li>Adapt communication according to interlocutors, context and objectives, while maintaining a fluid and professional collaboration;</li>\n<li>Enable a collaborative climate by resolving minor conflicts in a professional manner and motivating the team towards common goals;</li>\n<li>Any other related tasks.</li>\n"
+          },
+          {
+            "text": " The keys to your success",
+            "content": "\n<li>8 years of professional experience in digital project management (software, web, mobile, etc.);</li>\n<li>Have a university degree in management or computer science;</li>\n<li>Bilingualism in French and English (spoken and written)*;</li>\n<li>Excellent communication and interpersonal skills, with a proven ability to collaborate well within multidisciplinary teams;</li>\n<li>Strong autonomy and problem-solving skills;</li>\n<li>Ability to adapt quickly to achieve objectives on time;</li>\n<li>Knowledge of Earned Valued Management methodology;</li>\n<li>Knowledge of Project Management Institute (PMI) PMBOK standard;</li>\n<li>Concrete experience with Jira and Confluence in a professional context;</li>\n<li>Good knowledge of Agile management principles;</li>\n<li>PMP, Scrum and Product Owner certification (an asset).</li>\n"
+          },
+          {
+            "text": "Employment details:",
+            "content": "\n<li>Flexible work arrangements (remote, hybrid, or in-person), because what truly matters is not where you are, but what you do.</li>\n<li>Salary range: $90 000-120 000, based on a <a rel=\"noopener noreferrer\" href=\"http://37.5-hour/\" class=\"postings-link\">37.5-hour</a> workweek.</li>\n"
+          },
+          {
+            "text": "What we offer: ",
+            "content": "\n<li>Vacation bank of 3 weeks per year.</li>\n<li>5 additional fixed days off during the winter holidays.</li>\n<li>Flexible personal days to handle life’s ups and downs.</li>\n<li>Deferred Profit Sharing Plan (DPSP) and RRSP with employer contributions.</li>\n<li>Group insurance with broad coverage.</li>\n<li>Telemedicine and Employee Assistance Program via Dialogue.</li>\n<li>Paid training, certification and association expenses.</li>\n<li>Spiri-Flex reimbursements of $300 per year for health, ergonomics, and connectivity-related expenses.</li>\n"
+          }
+        ],
+        "text": "Bilingual Senior Project Manager",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div><span style=\"font-size: 11pt;\">Are you an established project manager with a passion for complex digital projects? Do you enjoy working closely with customers, mobilizing multidisciplinary teams, and delivering concrete solutions while respecting budget, schedule and scope?</span></div>\n<div><span style=\"font-size: 11pt;\">&nbsp;</span></div>\n<div><span style=\"font-size: 11pt;\">Join our dynamic project management team, supported by a structured PMO, reliable tools and a culture of continuous improvement. You'll take on a variety of software, web and mobile development mandates, all supported by a rigorous follow-up methodology.</span></div>",
+        "descriptionBodyPlain": "Are you an established project manager with a passion for complex digital projects? Do you enjoy working closely with customers, mobilizing multidisciplinary teams, and delivering concrete solutions while respecting budget, schedule and scope?\n \nJoin our dynamic project management team, supported by a structured PMO, reliable tools and a culture of continuous improvement. You'll take on a variety of software, web and mobile development mandates, all supported by a rigorous follow-up methodology.\n",
+        "hostedUrl": "https://jobs.lever.co/spiria/b0604067-0391-4bac-a1c0-5a11f8fc276e",
+        "applyUrl": "https://jobs.lever.co/spiria/b0604067-0391-4bac-a1c0-5a11f8fc276e/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://spiria.com",
+    "explanation": "Official employer homepage: https://spiria.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/spiria/9ff37138-9b97-498f-b6e2-4e214f683369",
+      "https://jobs.lever.co/spiria/887b98e6-6baf-4f0b-8245-19b59a746ae9",
+      "https://jobs.lever.co/spiria/b0604067-0391-4bac-a1c0-5a11f8fc276e"
+    ]
+  }
+}

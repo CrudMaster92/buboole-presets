@@ -1,0 +1,251 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "asana",
+    "name": "Asana",
+    "aliases": [],
+    "website_url": "https://asana.com",
+    "logo_url": "https://asana.com/assets/img/brand/asana-logo-favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "asana",
+    "company_id": "asana",
+    "revision": 1,
+    "label": "Asana public careers",
+    "careers_url": "https://job-boards.greenhouse.io/asana",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Asana",
+      "careers_url": "https://job-boards.greenhouse.io/asana",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "www.asana.com"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
+    "fetched_at": "2026-10-15T18:32:50.378056+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.asana.com/jobs/apply/8165477?gh_jid=8165477",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3533750,
+          "location": {
+            "name": "Vancouver, BC"
+          },
+          "metadata": [
+            {
+              "id": 170878,
+              "name": "Cost Center",
+              "value": "301 R&D Executive",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310287,
+              "name": "Careers Page: Heading",
+              "value": "Engineering & Data",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310293,
+              "name": "Careers Page: Team",
+              "value": "Administrative",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4809868,
+              "name": "Careers Page: Location",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8165477,
+          "updated_at": "2026-09-18T12:50:39-04:00",
+          "requisition_id": "JR106339",
+          "title": "Administrative Business Partner",
+          "company_name": "Asana",
+          "first_published": "2026-09-18T12:50:39-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.asana.com/jobs/apply/8194380?gh_jid=8194380",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3545691,
+          "location": {
+            "name": "San Francisco"
+          },
+          "metadata": [
+            {
+              "id": 170878,
+              "name": "Cost Center",
+              "value": "538 AI GTM",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310287,
+              "name": "Careers Page: Heading",
+              "value": "Business & Marketing",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310293,
+              "name": "Careers Page: Team",
+              "value": "Sales",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4809868,
+              "name": "Careers Page: Location",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8194380,
+          "updated_at": "2026-10-07T16:32:34-04:00",
+          "requisition_id": "JR106361",
+          "title": "AI GTM Specialist",
+          "company_name": "Asana",
+          "first_published": "2026-10-07T16:32:34-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.asana.com/jobs/apply/8092044?gh_jid=8092044",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3505534,
+          "location": {
+            "name": "Warsaw"
+          },
+          "metadata": [
+            {
+              "id": 170878,
+              "name": "Cost Center",
+              "value": "537 Data Analytics",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310287,
+              "name": "Careers Page: Heading",
+              "value": "Business & Marketing",
+              "value_type": "single_select"
+            },
+            {
+              "id": 1310293,
+              "name": "Careers Page: Team",
+              "value": "Finance",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4809868,
+              "name": "Careers Page: Location",
+              "value": [],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8092044,
+          "updated_at": "2026-09-15T16:40:09-04:00",
+          "requisition_id": null,
+          "title": "Analytical Engineer",
+          "company_name": "Asana",
+          "first_published": "2026-07-30T06:34:21-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://asana.com",
+    "explanation": "Official employer homepage: https://asana.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.asana.com/jobs/apply/8165477?gh_jid=8165477",
+      "https://www.asana.com/jobs/apply/8194380?gh_jid=8194380",
+      "https://www.asana.com/jobs/apply/8092044?gh_jid=8092044"
+    ]
+  }
+}

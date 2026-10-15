@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mongodb",
+  "name": "MongoDB",
+  "aliases": [],
+  "website_url": "https://mongodb.com",
+  "logo_url": "https://www.mongodb.com/assets/images/global/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ia-financial-group",
+  "name": "iA Financial Group",
+  "aliases": [],
+  "website_url": "https://ia.ca",
+  "logo_url": "https://files.ia.ca/-/media/files/headless/sites/ia/common/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

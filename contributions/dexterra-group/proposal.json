@@ -1,0 +1,308 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "dexterra-group",
+    "name": "Dexterra Group",
+    "aliases": [],
+    "website_url": "https://dexterra.com",
+    "logo_url": "https://dexterra.com/wp-content/themes/dexterra/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "dexterra-group",
+    "company_id": "dexterra-group",
+    "revision": 1,
+    "label": "Dexterra Group public careers",
+    "careers_url": "https://careers.smartrecruiters.com/Dexterra",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Dexterra Group",
+      "careers_url": "https://careers.smartrecruiters.com/Dexterra",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Dexterra/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Dexterra/postings",
+    "fetched_at": "2026-10-15T18:24:52.742625+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155589519",
+          "name": "Microsoft 365 Engineer",
+          "uuid": "aea3c997-14a7-4160-abc5-73c657d671ee",
+          "jobAdId": "5e42a6c7-857c-4c78-969b-9adcb7c542d9",
+          "defaultJobAd": true,
+          "refNumber": "REF7829N",
+          "company": {
+            "identifier": "Dexterra",
+            "name": "Dexterra"
+          },
+          "releasedDate": "2026-10-14T18:26:43.748Z",
+          "location": {
+            "city": "Mississauga",
+            "region": "ON",
+            "country": "ca",
+            "address": "5925 Airport Road",
+            "postalCode": "L4V 1A3",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "Onsite 3 days, remote 2 days",
+            "latitude": "43.6876562",
+            "longitude": "-79.609594",
+            "fullLocation": "Mississauga, ON, Canada"
+          },
+          "industry": {
+            "id": "facilities_services",
+            "label": "Facilities Services"
+          },
+          "department": {
+            "id": "13125112",
+            "label": "50178 - Shared Services - IT"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5bab8f356d8bc56bc081b759",
+              "fieldLabel": "Department",
+              "valueId": "13125112",
+              "valueLabel": "50178 - Shared Services - IT"
+            },
+            {
+              "fieldId": "5bab8f356d8bc56bc081b758",
+              "fieldLabel": "Brands",
+              "valueId": "ee778371-e472-4188-8c5c-e7e8399d36a7",
+              "valueLabel": "Dexterra Group"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155589519",
+          "creator": {
+            "name": "Steve Shanahan"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155588979",
+          "name": "Supply Delivery and Heavy Duty Support Worker – SkyTrain Stations",
+          "uuid": "655b4291-0dc4-4050-bac2-2adf171aadf6",
+          "jobAdId": "dc8a689e-fdd1-46c9-84c6-49bfb29e2b43",
+          "defaultJobAd": true,
+          "refNumber": "REF7774K",
+          "company": {
+            "identifier": "Dexterra",
+            "name": "Dexterra"
+          },
+          "releasedDate": "2026-10-14T18:24:06.420Z",
+          "location": {
+            "city": "Surrey",
+            "region": "BC",
+            "country": "ca",
+            "address": "Expo Line - SkyTrain",
+            "postalCode": "V3T",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "49.1827319",
+            "longitude": "-122.8445049",
+            "fullLocation": "Surrey, BC, Canada"
+          },
+          "industry": {
+            "id": "facilities_services",
+            "label": "Facilities Services"
+          },
+          "department": {},
+          "function": {
+            "id": "other",
+            "label": "Other"
+          },
+          "typeOfEmployment": {
+            "id": "part-time",
+            "label": "Part-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5bab8f356d8bc56bc081b758",
+              "fieldLabel": "Brands",
+              "valueId": "ee778371-e472-4188-8c5c-e7e8399d36a7",
+              "valueLabel": "Dexterra Group"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155588979",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155587280",
+          "name": "Team Lead, HR Service Centre",
+          "uuid": "bdbae019-b20b-48a4-8efe-d9f129544520",
+          "jobAdId": "5d6a6116-c4f2-4c20-9fd9-dee07d562a00",
+          "defaultJobAd": true,
+          "refNumber": "REF7759V",
+          "company": {
+            "identifier": "Dexterra",
+            "name": "Dexterra"
+          },
+          "releasedDate": "2026-10-14T18:12:03.551Z",
+          "location": {
+            "city": "Mississauga",
+            "region": "ON",
+            "country": "ca",
+            "address": "5925 Airport Road",
+            "postalCode": "L4V 1A3",
+            "remote": true,
+            "hybrid": false,
+            "latitude": "43.6876434",
+            "longitude": "-79.6095886",
+            "fullLocation": "Mississauga, ON, Canada"
+          },
+          "industry": {
+            "id": "facilities_services",
+            "label": "Facilities Services"
+          },
+          "department": {
+            "id": "13125401",
+            "label": "50176 - Shared Services - Total Rewards & S"
+          },
+          "function": {
+            "id": "human_resources",
+            "label": "Human Resources"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5bab8f356d8bc56bc081b759",
+              "fieldLabel": "Department",
+              "valueId": "13125401",
+              "valueLabel": "50176 - Shared Services - Total Rewards & S"
+            },
+            {
+              "fieldId": "5bab8f356d8bc56bc081b758",
+              "fieldLabel": "Brands",
+              "valueId": "ee778371-e472-4188-8c5c-e7e8399d36a7",
+              "valueLabel": "Dexterra Group"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155587280",
+          "creator": {
+            "name": "Steve Shanahan"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://dexterra.com",
+    "explanation": "Official employer homepage: https://dexterra.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155589519",
+      "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155588979",
+      "https://api.smartrecruiters.com/v1/companies/Dexterra/postings/744000155587280"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "openlane",
+  "name": "OPENLANE",
+  "aliases": [],
+  "website_url": "https://openlane.com",
+  "logo_url": "https://corporate.openlane.com/wp-content/uploads/2023/05/32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

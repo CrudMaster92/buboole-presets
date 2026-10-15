@@ -1,0 +1,128 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "medavie-blue-cross",
+    "name": "Medavie Blue Cross",
+    "aliases": [],
+    "website_url": "https://medaviebc.ca",
+    "logo_url": "https://images.medaviebc.ca/favicon/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "medavie-blue-cross",
+    "company_id": "medavie-blue-cross",
+    "revision": 1,
+    "label": "Medavie Blue Cross public careers",
+    "careers_url": "https://medaviehs.wd10.myworkdayjobs.com/Medavie_External",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Medavie Blue Cross",
+      "careers_url": "https://medaviehs.wd10.myworkdayjobs.com/Medavie_External",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "medaviehs.wd10.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://medaviehs.wd10.myworkdayjobs.com/wday/cxs/medaviehs/Medavie_External/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "medaviehs",
+        "site": "Medavie_External"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://medaviehs.wd10.myworkdayjobs.com/wday/cxs/medaviehs/Medavie_External/jobs",
+    "fetched_at": "2026-10-15T18:28:05.118182+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Billing Administrator",
+          "externalPath": "/job/NL-Head-Office-MHNL-St-Johns-NL/Billing-Administrator_R-269508",
+          "locationsText": "NL Head Office MHNL St. John's (NL)",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-269508"
+          ]
+        },
+        {
+          "title": "Emergency Medical Dispatcher",
+          "externalPath": "/job/SK-Saskatoon/Emergency-Medical-Dispatcher_R-269551",
+          "locationsText": "SK Saskatoon",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-269551"
+          ]
+        },
+        {
+          "title": "Bilingual Case Management Coordinator",
+          "externalPath": "/job/New-Brunswick/Bilingual-Case-Management-Coordinator_R-269522",
+          "locationsText": "5 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-269522"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://medaviebc.ca",
+    "explanation": "Official employer homepage: https://medaviebc.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://medaviehs.wd10.myworkdayjobs.com/Medavie_External/job/NL-Head-Office-MHNL-St-Johns-NL/Billing-Administrator_R-269508",
+      "https://medaviehs.wd10.myworkdayjobs.com/Medavie_External/job/SK-Saskatoon/Emergency-Medical-Dispatcher_R-269551",
+      "https://medaviehs.wd10.myworkdayjobs.com/Medavie_External/job/New-Brunswick/Bilingual-Case-Management-Coordinator_R-269522"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "autotrader-canada",
+  "name": "AutoTrader Canada",
+  "aliases": [],
+  "website_url": "https://autotrader.ca",
+  "logo_url": "https://www.autotrader.ca/assets/acquisition-fragments/metatags/images/trader/favicon-16x16.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

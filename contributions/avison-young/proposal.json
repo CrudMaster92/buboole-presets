@@ -1,0 +1,99 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "avison-young",
+    "name": "Avison Young",
+    "aliases": [],
+    "website_url": "https://avisonyoung.com",
+    "logo_url": "https://www.avisonyoung.com/favicon.ico?v=2020",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "avison-young",
+    "company_id": "avison-young",
+    "revision": 1,
+    "label": "Avison Young public careers",
+    "careers_url": "https://canada-english-avisonyoung.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Avison Young",
+      "careers_url": "https://canada-english-avisonyoung.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "canada-english-avisonyoung.icims.com"
+      ],
+      "request": {
+        "url": "https://canada-english-avisonyoung.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://canada-english-avisonyoung.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T18:29:20.003794+00:00",
+    "payload": "<html><body><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-BC-Vancouver</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Requisition Post Information* : Posted Date</span>\n<span title=\"10/5/2026 3:45 PM\">\n1 week ago<span class=\"sr-only\">(10/5/2026 3:45 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://canada-english-avisonyoung.icims.com/jobs/5950/data-administrator%2c-market-intelligence/job?in_iframe=1\" title=\"5950 - Data Administrator, Market Intelligence\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nData Administrator, Market Intelligence</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nWe are hiring a Data Analyst, to support data administration on our Market Intelligence team in our Vancouver Office. Working as part of the Market Intelligence Team, this role will focus primarily on maintaining accurate, complete and current market databases, while contributing to data-intensive projects across the department. The successful candidate must possess strong data administration and organizational skills, exceptional attention to detail, and the ability to manage a high volume of information accurately in a fast-paced team environment. This is an excellent entry-level opportunity for someone who enjoys detailed, computer-based work and is interested in learning more about...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Requisition ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-5950</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-AB-Calgary</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Requisition Post Information* : Posted Date</span>\n<span title=\"10/14/2026 11:51 AM\">\n1 day ago<span class=\"sr-only\">(10/14/2026 11:51 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://canada-english-avisonyoung.icims.com/jobs/5949/financial-analyst/job?in_iframe=1\" title=\"5949 - Financial Analyst\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nFinancial Analyst</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nThe Avison Young Calgary office is seeking a Financial Analyst, able to work in a fast paced, multi-tasking environment with our Investment and Multi-Family Team.</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Requisition ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-5949</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-AB-Calgary</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Requisition Post Information* : Posted Date</span>\n<span title=\"9/30/2026 9:49 AM\">\n2 weeks ago<span class=\"sr-only\">(9/30/2026 9:49 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://canada-english-avisonyoung.icims.com/jobs/5944/senior-client-services-specialist/job?in_iframe=1\" title=\"5944 - Senior Client Services Specialist\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nSenior Client Services Specialist</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nLocated in our Calgary office and reporting to the Managing Director and Operations Manager, this role includes daily real estate administrative support in a fast-paced environment. As a Senior Client Services Specialist, you will provide sales, marketing, and research support along with general office administration to our brokers and clients. Your responsibilities will be an exciting mix of providing presentation support, listing and offer preparation, property marketing and client reporting, conducting market research and transaction administration, all while coordinating promotional and post sales marketing materials (under the direction of our marketing team).\r\n\r\nThe ideal candidate will have either a minimum of five years’ experience in the real...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Requisition ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-5944</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://avisonyoung.com",
+    "explanation": "Official employer homepage: https://avisonyoung.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://canada-english-avisonyoung.icims.com/jobs/5950/data-administrator%2c-market-intelligence/job?in_iframe=1",
+      "https://canada-english-avisonyoung.icims.com/jobs/5949/financial-analyst/job?in_iframe=1",
+      "https://canada-english-avisonyoung.icims.com/jobs/5944/senior-client-services-specialist/job?in_iframe=1"
+    ]
+  }
+}

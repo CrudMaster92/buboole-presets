@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sanofi-canada",
+  "name": "Sanofi",
+  "aliases": [],
+  "website_url": "https://sanofi.com",
+  "logo_url": "https://cdn.radancy.eu/company/2649/img/favicon/sanofi_favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

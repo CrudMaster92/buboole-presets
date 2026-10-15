@@ -1,0 +1,219 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "osedea",
+    "name": "Osedea",
+    "aliases": [],
+    "website_url": "https://osedea.com",
+    "logo_url": "https://cdn.prod.website-files.com/660aa0984e7024f991719a7e/6644ae5846a718ab56d68b9e_favicon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "osedea",
+    "company_id": "osedea",
+    "revision": 1,
+    "label": "Osedea public careers",
+    "careers_url": "https://jobs.lever.co/osedea",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Osedea",
+      "careers_url": "https://jobs.lever.co/osedea",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/osedea",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "mode": "json"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/osedea",
+    "fetched_at": "2026-10-15T18:29:46.147365+00:00",
+    "payload": [
+      {
+        "additionalPlain": "The process for this role if you are selected \n \n1. 20 min - Initial introductory call with a person from our technical team.\n2. 90 min - In-person interview at our office\n3. Offer presentation\n \nOnly considered candidates will be contacted. Read our full hiring process here.\n",
+        "additional": "<div>\n<div><span style=\"font-size: 18px;\">The process for this role if you are selected&nbsp;</span></div>\n<div>&nbsp;</div>\n<div>1. 20 min - Initial introductory call with a person from our technical team.</div>\n<div>2. 90 min - In-person interview at our office</div>\n<div>3. Offer presentation</div>\n<div>&nbsp;</div>\n<div>Only considered candidates will be contacted. Read our full hiring process&nbsp;<a href=\"https://www.osedea.com/insight/how-we-hire-transparency-fairness-and-what-to-expect#:~:text=All%20of%20our%20interviews%20are,like%20to%20be%20at%20Osedea.\">here</a>.</div>\n</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Montreal (EN)",
+          "team": "Data and BI",
+          "allLocations": [
+            "Montreal (EN)"
+          ]
+        },
+        "createdAt": 1787145238869,
+        "descriptionPlain": "Who we are \n\nWe’re a thriving and agile tech development firm. People are at the center of everything we do. Simply put, we care. Our team personally cares about our clients and the world around them, and we care about our team’s life-long dreams, aspirations, and career development.\n\nWe strongly believe in the power of community. This is why we seek opportunities to build meaningful relationships with everyone around us.\n\nWe celebrate diversity in all its forms. Backgrounds, personalities, career paths, languages... you name it. We actively innovate, learn, and share stories around the topic. We want everyone to feel welcomed and included in all we do.\n\nWe like having fun and enjoying ourselves. We wake up every day inspired to build a more efficient and enjoyable world.\n\nRole overview\nYou will have the chance to collaborate with a team made up of experts in the industry you are passionate about, business intelligence. You will work on captivating projects that make a real difference for our partners. You also will be surrounded by colleagues who are passionate about what they do and who are not afraid to share their expertise. \n",
+        "description": "<div><span style=\"font-size: 24px;\">Who we are </span></div><div><br></div><div>We’re a thriving and agile tech development firm. People are at the center of everything we do. Simply put, we care. Our team personally cares about our clients and the world around them, and we care about our team’s life-long dreams, aspirations, and career development.</div><div><br></div><div>We strongly believe in the power of community. This is why we seek opportunities to build meaningful relationships with everyone around us.</div><div><br></div><div>We celebrate diversity in all its forms. Backgrounds, personalities, career paths, languages... you name it. We actively innovate, learn, and share stories around the topic. We want everyone to feel welcomed and included in all we do.</div><div><br></div><div>We like having fun and enjoying ourselves. We wake up every day inspired to build a more efficient and enjoyable world.</div><div><br></div><div><span style=\"font-size: 18px;\">Role overview</span></div>\n<div>\n<p>You will have the chance to collaborate with a team made up of experts in the industry you are passionate about, business intelligence. You will work on captivating projects that make a real difference for our partners. You also will be surrounded by colleagues who are passionate about what they do and who are not afraid to share their expertise.&nbsp;</p>\n</div>",
+        "id": "62023440-6a2f-4cd7-8cda-cc4a7fa3effa",
+        "lists": [
+          {
+            "text": "Your key responsibilities",
+            "content": "<div>\n<ul style=\"list-style-type: disc;\">\n<li>Animate working sessions with users (partners) to identify their analytical needs;</li>\n<li>Document analytical needs through principles following the Agile project management methodology;</li>\n<li>Develop a good understanding of the business context in which analytical solutions will be used;</li>\n<li>Have an excellent understanding of the analytical or decision-making process followed by users of analytical applications;</li>\n<li>Document the calculation rules used to calculate the performance indicators and measures to be used by reports and dashboards;</li>\n<li>Develop analytical application interfaces using data visualization tools such as Microsoft Power BI;</li>\n<li>Advise the user on the optimal presentation of information in order to promote the adoption of data solutions developed for the user;</li>\n<li>In consultation with the solution architect, modify or design the data model necessary to support the analytical needs stated by the user;</li>\n<li>In consultation with project managers, estimate the effort and time required to complete the design, development and testing of the analytical solutions to be implemented;</li>\n<li>Respect the production dates of the deliverables, as agreed with the project manager and/or client;</li>\n<li>In consultation with the user, prepare prototypes of analytical solutions and improve them iteratively;</li>\n<li>Follow the evolution of technologies in relation to the design and implementation of analytical solutions.</li>\n\n</ul></div>"
+          },
+          {
+            "text": "The ideal candidate",
+            "content": "<div>\n<ul style=\"list-style-type: disc;\">\n<li>A bachelor’s degree in Business Administration, with a concentration in Technology Management or a related field (a master’s degree in Business Intelligence is a strong asset);</li>\n<li>Experience with Power BI, including skills in DAX, M, data modeling, and SQL;</li>\n<li>A strong results-oriented mindset and a well-developed sense of customer service. Experience in consulting will be considered a significant asset;</li>\n<li>Excellent communication skills in both French and English;</li>\n<li>Autonomy, rigor, a collaborative mindset, and strong attention to detail;</li>\n<li>Microsoft certifications (DA-100, PL-300) are an asset.</li>\n\n</ul></div>"
+          },
+          {
+            "text": "What we offer",
+            "content": "<div>\n\n<li>Competitive Salary and contribution to your pension plan (RRSP)</li>\n<li>Flexible hours of work and choose how you work&nbsp;</li>\n<li>Work from anywhere up to 8 weeks</li>\n<li>Paid sabbatical</li>\n<li>Wellness and productivity spending account</li>\n<li>Parental program</li>\n<li>Activities</li>\n<li>Training</li>\n<li>And more...</li>\n\n</div>"
+          }
+        ],
+        "text": "Data Valorization Expert",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "<div><span style=\"font-size: 24px;\">Who we are </span></div><div><br></div><div>We’re a thriving and agile tech development firm. People are at the center of everything we do. Simply put, we care. Our team personally cares about our clients and the world around them, and we care about our team’s life-long dreams, aspirations, and career development.</div><div><br></div><div>We strongly believe in the power of community. This is why we seek opportunities to build meaningful relationships with everyone around us.</div><div><br></div><div>We celebrate diversity in all its forms. Backgrounds, personalities, career paths, languages... you name it. We actively innovate, learn, and share stories around the topic. We want everyone to feel welcomed and included in all we do.</div><div><br></div><div>We like having fun and enjoying ourselves. We wake up every day inspired to build a more efficient and enjoyable world.</div>",
+        "openingPlain": "Who we are \n\nWe’re a thriving and agile tech development firm. People are at the center of everything we do. Simply put, we care. Our team personally cares about our clients and the world around them, and we care about our team’s life-long dreams, aspirations, and career development.\n\nWe strongly believe in the power of community. This is why we seek opportunities to build meaningful relationships with everyone around us.\n\nWe celebrate diversity in all its forms. Backgrounds, personalities, career paths, languages... you name it. We actively innovate, learn, and share stories around the topic. We want everyone to feel welcomed and included in all we do.\n\nWe like having fun and enjoying ourselves. We wake up every day inspired to build a more efficient and enjoyable world.",
+        "descriptionBody": "<div><span style=\"font-size: 18px;\">Role overview</span></div>\n<div>\n<p>You will have the chance to collaborate with a team made up of experts in the industry you are passionate about, business intelligence. You will work on captivating projects that make a real difference for our partners. You also will be surrounded by colleagues who are passionate about what they do and who are not afraid to share their expertise.&nbsp;</p>\n</div>",
+        "descriptionBodyPlain": "Role overview\nYou will have the chance to collaborate with a team made up of experts in the industry you are passionate about, business intelligence. You will work on captivating projects that make a real difference for our partners. You also will be surrounded by colleagues who are passionate about what they do and who are not afraid to share their expertise. \n",
+        "hostedUrl": "https://jobs.lever.co/osedea/62023440-6a2f-4cd7-8cda-cc4a7fa3effa",
+        "applyUrl": "https://jobs.lever.co/osedea/62023440-6a2f-4cd7-8cda-cc4a7fa3effa/apply"
+      },
+      {
+        "additionalPlain": "Le processus pour ce rôle si ta candidature est retenue :\n \n1. Appel d’introduction avec un·e designer\n2. Défi pratique de design (basé sur un cas fictif)\n3. Entrevue finale\n \n \nConsultez notre page carrières pour en savoir plus.\n \nLes personnes retenus dans le processus seront contactés.\n",
+        "additional": "<div>\n<h3>Le processus pour ce rôle si ta candidature est retenue :</h3>\n<div>&nbsp;</div>\n<div>1. Appel d’introduction avec un·e designer</div>\n<div>2. Défi pratique de design (basé sur un cas fictif)</div>\n<div>3. Entrevue finale</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Consultez notre page&nbsp;<a href=\"https://www.osedea.com/fr/carrieres\">carrières</a>&nbsp;pour en savoir plus.</div>\n<div>&nbsp;</div>\n<div>Les personnes retenus dans le processus seront contactés.</div>\n</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Montréal (FR)",
+          "team": "UX/UI Design",
+          "allLocations": [
+            "Montréal (FR)"
+          ]
+        },
+        "createdAt": 1778597951949,
+        "descriptionPlain": "Qui nous sommes \n\nNous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.\n\nNous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. \n\nNous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.\n\nLe plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.\n\nAperçu du rôle\nNous cherchons un·e Designer·e principal·e de produits pour joindre notre équipe multidisciplinaire. Tu contribueras à créer des produits numériques à fort impact qui résolvent de vrais enjeux d’affaires, allant d’outils en IA à des tableaux de bord de données complexes.\n \nChez Osedea, le design joue un rôle stratégique. Tu mèneras le processus de design de bout en bout, de la définition des besoins utilisateurs et d’affaires jusqu’à la livraison de solutions haute fidélité en collaboration avec les développeurs.\n \nTu vas t’épanouir dans ce rôle si tu travailles de façon efficace et autonome, si tu communiques clairement avec les parties prenantes et si tu apportes une réflexion stratégique aux défis de nos clients. On est une équipe collaborative, donc ton esprit d’équipe et ta contribution à l’évolution de notre pratique de design sont tout aussi importants que tes compétences individuelles.\n",
+        "description": "<div><span style=\"font-size: 24px;\">Qui nous sommes </span></div><div><br></div><div>Nous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.</div><div><br></div><div>Nous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. </div><div><br></div><div>Nous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.</div><div><br></div><div>Le plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.</div><div><br></div><h3>Aperçu du rôle</h3>\n<div>Nous cherchons un·e Designer·e principal·e de produits pour joindre notre équipe multidisciplinaire. Tu contribueras à créer des produits numériques à fort impact qui résolvent de vrais enjeux d’affaires, allant d’outils en IA à des tableaux de bord de données complexes.</div>\n<div>&nbsp;</div>\n<div>Chez Osedea, le design joue un rôle stratégique. Tu mèneras le processus de design de bout en bout, de la définition des besoins utilisateurs et d’affaires jusqu’à la livraison de solutions haute fidélité en collaboration avec les développeurs.</div>\n<div>&nbsp;</div>\n<div>Tu vas t’épanouir dans ce rôle si tu travailles de façon efficace et autonome, si tu communiques clairement avec les parties prenantes et si tu apportes une réflexion stratégique aux défis de nos clients. On est une équipe collaborative, donc ton esprit d’équipe et ta contribution à l’évolution de notre pratique de design sont tout aussi importants que tes compétences individuelles.</div>",
+        "id": "8fa33014-0605-41ca-b4e6-c9f5bf27c480",
+        "lists": [
+          {
+            "text": "Tes principales responsabilités",
+            "content": "<div>\n<div>\n<div>\n<div data-qa=\"posting-requirements\">\n<div>\n\n<li style=\"list-style-type: revert;\">Prendre en charge le design de projets variés, de la découverte à la livraison</li>\n<li style=\"list-style-type: revert;\">Animer des ateliers de design, des entrevues avec les parties prenantes et d’autres activités de recherche utilisateur</li>\n<li style=\"list-style-type: revert;\">Transformer les insights en parcours, wireframes, maquettes et prototypes interactifs</li>\n<li style=\"list-style-type: revert;\">Travailler en étroite collaboration avec les développeurs pour assurer que l’intention de design se reflète dans l’implémentation</li>\n<li style=\"list-style-type: revert;\">Présenter et expliquer clairement tes choix de design aux clients et aux équipes internes</li>\n<li style=\"list-style-type: revert;\">Contribuer aux revues de design internes, soutenir les autres designers et participer à l’évolution de nos standards de design</li>\n<li style=\"list-style-type: revert;\">Rester à l’affût des outils, tendances et méthodes qui font progresser la pratique du design de produits</li>\n\n</div>\n</div>\n</div>\n</div>\n</div>"
+          },
+          {
+            "text": "Le profil idéal",
+            "content": "<div>\n\n<li style=\"list-style-type: revert;\">5+ années d’expérience en design de produits, idéalement en consultation, en agence ou en environnement techno</li>\n<li style=\"list-style-type: revert;\">Très efficace et autonome, capable de gérer ton temps et tes priorités avec peu de supervision</li>\n<li style=\"list-style-type: revert;\">Excellente gestion des parties prenantes, à l’aise en rencontre et capable d’aligner les équipes sur une direction claire</li>\n<li style=\"list-style-type: revert;\">Fortes aptitudes en communication, autant à l’écrit qu’à l’oral, et plaisir à travailler en collaboration interdisciplinaire</li>\n<li style=\"list-style-type: revert;\">Approche stratégique des problèmes de design, en tenant compte autant des besoins des utilisateurs que des objectifs d’affaires</li>\n<li style=\"list-style-type: revert;\">Naturellement collaboratif·ve, tu engages tes pairs pour hausser la qualité du travail</li>\n<li style=\"list-style-type: revert;\">Curieux·se et passionné·e par la compréhension du comportement humain, de la motivation et de la prise de décision</li>\n<li style=\"list-style-type: revert;\">Maîtrise de Figma, solide expérience avec les design systems et le design réactif (responsive) sur différents appareils et plateformes</li>\n<li style=\"list-style-type: revert;\">Expérience avérée en recherche utilisateur et tests d’utilisabilité</li>\n<li style=\"list-style-type: revert;\">Habitude de travailler dans une équipe utilisant la méthodologie Agile</li>\n\n</div>"
+          },
+          {
+            "text": "C'est un plus si tu as déjà travaillé",
+            "content": "<div>\n\n<li style=\"list-style-type: revert;\">Sur des plateformes B2B, outils internes ou logiciels d’entreprise</li>\n<li style=\"list-style-type: revert;\">Avec des clients dans la fabrication, la santé ou l’IA</li>\n<li style=\"list-style-type: revert;\">Dans des environnements à itérations rapides et développement de MVPs</li>\n\n</div>"
+          },
+          {
+            "text": "Ce que nous offrons",
+            "content": "<div>\n\n<li style=\"list-style-type: revert;\">Salaire compétitif et contribution à ton régime d’épargne-retraite (REER)</li>\n<li style=\"list-style-type: revert;\">Horaire flexible et liberté dans ta façon de travailler</li>\n<li style=\"list-style-type: revert;\">Possibilité de travailler de n’importe où jusqu’à 8 semaines par année</li>\n<li style=\"list-style-type: revert;\">Congé sabbatique payé</li>\n<li style=\"list-style-type: revert;\">Compte de dépenses pour le bien-être et la productivité</li>\n<li style=\"list-style-type: revert;\">Programme parental</li>\n<li style=\"list-style-type: revert;\">Activités</li>\n<li style=\"list-style-type: revert;\">Formations</li>\n<li style=\"list-style-type: revert;\">Et plus encore…</li>\n\n</div>"
+          }
+        ],
+        "text": "Designer de produits senior",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "<div><span style=\"font-size: 24px;\">Qui nous sommes </span></div><div><br></div><div>Nous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.</div><div><br></div><div>Nous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. </div><div><br></div><div>Nous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.</div><div><br></div><div>Le plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.</div>",
+        "openingPlain": "Qui nous sommes \n\nNous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.\n\nNous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. \n\nNous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.\n\nLe plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.",
+        "descriptionBody": "<h3>Aper&ccedil;u du r&ocirc;le</h3>\n<div>Nous cherchons un&middot;e Designer&middot;e principal&middot;e de produits pour joindre notre &eacute;quipe multidisciplinaire. Tu contribueras &agrave; cr&eacute;er des produits num&eacute;riques &agrave; fort impact qui r&eacute;solvent de vrais enjeux d&rsquo;affaires, allant d&rsquo;outils en IA &agrave; des tableaux de bord de donn&eacute;es complexes.</div>\n<div>&nbsp;</div>\n<div>Chez Osedea, le design joue un r&ocirc;le strat&eacute;gique. Tu m&egrave;neras le processus de design de bout en bout, de la d&eacute;finition des besoins utilisateurs et d&rsquo;affaires jusqu&rsquo;&agrave; la livraison de solutions haute fid&eacute;lit&eacute; en collaboration avec les d&eacute;veloppeurs.</div>\n<div>&nbsp;</div>\n<div>Tu vas t&rsquo;&eacute;panouir dans ce r&ocirc;le si tu travailles de fa&ccedil;on efficace et autonome, si tu communiques clairement avec les parties prenantes et si tu apportes une r&eacute;flexion strat&eacute;gique aux d&eacute;fis de nos clients. On est une &eacute;quipe collaborative, donc ton esprit d&rsquo;&eacute;quipe et ta contribution &agrave; l&rsquo;&eacute;volution de notre pratique de design sont tout aussi importants que tes comp&eacute;tences individuelles.</div>",
+        "descriptionBodyPlain": "Aperçu du rôle\nNous cherchons un·e Designer·e principal·e de produits pour joindre notre équipe multidisciplinaire. Tu contribueras à créer des produits numériques à fort impact qui résolvent de vrais enjeux d’affaires, allant d’outils en IA à des tableaux de bord de données complexes.\n \nChez Osedea, le design joue un rôle stratégique. Tu mèneras le processus de design de bout en bout, de la définition des besoins utilisateurs et d’affaires jusqu’à la livraison de solutions haute fidélité en collaboration avec les développeurs.\n \nTu vas t’épanouir dans ce rôle si tu travailles de façon efficace et autonome, si tu communiques clairement avec les parties prenantes et si tu apportes une réflexion stratégique aux défis de nos clients. On est une équipe collaborative, donc ton esprit d’équipe et ta contribution à l’évolution de notre pratique de design sont tout aussi importants que tes compétences individuelles.\n",
+        "hostedUrl": "https://jobs.lever.co/osedea/8fa33014-0605-41ca-b4e6-c9f5bf27c480",
+        "applyUrl": "https://jobs.lever.co/osedea/8fa33014-0605-41ca-b4e6-c9f5bf27c480/apply"
+      },
+      {
+        "additionalPlain": "Le processus pour ce rôle si ta candidature est retenue :\n \n1. 20 min - Appel d’introduction avec un·e membre de notre équipe technique\n2. 90 min - Entrevue en présentiel à nos bureaux\n3. Présentation de l'offre\n \nConsultez notre page carrières pour en savoir plus.\n \n",
+        "additional": "<div><span style=\"font-size: 18px;\">Le processus pour ce rôle si ta candidature est retenue :</span></div>\n<div>&nbsp;</div>\n<div>1. 20 min - Appel d’introduction avec un·e membre de notre équipe technique</div>\n<div>2. 90 min - Entrevue en présentiel à nos bureaux</div>\n<div>3. Présentation de l'offre</div>\n<div>&nbsp;</div>\n<div><span style=\"font-size: 11pt;\">Consultez notre page&nbsp;</span><a href=\"https://www.osedea.com/fr/carrieres\" style=\"font-size: 11pt;\">carrières</a><span style=\"font-size: 11pt;\">&nbsp;pour en savoir plus.</span></div>\n<div>&nbsp;</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "location": "Montréal (FR)",
+          "team": "Artificial Intelligence",
+          "allLocations": [
+            "Montréal (FR)"
+          ]
+        },
+        "createdAt": 1769186210701,
+        "descriptionPlain": "Qui nous sommes \n\nNous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.\n\nNous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. \n\nNous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.\n\nLe plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.\n\nAperçu du rôle\n \nEn tant que Développeur.euse IA senior, tu bâtis des fonctionnalités et des systèmes d’IA robustes, prêts pour la production, pour des client.e.s en contexte entreprise. Tu amènes une discipline forte en développement logiciel, une expertise appliquée en IA, et la capacité de prendre en charge un mandat de la conception à la livraison. Tu collabores avec plusieurs rôles, tu coaches des coéquipier.ère.s, et tu aides l’équipe à prendre des décisions techniques pragmatiques qui tiennent la route en production.\n \nLes technologies ci-dessous servent de repères par rapport à notre stack. Au-delà de la stack, on recrute surtout pour les fondamentaux, l’autonomie, et le potentiel de progression.\n",
+        "description": "<div><span style=\"font-size: 24px;\">Qui nous sommes </span></div><div><br></div><div>Nous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.</div><div><br></div><div>Nous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. </div><div><br></div><div>Nous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.</div><div><br></div><div>Le plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.</div><div><br></div><div><span style=\"font-size: 18px;\">Aperçu du rôle</span></div>\n<div>&nbsp;</div>\n<div>En tant que Développeur.euse IA senior, tu bâtis des fonctionnalités et des systèmes d’IA robustes, prêts pour la production, pour des client.e.s en contexte entreprise. Tu amènes une discipline forte en développement logiciel, une expertise appliquée en IA, et la capacité de prendre en charge un mandat de la conception à la livraison. Tu collabores avec plusieurs rôles, tu coaches des coéquipier.ère.s, et tu aides l’équipe à prendre des décisions techniques pragmatiques qui tiennent la route en production.</div>\n<div>&nbsp;</div>\n<div>Les technologies ci-dessous servent de repères par rapport à notre stack. Au-delà de la stack, on recrute surtout pour les fondamentaux, l’autonomie, et le potentiel de progression.</div>",
+        "id": "bed000ca-99f4-40f1-866e-383125eea98f",
+        "lists": [
+          {
+            "text": "Tes responsabilités clés",
+            "content": "\n<li>Développer et livrer des solutions logicielles propulsées par l’IA pour nos client.e.s</li>\n<li>Identifier des opportunités d’intégrer l’IA dans des produits et des processus</li>\n<li>Implémenter des solutions selon les spécifications et la documentation (SRS, C4)</li>\n<li>Définir et communiquer les exigences non fonctionnelles et les objectifs de qualité</li>\n<li>Construire des pipelines ML et des intégrations de production (APIs, services, flux de données)</li>\n<li>Coach(er) des collègues sur les patterns d’implémentation IA et les bonnes pratiques d’ingénierie</li>\n<li>Prendre l’initiative, assumer la responsabilité des tâches de bout en bout, et gérer les priorités efficacement</li>\n<li>Maintenir et renforcer les standards (qualité du code, tests, revues, bonnes pratiques)</li>\n<li>Faire de la veille, tester et mettre en place de nouveaux modèles, outils et approches</li>\n<li>Conseiller les client.e.s sur les décisions techniques, les compromis, et les plans de livraison</li>\n"
+          },
+          {
+            "text": "Le profil idéal",
+            "content": "\n<li>5+ années d’expérience en développement logiciel, dont 3+ années récentes en IA/ML (Deep Learning, vision par ordinateur, NLP, IA générative, analytique prédictive, etc.)</li>\n<li>Maîtrise (ou doctorat) en informatique / génie logiciel spécialisé en IA, ou expérience équivalente</li>\n<li>Français intermédiaire ou conversationnel (minimum)</li>\n"
+          },
+          {
+            "text": "Tu maîtrises ces technologies",
+            "content": "\n<li>Python 3</li>\n<li>Les bibliothèques Python clés (comme Numpy, Pandas, Pytorch et Scikit Learn)</li>\n<li>Analyse, nettoyage, traitement et augmentation de données</li>\n<li>Cadres d'apprentissage profond (comme TensorFlow, Keras et Pytorch)</li>\n<li>Services d'IA sur au moins une plateforme d'hébergement cloud (AWS, Azure, Google Cloud, etc.)</li>\n<li>Opérations d'apprentissage automatique</li>\n<li>Tests d'application (unitaires, fonctionnels, E2E, etc.)</li>\n<li>Méthodologies de développement (Agile, Scrum, XP, Kanban, Shape Up, etc.)</li>\n"
+          },
+          {
+            "text": "Ce que nous offrons",
+            "content": "\n<li>Salaire compétitif et contribution à ton régime d’épargne-retraite (REER)</li>\n<li>Horaire flexible et liberté dans ta façon de travailler</li>\n<li>Possibilité de travailler de n’importe où jusqu’à 8 semaines par année</li>\n<li>Congé sabbatique payé</li>\n<li>Compte de dépenses pour le bien-être et la productivité</li>\n<li>Programme parental</li>\n<li>Activités</li>\n<li>Formations</li>\n<li>Et plus encore…</li>\n"
+          }
+        ],
+        "text": "Développeur.euse IA senior",
+        "country": "CA",
+        "workplaceType": "hybrid",
+        "opening": "<div><span style=\"font-size: 24px;\">Qui nous sommes </span></div><div><br></div><div>Nous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.</div><div><br></div><div>Nous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. </div><div><br></div><div>Nous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.</div><div><br></div><div>Le plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.</div>",
+        "openingPlain": "Qui nous sommes \n\nNous sommes une entreprise de technologie en plein essor, spécialisée dans le développement agile. Au cœur de tout ce que nous faisons, il y a les gens; c’est ce qui nous tient à cœur. Nous nous soucions sincèrement des clients et de leur environnement, et nous avons à cœur les grands rêves, les aspirations et l’avancement professionnel de chaque membre de notre équipe.\n\nNous croyons fermement que l’union fait la force, et c’est pourquoi nous sommes toujours à la recherche de nouvelles façons de bâtir des liens avec tous ceux qui nous entourent. \n\nNous valorisons la diversité sous toutes ses formes : origines, personnalités, cheminements professionnels, langues... absolument tout. Ce sujet est pour nous l’occasion d’innovations concrètes comme d’apprentissages et d’échanges. Nous voulons que tout le monde se sente accueilli et à sa place dans tout ce que nous faisons.\n\nLe plaisir, c’est aussi notre affaire. Chaque jour, nous nous levons avec la motivation de faire du monde un endroit plus efficace et plus agréable.",
+        "descriptionBody": "<div><span style=\"font-size: 18px;\">Aper&ccedil;u du r&ocirc;le</span></div>\n<div>&nbsp;</div>\n<div>En tant que D&eacute;veloppeur.euse IA senior, tu b&acirc;tis des fonctionnalit&eacute;s et des syst&egrave;mes d&rsquo;IA robustes, pr&ecirc;ts pour la production, pour des client.e.s en contexte entreprise. Tu am&egrave;nes une discipline forte en d&eacute;veloppement logiciel, une expertise appliqu&eacute;e en IA, et la capacit&eacute; de prendre en charge un mandat de la conception &agrave; la livraison. Tu collabores avec plusieurs r&ocirc;les, tu coaches des co&eacute;quipier.&egrave;re.s, et tu aides l&rsquo;&eacute;quipe &agrave; prendre des d&eacute;cisions techniques pragmatiques qui tiennent la route en production.</div>\n<div>&nbsp;</div>\n<div>Les technologies ci-dessous servent de rep&egrave;res par rapport &agrave; notre stack. Au-del&agrave; de la stack, on recrute surtout pour les fondamentaux, l&rsquo;autonomie, et le potentiel de progression.</div>",
+        "descriptionBodyPlain": "Aperçu du rôle\n \nEn tant que Développeur.euse IA senior, tu bâtis des fonctionnalités et des systèmes d’IA robustes, prêts pour la production, pour des client.e.s en contexte entreprise. Tu amènes une discipline forte en développement logiciel, une expertise appliquée en IA, et la capacité de prendre en charge un mandat de la conception à la livraison. Tu collabores avec plusieurs rôles, tu coaches des coéquipier.ère.s, et tu aides l’équipe à prendre des décisions techniques pragmatiques qui tiennent la route en production.\n \nLes technologies ci-dessous servent de repères par rapport à notre stack. Au-delà de la stack, on recrute surtout pour les fondamentaux, l’autonomie, et le potentiel de progression.\n",
+        "hostedUrl": "https://jobs.lever.co/osedea/bed000ca-99f4-40f1-866e-383125eea98f",
+        "applyUrl": "https://jobs.lever.co/osedea/bed000ca-99f4-40f1-866e-383125eea98f/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://osedea.com",
+    "explanation": "Official employer homepage: https://osedea.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/osedea/62023440-6a2f-4cd7-8cda-cc4a7fa3effa",
+      "https://jobs.lever.co/osedea/8fa33014-0605-41ca-b4e6-c9f5bf27c480",
+      "https://jobs.lever.co/osedea/bed000ca-99f4-40f1-866e-383125eea98f"
+    ]
+  }
+}

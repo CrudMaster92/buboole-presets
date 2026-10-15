@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cheo",
+  "name": "CHEO",
+  "aliases": [],
+  "website_url": "https://cheo.on.ca",
+  "logo_url": "https://www.cheo.on.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

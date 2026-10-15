@@ -1,0 +1,191 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "voyago",
+    "name": "Voyago",
+    "aliases": [],
+    "website_url": "https://voyago.ca",
+    "logo_url": "https://voyago.ca/wp-content/uploads/2018/03/Fav.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "voyago",
+    "company_id": "voyago",
+    "revision": 1,
+    "label": "Voyago public careers",
+    "careers_url": "https://apply.workable.com/voyago",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Voyago",
+      "careers_url": "https://apply.workable.com/voyago",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "apply.workable.com",
+        "www.workable.com"
+      ],
+      "request": {
+        "url": "https://www.workable.com/api/accounts/voyago",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "shortcode",
+        "title": "title",
+        "location": "city",
+        "url": "url",
+        "description": "description",
+        "posted_date": "published_on",
+        "employment_type": "employment_type"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.workable.com/api/accounts/voyago",
+    "fetched_at": "2026-10-15T18:30:05.154877+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "title": "310T Automotive Apprentice Mechanic - Ottawa West",
+          "shortcode": "E565D157A1",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Fleet Services & Assets",
+          "url": "https://apply.workable.com/j/E565D157A1",
+          "shortlink": "https://apply.workable.com/j/E565D157A1",
+          "application_url": "https://apply.workable.com/j/E565D157A1/apply",
+          "published_on": "2026-09-24",
+          "created_at": "2026-09-24",
+          "country": "Canada",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "education": "Certification",
+          "experience": "",
+          "function": "Other",
+          "industry": "Automotive",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Ottawa",
+              "region": "Ontario",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "310T Fleet Mechanic - West Ottawa - Carp, ON",
+          "shortcode": "7C868C0B9A",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Fleet Services & Assets",
+          "url": "https://apply.workable.com/j/7C868C0B9A",
+          "shortlink": "https://apply.workable.com/j/7C868C0B9A",
+          "application_url": "https://apply.workable.com/j/7C868C0B9A/apply",
+          "published_on": "2026-09-14",
+          "created_at": "2026-09-14",
+          "country": "Canada",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "education": "Certification",
+          "experience": "",
+          "function": "",
+          "industry": "Transportation/Trucking/Railroad",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Ottawa",
+              "region": "Ontario",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "title": "310T Lead Hand - Bus Mechanic - Sudbury",
+          "shortcode": "9F7BCCAD21",
+          "code": "",
+          "employment_type": "Full-time",
+          "telecommuting": false,
+          "department": "Fleet Services & Assets",
+          "url": "https://apply.workable.com/j/9F7BCCAD21",
+          "shortlink": "https://apply.workable.com/j/9F7BCCAD21",
+          "application_url": "https://apply.workable.com/j/9F7BCCAD21/apply",
+          "published_on": "2026-09-28",
+          "created_at": "2026-09-28",
+          "country": "Canada",
+          "city": "Sudbury",
+          "state": "Ontario",
+          "education": "Certification",
+          "experience": "",
+          "function": "",
+          "industry": "Automotive",
+          "locations": [
+            {
+              "country": "Canada",
+              "countryCode": "CA",
+              "city": "Sudbury",
+              "region": "Ontario",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://voyago.ca",
+    "explanation": "Official employer homepage: https://voyago.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://apply.workable.com/j/E565D157A1",
+      "https://apply.workable.com/j/7C868C0B9A",
+      "https://apply.workable.com/j/9F7BCCAD21"
+    ]
+  }
+}

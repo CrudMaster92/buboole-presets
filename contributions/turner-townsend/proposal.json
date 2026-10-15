@@ -1,0 +1,348 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "turner-townsend",
+    "name": "Turner & Townsend",
+    "aliases": [],
+    "website_url": "https://turnerandtownsend.com",
+    "logo_url": "https://www.turnerandtownsend.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "turner-townsend",
+    "company_id": "turner-townsend",
+    "revision": 1,
+    "label": "Turner & Townsend public careers",
+    "careers_url": "https://careers.smartrecruiters.com/TurnerTownsend",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Turner & Townsend",
+      "careers_url": "https://careers.smartrecruiters.com/TurnerTownsend",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings",
+    "fetched_at": "2026-10-15T18:23:23.711583+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155823520",
+          "name": "Assistant Project Manager - Hotel Construction Projects",
+          "uuid": "dfc965a4-83e2-4116-a0ce-fe731ea43f2a",
+          "jobAdId": "60ddee3b-495c-453b-b777-a8dcf3489bc4",
+          "defaultJobAd": true,
+          "refNumber": "REF40741Q",
+          "company": {
+            "identifier": "TurnerTownsend",
+            "name": "Turner & Townsend"
+          },
+          "releasedDate": "2026-10-15T17:59:47.866Z",
+          "location": {
+            "city": "Mexico City",
+            "region": "Latin America",
+            "country": "mx",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "19.4333",
+            "longitude": "-99.1333",
+            "fullLocation": "Mexico City, Latin America, Mexico"
+          },
+          "industry": {
+            "id": "construction",
+            "label": "Construction"
+          },
+          "department": {
+            "id": "1360908",
+            "label": "Real estate"
+          },
+          "function": {
+            "id": "project_management",
+            "label": "Project Management"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5d36d00198f1310d2034cf62",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Turner & Townsend"
+            },
+            {
+              "fieldId": "5d36d00198f1310d2034cf63",
+              "fieldLabel": "Department",
+              "valueId": "1360908",
+              "valueLabel": "Real estate"
+            },
+            {
+              "fieldId": "5d7a57d5b9a21b783becfb78",
+              "fieldLabel": "Region",
+              "valueId": "GLOBAL_REGION_LOCRG05",
+              "valueLabel": "Latin America"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "mx",
+              "valueLabel": "Mexico"
+            },
+            {
+              "fieldId": "5e7b88a676f9586f1ea45b74",
+              "fieldLabel": "Discipline",
+              "valueId": "52ad8077-70bc-4b10-b97a-11a44886dea0",
+              "valueLabel": "Project Management"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155823520",
+          "creator": {
+            "name": "Charlene Guerrero"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155822831",
+          "name": "Cost Manager - Manufacturing Construction Projects",
+          "uuid": "0ba631ad-0bc4-4d46-977d-f5a906cc980c",
+          "jobAdId": "4b73b9eb-4303-47b5-953e-f7d56515131b",
+          "defaultJobAd": true,
+          "refNumber": "REF40931K",
+          "company": {
+            "identifier": "TurnerTownsend",
+            "name": "Turner & Townsend"
+          },
+          "releasedDate": "2026-10-15T17:58:34.254Z",
+          "location": {
+            "city": "Mexico City",
+            "region": "Latin America",
+            "country": "mx",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "19.4333",
+            "longitude": "-99.1333",
+            "fullLocation": "Mexico City, Latin America, Mexico"
+          },
+          "industry": {
+            "id": "construction",
+            "label": "Construction"
+          },
+          "department": {
+            "id": "1360908",
+            "label": "Real estate"
+          },
+          "function": {
+            "id": "strategy_planning",
+            "label": "Strategy/Planning"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5d36d00198f1310d2034cf62",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Turner & Townsend"
+            },
+            {
+              "fieldId": "5d36d00198f1310d2034cf63",
+              "fieldLabel": "Department",
+              "valueId": "1360908",
+              "valueLabel": "Real estate"
+            },
+            {
+              "fieldId": "5d7a57d5b9a21b783becfb78",
+              "fieldLabel": "Region",
+              "valueId": "GLOBAL_REGION_LOCRG05",
+              "valueLabel": "Latin America"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "mx",
+              "valueLabel": "Mexico"
+            },
+            {
+              "fieldId": "5e7b88a676f9586f1ea45b74",
+              "fieldLabel": "Discipline",
+              "valueId": "e4ada891-f955-4dea-8d75-74d863f33fe0",
+              "valueLabel": "Cost Management"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155822831",
+          "creator": {
+            "name": "Charlene Guerrero"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155822179",
+          "name": "Associate Director - Cost Manager / Quantity Surveyor - Life Sciences Construction",
+          "uuid": "f27cf5db-3551-4c41-99cf-39e0f85c47d4",
+          "jobAdId": "fa830888-994c-4b10-aded-cfa1bb76936d",
+          "defaultJobAd": true,
+          "refNumber": "REF40673K",
+          "company": {
+            "identifier": "TurnerTownsend",
+            "name": "Turner & Townsend"
+          },
+          "releasedDate": "2026-10-15T17:47:50.879Z",
+          "location": {
+            "city": "New Albany",
+            "region": "Ohio",
+            "country": "us",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "38.309",
+            "longitude": "-85.8234",
+            "fullLocation": "New Albany, Ohio, United States"
+          },
+          "industry": {
+            "id": "construction",
+            "label": "Construction"
+          },
+          "department": {
+            "id": "1360908",
+            "label": "Real estate"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "associate",
+            "label": "Associate"
+          },
+          "customField": [
+            {
+              "fieldId": "5d36d00198f1310d2034cf62",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Turner & Townsend"
+            },
+            {
+              "fieldId": "5d36d00198f1310d2034cf63",
+              "fieldLabel": "Department",
+              "valueId": "1360908",
+              "valueLabel": "Real estate"
+            },
+            {
+              "fieldId": "5d7a57d5b9a21b783becfb78",
+              "fieldLabel": "Region",
+              "valueId": "GLOBAL_REGION_LOCRG07",
+              "valueLabel": "North America"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5e7b88a676f9586f1ea45b74",
+              "fieldLabel": "Discipline",
+              "valueId": "e4ada891-f955-4dea-8d75-74d863f33fe0",
+              "valueLabel": "Cost Management"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155822179",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://turnerandtownsend.com",
+    "explanation": "Official employer homepage: https://turnerandtownsend.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155823520",
+      "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155822831",
+      "https://api.smartrecruiters.com/v1/companies/TurnerTownsend/postings/744000155822179"
+    ]
+  }
+}

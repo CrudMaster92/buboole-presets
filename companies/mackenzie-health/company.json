@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mackenzie-health",
+  "name": "Mackenzie Health",
+  "aliases": [],
+  "website_url": "https://mackenziehealth.ca",
+  "logo_url": "https://www.mackenziehealth.ca/GetSiteFile/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "astrazeneca-canada",
+    "name": "AstraZeneca",
+    "aliases": [],
+    "website_url": "https://astrazeneca.com",
+    "logo_url": "https://logo.freehire.me/AstraZeneca?domain=astrazeneca.com",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "astrazeneca-canada",
+    "company_id": "astrazeneca-canada",
+    "revision": 1,
+    "label": "AstraZeneca public careers",
+    "careers_url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "Local listing traversal remained incomplete; collector must resume its checkpoint and must not close unseen roles.",
+        "Exact-recipe work slice was incomplete; full descriptions and completion require subsequent collector cycles.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "AstraZeneca",
+      "careers_url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "astrazeneca.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "astrazeneca",
+        "site": "Careers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/jobs",
+    "fetched_at": "2026-10-15T18:23:23.738588+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Senior Director Compliance and Legal Services",
+          "externalPath": "/job/US---Wilmington---DE/Senior-Director-Compliance-and-Legal-Services_R-249140-1",
+          "timeType": "Full time",
+          "locationsText": "US - Wilmington - DE",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-249140"
+          ]
+        },
+        {
+          "title": "Senior Statistician II",
+          "externalPath": "/job/Canada---Mississauga/Senior-Statistician-II_R-261294",
+          "timeType": "Full time",
+          "locationsText": "Canada - Mississauga",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-261294"
+          ]
+        },
+        {
+          "title": "Field Medical Director - Pathologist",
+          "externalPath": "/job/US/Regional-Medical-Director--Breast-Diagnostics-US_R-258268",
+          "timeType": "Full time",
+          "locationsText": "US",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-258268"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://astrazeneca.com",
+    "explanation": "Official employer homepage: https://astrazeneca.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Senior-Director-Compliance-and-Legal-Services_R-249140-1",
+      "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/Canada---Mississauga/Senior-Statistician-II_R-261294",
+      "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US/Regional-Medical-Director--Breast-Diagnostics-US_R-258268"
+    ]
+  }
+}

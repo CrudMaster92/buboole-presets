@@ -1,0 +1,99 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "dillon-consulting",
+    "name": "Dillon Consulting",
+    "aliases": [],
+    "website_url": "https://dillon.ca",
+    "logo_url": "https://www.dillon.ca/wp-content/uploads/2026/05/cropped-Dillon-d-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "dillon-consulting",
+    "company_id": "dillon-consulting",
+    "revision": 1,
+    "label": "Dillon Consulting public careers",
+    "careers_url": "https://external-dillon.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Dillon Consulting",
+      "careers_url": "https://external-dillon.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "external-dillon.icims.com"
+      ],
+      "request": {
+        "url": "https://external-dillon.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://external-dillon.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T18:29:13.950328+00:00",
+    "payload": "<html><body><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-BC-Vancouver</span>\n</div>\n<div class=\"col-xs-6 header right\">\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://external-dillon.icims.com/jobs/4334/project-administrator/job?in_iframe=1\" title=\"4334 - Project Administrator\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nProject Administrator</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nAre you someone with strong leadership and administrative skills? Do you enjoy building relationships and working collaboratively in a team environment with both internal and external stakeholders? Are you a trusted partner and a problem solver? As someone with excellent communication skills and business acumen, you will thrive in our fast-paced and agile environment.\r\n \r\nYour opportunity\r\n </div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-4334</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Position Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nRegular Full-Time</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Toronto</span>\n</div>\n<div class=\"col-xs-6 header right\">\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://external-dillon.icims.com/jobs/4333/administrative-office-manager/job?in_iframe=1\" title=\"4333 - Administrative Office Manager\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nAdministrative Office Manager</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nDo you excel at building strong workplace connections, leading office operations, and keeping daily administrative tasks running seamlessly? Join our team as an Administrative Office Manager in Downtown Toronto. In this role, you will bring a blend of local operational leadership—championing a positive workplace culture, leading internal office communications, and driving local office initiatives—with direct, hands-on daily administration. You will be the face and backbone of our Downtown Toronto office: welcoming visitors, managing accounts payable invoices and expense approvals, leading new employee systems orientation, formatting technical...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-4333</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Position Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nRegular Full-Time</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Kingston | CA-ON-Ottawa</span>\n</div>\n<div class=\"col-xs-6 header right\">\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://external-dillon.icims.com/jobs/4332/team-manager-%e2%80%93-facilities-engineering/job?in_iframe=1\" title=\"4332 - Team Manager – Facilities Engineering\">\n<span class=\"sr-only field-label\">Title</span>\n<h3>\nTeam Manager – Facilities Engineering</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nWe are seeking a Team Manager – Buildings, Eastern Ontario to play a key leadership role in the next stage of Dillon’s growth in Eastern Ontario. \r\n \r\nBased in either our Ottawa or Kingston office, the successful candidate will help build Dillon’s local buildings presence, develop lasting client relationships,...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-4332</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Position Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nRegular Full-Time</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://dillon.ca",
+    "explanation": "Official employer homepage: https://dillon.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://external-dillon.icims.com/jobs/4334/project-administrator/job?in_iframe=1",
+      "https://external-dillon.icims.com/jobs/4333/administrative-office-manager/job?in_iframe=1",
+      "https://external-dillon.icims.com/jobs/4332/team-manager-%e2%80%93-facilities-engineering/job?in_iframe=1"
+    ]
+  }
+}

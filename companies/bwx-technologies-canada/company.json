@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bwx-technologies-canada",
+  "name": "BWX Technologies",
+  "aliases": [],
+  "website_url": "https://bwxt.com",
+  "logo_url": "https://www.bwxt.com/wp-content/uploads/2025/01/cropped-x-new-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

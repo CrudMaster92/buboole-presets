@@ -1,0 +1,430 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "sodexo-canada",
+    "name": "Sodexo Canada",
+    "aliases": [],
+    "website_url": "https://ca.sodexo.com",
+    "logo_url": "https://ca.sodexo.com/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "sodexo-canada",
+    "company_id": "sodexo-canada",
+    "revision": 1,
+    "label": "Sodexo Canada public careers",
+    "careers_url": "https://careers.smartrecruiters.com/SodexoCanadaLtd",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Sodexo Canada",
+      "careers_url": "https://careers.smartrecruiters.com/SodexoCanadaLtd",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings",
+    "fetched_at": "2026-10-15T18:25:25.258573+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155824779",
+          "name": "Baker (70306838) ",
+          "uuid": "978b183d-16d0-43c5-b5d0-9af3db213922",
+          "jobAdId": "704112c7-56ba-4a58-aaa1-9f8c320f2b9f",
+          "defaultJobAd": true,
+          "refNumber": "REF4523H",
+          "company": {
+            "identifier": "SodexoCanadaLtd",
+            "name": "Sodexo Canada Ltd"
+          },
+          "releasedDate": "2026-10-15T18:03:50.091Z",
+          "location": {
+            "city": "Edmonton",
+            "region": "AB",
+            "country": "ca",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "53.5461663",
+            "longitude": "-113.4937355",
+            "fullLocation": "Edmonton, AB, Canada"
+          },
+          "industry": {
+            "id": "food_and_beverages",
+            "label": "Food And Beverages"
+          },
+          "department": {},
+          "function": {
+            "id": "product_management",
+            "label": "Product Management"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "60809187a9fffe6fd69220da",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sodexo Canada Ltd"
+            },
+            {
+              "fieldId": "60834717b0c61b7bd752f281",
+              "fieldLabel": "Province",
+              "valueId": "4975b067-a4f6-4551-bcbc-daffc1a43401",
+              "valueLabel": "AB"
+            },
+            {
+              "fieldId": "6083482aa9fffe6fd6922125",
+              "fieldLabel": "Language Requirements/Exigences linguistiques",
+              "valueId": "231011c2-0cf1-41d9-8e9b-9fac5477f114",
+              "valueLabel": "English"
+            },
+            {
+              "fieldId": "608346decd397917666e71bf",
+              "fieldLabel": "Position Type/Type de poste",
+              "valueId": "35b0ea3c-93ee-48bc-9483-a4e24eeca219",
+              "valueLabel": "Hourly"
+            },
+            {
+              "fieldId": "60834799343614213dc673ad",
+              "fieldLabel": "Job Type/Type d'emploi",
+              "valueId": "00b5aec2-a45c-4cc7-9bce-186390e3632b",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "651338478f39dc0a7d5d3514",
+              "fieldLabel": "Onboarding Process",
+              "valueId": "269d4cbf-b533-47f2-af73-112d38b79335",
+              "valueLabel": "Hourly with Benefits | Taux Horaire avec Av Sociaux"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6083460fb0c61b7bd752f280",
+              "fieldLabel": "Division",
+              "valueId": "b5f63cec-3125-4410-9ab8-da4776b67429",
+              "valueLabel": "Canada Corporate Services"
+            },
+            {
+              "fieldId": "60834801b0c61b7bd752f282",
+              "fieldLabel": "Cost Center",
+              "valueId": "52cf2632-71fd-46fc-a68a-da76c59309ce",
+              "valueLabel": "70306838"
+            },
+            {
+              "fieldId": "608b32d5086d034b3f5957fd",
+              "fieldLabel": "Fly in-Fly out /Vol d'arrivée-vol de départ",
+              "valueId": "7a95ae9e-b8f7-4c38-884c-60b5a2b4cd88",
+              "valueLabel": "No"
+            },
+            {
+              "fieldId": "6083487ca9fffe6fd6922126",
+              "fieldLabel": "Percentage of Travel Required/Pourcentage de déplacements requis",
+              "valueLabel": "0"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155824779",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155824059",
+          "name": "Cook Supervisor (70306838) ",
+          "uuid": "f45a86d7-2e9d-4ca1-991a-67e2ef0cc89e",
+          "jobAdId": "b1494e23-9319-4814-bcef-cf9ba8c5bd4f",
+          "defaultJobAd": true,
+          "refNumber": "REF4498E",
+          "company": {
+            "identifier": "SodexoCanadaLtd",
+            "name": "Sodexo Canada Ltd"
+          },
+          "releasedDate": "2026-10-15T17:59:29.343Z",
+          "location": {
+            "city": "Edmonton",
+            "region": "AB",
+            "country": "ca",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "53.5461663",
+            "longitude": "-113.4937355",
+            "fullLocation": "Edmonton, AB, Canada"
+          },
+          "industry": {
+            "id": "food_and_beverages",
+            "label": "Food And Beverages"
+          },
+          "department": {},
+          "function": {
+            "id": "product_management",
+            "label": "Product Management"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "60809187a9fffe6fd69220da",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sodexo Canada Ltd"
+            },
+            {
+              "fieldId": "60834717b0c61b7bd752f281",
+              "fieldLabel": "Province",
+              "valueId": "4975b067-a4f6-4551-bcbc-daffc1a43401",
+              "valueLabel": "AB"
+            },
+            {
+              "fieldId": "6083482aa9fffe6fd6922125",
+              "fieldLabel": "Language Requirements/Exigences linguistiques",
+              "valueId": "231011c2-0cf1-41d9-8e9b-9fac5477f114",
+              "valueLabel": "English"
+            },
+            {
+              "fieldId": "608346decd397917666e71bf",
+              "fieldLabel": "Position Type/Type de poste",
+              "valueId": "35b0ea3c-93ee-48bc-9483-a4e24eeca219",
+              "valueLabel": "Hourly"
+            },
+            {
+              "fieldId": "60834799343614213dc673ad",
+              "fieldLabel": "Job Type/Type d'emploi",
+              "valueId": "00b5aec2-a45c-4cc7-9bce-186390e3632b",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "651338478f39dc0a7d5d3514",
+              "fieldLabel": "Onboarding Process",
+              "valueId": "269d4cbf-b533-47f2-af73-112d38b79335",
+              "valueLabel": "Hourly with Benefits | Taux Horaire avec Av Sociaux"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6083460fb0c61b7bd752f280",
+              "fieldLabel": "Division",
+              "valueId": "41b34ff6-057c-41ae-bfe7-333a4b58f855",
+              "valueLabel": "Canada Energy"
+            },
+            {
+              "fieldId": "60834801b0c61b7bd752f282",
+              "fieldLabel": "Cost Center",
+              "valueId": "52cf2632-71fd-46fc-a68a-da76c59309ce",
+              "valueLabel": "70306838"
+            },
+            {
+              "fieldId": "6083487ca9fffe6fd6922126",
+              "fieldLabel": "Percentage of Travel Required/Pourcentage de déplacements requis",
+              "valueLabel": "0"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155824059",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000155811708",
+          "name": "Dishwasher - Kitchen General Help",
+          "uuid": "c0b921a1-83fd-4332-8212-0c373508c6ac",
+          "jobAdId": "e6333eca-8f66-4897-8ff7-f2756faabeaa",
+          "defaultJobAd": true,
+          "refNumber": "REF4517Q",
+          "company": {
+            "identifier": "SodexoCanadaLtd",
+            "name": "Sodexo Canada Ltd"
+          },
+          "releasedDate": "2026-10-15T16:52:53.181Z",
+          "location": {
+            "city": "Otterburne",
+            "region": "MB",
+            "country": "ca",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "49.49370949999999",
+            "longitude": "-97.0325147",
+            "fullLocation": "Otterburne, MB, Canada"
+          },
+          "industry": {
+            "id": "food_and_beverages",
+            "label": "Food And Beverages"
+          },
+          "department": {},
+          "function": {
+            "id": "customer_service",
+            "label": "Customer Service"
+          },
+          "typeOfEmployment": {
+            "id": "part-time",
+            "label": "Part-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "60809187a9fffe6fd69220da",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sodexo Canada Ltd"
+            },
+            {
+              "fieldId": "60834717b0c61b7bd752f281",
+              "fieldLabel": "Province",
+              "valueId": "c58a060d-216e-42dd-8005-3bac50051eb6",
+              "valueLabel": "MB"
+            },
+            {
+              "fieldId": "6083482aa9fffe6fd6922125",
+              "fieldLabel": "Language Requirements/Exigences linguistiques",
+              "valueId": "231011c2-0cf1-41d9-8e9b-9fac5477f114",
+              "valueLabel": "English"
+            },
+            {
+              "fieldId": "608346decd397917666e71bf",
+              "fieldLabel": "Position Type/Type de poste",
+              "valueId": "35b0ea3c-93ee-48bc-9483-a4e24eeca219",
+              "valueLabel": "Hourly"
+            },
+            {
+              "fieldId": "60834799343614213dc673ad",
+              "fieldLabel": "Job Type/Type d'emploi",
+              "valueId": "00b5aec2-a45c-4cc7-9bce-186390e3632b",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "651338478f39dc0a7d5d3514",
+              "fieldLabel": "Onboarding Process",
+              "valueId": "052b0de0-5142-4b2e-9f71-6d23bde33d2d",
+              "valueLabel": "Hourly without Benefits |Taux Horaire sans Av Sociaux"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "6083460fb0c61b7bd752f280",
+              "fieldLabel": "Division",
+              "valueId": "56a67c8f-b233-43ec-9b81-153b93d8d296",
+              "valueLabel": "Canada Universities"
+            },
+            {
+              "fieldId": "60834801b0c61b7bd752f282",
+              "fieldLabel": "Cost Center",
+              "valueId": "b05ec6ec-e2b3-458e-98ef-b87e328379e4",
+              "valueLabel": "82835001"
+            },
+            {
+              "fieldId": "608b32d5086d034b3f5957fd",
+              "fieldLabel": "Fly in-Fly out /Vol d'arrivée-vol de départ",
+              "valueId": "7a95ae9e-b8f7-4c38-884c-60b5a2b4cd88",
+              "valueLabel": "No"
+            },
+            {
+              "fieldId": "6083487ca9fffe6fd6922126",
+              "fieldLabel": "Percentage of Travel Required/Pourcentage de déplacements requis",
+              "valueLabel": "0"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155811708",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://ca.sodexo.com",
+    "explanation": "Official employer homepage: https://ca.sodexo.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155824779",
+      "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155824059",
+      "https://api.smartrecruiters.com/v1/companies/SodexoCanadaLtd/postings/744000155811708"
+    ]
+  }
+}

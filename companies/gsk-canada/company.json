@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gsk-canada",
+  "name": "GSK",
+  "aliases": [],
+  "website_url": "https://gsk.com",
+  "logo_url": "https://www.gsk.com/nuxtassets/img/favicons/favicon-96x96.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

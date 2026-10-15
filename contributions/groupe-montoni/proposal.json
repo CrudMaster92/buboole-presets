@@ -1,0 +1,328 @@
+{
+  "base_commit": "9692eaad192969c7377b0c454899bf7b3c3a2756",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "groupe-montoni",
+    "name": "Groupe Montoni",
+    "aliases": [],
+    "website_url": "https://groupemontoni.com",
+    "logo_url": "https://groupemontoni.com/favicon.ico?v=1",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "groupe-montoni",
+    "company_id": "groupe-montoni",
+    "revision": 1,
+    "label": "Groupe Montoni public careers",
+    "careers_url": "https://careers.smartrecruiters.com/GroupeMontoni",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Groupe Montoni",
+      "careers_url": "https://careers.smartrecruiters.com/GroupeMontoni",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings",
+    "fetched_at": "2026-10-15T18:29:32.236189+00:00",
+    "payload": {
+      "content": [
+        {
+          "id": "744000155765139",
+          "name": "Coordonateur BIM",
+          "uuid": "dd3247de-910a-4e5f-b802-7530ce247ce9",
+          "jobAdId": "51418770-9c12-4bf0-b1db-8f7f0b2c8475",
+          "defaultJobAd": true,
+          "refNumber": "REF430C",
+          "company": {
+            "identifier": "GroupeMontoni",
+            "name": "Groupe Montoni"
+          },
+          "releasedDate": "2026-10-15T13:43:28.191Z",
+          "location": {
+            "city": "Laval",
+            "region": "QC",
+            "country": "ca",
+            "address": "600 Rue Lucien-Paiement",
+            "postalCode": "H7N 0H7",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "45.5578929",
+            "longitude": "-73.7223782",
+            "fullLocation": "Laval, QC, Canada"
+          },
+          "industry": {
+            "id": "building_materials",
+            "label": "Building Materials"
+          },
+          "department": {
+            "id": "2511315",
+            "label": "Construction"
+          },
+          "function": {
+            "id": "supply_chain",
+            "label": "Supply Chain"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "605e2453d6da9d105d47ebe2",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Groupe Montoni"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "60808f02cd397917666e7173",
+              "fieldLabel": "Statut",
+              "valueId": "bb8127b1-c555-402d-b795-18a265fd9212",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "605e2453d6da9d105d47ebe3",
+              "fieldLabel": "Department",
+              "valueId": "2511315",
+              "valueLabel": "Construction"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155765139",
+          "language": {
+            "code": "fr-CA",
+            "label": "French (Canada)",
+            "labelNative": "français (Canada)"
+          }
+        },
+        {
+          "id": "744000155763689",
+          "name": "Directeur ou directrice de projets, Développement de projets ",
+          "uuid": "5a159594-0d7a-4a63-9b5f-123b116ebf71",
+          "jobAdId": "a2d77f7e-254b-4424-8db4-f1ac8957cd24",
+          "defaultJobAd": true,
+          "refNumber": "REF429F",
+          "company": {
+            "identifier": "GroupeMontoni",
+            "name": "Groupe Montoni"
+          },
+          "releasedDate": "2026-10-15T13:37:14.252Z",
+          "location": {
+            "city": "Laval",
+            "region": "QC",
+            "country": "ca",
+            "address": "600 Rue Lucien-Paiement",
+            "postalCode": "H7N 0H7",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "45.5578929",
+            "longitude": "-73.7223782",
+            "fullLocation": "Laval, QC, Canada"
+          },
+          "industry": {
+            "id": "building_materials",
+            "label": "Building Materials"
+          },
+          "department": {
+            "id": "2511264",
+            "label": "Développement de projets"
+          },
+          "function": {
+            "id": "project_management",
+            "label": "Project Management"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "director",
+            "label": "Director"
+          },
+          "customField": [
+            {
+              "fieldId": "605e2453d6da9d105d47ebe2",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Groupe Montoni"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "60808f02cd397917666e7173",
+              "fieldLabel": "Statut",
+              "valueId": "bb8127b1-c555-402d-b795-18a265fd9212",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "605e2453d6da9d105d47ebe3",
+              "fieldLabel": "Department",
+              "valueId": "2511264",
+              "valueLabel": "Développement de projets"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155763689",
+          "language": {
+            "code": "fr-CA",
+            "label": "French (Canada)",
+            "labelNative": "français (Canada)"
+          }
+        },
+        {
+          "id": "744000155600579",
+          "name": "Gérant ou Gérante de projets - aménagement intérieur, Construction",
+          "uuid": "e4f17233-889e-4f8f-b2ab-7f3fbcba75f2",
+          "jobAdId": "94ab805e-49fe-4215-8d2c-16efb5c3124f",
+          "defaultJobAd": true,
+          "refNumber": "REF428P",
+          "company": {
+            "identifier": "GroupeMontoni",
+            "name": "Groupe Montoni"
+          },
+          "releasedDate": "2026-10-14T19:35:01.701Z",
+          "location": {
+            "city": "Laval",
+            "region": "QC",
+            "country": "ca",
+            "address": "600 Rue Lucien-Paiement",
+            "postalCode": "H7N 0H7",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "45.5578929",
+            "longitude": "-73.7223782",
+            "fullLocation": "Laval, QC, Canada"
+          },
+          "industry": {
+            "id": "building_materials",
+            "label": "Building Materials"
+          },
+          "department": {
+            "id": "2511315",
+            "label": "Construction"
+          },
+          "function": {
+            "id": "project_management",
+            "label": "Project Management"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "605e2453d6da9d105d47ebe2",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Groupe Montoni"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "60808f02cd397917666e7173",
+              "fieldLabel": "Statut",
+              "valueId": "bb8127b1-c555-402d-b795-18a265fd9212",
+              "valueLabel": "Permanent"
+            },
+            {
+              "fieldId": "605e2453d6da9d105d47ebe3",
+              "fieldLabel": "Department",
+              "valueId": "2511315",
+              "valueLabel": "Construction"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155600579",
+          "language": {
+            "code": "fr-CA",
+            "label": "French (Canada)",
+            "labelNative": "français (Canada)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://groupemontoni.com",
+    "explanation": "Official employer homepage: https://groupemontoni.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155765139",
+      "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155763689",
+      "https://api.smartrecruiters.com/v1/companies/GroupeMontoni/postings/744000155600579"
+    ]
+  }
+}

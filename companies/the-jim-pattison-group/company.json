@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "the-jim-pattison-group",
+  "name": "The Jim Pattison Group",
+  "aliases": [],
+  "website_url": "https://jimpattison.com",
+  "logo_url": "https://www.jimpattison.com/wp-content/themes/jimpattisongroup/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
