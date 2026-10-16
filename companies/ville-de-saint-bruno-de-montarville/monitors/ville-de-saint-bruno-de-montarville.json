@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ville-de-saint-bruno-de-montarville",
+  "company_id": "ville-de-saint-bruno-de-montarville",
+  "revision": 1,
+  "label": "Ville de Saint Bruno de Montarville public careers",
+  "careers_url": "https://stbruno.ca/ville/offres-d-emploi/emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-16T04:55:46.256070+00:00",
+    "job_count": 5,
+    "warnings": [
+      "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Ville de Saint Bruno de Montarville",
+    "careers_url": "https://stbruno.ca/ville/offres-d-emploi/emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "stbruno.ca"
+    ],
+    "request": {
+      "url": "https://stbruno.ca/ville/offres-d-emploi/emplois/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "div.card:has(a[href*=\"/offres\"])",
+      "title": "a[href*=\"/offres\"]",
+      "link": "a[href*=\"/offres\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

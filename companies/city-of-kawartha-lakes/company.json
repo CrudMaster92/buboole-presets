@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-kawartha-lakes",
+  "name": "City of Kawartha Lakes",
+  "aliases": [],
+  "website_url": "https://kawarthalakes.ca",
+  "logo_url": "https://kawarthalakes-014-ca.govstack.com/media/cekdefv5/kawartha-lakes-favicon.png?width=32&height=32",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

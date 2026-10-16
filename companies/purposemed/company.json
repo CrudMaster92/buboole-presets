@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "purposemed",
+  "name": "PurposeMed",
+  "aliases": [],
+  "website_url": "https://purposemed.com",
+  "logo_url": "https://www.purposemed.com/images/logos/purposemed-favicon.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

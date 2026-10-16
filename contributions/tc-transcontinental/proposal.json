@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "tc-transcontinental",
+    "name": "TC Transcontinental",
+    "aliases": [],
+    "website_url": "https://tc.tc",
+    "logo_url": "https://wevegotitmade.com/wp-content/uploads/2023/04/cropped-favicon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "tc-transcontinental",
+    "company_id": "tc-transcontinental",
+    "revision": 1,
+    "label": "TC Transcontinental public careers",
+    "careers_url": "https://salaryenca-tctranscontinental.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:01.809222+00:00",
+      "job_count": 15,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "TC Transcontinental",
+      "careers_url": "https://salaryenca-tctranscontinental.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "salaryenca-tctranscontinental.icims.com"
+      ],
+      "request": {
+        "url": "https://salaryenca-tctranscontinental.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://salaryenca-tctranscontinental.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T22:37:50.217707+00:00",
+    "payload": "<html><body><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nUS-FL</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Job Post Information* : Posted Date</span>\n<span title=\"10/15/2026 2:30 PM\">\n4 hours ago<span class=\"sr-only\">(10/15/2026 2:30 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://salaryenca-tctranscontinental.icims.com/jobs/2654/retail-installation-supervisor/job?in_iframe=1\" title=\"2654 - Retail Installation Supervisor\">\n<span class=\"sr-only field-label\">Job Posting Title</span>\n<h3>\nRetail Installation Supervisor</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nCreate value at TC Transcontinental.\r\n \r\nAt TC Transcontinental, we've got it made, and that's because of the expertise of our team.\r\n \r\nWe have been driving innovation since 1976.\r\n \r\nWith approximately 7400 employees, TC Transcontinental is a North American leader in flexible packaging, a Canadian retail marketing services provider, Canada’s largest printer, and the Canadian leader in French-language educational publishing. Respect, teamwork, performance and innovation are the strong values held by the Corporation and its employees. TC...</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Aurora</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Job Post Information* : Posted Date</span>\n<span title=\"10/6/2026 2:43 PM\">\n1 week ago<span class=\"sr-only\">(10/6/2026 2:43 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://salaryenca-tctranscontinental.icims.com/jobs/2619/operational-excellence-specialist/job?in_iframe=1\" title=\"2619 - Operational Excellence Specialist\">\n<span class=\"sr-only field-label\">Job Posting Title</span>\n<h3>\nOperational Excellence Specialist</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nCreate value at TC Transcontinental.\r\n \r\nAt TC Transcontinental, we've got it made, and that's because of the expertise of our team.\r\n \r\nWe have been driving innovation since 1976.\r\n \r\nFounded 50 years ago and 4,000 employees strong, Transcontinental Inc. (TSX: TCL.A TCL.B), known under the TC Transcontinental brand, is a Canadian retail marketing services company, Canada's largest printer, and the Canadian leader in French-language educational publishing. Driven by...</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n<span class=\"sr-only field-label\">Job Locations</span>\n<span>\nCA-ON-Aurora</span>\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Job Post Information* : Posted Date</span>\n<span title=\"10/14/2026 9:26 AM\">\n1 day ago<span class=\"sr-only\">(10/14/2026 9:26 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://salaryenca-tctranscontinental.icims.com/jobs/2579/controller%2c-financial-operations-%e2%80%93-costing-and-special-project/job?in_iframe=1\" title=\"2579 - Controller, Financial Operations – Costing and Special Project\">\n<span class=\"sr-only field-label\">Job Posting Title</span>\n<h3>\nController, Financial Operations – Costing and Special Project</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nCreate value at TC Transcontinental.\r\n \r\nAt TC Transcontinental, we've got it made, and that's because of the expertise of our team.\r\n \r\nWe have been driving innovation since 1976.\r\n \r\nFounded 50 years ago and 4,000 employees strong, Transcontinental Inc. (TSX: TCL.A TCL.B), known under the TC Transcontinental brand, is a Canadian retail marketing services company, Canada's largest printer, and the Canadian leader in French-language educational publishing. Driven by...</div>\n</div>\n</li></ul></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://tc.tc",
+    "explanation": "Official employer homepage: https://tc.tc. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://salaryenca-tctranscontinental.icims.com/jobs/2654/retail-installation-supervisor/job?in_iframe=1",
+      "https://salaryenca-tctranscontinental.icims.com/jobs/2619/operational-excellence-specialist/job?in_iframe=1",
+      "https://salaryenca-tctranscontinental.icims.com/jobs/2579/controller%2c-financial-operations-%e2%80%93-costing-and-special-project/job?in_iframe=1"
+    ]
+  }
+}

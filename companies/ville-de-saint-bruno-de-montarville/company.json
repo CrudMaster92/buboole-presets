@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-saint-bruno-de-montarville",
+  "name": "Ville de Saint Bruno de Montarville",
+  "aliases": [],
+  "website_url": "https://stbruno.ca",
+  "logo_url": "https://stbruno.ca/wp-content/themes/saintbruno/img/icons/cropped-site-icon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-pitt-meadows",
+    "name": "City of Pitt Meadows",
+    "aliases": [],
+    "website_url": "https://pittmeadows.ca",
+    "logo_url": "https://www.pittmeadows.ca/sites/default/files/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-pitt-meadows",
+    "company_id": "city-of-pitt-meadows",
+    "revision": 1,
+    "label": "City of Pitt Meadows public careers",
+    "careers_url": "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:46.050152+00:00",
+      "job_count": 5,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Pitt Meadows",
+      "careers_url": "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.pittmeadows.ca"
+      ],
+      "request": {
+        "url": "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "td.views-field.views-field-title:has(a[href*=\"/current-opportunit\"])",
+        "title": "a[href*=\"/current-opportunit\"]",
+        "link": "a[href*=\"/current-opportunit\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities",
+    "fetched_at": "2026-10-15T23:21:56.340601+00:00",
+    "payload": "<html><body><div class=\"dialog-off-canvas-main-canvas\"><main class=\"t-main\"><div class=\"t-container\"><div class=\"t-content\"><div class=\"region region-content\"><div class=\"views-element-container block block-views block-views-blockcareers-block-1\" id=\"block-views-block-careers-block-1\"><div><div class=\"view view-careers view-id-careers view-display-id-block_1 js-view-dom-id-394828808f972c7242bad8e89ff8d878813e98cd8e11e99029c71b5eafa2e3a3\"><div class=\"view-content\"><table class=\"views-table views-view-table cols-5\"><tbody><tr><td class=\"views-field views-field-title\" headers=\"view-title-table-column\"><a href=\"/city-hall/working-city/current-opportunities/trades-2-mechanic\" hreflang=\"en\">Trades 2 Mechanic</a></td></tr></tbody></table></div></div></div></div></div></div></div></main></div><div class=\"dialog-off-canvas-main-canvas\"><main class=\"t-main\"><div class=\"t-container\"><div class=\"t-content\"><div class=\"region region-content\"><div class=\"views-element-container block block-views block-views-blockcareers-block-1\" id=\"block-views-block-careers-block-1\"><div><div class=\"view view-careers view-id-careers view-display-id-block_1 js-view-dom-id-394828808f972c7242bad8e89ff8d878813e98cd8e11e99029c71b5eafa2e3a3\"><div class=\"view-content\"><table class=\"views-table views-view-table cols-5\"><tbody><tr><td class=\"views-field views-field-title\" headers=\"view-title-table-column\"><a href=\"/city-hall/working-city/current-opportunities/child-youth-worker-auxilliary\" hreflang=\"en\">Child &amp; Youth Worker - Auxilliary</a></td></tr></tbody></table></div></div></div></div></div></div></div></main></div><div class=\"dialog-off-canvas-main-canvas\"><main class=\"t-main\"><div class=\"t-container\"><div class=\"t-content\"><div class=\"region region-content\"><div class=\"views-element-container block block-views block-views-blockcareers-block-1\" id=\"block-views-block-careers-block-1\"><div><div class=\"view view-careers view-id-careers view-display-id-block_1 js-view-dom-id-394828808f972c7242bad8e89ff8d878813e98cd8e11e99029c71b5eafa2e3a3\"><div class=\"view-content\"><table class=\"views-table views-view-table cols-5\"><tbody><tr><td class=\"views-field views-field-title\" headers=\"view-title-table-column\"><a href=\"/city-hall/working-city/current-opportunities/fitness-room-attendant-auxiliary\" hreflang=\"en\">Fitness Room Attendant - Auxiliary</a></td></tr></tbody></table></div></div></div></div></div></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://pittmeadows.ca",
+    "explanation": "Official employer homepage: https://pittmeadows.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities/trades-2-mechanic",
+      "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities/child-youth-worker-auxilliary",
+      "https://www.pittmeadows.ca/city-hall/working-city/current-opportunities/fitness-room-attendant-auxiliary"
+    ]
+  }
+}

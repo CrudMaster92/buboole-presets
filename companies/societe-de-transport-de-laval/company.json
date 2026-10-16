@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "societe-de-transport-de-laval",
+  "name": "Societe de transport de Laval",
+  "aliases": [],
+  "website_url": "https://stl.laval.qc.ca",
+  "logo_url": "https://stlaval.ca/favicon/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

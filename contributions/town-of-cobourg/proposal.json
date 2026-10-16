@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "town-of-cobourg",
+    "name": "Town of Cobourg",
+    "aliases": [],
+    "website_url": "https://cobourg.ca",
+    "logo_url": "https://www.cobourg.ca/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "town-of-cobourg",
+    "company_id": "town-of-cobourg",
+    "revision": 1,
+    "label": "Town of Cobourg public careers",
+    "careers_url": "https://www.cobourg.ca/our-government/jobs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:05.682303+00:00",
+      "job_count": 2,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Town of Cobourg",
+      "careers_url": "https://www.cobourg.ca/our-government/jobs",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "media-001-ca.cdn.govstack.com",
+        "www.cobourg.ca"
+      ],
+      "request": {
+        "url": "https://www.cobourg.ca/our-government/jobs/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "p:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.cobourg.ca/our-government/jobs/",
+    "fetched_at": "2026-10-15T23:21:56.332955+00:00",
+    "payload": "<html><body><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_text base-bg base-bg-solid p-0\"><div class=\"component-inner\"><div class=\"container\"><div class=\"info\"><div class=\"text base-text\"><table><tbody><tr><td><p><a href=\"https://media-001-ca.cdn.govstack.com/cobourg-008-ca/media/2znplkqt/posting-26-33-skating-instructor.pdf\" title=\"26-33 Skating Instructor\">26-33 Skating Instructor</a></p></td></tr></tbody></table></div></div></div></div></section></div></div></div></section></main></div><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_text base-bg base-bg-solid p-0\"><div class=\"component-inner\"><div class=\"container\"><div class=\"info\"><div class=\"text base-text\"><table><tbody><tr><td><p><a href=\"https://media-001-ca.cdn.govstack.com/cobourg-008-ca/media/tdcislfy/26-41-crossing-guard.pdf\" title=\"26 41 Crossing Guard\">26-41 Crossing Guard, Spare</a></p></td></tr></tbody></table></div></div></div></div></section></div></div></div></section></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://cobourg.ca",
+    "explanation": "Official employer homepage: https://cobourg.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://media-001-ca.cdn.govstack.com/cobourg-008-ca/media/2znplkqt/posting-26-33-skating-instructor.pdf",
+      "https://media-001-ca.cdn.govstack.com/cobourg-008-ca/media/tdcislfy/26-41-crossing-guard.pdf"
+    ]
+  }
+}

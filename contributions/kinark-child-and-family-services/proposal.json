@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "kinark-child-and-family-services",
+    "name": "Kinark Child and Family Services",
+    "aliases": [],
+    "website_url": "https://kinark.on.ca",
+    "logo_url": "https://www.kinark.on.ca/wp-content/themes/kinark/assets/favicon/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "kinark-child-and-family-services",
+    "company_id": "kinark-child-and-family-services",
+    "revision": 1,
+    "label": "Kinark Child and Family Services public careers",
+    "careers_url": "https://kinark.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:20.157237+00:00",
+      "job_count": 8,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Kinark Child and Family Services",
+      "careers_url": "https://kinark.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "kinark.hua.hrsmart.com"
+      ],
+      "request": {
+        "url": "https://kinark.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(a[href*=\"/Posting/view/\"])",
+        "title": "a[href*=\"/Posting/view/\"]",
+        "link": "a[href*=\"/Posting/view/\"]",
+        "location": "td:nth-of-type(3)",
+        "posted_date": "td:nth-of-type(4)"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://kinark.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    "fetched_at": "2026-10-15T22:37:51.263952+00:00",
+    "payload": "<html><body><div id=\"ext-theme\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td>1600</td>\n<td><a href=\"/hr/ats/Posting/view/1600\"> <span>Child and Youth Worker (Overnight)</span>\n</a></td>\n<td>Regular</td>\n<td>Full-Time</td>\n<td> Barrie, ON, CA L4N 6T4<br/>\n</td>\n<td>October 15, 2026</td>\n<td>Simcoe Program</td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id=\"ext-theme\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td>1598</td>\n<td><a href=\"/hr/ats/Posting/view/1598\"> <span>Instructor Therapist (Evenings and Weekends)</span>\n</a></td>\n<td>Temporary</td>\n<td>Part-Time</td>\n<td> Etobicoke, ON, CA M9C 5K6<br/>Markham, ON, CA L3R 5X5 (Primary)<br/>Oshawa, ON, CA L1G 4X8<br/>Richmond Hill, ON, CA L4E 1A8<br/>\n</td>\n<td>October 7, 2026</td>\n<td>Autism Services</td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id=\"ext-theme\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td>1597</td>\n<td><a href=\"/hr/ats/Posting/view/1597\"> <span>Senior Therapist</span>\n</a></td>\n<td>Temporary</td>\n<td>Full-Time</td>\n<td> Richmond Hill, ON, CA L4E 1A8<br/>\n</td>\n<td>October 7, 2026</td>\n<td>Autism Services</td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://kinark.on.ca",
+    "explanation": "Official employer homepage: https://kinark.on.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://kinark.hua.hrsmart.com/hr/ats/Posting/view/1600",
+      "https://kinark.hua.hrsmart.com/hr/ats/Posting/view/1598",
+      "https://kinark.hua.hrsmart.com/hr/ats/Posting/view/1597"
+    ]
+  }
+}

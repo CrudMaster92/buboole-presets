@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "st-lawrence-college",
+    "name": "St Lawrence College",
+    "aliases": [],
+    "website_url": "https://stlawrencecollege.ca",
+    "logo_url": "https://www.stlawrencecollege.ca/assets/icons/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "st-lawrence-college",
+    "company_id": "st-lawrence-college",
+    "revision": 1,
+    "label": "St Lawrence College public careers",
+    "careers_url": "https://www.stlawrencecollege.ca/about/careers-at-slc/current-job-opportunities",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:46.224534+00:00",
+      "job_count": 5,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "St Lawrence College",
+      "careers_url": "https://www.stlawrencecollege.ca/about/careers-at-slc/current-job-opportunities",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.stlawrencecollege.ca"
+      ],
+      "request": {
+        "url": "https://www.stlawrencecollege.ca/about/careers-at-slc/current-job-opportunities",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "td.position:has(a[href*=\"/jobs/\"])",
+        "title": "a[href*=\"/jobs/\"]",
+        "link": "a[href*=\"/jobs/\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.stlawrencecollege.ca/about/careers-at-slc/current-job-opportunities",
+    "fetched_at": "2026-10-15T23:21:56.342600+00:00",
+    "payload": "<html><body><div class=\"container body-content\" id=\"body-content\"><section class=\"page-template\"><div class=\"main-content-zone\" id=\"main-content-zone\"><div class=\"jobs-wrapper wrapper\" id=\"jobs-a19d75dd-ce48-4981-b414-f78fa6029b33\"><div class=\"jobcategory\" id=\"jobcategory-administrative-management\"><table><tbody><tr class=\"jobrow\"><td class=\"position\">\n<a class=\"detailslink\" href=\"/jobs/admn-pt-26-27-064\" title=\"Digital Learning Technology Administrator\">Digital Learning Technology Administrator</a>\n</td></tr></tbody></table></div></div></div></section></div><div class=\"container body-content\" id=\"body-content\"><section class=\"page-template\"><div class=\"main-content-zone\" id=\"main-content-zone\"><div class=\"jobs-wrapper wrapper\" id=\"jobs-a19d75dd-ce48-4981-b414-f78fa6029b33\"><div class=\"jobcategory\" id=\"jobcategory-faculty-part-time\"><table><tbody><tr class=\"jobrow\"><td class=\"position\">\n<a class=\"detailslink\" href=\"/jobs/acad-inv-pt-26-27-079\" title=\"Part-Time Professor, Esthetician \">Part-Time Professor, Esthetician </a>\n</td></tr></tbody></table></div></div></div></section></div><div class=\"container body-content\" id=\"body-content\"><section class=\"page-template\"><div class=\"main-content-zone\" id=\"main-content-zone\"><div class=\"jobs-wrapper wrapper\" id=\"jobs-a19d75dd-ce48-4981-b414-f78fa6029b33\"><div class=\"jobcategory\" id=\"jobcategory-support\"><table><tbody><tr class=\"jobrow\"><td class=\"position\">\n<a class=\"detailslink\" href=\"/jobs/supp-26-27-076\" title=\"Marketing Coordinator\">Marketing Coordinator</a>\n</td></tr></tbody></table></div></div></div></section></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://stlawrencecollege.ca",
+    "explanation": "Official employer homepage: https://stlawrencecollege.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.stlawrencecollege.ca/jobs/admn-pt-26-27-064",
+      "https://www.stlawrencecollege.ca/jobs/acad-inv-pt-26-27-079",
+      "https://www.stlawrencecollege.ca/jobs/supp-26-27-076"
+    ]
+  }
+}

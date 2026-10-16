@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "township-of-centre-wellington",
+    "name": "Township of Centre Wellington",
+    "aliases": [],
+    "website_url": "https://centrewellington.ca",
+    "logo_url": "https://centrewellington-004-ca.govstack.com/media/dpnamn4w/centre-wellington-favicon.png?width=32&height=32",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "township-of-centre-wellington",
+    "company_id": "township-of-centre-wellington",
+    "revision": 1,
+    "label": "Township of Centre Wellington public careers",
+    "careers_url": "https://www.centrewellington.ca/township-services/employment-opportunities",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:53.827057+00:00",
+      "job_count": 4,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Township of Centre Wellington",
+      "careers_url": "https://www.centrewellington.ca/township-services/employment-opportunities",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "media-001-ca.cdn.govstack.com",
+        "www.centrewellington.ca"
+      ],
+      "request": {
+        "url": "https://www.centrewellington.ca/township-services/employment-opportunities/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li:has(>a[href*=job-posting])",
+        "title": "a[href*=job-posting]",
+        "link": "a[href*=job-posting]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.centrewellington.ca/township-services/employment-opportunities/",
+    "fetched_at": "2026-10-15T23:24:48.327408+00:00",
+    "payload": "<html><body><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_reusablecomponents base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"\"><section class=\"content component usn_cmp_accordiontab base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"repeatable accordion tab-basic\"><div class=\"info repeatable-content collapse\" id=\"collapse_bfe13273-50d1-4bd8-95f5-9edff2660251_1\"><div class=\"text\"><ul><li><a href=\"https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/twqjbyld/2026-63-transportation-technologist-external-job-posting_october-2026.pdf\" rel=\"noopener\" target=\"_blank\" title=\"2026 63 Transportation Technologist External Job Posting October 2026\">Transportation Technologist (Permanent, Full Time)</a> - Closes October 18, 2026</li></ul></div></div></div></div></div></section></div></div></div></section></div></div></div></section></main></div><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_reusablecomponents base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"\"><section class=\"content component usn_cmp_accordiontab base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"repeatable accordion tab-basic\"><div class=\"info repeatable-content collapse\" id=\"collapse_bfe13273-50d1-4bd8-95f5-9edff2660251_1\"><div class=\"text\"><ul><li><a href=\"https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/n2do2ibv/2026-62-fire-prevention-officer-external-job-posting_september-2026.pdf\" rel=\"noopener\" target=\"_blank\" title=\"Fire Prevention Officer (Permanent Full Time)\">Fire Prevention Officer (Permanent Full Time)</a> - Closes October 25, 2026</li></ul></div></div></div></div></div></section></div></div></div></section></div></div></div></section></main></div><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_reusablecomponents base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"\"><section class=\"content component usn_cmp_accordiontab base-bg base-bg-solid\"><div class=\"component-inner\"><div class=\"container\"><div class=\"repeatable accordion tab-basic\"><div class=\"info repeatable-content collapse\" id=\"collapse_bfe13273-50d1-4bd8-95f5-9edff2660251_1\"><div class=\"text\"><ul><li><a href=\"https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/hmpbznkl/2026-66-executive-director-economic-development-tourism-job-posting_october-2026.pdf\" rel=\"noopener\" target=\"_blank\" title=\"2026 66 Executive Director, Economic Development &amp; Tourism Job Posting October 2026\">Executive Director, Economic Development &amp; Tourism (Permanent, Full Time) </a>- Closes November 1, 2026</li></ul></div></div></div></div></div></section></div></div></div></section></div></div></div></section></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://centrewellington.ca",
+    "explanation": "Official employer homepage: https://centrewellington.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/twqjbyld/2026-63-transportation-technologist-external-job-posting_october-2026.pdf",
+      "https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/n2do2ibv/2026-62-fire-prevention-officer-external-job-posting_september-2026.pdf",
+      "https://media-001-ca.cdn.govstack.com/centrewellington-004-ca/media/hmpbznkl/2026-66-executive-director-economic-development-tourism-job-posting_october-2026.pdf"
+    ]
+  }
+}

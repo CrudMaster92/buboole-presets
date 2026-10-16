@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "town-of-oakville",
+  "name": "Town of Oakville",
+  "aliases": [],
+  "website_url": "https://oakville.ca",
+  "logo_url": "https://www.oakville.ca/getmedia/4cc6d361-3314-4f30-8fca-130176032ddd/favicon.png?width=32&height=32&ext=.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

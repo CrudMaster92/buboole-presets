@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-white-rock",
+  "name": "City of White Rock",
+  "aliases": [],
+  "website_url": "https://whiterockcity.ca",
+  "logo_url": "https://www.whiterockcity.ca/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

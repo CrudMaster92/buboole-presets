@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "rexdale-community-health-centre",
+    "name": "Rexdale Community Health Centre",
+    "aliases": [],
+    "website_url": "https://rexdalechc.com",
+    "logo_url": "https://www.rexdalechc.com/wp-content/uploads/2022/03/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "rexdale-community-health-centre",
+    "company_id": "rexdale-community-health-centre",
+    "revision": 1,
+    "label": "Rexdale Community Health Centre public careers",
+    "careers_url": "https://www.rexdalechc.com/health-care-services-careers/job-openings",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:42.913156+00:00",
+      "job_count": 6,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Rexdale Community Health Centre",
+      "careers_url": "https://www.rexdalechc.com/health-care-services-careers/job-openings",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.rexdalechc.com"
+      ],
+      "request": {
+        "url": "https://www.rexdalechc.com/health-care-services-careers/job-openings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-info h4:not(:has(a[href*=\"volunteer\"]))",
+        "title": "a",
+        "link": "a"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.rexdalechc.com/health-care-services-careers/job-openings",
+    "fetched_at": "2026-10-16T04:07:25.052095+00:00",
+    "payload": "<html><body><div class=\"protect-me\"><div class=\"clearfix\"><div id=\"main_area\"><div class=\"wrapper\"><div class=\"main_con\"><main><div class=\"post-522 page type-page status-publish has-post-thumbnail hentry\" id=\"post-522\"><div class=\"entry-content\"><div class=\"sjb-page\"><div class=\"sjb-listing\"><div class=\"list-view\"><div class=\"list-data\"><div class=\"v1 sjb-job-8805\"><header><div class=\"row\"><div class=\"col-md-12 col-sm-12\"><div class=\"row sjb-list-row\"><div class=\"col-md-5 col-sm-12\"><div class=\"job-info\"><h4>\n<a href=\"https://www.rexdalechc.com/jobs/lph-community-ambassador-spanish-representative-1-full-time-contract-position\">\n<span class=\"job-title\">LPH Community Ambassador -Spanish Representative (1 Full-Time Contract Position)</span> </a>\n</h4></div></div></div></div></div></header></div></div></div></div></div></div></div></main></div></div></div></div></div><div class=\"protect-me\"><div class=\"clearfix\"><div id=\"main_area\"><div class=\"wrapper\"><div class=\"main_con\"><main><div class=\"post-522 page type-page status-publish has-post-thumbnail hentry\" id=\"post-522\"><div class=\"entry-content\"><div class=\"sjb-page\"><div class=\"sjb-listing\"><div class=\"list-view\"><div class=\"list-data\"><div class=\"v1 sjb-job-8768\"><header><div class=\"row\"><div class=\"col-md-12 col-sm-12\"><div class=\"row sjb-list-row\"><div class=\"col-md-5 col-sm-12\"><div class=\"job-info\"><h4>\n<a href=\"https://www.rexdalechc.com/jobs/registered-nurse-1-full-time-permanent-contract\">\n<span class=\"job-title\">Registered Nurse- 1 Full-Time Permanent Contract</span> </a>\n</h4></div></div></div></div></div></header></div></div></div></div></div></div></div></main></div></div></div></div></div><div class=\"protect-me\"><div class=\"clearfix\"><div id=\"main_area\"><div class=\"wrapper\"><div class=\"main_con\"><main><div class=\"post-522 page type-page status-publish has-post-thumbnail hentry\" id=\"post-522\"><div class=\"entry-content\"><div class=\"sjb-page\"><div class=\"sjb-listing\"><div class=\"list-view\"><div class=\"list-data\"><div class=\"v1 sjb-job-8590\"><header><div class=\"row\"><div class=\"col-md-12 col-sm-12\"><div class=\"row sjb-list-row\"><div class=\"col-md-5 col-sm-12\"><div class=\"job-info\"><h4>\n<a href=\"https://www.rexdalechc.com/jobs/director-of-finance-1-year-contract\">\n<span class=\"job-title\">Director of Finance (1 Year Contract)</span> </a>\n</h4></div></div></div></div></div></header></div></div></div></div></div></div></div></main></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://rexdalechc.com",
+    "explanation": "Official employer homepage: https://rexdalechc.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.rexdalechc.com/jobs/lph-community-ambassador-spanish-representative-1-full-time-contract-position",
+      "https://www.rexdalechc.com/jobs/registered-nurse-1-full-time-permanent-contract",
+      "https://www.rexdalechc.com/jobs/director-of-finance-1-year-contract"
+    ]
+  }
+}

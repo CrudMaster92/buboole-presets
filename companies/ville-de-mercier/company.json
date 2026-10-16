@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-mercier",
+  "name": "Ville de Mercier",
+  "aliases": [],
+  "website_url": "https://ville.mercier.qc.ca",
+  "logo_url": "https://www.ville.mercier.qc.ca/wp-content/themes/mercier/images/favicon/apple-touch-icon.png?v=1",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

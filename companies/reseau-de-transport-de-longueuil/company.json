@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "reseau-de-transport-de-longueuil",
+  "name": "Reseau de transport de Longueuil",
+  "aliases": [],
+  "website_url": "https://rtl-longueuil.qc.ca",
+  "logo_url": "https://www.rtl-longueuil.qc.ca/assets/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

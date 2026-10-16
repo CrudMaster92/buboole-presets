@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "calgary-philharmonic-orchestra",
+  "name": "Calgary Philharmonic Orchestra",
+  "aliases": [],
+  "website_url": "https://calgaryphil.com",
+  "logo_url": "https://calgaryphil.com/wp-content/uploads/fbrfg/favicon-96x96.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

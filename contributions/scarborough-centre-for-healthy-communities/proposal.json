@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "scarborough-centre-for-healthy-communities",
+    "name": "Scarborough Centre for Healthy Communities",
+    "aliases": [],
+    "website_url": "https://schcontario.ca",
+    "logo_url": "https://schcontario.ca/wp-content/uploads/2021/12/cropped-favicon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "scarborough-centre-for-healthy-communities",
+    "company_id": "scarborough-centre-for-healthy-communities",
+    "revision": 1,
+    "label": "Scarborough Centre for Healthy Communities public careers",
+    "careers_url": "https://schcontario.ca/about-us/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:54:17.634055+00:00",
+      "job_count": 36,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Scarborough Centre for Healthy Communities",
+      "careers_url": "https://schcontario.ca/about-us/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "schcontario.ca"
+      ],
+      "request": {
+        "url": "https://schcontario.ca/about-us/careers/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".kt-inside-inner-col:has(>h2):has(>div>a[href$=\".pdf\"])",
+        "title": "h2",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://schcontario.ca/about-us/careers/",
+    "fetched_at": "2026-10-16T04:07:28.057170+00:00",
+    "payload": "<html><body><main id=\"main\"><article class=\"entry-content\"><div class=\"container\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_36992c-da aligncenter has-theme-palette9-background-color kt-row-has-bg wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_117696-22 kb-section-dir-vertical inner-column-1\"><div class=\"kt-inside-inner-col\"><div class=\"wp-block-kadence-tabs alignnone alignundefined\"><div class=\"kt-tabs-wrap kt-tabs-id31_8e87b4-15 kt-tabs-has-3-tabs kt-active-tab-1 kt-tabs-layout-tabs kt-tabs-tablet-layout-inherit kt-tabs-mobile-layout-tabs kt-tab-alignment-center\"><div class=\"kt-tabs-content-wrap\"><div class=\"wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-1 kt-inner-tab31_c8e2cc-34\"><div class=\"kt-tab-inner-content-inner\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_73ff9b-d3 alignnone wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-last-row kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_cdc012-22 inner-column-1\"><div class=\"kt-inside-inner-col\">\n<h2 class=\"kt-adv-heading31_746fbf-fe wp-block-kadence-advancedheading has-theme-palette-9-color has-text-color\" data-kb-block=\"kb-adv-heading31_746fbf-fe\"><br/><strong>Human Resources Administrator, Volunteer Coordination</strong></h2>\n<p class=\"has-text-align-center wp-block-paragraph\"><em>1 – Full-Time, Permanent <em>(35 hours/week)</em></em></p>\n<div class=\"wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns31_971a05-38\"><a class=\"kb-button kt-button button kb-btn31_d6a574-7a kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn\" href=\"https://schcontario.ca/wp-content/uploads/2026/10/Human-Resources-Administrator-Volunteer-Coordination-Oct-2026.pdf\"><span class=\"kt-btn-inner-text\">Job Description</span></a></div>\n</div></div></div></div></div></div></div></div></div></div></div></div></div></div></article></main><main id=\"main\"><article class=\"entry-content\"><div class=\"container\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_36992c-da aligncenter has-theme-palette9-background-color kt-row-has-bg wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_117696-22 kb-section-dir-vertical inner-column-1\"><div class=\"kt-inside-inner-col\"><div class=\"wp-block-kadence-tabs alignnone alignundefined\"><div class=\"kt-tabs-wrap kt-tabs-id31_8e87b4-15 kt-tabs-has-3-tabs kt-active-tab-1 kt-tabs-layout-tabs kt-tabs-tablet-layout-inherit kt-tabs-mobile-layout-tabs kt-tab-alignment-center\"><div class=\"kt-tabs-content-wrap\"><div class=\"wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-1 kt-inner-tab31_c8e2cc-34\"><div class=\"kt-tab-inner-content-inner\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_73ff9b-d3 alignnone wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-last-row kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_e065ec-23 inner-column-1\"><div class=\"kt-inside-inner-col\">\n<h2 class=\"kt-adv-heading31_692614-5b wp-block-kadence-advancedheading has-theme-palette-9-color has-text-color\" data-kb-block=\"kb-adv-heading31_692614-5b\"><br/>Mental Health Case Worker</h2>\n<p class=\"has-text-align-center wp-block-paragraph\"><em>1 – Full-Time, Permanent <em>(35 hours/week)</em></em></p>\n<div class=\"wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns31_e7ecc5-84\"><a class=\"kb-button kt-button button kb-btn31_0b3893-03 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn\" href=\"https://schcontario.ca/wp-content/uploads/2026/10/MHCW-FT-Oct-2026.pdf\"><span class=\"kt-btn-inner-text\">Job Description</span></a></div>\n</div></div></div></div></div></div></div></div></div></div></div></div></div></div></article></main><main id=\"main\"><article class=\"entry-content\"><div class=\"container\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_36992c-da aligncenter has-theme-palette9-background-color kt-row-has-bg wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_117696-22 kb-section-dir-vertical inner-column-1\"><div class=\"kt-inside-inner-col\"><div class=\"wp-block-kadence-tabs alignnone alignundefined\"><div class=\"kt-tabs-wrap kt-tabs-id31_8e87b4-15 kt-tabs-has-3-tabs kt-active-tab-1 kt-tabs-layout-tabs kt-tabs-tablet-layout-inherit kt-tabs-mobile-layout-tabs kt-tab-alignment-center\"><div class=\"kt-tabs-content-wrap\"><div class=\"wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-1 kt-inner-tab31_c8e2cc-34\"><div class=\"kt-tab-inner-content-inner\"><div class=\"kb-row-layout-wrap kb-row-layout-id31_73ff9b-d3 alignnone wp-block-kadence-rowlayout\"><div class=\"kt-row-column-wrap kt-has-3-columns kt-row-layout-equal kt-tab-layout-last-row kt-mobile-layout-row kt-row-valign-top kb-theme-content-width\"><div class=\"wp-block-kadence-column kadence-column31_a1d4ae-d7 inner-column-1\"><div class=\"kt-inside-inner-col\">\n<h2 class=\"kt-adv-heading31_9d7582-0f wp-block-kadence-advancedheading has-theme-palette-9-color has-text-color\" data-kb-block=\"kb-adv-heading31_9d7582-0f\"><br/>Registered Practical Nurse</h2>\n<p class=\"has-text-align-center wp-block-paragraph\"><em>1 – Full-Time, Permanent <em>(35 hours/week)</em></em></p>\n<div class=\"wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns31_633317-e7\"><a class=\"kb-button kt-button button kb-btn31_c63e5a-91 kt-btn-size-standard kt-btn-width-type-auto kb-btn-global-fill kt-btn-has-text-true kt-btn-has-svg-false wp-block-kadence-singlebtn\" href=\"https://schcontario.ca/wp-content/uploads/2026/09/RPN-FT-Sept-2026.pdf\"><span class=\"kt-btn-inner-text\">Job Description</span></a></div>\n</div></div></div></div></div></div></div></div></div></div></div></div></div></div></article></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://schcontario.ca",
+    "explanation": "Official employer homepage: https://schcontario.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://schcontario.ca/wp-content/uploads/2026/10/Human-Resources-Administrator-Volunteer-Coordination-Oct-2026.pdf",
+      "https://schcontario.ca/wp-content/uploads/2026/10/MHCW-FT-Oct-2026.pdf",
+      "https://schcontario.ca/wp-content/uploads/2026/09/RPN-FT-Sept-2026.pdf"
+    ]
+  }
+}

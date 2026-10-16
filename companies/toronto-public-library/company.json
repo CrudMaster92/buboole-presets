@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "toronto-public-library",
+  "name": "Toronto Public Library",
+  "aliases": [],
+  "website_url": "https://tpl.ca",
+  "logo_url": "https://cor-liv-cdn-static.bibliocommons.com/images/ONT-TPL/favicon.ico?1792066457875",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

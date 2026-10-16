@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-oshawa",
+  "name": "City of Oshawa",
+  "aliases": [],
+  "website_url": "https://oshawa.ca",
+  "logo_url": "https://www.oshawa.ca/media/5yhcdi4o/oshawa-logo-2025-brandmark_col.png?width=48&height=48",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

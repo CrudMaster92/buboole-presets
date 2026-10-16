@@ -1,0 +1,97 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "calgary-philharmonic-orchestra",
+    "name": "Calgary Philharmonic Orchestra",
+    "aliases": [],
+    "website_url": "https://calgaryphil.com",
+    "logo_url": "https://calgaryphil.com/wp-content/uploads/fbrfg/favicon-96x96.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "calgary-philharmonic-orchestra",
+    "company_id": "calgary-philharmonic-orchestra",
+    "revision": 1,
+    "label": "Calgary Philharmonic Orchestra public careers",
+    "careers_url": "https://calgaryphil.com/about/careers/administration-positions",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:04.338945+00:00",
+      "job_count": 2,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Calgary Philharmonic Orchestra",
+      "careers_url": "https://calgaryphil.com/about/careers/administration-positions",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "calgaryphil.com"
+      ],
+      "request": {
+        "url": "https://calgaryphil.com/about/careers/administration-positions/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "div.brxe-igquhv:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://calgaryphil.com/about/careers/administration-positions/",
+    "fetched_at": "2026-10-16T04:07:24.653283+00:00",
+    "payload": "<html><body><main id=\"brx-content\"><section class=\"brxe-section\" id=\"brxe-8f3e8d\"><div class=\"brxe-container\" id=\"brxe-21b923\"><div class=\"brxe-block\" id=\"brxe-lwvbul\"><div class=\"brxe-block\" id=\"brxe-frpqzd\"><div class=\"brxe-igquhv brxe-block\" data-brx-loop-start=\"igquhv\"><a aria-describedby=\"brx-new-tab-link-description\" class=\"brxe-aitsxl brxe-text-link\" href=\"https://calgaryphil.com/wp-content/uploads/2026/10/2627-Calgary-Phil-Job-Posting-Interim-Artistic-Coordinator-Pops.pdf\" target=\"_blank\"><span class=\"icon\"><i class=\"fas fa-file-arrow-down\"></i></span><span class=\"text\">Interim Artistic Coordinator, Pops</span></a></div></div></div></div></section></main><main id=\"brx-content\"><section class=\"brxe-section\" id=\"brxe-8f3e8d\"><div class=\"brxe-container\" id=\"brxe-21b923\"><div class=\"brxe-block\" id=\"brxe-lwvbul\"><div class=\"brxe-block\" id=\"brxe-frpqzd\"><div class=\"brxe-igquhv brxe-block\"><a aria-describedby=\"brx-new-tab-link-description\" class=\"brxe-aitsxl brxe-text-link\" href=\"https://calgaryphil.com/wp-content/uploads/2026/03/2627-Calgary-Phil-Job-Posting-Director-People-Culture.pdf\" target=\"_blank\"><span class=\"icon\"><i class=\"fas fa-file-arrow-down\"></i></span><span class=\"text\">Director, People + Culture</span></a></div></div></div></div></section></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://calgaryphil.com",
+    "explanation": "Official employer homepage: https://calgaryphil.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://calgaryphil.com/wp-content/uploads/2026/10/2627-Calgary-Phil-Job-Posting-Interim-Artistic-Coordinator-Pops.pdf",
+      "https://calgaryphil.com/wp-content/uploads/2026/03/2627-Calgary-Phil-Job-Posting-Director-People-Culture.pdf"
+    ]
+  }
+}

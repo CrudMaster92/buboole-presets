@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "west-haldimand-general-hospital",
+  "name": "West Haldimand General Hospital",
+  "aliases": [],
+  "website_url": "https://whgh.ca",
+  "logo_url": "https://www.whgh.ca/wp-content/uploads/2022/04/Haldimand-Favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

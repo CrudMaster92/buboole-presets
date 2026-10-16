@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "the-neighbourhood-group-community-services",
+    "name": "The Neighbourhood Group Community Services",
+    "aliases": [],
+    "website_url": "https://tngcommunityto.org",
+    "logo_url": "https://apos-aka-tng-prod.s3.ca-central-1.amazonaws.com/attachments/yxx4jx8s1dkbwtjqvzgqvctd-favicon-tng-1.svg",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "the-neighbourhood-group-community-services",
+    "company_id": "the-neighbourhood-group-community-services",
+    "revision": 1,
+    "label": "The Neighbourhood Group Community Services public careers",
+    "careers_url": "https://tngcommunityto.org/about-tng/tng-careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:54:12.353567+00:00",
+      "job_count": 49,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "The Neighbourhood Group Community Services",
+      "careers_url": "https://tngcommunityto.org/about-tng/tng-careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "tngcommunityto.org"
+      ],
+      "request": {
+        "url": "https://tngcommunityto.org/about-tng/tng-careers",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li.accordion-item:has(a[href$=\".pdf\"]):not(:has(.accordion-title:-soup-contains(\"Request for\"))):not(:has(.accordion-title:-soup-contains(\"RFP\"))):not(:has(.accordion-title:-soup-contains(\"Volunteer\")))",
+        "title": ".accordion-title",
+        "link": "a[href$=\".pdf\"]",
+        "description": ".text-widget"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://tngcommunityto.org/about-tng/tng-careers",
+    "fetched_at": "2026-10-16T04:10:11.700937+00:00",
+    "payload": "<html><body><div><div class=\"off-canvas-wrapper apos-internal en-CA\" id=\"top\"><div class=\"off-canvas-content\"><main id=\"main\"><div class=\"apos-area\"><div class=\"section-background section-background--padding-small section-background--white\"><div class=\"grid-container\"><div class=\"grid-x\"><div class=\"cell\"><div class=\"section-background__content apply-widget-spacing\"><div class=\"apos-area\"><div class=\"squeezebox squeezebox--center\"><div><ul class=\"accordion\" id=\"accordion-dzii70fos4f97mbpgm0v26g3\"><li class=\"accordion-item\" data-accordion-item=\"\">\n<a class=\"accordion-title no-link-handling\" href=\"#\">After Hours Supervisor - Relief</a>\n<div class=\"accordion-content small editable-text\" data-tab-content=\"\">\n<div class=\"apos-area\">\n<div class=\"text-widget\" data-rich-text=\"\">\n<p>Reporting to the Senior Manager, Client Care Services, the incumbent is responsible for tasks related to After Hours service and support for the provision of all Personal Support and Homemaking programs and services. The incumbent will provide intake and coordination of newly assigned and current clients, supervise Personal/Home Support Workers and provide crisis intervention as required when on duty.<br/><br/><strong>Job Posting: </strong><a href=\"https://tngcommunityto.org/files/after-hours-supervisor-relief.pdf\" target=\"_blank\" title=\"After Hours Supervisor - Relief\"><strong>See the posting here</strong></a><br/><br/><strong>Apply Here</strong>: <a href=\"mailto:careers@tngcs.org\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>careers@tngcs.org</strong></a></p>\n</div>\n</div>\n</div>\n</li></ul></div></div></div></div></div></div></div></div></div></main></div></div></div><div><div class=\"off-canvas-wrapper apos-internal en-CA\" id=\"top\"><div class=\"off-canvas-content\"><main id=\"main\"><div class=\"apos-area\"><div class=\"section-background section-background--padding-small section-background--white\"><div class=\"grid-container\"><div class=\"grid-x\"><div class=\"cell\"><div class=\"section-background__content apply-widget-spacing\"><div class=\"apos-area\"><div class=\"squeezebox squeezebox--center\"><div><ul class=\"accordion\" id=\"accordion-dzii70fos4f97mbpgm0v26g3\"><li class=\"accordion-item\" data-accordion-item=\"\">\n<a class=\"accordion-title no-link-handling\" href=\"#\">Case Manager, Enhanced Follow-Up Supports</a>\n<div class=\"accordion-content small editable-text\" data-tab-content=\"\">\n<div class=\"apos-area\">\n<div class=\"text-widget\" data-rich-text=\"\">\n<p>The Case Manager, Enhanced Follow-up Support Services is part of Urban Health and Homelessness Services (UHHS) and is responsible for providing specialized enhanced follow-up supports to adults and seniors exiting homelessness. Working from a trauma informed, client centered, harm reduction approach, case managers provide one-to-one supports, home visits and telephone contact to assist participants in identifying and achieving self determined goals. Working closely with participants and external service providers, the case manager liaises with and coordinates access to services that assist with housing stabilization and community integration.<br/><br/><strong>Job Posting: </strong><a href=\"https://tngcommunityto.org/files/tng2026-155-case-manager-enhanced-follow-up-supports-september-2026.pdf\" target=\"_blank\" title=\"TNG2026-155 Case Manager, Enhanced Follow-Up Supports - September 2026\"><strong>See the posting here</strong></a><br/><br/><strong>Apply Here</strong>: <a href=\"mailto:careers@tngcs.org\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>careers@tngcs.org</strong></a></p>\n</div>\n</div>\n</div>\n</li></ul></div></div></div></div></div></div></div></div></div></main></div></div></div><div><div class=\"off-canvas-wrapper apos-internal en-CA\" id=\"top\"><div class=\"off-canvas-content\"><main id=\"main\"><div class=\"apos-area\"><div class=\"section-background section-background--padding-small section-background--white\"><div class=\"grid-container\"><div class=\"grid-x\"><div class=\"cell\"><div class=\"section-background__content apply-widget-spacing\"><div class=\"apos-area\"><div class=\"squeezebox squeezebox--center\"><div><ul class=\"accordion\" id=\"accordion-dzii70fos4f97mbpgm0v26g3\"><li class=\"accordion-item\" data-accordion-item=\"\">\n<a class=\"accordion-title no-link-handling\" href=\"#\">Case Manager, Rapid Engagement and Capacity Team (REACT) - Contract</a>\n<div class=\"accordion-content small editable-text\" data-tab-content=\"\">\n<div class=\"apos-area\">\n<div class=\"text-widget\" data-rich-text=\"\">\n<p>The Case Manager will provide, service coordination, and connections to integrated healthcare. REACT also supports restorative justice and non-violent crisis intervention approaches, with a focus on strengthening relationships, reducing avoidable discharges, improving housing outcomes, repairing harm, and increasing community accountability. The position reports to the KMOPS Supervisor and is part of CUPE 7797. The Case Manager will work across shelters, respites, hospitals, encampments, and warming centers, with flexibility to work evenings, weekends, and holidays as required.<br/><br/><strong>Job Posting: </strong><a href=\"https://tngcommunityto.org/files/case-manager-rapid-engagement-and-capacity-team-react-august-2026.pdf\" target=\"_blank\" title=\"Case Manager Rapid Engagement and Capacity Team (REACT) - August 2026\"><strong>See the posting here</strong></a><br/><br/><strong>Apply Here</strong>: <a href=\"mailto:careers@tngcs.org\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>careers@tngcs.org</strong></a></p>\n</div>\n</div>\n</div>\n</li></ul></div></div></div></div></div></div></div></div></div></main></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://tngcommunityto.org",
+    "explanation": "Official employer homepage: https://tngcommunityto.org. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://tngcommunityto.org/files/after-hours-supervisor-relief.pdf",
+      "https://tngcommunityto.org/files/tng2026-155-case-manager-enhanced-follow-up-supports-september-2026.pdf",
+      "https://tngcommunityto.org/files/case-manager-rapid-engagement-and-capacity-team-react-august-2026.pdf"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kinark-child-and-family-services",
+  "name": "Kinark Child and Family Services",
+  "aliases": [],
+  "website_url": "https://kinark.on.ca",
+  "logo_url": "https://www.kinark.on.ca/wp-content/themes/kinark/assets/favicon/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

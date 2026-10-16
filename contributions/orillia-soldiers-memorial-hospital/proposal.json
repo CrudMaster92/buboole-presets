@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "orillia-soldiers-memorial-hospital",
+    "name": "Orillia Soldiers Memorial Hospital",
+    "aliases": [],
+    "website_url": "https://osmh.on.ca",
+    "logo_url": "https://www.osmh.on.ca/site/themes/default_theme/assets/images/favicon/apple-icon-57x57.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "orillia-soldiers-memorial-hospital",
+    "company_id": "orillia-soldiers-memorial-hospital",
+    "revision": 1,
+    "label": "Orillia Soldiers Memorial Hospital public careers",
+    "careers_url": "https://osmh.njoyn.com/cl4/xweb/Xweb.asp?CLID=73967&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:54:37.663812+00:00",
+      "job_count": 23,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Orillia Soldiers Memorial Hospital",
+      "careers_url": "https://osmh.njoyn.com/cl4/xweb/Xweb.asp?CLID=73967&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "osmh.njoyn.com"
+      ],
+      "request": {
+        "url": "https://osmh.njoyn.com/cl4/xweb/Xweb.asp?CLID=73967&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://osmh.njoyn.com/cl4/xweb/Xweb.asp?CLID=73967&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:13:06.683678+00:00",
+    "payload": "<html><body><center><div id=\"outer_container\"><div id=\"Div_Main\"><table class=\"maintable\"><tr><td><div id=\"Div_Middle\"><table class=\"maintable\"><tr><td><div id=\"Div_right\"><div id=\"right_middle_container\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=bFtRQBgXCG53ZHR0QlBcCCBOdRdEcCRadkhYUip9E2ErLDISXUZvBxRyBQkbUxZbT3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=73967&amp;Page=JobDetails&amp;Jobid=J0726-0306&amp;BRID=452669&amp;lang=1\" title=\"View job details\">J0726-0306</a></td><td>Medical Radiation Technologist - CT/General Radiology - Diagnostic Imaging Services</td><td>Healthcare Professional</td><td>Temporary Part Time</td><td>October 21, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></td></tr></table></div></td></tr></table></div></div></center><center><div id=\"outer_container\"><div id=\"Div_Main\"><table class=\"maintable\"><tr><td><div id=\"Div_Middle\"><table class=\"maintable\"><tr><td><div id=\"Div_right\"><div id=\"right_middle_container\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=bFtRQBgXCG53ZHR0QlBcCCBOdRdEcCRadkhYUip9E2ErLDISXUZvBxRyBQkbUxZbT3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=73967&amp;Page=JobDetails&amp;Jobid=J1026-0143&amp;BRID=461041&amp;lang=1\" title=\"View job details\">J1026-0143</a></td><td>Community Support Worker (CSW) - Community Mental Health</td><td>Support Services</td><td>Temporary Full Time</td><td>October 20, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></td></tr></table></div></td></tr></table></div></div></center><center><div id=\"outer_container\"><div id=\"Div_Main\"><table class=\"maintable\"><tr><td><div id=\"Div_Middle\"><table class=\"maintable\"><tr><td><div id=\"Div_right\"><div id=\"right_middle_container\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=bFtRQBgXCG53ZHR0QlBcCCBOdRdEcCRadkhYUip9E2ErLDISXUZvBxRyBQkbUxZbT3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=73967&amp;Page=JobDetails&amp;Jobid=J1026-0144&amp;BRID=461039&amp;lang=1\" title=\"View job details\">J1026-0144</a></td><td>Social Worker - Community Mental Health</td><td>Healthcare Professional</td><td>Temporary Full Time</td><td>October 20, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></td></tr></table></div></td></tr></table></div></div></center></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://osmh.on.ca",
+    "explanation": "Official employer homepage: https://osmh.on.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://osmh.njoyn.com/cl4/xweb/xweb.asp?clid=73967&Page=JobDetails&Jobid=J0726-0306&BRID=452669&lang=1",
+      "https://osmh.njoyn.com/cl4/xweb/xweb.asp?clid=73967&Page=JobDetails&Jobid=J1026-0143&BRID=461041&lang=1",
+      "https://osmh.njoyn.com/cl4/xweb/xweb.asp?clid=73967&Page=JobDetails&Jobid=J1026-0144&BRID=461039&lang=1"
+    ]
+  }
+}

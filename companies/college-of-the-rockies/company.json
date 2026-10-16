@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "college-of-the-rockies",
+  "name": "College of the Rockies",
+  "aliases": [],
+  "website_url": "https://cotr.bc.ca",
+  "logo_url": "https://cotr.bc.ca/wp-content/uploads/cropped-COTR-Favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

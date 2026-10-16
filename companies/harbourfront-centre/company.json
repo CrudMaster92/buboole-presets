@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "harbourfront-centre",
+  "name": "Harbourfront Centre",
+  "aliases": [],
+  "website_url": "https://harbourfrontcentre.com",
+  "logo_url": "https://harbourfrontcentre.com/wp-content/themes/bootscore-5-child/img/favicon/apple-touch-icon.png?v=20252",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

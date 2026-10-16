@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fortisalberta",
+  "name": "FortisAlberta",
+  "aliases": [],
+  "website_url": "https://fortisalberta.com",
+  "logo_url": "https://rmkcdn.successfactors.com/edfad277/a09f8e56-31d4-4e88-91fc-4.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

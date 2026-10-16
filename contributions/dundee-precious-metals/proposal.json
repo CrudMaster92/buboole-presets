@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "dundee-precious-metals",
+    "name": "Dundee Precious Metals",
+    "aliases": [
+      "DPM Metals"
+    ],
+    "website_url": "https://dundeeprecious.com",
+    "logo_url": "https://dpmmetals.com/site/templates/build/img/favicon/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "dundee-precious-metals",
+    "company_id": "dundee-precious-metals",
+    "revision": 1,
+    "label": "Dundee Precious Metals public careers",
+    "careers_url": "https://dpmmetals.com/careers/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:03.055194+00:00",
+      "job_count": 13,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Dundee Precious Metals",
+      "careers_url": "https://dpmmetals.com/careers/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "dpmmetals.com"
+      ],
+      "request": {
+        "url": "https://dpmmetals.com/careers/careers/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "div.text-brand-slate:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://dpmmetals.com/careers/careers/",
+    "fetched_at": "2026-10-15T23:21:56.342600+00:00",
+    "payload": "<html><body><div class=\"flex flex-col min-h-screen lang-en\" id=\"app\"><main class=\"relative flex flex-col flex-grow\"><div class=\"z-10 h-full\" id=\"page-content\"><div class=\"flex flex-wrap\"><div class=\"w-full\"><section class=\"bg-white\" id=\"careers\"><div class=\"\"><div class=\"flex flex-col content\"><div class=\"flex-section w-full text-brand-blue-dark mt-8 mb-16\"><div><div class=\"w-full\"><div class=\"w-full flex-tab container w-full\"><div class=\"mb-6 max-w-920 mx-auto px-2 lg:px-0\"><ul class=\"uk-switcher\" id=\"tab-switcher-content\"><li><div class=\"flex pt-2 border-b border-brand-gold\"><div class=\"w-4/6 text-brand-slate\"> <a class=\"text-brand-slate hover:text-brand-green-dark\" href=\"/site/assets/files/16004/false_job_offers_alert_pdf.pdf\" target=\"_blank\"> <strong>BEWARE FALSE RECRUITMENT OFFERS </strong> </a> </div></div></li></ul></div></div></div></div></div></div></div></section></div></div></div></main></div><div class=\"flex flex-col min-h-screen lang-en\" id=\"app\"><main class=\"relative flex flex-col flex-grow\"><div class=\"z-10 h-full\" id=\"page-content\"><div class=\"flex flex-wrap\"><div class=\"w-full\"><section class=\"bg-white\" id=\"careers\"><div class=\"\"><div class=\"flex flex-col content\"><div class=\"flex-section w-full text-brand-blue-dark mt-8 mb-16\"><div><div class=\"w-full\"><div class=\"w-full flex-tab container w-full\"><div class=\"mb-6 max-w-920 mx-auto px-2 lg:px-0\"><ul class=\"uk-switcher\" id=\"tab-switcher-content\"><li><div class=\"flex pt-2 border-b border-brand-gold\"><div class=\"w-4/6 text-brand-slate\"> <a class=\"text-brand-slate hover:text-brand-green-dark\" href=\"/site/assets/files/19128/investor_relations_analyst.pdf\" target=\"_blank\"> Investor Relations Analyst </a> </div></div></li></ul></div></div></div></div></div></div></div></section></div></div></div></main></div><div class=\"flex flex-col min-h-screen lang-en\" id=\"app\"><main class=\"relative flex flex-col flex-grow\"><div class=\"z-10 h-full\" id=\"page-content\"><div class=\"flex flex-wrap\"><div class=\"w-full\"><section class=\"bg-white\" id=\"careers\"><div class=\"\"><div class=\"flex flex-col content\"><div class=\"flex-section w-full text-brand-blue-dark mt-8 mb-16\"><div><div class=\"w-full\"><div class=\"w-full flex-tab container w-full\"><div class=\"mb-6 max-w-920 mx-auto px-2 lg:px-0\"><ul class=\"uk-switcher\" id=\"tab-switcher-content\"><li><div class=\"flex pt-2 border-b border-brand-gold\"><div class=\"w-4/6 text-brand-slate\"> <a class=\"text-brand-slate hover:text-brand-green-dark\" href=\"/site/assets/files/18751/dpmetals_oglas_za_posao_-_rukovalac_jamskim_kamionom.pdf\" target=\"_blank\"> Rukovalac jamskim kamionom </a> </div></div></li></ul></div></div></div></div></div></div></div></section></div></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://dundeeprecious.com",
+    "explanation": "Official employer homepage: https://dundeeprecious.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://dpmmetals.com/site/assets/files/16004/false_job_offers_alert_pdf.pdf",
+      "https://dpmmetals.com/site/assets/files/19128/investor_relations_analyst.pdf",
+      "https://dpmmetals.com/site/assets/files/18751/dpmetals_oglas_za_posao_-_rukovalac_jamskim_kamionom.pdf"
+    ]
+  }
+}

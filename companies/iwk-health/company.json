@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "iwk-health",
+  "name": "IWK Health",
+  "aliases": [],
+  "website_url": "https://iwkhealth.ca",
+  "logo_url": "https://iwkhealth.ca/sites/default/files/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-pickering",
+    "name": "City of Pickering",
+    "aliases": [],
+    "website_url": "https://pickering.ca",
+    "logo_url": "https://www.pickering.ca/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-pickering",
+    "company_id": "city-of-pickering",
+    "revision": 1,
+    "label": "City of Pickering public careers",
+    "careers_url": "https://www.pickering.ca/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:07.978774+00:00",
+      "job_count": 1,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Pickering",
+      "careers_url": "https://www.pickering.ca/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "media-002-ca.cdn.govstack.com",
+        "www.pickering.ca"
+      ],
+      "request": {
+        "url": "https://www.pickering.ca/careers",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "td:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.pickering.ca/careers",
+    "fetched_at": "2026-10-15T23:21:56.341600+00:00",
+    "payload": "<html><body><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_accordiontab base-bg base-bg-solid pb-0\"><div class=\"component-inner\"><div class=\"container\"><div class=\"repeatable accordion tab-basic\"><div class=\"info repeatable-content collapse\" id=\"collapse_36c6aed8-d2fc-4556-b389-4e0eadb89ca2_1\"><div class=\"text\"><table><tbody><tr><td style=\"width: 20.0257%;\"><a href=\"https://media-002-ca.cdn.govstack.com/pickeringca-009-ca/media/0lshx3kq/senior-project-manager-capital-projects-external.pdf\" rel=\"noopener\" target=\"_blank\" title=\"Senior Project Manager, Capital Projects External\">Senior Project Manager, Capital Projects</a></td></tr></tbody></table></div></div></div></div></div></section></div></div></div></section></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://pickering.ca",
+    "explanation": "Official employer homepage: https://pickering.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://media-002-ca.cdn.govstack.com/pickeringca-009-ca/media/0lshx3kq/senior-project-manager-capital-projects-external.pdf"
+    ]
+  }
+}

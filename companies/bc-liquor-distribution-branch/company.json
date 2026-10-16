@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bc-liquor-distribution-branch",
+  "name": "BC Liquor Distribution Branch",
+  "aliases": [],
+  "website_url": "https://bcldb.com",
+  "logo_url": "https://www.bcldb.com/themes/custom/bcldb/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

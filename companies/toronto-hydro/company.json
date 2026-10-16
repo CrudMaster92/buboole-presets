@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "toronto-hydro",
+  "name": "Toronto Hydro",
+  "aliases": [],
+  "website_url": "https://torontohydro.com",
+  "logo_url": "https://www.torontohydro.com/o/toronto-hydro-common-theme/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "city-of-colwood",
+  "company_id": "city-of-colwood",
+  "revision": 1,
+  "label": "City of Colwood public careers",
+  "careers_url": "https://www.colwood.ca/employment-volunteering",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-16T04:56:07.266213+00:00",
+    "job_count": 1,
+    "warnings": [
+      "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "City of Colwood",
+    "careers_url": "https://www.colwood.ca/employment-volunteering",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.colwood.ca"
+    ],
+    "request": {
+      "url": "https://www.colwood.ca/employment-volunteering",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(.views-field-field-status:-soup-contains(\"Open\"))",
+      "title": "td.views-field-title>a",
+      "link": "td.views-field-title>a",
+      "employment_type": ".views-field-field-position-type",
+      "posted_date": ".views-field-field-job-posting-date time"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

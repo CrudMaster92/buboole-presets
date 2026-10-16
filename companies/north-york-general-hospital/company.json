@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "north-york-general-hospital",
+  "name": "North York General Hospital",
+  "aliases": [],
+  "website_url": "https://nygh.on.ca",
+  "logo_url": "https://www.nygh.on.ca/wp-content/themes/nygh/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

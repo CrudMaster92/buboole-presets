@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "the-neighbourhood-group-community-services",
+  "name": "The Neighbourhood Group Community Services",
+  "aliases": [],
+  "website_url": "https://tngcommunityto.org",
+  "logo_url": "https://apos-aka-tng-prod.s3.ca-central-1.amazonaws.com/attachments/yxx4jx8s1dkbwtjqvzgqvctd-favicon-tng-1.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

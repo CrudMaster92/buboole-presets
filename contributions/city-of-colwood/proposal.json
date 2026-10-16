@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-colwood",
+    "name": "City of Colwood",
+    "aliases": [],
+    "website_url": "https://colwood.ca",
+    "logo_url": "https://www.colwood.ca/sites/default/files/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-colwood",
+    "company_id": "city-of-colwood",
+    "revision": 1,
+    "label": "City of Colwood public careers",
+    "careers_url": "https://www.colwood.ca/employment-volunteering",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:07.266213+00:00",
+      "job_count": 1,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Colwood",
+      "careers_url": "https://www.colwood.ca/employment-volunteering",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.colwood.ca"
+      ],
+      "request": {
+        "url": "https://www.colwood.ca/employment-volunteering",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(.views-field-field-status:-soup-contains(\"Open\"))",
+        "title": "td.views-field-title>a",
+        "link": "td.views-field-title>a",
+        "employment_type": ".views-field-field-position-type",
+        "posted_date": ".views-field-field-job-posting-date time"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.colwood.ca/employment-volunteering",
+    "fetched_at": "2026-10-16T04:08:36.605743+00:00",
+    "payload": "<html><body><div class=\"dialog-off-canvas-main-canvas\"><main class=\"main\"><div class=\"container\"><div class=\"content content--fw\" id=\"main-content\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-colwood-upanupstarter\"><article class=\"node node--type-page node--promoted node--view-mode-full\"><div class=\"node__content\"><div class=\"field field--name-field-content-rows field--type-entity-reference-revisions field--label-hidden content-rows field__items\"><div class=\"field__item content-row\"><div class=\"paragraph paragraph--type--content-row paragraph--view-mode--default\"><div class=\"field field--name-field-row-component field--type-entity-reference-revisions field--label-hidden field__items content-row__component\"><div class=\"field__item\"><div class=\"paragraph paragraph--type--view paragraph--view-mode--default\"><div class=\"field field--name-field-view field--type-viewsreference field--label-hidden field__item\"><div class=\"views-element-container\"><div class=\"view view-job-postings view-id-job_postings view-display-id-block_1 js-view-dom-id-84dc32aa81866406569e2c8a09d3e9b6f0f8ba5fd07c83248a1b677f7aafdd53 contextual-region\"><div class=\"view-content\"><table class=\"views-table views-view-table cols-6\"><tbody><tr><td class=\"views-field views-field-title views-field-nothing\" headers=\"view-title-table-column\"><a href=\"/employment-volunteering/physician-multiple-positions-0\" hreflang=\"en\">Physician (multiple positions)</a><ul class=\"mb-0 mt-4\"><li class=\"mb-0\"><a href=\"/sites/default/files/2026-06/COC20260624_PHYSICIAN_Posting.pdf\">Job Posting</a></li><li class=\"mb-0\"><a href=\"/sites/default/files/2026-06/PHYSICIAN-EXEMPT_STAFF_JD_2024_12_12.pdf\">Job Description</a></li></ul></td><td class=\"views-field views-field-field-position-type\" headers=\"view-field-position-type-table-column\">Temporary Full Time</td><td class=\"views-field views-field-field-job-posting-date\" headers=\"view-field-job-posting-date-table-column\"><time class=\"datetime\" datetime=\"2026-06-24T12:00:00Z\">Jun 24, 2026</time></td><td class=\"views-field views-field-field-job-closing-date\" headers=\"view-field-job-closing-date-table-column\"><time class=\"datetime\" datetime=\"2027-02-01T00:30:00Z\">January 31, 2027 - 4:30pm</time></td><td class=\"views-field views-field-field-status\" headers=\"view-field-status-table-column\">Open</td><td class=\"views-field views-field-field-closing-date-notes\" headers=\"view-field-closing-date-notes-table-column\"><p class=\"mb-0\">Temporary Full-Time Exempt position</p></td></tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://colwood.ca",
+    "explanation": "Official employer homepage: https://colwood.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.colwood.ca/employment-volunteering/physician-multiple-positions-0"
+    ]
+  }
+}

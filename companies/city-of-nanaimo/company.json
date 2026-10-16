@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-nanaimo",
+  "name": "City of Nanaimo",
+  "aliases": [],
+  "website_url": "https://nanaimo.ca",
+  "logo_url": "https://www.nanaimo.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

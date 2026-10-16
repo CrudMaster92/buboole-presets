@@ -1,0 +1,96 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ville-de-sainte-julie",
+    "name": "Ville de Sainte Julie",
+    "aliases": [],
+    "website_url": "https://ville.sainte-julie.qc.ca",
+    "logo_url": "https://saintejulie.ca/assets/images/favicon-16.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ville-de-sainte-julie",
+    "company_id": "ville-de-sainte-julie",
+    "revision": 1,
+    "label": "Ville de Sainte Julie public careers",
+    "careers_url": "https://saintejulie.ca/administration/emplois",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:08.619141+00:00",
+      "job_count": 1,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Ville de Sainte Julie",
+      "careers_url": "https://saintejulie.ca/administration/emplois",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "saintejulie.ca"
+      ],
+      "request": {
+        "url": "https://saintejulie.ca/administration/emplois",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "td:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://saintejulie.ca/administration/emplois",
+    "fetched_at": "2026-10-15T23:23:12.094505+00:00",
+    "payload": "<html><body><main class=\"o-page\"><section class=\"section-content section-content--sidebar\"><div class=\"main-content\"><div class=\"matrix matrix--single matrix--content\"><div class=\"matrix__wrap\"><div class=\"matrix__content\"><div class=\"content__wysiwyg\"><table><tbody><tr><td style=\"width: 747px; height: 59px;\"><a href=\"uploads/html_content/Ressources%20humaines/2026/2026-10-14_-_Affichage_externe_Mecanicien.pdf\" rel=\"noopener\" target=\"_blank\" title=\"2026-10-14_-_Affichage_externe_Mecanicien.pdf (138 KB)\">Mécanicien(ne) - Service des travaux publics</a></td></tr></tbody></table></div></div></div></div></div></section></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://ville.sainte-julie.qc.ca",
+    "explanation": "Official employer homepage: https://ville.sainte-julie.qc.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://saintejulie.ca/administration/uploads/html_content/Ressources%20humaines/2026/2026-10-14_-_Affichage_externe_Mecanicien.pdf"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "securiguard",
+    "name": "Securiguard",
+    "aliases": [],
+    "website_url": "https://securiguard.com",
+    "logo_url": "https://www.securiguard.com/wp-content/uploads/2020/05/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "securiguard",
+    "company_id": "securiguard",
+    "revision": 1,
+    "label": "Securiguard public careers",
+    "careers_url": "https://securiguard.prevueaps.com/jobs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:54:01.541792+00:00",
+      "job_count": 68,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Securiguard",
+      "careers_url": "https://securiguard.prevueaps.com/jobs",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "securiguard.prevueaps.com"
+      ],
+      "request": {
+        "url": "https://securiguard.prevueaps.com/core/jobs/1383",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "getParams": "{}"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "data.jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "jobLocation",
+        "url": "jobUrl",
+        "posted_date": "startDateRef",
+        "employment_type": "employmentType",
+        "salary_min": "minSalary",
+        "salary_max": "maxSalary"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://securiguard.prevueaps.com/core/jobs/1383",
+    "fetched_at": "2026-10-15T23:22:38.349016+00:00",
+    "payload": {
+      "data": {
+        "jobs": [
+          {
+            "id": 339031,
+            "title": "Access Control Security Guard - Guelph",
+            "city": "Guelph",
+            "subdomain": "securiguard",
+            "iso3": "CAN",
+            "abbreviation": "ON",
+            "classification": "Security",
+            "siteId": 1383,
+            "startDateRef": "Sep 22, 2026",
+            "endDateRef": "Oct 22, 2026",
+            "untilFilled": 0,
+            "orgTitle": "Simcoe",
+            "parentTitle": null,
+            "domainName": "prevueaps.com",
+            "stateName": "Ontario",
+            "workplaceType": "Onsite",
+            "employmentType": "Part Time/Casual",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": "16.25",
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "19.14",
+            "minSalary": "19.00",
+            "maxSalary": "19.14",
+            "jobLocation": "1000 Southgate Drive, Guelph, ON, Canada",
+            "streetAddress": "1000 Southgate Dr",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://securiguard.prevueaps.com/jobs/339031"
+          },
+          {
+            "id": 339284,
+            "title": "Airside Safety Escort - YVR International Airport",
+            "city": "Richmond",
+            "subdomain": "securiguard",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 1383,
+            "startDateRef": "Oct 01, 2026",
+            "endDateRef": "Oct 31, 2026",
+            "untilFilled": 0,
+            "orgTitle": "YVR Airport",
+            "parentTitle": null,
+            "domainName": "prevueaps.com",
+            "stateName": "British Columbia",
+            "workplaceType": "Onsite",
+            "employmentType": "Seasonal",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": null,
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "27.62",
+            "maxSalary": "28.98",
+            "jobLocation": "Richmond, BC, Canada, V6X 1A2",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://securiguard.prevueaps.com/jobs/339284"
+          },
+          {
+            "id": 339935,
+            "title": "Airside Security Professional - Class 5 Drivers License",
+            "city": "Richmond",
+            "subdomain": "securiguard",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 1383,
+            "startDateRef": "Oct 13, 2026",
+            "endDateRef": "Nov 12, 2026",
+            "untilFilled": 0,
+            "orgTitle": "YVR Airport",
+            "parentTitle": null,
+            "domainName": "prevueaps.com",
+            "stateName": "British Columbia",
+            "workplaceType": "Onsite",
+            "employmentType": "Seasonal",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": "",
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "27.62",
+            "minSalary": "27.62",
+            "maxSalary": "28.72",
+            "jobLocation": "Richmond, BC V6Y 3T6, Canada",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://securiguard.prevueaps.com/jobs/339935"
+          }
+        ]
+      }
+    }
+  },
+  "ownership": {
+    "company_url": "https://securiguard.com",
+    "explanation": "Official employer homepage: https://securiguard.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://securiguard.prevueaps.com/jobs/339031",
+      "https://securiguard.prevueaps.com/jobs/339284",
+      "https://securiguard.prevueaps.com/jobs/339935"
+    ]
+  }
+}

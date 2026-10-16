@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "region-of-peel",
+    "name": "Region of Peel",
+    "aliases": [],
+    "website_url": "https://peelregion.ca",
+    "logo_url": "https://peelregion.ca/core/misc/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "region-of-peel",
+    "company_id": "region-of-peel",
+    "revision": 1,
+    "label": "Region of Peel public careers",
+    "careers_url": "https://careers-peelregion.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:57:54.824615+00:00",
+      "job_count": 10,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Region of Peel",
+      "careers_url": "https://careers-peelregion.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers-peelregion.icims.com"
+      ],
+      "request": {
+        "url": "https://careers-peelregion.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers-peelregion.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T22:22:49.887197+00:00",
+    "payload": "<html><body><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/13/2026 3:00 PM\">\n2 days ago<span class=\"sr-only\">(10/13/2026 3:00 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-peelregion.icims.com/jobs/16036/mechanic/job?in_iframe=1\" title=\"16036 - Mechanic\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nMechanic</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nMechanicPublic Works – TransHelpStatus: One Regular Full-Time PositionCompensation: $38.12 to $39.96/hr (plus an additional $4.00 hourly premium for 310s and 310T license holders)Location and Work Mode: Onsite – at 3190 Mavis Road, Mississauga, ONHours of Work: 40 hours of work per week - Monday to Friday – 7:00 am to 3:00 pmCUPE Local 966 TransHelp The Role:Under general supervision of the Operations Support Supervisor, performs mechanical repairs and maintenance to vehicles in accordance with Regional/Transhelp standards. What you will do in this Role:- Plans and schedules duties according to work priorities and requirement, as outlined by the Operations Support Supervisor.- Diagnoses and repairs vehicles and equipment, e.g. air suspension, hydraulic, air...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">System ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-16036</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Post Close Date</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n10/20/2026 11:55 PM</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Hybrid</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nNo</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/13/2026 3:01 PM\">\n2 days ago<span class=\"sr-only\">(10/13/2026 3:01 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-peelregion.icims.com/jobs/16035/maintenance-person/job?in_iframe=1\" title=\"16035 - Maintenance Person\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nMaintenance Person</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nMaintenance PersonPublic Works, TransHelpStatus: One Regular Part Time PositionSalary Range: $26.66 to $28.08 per hour plus an additional $1.25 per hour premium (D class licence holders)Location and Work Mode: Onsite at 3190 Mavis Road, Mississauga, ONHours of work: up to 30 hours of work per week, with various day, evening, holiday, and weekend shiftsCUPE LOCAL 966 - Public Works The Role:Under general supervision of the Operations Support Supervisor, you will perform mechanical repairs and maintenance to vehicles in accordance with Regional and TransHelp standards What you will do in this role:  - Responsible for the performance of a wide variety of maintenance duties to ensure that the equipment is in a safe and satisfactory working and operating condition. -...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">System ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-16035</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Post Close Date</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n10/20/2026 11:55 PM</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Hybrid</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nNo</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/13/2026 1:38 PM\">\n2 days ago<span class=\"sr-only\">(10/13/2026 1:38 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careers-peelregion.icims.com/jobs/16033/compost-facility-operator/job?in_iframe=1\" title=\"16033 - Compost Facility Operator\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nCompost Facility Operator</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nCompost Facility OperatorPublic Works – Waste ManagementStatus: One Short Term Contract Full-Time position, duration: 8 months Salary Range: $32.53 - $34.16 per hourLocation and Work Mode: On site at 4400 King Street, Caledon, ON (Peel Curing Facility)Hours of Work: 40 per week: 7:30am – 4:30pm, Monday to Friday (AWW in effect)CUPE Local 966 The Role:Under general supervision, performs manual and equipment operating duties in the performance of compost operations.   What you will do in this role:- Operates and maintains vehicles and equipment necessary for the processing of compost- Responsible for inspection, screening and turning of all compost material loads entering the compost facility and removal of contaminates/inorganic materials from loads prior to...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">System ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-16033</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Post Close Date</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n10/20/2026 11:55 PM</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Hybrid</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nNo</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://peelregion.ca",
+    "explanation": "Official employer homepage: https://peelregion.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers-peelregion.icims.com/jobs/16036/mechanic/job?in_iframe=1",
+      "https://careers-peelregion.icims.com/jobs/16035/maintenance-person/job?in_iframe=1",
+      "https://careers-peelregion.icims.com/jobs/16033/compost-facility-operator/job?in_iframe=1"
+    ]
+  }
+}

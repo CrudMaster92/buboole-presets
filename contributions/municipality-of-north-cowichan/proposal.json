@@ -1,0 +1,201 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "municipality-of-north-cowichan",
+    "name": "Municipality of North Cowichan",
+    "aliases": [],
+    "website_url": "https://northcowichan.ca",
+    "logo_url": "https://www.northcowichan.ca/sites/default/files/Logo.socialmedia.avatar_0-square.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "municipality-of-north-cowichan",
+    "company_id": "municipality-of-north-cowichan",
+    "revision": 1,
+    "label": "Municipality of North Cowichan public careers",
+    "careers_url": "https://northcowichan.prevueaps.ca/jobs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:41.765993+00:00",
+      "job_count": 6,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Municipality of North Cowichan",
+      "careers_url": "https://northcowichan.prevueaps.ca/jobs",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "northcowichan.prevueaps.ca"
+      ],
+      "request": {
+        "url": "https://northcowichan.prevueaps.ca/core/jobs/882",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "getParams": "{}"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "data.jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "jobLocation",
+        "url": "jobUrl",
+        "posted_date": "startDateRef",
+        "employment_type": "employmentType",
+        "salary_min": "minSalary",
+        "salary_max": "maxSalary"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://northcowichan.prevueaps.ca/core/jobs/882",
+    "fetched_at": "2026-10-15T23:22:38.351047+00:00",
+    "payload": {
+      "data": {
+        "jobs": [
+          {
+            "id": 31775,
+            "title": "Administrative Assistant 1 (Casual)",
+            "city": "North Cowichan",
+            "subdomain": "northcowichan",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 882,
+            "startDateRef": "Oct 15, 2026",
+            "endDateRef": "Oct 30, 2026",
+            "untilFilled": 0,
+            "orgTitle": "Casual Admin Pool",
+            "parentTitle": "Human Resources",
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": null,
+            "employmentType": "Casual - CUPE",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": null,
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "35.45",
+            "maxSalary": "",
+            "jobLocation": "North Cowichan, BC, CA, V9L 6A1",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://northcowichan.prevueaps.ca/jobs/31775"
+          },
+          {
+            "id": 31774,
+            "title": "Building and Plumbing Inspector",
+            "city": "North Cowichan",
+            "subdomain": "northcowichan",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 882,
+            "startDateRef": "Oct 15, 2026",
+            "endDateRef": "Oct 30, 2026",
+            "untilFilled": 0,
+            "orgTitle": "Building",
+            "parentTitle": "Planning , Building, and Environmental Services",
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": null,
+            "employmentType": "Full Time - CUPE",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": null,
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "47.75",
+            "maxSalary": "53.12",
+            "jobLocation": "North Cowichan, BC, CA, V9L 6A1",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://northcowichan.prevueaps.ca/jobs/31774"
+          },
+          {
+            "id": 31679,
+            "title": "CAC Maintenance Worker (Casual)",
+            "city": "North Cowichan",
+            "subdomain": "northcowichan",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 882,
+            "startDateRef": "Oct 01, 2026",
+            "endDateRef": "Oct 16, 2026",
+            "untilFilled": 0,
+            "orgTitle": "Facilities",
+            "parentTitle": "Recreation",
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": null,
+            "employmentType": "Casual - CUPE",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": "",
+            "payType": "Hourly",
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "",
+            "maxSalary": "37.72",
+            "jobLocation": "North Cowichan, BC, CA, V9L 6A1",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://northcowichan.prevueaps.ca/jobs/31679"
+          }
+        ]
+      }
+    }
+  },
+  "ownership": {
+    "company_url": "https://northcowichan.ca",
+    "explanation": "Official employer homepage: https://northcowichan.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://northcowichan.prevueaps.ca/jobs/31775",
+      "https://northcowichan.prevueaps.ca/jobs/31774",
+      "https://northcowichan.prevueaps.ca/jobs/31679"
+    ]
+  }
+}

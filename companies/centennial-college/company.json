@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "centennial-college",
+  "name": "Centennial College",
+  "aliases": [],
+  "website_url": "https://centennialcollege.ca",
+  "logo_url": "https://www.centennialcollege.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

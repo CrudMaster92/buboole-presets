@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-abbotsford",
+  "name": "City of Abbotsford",
+  "aliases": [],
+  "website_url": "https://abbotsford.ca",
+  "logo_url": "https://www.abbotsford.ca/sites/default/files/Favicon%20-%20512x512.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

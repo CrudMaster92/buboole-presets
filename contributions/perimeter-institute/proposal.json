@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "perimeter-institute",
+    "name": "Perimeter Institute",
+    "aliases": [],
+    "website_url": "https://perimeterinstitute.ca",
+    "logo_url": "https://perimeterinstitute.ca/sites/default/files/PI_symbol_48px.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "perimeter-institute",
+    "company_id": "perimeter-institute",
+    "revision": 1,
+    "label": "Perimeter Institute public careers",
+    "careers_url": "https://perimeterinstitute.ca/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:33.747379+00:00",
+      "job_count": 7,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Perimeter Institute",
+      "careers_url": "https://perimeterinstitute.ca/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "perimeterinstitute.ca"
+      ],
+      "request": {
+        "url": "https://perimeterinstitute.ca/careers",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li:has(a[href*=\"/jobs/\"])",
+        "title": "a[href*=\"/jobs/\"]",
+        "link": "a[href*=\"/jobs/\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://perimeterinstitute.ca/careers",
+    "fetched_at": "2026-10-15T23:21:56.339603+00:00",
+    "payload": "<html><body><div class=\"dialog-off-canvas-main-canvas\"><main class=\"site-main\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-pi-theme-content\"><article class=\"node landing-page full\"><div class=\"bg-color bg-color--light-blue container layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"views-element-container block block-views block-views-block--available-positions-block-available-positions\"><div><div class=\"js-view-dom-id-4e25750815d8d8930d27c24fbf9c4f28f3b41b9e7cceae249bca3fa57cbf7787\"><div class=\"accordion\"><div class=\"accordion-item active item-enumerate\" id=\"accordion-item-1686725151\"><div class=\"accordion-item-content active\"><div id=\"item-collapse-0-1686725151\"><div class=\"accordion-item-item-body\"><div class=\"job-list-item\"><ul><li><a href=\"/jobs/tenure-track-faculty-appointment-intersection-artificial-intelligence-and-theoretical-physics\" hreflang=\"en\">Tenure Track Faculty Appointment at the Intersection of Artificial Intelligence and Theoretical Physics</a></li></ul></div></div></div></div></div></div></div></div></div></div></div></article></div></div></main></div><div class=\"dialog-off-canvas-main-canvas\"><main class=\"site-main\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-pi-theme-content\"><article class=\"node landing-page full\"><div class=\"bg-color bg-color--light-blue container layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"views-element-container block block-views block-views-block--available-positions-block-available-positions\"><div><div class=\"js-view-dom-id-4e25750815d8d8930d27c24fbf9c4f28f3b41b9e7cceae249bca3fa57cbf7787\"><div class=\"accordion\"><div class=\"accordion-item active item-enumerate\" id=\"accordion-item-1686725151\"><div class=\"accordion-item-content active\"><div id=\"item-collapse-0-1686725151\"><div class=\"accordion-item-item-body\"><div class=\"job-list-item\"><ul><li><a href=\"/jobs/ray-laflamme-early-career-chair-quantum-computing-and-quantum-information\" hreflang=\"en\">The Ray Laflamme Early Career Chair in Quantum Computing and Quantum Information</a></li></ul></div></div></div></div></div></div></div></div></div></div></div></article></div></div></main></div><div class=\"dialog-off-canvas-main-canvas\"><main class=\"site-main\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-pi-theme-content\"><article class=\"node landing-page full\"><div class=\"bg-color bg-color--light-blue container layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"views-element-container block block-views block-views-block--available-positions-block-available-positions\"><div><div class=\"js-view-dom-id-4e25750815d8d8930d27c24fbf9c4f28f3b41b9e7cceae249bca3fa57cbf7787\"><div class=\"accordion\"><div class=\"accordion-item active item-enumerate\" id=\"accordion-item-1686725151\"><div class=\"accordion-item-content active\"><div id=\"item-collapse-0-1686725151\"><div class=\"accordion-item-item-body\"><div class=\"job-list-item\"><ul><li><a href=\"/jobs/tenure-track-faculty-appointment-elementary-particle-theory\" hreflang=\"en\">Tenure Track Faculty Appointment in Elementary Particle Theory</a></li></ul></div></div></div></div></div></div></div></div></div></div></div></article></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://perimeterinstitute.ca",
+    "explanation": "Official employer homepage: https://perimeterinstitute.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://perimeterinstitute.ca/jobs/tenure-track-faculty-appointment-intersection-artificial-intelligence-and-theoretical-physics",
+      "https://perimeterinstitute.ca/jobs/ray-laflamme-early-career-chair-quantum-computing-and-quantum-information",
+      "https://perimeterinstitute.ca/jobs/tenure-track-faculty-appointment-elementary-particle-theory"
+    ]
+  }
+}

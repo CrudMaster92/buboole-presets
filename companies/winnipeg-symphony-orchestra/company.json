@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "winnipeg-symphony-orchestra",
+  "name": "Winnipeg Symphony Orchestra",
+  "aliases": [],
+  "website_url": "https://wso.ca",
+  "logo_url": "https://wso.ca/static/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

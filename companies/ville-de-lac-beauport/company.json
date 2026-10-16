@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-lac-beauport",
+  "name": "Ville de Lac Beauport",
+  "aliases": [],
+  "website_url": "https://lac-beauport.quebec",
+  "logo_url": "https://lac-beauport.quebec/wp-content/uploads/2023/04/favicon-lac-beauport-300x300-1-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

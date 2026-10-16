@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bata-shoe-museum",
+  "name": "Bata Shoe Museum",
+  "aliases": [],
+  "website_url": "https://batashoemuseum.ca",
+  "logo_url": "https://batashoemuseum.ca/wp-content/uploads/cropped-BSM_SiteIcon_2026-1-32x32.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

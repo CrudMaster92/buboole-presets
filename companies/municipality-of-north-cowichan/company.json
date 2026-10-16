@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "municipality-of-north-cowichan",
+  "name": "Municipality of North Cowichan",
+  "aliases": [],
+  "website_url": "https://northcowichan.ca",
+  "logo_url": "https://www.northcowichan.ca/sites/default/files/Logo.socialmedia.avatar_0-square.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

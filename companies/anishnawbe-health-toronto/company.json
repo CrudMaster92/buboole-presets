@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "anishnawbe-health-toronto",
+  "name": "Anishnawbe Health Toronto",
+  "aliases": [],
+  "website_url": "https://aht.ca",
+  "logo_url": "https://aht.ca/wp-content/uploads/2018/07/AHT-favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

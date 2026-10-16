@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "humber-river-health",
+  "company_id": "humber-river-health",
+  "revision": 1,
+  "label": "Humber River Health public careers",
+  "careers_url": "https://careersen-hrrh.icims.com/jobs/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-16T04:53:47.048517+00:00",
+    "job_count": 325,
+    "warnings": [
+      "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Humber River Health",
+    "careers_url": "https://careersen-hrrh.icims.com/jobs/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careersen-hrrh.icims.com"
+    ],
+    "request": {
+      "url": "https://careersen-hrrh.icims.com/jobs/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "ss": 1,
+        "in_iframe": 1
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "pr",
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".iCIMS_JobCardItem",
+      "title": ".title h3",
+      "link": ".title a[href]",
+      "location": ".header.left span:not(.field-label)",
+      "description": ".description"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

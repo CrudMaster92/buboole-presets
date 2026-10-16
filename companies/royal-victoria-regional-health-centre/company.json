@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "royal-victoria-regional-health-centre",
+  "name": "Royal Victoria Regional Health Centre",
+  "aliases": [],
+  "website_url": "https://rvh.on.ca",
+  "logo_url": "https://www.rvh.on.ca/wp-content/themes/rvh_parent/images/site_icons/apple-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

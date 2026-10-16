@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lambton-college",
+  "name": "Lambton College",
+  "aliases": [],
+  "website_url": "https://lambtoncollege.ca",
+  "logo_url": "https://www.lambtoncollege.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

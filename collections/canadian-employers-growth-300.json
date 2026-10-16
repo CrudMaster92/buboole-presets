@@ -1,0 +1,828 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-growth-300",
+  "revision": 1,
+  "name": "Canadian Employers — Screened growth batch 3",
+  "description": "100 employer sources admitted after FreeHire identity screening and fresh runtime and ownership review. Boards may include international jobs and explicitly partial listings. Source observations do not equal newly published Canadian vacancies.",
+  "tags": [
+    "Canada",
+    "Hiring expansion"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "humber-river-health",
+      "monitor_ids": [
+        "humber-river-health"
+      ],
+      "rank": 1,
+      "note": "Release check observed 325 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "dilawri",
+      "monitor_ids": [
+        "dilawri"
+      ],
+      "rank": 2,
+      "note": "Release check observed 244 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "saskatchewan-polytechnic",
+      "monitor_ids": [
+        "saskatchewan-polytechnic"
+      ],
+      "rank": 3,
+      "note": "Release check observed 126 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "aubainerie",
+      "monitor_ids": [
+        "aubainerie"
+      ],
+      "rank": 4,
+      "note": "Release check observed 105 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "securiguard",
+      "monitor_ids": [
+        "securiguard"
+      ],
+      "rank": 5,
+      "note": "Release check observed 68 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "university-of-regina",
+      "monitor_ids": [
+        "university-of-regina"
+      ],
+      "rank": 6,
+      "note": "Release check observed 66 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "michael-garron-hospital",
+      "monitor_ids": [
+        "michael-garron-hospital"
+      ],
+      "rank": 7,
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "north-york-general-hospital",
+      "monitor_ids": [
+        "north-york-general-hospital"
+      ],
+      "rank": 8,
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "quinte-health",
+      "monitor_ids": [
+        "quinte-health"
+      ],
+      "rank": 9,
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "shannex",
+      "monitor_ids": [
+        "shannex"
+      ],
+      "rank": 10,
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "the-neighbourhood-group-community-services",
+      "monitor_ids": [
+        "the-neighbourhood-group-community-services"
+      ],
+      "rank": 11,
+      "note": "Release check observed 49 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "bcit",
+      "monitor_ids": [
+        "bcit"
+      ],
+      "rank": 12,
+      "note": "Release check observed 44 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "university-of-northern-british-columbia",
+      "monitor_ids": [
+        "university-of-northern-british-columbia"
+      ],
+      "rank": 13,
+      "note": "Release check observed 44 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "scarborough-centre-for-healthy-communities",
+      "monitor_ids": [
+        "scarborough-centre-for-healthy-communities"
+      ],
+      "rank": 14,
+      "note": "Release check observed 36 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "groves-memorial-community-hospital",
+      "monitor_ids": [
+        "groves-memorial-community-hospital"
+      ],
+      "rank": 15,
+      "note": "Release check observed 32 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "bluewater-health",
+      "monitor_ids": [
+        "bluewater-health"
+      ],
+      "rank": 16,
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "brant-community-healthcare-system",
+      "monitor_ids": [
+        "brant-community-healthcare-system"
+      ],
+      "rank": 17,
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "royal-victoria-regional-health-centre",
+      "monitor_ids": [
+        "royal-victoria-regional-health-centre"
+      ],
+      "rank": 18,
+      "note": "Release check observed 25 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "university-of-victoria",
+      "monitor_ids": [
+        "university-of-victoria"
+      ],
+      "rank": 19,
+      "note": "Release check observed 25 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "hudbay-minerals",
+      "monitor_ids": [
+        "hudbay-minerals"
+      ],
+      "rank": 20,
+      "note": "Release check observed 24 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "orillia-soldiers-memorial-hospital",
+      "monitor_ids": [
+        "orillia-soldiers-memorial-hospital"
+      ],
+      "rank": 21,
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "parkdale-queen-west-community-health-centre",
+      "monitor_ids": [
+        "parkdale-queen-west-community-health-centre"
+      ],
+      "rank": 22,
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-richmond-hill",
+      "monitor_ids": [
+        "city-of-richmond-hill"
+      ],
+      "rank": 23,
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "confederation-college",
+      "monitor_ids": [
+        "confederation-college"
+      ],
+      "rank": 24,
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "cornwall-community-hospital",
+      "monitor_ids": [
+        "cornwall-community-hospital"
+      ],
+      "rank": 25,
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-nanaimo",
+      "monitor_ids": [
+        "city-of-nanaimo"
+      ],
+      "rank": 26,
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "toronto-public-library",
+      "monitor_ids": [
+        "toronto-public-library"
+      ],
+      "rank": 27,
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "societe-de-transport-de-laval",
+      "monitor_ids": [
+        "societe-de-transport-de-laval"
+      ],
+      "rank": 28,
+      "note": "Release check observed 16 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-vaughan",
+      "monitor_ids": [
+        "city-of-vaughan"
+      ],
+      "rank": 29,
+      "note": "Release check observed 15 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ross-memorial-hospital",
+      "monitor_ids": [
+        "ross-memorial-hospital"
+      ],
+      "rank": 30,
+      "note": "Release check observed 9 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "tc-transcontinental",
+      "monitor_ids": [
+        "tc-transcontinental"
+      ],
+      "rank": 31,
+      "note": "Release check observed 15 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "reseau-de-transport-de-longueuil",
+      "monitor_ids": [
+        "reseau-de-transport-de-longueuil"
+      ],
+      "rank": 32,
+      "note": "Release check observed 14 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "dundee-precious-metals",
+      "monitor_ids": [
+        "dundee-precious-metals"
+      ],
+      "rank": 33,
+      "note": "Release check observed 13 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-newmarket",
+      "monitor_ids": [
+        "town-of-newmarket"
+      ],
+      "rank": 34,
+      "note": "Release check observed 12 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "region-of-peel",
+      "monitor_ids": [
+        "region-of-peel"
+      ],
+      "rank": 35,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "b2gold",
+      "monitor_ids": [
+        "b2gold"
+      ],
+      "rank": 36,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "camosun-college",
+      "monitor_ids": [
+        "camosun-college"
+      ],
+      "rank": 37,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "college-boreal",
+      "monitor_ids": [
+        "college-boreal"
+      ],
+      "rank": 38,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "district-of-west-vancouver",
+      "monitor_ids": [
+        "district-of-west-vancouver"
+      ],
+      "rank": 39,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "kinark-child-and-family-services",
+      "monitor_ids": [
+        "kinark-child-and-family-services"
+      ],
+      "rank": 40,
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "metrie",
+      "monitor_ids": [
+        "metrie"
+      ],
+      "rank": 41,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ocad-university",
+      "monitor_ids": [
+        "ocad-university"
+      ],
+      "rank": 42,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "recovery-alberta",
+      "monitor_ids": [
+        "recovery-alberta"
+      ],
+      "rank": 43,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "seneca-polytechnic",
+      "monitor_ids": [
+        "seneca-polytechnic"
+      ],
+      "rank": 44,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "toronto-hydro",
+      "monitor_ids": [
+        "toronto-hydro"
+      ],
+      "rank": 45,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-oakville",
+      "monitor_ids": [
+        "town-of-oakville"
+      ],
+      "rank": 46,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "township-of-langley",
+      "monitor_ids": [
+        "township-of-langley"
+      ],
+      "rank": 47,
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "west-haldimand-general-hospital",
+      "monitor_ids": [
+        "west-haldimand-general-hospital"
+      ],
+      "rank": 48,
+      "note": "Release check observed 9 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-airdrie",
+      "monitor_ids": [
+        "city-of-airdrie"
+      ],
+      "rank": 49,
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ecole-de-technologie-superieure",
+      "monitor_ids": [
+        "ecole-de-technologie-superieure"
+      ],
+      "rank": 50,
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "national-arts-centre",
+      "monitor_ids": [
+        "national-arts-centre"
+      ],
+      "rank": 51,
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-mirabel",
+      "monitor_ids": [
+        "ville-de-mirabel"
+      ],
+      "rank": 52,
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-terrebonne",
+      "monitor_ids": [
+        "ville-de-terrebonne"
+      ],
+      "rank": 53,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-oshawa",
+      "monitor_ids": [
+        "city-of-oshawa"
+      ],
+      "rank": 54,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-st-albert",
+      "monitor_ids": [
+        "city-of-st-albert"
+      ],
+      "rank": 55,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "perimeter-institute",
+      "monitor_ids": [
+        "perimeter-institute"
+      ],
+      "rank": 56,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-new-tecumseth",
+      "monitor_ids": [
+        "town-of-new-tecumseth"
+      ],
+      "rank": 57,
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "district-of-north-vancouver",
+      "monitor_ids": [
+        "district-of-north-vancouver"
+      ],
+      "rank": 58,
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "municipality-of-north-cowichan",
+      "monitor_ids": [
+        "municipality-of-north-cowichan"
+      ],
+      "rank": 59,
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "rexdale-community-health-centre",
+      "monitor_ids": [
+        "rexdale-community-health-centre"
+      ],
+      "rank": 60,
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-pointe-claire",
+      "monitor_ids": [
+        "ville-de-pointe-claire"
+      ],
+      "rank": 61,
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "youthlink",
+      "monitor_ids": [
+        "youthlink"
+      ],
+      "rank": 62,
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "centennial-college",
+      "monitor_ids": [
+        "centennial-college"
+      ],
+      "rank": 63,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-pitt-meadows",
+      "monitor_ids": [
+        "city-of-pitt-meadows"
+      ],
+      "rank": 64,
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "st-lawrence-college",
+      "monitor_ids": [
+        "st-lawrence-college"
+      ],
+      "rank": 65,
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-saint-bruno-de-montarville",
+      "monitor_ids": [
+        "ville-de-saint-bruno-de-montarville"
+      ],
+      "rank": 66,
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "canadian-opera-company",
+      "monitor_ids": [
+        "canadian-opera-company"
+      ],
+      "rank": 67,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-white-rock",
+      "monitor_ids": [
+        "city-of-white-rock"
+      ],
+      "rank": 68,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "royal-conservatory-of-music",
+      "monitor_ids": [
+        "royal-conservatory-of-music"
+      ],
+      "rank": 69,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "sault-college",
+      "monitor_ids": [
+        "sault-college"
+      ],
+      "rank": 70,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-bradford-west-gwillimbury",
+      "monitor_ids": [
+        "town-of-bradford-west-gwillimbury"
+      ],
+      "rank": 71,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "township-of-centre-wellington",
+      "monitor_ids": [
+        "township-of-centre-wellington"
+      ],
+      "rank": 72,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-lac-beauport",
+      "monitor_ids": [
+        "ville-de-lac-beauport"
+      ],
+      "rank": 73,
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "anishnawbe-health-toronto",
+      "monitor_ids": [
+        "anishnawbe-health-toronto"
+      ],
+      "rank": 74,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "bc-liquor-distribution-branch",
+      "monitor_ids": [
+        "bc-liquor-distribution-branch"
+      ],
+      "rank": 75,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-abbotsford",
+      "monitor_ids": [
+        "city-of-abbotsford"
+      ],
+      "rank": 76,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-fort-saskatchewan",
+      "monitor_ids": [
+        "city-of-fort-saskatchewan"
+      ],
+      "rank": 77,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "college-of-the-rockies",
+      "monitor_ids": [
+        "college-of-the-rockies"
+      ],
+      "rank": 78,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "foothills-county",
+      "monitor_ids": [
+        "foothills-county"
+      ],
+      "rank": 79,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "fortisalberta",
+      "monitor_ids": [
+        "fortisalberta"
+      ],
+      "rank": 80,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "niagara-college",
+      "monitor_ids": [
+        "niagara-college"
+      ],
+      "rank": 81,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "winnipeg-symphony-orchestra",
+      "monitor_ids": [
+        "winnipeg-symphony-orchestra"
+      ],
+      "rank": 82,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "wsib",
+      "monitor_ids": [
+        "wsib"
+      ],
+      "rank": 83,
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "bata-shoe-museum",
+      "monitor_ids": [
+        "bata-shoe-museum"
+      ],
+      "rank": 84,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "calgary-philharmonic-orchestra",
+      "monitor_ids": [
+        "calgary-philharmonic-orchestra"
+      ],
+      "rank": 85,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "canadian-museum-of-history",
+      "monitor_ids": [
+        "canadian-museum-of-history"
+      ],
+      "rank": 86,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "london-hydro",
+      "monitor_ids": [
+        "london-hydro"
+      ],
+      "rank": 87,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ottawa-community-housing",
+      "monitor_ids": [
+        "ottawa-community-housing"
+      ],
+      "rank": 88,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "sturgeon-county",
+      "monitor_ids": [
+        "sturgeon-county"
+      ],
+      "rank": 89,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-cobourg",
+      "monitor_ids": [
+        "town-of-cobourg"
+      ],
+      "rank": 90,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "town-of-sidney",
+      "monitor_ids": [
+        "town-of-sidney"
+      ],
+      "rank": 91,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-mercier",
+      "monitor_ids": [
+        "ville-de-mercier"
+      ],
+      "rank": 92,
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "canadian-stage",
+      "monitor_ids": [
+        "canadian-stage"
+      ],
+      "rank": 93,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-colwood",
+      "monitor_ids": [
+        "city-of-colwood"
+      ],
+      "rank": 94,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-kawartha-lakes",
+      "monitor_ids": [
+        "city-of-kawartha-lakes"
+      ],
+      "rank": 95,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "city-of-pickering",
+      "monitor_ids": [
+        "city-of-pickering"
+      ],
+      "rank": 96,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "harbourfront-centre",
+      "monitor_ids": [
+        "harbourfront-centre"
+      ],
+      "rank": 97,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "lambton-college",
+      "monitor_ids": [
+        "lambton-college"
+      ],
+      "rank": 98,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "unison-health-and-community-services",
+      "monitor_ids": [
+        "unison-health-and-community-services"
+      ],
+      "rank": 99,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "ville-de-sainte-julie",
+      "monitor_ids": [
+        "ville-de-sainte-julie"
+      ],
+      "rank": 100,
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "humber-river-health",
+  "name": "Humber River Health",
+  "aliases": [],
+  "website_url": "https://hrh.ca",
+  "logo_url": "https://www.hrh.ca/wp-content/themes/hrh/assets/favicon/apple-touch-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

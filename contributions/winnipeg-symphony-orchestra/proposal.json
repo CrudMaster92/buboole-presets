@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "winnipeg-symphony-orchestra",
+    "name": "Winnipeg Symphony Orchestra",
+    "aliases": [],
+    "website_url": "https://wso.ca",
+    "logo_url": "https://wso.ca/static/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "winnipeg-symphony-orchestra",
+    "company_id": "winnipeg-symphony-orchestra",
+    "revision": 1,
+    "label": "Winnipeg Symphony Orchestra public careers",
+    "careers_url": "https://wso.ca/auditions-careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:01.061589+00:00",
+      "job_count": 3,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Winnipeg Symphony Orchestra",
+      "careers_url": "https://wso.ca/auditions-careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "images.wso.ca",
+        "wso.ca"
+      ],
+      "request": {
+        "url": "https://wso.ca/auditions-careers/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".c-col-card__wrap:has(a[href$=\".pdf\"])",
+        "title": "h4",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://wso.ca/auditions-careers/",
+    "fetched_at": "2026-10-16T04:10:08.580605+00:00",
+    "payload": "<html><body><section class=\"c-site-wrap\"><main class=\"c-main\" id=\"main-content\"><section class=\"c-page\"><section class=\"c-container u-transparent-bg c-container--1400 c-container--center c-container--vertical-top\"><div class=\"o-wrapper\"><div class=\"c-container__wrap\"><div class=\"c-container__blocks\"><div class=\"o-layout\"><div class=\"o-layout__item o-layout__item--card u-1/3@desktop u-1/2@tablet\"><div class=\"c-col c-col-card c-col--has-bg-color u-wso-red-tint-bg c-col-card--normal c-col-card--has-link u-animate-in\"><div class=\"c-col-card__wrap\">\n<a class=\"c-col-card__link\" href=\"https://images.wso.ca/uploads/2026/04/Winnipeg-Symphony-Orchestra-Executive-Director-Position-Profile-FINAL-04162026.pdf\" role=\"button\" tabindex=\"0\" target=\"_blank\">\n<span class=\"u-hidden-visually\">Job Posting</span>\n</a>\n<div class=\"c-col-card__content\">\n<h4 class=\"c-col-card__title u-header-col\">Executive Director</h4>\n<div class=\"c-col-card__buttons\">\n<span class=\"c-btn c-btn--primary c-col-card__button\">Job Posting</span>\n</div>\n</div>\n</div></div></div></div></div></div></div></section></section></main></section><section class=\"c-site-wrap\"><main class=\"c-main\" id=\"main-content\"><section class=\"c-page\"><section class=\"c-container u-transparent-bg c-container--1400 c-container--center c-container--vertical-top\"><div class=\"o-wrapper\"><div class=\"c-container__wrap\"><div class=\"c-container__blocks\"><div class=\"o-layout\"><div class=\"o-layout__item o-layout__item--card u-1/3@desktop u-1/2@tablet\"><div class=\"c-col c-col-card c-col--has-bg-color u-wso-red-tint-bg c-col-card--normal c-col-card--has-link u-animate-in\"><div class=\"c-col-card__wrap\">\n<a class=\"c-col-card__link\" href=\"https://images.wso.ca/uploads/2026/09/Substitute-Teaching-Artist_Cello_Job-Posting.pdf\" role=\"button\" tabindex=\"0\" target=\"_blank\">\n<span class=\"u-hidden-visually\">Job Posting</span>\n</a>\n<div class=\"c-col-card__content\">\n<h4 class=\"c-col-card__title u-header-col\">Substitute Teaching Artist (Cello)</h4>\n<div class=\"c-col-card__buttons\">\n<span class=\"c-btn c-btn--primary c-col-card__button\">Job Posting</span>\n</div>\n</div>\n</div></div></div></div></div></div></div></section></section></main></section><section class=\"c-site-wrap\"><main class=\"c-main\" id=\"main-content\"><section class=\"c-page\"><section class=\"c-container u-transparent-bg c-container--1400 c-container--center c-container--vertical-top\"><div class=\"o-wrapper\"><div class=\"c-container__wrap\"><div class=\"c-container__blocks\"><div class=\"o-layout\"><div class=\"o-layout__item o-layout__item--card u-1/3@desktop u-1/2@tablet\"><div class=\"c-col c-col-card c-col--has-bg-color u-wso-red-tint-bg c-col-card--normal c-col-card--has-link u-animate-in\"><div class=\"c-col-card__wrap\">\n<a class=\"c-col-card__link\" href=\"https://images.wso.ca/uploads/2026/04/Substitute-Teaching-Artist_Brass_Job-Posting.pdf\" role=\"button\" tabindex=\"0\" target=\"_blank\">\n<span class=\"u-hidden-visually\">Job Posting</span>\n</a>\n<div class=\"c-col-card__content\">\n<h4 class=\"c-col-card__title u-header-col\">Substitute Teaching Artist (Brass)</h4>\n<div class=\"c-col-card__buttons\">\n<span class=\"c-btn c-btn--primary c-col-card__button\">Job Posting</span>\n</div>\n</div>\n</div></div></div></div></div></div></div></section></section></main></section></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://wso.ca",
+    "explanation": "Official employer homepage: https://wso.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://images.wso.ca/uploads/2026/04/Winnipeg-Symphony-Orchestra-Executive-Director-Position-Profile-FINAL-04162026.pdf",
+      "https://images.wso.ca/uploads/2026/09/Substitute-Teaching-Artist_Cello_Job-Posting.pdf",
+      "https://images.wso.ca/uploads/2026/04/Substitute-Teaching-Artist_Brass_Job-Posting.pdf"
+    ]
+  }
+}

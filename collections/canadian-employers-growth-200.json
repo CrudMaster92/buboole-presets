@@ -1,0 +1,44 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-growth-200",
+  "revision": 1,
+  "name": "Canadian Employers — Screened growth batch 2",
+  "description": "2 employer sources admitted after FreeHire identity screening and fresh runtime and ownership review. Boards may include international jobs and explicitly partial listings. Source observations do not equal newly published Canadian vacancies.",
+  "tags": [
+    "Canada",
+    "Hiring expansion"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "mackenzie-health",
+      "monitor_ids": [
+        "mackenzie-health"
+      ],
+      "rank": 1,
+      "note": "Release check observed 88 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    },
+    {
+      "company_id": "iwk-health",
+      "monitor_ids": [
+        "iwk-health"
+      ],
+      "rank": 2,
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
+    }
+  ]
+}

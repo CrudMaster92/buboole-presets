@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "london-hydro",
+    "name": "London Hydro",
+    "aliases": [],
+    "website_url": "https://londonhydro.com",
+    "logo_url": "https://www.londonhydro.com/themes/custom/de_theme/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "london-hydro",
+    "company_id": "london-hydro",
+    "revision": 1,
+    "label": "London Hydro public careers",
+    "careers_url": "https://careers.londonhydro.com/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:04.708016+00:00",
+      "job_count": 2,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "London Hydro",
+      "careers_url": "https://careers.londonhydro.com/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.londonhydro.com"
+      ],
+      "request": {
+        "url": "https://careers.londonhydro.com/search/",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "q": "",
+          "startrow": 0
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "startrow",
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr.data-row",
+        "title": "a.jobTitle-link",
+        "link": "a.jobTitle-link",
+        "location": ".jobLocation",
+        "posted_date": ".jobDate"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.londonhydro.com/search/",
+    "fetched_at": "2026-10-15T22:23:15.511563+00:00",
+    "payload": "<html><body><div class=\"outershell\" id=\"outershell\"><div class=\"innershell\" id=\"innershell\"><div class=\"content\" id=\"content\"><div class=\"inner\"><div class=\"searchResultsShell\"><table class=\"searchResults full table table-striped table-hover\" id=\"searchresults\"><tbody><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/System-Operating-Centre-System-Operating-Centre-Supervisor-CA-469/606968217/\">System Operating Centre Supervisor</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/System-Operating-Centre-System-Operating-Centre-Supervisor-CA-469/606968217/\">System Operating Centre Supervisor</a>\n</span>\n<span class=\"jobDate visible-phone\">Oct 13, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n<span class=\"jobShifttype visible-phone\">Permanent</span>\n<span class=\"jobFacility visible-phone\">Engineering &amp; Operations</span>\n<span class=\"jobFacility visible-phone\">10/26/2026</span>\n</div>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">Oct 13, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"colShifttype hidden-phone\" headers=\"hdrShifttype\">\n<span class=\"jobShifttype\">Permanent</span>\n</td>\n<td class=\"colDepartment hidden-phone\" headers=\"hdrDepartment\">\n<span class=\"jobDepartment\">Engineering &amp; Operations</span>\n</td>\n<td class=\"colFacility hidden-phone\" headers=\"hdrFacility\">\n<span class=\"jobFacility\">10/26/2026</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></tbody></table></div></div></div></div></div><div class=\"outershell\" id=\"outershell\"><div class=\"innershell\" id=\"innershell\"><div class=\"content\" id=\"content\"><div class=\"inner\"><div class=\"searchResultsShell\"><table class=\"searchResults full table table-striped table-hover\" id=\"searchresults\"><tbody><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Legal-&amp;-Risk-Management-Executive-Assistant-Paralegal-CA-465/606747417/\">Executive Assistant - Paralegal</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Legal-&amp;-Risk-Management-Executive-Assistant-Paralegal-CA-465/606747417/\">Executive Assistant - Paralegal</a>\n</span>\n<span class=\"jobDate visible-phone\">Oct 5, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n<span class=\"jobShifttype visible-phone\">Permanent</span>\n<span class=\"jobFacility visible-phone\">Legal &amp; ERM</span>\n<span class=\"jobFacility visible-phone\">10/16/2026</span>\n</div>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">Oct 5, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"colShifttype hidden-phone\" headers=\"hdrShifttype\">\n<span class=\"jobShifttype\">Permanent</span>\n</td>\n<td class=\"colDepartment hidden-phone\" headers=\"hdrDepartment\">\n<span class=\"jobDepartment\">Legal &amp; ERM</span>\n</td>\n<td class=\"colFacility hidden-phone\" headers=\"hdrFacility\">\n<span class=\"jobFacility\">10/16/2026</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></tbody></table></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://londonhydro.com",
+    "explanation": "Official employer homepage: https://londonhydro.com. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.londonhydro.com/job/System-Operating-Centre-System-Operating-Centre-Supervisor-CA-469/606968217",
+      "https://careers.londonhydro.com/job/Legal-&-Risk-Management-Executive-Assistant-Paralegal-CA-465/606747417"
+    ]
+  }
+}

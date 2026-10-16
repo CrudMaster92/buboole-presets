@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "domtar",
+  "name": "Domtar",
+  "aliases": [],
+  "website_url": "https://domtar.com",
+  "logo_url": "https://rmkcdn.successfactors.com/2012394c/e1eb18e7-9663-43b9-ba4c-2.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

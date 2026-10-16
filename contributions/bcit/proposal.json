@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "bcit",
+    "name": "BCIT",
+    "aliases": [],
+    "website_url": "https://bcit.ca",
+    "logo_url": "https://www.bcit.ca/wp-content/uploads/2018/10/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "bcit",
+    "company_id": "bcit",
+    "revision": 1,
+    "label": "BCIT public careers",
+    "careers_url": "https://careers.bcit.ca/postings/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:57:54.775077+00:00",
+      "job_count": 44,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "BCIT",
+      "careers_url": "https://careers.bcit.ca/postings/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.bcit.ca"
+      ],
+      "request": {
+        "url": "https://careers.bcit.ca/postings/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "query": "",
+          "page": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "page",
+        "parameter": "page",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-item.job-item-posting, .job-item:not(.job-item-posting):not(:has(.job-item-posting))",
+        "title": "h3 a, .job-title a, h4 a",
+        "link": "h3 a, .job-title a, h4 a",
+        "location": ".job-location",
+        "description": ".job-summary"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.bcit.ca/postings/search",
+    "fetched_at": "2026-10-15T22:22:49.885132+00:00",
+    "payload": "<html><body><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Senior Financial Analyst\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10748\">Senior Financial Analyst</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              26M032\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Management\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Management\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              10/28/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                BCIT’s Financial Services department is seeking a temporary, full-time (1.0 FTE) Senior Financial Analyst. This position works with and provides financial support to BCIT managers and the Associate Director, Finance, reporting to the Manager, Budgets, Analysis &amp; Business Intelligence and Analysis. The role works on and supports the development and review of consolidated budgets, forecasts, ...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10748\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10748\" id=\"bookmark_posting_10748\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Director, Marine Innovation and Simulation Centre of Excellence (MISE)\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10747\">Director, Marine Innovation and Simulation Centre of Excellence (MISE)</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              26M030\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Management\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Management\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              10/31/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                BCIT’s School of Transportation is seeking a temporary, full-time (1.0 FTE) Director, Marine Innovation and Simulation Centre of Excellence (MISE). This position leads the strategic and operational direction of the Marine Innovation and Simulation Centre of Excellence (MISE). Develops industry relationships and advances applied research, workforce development, innovation, and simulation-based i...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10747\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10747\" id=\"bookmark_posting_10747\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Faculty, Radiation Therapy\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10743\">Faculty, Radiation Therapy</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              26FSA112\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              BCIT Faculty and Staff Association (FSA)\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Faculty\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n</div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                BCIT School Of Health Sciences is seeking a temporary, part-time (0.4 FTE) Faculty, Radiation Therapy to teach in the Bachelor of Science Radiation Therapy Program.\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10743\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10743\" id=\"bookmark_posting_10743\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://bcit.ca",
+    "explanation": "Official employer homepage: https://bcit.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.bcit.ca/postings/10748",
+      "https://careers.bcit.ca/postings/10747",
+      "https://careers.bcit.ca/postings/10743"
+    ]
+  }
+}

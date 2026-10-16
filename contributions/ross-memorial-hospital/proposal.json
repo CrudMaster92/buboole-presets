@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ross-memorial-hospital",
+    "name": "Ross Memorial Hospital",
+    "aliases": [],
+    "website_url": "https://rmh.org",
+    "logo_url": "https://rmh.org/templates/rmh/images/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ross-memorial-hospital",
+    "company_id": "ross-memorial-hospital",
+    "revision": 1,
+    "label": "Ross Memorial Hospital public careers",
+    "careers_url": "https://rmh.njoyn.com/CL3/xweb/Xweb.asp?CLID=53630&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:57:54.799613+00:00",
+      "job_count": 9,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Ross Memorial Hospital",
+      "careers_url": "https://rmh.njoyn.com/CL3/xweb/Xweb.asp?CLID=53630&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "clients.njoyn.com",
+        "rmh.njoyn.com"
+      ],
+      "request": {
+        "url": "https://rmh.njoyn.com/CL3/xweb/Xweb.asp?CLID=53630&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://rmh.njoyn.com/CL3/xweb/Xweb.asp?CLID=53630&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:13:11.221538+00:00",
+    "payload": "<html><body><div class=\"pure-g container\" id=\"content\"><div class=\"pure-u-1 pure-u-lg-2-3\"><div class=\"module content-list-module news-releases\" id=\"module_\"><div class=\"pure-g\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcQBwXCBIGFH15Q11WCCFPeGBEcFFccUgjJV0EE2NQWUBtXEAaBmpzLiUuQC4kXgkbURZUSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53630&amp;Page=JobDetails&amp;Jobid=J1026-0512&amp;BRID=364965&amp;lang=1\" title=\"View job details\">J1026-0512</a></td><td>Occupational Therapist</td><td>Allied Health</td><td>Occupational Therapy</td><td>Temporary Part Time</td><td>October 21, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div><div class=\"pure-g container\" id=\"content\"><div class=\"pure-u-1 pure-u-lg-2-3\"><div class=\"module content-list-module news-releases\" id=\"module_\"><div class=\"pure-g\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcQBwXCBIGFH15Q11WCCFPeGBEcFFccUgjJV0EE2NQWUBtXEAaBmpzLiUuQC4kXgkbURZUSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53630&amp;Page=JobDetails&amp;Jobid=J1026-0337&amp;BRID=364922&amp;lang=1\" title=\"View job details\">J1026-0337</a></td><td>RN Registered Nurse</td><td>Nursing</td><td>CCP2/Integrated Stroke/Rehabilitation</td><td>Permanent Part Time</td><td>October 21, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div><div class=\"pure-g container\" id=\"content\"><div class=\"pure-u-1 pure-u-lg-2-3\"><div class=\"module content-list-module news-releases\" id=\"module_\"><div class=\"pure-g\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcQBwXCBIGFH15Q11WCCFPeGBEcFFccUgjJV0EE2NQWUBtXEAaBmpzLiUuQC4kXgkbURZUSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53630&amp;Page=JobDetails&amp;Jobid=J1026-0145&amp;BRID=364831&amp;lang=1\" title=\"View job details\">J1026-0145</a></td><td>RN Registered Nurse</td><td>Nursing</td><td>CCP2/Integrated Stroke/Rehabilitation</td><td>ONA Temporary Part Time B</td><td>October 21, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://rmh.org",
+    "explanation": "Official employer homepage: https://rmh.org. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://rmh.njoyn.com/CL3/xweb/xweb.asp?clid=53630&Page=JobDetails&Jobid=J1026-0512&BRID=364965&lang=1",
+      "https://rmh.njoyn.com/CL3/xweb/xweb.asp?clid=53630&Page=JobDetails&Jobid=J1026-0337&BRID=364922&lang=1",
+      "https://rmh.njoyn.com/CL3/xweb/xweb.asp?clid=53630&Page=JobDetails&Jobid=J1026-0145&BRID=364831&lang=1"
+    ]
+  }
+}

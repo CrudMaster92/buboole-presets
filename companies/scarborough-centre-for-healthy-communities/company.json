@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "scarborough-centre-for-healthy-communities",
+  "name": "Scarborough Centre for Healthy Communities",
+  "aliases": [],
+  "website_url": "https://schcontario.ca",
+  "logo_url": "https://schcontario.ca/wp-content/uploads/2021/12/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "unison-health-and-community-services",
+  "name": "Unison Health and Community Services",
+  "aliases": [],
+  "website_url": "https://unisonhcs.org",
+  "logo_url": "https://unisonhcs.org/wp-content/uploads/2016/12/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

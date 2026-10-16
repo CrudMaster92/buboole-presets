@@ -1,0 +1,97 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "town-of-sidney",
+    "name": "Town of Sidney",
+    "aliases": [],
+    "website_url": "https://sidney.ca",
+    "logo_url": "https://www.sidney.ca/wp-content/uploads/sidney-favicon-2.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "town-of-sidney",
+    "company_id": "town-of-sidney",
+    "revision": 1,
+    "label": "Town of Sidney public careers",
+    "careers_url": "https://www.sidney.ca/government/employment-opportunities",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:56:05.920459+00:00",
+      "job_count": 2,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Town of Sidney",
+      "careers_url": "https://www.sidney.ca/government/employment-opportunities",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.sidney.ca"
+      ],
+      "request": {
+        "url": "https://www.sidney.ca/government/employment-opportunities/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".b2-table-standard-row:has(>.b2-table-cell:last-child:-soup-contains(\"Open\"))",
+        "title": ".attachment-header",
+        "link": "a[href*=\"/Posting-\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.sidney.ca/government/employment-opportunities/",
+    "fetched_at": "2026-10-16T04:08:38.101160+00:00",
+    "payload": "<html><body><div id=\"wrapper\"><main id=\"main\"><div class=\"b2-table-wrapper\"><div class=\"container-fluid site-component-container b2-table-standard-container\"><div class=\"row b2-table-standard-row _21 site-component-row\">\n<div class=\"b2-table-cell col _21\">\n<div class=\"attachments-wrapper\">\n<p class=\"_21 _grey-text attachment-header\">2026-U18: PRIME Coordinator</p>\n<a class=\"_17\" href=\"https://www.sidney.ca/wp-content/uploads/Posting-PRIME-Coordinator-1.pdf\" target=\"_blank\">\n<i class=\"fa-solid fa-file-pdf _24\"></i> \n\n                                                            <span>Posting</span>\n</a>\n<a class=\"_17\" href=\"https://www.sidney.ca/wp-content/uploads/JD-PRIME-Coordinator.pdf\" target=\"_blank\">\n<i class=\"fa-solid fa-file-pdf _24\"></i> \n\n                                                            <span>Job Description</span>\n</a>\n</div>\n</div>\n<div class=\"b2-table-cell col _21 align-items-start\">\n<p>Monday, October 19, 2026 at 4:00 pm</p>\n</div>\n<div class=\"b2-table-cell col _21 align-items-start\">\n<p>Open</p>\n</div>\n</div></div></div></main></div><div id=\"wrapper\"><main id=\"main\"><div class=\"b2-table-wrapper\"><div class=\"container-fluid site-component-container b2-table-standard-container\"><div class=\"row b2-table-standard-row _21 site-component-row\">\n<div class=\"b2-table-cell col _21\">\n<div class=\"attachments-wrapper\">\n<p class=\"_21 _grey-text attachment-header\">2026-U16: Finance and Customer Service Clerk</p>\n<a class=\"_17\" href=\"https://www.sidney.ca/wp-content/uploads/Posting-Finance-and-Customer-Service-Clerk-2.pdf\" target=\"_blank\">\n<i class=\"fa-solid fa-file-pdf _24\"></i> \n\n                                                            <span>Posting</span>\n</a>\n<a class=\"_17\" href=\"https://www.sidney.ca/wp-content/uploads/JD-Finance-and-Customer-Service-Clerk-2.pdf\" target=\"_blank\">\n<i class=\"fa-solid fa-file-pdf _24\"></i> \n\n                                                            <span>Job Description</span>\n</a>\n</div>\n</div>\n<div class=\"b2-table-cell col _21 align-items-start\">\n<p>Open until filled however the review of applications will begin on Monday, September 21, 2026.</p>\n</div>\n<div class=\"b2-table-cell col _21 align-items-start\">\n<p>Open</p>\n</div>\n</div></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://sidney.ca",
+    "explanation": "Official employer homepage: https://sidney.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.sidney.ca/wp-content/uploads/Posting-PRIME-Coordinator-1.pdf",
+      "https://www.sidney.ca/wp-content/uploads/Posting-Finance-and-Customer-Service-Clerk-2.pdf"
+    ]
+  }
+}

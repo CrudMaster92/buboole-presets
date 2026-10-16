@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "foothills-county",
+  "name": "Foothills County",
+  "aliases": [],
+  "website_url": "https://foothillscountyab.ca",
+  "logo_url": "https://www.foothillscountyab.ca/sites/default/files/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "district-of-north-vancouver",
+    "name": "District of North Vancouver",
+    "aliases": [],
+    "website_url": "https://dnv.org",
+    "logo_url": "https://www.dnv.org/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "district-of-north-vancouver",
+    "company_id": "district-of-north-vancouver",
+    "revision": 1,
+    "label": "District of North Vancouver public careers",
+    "careers_url": "https://careers.dnv.org/postings/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checked_at": "2026-10-16T04:55:39.417624+00:00",
+      "job_count": 6,
+      "warnings": [
+        "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "District of North Vancouver",
+      "careers_url": "https://careers.dnv.org/postings/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.dnv.org"
+      ],
+      "request": {
+        "url": "https://careers.dnv.org/postings/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "query": "",
+          "page": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "page",
+        "parameter": "page",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-item.job-item-posting, .job-item:not(.job-item-posting):not(:has(.job-item-posting))",
+        "title": "h3 a, .job-title a, h4 a",
+        "link": "h3 a, .job-title a, h4 a",
+        "location": ".job-location",
+        "description": ".job-summary"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.dnv.org/postings/search",
+    "fetched_at": "2026-10-15T22:44:59.627983+00:00",
+    "payload": "<html><body><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Senior Development Engineer\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/3370\">Senior Development Engineer</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              JP#26-34\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Regulatory Review &amp; Compliance - Development Engineering\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Regular Full-Time\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              11/06/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                About the RoleAs a senior member of the Development Engineering team, you will apply your technical expertise, professional judgment and leadership skills to manage and provide professional engineering oversight in the review of complex land development applications. You will ensure that municipal infrastructure, public works, services and amenities required to support development are clearly d...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/3370\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=3370\" id=\"bookmark_posting_3370\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Cashier Clerk\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/3368\">Cashier Clerk</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              JP#26-33\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Finance - Revenue &amp; Taxation\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Regular Full-Time\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              10/20/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                About the RoleAn opportunity is currently available for a Cashier Clerk in the Finance Department performing cashier and clerical work which involves receiving, recording, balancing and processing receipts for a variety of payments such as taxes, fees, bills and related charges on accounts.   The incumbent will provide account specific information to the public on items pertaining to tax and ut...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/3368\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=3368\" id=\"bookmark_posting_3368\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Properties Clerk\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/3366\">Properties Clerk</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              26-13A\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Real Estate &amp; Properties\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Auxiliary\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              10/20/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                About the RoleThe Real Estate and Property department are looking for an auxiliary Properties Clerk to join their team. The incumbent will provide specialized, technical legal and administrative support work to the Real Estate and Properties Department.   In this role you will: Draft, prepare and process a variety of documents related to land sales, acquisitions, leases, licenses, rentals, righ...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/3366\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=3366\" id=\"bookmark_posting_3366\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://dnv.org",
+    "explanation": "Official employer homepage: https://dnv.org. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.dnv.org/postings/3370",
+      "https://careers.dnv.org/postings/3368",
+      "https://careers.dnv.org/postings/3366"
+    ]
+  }
+}
