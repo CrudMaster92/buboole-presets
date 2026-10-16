@@ -11,11 +11,11 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-16T04:54:34.654535+00:00",
+    "job_count": 25,
     "warnings": [
-      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Fresh maintainer-authorized runtime and employer ownership review completed. Publication is a separate operation; observed counts do not establish whole-employer coverage.",
       "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
       "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
       "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."

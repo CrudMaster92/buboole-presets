@@ -3,8 +3,8 @@
   "schema_version": 1,
   "id": "canadian-employers-growth-300",
   "revision": 1,
-  "name": "Canadian Employers — Growth batch 3",
-  "description": "100 new employer careers monitors selected for Canadian hiring and major urban operations. Employer boards include international and regional roles. Live findings are provisional; partial listings and description limitations are recorded per monitor. Requires trusted review, maintainer merge and feed publication.",
+  "name": "Canadian Employers — Screened growth batch 3",
+  "description": "100 employer sources admitted after FreeHire identity screening and fresh runtime and ownership review. Boards may include international jobs and explicitly partial listings. Source observations do not equal newly published Canadian vacancies.",
   "tags": [
     "Canada",
     "Hiring expansion"
@@ -30,7 +30,7 @@
         "humber-river-health"
       ],
       "rank": 1,
-      "note": "Local run observed 324 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 325 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "dilawri",
@@ -38,7 +38,7 @@
         "dilawri"
       ],
       "rank": 2,
-      "note": "Local run observed 244 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 244 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "saskatchewan-polytechnic",
@@ -46,7 +46,7 @@
         "saskatchewan-polytechnic"
       ],
       "rank": 3,
-      "note": "Local run observed 126 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 126 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "aubainerie",
@@ -54,7 +54,7 @@
         "aubainerie"
       ],
       "rank": 4,
-      "note": "Local run observed 105 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 105 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "securiguard",
@@ -62,7 +62,7 @@
         "securiguard"
       ],
       "rank": 5,
-      "note": "Local run observed 68 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 68 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "university-of-regina",
@@ -70,7 +70,7 @@
         "university-of-regina"
       ],
       "rank": 6,
-      "note": "Local run observed 66 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 66 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "michael-garron-hospital",
@@ -78,7 +78,7 @@
         "michael-garron-hospital"
       ],
       "rank": 7,
-      "note": "Local run observed 50 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "north-york-general-hospital",
@@ -86,7 +86,7 @@
         "north-york-general-hospital"
       ],
       "rank": 8,
-      "note": "Local run observed 50 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "quinte-health",
@@ -94,7 +94,7 @@
         "quinte-health"
       ],
       "rank": 9,
-      "note": "Local run observed 50 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "shannex",
@@ -102,7 +102,7 @@
         "shannex"
       ],
       "rank": 10,
-      "note": "Local run observed 50 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 50 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "the-neighbourhood-group-community-services",
@@ -110,7 +110,7 @@
         "the-neighbourhood-group-community-services"
       ],
       "rank": 11,
-      "note": "Local run observed 49 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 49 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "bcit",
@@ -118,7 +118,7 @@
         "bcit"
       ],
       "rank": 12,
-      "note": "Local run observed 44 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 44 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "university-of-northern-british-columbia",
@@ -126,7 +126,7 @@
         "university-of-northern-british-columbia"
       ],
       "rank": 13,
-      "note": "Local run observed 44 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 44 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "scarborough-centre-for-healthy-communities",
@@ -134,7 +134,7 @@
         "scarborough-centre-for-healthy-communities"
       ],
       "rank": 14,
-      "note": "Local run observed 36 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 36 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "groves-memorial-community-hospital",
@@ -142,7 +142,7 @@
         "groves-memorial-community-hospital"
       ],
       "rank": 15,
-      "note": "Local run observed 32 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 32 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "bluewater-health",
@@ -150,7 +150,7 @@
         "bluewater-health"
       ],
       "rank": 16,
-      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "brant-community-healthcare-system",
@@ -158,7 +158,7 @@
         "brant-community-healthcare-system"
       ],
       "rank": 17,
-      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "royal-victoria-regional-health-centre",
@@ -166,7 +166,7 @@
         "royal-victoria-regional-health-centre"
       ],
       "rank": 18,
-      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 25 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "university-of-victoria",
@@ -174,7 +174,7 @@
         "university-of-victoria"
       ],
       "rank": 19,
-      "note": "Local run observed 25 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 25 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "hudbay-minerals",
@@ -182,7 +182,7 @@
         "hudbay-minerals"
       ],
       "rank": 20,
-      "note": "Local run observed 24 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 24 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "orillia-soldiers-memorial-hospital",
@@ -190,7 +190,7 @@
         "orillia-soldiers-memorial-hospital"
       ],
       "rank": 21,
-      "note": "Local run observed 23 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "parkdale-queen-west-community-health-centre",
@@ -198,7 +198,7 @@
         "parkdale-queen-west-community-health-centre"
       ],
       "rank": 22,
-      "note": "Local run observed 23 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 23 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-richmond-hill",
@@ -206,7 +206,7 @@
         "city-of-richmond-hill"
       ],
       "rank": 23,
-      "note": "Local run observed 18 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "confederation-college",
@@ -214,7 +214,7 @@
         "confederation-college"
       ],
       "rank": 24,
-      "note": "Local run observed 18 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 18 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "cornwall-community-hospital",
@@ -222,7 +222,7 @@
         "cornwall-community-hospital"
       ],
       "rank": 25,
-      "note": "Local run observed 18 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-nanaimo",
@@ -230,7 +230,7 @@
         "city-of-nanaimo"
       ],
       "rank": 26,
-      "note": "Local run observed 17 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "toronto-public-library",
@@ -238,7 +238,7 @@
         "toronto-public-library"
       ],
       "rank": 27,
-      "note": "Local run observed 17 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 17 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "societe-de-transport-de-laval",
@@ -246,7 +246,7 @@
         "societe-de-transport-de-laval"
       ],
       "rank": 28,
-      "note": "Local run observed 16 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 16 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-vaughan",
@@ -254,7 +254,7 @@
         "city-of-vaughan"
       ],
       "rank": 29,
-      "note": "Local run observed 15 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 15 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ross-memorial-hospital",
@@ -262,7 +262,7 @@
         "ross-memorial-hospital"
       ],
       "rank": 30,
-      "note": "Local run observed 15 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 9 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "tc-transcontinental",
@@ -270,7 +270,7 @@
         "tc-transcontinental"
       ],
       "rank": 31,
-      "note": "Local run observed 15 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 15 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "reseau-de-transport-de-longueuil",
@@ -278,7 +278,7 @@
         "reseau-de-transport-de-longueuil"
       ],
       "rank": 32,
-      "note": "Local run observed 14 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 14 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "dundee-precious-metals",
@@ -286,7 +286,7 @@
         "dundee-precious-metals"
       ],
       "rank": 33,
-      "note": "Local run observed 13 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 13 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-newmarket",
@@ -294,7 +294,7 @@
         "town-of-newmarket"
       ],
       "rank": 34,
-      "note": "Local run observed 12 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 12 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "region-of-peel",
@@ -302,7 +302,7 @@
         "region-of-peel"
       ],
       "rank": 35,
-      "note": "Local run observed 11 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "b2gold",
@@ -310,7 +310,7 @@
         "b2gold"
       ],
       "rank": 36,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "camosun-college",
@@ -318,7 +318,7 @@
         "camosun-college"
       ],
       "rank": 37,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "college-boreal",
@@ -326,7 +326,7 @@
         "college-boreal"
       ],
       "rank": 38,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "district-of-west-vancouver",
@@ -334,7 +334,7 @@
         "district-of-west-vancouver"
       ],
       "rank": 39,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "kinark-child-and-family-services",
@@ -342,7 +342,7 @@
         "kinark-child-and-family-services"
       ],
       "rank": 40,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "metrie",
@@ -350,7 +350,7 @@
         "metrie"
       ],
       "rank": 41,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ocad-university",
@@ -358,7 +358,7 @@
         "ocad-university"
       ],
       "rank": 42,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "recovery-alberta",
@@ -366,7 +366,7 @@
         "recovery-alberta"
       ],
       "rank": 43,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "seneca-polytechnic",
@@ -374,7 +374,7 @@
         "seneca-polytechnic"
       ],
       "rank": 44,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "toronto-hydro",
@@ -382,7 +382,7 @@
         "toronto-hydro"
       ],
       "rank": 45,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-oakville",
@@ -390,7 +390,7 @@
         "town-of-oakville"
       ],
       "rank": 46,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "township-of-langley",
@@ -398,7 +398,7 @@
         "township-of-langley"
       ],
       "rank": 47,
-      "note": "Local run observed 10 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 10 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "west-haldimand-general-hospital",
@@ -406,7 +406,7 @@
         "west-haldimand-general-hospital"
       ],
       "rank": 48,
-      "note": "Local run observed 9 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 9 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-airdrie",
@@ -414,7 +414,7 @@
         "city-of-airdrie"
       ],
       "rank": 49,
-      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ecole-de-technologie-superieure",
@@ -422,7 +422,7 @@
         "ecole-de-technologie-superieure"
       ],
       "rank": 50,
-      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "national-arts-centre",
@@ -430,7 +430,7 @@
         "national-arts-centre"
       ],
       "rank": 51,
-      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 8 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-mirabel",
@@ -438,7 +438,7 @@
         "ville-de-mirabel"
       ],
       "rank": 52,
-      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-terrebonne",
@@ -446,7 +446,7 @@
         "ville-de-terrebonne"
       ],
       "rank": 53,
-      "note": "Local run observed 8 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-oshawa",
@@ -454,7 +454,7 @@
         "city-of-oshawa"
       ],
       "rank": 54,
-      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-st-albert",
@@ -462,7 +462,7 @@
         "city-of-st-albert"
       ],
       "rank": 55,
-      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "perimeter-institute",
@@ -470,7 +470,7 @@
         "perimeter-institute"
       ],
       "rank": 56,
-      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-new-tecumseth",
@@ -478,7 +478,7 @@
         "town-of-new-tecumseth"
       ],
       "rank": 57,
-      "note": "Local run observed 7 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 7 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "district-of-north-vancouver",
@@ -486,7 +486,7 @@
         "district-of-north-vancouver"
       ],
       "rank": 58,
-      "note": "Local run observed 6 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "municipality-of-north-cowichan",
@@ -494,7 +494,7 @@
         "municipality-of-north-cowichan"
       ],
       "rank": 59,
-      "note": "Local run observed 6 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "rexdale-community-health-centre",
@@ -502,7 +502,7 @@
         "rexdale-community-health-centre"
       ],
       "rank": 60,
-      "note": "Local run observed 6 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-pointe-claire",
@@ -510,7 +510,7 @@
         "ville-de-pointe-claire"
       ],
       "rank": 61,
-      "note": "Local run observed 6 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "youthlink",
@@ -518,7 +518,7 @@
         "youthlink"
       ],
       "rank": 62,
-      "note": "Local run observed 6 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 6 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "centennial-college",
@@ -526,7 +526,7 @@
         "centennial-college"
       ],
       "rank": 63,
-      "note": "Local run observed 5 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-pitt-meadows",
@@ -534,7 +534,7 @@
         "city-of-pitt-meadows"
       ],
       "rank": 64,
-      "note": "Local run observed 5 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "st-lawrence-college",
@@ -542,7 +542,7 @@
         "st-lawrence-college"
       ],
       "rank": 65,
-      "note": "Local run observed 5 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-saint-bruno-de-montarville",
@@ -550,7 +550,7 @@
         "ville-de-saint-bruno-de-montarville"
       ],
       "rank": 66,
-      "note": "Local run observed 5 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 5 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "canadian-opera-company",
@@ -558,7 +558,7 @@
         "canadian-opera-company"
       ],
       "rank": 67,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-white-rock",
@@ -566,7 +566,7 @@
         "city-of-white-rock"
       ],
       "rank": 68,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "royal-conservatory-of-music",
@@ -574,7 +574,7 @@
         "royal-conservatory-of-music"
       ],
       "rank": 69,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "sault-college",
@@ -582,7 +582,7 @@
         "sault-college"
       ],
       "rank": 70,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-bradford-west-gwillimbury",
@@ -590,7 +590,7 @@
         "town-of-bradford-west-gwillimbury"
       ],
       "rank": 71,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "township-of-centre-wellington",
@@ -598,7 +598,7 @@
         "township-of-centre-wellington"
       ],
       "rank": 72,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-lac-beauport",
@@ -606,7 +606,7 @@
         "ville-de-lac-beauport"
       ],
       "rank": 73,
-      "note": "Local run observed 4 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 4 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "anishnawbe-health-toronto",
@@ -614,7 +614,7 @@
         "anishnawbe-health-toronto"
       ],
       "rank": 74,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "bc-liquor-distribution-branch",
@@ -622,7 +622,7 @@
         "bc-liquor-distribution-branch"
       ],
       "rank": 75,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-abbotsford",
@@ -630,7 +630,7 @@
         "city-of-abbotsford"
       ],
       "rank": 76,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-fort-saskatchewan",
@@ -638,7 +638,7 @@
         "city-of-fort-saskatchewan"
       ],
       "rank": 77,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "college-of-the-rockies",
@@ -646,7 +646,7 @@
         "college-of-the-rockies"
       ],
       "rank": 78,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "foothills-county",
@@ -654,7 +654,7 @@
         "foothills-county"
       ],
       "rank": 79,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "fortisalberta",
@@ -662,7 +662,7 @@
         "fortisalberta"
       ],
       "rank": 80,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "niagara-college",
@@ -670,7 +670,7 @@
         "niagara-college"
       ],
       "rank": 81,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "winnipeg-symphony-orchestra",
@@ -678,7 +678,7 @@
         "winnipeg-symphony-orchestra"
       ],
       "rank": 82,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "wsib",
@@ -686,7 +686,7 @@
         "wsib"
       ],
       "rank": 83,
-      "note": "Local run observed 3 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 3 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "bata-shoe-museum",
@@ -694,7 +694,7 @@
         "bata-shoe-museum"
       ],
       "rank": 84,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "calgary-philharmonic-orchestra",
@@ -702,7 +702,7 @@
         "calgary-philharmonic-orchestra"
       ],
       "rank": 85,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "canadian-museum-of-history",
@@ -710,7 +710,7 @@
         "canadian-museum-of-history"
       ],
       "rank": 86,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "london-hydro",
@@ -718,7 +718,7 @@
         "london-hydro"
       ],
       "rank": 87,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ottawa-community-housing",
@@ -726,7 +726,7 @@
         "ottawa-community-housing"
       ],
       "rank": 88,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "sturgeon-county",
@@ -734,7 +734,7 @@
         "sturgeon-county"
       ],
       "rank": 89,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-cobourg",
@@ -742,7 +742,7 @@
         "town-of-cobourg"
       ],
       "rank": 90,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "town-of-sidney",
@@ -750,7 +750,7 @@
         "town-of-sidney"
       ],
       "rank": 91,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-mercier",
@@ -758,7 +758,7 @@
         "ville-de-mercier"
       ],
       "rank": 92,
-      "note": "Local run observed 2 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 2 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "canadian-stage",
@@ -766,7 +766,7 @@
         "canadian-stage"
       ],
       "rank": 93,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-colwood",
@@ -774,7 +774,7 @@
         "city-of-colwood"
       ],
       "rank": 94,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-kawartha-lakes",
@@ -782,7 +782,7 @@
         "city-of-kawartha-lakes"
       ],
       "rank": 95,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "city-of-pickering",
@@ -790,7 +790,7 @@
         "city-of-pickering"
       ],
       "rank": 96,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "harbourfront-centre",
@@ -798,7 +798,7 @@
         "harbourfront-centre"
       ],
       "rank": 97,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "lambton-college",
@@ -806,7 +806,7 @@
         "lambton-college"
       ],
       "rank": 98,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "unison-health-and-community-services",
@@ -814,7 +814,7 @@
         "unison-health-and-community-services"
       ],
       "rank": 99,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     },
     {
       "company_id": "ville-de-sainte-julie",
@@ -822,7 +822,7 @@
         "ville-de-sainte-julie"
       ],
       "rank": 100,
-      "note": "Local run observed 1 board listings. All locations; listing traversal completed. Trusted review pending."
+      "note": "Release check observed 1 normalized jobs; explicit scope and partial-coverage warnings remain authoritative."
     }
   ]
 }
