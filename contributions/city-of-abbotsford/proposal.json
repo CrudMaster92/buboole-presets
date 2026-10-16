@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-abbotsford",
+    "name": "City of Abbotsford",
+    "aliases": [],
+    "website_url": "https://abbotsford.ca",
+    "logo_url": "https://www.abbotsford.ca/sites/default/files/Favicon%20-%20512x512.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-abbotsford",
+    "company_id": "city-of-abbotsford",
+    "revision": 1,
+    "label": "City of Abbotsford public careers",
+    "careers_url": "https://abbotsford.njoyn.com/CL3/xweb/Xweb.asp?CLID=55227&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Abbotsford",
+      "careers_url": "https://abbotsford.njoyn.com/CL3/xweb/Xweb.asp?CLID=55227&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "abbotsford.njoyn.com"
+      ],
+      "request": {
+        "url": "https://abbotsford.njoyn.com/CL3/xweb/Xweb.asp?CLID=55227&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://abbotsford.njoyn.com/CL3/xweb/Xweb.asp?CLID=55227&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:12:42.674633+00:00",
+    "payload": "<html><body><div class=\"clearfix page-centered\" id=\"content\"><div id=\"njnMainContent\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh8XCGp7Y3MFMiddCFdIcxBEcCdYdEggJit4ExIuLUQdWEUfdRZ9AgkbURBQS3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=55227&amp;Page=JobDetails&amp;Jobid=J0926-0762&amp;BRID=364665&amp;lang=1\" title=\"View job details\">J0926-0762</a></td><td>Freedom of Information Administrator</td><td>Legislative Services</td><td>Full Time</td><td>October 13, 2026</td><td>October 30, 2026</td></tr></tbody></table></div></div></div></div></div></div></div><div class=\"clearfix page-centered\" id=\"content\"><div id=\"njnMainContent\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh8XCGp7Y3MFMiddCFdIcxBEcCdYdEggJit4ExIuLUQdWEUfdRZ9AgkbURBQS3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=55227&amp;Page=JobDetails&amp;Jobid=J0726-0400&amp;BRID=358030&amp;lang=1\" title=\"View job details\">J0726-0400</a></td><td>Equipment Operator III</td><td>Roads &amp; Facilities Operations</td><td>Full Time</td><td>September 16, 2026</td><td>October 31, 2026</td></tr></tbody></table></div></div></div></div></div></div></div><div class=\"clearfix page-centered\" id=\"content\"><div id=\"njnMainContent\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh8XCGp7Y3MFMiddCFdIcxBEcCdYdEggJit4ExIuLUQdWEUfdRZ9AgkbURBQS3cqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=55227&amp;Page=JobDetails&amp;Jobid=J0726-0128&amp;BRID=356604&amp;lang=1\" title=\"View job details\">J0726-0128</a></td><td>City Manager</td><td>Corporate Administration</td><td>Full Time</td><td>N/A</td><td>N/A</td></tr></tbody></table></div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://abbotsford.ca",
+    "explanation": "Official employer homepage: https://abbotsford.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://abbotsford.njoyn.com/CL3/xweb/xweb.asp?clid=55227&Page=JobDetails&Jobid=J0926-0762&BRID=364665&lang=1",
+      "https://abbotsford.njoyn.com/CL3/xweb/xweb.asp?clid=55227&Page=JobDetails&Jobid=J0726-0400&BRID=358030&lang=1",
+      "https://abbotsford.njoyn.com/CL3/xweb/xweb.asp?clid=55227&Page=JobDetails&Jobid=J0726-0128&BRID=356604&lang=1"
+    ]
+  }
+}

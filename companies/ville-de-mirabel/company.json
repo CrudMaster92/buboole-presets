@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-mirabel",
+  "name": "Ville de Mirabel",
+  "aliases": [],
+  "website_url": "https://mirabel.ca",
+  "logo_url": "https://mirabel.ca/assets/images/favicons/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

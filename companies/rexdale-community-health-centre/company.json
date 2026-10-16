@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rexdale-community-health-centre",
+  "name": "Rexdale Community Health Centre",
+  "aliases": [],
+  "website_url": "https://rexdalechc.com",
+  "logo_url": "https://www.rexdalechc.com/wp-content/uploads/2022/03/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

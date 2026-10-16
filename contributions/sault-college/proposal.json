@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "sault-college",
+    "name": "Sault College",
+    "aliases": [],
+    "website_url": "https://saultcollege.ca",
+    "logo_url": "https://www.saultcollege.ca/core/misc/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "sault-college",
+    "company_id": "sault-college",
+    "revision": 1,
+    "label": "Sault College public careers",
+    "careers_url": "https://saultcollege.njoyn.com/cl3/xweb/Xweb.asp?CLID=56877&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Sault College",
+      "careers_url": "https://saultcollege.njoyn.com/cl3/xweb/Xweb.asp?CLID=56877&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "saultcollege.njoyn.com"
+      ],
+      "request": {
+        "url": "https://saultcollege.njoyn.com/cl3/xweb/Xweb.asp?CLID=56877&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]",
+        "location": "td:nth-of-type(4)"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://saultcollege.njoyn.com/cl3/xweb/Xweb.asp?CLID=56877&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:13:20.855807+00:00",
+    "payload": "<html><body><div class=\"dialog-off-canvas-main-canvas\"><div class=\"l-container\"><main class=\"l-main\"><div class=\"l-content\"><div class=\"region-content\"><div class=\"block block--main-page-content\" id=\"block-sault-content\"><div class=\"block__content\"><article class=\"node node--type-page node--display-mode-full\"><div class=\"node__content\"><div class=\"layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcRh0XCB0uJS5ALiReanICNSQlCFU6eBBEcFcpLiUuQC4kXkhZIFl5E2ZcUUQeLEZtAWF8BAkbURNaTncqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=56877&amp;Page=JobDetails&amp;Jobid=J1026-0581&amp;BRID=364989&amp;lang=1\" title=\"View job details\">J1026-0581</a></td><td>Manager, Alumni and Advancement</td><td>ADMC</td><td>Sault Ste. Marie</td><td>October 15, 2026</td><td>October 29, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div></div><div class=\"dialog-off-canvas-main-canvas\"><div class=\"l-container\"><main class=\"l-main\"><div class=\"l-content\"><div class=\"region-content\"><div class=\"block block--main-page-content\" id=\"block-sault-content\"><div class=\"block__content\"><article class=\"node node--type-page node--display-mode-full\"><div class=\"node__content\"><div class=\"layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcRh0XCB0uJS5ALiReanICNSQlCFU6eBBEcFcpLiUuQC4kXkhZIFl5E2ZcUUQeLEZtAWF8BAkbURNaTncqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=56877&amp;Page=JobDetails&amp;Jobid=J1026-0231&amp;BRID=364204&amp;lang=1\" title=\"View job details\">J1026-0231</a></td><td>Instructor, Building Maintenance and Construction Program</td><td>Faculty - Continuing Education</td><td>Sault Ste. Marie</td><td>October 6, 2026</td><td>October 20, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div></div><div class=\"dialog-off-canvas-main-canvas\"><div class=\"l-container\"><main class=\"l-main\"><div class=\"l-content\"><div class=\"region-content\"><div class=\"block block--main-page-content\" id=\"block-sault-content\"><div class=\"block__content\"><article class=\"node node--type-page node--display-mode-full\"><div class=\"node__content\"><div class=\"layout layout--onecol\"><div class=\"layout__region layout__region--content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hcRh0XCB0uJS5ALiReanICNSQlCFU6eBBEcFcpLiUuQC4kXkhZIFl5E2ZcUUQeLEZtAWF8BAkbURNaTncqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=56877&amp;Page=JobDetails&amp;Jobid=J0926-0096&amp;BRID=361508&amp;lang=1\" title=\"View job details\">J0926-0096</a></td><td>Financial Services Assistant (Appendix D)</td><td>Support Staff - Appendix D</td><td>Sault Ste. Marie</td><td>October 7, 2026</td><td>October 15, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://saultcollege.ca",
+    "explanation": "Official employer homepage: https://saultcollege.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://saultcollege.njoyn.com/cl3/xweb/xweb.asp?clid=56877&Page=JobDetails&Jobid=J1026-0581&BRID=364989&lang=1",
+      "https://saultcollege.njoyn.com/cl3/xweb/xweb.asp?clid=56877&Page=JobDetails&Jobid=J1026-0231&BRID=364204&lang=1",
+      "https://saultcollege.njoyn.com/cl3/xweb/xweb.asp?clid=56877&Page=JobDetails&Jobid=J0926-0096&BRID=361508&lang=1"
+    ]
+  }
+}

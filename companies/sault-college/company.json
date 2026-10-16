@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sault-college",
+  "name": "Sault College",
+  "aliases": [],
+  "website_url": "https://saultcollege.ca",
+  "logo_url": "https://www.saultcollege.ca/core/misc/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

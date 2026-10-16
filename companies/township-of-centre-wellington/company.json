@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "township-of-centre-wellington",
+  "name": "Township of Centre Wellington",
+  "aliases": [],
+  "website_url": "https://centrewellington.ca",
+  "logo_url": "https://centrewellington-004-ca.govstack.com/media/dpnamn4w/centre-wellington-favicon.png?width=32&height=32",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

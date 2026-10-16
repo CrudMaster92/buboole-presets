@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-opera-company",
+  "name": "Canadian Opera Company",
+  "aliases": [],
+  "website_url": "https://coc.ca",
+  "logo_url": "https://www.coc.ca/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

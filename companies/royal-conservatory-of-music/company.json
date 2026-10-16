@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "royal-conservatory-of-music",
+  "name": "Royal Conservatory of Music",
+  "aliases": [],
+  "website_url": "https://rcmusic.com",
+  "logo_url": "https://www.rcmusic.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

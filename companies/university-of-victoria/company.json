@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "university-of-victoria",
+  "name": "University of Victoria",
+  "aliases": [],
+  "website_url": "https://uvic.ca",
+  "logo_url": "https://www.uvic.ca/assets/core-4-1/img/favicon-32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

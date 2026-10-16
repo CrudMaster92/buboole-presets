@@ -1,0 +1,97 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-kawartha-lakes",
+    "name": "City of Kawartha Lakes",
+    "aliases": [],
+    "website_url": "https://kawarthalakes.ca",
+    "logo_url": "https://kawarthalakes-014-ca.govstack.com/media/cekdefv5/kawartha-lakes-favicon.png?width=32&height=32",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-kawartha-lakes",
+    "company_id": "city-of-kawartha-lakes",
+    "revision": 1,
+    "label": "City of Kawartha Lakes public careers",
+    "careers_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=CITYOFKA&cws=42",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Kawartha Lakes",
+      "careers_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=CITYOFKA&cws=42",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "tre.tbe.taleo.net"
+      ],
+      "request": {
+        "url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=CITYOFKA&cws=42",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".oracletaleocwsv2-accordion-head-info",
+        "title": "a.viewJobLink",
+        "link": "a.viewJobLink",
+        "location": "div:last-child"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=CITYOFKA&cws=42",
+    "fetched_at": "2026-10-16T04:02:22.264203+00:00",
+    "payload": "<html><body><div class=\"cws-v2\" id=\"oracletaleocwsv2-wrapper\"><link><section><div class=\"container-fluid\"><div class=\"oracletaleocwsv2-accordion-group oracletaleocwsv2-has-footer\"><div class=\"oracletaleocwsv2-accordion oracletaleocwsv2-accordion-expandable clearfix\"><div class=\"oracletaleocwsv2-accordion-block\"><div class=\"oracletaleocwsv2-accordion-head\"><div class=\"oracletaleocwsv2-accordion-head-info\">\n<h4 class=\"oracletaleocwsv2-head-title\"><a class=\"viewJobLink\" href=\"https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=CITYOFKA&amp;cws=42&amp;rid=3125\">Fire Prevention Inspector</a></h4>\n<div tabindex=\"0\">Fire Services Department - Fire Prevention Division</div>\n<div tabindex=\"0\">City of Kawartha Lakes, ON</div>\n</div></div></div></div></div></div></section></link></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://kawarthalakes.ca",
+    "explanation": "Official employer homepage: https://kawarthalakes.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=CITYOFKA&cws=42&rid=3125"
+    ]
+  }
+}

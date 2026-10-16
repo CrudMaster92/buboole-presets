@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ville-de-mirabel",
+    "name": "Ville de Mirabel",
+    "aliases": [],
+    "website_url": "https://mirabel.ca",
+    "logo_url": "https://mirabel.ca/assets/images/favicons/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ville-de-mirabel",
+    "company_id": "ville-de-mirabel",
+    "revision": 1,
+    "label": "Ville de Mirabel public careers",
+    "careers_url": "https://clients.njoyn.com/CL4/xweb/Xweb.asp?CLID=71754&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Ville de Mirabel",
+      "careers_url": "https://clients.njoyn.com/CL4/xweb/Xweb.asp?CLID=71754&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "clients.njoyn.com"
+      ],
+      "request": {
+        "url": "https://clients.njoyn.com/CL4/xweb/Xweb.asp?CLID=71754&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "a[href*=\"JobDetails\" i]",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://clients.njoyn.com/CL4/xweb/Xweb.asp?CLID=71754&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:13:38.732511+00:00",
+    "payload": "<html><body><div id=\"container\"><div id=\"siteContent\"><div id=\"siteContainer\"><div class=\"colLayout\"><div class=\"NjnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr class=\"!rowClassName!\"><td>J0926-0827</td><td><a href=\"xweb.asp?tbtoken=bFtQQRgXCBhzYHMCMiMnCFA8BGxEcCdedEhZUVF6E2ZbL0MdUUIdAhABeAkbUxRVTHQqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=71754&amp;Page=JobDetails&amp;Jobid=J0926-0827&amp;BRID=460303&amp;lang=1\" title=\"View job details\">Assistant greffier</a></td><td>Greffe / Gestion documentaire</td><td>October 27, 2026</td></tr></tbody></table></div></div></div></div></div></div></div><div id=\"container\"><div id=\"siteContent\"><div id=\"siteContainer\"><div class=\"colLayout\"><div class=\"NjnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr class=\"!rowClassName!\"><td>J0826-0787</td><td><a href=\"xweb.asp?tbtoken=bFtQQRgXCBhzYHMCMiMnCFA8BGxEcCdedEhZUVF6E2ZbL0MdUUIdAhABeAkbUxRVTHQqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=71754&amp;Page=JobDetails&amp;Jobid=J0826-0787&amp;BRID=457220&amp;lang=1\" title=\"View job details\">Technicien aqueduc et égouts</a></td><td>Travaux publics</td><td>October 23, 2026</td></tr></tbody></table></div></div></div></div></div></div></div><div id=\"container\"><div id=\"siteContent\"><div id=\"siteContainer\"><div class=\"colLayout\"><div class=\"NjnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr class=\"!rowClassName!\"><td>J0626-0781</td><td><a href=\"xweb.asp?tbtoken=bFtQQRgXCBhzYHMCMiMnCFA8BGxEcCdedEhZUVF6E2ZbL0MdUUIdAhABeAkbUxRVTHQqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=71754&amp;Page=JobDetails&amp;Jobid=J0626-0781&amp;BRID=451689&amp;lang=1\" title=\"View job details\">Appariteur-concierge</a></td><td>Loisirs, culture et vie communautaire</td><td>October 22, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://mirabel.ca",
+    "explanation": "Official employer homepage: https://mirabel.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://clients.njoyn.com/CL4/xweb/xweb.asp?clid=71754&Page=JobDetails&Jobid=J0926-0827&BRID=460303&lang=1",
+      "https://clients.njoyn.com/CL4/xweb/xweb.asp?clid=71754&Page=JobDetails&Jobid=J0826-0787&BRID=457220&lang=1",
+      "https://clients.njoyn.com/CL4/xweb/xweb.asp?clid=71754&Page=JobDetails&Jobid=J0626-0781&BRID=451689&lang=1"
+    ]
+  }
+}

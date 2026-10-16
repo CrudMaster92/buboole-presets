@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ocad-university",
+  "name": "OCAD University",
+  "aliases": [],
+  "website_url": "https://ocadu.ca",
+  "logo_url": "https://www.ocadu.ca/themes/custom/ocad/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

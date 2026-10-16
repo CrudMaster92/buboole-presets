@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-airdrie",
+    "name": "City of Airdrie",
+    "aliases": [],
+    "website_url": "https://airdrie.ca",
+    "logo_url": "https://www.airdrie.ca/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-airdrie",
+    "company_id": "city-of-airdrie",
+    "revision": 1,
+    "label": "City of Airdrie public careers",
+    "careers_url": "https://clients.njoyn.com/CL2/xweb/Xweb.asp?CLID=61430&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Airdrie",
+      "careers_url": "https://clients.njoyn.com/CL2/xweb/Xweb.asp?CLID=61430&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "clients.njoyn.com"
+      ],
+      "request": {
+        "url": "https://clients.njoyn.com/CL2/xweb/Xweb.asp?CLID=61430&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://clients.njoyn.com/CL2/xweb/Xweb.asp?CLID=61430&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:12:42.688632+00:00",
+    "payload": "<html><body><main class=\"\" id=\"main\"><div class=\"container hasContent\" id=\"container_3\"><div class=\"content_handler html_container hasContent\"><div class=\"content_item_display\"><div class=\"content_item_content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9cSxMXCG0FEHJ4QFEmCCQ8BW1EcFktAUggJV8OExcuKkIfLDYYd2V2BAkbUhRWSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=61430&amp;Page=JobDetails&amp;Jobid=J1026-0071&amp;BRID=383134&amp;lang=1\" title=\"View job details\">J1026-0071</a></td><td>Planner III (Current Planning)</td><td>Full Time</td><td>Current Planning</td><td>November 2, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div></main><main class=\"\" id=\"main\"><div class=\"container hasContent\" id=\"container_3\"><div class=\"content_handler html_container hasContent\"><div class=\"content_item_display\"><div class=\"content_item_content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9cSxMXCG0FEHJ4QFEmCCQ8BW1EcFktAUggJV8OExcuKkIfLDYYd2V2BAkbUhRWSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=61430&amp;Page=JobDetails&amp;Jobid=J1026-0023&amp;BRID=382942&amp;lang=1\" title=\"View job details\">J1026-0023</a></td><td>Fitness Specialty Instructor - Tai Chi</td><td>Part Time</td><td>Active Living</td><td>October 27, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div></main><main class=\"\" id=\"main\"><div class=\"container hasContent\" id=\"container_3\"><div class=\"content_handler html_container hasContent\"><div class=\"content_item_display\"><div class=\"content_item_content\"><div class=\"njnContentContainer\" id=\"njnContentContainer\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9cSxMXCG0FEHJ4QFEmCCQ8BW1EcFktAUggJV8OExcuKkIfLDYYd2V2BAkbUhRWSnAqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=61430&amp;Page=JobDetails&amp;Jobid=J1026-0048&amp;BRID=383009&amp;lang=1\" title=\"View job details\">J1026-0048</a></td><td>Health &amp; Safety Coordinator - Term (12 Months)</td><td>Term Full Time</td><td>Health, Safety &amp; Corporate Security</td><td>October 21, 2026</td></tr></tbody></table></div></div></div></div></div></div></div></div></div></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://airdrie.ca",
+    "explanation": "Official employer homepage: https://airdrie.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://clients.njoyn.com/CL2/xweb/xweb.asp?clid=61430&Page=JobDetails&Jobid=J1026-0071&BRID=383134&lang=1",
+      "https://clients.njoyn.com/CL2/xweb/xweb.asp?clid=61430&Page=JobDetails&Jobid=J1026-0023&BRID=382942&lang=1",
+      "https://clients.njoyn.com/CL2/xweb/xweb.asp?clid=61430&Page=JobDetails&Jobid=J1026-0048&BRID=383009&lang=1"
+    ]
+  }
+}

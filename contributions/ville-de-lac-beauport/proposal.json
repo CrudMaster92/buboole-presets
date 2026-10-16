@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ville-de-lac-beauport",
+    "name": "Ville de Lac Beauport",
+    "aliases": [],
+    "website_url": "https://lac-beauport.quebec",
+    "logo_url": "https://lac-beauport.quebec/wp-content/uploads/2023/04/favicon-lac-beauport-300x300-1-150x150.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ville-de-lac-beauport",
+    "company_id": "ville-de-lac-beauport",
+    "revision": 1,
+    "label": "Ville de Lac Beauport public careers",
+    "careers_url": "https://lac-beauport.quebec/la-municipalite/offres-demploi",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Ville de Lac Beauport",
+      "careers_url": "https://lac-beauport.quebec/la-municipalite/offres-demploi",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "lac-beauport.quebec"
+      ],
+      "request": {
+        "url": "https://lac-beauport.quebec/la-municipalite/offres-demploi/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "h3.elementor-heading-title.elementor-size-default:has(a[href*=\"/offres\"])",
+        "title": "a[href*=\"/offres\"]",
+        "link": "a[href*=\"/offres\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://lac-beauport.quebec/la-municipalite/offres-demploi/",
+    "fetched_at": "2026-10-15T23:23:12.087460+00:00",
+    "payload": "<html><body><div class=\"elementor elementor-18540\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ebc7f16 elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d064b0f\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-73cda04 elementor-grid-1 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid\"><div class=\"elementor-widget-container\"><div class=\"elementor-loop-container elementor-grid\"><div class=\"elementor elementor-23627 e-loop-item e-loop-item-33756 post-33756 offres-emploi type-offres-emploi status-publish hentry\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-71b00ad elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fdec9e8\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-2457675 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading\"><div class=\"elementor-widget-container\"><h3 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://lac-beauport.quebec/offres-emploi/2026-023-preposee-a-lentretien-des-patinoires/\">2026-023 PRÉPOSÉ(E) À L’ENTRETIEN DES PATINOIRES</a></h3></div></div></div></div></div></section></div></div></div></div></div></div></div></section></div><div class=\"elementor elementor-18540\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ebc7f16 elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d064b0f\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-73cda04 elementor-grid-1 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid\"><div class=\"elementor-widget-container\"><div class=\"elementor-loop-container elementor-grid\"><div class=\"elementor elementor-23627 e-loop-item e-loop-item-33755 post-33755 offres-emploi type-offres-emploi status-publish hentry\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-71b00ad elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fdec9e8\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-2457675 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading\"><div class=\"elementor-widget-container\"><h3 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://lac-beauport.quebec/offres-emploi/2026-022-surveillante-de-patinoire-soir-et-fin-de-semaine/\">2026-022 SURVEILLANT(E) DE PATINOIRE (SOIR ET FIN DE SEMAINE)</a></h3></div></div></div></div></div></section></div></div></div></div></div></div></div></section></div><div class=\"elementor elementor-18540\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ebc7f16 elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d064b0f\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-73cda04 elementor-grid-1 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid\"><div class=\"elementor-widget-container\"><div class=\"elementor-loop-container elementor-grid\"><div class=\"elementor elementor-23627 e-loop-item e-loop-item-33754 post-33754 offres-emploi type-offres-emploi status-publish hentry\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-71b00ad elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fdec9e8\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-2457675 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading\"><div class=\"elementor-widget-container\"><h3 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://lac-beauport.quebec/offres-emploi/2026-021-surveillante-de-patinoire-jour-en-semaine/\">2026-021 SURVEILLANT(E) DE PATINOIRE (JOUR EN SEMAINE)</a></h3></div></div></div></div></div></section></div></div></div></div></div></div></div></section></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://lac-beauport.quebec",
+    "explanation": "Official employer homepage: https://lac-beauport.quebec. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://lac-beauport.quebec/offres-emploi/2026-023-preposee-a-lentretien-des-patinoires",
+      "https://lac-beauport.quebec/offres-emploi/2026-022-surveillante-de-patinoire-soir-et-fin-de-semaine",
+      "https://lac-beauport.quebec/offres-emploi/2026-021-surveillante-de-patinoire-jour-en-semaine"
+    ]
+  }
+}

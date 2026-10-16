@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-vaughan",
+  "name": "City of Vaughan",
+  "aliases": [],
+  "website_url": "https://vaughan.ca",
+  "logo_url": "https://logo.freehire.me/City%20of%20Vaughan?domain=vaughan.ca",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "town-of-newmarket",
+    "name": "Town of Newmarket",
+    "aliases": [],
+    "website_url": "https://newmarket.ca",
+    "logo_url": "https://www.newmarket.ca/sites/default/files/Newmarket-Rebranded-Fav-Icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "town-of-newmarket",
+    "company_id": "town-of-newmarket",
+    "revision": 1,
+    "label": "Town of Newmarket public careers",
+    "careers_url": "https://newmarket.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Town of Newmarket",
+      "careers_url": "https://newmarket.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "newmarket.hua.hrsmart.com"
+      ],
+      "request": {
+        "url": "https://newmarket.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(a[href*=\"/Posting/view/\"])",
+        "title": "a[href*=\"/Posting/view/\"]",
+        "link": "a[href*=\"/Posting/view/\"]",
+        "location": "td:nth-of-type(3)",
+        "posted_date": "td:nth-of-type(4)"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://newmarket.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    "fetched_at": "2026-10-15T22:44:59.657509+00:00",
+    "payload": "<html><body><div id=\"ext-theme\"><link><div class=\"page-template-default page page-id-626 page-child parent-pageid-572 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent ast-default-menu-enable ast-default-above-menu-enable ast-default-below-menu-enable ast-inherit-site-logo-sticky ast-primary-sticky-enabled jet-desktop-menu-active elementor-default elementor-kit-440 elementor-page elementor-page-626 astra-addon-4.0.1\"><div class=\"hfeed site\" id=\"page\"><div class=\"site-content\" id=\"content\"><div class=\"ast-container\"><div class=\"content-area primary\" id=\"primary\"><main class=\"site-main\" id=\"main\"><article class=\"post-626 page type-page status-publish ast-article-single\" id=\"post-626\"><div class=\"entry-content clear\"><div class=\"elementor elementor-626\"><div class=\"elementor-inner\"><div class=\"elementor-section-wrap\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-2e9c92c4 early_talent elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-no\"><div class=\"elementor-row\"><div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8127d9f\"><div class=\"elementor-column-wrap elementor-element-populated\"><div class=\"elementor-widget-wrap\"><div class=\"elementor-element elementor-element-1ca2bf86 elementor-widget elementor-widget-text-editor\"><div class=\"elementor-widget-container\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td><a href=\"/hr/ats/Posting/view/3178\"> <span>Building Monitor - Newmarket Seniors' Meeting Place</span>\n</a></td>\n<td> Seniors Meeting Place Newmarket, ON, CA L3Y2P1<br/>\n</td>\n<td>10/13/2026</td>\n<td>Recreation &amp; Client Services</td>\n<td>26-219</td>\n<td class=\"actions_td\"><a class=\"btn btn-default btn-sm\" data-bs-container=\"body\" data-bs-toggle=\"tooltip\" data-bs-trigger=\"hover\" href=\"/ats/lens.php?action=find_similar_jobs&amp;requisition=3178\" title=\"Find Matching Jobs\"><i class=\"fas fa-binoculars\"></i></a></td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section></div></div></div></div></article></main></div></div></div></div></div></link></div><div id=\"ext-theme\"><link><div class=\"page-template-default page page-id-626 page-child parent-pageid-572 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent ast-default-menu-enable ast-default-above-menu-enable ast-default-below-menu-enable ast-inherit-site-logo-sticky ast-primary-sticky-enabled jet-desktop-menu-active elementor-default elementor-kit-440 elementor-page elementor-page-626 astra-addon-4.0.1\"><div class=\"hfeed site\" id=\"page\"><div class=\"site-content\" id=\"content\"><div class=\"ast-container\"><div class=\"content-area primary\" id=\"primary\"><main class=\"site-main\" id=\"main\"><article class=\"post-626 page type-page status-publish ast-article-single\" id=\"post-626\"><div class=\"entry-content clear\"><div class=\"elementor elementor-626\"><div class=\"elementor-inner\"><div class=\"elementor-section-wrap\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-2e9c92c4 early_talent elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-no\"><div class=\"elementor-row\"><div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8127d9f\"><div class=\"elementor-column-wrap elementor-element-populated\"><div class=\"elementor-widget-wrap\"><div class=\"elementor-element elementor-element-1ca2bf86 elementor-widget elementor-widget-text-editor\"><div class=\"elementor-widget-container\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td><a href=\"/hr/ats/Posting/view/3174\"> <span>Sr Planner Development</span>\n</a></td>\n<td> Town Hall Dev Newmarket, ON, CA L3Y4X7<br/>\n</td>\n<td>10/5/2026</td>\n<td>Planning</td>\n<td>26-213</td>\n<td class=\"actions_td\"><a class=\"btn btn-default btn-sm\" data-bs-container=\"body\" data-bs-toggle=\"tooltip\" data-bs-trigger=\"hover\" href=\"/ats/lens.php?action=find_similar_jobs&amp;requisition=3174\" title=\"Find Matching Jobs\"><i class=\"fas fa-binoculars\"></i></a></td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section></div></div></div></div></article></main></div></div></div></div></div></link></div><div id=\"ext-theme\"><link><div class=\"page-template-default page page-id-626 page-child parent-pageid-572 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent ast-default-menu-enable ast-default-above-menu-enable ast-default-below-menu-enable ast-inherit-site-logo-sticky ast-primary-sticky-enabled jet-desktop-menu-active elementor-default elementor-kit-440 elementor-page elementor-page-626 astra-addon-4.0.1\"><div class=\"hfeed site\" id=\"page\"><div class=\"site-content\" id=\"content\"><div class=\"ast-container\"><div class=\"content-area primary\" id=\"primary\"><main class=\"site-main\" id=\"main\"><article class=\"post-626 page type-page status-publish ast-article-single\" id=\"post-626\"><div class=\"entry-content clear\"><div class=\"elementor elementor-626\"><div class=\"elementor-inner\"><div class=\"elementor-section-wrap\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-2e9c92c4 early_talent elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-no\"><div class=\"elementor-row\"><div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8127d9f\"><div class=\"elementor-column-wrap elementor-element-populated\"><div class=\"elementor-widget-wrap\"><div class=\"elementor-element elementor-element-1ca2bf86 elementor-widget elementor-widget-text-editor\"><div class=\"elementor-widget-container\"><div id=\"hrdesign-area\"><div class=\"container\" id=\"ats_content\"><div class=\"notLoggedIn\" id=\"hua_wrapper\"><div class=\"display-table\"><div class=\"\" id=\"sidebar-main-container\"><div class=\"flex-grow-1\" id=\"hua_main_page\"><div class=\"page-body slide-left\" id=\"page-index\"><div class=\"hua_desktop\" id=\"hua_desktop\"><div class=\"app_main_id\" id=\"app_main_id\"><div class=\"dtm-main-content container-fluid notLoggedIn\"><div class=\"jobSearchResultsGridContainer\"><div class=\"card rounded mb-3\" id=\"ribbon_tabbed_interface_page_jobSearchResultsGrid\"><div class=\"card-body\" id=\"ribbon_body_section_jobSearchResultsGrid\"><div class=\"notes-container jobSearchResultsGrid_gridsection\" id=\"ribbon_expanded_section_jobSearchResultsGrid_gridcard\"><div class=\"table-responsive\"><table class=\"datatable table table-fixed-header\" id=\"jobSearchResultsGrid_table\"><tbody><tr> <td><a href=\"/hr/ats/Posting/view/3153\"> <span>Animal Services Officer, Urgent Response (Ongoing Posting)</span>\n</a></td>\n<td> Town Hall Corp Newmarket, ON, CA L3Y4X7<br/>\n</td>\n<td>8/10/2026</td>\n<td>Bylaws</td>\n<td>26-191</td>\n<td class=\"actions_td\"><a class=\"btn btn-default btn-sm\" data-bs-container=\"body\" data-bs-toggle=\"tooltip\" data-bs-trigger=\"hover\" href=\"/ats/lens.php?action=find_similar_jobs&amp;requisition=3153\" title=\"Find Matching Jobs\"><i class=\"fas fa-binoculars\"></i></a></td>\n</tr></tbody></table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section></div></div></div></div></article></main></div></div></div></div></div></link></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://newmarket.ca",
+    "explanation": "Official employer homepage: https://newmarket.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://newmarket.hua.hrsmart.com/hr/ats/Posting/view/3178",
+      "https://newmarket.hua.hrsmart.com/hr/ats/Posting/view/3174",
+      "https://newmarket.hua.hrsmart.com/hr/ats/Posting/view/3153"
+    ]
+  }
+}

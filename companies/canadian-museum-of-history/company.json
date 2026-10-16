@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-museum-of-history",
+  "name": "Canadian Museum of History",
+  "aliases": [],
+  "website_url": "https://historymuseum.ca",
+  "logo_url": "https://www.historymuseum.ca/wp-content/uploads/2023/06/cropped-CHM-logo-mobile-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "michael-garron-hospital",
+  "name": "Michael Garron Hospital",
+  "aliases": [],
+  "website_url": "https://tehn.ca",
+  "logo_url": "https://www.tehn.ca/themes/de_theme/src/img/favicons/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

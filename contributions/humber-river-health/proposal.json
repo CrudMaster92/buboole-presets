@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "humber-river-health",
+    "name": "Humber River Health",
+    "aliases": [],
+    "website_url": "https://hrh.ca",
+    "logo_url": "https://www.hrh.ca/wp-content/themes/hrh/assets/favicon/apple-touch-icon-57x57.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "humber-river-health",
+    "company_id": "humber-river-health",
+    "revision": 1,
+    "label": "Humber River Health public careers",
+    "careers_url": "https://careersen-hrrh.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Humber River Health",
+      "careers_url": "https://careersen-hrrh.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careersen-hrrh.icims.com"
+      ],
+      "request": {
+        "url": "https://careersen-hrrh.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careersen-hrrh.icims.com/jobs/search",
+    "fetched_at": "2026-10-15T18:29:13.952328+00:00",
+    "payload": "<html><body><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/13/2026 8:20 AM\">\n2 days ago<span class=\"sr-only\">(10/13/2026 8:20 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careersen-hrrh.icims.com/jobs/24568/general-x-ray-technologist/job?in_iframe=1\" title=\"24568 - General X-Ray Technologist\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nGeneral X-Ray Technologist</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nHumber River Health. Tomorrow's Healthcare, Today.Humber River Health is a multi-site organization serving a population of more than 850,000 people in the northwest Greater Toronto Area. The organization is a member of the Toronto Academic Health Science Network (TAHSN) and operates Hennick Humber Hospital, along with its Finch and Church campuses, supported by more than 5,000 employees, approximately 800 physicians, and over 600 volunteers. Hennick Humber Hospital is North America’s...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Number</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-24568</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nTemporary Full-Time</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Program</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nMedical Imaging</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department/Unit</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nMedical Imaging</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Employee Group</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nOPSEU 577</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/14/2026 8:38 AM\">\n1 day ago<span class=\"sr-only\">(10/14/2026 8:38 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careersen-hrrh.icims.com/jobs/24567/registered-nurse%2c-emergency-department/job?in_iframe=1\" title=\"24567 - Registered Nurse, Emergency Department\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nRegistered Nurse, Emergency Department</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nHumber River Health. Tomorrow's Healthcare, Today.\r\nHumber River Health is a multi-site organization serving a population of more than 850,000 people in the northwest Greater Toronto Area. The organization is a member of the Toronto Academic Health Science Network (TAHSN) and operates Hennick Humber Hospital, along with its Finch and Church campuses, supported by more than 5,000 employees, approximately 800 physicians, and over 600 volunteers.</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Number</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-24567</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nTemporary Part-Time</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Program</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nEmergency &amp; Urgent Care Program</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department/Unit</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nEmergency</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Employee Group</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nONA</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/13/2026 8:21 AM\">\n2 days ago<span class=\"sr-only\">(10/13/2026 8:21 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://careersen-hrrh.icims.com/jobs/24565/mri-technologist/job?in_iframe=1\" title=\"24565 - MRI Technologist\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nMRI Technologist</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nHumber River Health. Tomorrow's Healthcare, Today.\r\n \r\nHumber River Health is a multi-site organization serving a population of more than 850,000 people in the northwest Greater Toronto Area. The organization is a member of the Toronto Academic Health Science Network (TAHSN) and operates Hennick Humber Hospital,...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Number</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-24565</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nPart-Time</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Program</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nMedical Imaging</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department/Unit</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nMedical Imaging</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Employee Group</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nOPSEU 577</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://hrh.ca",
+    "explanation": "Official employer homepage: https://hrh.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careersen-hrrh.icims.com/jobs/24568/general-x-ray-technologist/job?in_iframe=1",
+      "https://careersen-hrrh.icims.com/jobs/24567/registered-nurse%2c-emergency-department/job?in_iframe=1",
+      "https://careersen-hrrh.icims.com/jobs/24565/mri-technologist/job?in_iframe=1"
+    ]
+  }
+}

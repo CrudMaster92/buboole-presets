@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-colwood",
+  "name": "City of Colwood",
+  "aliases": [],
+  "website_url": "https://colwood.ca",
+  "logo_url": "https://www.colwood.ca/sites/default/files/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

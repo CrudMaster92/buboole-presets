@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-white-rock",
+    "name": "City of White Rock",
+    "aliases": [],
+    "website_url": "https://whiterockcity.ca",
+    "logo_url": "https://www.whiterockcity.ca/images/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-white-rock",
+    "company_id": "city-of-white-rock",
+    "revision": 1,
+    "label": "City of White Rock public careers",
+    "careers_url": "https://www.whiterockcity.ca/Jobs.aspx",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of White Rock",
+      "careers_url": "https://www.whiterockcity.ca/Jobs.aspx",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.whiterockcity.ca"
+      ],
+      "request": {
+        "url": "https://www.whiterockcity.ca/Jobs.aspx",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job",
+        "title": "h3 a",
+        "link": "h3 a",
+        "description": "p"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.whiterockcity.ca/Jobs.aspx",
+    "fetched_at": "2026-10-16T04:08:36.587688+00:00",
+    "payload": "<html><body><input id=\"hdnStructureID\"><div class=\"outer-wrap\" id=\"outer-wrap\"><div class=\"inner-wrap\" id=\"inner-wrap\"><div id=\"bodyWrapper\"><div id=\"bodyContainerTS\"><div id=\"mainContainerTS\"><div class=\"siteWrap\"><div class=\"mainWrap\" id=\"mainWrapTS\"><div class=\"outerContentWrap\" id=\"outerContentWrapTS\"><div class=\"contentWrap\" id=\"contentWrapTS\"><div id=\"moduleContent\"><div id=\"ctl00_ctl00_MainContent_BodyWrapper\"><form id=\"aspnetForm\"><input id=\"__VIEWSTATE\"><div id=\"modulecontent\"><link><div class=\"newCP moduleContentNew\" id=\"JobContent\"><div class=\"contentMain selfClear myListings\" id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_divJobContent\"><div id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_contentUpdatePanel\"><div id=\"divAddEditJobs\"><div id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_updatePnlEditJob\"><div id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_divEditJob\"><div class=\"contentMain selfClear jobWizard\"><div class=\"onTop wizard\"><div class=\"section selfClear\" id=\"div_previewSubmit\"><div class=\"job\">\n</div></div></div></div></div></div></div></div></div></div></link></div></input></form></div></div></div></div></div></div></div></div></div></div></div></input><input id=\"hdnStructureID\"><div class=\"outer-wrap\" id=\"outer-wrap\"><div class=\"inner-wrap\" id=\"inner-wrap\"><div id=\"bodyWrapper\"><div id=\"bodyContainerTS\"><div id=\"mainContainerTS\"><div class=\"siteWrap\"><div class=\"mainWrap\" id=\"mainWrapTS\"><div class=\"outerContentWrap\" id=\"outerContentWrapTS\"><div class=\"contentWrap\" id=\"contentWrapTS\"><div id=\"moduleContent\"><div id=\"ctl00_ctl00_MainContent_BodyWrapper\"><form id=\"aspnetForm\"><input id=\"__VIEWSTATE\"><div id=\"modulecontent\"><link><div class=\"newCP moduleContentNew\" id=\"JobContent\"><div class=\"contentMain selfClear myListings\" id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_divJobContent\"><div id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_contentUpdatePanel\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnJobId\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnTabNo\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnCategoryID\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSearch\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnMyJobPosting\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnEditProfile\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnAddJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnEditJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnRepostJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnIsAdmin\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnCloseJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnReopenJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnPagination\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnMyJobsSearch\"><input id=\"hdnContinuePay\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSortBy\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSortCategory\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnShowAllJobs\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnIsAddEditJob\"><div class=\"jobsListingContent\"><div class=\"contentMain selfClear\" id=\"divJobContentListingDetails\"><div class=\"detailPanel\" id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_detailUpdatePanel\"><div class=\"featured\"><div class=\"job\">\n<h3>\n<a href=\"/Jobs.aspx?UniqueId=99&amp;From=All&amp;CommunityJobs=False&amp;JobID=202648-Building-Official-IIIIII-451\" id=\"jobTitleFeatured_451\">2026-48 Building Official I/II/III</a></h3>\n<span id=\"jobStartDate_451\" style=\"display:none;\">9/15/2026 12:00:00 PM</span>\n<span>\r\nPosted September 15, 2026 |  Open Until Filled</span>\n<p>\r\nBUILDING OFFICIAL I/II/III       Employment Type: Regular Full-Time     Pay Grade: Level 1 Building Official – $43.65 - $51.51 per hour    Level 2 Building Official... <a href=\"/Jobs.aspx?UniqueId=99&amp;From=All&amp;CommunityJobs=False&amp;JobID=202648-Building-Official-IIIIII-451\">Full Description<span class=\"visuallyhidden\"> for 2026-48 Building Official I/II/III</span></a></p>\n</div></div></div></div></div></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></div></div></div></link></div></input></form></div></div></div></div></div></div></div></div></div></div></div></input><input id=\"hdnStructureID\"><div class=\"outer-wrap\" id=\"outer-wrap\"><div class=\"inner-wrap\" id=\"inner-wrap\"><div id=\"bodyWrapper\"><div id=\"bodyContainerTS\"><div id=\"mainContainerTS\"><div class=\"siteWrap\"><div class=\"mainWrap\" id=\"mainWrapTS\"><div class=\"outerContentWrap\" id=\"outerContentWrapTS\"><div class=\"contentWrap\" id=\"contentWrapTS\"><div id=\"moduleContent\"><div id=\"ctl00_ctl00_MainContent_BodyWrapper\"><form id=\"aspnetForm\"><input id=\"__VIEWSTATE\"><div id=\"modulecontent\"><link><div class=\"newCP moduleContentNew\" id=\"JobContent\"><div class=\"contentMain selfClear myListings\" id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_divJobContent\"><div id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_contentUpdatePanel\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnJobId\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnTabNo\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnCategoryID\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSearch\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnMyJobPosting\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnEditProfile\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnAddJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnEditJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnRepostJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnIsAdmin\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnCloseJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnReopenJob\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnPagination\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnMyJobsSearch\"><input id=\"hdnContinuePay\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSortBy\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnSortCategory\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnShowAllJobs\"><input id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_hdnIsAddEditJob\"><div class=\"jobsListingContent\"><div class=\"contentMain selfClear\" id=\"divJobContentListingDetails\"><div class=\"detailPanel\" id=\"ctl00_ctl00_MainContent_ModuleContent_ctl00_detailUpdatePanel\"><div class=\"listing listingLink\" id=\"cat104\"><input id=\"RssBehaviorAddItems.104\"><div id=\"104\"><input id=\"CategoryID.453\"><div class=\"job first\">\n<h3><a href=\"/Jobs.aspx?UniqueId=104&amp;From=All&amp;CommunityJobs=False&amp;JobID=202649-Casual-Police-Records-Clerk-453\" id=\"jobTitle_453\">2026-49 Casual Police Records Clerk</a></h3>\n<span id=\"jobStartDate_453\" style=\"display:none;\">9/18/2026 2:00:00 PM</span>\n<span>Posted September 18, 2026 2:00 PM |  Closes October 21, 2026 4:30 PM</span><p>CASUAL POLICE RECORDS CLERK       Employment Type: Casual     Pay Grade: PG 15 $31.57 - $37.09    Hours of Work: 8:30-4:30    Competition Number: 2026-49    Closing Date:... <a href=\"/Jobs.aspx?UniqueId=104&amp;From=All&amp;CommunityJobs=False&amp;JobID=202649-Casual-Police-Records-Clerk-453\">Full Description<span class=\"visuallyhidden\"> for 2026-49 Casual Police Records Clerk</span></a></p>\n</div></input></div></input></div></div></div></div></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></div></div></div></link></div></input></form></div></div></div></div></div></div></div></div></div></div></div></input></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://whiterockcity.ca",
+    "explanation": "Official employer homepage: https://whiterockcity.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.whiterockcity.ca/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=202648-Building-Official-IIIIII-451",
+      "https://www.whiterockcity.ca/Jobs.aspx?UniqueId=104&From=All&CommunityJobs=False&JobID=202649-Casual-Police-Records-Clerk-453",
+      "https://www.whiterockcity.ca/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=202652-Foreperson-Trades-Mechanic-455"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-richmond-hill",
+  "name": "City of Richmond Hill",
+  "aliases": [],
+  "website_url": "https://richmondhill.ca",
+  "logo_url": "https://www.richmondhill.ca/Common/apple-touch-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hudbay-minerals",
+  "name": "Hudbay Minerals",
+  "aliases": [],
+  "website_url": "https://hudbayminerals.com",
+  "logo_url": "https://s23.q4cdn.com/405985100/files/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

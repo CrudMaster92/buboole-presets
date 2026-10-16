@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cornwall-community-hospital",
+  "name": "Cornwall Community Hospital",
+  "aliases": [],
+  "website_url": "https://cornwallhospital.ca",
+  "logo_url": "https://cornwallhospital.ca/uploads/favicon/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

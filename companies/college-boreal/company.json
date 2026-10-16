@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "college-boreal",
+  "name": "College Boreal",
+  "aliases": [],
+  "website_url": "https://collegeboreal.ca",
+  "logo_url": "https://collegeboreal.ca/wp-content/uploads/2023/06/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

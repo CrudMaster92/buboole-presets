@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "dundee-precious-metals",
+  "company_id": "dundee-precious-metals",
+  "revision": 1,
+  "label": "Dundee Precious Metals public careers",
+  "careers_url": "https://dpmmetals.com/careers/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Dundee Precious Metals",
+    "careers_url": "https://dpmmetals.com/careers/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "dpmmetals.com"
+    ],
+    "request": {
+      "url": "https://dpmmetals.com/careers/careers/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "div.text-brand-slate:has(a[href$=\".pdf\"])",
+      "title": "a[href$=\".pdf\"]",
+      "link": "a[href$=\".pdf\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

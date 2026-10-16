@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "london-hydro",
+  "name": "London Hydro",
+  "aliases": [],
+  "website_url": "https://londonhydro.com",
+  "logo_url": "https://www.londonhydro.com/themes/custom/de_theme/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

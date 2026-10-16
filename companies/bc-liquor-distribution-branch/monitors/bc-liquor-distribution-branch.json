@@ -1,0 +1,67 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "bc-liquor-distribution-branch",
+  "company_id": "bc-liquor-distribution-branch",
+  "revision": 1,
+  "label": "BC Liquor Distribution Branch public careers",
+  "careers_url": "https://bcliquorstores.prevueaps.ca/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "BC Liquor Distribution Branch",
+    "careers_url": "https://bcliquorstores.prevueaps.ca/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "bcliquorstores.prevueaps.ca"
+    ],
+    "request": {
+      "url": "https://bcliquorstores.prevueaps.ca/core/jobs/814",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "getParams": "{}"
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "data.jobs",
+      "source_id": "id",
+      "title": "title",
+      "location": "jobLocation",
+      "url": "jobUrl",
+      "posted_date": "startDateRef",
+      "employment_type": "employmentType",
+      "salary_min": "minSalary",
+      "salary_max": "maxSalary"
+    },
+    "metadata": {}
+  }
+}

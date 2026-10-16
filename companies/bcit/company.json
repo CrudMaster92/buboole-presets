@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bcit",
+  "name": "BCIT",
+  "aliases": [],
+  "website_url": "https://bcit.ca",
+  "logo_url": "https://www.bcit.ca/wp-content/uploads/2018/10/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

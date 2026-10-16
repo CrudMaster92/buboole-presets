@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "township-of-langley",
+  "name": "Township of Langley",
+  "aliases": [],
+  "website_url": "https://tol.ca",
+  "logo_url": "https://www.tol.ca/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

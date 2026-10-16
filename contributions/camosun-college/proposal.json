@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "camosun-college",
+    "name": "Camosun College",
+    "aliases": [],
+    "website_url": "https://camosun.ca",
+    "logo_url": "https://camosun.ca:443/apple-touch-icon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "camosun-college",
+    "company_id": "camosun-college",
+    "revision": 1,
+    "label": "Camosun College public careers",
+    "careers_url": "https://camosun.peopleadmin.ca/postings/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Camosun College",
+      "careers_url": "https://camosun.peopleadmin.ca/postings/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "camosun.peopleadmin.ca"
+      ],
+      "request": {
+        "url": "https://camosun.peopleadmin.ca/postings/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "query": "",
+          "page": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "page",
+        "parameter": "page",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-item.job-item-posting, .job-item:not(.job-item-posting):not(:has(.job-item-posting))",
+        "title": "h3 a, .job-title a, h4 a",
+        "link": "h3 a, .job-title a, h4 a",
+        "location": ".job-location",
+        "description": ".job-summary"
+      },
+      "mapping": {},
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://camosun.peopleadmin.ca/postings/search",
+    "fetched_at": "2026-10-15T22:23:03.353470+00:00",
+    "payload": "<html><body><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Assistant to the Director\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/9143\">Assistant to the Director</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              ES1852P\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Indigenous Education &amp; Community Connection Admin Office\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Support Staff\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Continuing Full Time\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              10/26/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                GENERAL STATEMENTThe Assistant to the Director provides a wide range of administrative, research and project management support to the planning, policy and budget development activities of the Division. Under general direction of the Director, designs, implements and monitors office systems and controls which provide reasonable assurance that division/department operations are effective and eff...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/9143\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=9143\" id=\"bookmark_posting_9143\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Library Assistant\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/9142\">Library Assistant</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              ES1851P\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Library\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Support Staff\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Casual\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              10/28/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                GENERAL STATEMENTReporting to the Supervisor, Library Access Services, the Library Assistant carries out circulation duties, issues college identification and provides support to various areas of library operations such as reserves, periodicals, inter-library loan and technical services. As a front-line position, the Library Assistant also opens, closes the library, and monitors security. May b...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/9142\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=9142\" id=\"bookmark_posting_9142\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Applied Research Technologist I\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/9141\">Applied Research Technologist I</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              ES1850P\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Camosun Innovates Admin Office\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Support Staff\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              Term Full Time\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-0\">\n              10/25/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                GENERAL STATEMENTUnder the direct supervision of the Coordinator, Applied Research Projects, the Applied Research Technologist I (ART I) participates on multiple concurrent projects undertaken by Camosun Innovates and performs activities in support of technical product development related to Applied Research projects.The ART I performs core duties as well as the one or more of the specific tech...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/9141\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=9141\" id=\"bookmark_posting_9141\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://camosun.ca",
+    "explanation": "Official employer homepage: https://camosun.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://camosun.peopleadmin.ca/postings/9143",
+      "https://camosun.peopleadmin.ca/postings/9142",
+      "https://camosun.peopleadmin.ca/postings/9141"
+    ]
+  }
+}

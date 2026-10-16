@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ville-de-saint-bruno-de-montarville",
+    "name": "Ville de Saint Bruno de Montarville",
+    "aliases": [],
+    "website_url": "https://stbruno.ca",
+    "logo_url": "https://stbruno.ca/wp-content/themes/saintbruno/img/icons/cropped-site-icon-32x32.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ville-de-saint-bruno-de-montarville",
+    "company_id": "ville-de-saint-bruno-de-montarville",
+    "revision": 1,
+    "label": "Ville de Saint Bruno de Montarville public careers",
+    "careers_url": "https://stbruno.ca/ville/offres-d-emploi/emplois",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Ville de Saint Bruno de Montarville",
+      "careers_url": "https://stbruno.ca/ville/offres-d-emploi/emplois",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "stbruno.ca"
+      ],
+      "request": {
+        "url": "https://stbruno.ca/ville/offres-d-emploi/emplois/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "div.card:has(a[href*=\"/offres\"])",
+        "title": "a[href*=\"/offres\"]",
+        "link": "a[href*=\"/offres\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://stbruno.ca/ville/offres-d-emploi/emplois/",
+    "fetched_at": "2026-10-15T23:23:12.089467+00:00",
+    "payload": "<html><body><main class=\"main main--has-aside\"><div class=\"main__container container\"><div class=\"main__content\"><div class=\"main__content__section\"><div class=\"cards\"><div class=\"card\">\n<a class=\"card__body card__body--no-img\" href=\"https://stbruno.ca/offres-emploi/administrateurtrice-de-systeme-reseau-et-telecommunication/\">\n<div class=\"card__text\">\n<h3 class=\"card__title\">Administrateur(trice) de système, réseau et télécommunication</h3>\n</div>\n</a>\n</div></div></div></div></div></main><main class=\"main main--has-aside\"><div class=\"main__container container\"><div class=\"main__content\"><div class=\"main__content__section\"><div class=\"cards\"><div class=\"card\">\n<a class=\"card__body card__body--no-img\" href=\"https://stbruno.ca/offres-emploi/appariteurtrice-loisir-patinoires-exterieures-3/\">\n<div class=\"card__text\">\n<h3 class=\"card__title\">Appariteur(trice) loisir – Patinoires extérieures</h3>\n</div>\n</a>\n</div></div></div></div></div></main><main class=\"main main--has-aside\"><div class=\"main__container container\"><div class=\"main__content\"><div class=\"main__content__section\"><div class=\"cards\"><div class=\"card\">\n<a class=\"card__body card__body--no-img\" href=\"https://stbruno.ca/offres-emploi/brigadierere-scolaire-remplacante-3/\">\n<div class=\"card__text\">\n<h3 class=\"card__title\">Brigadier(ère) scolaire remplaçant(e)</h3>\n</div>\n</a>\n</div></div></div></div></div></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://stbruno.ca",
+    "explanation": "Official employer homepage: https://stbruno.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://stbruno.ca/offres-emploi/administrateurtrice-de-systeme-reseau-et-telecommunication",
+      "https://stbruno.ca/offres-emploi/appariteurtrice-loisir-patinoires-exterieures-3",
+      "https://stbruno.ca/offres-emploi/brigadierere-scolaire-remplacante-3"
+    ]
+  }
+}

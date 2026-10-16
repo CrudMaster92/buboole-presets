@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brant-community-healthcare-system",
+  "name": "Brant Community Healthcare System",
+  "aliases": [],
+  "website_url": "https://bchsys.org",
+  "logo_url": "https://bchsys-ca.govstack.com/media/jwbp41in/bchs-favicon.png?width=32&height=32",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

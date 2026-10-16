@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "town-of-newmarket",
+  "name": "Town of Newmarket",
+  "aliases": [],
+  "website_url": "https://newmarket.ca",
+  "logo_url": "https://www.newmarket.ca/sites/default/files/Newmarket-Rebranded-Fav-Icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

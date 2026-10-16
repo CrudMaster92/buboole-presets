@@ -1,0 +1,201 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "bc-liquor-distribution-branch",
+    "name": "BC Liquor Distribution Branch",
+    "aliases": [],
+    "website_url": "https://bcldb.com",
+    "logo_url": "https://www.bcldb.com/themes/custom/bcldb/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "bc-liquor-distribution-branch",
+    "company_id": "bc-liquor-distribution-branch",
+    "revision": 1,
+    "label": "BC Liquor Distribution Branch public careers",
+    "careers_url": "https://bcliquorstores.prevueaps.ca/jobs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "BC Liquor Distribution Branch",
+      "careers_url": "https://bcliquorstores.prevueaps.ca/jobs",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "bcliquorstores.prevueaps.ca"
+      ],
+      "request": {
+        "url": "https://bcliquorstores.prevueaps.ca/core/jobs/814",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "getParams": "{}"
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {},
+      "mapping": {
+        "items": "data.jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "jobLocation",
+        "url": "jobUrl",
+        "posted_date": "startDateRef",
+        "employment_type": "employmentType",
+        "salary_min": "minSalary",
+        "salary_max": "maxSalary"
+      },
+      "metadata": {}
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://bcliquorstores.prevueaps.ca/core/jobs/814",
+    "fetched_at": "2026-10-15T23:22:38.351047+00:00",
+    "payload": {
+      "data": {
+        "jobs": [
+          {
+            "id": 31763,
+            "title": "Sales Associate (MR - Auxiliary)",
+            "city": "Whistler",
+            "subdomain": "bcliquorstores",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 814,
+            "startDateRef": "Oct 14, 2026",
+            "endDateRef": "Nov 05, 2026",
+            "untilFilled": 0,
+            "orgTitle": "RA31_Whistler",
+            "parentTitle": null,
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": "Onsite",
+            "employmentType": "Auxiliary",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": null,
+            "payType": null,
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "29.94",
+            "maxSalary": "",
+            "jobLocation": "Whistler, BC, Canada",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://bcliquorstores.prevueaps.ca/jobs/31763"
+          },
+          {
+            "id": 31731,
+            "title": "Sales Associate (MR - Auxiliary)",
+            "city": "Parksville",
+            "subdomain": "bcliquorstores",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 814,
+            "startDateRef": "Oct 08, 2026",
+            "endDateRef": "Oct 29, 2026",
+            "untilFilled": 0,
+            "orgTitle": "RA26_NanaimoNorth",
+            "parentTitle": null,
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": "Onsite",
+            "employmentType": "Auxiliary",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": null,
+            "payType": null,
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "29.94",
+            "maxSalary": "",
+            "jobLocation": "Parksville, BC, Canada, V9P2B7",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://bcliquorstores.prevueaps.ca/jobs/31731"
+          },
+          {
+            "id": 31585,
+            "title": "Sales Associate (SR - Auxiliary)",
+            "city": "Revelstoke",
+            "subdomain": "bcliquorstores",
+            "iso3": "CAN",
+            "abbreviation": "BC",
+            "classification": null,
+            "siteId": 814,
+            "startDateRef": "Oct 07, 2026",
+            "endDateRef": "Oct 28, 2026",
+            "untilFilled": 0,
+            "orgTitle": "BCLS045_Revelstoke",
+            "parentTitle": "BCLDB Single Store",
+            "domainName": "prevueaps.ca",
+            "stateName": "British Columbia",
+            "workplaceType": "Onsite",
+            "employmentType": "Auxiliary",
+            "jobCategory": null,
+            "customCategory": null,
+            "payRate": "",
+            "payType": null,
+            "payTypeFrame": "per hour",
+            "payDetails": "",
+            "minSalary": "29.94",
+            "maxSalary": "",
+            "jobLocation": "Revelstoke, BC, Canada, V0E 2S0",
+            "streetAddress": "",
+            "chatToApplyEnabled": "0",
+            "jobUrl": "https://bcliquorstores.prevueaps.ca/jobs/31585"
+          }
+        ]
+      }
+    }
+  },
+  "ownership": {
+    "company_url": "https://bcldb.com",
+    "explanation": "Official employer homepage: https://bcldb.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://bcliquorstores.prevueaps.ca/jobs/31763",
+      "https://bcliquorstores.prevueaps.ca/jobs/31731",
+      "https://bcliquorstores.prevueaps.ca/jobs/31585"
+    ]
+  }
+}

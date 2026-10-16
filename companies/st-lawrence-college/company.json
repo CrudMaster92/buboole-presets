@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "st-lawrence-college",
+  "name": "St Lawrence College",
+  "aliases": [],
+  "website_url": "https://stlawrencecollege.ca",
+  "logo_url": "https://www.stlawrencecollege.ca/assets/icons/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

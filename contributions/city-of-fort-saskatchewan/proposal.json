@@ -1,0 +1,98 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-fort-saskatchewan",
+    "name": "City of Fort Saskatchewan",
+    "aliases": [],
+    "website_url": "https://fortsask.ca",
+    "logo_url": "https://www.fortsask.ca/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-fort-saskatchewan",
+    "company_id": "city-of-fort-saskatchewan",
+    "revision": 1,
+    "label": "City of Fort Saskatchewan public careers",
+    "careers_url": "https://fortsask.njoyn.com/CL3/xweb/Xweb.asp?CLID=53662&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "City of Fort Saskatchewan",
+      "careers_url": "https://fortsask.njoyn.com/CL3/xweb/Xweb.asp?CLID=53662&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "fortsask.njoyn.com"
+      ],
+      "request": {
+        "url": "https://fortsask.njoyn.com/CL3/xweb/Xweb.asp?CLID=53662&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://fortsask.njoyn.com/CL3/xweb/Xweb.asp?CLID=53662&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:12:42.722636+00:00",
+    "payload": "<html><body><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_text base-bg base-bg-solid p-0\"><div class=\"component-inner\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh4XCBMuJS5ALiReFHcERyZRCCBLeWVEcCJUckggJVoOE2wrKjBoLEUbcRB1BQkbURZUT3IqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53662&amp;Page=JobDetails&amp;Jobid=J1026-0570&amp;BRID=365011&amp;lang=1\" title=\"View job details\">J1026-0570</a></td><td>Clerk I</td><td>Human Resources</td><td>Casual</td><td>October 15, 2026</td><td>October 28, 2026</td></tr></tbody></table></div></div></div></div></div></section></div></div></div></section></main></div><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_text base-bg base-bg-solid p-0\"><div class=\"component-inner\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh4XCBMuJS5ALiReFHcERyZRCCBLeWVEcCJUckggJVoOE2wrKjBoLEUbcRB1BQkbURZUT3IqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53662&amp;Page=JobDetails&amp;Jobid=J1026-0404&amp;BRID=364844&amp;lang=1\" title=\"View job details\">J1026-0404</a></td><td>Child Minding Attendant</td><td>Culture &amp; Recreation</td><td>Casual</td><td>October 14, 2026</td><td>October 27, 2026</td></tr></tbody></table></div></div></div></div></div></section></div></div></div></section></main></div><div id=\"site\"><main id=\"site-content\"><section class=\"content component base-bg base-bg-solid\"><div class=\"container\"><div class=\"row justify-content-between\"><div class=\"content-col left-col col-lg-8 col-12 order-1\"><section class=\"content component usn_cmp_text base-bg base-bg-solid p-0\"><div class=\"component-inner\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"njnSection noborder\"><div class=\"NjnSectionTable\"><table id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=Y1hdSh4XCBMuJS5ALiReFHcERyZRCCBLeWVEcCJUckggJVoOE2wrKjBoLEUbcRB1BQkbURZUT3IqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=53662&amp;Page=JobDetails&amp;Jobid=J1026-0146&amp;BRID=364392&amp;lang=1\" title=\"View job details\">J1026-0146</a></td><td>Program Assistant - Fitness Attendant</td><td>Culture &amp; Recreation</td><td>Casual</td><td>October 7, 2026</td><td>October 20, 2026</td></tr></tbody></table></div></div></div></div></div></section></div></div></div></section></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://fortsask.ca",
+    "explanation": "Official employer homepage: https://fortsask.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://fortsask.njoyn.com/CL3/xweb/xweb.asp?clid=53662&Page=JobDetails&Jobid=J1026-0570&BRID=365011&lang=1",
+      "https://fortsask.njoyn.com/CL3/xweb/xweb.asp?clid=53662&Page=JobDetails&Jobid=J1026-0404&BRID=364844&lang=1",
+      "https://fortsask.njoyn.com/CL3/xweb/xweb.asp?clid=53662&Page=JobDetails&Jobid=J1026-0146&BRID=364392&lang=1"
+    ]
+  }
+}

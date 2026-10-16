@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ecole-de-technologie-superieure",
+  "name": "Ecole de technologie superieure",
+  "aliases": [],
+  "website_url": "https://etsmtl.ca",
+  "logo_url": "https://www.etsmtl.ca/assets/ico/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

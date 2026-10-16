@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dilawri",
+  "name": "Dilawri",
+  "aliases": [],
+  "website_url": "https://dilawri.ca",
+  "logo_url": "https://img.sm360.ca/images/web/dilawri-group-of-companies/3739/favicon-dilawri-ca15693413799321666619685387.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

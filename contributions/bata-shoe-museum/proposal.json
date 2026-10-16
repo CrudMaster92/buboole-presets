@@ -1,0 +1,97 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "bata-shoe-museum",
+    "name": "Bata Shoe Museum",
+    "aliases": [],
+    "website_url": "https://batashoemuseum.ca",
+    "logo_url": "https://batashoemuseum.ca/wp-content/uploads/cropped-BSM_SiteIcon_2026-1-32x32.jpg",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "bata-shoe-museum",
+    "company_id": "bata-shoe-museum",
+    "revision": 1,
+    "label": "Bata Shoe Museum public careers",
+    "careers_url": "https://batashoemuseum.ca/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Bata Shoe Museum",
+      "careers_url": "https://batashoemuseum.ca/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "batashoemuseum.ca"
+      ],
+      "request": {
+        "url": "https://batashoemuseum.ca/careers/",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "strong:has(>a[href$=\".pdf\"])",
+        "title": "a",
+        "link": "a"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://batashoemuseum.ca/careers/",
+    "fetched_at": "2026-10-16T04:07:24.652011+00:00",
+    "payload": "<html><body><div class=\"site\" id=\"page\"><div class=\"site-content\" id=\"content\"><main class=\"site-main\" id=\"main\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-md-8 col-primary\"><div class=\"content-area\" id=\"primary\"><article class=\"post-2537 page type-page status-publish has-post-thumbnail hentry category-about-us\" id=\"post-2537\"><div class=\"entry-content\"><p><strong><a href=\"https://batashoemuseum.ca/wp-content/uploads/Bata-Shoe-Museum_Security-Guard-Job-Posting.pdf\" target=\"_blank\">Security Guard</a></strong></p></div></article></div></div></div></div></main></div></div><div class=\"site\" id=\"page\"><div class=\"site-content\" id=\"content\"><main class=\"site-main\" id=\"main\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-md-8 col-primary\"><div class=\"content-area\" id=\"primary\"><article class=\"post-2537 page type-page status-publish has-post-thumbnail hentry category-about-us\" id=\"post-2537\"><div class=\"entry-content\"><p><strong><a href=\"https://batashoemuseum.ca/wp-content/uploads/Final-Ad-BSM-Curator-of-Indigenous-Collections.pdf\">Curator of Indigenous Collections</a></strong></p></div></article></div></div></div></div></main></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://batashoemuseum.ca",
+    "explanation": "Official employer homepage: https://batashoemuseum.ca. Recorded official careers pages link to this employer ATS board. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://batashoemuseum.ca/wp-content/uploads/Bata-Shoe-Museum_Security-Guard-Job-Posting.pdf",
+      "https://batashoemuseum.ca/wp-content/uploads/Final-Ad-BSM-Curator-of-Indigenous-Collections.pdf"
+    ]
+  }
+}

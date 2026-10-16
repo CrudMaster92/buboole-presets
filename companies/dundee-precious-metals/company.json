@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dundee-precious-metals",
+  "name": "Dundee Precious Metals",
+  "aliases": [
+    "DPM Metals"
+  ],
+  "website_url": "https://dundeeprecious.com",
+  "logo_url": "https://dpmmetals.com/site/templates/build/img/favicon/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

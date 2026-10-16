@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "saskatchewan-polytechnic",
+  "name": "Saskatchewan Polytechnic",
+  "aliases": [],
+  "website_url": "https://saskpolytech.ca",
+  "logo_url": "https://careers.saskpolytech.ca/assets/apple-touch-icon-192x192-a3287ee3c5499c16ba428f569fcb1949ca2bf00598ea119279f8b7376696414a.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

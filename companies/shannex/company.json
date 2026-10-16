@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "shannex",
+  "name": "Shannex",
+  "aliases": [],
+  "website_url": "https://shannex.com",
+  "logo_url": "https://shannex.com/wp-content/uploads/2022/01/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

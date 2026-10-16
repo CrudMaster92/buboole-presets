@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "the-neighbourhood-group-community-services",
+  "company_id": "the-neighbourhood-group-community-services",
+  "revision": 1,
+  "label": "The Neighbourhood Group Community Services public careers",
+  "careers_url": "https://tngcommunityto.org/about-tng/tng-careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "The Neighbourhood Group Community Services",
+    "careers_url": "https://tngcommunityto.org/about-tng/tng-careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "tngcommunityto.org"
+    ],
+    "request": {
+      "url": "https://tngcommunityto.org/about-tng/tng-careers",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li.accordion-item:has(a[href$=\".pdf\"]):not(:has(.accordion-title:-soup-contains(\"Request for\"))):not(:has(.accordion-title:-soup-contains(\"RFP\"))):not(:has(.accordion-title:-soup-contains(\"Volunteer\")))",
+      "title": ".accordion-title",
+      "link": "a[href$=\".pdf\"]",
+      "description": ".text-widget"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

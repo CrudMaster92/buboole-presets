@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "orillia-soldiers-memorial-hospital",
+  "name": "Orillia Soldiers Memorial Hospital",
+  "aliases": [],
+  "website_url": "https://osmh.on.ca",
+  "logo_url": "https://www.osmh.on.ca/site/themes/default_theme/assets/images/favicon/apple-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

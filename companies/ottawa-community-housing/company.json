@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ottawa-community-housing",
+  "name": "Ottawa Community Housing",
+  "aliases": [],
+  "website_url": "https://och-lco.ca",
+  "logo_url": "https://www.och-lco.ca/wp-content/uploads/2023/07/Avatar-Web-1.gif",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "aubainerie",
+  "name": "Aubainerie",
+  "aliases": [],
+  "website_url": "https://aubainerie.com",
+  "logo_url": "https://aubainerie.com/cdn/shop/files/icon_logo_favi_A.png?crop=center&height=32&v=1699458748&width=32",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

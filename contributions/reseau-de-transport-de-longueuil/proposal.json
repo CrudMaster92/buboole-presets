@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "reseau-de-transport-de-longueuil",
+    "name": "Reseau de transport de Longueuil",
+    "aliases": [],
+    "website_url": "https://rtl-longueuil.qc.ca",
+    "logo_url": "https://www.rtl-longueuil.qc.ca/assets/favicon.png",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "reseau-de-transport-de-longueuil",
+    "company_id": "reseau-de-transport-de-longueuil",
+    "revision": 1,
+    "label": "Reseau de transport de Longueuil public careers",
+    "careers_url": "https://rtl.njoyn.com/CL2/xweb/Xweb.asp?CLID=24153&Page=joblisting&lang=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Reseau de transport de Longueuil",
+      "careers_url": "https://rtl.njoyn.com/CL2/xweb/Xweb.asp?CLID=24153&Page=joblisting&lang=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "clients.njoyn.com",
+        "rtl.njoyn.com"
+      ],
+      "request": {
+        "url": "https://rtl.njoyn.com/CL2/xweb/Xweb.asp?CLID=24153&Page=joblisting&lang=1",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(>td>a[href*=\"JobDetails\" i])",
+        "title": "a[href*=\"JobDetails\" i]",
+        "link": "a[href*=\"JobDetails\" i]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "strip_link_session_id": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://rtl.njoyn.com/CL2/xweb/Xweb.asp?CLID=24153&Page=joblisting&lang=1",
+    "fetched_at": "2026-10-15T23:13:09.047266+00:00",
+    "payload": "<html><body><main id=\"main\"><div class=\"page_content_container\"><div class=\"page_content_inner_container\"><div class=\"single_column_section_container normal_padding_top normal_padding_bottom\"><div class=\"single_column_section_inner_container\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"fr-view\"><div class=\"b-table\"><table class=\"b-table__table\" id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9fQhgXCBt7Y3VxRSZRCFFIBRZEcCcve0hYVyoLE2xQWTJuLEobBWcHLiUuQC4kXgkbVhFTTHMqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=24153&amp;Page=JobDetails&amp;Jobid=J0625-0324&amp;BRID=369489&amp;lang=1\" title=\"View job details\">Chef(fe) expertise - Énergie</a></td><td>Project Management / Engineering</td><td class=\"jobtypeValue\">PP</td></tr></tbody></table></div></div></div></div></div></div></div></div></main><main id=\"main\"><div class=\"page_content_container\"><div class=\"page_content_inner_container\"><div class=\"single_column_section_container normal_padding_top normal_padding_bottom\"><div class=\"single_column_section_inner_container\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"fr-view\"><div class=\"b-table\"><table class=\"b-table__table\" id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9fQhgXCBt7Y3VxRSZRCFFIBRZEcCcve0hYVyoLE2xQWTJuLEobBWcHLiUuQC4kXgkbVhFTTHMqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=24153&amp;Page=JobDetails&amp;Jobid=J0626-0233&amp;BRID=380138&amp;lang=1\" title=\"View job details\">Analyste programmeur(-euse) - Service applicatifs et intégrations</a></td><td>Information Technology</td><td class=\"jobtypeValue\">PP</td></tr></tbody></table></div></div></div></div></div></div></div></div></main><main id=\"main\"><div class=\"page_content_container\"><div class=\"page_content_inner_container\"><div class=\"single_column_section_container normal_padding_top normal_padding_bottom\"><div class=\"single_column_section_inner_container\"><div class=\"njoynPageContainer jobListing\" id=\"njoynPageContainer\"><div class=\"njnPageSection noborder\"><div class=\"fr-view\"><div class=\"b-table\"><table class=\"b-table__table\" id=\"searchtable\"><tbody><tr><td><a href=\"xweb.asp?tbtoken=ZV9fQhgXCBt7Y3VxRSZRCFFIBRZEcCcve0hYVyoLE2xQWTJuLEobBWcHLiUuQC4kXgkbVhFTTHMqWA%3D%3D&amp;chk=ZVpaShw%3D&amp;clid=24153&amp;Page=JobDetails&amp;Jobid=J0826-0042&amp;BRID=381644&amp;lang=1\" title=\"View job details\">Stagiaire en gestion des ressources humaines</a></td><td>Human Resources</td><td class=\"jobtypeValue\">INT</td></tr></tbody></table></div></div></div></div></div></div></div></div></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://rtl-longueuil.qc.ca",
+    "explanation": "Official employer homepage: https://rtl-longueuil.qc.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://rtl.njoyn.com/CL2/xweb/xweb.asp?clid=24153&Page=JobDetails&Jobid=J0625-0324&BRID=369489&lang=1",
+      "https://rtl.njoyn.com/CL2/xweb/xweb.asp?clid=24153&Page=JobDetails&Jobid=J0626-0233&BRID=380138&lang=1",
+      "https://rtl.njoyn.com/CL2/xweb/xweb.asp?clid=24153&Page=JobDetails&Jobid=J0826-0042&BRID=381644&lang=1"
+    ]
+  }
+}

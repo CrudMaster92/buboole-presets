@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "b2gold",
+  "company_id": "b2gold",
+  "revision": 1,
+  "label": "B2Gold public careers",
+  "careers_url": "https://careers.b2gold.com/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "B2Gold",
+    "careers_url": "https://careers.b2gold.com/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.b2gold.com"
+    ],
+    "request": {
+      "url": "https://careers.b2gold.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "q": "",
+        "startrow": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "startrow",
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": "a.jobTitle-link",
+      "link": "a.jobTitle-link",
+      "location": ".jobLocation",
+      "posted_date": ".jobDate"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

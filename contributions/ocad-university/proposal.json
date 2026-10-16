@@ -1,0 +1,99 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ocad-university",
+    "name": "OCAD University",
+    "aliases": [],
+    "website_url": "https://ocadu.ca",
+    "logo_url": "https://www.ocadu.ca/themes/custom/ocad/favicon.ico",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ocad-university",
+    "company_id": "ocad-university",
+    "revision": 1,
+    "label": "OCAD University public careers",
+    "careers_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=OCADU&cws=37",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+        "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "OCAD University",
+      "careers_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=OCADU&cws=37",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "tre.tbe.taleo.net"
+      ],
+      "request": {
+        "url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=OCADU&cws=37",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".oracletaleocwsv2-accordion-head-info",
+        "title": "a.viewJobLink",
+        "link": "a.viewJobLink",
+        "location": "div:last-child"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=OCADU&cws=37",
+    "fetched_at": "2026-10-15T22:23:09.291226+00:00",
+    "payload": "<html><body><div class=\"cws-v2\" id=\"oracletaleocwsv2-wrapper\"><link><section><div class=\"container-fluid\"><div class=\"oracletaleocwsv2-accordion-group oracletaleocwsv2-has-footer\"><div class=\"scroll\"><div class=\"oracletaleocwsv2-accordion oracletaleocwsv2-accordion-expandable clearfix\"><div class=\"oracletaleocwsv2-accordion-block\"><div class=\"oracletaleocwsv2-accordion-head\"><div class=\"oracletaleocwsv2-accordion-head-info\">\n<h4 class=\"oracletaleocwsv2-head-title\"><a class=\"viewJobLink\" href=\"https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&amp;cws=37&amp;rid=3880\">Black Student Community Animator</a></h4>\n<div tabindex=\"0\">Administrative Staff</div>\n<div tabindex=\"0\">Temporary/Contract</div>\n<div tabindex=\"0\">Student Affairs</div>\n</div></div></div></div></div></div></div></section></link></div><div class=\"cws-v2\" id=\"oracletaleocwsv2-wrapper\"><link><section><div class=\"container-fluid\"><div class=\"oracletaleocwsv2-accordion-group oracletaleocwsv2-has-footer\"><div class=\"scroll\"><div class=\"oracletaleocwsv2-accordion oracletaleocwsv2-accordion-expandable clearfix\"><div class=\"oracletaleocwsv2-accordion-block\"><div class=\"oracletaleocwsv2-accordion-head\"><div class=\"oracletaleocwsv2-accordion-head-info\">\n<h4 class=\"oracletaleocwsv2-head-title\"><a class=\"viewJobLink\" href=\"https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&amp;cws=37&amp;rid=3861\">Curriculum Specialist, Indigenous Learning</a></h4>\n<div tabindex=\"0\">Administrative Staff</div>\n<div tabindex=\"0\">Temporary/Contract</div>\n<div tabindex=\"0\">Centre for Learning and Teaching</div>\n</div></div></div></div></div></div></div></section></link></div><div class=\"cws-v2\" id=\"oracletaleocwsv2-wrapper\"><link><section><div class=\"container-fluid\"><div class=\"oracletaleocwsv2-accordion-group oracletaleocwsv2-has-footer\"><div class=\"scroll\"><div class=\"oracletaleocwsv2-accordion oracletaleocwsv2-accordion-expandable clearfix\"><div class=\"oracletaleocwsv2-accordion-block\"><div class=\"oracletaleocwsv2-accordion-head\"><div class=\"oracletaleocwsv2-accordion-head-info\">\n<h4 class=\"oracletaleocwsv2-head-title\"><a class=\"viewJobLink\" href=\"https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&amp;cws=37&amp;rid=3899\">Director, Strategic Communications</a></h4>\n<div tabindex=\"0\">Administrative Management</div>\n<div tabindex=\"0\">Temporary/Contract</div>\n<div tabindex=\"0\">Marketing &amp; Communications</div>\n</div></div></div></div></div></div></div></section></link></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://ocadu.ca",
+    "explanation": "Official employer homepage: https://ocadu.ca. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3880",
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3861",
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3899"
+    ]
+  }
+}

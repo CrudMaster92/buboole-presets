@@ -1,0 +1,100 @@
+{
+  "base_commit": "286560f6cb37959732b5c582bd5769594248b5ac",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "aubainerie",
+    "name": "Aubainerie",
+    "aliases": [],
+    "website_url": "https://aubainerie.com",
+    "logo_url": "https://aubainerie.com/cdn/shop/files/icon_logo_favi_A.png?crop=center&height=32&v=1699458748&width=32",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "aubainerie",
+    "company_id": "aubainerie",
+    "revision": 1,
+    "label": "Aubainerie public careers",
+    "careers_url": "https://carrieres.magasins.aubainerie.com/jobs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local validation only; trusted upstream review and publication are pending.",
+        "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+        "This source is explicitly partial; jobs not observed in this listing must not be inferred closed."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Aubainerie",
+      "careers_url": "https://carrieres.magasins.aubainerie.com/jobs",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "carrieres.magasins.aubainerie.com"
+      ],
+      "request": {
+        "url": "https://carrieres.magasins.aubainerie.com/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "page": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "page",
+        "parameter": "page",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": null,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li:has(a[href*=\"/jobs/\"])",
+        "title": "a[href*=\"/jobs/\"]",
+        "link": "a[href*=\"/jobs/\"]",
+        "location": ".text-md"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://carrieres.magasins.aubainerie.com/jobs",
+    "fetched_at": "2026-10-15T22:44:59.622732+00:00",
+    "payload": "<html><body><main class=\"flex flex-col grow outline-hidden\" id=\"main-content\"><section class=\"block--jobs jobs-page bg-company-primary text-company-primary\" id=\"section-1660378\"><turbo-frame id=\"jobs_list\"><div class=\"w-full text-lg relative pb-80 @lg:pb-0 @lg:border-b @lg:border-block-base-text/15\" id=\"jobs\"><div class=\"relative @lg:grid @lg:grid-rows-[auto_1fr] @lg:grid-cols-[60%_40%] @2xl:grid-cols-[50%_50%] @lg:h-[calc(95vh-84px)]\"><div class=\"bg-company-primary relative z-career-jobs-list jobs-list-container pt-32 @lg:pt-40 shadow-[1px_-40px_38px_0px_rgba(0,0,0,0.1)] block-padding-x @lg:basis-[60%] @2xl:basis-[50%] @lg:pt-48! @lg:pb-80 @lg:overflow-auto @lg:h-full @lg:max-h-[1440px] @lg:shadow-none\"><div><div class=\"block-max-w--lg mx-auto text-lg\"><ul class=\"company-links\" id=\"jobs_list_container\"><li class=\"w-full\">\n<div class=\"relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg\">\n<a class=\"@sm:line-clamp-2 flex\" data-turbo=\"false\" href=\"https://carrieres.magasins.aubainerie.com/jobs/672506-mise-en-marche-et-presentation-visuelle-temps-plein\">\n<span class=\"absolute inset-0\"></span>\n      Mise en marché et présentation visuelle - Temps plein\n</a>\n<div class=\"text-md mt-4\">\n<span>Magasins</span>\n<span class=\"mx-[2px]\">·</span>\n<span>Magasin Mont-Laurier (70)</span>\n</div>\n</div>\n<span class=\"bg-gradient-block-base-border block h-px w-full\"></span>\n</li></ul></div></div></div></div></div></turbo-frame></section></main><main class=\"flex flex-col grow outline-hidden\" id=\"main-content\"><section class=\"block--jobs jobs-page bg-company-primary text-company-primary\" id=\"section-1660378\"><turbo-frame id=\"jobs_list\"><div class=\"w-full text-lg relative pb-80 @lg:pb-0 @lg:border-b @lg:border-block-base-text/15\" id=\"jobs\"><div class=\"relative @lg:grid @lg:grid-rows-[auto_1fr] @lg:grid-cols-[60%_40%] @2xl:grid-cols-[50%_50%] @lg:h-[calc(95vh-84px)]\"><div class=\"bg-company-primary relative z-career-jobs-list jobs-list-container pt-32 @lg:pt-40 shadow-[1px_-40px_38px_0px_rgba(0,0,0,0.1)] block-padding-x @lg:basis-[60%] @2xl:basis-[50%] @lg:pt-48! @lg:pb-80 @lg:overflow-auto @lg:h-full @lg:max-h-[1440px] @lg:shadow-none\"><div><div class=\"block-max-w--lg mx-auto text-lg\"><ul class=\"company-links\" id=\"jobs_list_container\"><li class=\"w-full\">\n<div class=\"relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg\">\n<a class=\"@sm:line-clamp-2 flex\" data-turbo=\"false\" href=\"https://carrieres.magasins.aubainerie.com/jobs/621873-conseiller-ere-a-la-vente-et-caissier-ere-temps-plein\">\n<span class=\"absolute inset-0\"></span>\n      Conseiller(ère) à la vente et caissier(ère) (temps plein)\n</a>\n<div class=\"text-md mt-4\">\n<span>Magasins</span>\n<span class=\"mx-[2px]\">·</span>\n<span>Magasin Val-d'Or (011)</span>\n</div>\n</div>\n<span class=\"bg-gradient-block-base-border block h-px w-full\"></span>\n</li></ul></div></div></div></div></div></turbo-frame></section></main><main class=\"flex flex-col grow outline-hidden\" id=\"main-content\"><section class=\"block--jobs jobs-page bg-company-primary text-company-primary\" id=\"section-1660378\"><turbo-frame id=\"jobs_list\"><div class=\"w-full text-lg relative pb-80 @lg:pb-0 @lg:border-b @lg:border-block-base-text/15\" id=\"jobs\"><div class=\"relative @lg:grid @lg:grid-rows-[auto_1fr] @lg:grid-cols-[60%_40%] @2xl:grid-cols-[50%_50%] @lg:h-[calc(95vh-84px)]\"><div class=\"bg-company-primary relative z-career-jobs-list jobs-list-container pt-32 @lg:pt-40 shadow-[1px_-40px_38px_0px_rgba(0,0,0,0.1)] block-padding-x @lg:basis-[60%] @2xl:basis-[50%] @lg:pt-48! @lg:pb-80 @lg:overflow-auto @lg:h-full @lg:max-h-[1440px] @lg:shadow-none\"><div><div class=\"block-max-w--lg mx-auto text-lg\"><ul class=\"company-links\" id=\"jobs_list_container\"><li class=\"w-full\">\n<div class=\"relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg\">\n<a class=\"@sm:line-clamp-2 flex\" data-turbo=\"false\" href=\"https://carrieres.magasins.aubainerie.com/jobs/720730-conseiller-ere-a-la-vente-et-caissier-ere-temps-plein\">\n<span class=\"absolute inset-0\"></span>\n      Conseiller(ère) à la vente et caissier(ère) (temps plein)\n</a>\n<div class=\"text-md mt-4\">\n<span>Magasins</span>\n<span class=\"mx-[2px]\">·</span>\n<span>Magasin Entrepôt Rimouski (16)</span>\n</div>\n</div>\n<span class=\"bg-gradient-block-base-border block h-px w-full\"></span>\n</li></ul></div></div></div></div></div></turbo-frame></section></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://aubainerie.com",
+    "explanation": "Official employer homepage: https://aubainerie.com. Dedicated employer-branded public ATS board corroborated with employer identity and live job samples; direct official outbound ATS linkage was not captured by automated discovery. Maintainer must confirm ownership. Consolidated employer scope; this proposal does not relabel an unrelated parent feed as a subsidiary. Dated local findings are provisional.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://carrieres.magasins.aubainerie.com/jobs/672506-mise-en-marche-et-presentation-visuelle-temps-plein",
+      "https://carrieres.magasins.aubainerie.com/jobs/621873-conseiller-ere-a-la-vente-et-caissier-ere-temps-plein",
+      "https://carrieres.magasins.aubainerie.com/jobs/720730-conseiller-ere-a-la-vente-et-caissier-ere-temps-plein"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groves-memorial-community-hospital",
+  "name": "Groves Memorial Community Hospital",
+  "aliases": [],
+  "website_url": "https://gmch.ca",
+  "logo_url": "https://static.wixstatic.com/media/1c8d43_784b594b76354a068d00015b421b8abe~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/1c8d43_784b594b76354a068d00015b421b8abe~mv2.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

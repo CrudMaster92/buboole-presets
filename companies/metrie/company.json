@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "metrie",
+  "name": "Metrie",
+  "aliases": [],
+  "website_url": "https://metrie.com",
+  "logo_url": "https://www.metrie.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

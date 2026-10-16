@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "national-arts-centre",
+  "name": "National Arts Centre",
+  "aliases": [],
+  "website_url": "https://nac-cna.ca",
+  "logo_url": "https://cdn.nac-cna.ca/img/icons/nac-cna_favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

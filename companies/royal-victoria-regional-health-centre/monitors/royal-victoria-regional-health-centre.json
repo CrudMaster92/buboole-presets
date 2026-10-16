@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "royal-victoria-regional-health-centre",
+  "company_id": "royal-victoria-regional-health-centre",
+  "revision": 1,
+  "label": "Royal Victoria Regional Health Centre public careers",
+  "careers_url": "https://rvh.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Provisional local validation only; trusted upstream review and publication are pending.",
+      "Employer board includes all advertised locations and role families; this is not a Canada-only or major-hub-only inventory.",
+      "This source is explicitly partial; jobs not observed in this listing must not be inferred closed.",
+      "No description was obtained in bounded local detail diagnostics; listing coverage must not be represented as full description coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Royal Victoria Regional Health Centre",
+    "careers_url": "https://rvh.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "rvh.hua.hrsmart.com"
+    ],
+    "request": {
+      "url": "https://rvh.hua.hrsmart.com/hr/ats/JobSearch/viewAll",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href*=\"/Posting/view/\"])",
+      "title": "a[href*=\"/Posting/view/\"]",
+      "link": "a[href*=\"/Posting/view/\"]",
+      "location": "td:nth-of-type(3)",
+      "posted_date": "td:nth-of-type(4)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

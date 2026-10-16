@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bluewater-health",
+  "name": "Bluewater Health",
+  "aliases": [],
+  "website_url": "https://bluewaterhealth.ca",
+  "logo_url": "https://bluewaterhealth.ca/wp-content/uploads/2025/11/BWH-Site-Icon-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

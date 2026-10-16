@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sturgeon-county",
+  "name": "Sturgeon County",
+  "aliases": [],
+  "website_url": "https://sturgeoncounty.ca",
+  "logo_url": "https://www.sturgeoncounty.ca/wp-content/uploads/cropped-sturgeon-county-favicon-32x32.webp",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

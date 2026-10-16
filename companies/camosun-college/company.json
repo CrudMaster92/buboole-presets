@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "camosun-college",
+  "name": "Camosun College",
+  "aliases": [],
+  "website_url": "https://camosun.ca",
+  "logo_url": "https://camosun.ca:443/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
