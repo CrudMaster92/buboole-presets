@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "top-glaciers",
+  "name": "Top Glaciers",
+  "aliases": [],
+  "website_url": "https://www.topglaciers.com/carriere/",
+  "logo_url": "https://topglaciers.com/wp-content/uploads/favicon-2.png",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Official careers page exposes departments and a form, but no current job records.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

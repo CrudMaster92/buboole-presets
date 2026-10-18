@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dollarama",
+  "name": "Dollarama",
+  "aliases": [],
+  "website_url": "https://jobs.dollarama.com/search/",
+  "logo_url": "https://rmkcdn.successfactors.com/ca1619c4/ad8a88ac-8d44-40c8-aec9-3.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

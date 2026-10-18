@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cielo-verde-quebec",
+  "name": "Cielo Verde Québec",
+  "aliases": [],
+  "website_url": "https://www.cieloverde.ca/en/careers/",
+  "logo_url": "https://www.cieloverde.ca/wp-content/uploads/2025/02/cropped-cielo-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

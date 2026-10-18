@@ -1,0 +1,82 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "super-c",
+  "company_id": "super-c",
+  "revision": 1,
+  "label": "Super C",
+  "careers_url": "https://talent.metro.ca/fr?brandname=Super+C",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-18T21:21:45.900884+00:00",
+    "job_count": 18,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Super C",
+    "careers_url": "https://talent.metro.ca/fr?brandname=Super+C",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "talent.metro.ca",
+      "api.ipify.org"
+    ],
+    "request": {
+      "url": "https://talent.metro.ca/fr?brandname=Super+C",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "brandname",
+          "operator": "equals_ci",
+          "values": [
+            "Super C"
+          ],
+          "label": null
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "value",
+      "source_id": "id",
+      "title": "title",
+      "url": "joburl",
+      "location": "city.0",
+      "employment_type": "jobtype.0",
+      "posted_date": "postedon"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "browser_json_url": "https://talent.metro.ca/api/jobs",
+      "browser_json_method": "POST",
+      "public_browser": true
+    }
+  }
+}

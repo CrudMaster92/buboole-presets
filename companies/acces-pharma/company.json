@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "acces-pharma",
+  "name": "Accès Pharma",
+  "aliases": [],
+  "website_url": "https://www.accespharma.ca/fr/a-propos/emploi",
+  "logo_url": "https://www.accespharma.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tecnic",
+  "name": "TECNIC",
+  "aliases": [],
+  "website_url": "https://tecnic.ca/carrieres/",
+  "logo_url": "https://tecnic.ca/wp-content/uploads/cropped-TEC-Favicon-1x1-1-1-32x32.png",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Official careers page sends current vacancy search to Indeed; the employer site supplies broad career categories.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

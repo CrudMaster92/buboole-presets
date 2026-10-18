@@ -1,0 +1,77 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "osl-retail-services",
+  "company_id": "osl-retail-services",
+  "revision": 1,
+  "label": "OSL Retail Services",
+  "careers_url": "https://oslcareers.com/browse-jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-18T21:22:32.479967+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "removed 60 duplicate source IDs",
+      "description detail enrichment was incomplete for 20 jobs",
+      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "OSL Retail Services",
+    "careers_url": "https://oslcareers.com/browse-jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "oslcareers.com",
+      "fr.oslcareers.com"
+    ],
+    "request": {
+      "url": "https://oslcareers.com/wp-admin/admin-ajax.php",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "action": "osl_ajax_search_response",
+        "country": "Canada",
+        "lang": "fr",
+        "page": 1,
+        "search_query": "",
+        "location": "",
+        "category": "",
+        "position": "",
+        "radius": "",
+        "currentpage": "browse-jobs",
+        "bell": ""
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 4,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".job-listing",
+      "title": ".title a",
+      "link": ".title a",
+      "location": ".location"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 10
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "benny-co",
+  "name": "Benny & Co.",
+  "aliases": [],
+  "website_url": "https://www.benny-co.com/carriere/",
+  "logo_url": "https://www.benny-co.com/wp-content/uploads/2019/06/cropped-Logo-2lignes-512-192x192.jpg",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Official careers page lists generic role descriptions and applications, not current location-specific vacancies.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

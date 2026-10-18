@@ -1,0 +1,196 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-quebec-employers",
+  "revision": 1,
+  "name": "Canadian and Quebec employers",
+  "description": "Requested Canadian employers; employer-wide public sources where available, explicitly regional or partial where limited.",
+  "tags": [
+    "Canada",
+    "Quebec"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "cascades",
+      "monitor_ids": [
+        "cascades"
+      ]
+    },
+    {
+      "company_id": "ice-river-sustainable-solutions",
+      "monitor_ids": [
+        "ice-river-sustainable-solutions"
+      ]
+    },
+    {
+      "company_id": "lacus-innovations",
+      "monitor_ids": [
+        "lacus-innovations"
+      ]
+    },
+    {
+      "company_id": "waste-management",
+      "monitor_ids": [
+        "waste-management"
+      ]
+    },
+    {
+      "company_id": "ville-de-lachute",
+      "monitor_ids": [
+        "ville-de-lachute"
+      ]
+    },
+    {
+      "company_id": "patrick-morin",
+      "monitor_ids": [
+        "patrick-morin"
+      ]
+    },
+    {
+      "company_id": "walmart",
+      "monitor_ids": [
+        "walmart-canada"
+      ]
+    },
+    {
+      "company_id": "super-c",
+      "monitor_ids": [
+        "super-c"
+      ]
+    },
+    {
+      "company_id": "loblaw",
+      "monitor_ids": [
+        "loblaw"
+      ]
+    },
+    {
+      "company_id": "dollarama",
+      "monitor_ids": [
+        "dollarama"
+      ]
+    },
+    {
+      "company_id": "couche-tard",
+      "monitor_ids": [
+        "couche-tard"
+      ]
+    },
+    {
+      "company_id": "jean-coutu",
+      "monitor_ids": [
+        "jean-coutu"
+      ]
+    },
+    {
+      "company_id": "acces-pharma",
+      "monitor_ids": [
+        "acces-pharma"
+      ]
+    },
+    {
+      "company_id": "fbl",
+      "monitor_ids": [
+        "fbl"
+      ]
+    },
+    {
+      "company_id": "sante-quebec-laurentides",
+      "monitor_ids": [
+        "sante-quebec-laurentides"
+      ]
+    },
+    {
+      "company_id": "sir-wilfrid-laurier",
+      "monitor_ids": [
+        "sir-wilfrid-laurier"
+      ]
+    },
+    {
+      "company_id": "osl-retail-services",
+      "monitor_ids": [
+        "osl-retail-services"
+      ]
+    },
+    {
+      "company_id": "orientech",
+      "monitor_ids": [
+        "orientech"
+      ]
+    },
+    {
+      "company_id": "pro-source",
+      "monitor_ids": [
+        "pro-source"
+      ]
+    },
+    {
+      "company_id": "cielo-verde-quebec",
+      "monitor_ids": [
+        "cielo-verde-quebec"
+      ]
+    },
+    {
+      "company_id": "medlog-canada",
+      "monitor_ids": [
+        "medlog-canada"
+      ]
+    },
+    {
+      "company_id": "lachute-subaru",
+      "monitor_ids": [
+        "lachute-subaru"
+      ]
+    },
+    {
+      "company_id": "luxor-collection",
+      "monitor_ids": [
+        "luxor-collection"
+      ]
+    },
+    {
+      "company_id": "groupe-be-well-okeanos",
+      "monitor_ids": [
+        "groupe-be-well-okeanos"
+      ]
+    },
+    {
+      "company_id": "top-glaciers",
+      "monitor_ids": []
+    },
+    {
+      "company_id": "les-portes-ard",
+      "monitor_ids": []
+    },
+    {
+      "company_id": "benny-co",
+      "monitor_ids": []
+    },
+    {
+      "company_id": "brunet",
+      "monitor_ids": []
+    },
+    {
+      "company_id": "tecnic",
+      "monitor_ids": []
+    },
+    {
+      "company_id": "honda-lachute",
+      "monitor_ids": []
+    }
+  ]
+}

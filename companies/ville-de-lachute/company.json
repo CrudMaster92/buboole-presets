@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-lachute",
+  "name": "Ville de Lachute",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/ville-de-lachute-qkjicj",
+  "logo_url": "https://lachute.ca/cont/uploads/2021/03/cropped-favicon-lachute-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

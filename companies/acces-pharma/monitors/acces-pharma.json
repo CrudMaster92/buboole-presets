@@ -1,0 +1,69 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "acces-pharma",
+  "company_id": "acces-pharma",
+  "revision": 1,
+  "label": "Accès Pharma",
+  "careers_url": "https://www.accespharma.ca/fr/a-propos/emploi",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-18T21:21:53.596662+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Accès Pharma",
+    "careers_url": "https://www.accespharma.ca/fr/a-propos/emploi",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "www.accespharma.ca",
+      "api.accespharma.ca",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com"
+    ],
+    "request": {
+      "url": "https://www.accespharma.ca/fr/a-propos/emploi",
+      "method": "GET",
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".block-card-listing__content",
+      "title": "h2",
+      "link": "a.button--secondary",
+      "location": ".block-card-listing__notice"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 10,
+      "wait_selector": ".block-card-listing__content h2",
+      "public_browser": true
+    }
+  }
+}

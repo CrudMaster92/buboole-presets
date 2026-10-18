@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "patrick-morin",
+  "name": "Patrick Morin",
+  "aliases": [],
+  "website_url": "https://recruiting.ultipro.ca/PAT5101PTRK/JobBoard/82626854-ac9e-4565-92e7-ef18ea4c9589/",
+  "logo_url": "https://patrickmorin.com/media/favicon/stores/1/favicon-120_2.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

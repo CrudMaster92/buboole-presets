@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "orientech",
+  "name": "Orientech",
+  "aliases": [],
+  "website_url": "https://orientech.com/about-us/",
+  "logo_url": "https://orientech.com/wp-content/uploads/2020/11/Orientech_Automation_Solutions_2020.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

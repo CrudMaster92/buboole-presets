@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "les-portes-ard",
+  "name": "Les Portes ARD",
+  "aliases": [],
+  "website_url": "https://www.portesard.com/fr/emploi.php",
+  "logo_url": "https://www.portesard.com/images/logo.png",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Official employment page is empty.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

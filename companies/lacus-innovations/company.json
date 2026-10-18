@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lacus-innovations",
+  "name": "Lacus Innovations",
+  "aliases": [],
+  "website_url": "https://embarquesdanslavague.hiringplatform.ca/list/lacus",
+  "logo_url": "https://lacus.ca/wp-content/uploads/2022/05/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

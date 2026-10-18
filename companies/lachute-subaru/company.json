@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lachute-subaru",
+  "name": "Lachute Subaru",
+  "aliases": [],
+  "website_url": "https://app.mynjobs.com/e/lachute_subaru/fr/eyJkIjp0cnVlfQ__",
+  "logo_url": "https://img.sm360.ca/images/web/default/subaru-certified/favicon1608574630219.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-be-well-okeanos",
+  "name": "Groupe Be Well / Okéanos",
+  "aliases": [],
+  "website_url": "https://www.canada-spa.com/",
+  "logo_url": "https://static.wixstatic.com/media/62a4a7_4293e45245bd4f72bed9bc49e25b8d71~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/62a4a7_4293e45245bd4f72bed9bc49e25b8d71~mv2.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

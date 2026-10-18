@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pro-source",
+  "name": "Pro-Source",
+  "aliases": [],
+  "website_url": "https://www.pro-source.org/carri%C3%A8res",
+  "logo_url": "https://static.wixstatic.com/media/bb7a32_189f18c6937a453894bb490196ebe58c~mv2.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

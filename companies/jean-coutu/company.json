@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jean-coutu",
+  "name": "Jean Coutu",
+  "aliases": [],
+  "website_url": "https://talent.jeancoutu.com/fr",
+  "logo_url": "https://talent.jeancoutu.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

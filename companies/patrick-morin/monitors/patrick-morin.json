@@ -1,0 +1,72 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "patrick-morin",
+  "company_id": "patrick-morin",
+  "revision": 1,
+  "label": "Patrick Morin",
+  "careers_url": "https://recruiting.ultipro.ca/PAT5101PTRK/JobBoard/82626854-ac9e-4565-92e7-ef18ea4c9589",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-18T21:21:47.143778+00:00",
+    "job_count": 50,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Patrick Morin",
+    "careers_url": "https://recruiting.ultipro.ca/PAT5101PTRK/JobBoard/82626854-ac9e-4565-92e7-ef18ea4c9589",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "recruiting.ultipro.ca",
+      "ignite.cdn.ultipro.com",
+      "rec-cdn-prod.cdn.ultipro.com"
+    ],
+    "request": {
+      "url": "https://recruiting.ultipro.ca/PAT5101PTRK/JobBoard/82626854-ac9e-4565-92e7-ef18ea4c9589/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html",
+        "User-Agent": "Mozilla/5.0"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "[data-automation=\"opportunity\"]",
+      "title": "a[data-automation=\"job-title\"]",
+      "link": "a[data-automation=\"job-title\"]",
+      "posted_date": "[data-automation=\"opportunity-posted-date\"]",
+      "employment_type": "[data-automation=\"job-hours\"]",
+      "location": "[data-automation=\"physical-location-item\"]",
+      "description": "[data-automation=\"job-brief-description\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 10,
+      "wait_selector": "a[data-automation=\"job-title\"][href]",
+      "public_browser": true
+    }
+  }
+}

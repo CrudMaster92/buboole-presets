@@ -1,0 +1,92 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sir-wilfrid-laurier",
+  "company_id": "sir-wilfrid-laurier",
+  "revision": 1,
+  "label": "Sir-Wilfrid-Laurier",
+  "careers_url": "https://atlas.workland.com/careers/swlauriersb/jobs?page=1",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-18T21:21:57.508757+00:00",
+    "job_count": 3,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Sir-Wilfrid-Laurier",
+    "careers_url": "https://atlas.workland.com/careers/swlauriersb/jobs?page=1",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs-prod.workland.com",
+      "atlas.workland.com"
+    ],
+    "request": {
+      "url": "https://jobs-prod.workland.com/api/v1/job/published-external",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "page": 1,
+        "pageSize": 100,
+        "account_ids": [
+          511756
+        ],
+        "load_with": [
+          "locations",
+          "groups",
+          "types"
+        ]
+      },
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": "pageSize",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "account_id",
+          "operator": "equals_ci",
+          "values": [
+            "511756"
+          ],
+          "label": null
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "data",
+      "source_id": "id",
+      "title": "title",
+      "url": "url",
+      "description": "description",
+      "location": "locations.0.city",
+      "posted_date": "published_externally_at",
+      "employment_type": "types.0.name"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "posting_url_template": "https://atlas.workland.com/work/{source_id}/{url}"
+    }
+  }
+}

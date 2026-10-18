@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-armed-forces",
+  "name": "Canadian Armed Forces",
+  "aliases": [],
+  "website_url": "https://forces.ca/en/careers/",
+  "logo_url": "https://logo.freehire.me/Canadian-Armed-Forces?domain=forces.ca",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

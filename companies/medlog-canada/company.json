@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "medlog-canada",
+  "name": "MEDLOG Canada",
+  "aliases": [],
+  "website_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a5f813e1-0027-4924-ad76-2043f7f936a2&ccId=9201741023460_2&lang=en_CA",
+  "logo_url": "https://logo.freehire.me/MEDLOG?domain=medlog-canada.com",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

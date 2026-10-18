@@ -6,7 +6,7 @@
   "legal_name": null,
   "aliases": [],
   "website_url": "https://oslrs.com/",
-  "logo_url": "https://oslrs.com/wp-content/uploads/2021/12/OSL-Logo-fav.jpg",
+  "logo_url": "https://oslcareers.com/wp-content/uploads/2021/12/OSL-Logo-fav.jpg",
   "facets": {
     "industries": [
       "marketing"
@@ -20,11 +20,5 @@
       "Marketing",
       "Canada"
     ]
-  },
-  "availability": {
-    "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
-    "checked_at": "2026-09-30T00:53:28.032653Z"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-military-recruitment",
+  "revision": 1,
+  "name": "Canadian military recruitment and Coast Guard",
+  "description": "Reviewed public sources. Partial coverage is explicit; recruitment career profiles are labelled separately from vacancy postings.",
+  "tags": [
+    "Canada",
+    "Military"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "canadian-armed-forces",
+      "monitor_ids": [
+        "canadian-armed-forces-careers",
+        "canadian-armed-forces-reserve"
+      ]
+    },
+    {
+      "company_id": "canadian-coast-guard",
+      "monitor_ids": [
+        "canadian-coast-guard"
+      ]
+    }
+  ]
+}

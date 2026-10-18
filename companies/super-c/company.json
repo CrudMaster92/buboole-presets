@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "super-c",
+  "name": "Super C",
+  "aliases": [],
+  "website_url": "https://talent.metro.ca/fr?brandname=Super+C",
+  "logo_url": "https://www.superc.ca/images/main/favicon/superc/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

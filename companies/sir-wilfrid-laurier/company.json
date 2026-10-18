@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sir-wilfrid-laurier",
+  "name": "Sir-Wilfrid-Laurier",
+  "aliases": [],
+  "website_url": "https://atlas.workland.com/careers/swlauriersb/jobs?page=1",
+  "logo_url": "https://www.swlauriersb.qc.ca/wp-content/themes/reptile/static/img/icons/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

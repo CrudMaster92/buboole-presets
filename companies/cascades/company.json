@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cascades",
+  "name": "Cascades",
+  "aliases": [],
+  "website_url": "https://jobs.cascades.com/search/?locale=fr_CA",
+  "logo_url": "https://rmkcdn.successfactors.com/768abc78/45d40ce2-3652-41b9-ad73-2.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

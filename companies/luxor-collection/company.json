@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "luxor-collection",
+  "name": "Luxor Collection",
+  "aliases": [],
+  "website_url": "https://luxorcollection.com/carrieres/",
+  "logo_url": "https://luxorcollection.com/app/themes/Acolyte/assets/img/icons/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

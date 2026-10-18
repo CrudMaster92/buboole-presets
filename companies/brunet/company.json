@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brunet",
+  "name": "Brunet",
+  "aliases": [],
+  "website_url": "https://www.brunet.ca/Carrieres/Recherche.aspx?langtype=3084",
+  "logo_url": "https://www.brunet.ca/cdn/src/img/favicon/brn/v-639178045750000000/favicon.ico",
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "Normal browser province-search POST returned HTTP 403; no access-control bypass attempted.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

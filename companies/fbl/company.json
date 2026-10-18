@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fbl",
+  "name": "FBL",
+  "aliases": [],
+  "website_url": "https://www.fbl.com/fr/carrieres/",
+  "logo_url": "https://www.fbl.com/wp-content/uploads/2025/05/fbl-favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

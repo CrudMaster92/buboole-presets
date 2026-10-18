@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "honda-lachute",
+  "name": "Honda Lachute",
+  "aliases": [],
+  "website_url": "https://www.hondalachute.com/demandes/emplois-automobile.html",
+  "logo_url": "https://www.hondalachute.com/images/Logo/hondalachute-logo-dark.webp",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Official dealer careers page is an application form without individual current vacancies.",
+    "checked_at": "2026-10-18T00:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Quebec"
+    ]
+  }
+}

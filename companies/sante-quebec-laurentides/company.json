@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sante-quebec-laurentides",
+  "name": "Santé Québec – Laurentides",
+  "aliases": [],
+  "website_url": "https://laurentides.carrieresante.gouv.qc.ca/liste-des-offres-demplois/",
+  "logo_url": "https://www.santelaurentides.gouv.qc.ca/fileadmin/templates/piv_SQ/web_logos/png/Logo_SanteQuebec_Couleur_Web.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

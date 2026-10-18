@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ice-river-sustainable-solutions",
+  "name": "Ice River Sustainable Solutions",
+  "aliases": [],
+  "website_url": "https://jobs.dayforcehcm.com/en-US/irss/CANDIDATEPORTAL",
+  "logo_url": "https://iceriversustainablesolutions.com/wp-content/uploads/2026/02/favicon-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}
