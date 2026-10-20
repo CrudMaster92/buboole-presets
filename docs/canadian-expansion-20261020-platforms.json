@@ -1,0 +1,1253 @@
+{
+  "created_at": "2026-10-20T23:37:08.393607+00:00",
+  "companies": 18,
+  "monitors": 18,
+  "logos": 18,
+  "observed_job_records": 297,
+  "sources": [
+    {
+      "id": "123dentist",
+      "name": "123Dentist",
+      "jobs_observed": 20,
+      "pages": 15,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.411847+00:00",
+      "ownership": [
+        {
+          "url": "https://careers.123dentist.com/",
+          "title": "Build Your Dental Career with Us | Careers 123Dentist",
+          "ats_links": [],
+          "career_links": [
+            "https://careers.123dentist.com/",
+            "https://careers.123dentist.com/fr/",
+            "https://careers.123dentist.com/why-us/",
+            "https://careers.123dentist.com/career-path/",
+            "https://careers.123dentist.com/career-path/dentists-and-specialists/",
+            "https://careers.123dentist.com/career-path/dental-hygienists/",
+            "https://careers.123dentist.com/career-path/dental-assistants-admins/",
+            "https://careers.123dentist.com/career-path/corporate/",
+            "https://careers.123dentist.com/career-path/campus/",
+            "https://careers.123dentist.com/referral/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c2a72bdd-3357-40d4-ba1b-c98aada9201f&ccId=9200523617456_2&type=JS&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "123dentist",
+        "name": "123Dentist",
+        "domain": "123dentist.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.7986887,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "123Dentist",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "logo_url": "https://www.123dentist.com/wp-content/uploads/2025/05/cropped-123Dentist-Logomark-32x32.png",
+      "logo_sha256": "e5e36d85485e7932ea67dbf3546599a647cda5f978957217b0eecaa6b431c29b",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Administrator-East Village Dental, Calgary",
+          "location": "AB-473 East Village Dental, Calgary, AB, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c2a72bdd-3357-40d4-ba1b-c98aada9201f&ccId=9200523617456_2&lang=en_CA&jobId=521107"
+        },
+        {
+          "title": "Dental Administrator - Bayview Smile Centre",
+          "location": "ON-314 Altima Bayview Village Dental Centre, North York, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c2a72bdd-3357-40d4-ba1b-c98aada9201f&ccId=9200523617456_2&lang=en_CA&jobId=521136"
+        },
+        {
+          "title": "Assistant Office Manager - 12853",
+          "location": "North York, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c2a72bdd-3357-40d4-ba1b-c98aada9201f&ccId=9200523617456_2&lang=en_CA&jobId=521098"
+        }
+      ],
+      "warnings": [
+        "Description traversal paused; 6 eligible roles resume next run.",
+        "description detail enrichment was incomplete for 14 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "access-alliance-multicultural-health",
+      "name": "Access Alliance Multicultural Health",
+      "jobs_observed": 4,
+      "pages": 5,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.392820+00:00",
+      "ownership": [
+        {
+          "url": "https://accessalliance.ca/about-us/careers-at-access-alliance/",
+          "title": "Work with us – Access Alliance",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA",
+            "https://accessalliance.ca/about-us/careers-at-access-alliance/"
+          ]
+        },
+        {
+          "url": "https://accessalliance.ca/",
+          "title": "Home – Access Alliance",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA",
+            "https://accessalliance.ca/about-us/careers-at-access-alliance/"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "access-alliance-multicultural-health",
+        "name": "Access Alliance Multicultural Health",
+        "domain": "accessalliance.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792106685.8272116,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Access Alliance Multicultural Health",
+          "total": 442,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://accessalliance.ca/wp-content/uploads/2020/06/cropped-favicon-2-32x32.png",
+      "logo_sha256": "ad2953030db56c781b960bec3fb09b2d3b28144e58338a4eb962615d86c44f24",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Nurse Practitioner",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA&jobId=561023"
+        },
+        {
+          "title": "Physician",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA&jobId=561019"
+        },
+        {
+          "title": "Medical Secretary",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA&jobId=560772"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "armtec",
+      "name": "Armtec",
+      "jobs_observed": 20,
+      "pages": 16,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.446953+00:00",
+      "ownership": [
+        {
+          "url": "https://armtec.com/careers/",
+          "title": "Armtec - Careers",
+          "ats_links": [],
+          "career_links": [
+            "https://armtec.com/careers/",
+            "https://armtec.com/careers/#main",
+            "https://armtec.com/carrieres/?lang=fr",
+            "https://armtec.com/careers/#products-main-menu",
+            "https://armtec.com/careers/#solutions-main-menu",
+            "https://armtec.com/careers/#resources-main-menu",
+            "https://armtec.com/careers/#locations_header-menu",
+            "https://armtec.com/careers/#catch-menu",
+            "https://armtec.com/careers/#provinces-main-menu",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=555295&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=606913&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=606893&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=606377&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=605969&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=606240&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=606117&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=603865&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=541438&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=605398&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=605466&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=603816&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=603439&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=555195&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=554565&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&jobId=550580&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "armtec",
+        "name": "Armtec",
+        "domain": "armtec.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102909.087884,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Armtec",
+          "total": 15,
+          "returned": 15
+        }
+      ],
+      "logo_url": "https://armtec.com/wp-content/themes/Armtec/Assets/Ico/favicon.ico",
+      "logo_sha256": "1be0e5bfa2ac6638c48d9a64deeffcebfaf1c63018db1e7d2a82283482450850",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Machine Operator - HDPE Extrusion",
+          "location": "Armtec, Saskatoon, SK, Corman Park, SK, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&lang=en_CA&jobId=555295"
+        },
+        {
+          "title": "Production Labour - Manufacturing",
+          "location": "Armtec, Saskatoon, SK, Corman Park, SK, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&lang=en_CA&jobId=606913"
+        },
+        {
+          "title": "Quality Assurance / Quality Control Technician",
+          "location": "Armtec, St Clet, QC, St-Clet, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=56385b92-402c-477a-89b4-4599bbee0c03&ccId=9200100484959_2&lang=en_CA&jobId=606893"
+        }
+      ],
+      "warnings": [
+        "Description traversal paused; 5 eligible roles resume next run.",
+        "description detail enrichment was incomplete for 15 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "canadian-medical-association",
+      "name": "Canadian Medical Association",
+      "jobs_observed": 2,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.429851+00:00",
+      "ownership": [
+        {
+          "url": "https://www.cma.ca/about-us/careers",
+          "title": "Careers | CMA",
+          "ats_links": [],
+          "career_links": [
+            "https://www.cma.ca/about-us/careers",
+            "https://www.cma.ca/about-us/careers#main-content",
+            "https://www.cma.ca/fr/propos-nous/carrieres",
+            "https://www.drcareers.ca/",
+            "https://recruiting.ultipro.ca/CAN5006CAMD/JobBoard/530dafdc-25d3-49da-b484-53b130441e25/?q=&o=postedDateDesc"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "canadian-medical-association",
+        "name": "Canadian Medical Association",
+        "domain": "cma.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102152.9982367,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Canadian Medical Association",
+          "total": 235,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://www.cma.ca/themes/custom/cma_theme_cma/images/favicon-32x32.png",
+      "logo_sha256": "ef12dcb3ed85679999a5e7063878f7de1e822ff2d6cbff66bfcd89d263761eb4",
+      "with_description": 2,
+      "samples": [
+        {
+          "title": "Vice-President, Communications",
+          "location": "Ottawa",
+          "source_url": "https://recruiting.ultipro.ca/CAN5006CAMD/JobBoard/530dafdc-25d3-49da-b484-53b130441e25/OpportunityDetail?opportunityId=04599ab6-b12e-4ee4-ad94-bb5568c709af"
+        },
+        {
+          "title": "Vice-President, Public Policy",
+          "location": "Ottawa",
+          "source_url": "https://recruiting.ultipro.ca/CAN5006CAMD/JobBoard/530dafdc-25d3-49da-b484-53b130441e25/OpportunityDetail?opportunityId=49d54d33-9f89-495d-a8fe-32a44cfe369b"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count."
+      ]
+    },
+    {
+      "id": "canadian-royalties",
+      "name": "Canadian Royalties",
+      "jobs_observed": 12,
+      "pages": 13,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.431855+00:00",
+      "ownership": [
+        {
+          "url": "https://www.canadianroyalties.com/",
+          "title": "Accueil",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=9201086830591_1&&source=EN",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=9201069367438_1&&source=EN",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=9201576704347_1&&source=EN",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=9201135673196_1&&source=EN",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=9201151696448_1&&source=EN"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "canadian-royalties",
+        "name": "Canadian Royalties",
+        "domain": "canadianroyalties.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102153.6938412,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Canadian Royalties",
+          "total": 235,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://www.canadianroyalties.com/favicon.ico",
+      "logo_sha256": "ba7094c4dc2fb7494c64be99f57242c0e0df9c75fa624cb4b0df05040fff8d3a",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "MM26-24 Soudeur.se",
+          "location": "Salluit, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=954724"
+        },
+        {
+          "title": "MI26-61 Mineur·e Production S/T classe 2 -Dynamiteur·rice",
+          "location": "Salluit, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=954721"
+        },
+        {
+          "title": "Conseiller·ère en acquisition de talents",
+          "location": "Montreal, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4931992c-7d5c-476d-a1ae-432575ceaa10&ccId=19000101_000001&lang=fr_CA&jobId=954720"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 12 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "franklin-empire",
+      "name": "Franklin Empire",
+      "jobs_observed": 10,
+      "pages": 11,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:13.498767+00:00",
+      "ownership": [
+        {
+          "url": "https://franklinempire.com/careers",
+          "title": "Careers",
+          "ats_links": [],
+          "career_links": [
+            "https://franklinempire.com/careers",
+            "https://franklinempire.com/en/careers/",
+            "https://franklinempire.com/careers#contentarea",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8685c2ae-2782-4d1f-88d9-de325c92c000&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "franklin-empire",
+        "name": "Franklin Empire",
+        "domain": "franklinempire.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102909.4342682,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Franklin Empire",
+          "total": 96,
+          "returned": 96
+        }
+      ],
+      "logo_url": "https://franklinempire.com/static/version1792471963/frontend/Franklin/default/en_CA/Magento_Theme/favicon.ico",
+      "logo_sha256": "cc47557dfec0291634d0c1a0983b4c8f4c67ec8cefff73dc4841ccfea7976859",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Assembler",
+          "location": "QUEBEC, Québec, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8685c2ae-2782-4d1f-88d9-de325c92c000&ccId=19000101_000001&lang=en_CA&jobId=550776"
+        },
+        {
+          "title": "Warehouse/Counter Clerk",
+          "location": "Windsor, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8685c2ae-2782-4d1f-88d9-de325c92c000&ccId=19000101_000001&lang=en_CA&jobId=612073"
+        },
+        {
+          "title": "Account Manager",
+          "location": "Newmarket, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8685c2ae-2782-4d1f-88d9-de325c92c000&ccId=19000101_000001&lang=en_CA&jobId=610950"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 10 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "hecla-mining",
+      "name": "Hecla Mining",
+      "jobs_observed": 14,
+      "pages": 15,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:32:15.129470+00:00",
+      "ownership": [
+        {
+          "url": "https://www.hecla.com/current-openings",
+          "title": "Current Openings | Hecla Mining",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=504a8d7d-d303-417f-b3a8-c052ad910668&ccId=19000101_000001&lang=en_US",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2564ac81-064d-45b9-a88d-c949ae3ade8c&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "hecla-mining",
+        "name": "Hecla Mining",
+        "domain": "hecla.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102153.5707352,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Hecla Mining",
+          "total": 7,
+          "returned": 7
+        }
+      ],
+      "logo_url": "https://www.hecla.com/wp-content/uploads/Hecla-Favicon.png",
+      "logo_sha256": "298b229321d6a92a3ac8a01309383d2d5f6568a4ba64887607c41ae67ce18fbf",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Maintenance Supervisor - FIFO from Western Canada",
+          "location": "Vancouver, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2564ac81-064d-45b9-a88d-c949ae3ade8c&ccId=19000101_000001&lang=en_CA&jobId=599003"
+        },
+        {
+          "title": "Warehouse Technician - FIFO from Western Canada",
+          "location": "Vancouver, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2564ac81-064d-45b9-a88d-c949ae3ade8c&ccId=19000101_000001&lang=en_CA&jobId=598904"
+        },
+        {
+          "title": "Environmental Coordinator - FIFO from Western Canada",
+          "location": "Vancouver, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2564ac81-064d-45b9-a88d-c949ae3ade8c&ccId=19000101_000001&lang=en_CA&jobId=597758"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 14 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger.",
+        "Pins the employer-linked Canadian board; the separate US board was excluded from this source."
+      ]
+    },
+    {
+      "id": "inrs",
+      "name": "INRS",
+      "jobs_observed": 8,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:34:00.662282+00:00",
+      "ownership": [
+        {
+          "url": "https://inrs.ca/",
+          "title": "INRS | Institut national de la recherche scientifique | Recherche et formation de 2e et 3e cycles",
+          "ats_links": [],
+          "career_links": [
+            "https://inrs.ca/centre-ruralites-durables/etudes-et-carrieres",
+            "https://inrs.ca/offres-d-emploi/faire-carriere-a-l-inrs/",
+            "https://atlas.workland.com/careers/inrs/jobs?page=1",
+            "https://inrs.ca/offres-d-emploi/equite-et-diversite/",
+            "https://inrs.ca/offres-d-emploi/conventions-collectives/"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "inrs",
+        "name": "INRS",
+        "domain": "inrs.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102152.267051,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "INRS",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "logo_url": "https://inrs.ca/wp-content/themes/inrs/favicon.ico",
+      "logo_sha256": "86686f0d000a9ff71d18c1b71f78f7e4867bcf76a3db4fe861587d68c69c563a",
+      "with_description": 8,
+      "samples": [
+        {
+          "title": "Agente administrative ou agent administratif (26079-92803)",
+          "location": "Montréal",
+          "source_url": "https://atlas.workland.com/work/92803/agente-administrative-ou-agent-administratif-26079-92803"
+        },
+        {
+          "title": "Responsable de projets (26080-92868)",
+          "location": "Baie-Saint-Paul",
+          "source_url": "https://atlas.workland.com/work/92868/responsable-de-projets-26080-92868"
+        },
+        {
+          "title": "Agente administrative ou agent administratif - Dossiers étudiants, ressources humaines et opérations (26078-92695)",
+          "location": "Baie-Saint-Paul",
+          "source_url": "https://atlas.workland.com/work/92695/agente-administrative-ou-agent-administratif-dossiers-etudiants-ressources-humaines-et-operations-26078-92695"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "Only Contract, Regular Position and Replacement categories are included. Application Bank records and uncategorized entries are excluded; other categories remain outside this scoped source."
+      ]
+    },
+    {
+      "id": "ivari",
+      "name": "ivari",
+      "jobs_observed": 13,
+      "pages": 14,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:28:15.651574+00:00",
+      "ownership": [
+        {
+          "url": "https://ivari.ca/about-ivari/about-us/careers/",
+          "title": "Careers - ivari",
+          "ats_links": [],
+          "career_links": [
+            "https://ivari.ca/about-ivari/about-us/careers/",
+            "https://ivari.ca/fr/a-propos-divari/notre-compagnie/carrieres/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=05d7ac3e-a852-4453-9167-99329c9e7ced&ccId=19000101_000001&lang=en_CA",
+            "https://workforcenow.adp.com/jobs/apply/posting.html?client=ivari&ccId=19000101_000001&type=MP&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "ivari",
+        "name": "ivari",
+        "domain": "ivari.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.961506,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "ivari",
+          "total": 14,
+          "returned": 14
+        }
+      ],
+      "logo_url": "https://ivari.ca/files/2021/03/favicon-80x80.png",
+      "logo_sha256": "f1eb5b032eb48ee135816ec33e85e8409502ea0b7faa87ff16f9d4e9b99a910e",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Associate Sales Director",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=05d7ac3e-a852-4453-9167-99329c9e7ced&ccId=19000101_000001&lang=en_CA&jobId=596376"
+        },
+        {
+          "title": "Associate Sales Director",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=05d7ac3e-a852-4453-9167-99329c9e7ced&ccId=19000101_000001&lang=en_CA&jobId=592033"
+        },
+        {
+          "title": "Senior Consultant, Underwriting, Claims & Risk Management",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=05d7ac3e-a852-4453-9167-99329c9e7ced&ccId=19000101_000001&lang=en_CA&jobId=595785"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 13 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "killam-apartment-reit",
+      "name": "Killam Apartment REIT",
+      "jobs_observed": 18,
+      "pages": 19,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:34:00.665318+00:00",
+      "ownership": [
+        {
+          "url": "https://www.killamreit.com/killam-careers",
+          "title": "Killam Apartment REIT | Careers",
+          "ats_links": [],
+          "career_links": [
+            "https://www.killamreit.com/killam-careers#main-content",
+            "https://www.killamreit.com/killam-careers",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6eaf9604-6e73-4bf3-94a5-c79e79a8ccad&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "killam-apartment-reit",
+        "name": "Killam Apartment REIT",
+        "domain": "killamreit.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.6966522,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Killam Apartment REIT",
+          "total": 2,
+          "returned": 2
+        }
+      ],
+      "logo_url": "https://www.killamreit.com/favicon.ico",
+      "logo_sha256": "e721f2900d389266c086e4bdb544330c0d590ceb33180301e4f0838e25fe6d14",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Resident Manager, Woodbury - Fredericton, NB",
+          "location": "Fredericton, NB, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6eaf9604-6e73-4bf3-94a5-c79e79a8ccad&ccId=19000101_000001&lang=en_CA&jobId=10701"
+        },
+        {
+          "title": "Maintenance Technician - Victoria, BC",
+          "location": "Victoria, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6eaf9604-6e73-4bf3-94a5-c79e79a8ccad&ccId=19000101_000001&lang=en_CA&jobId=10622"
+        },
+        {
+          "title": "Maintenance Technician (Term) - Dartmouth, NS",
+          "location": "Dartmouth, NS, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6eaf9604-6e73-4bf3-94a5-c79e79a8ccad&ccId=19000101_000001&lang=en_CA&jobId=10621"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 18 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger.",
+        "Only explicitly categorized Full Time, Part Time and Temporary positions are included. The uncategorized Future Opportunities form is excluded."
+      ]
+    },
+    {
+      "id": "lifemark-health-group",
+      "name": "Lifemark Health Group",
+      "jobs_observed": 20,
+      "pages": 21,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:03.529974+00:00",
+      "ownership": [
+        {
+          "url": "https://www.lifemark.ca/",
+          "title": "Physiotherapy, Massage Therapy, Occupational Therapy, Chiropractic, Kinesiology, Sport Medicine | Lifemark",
+          "ats_links": [],
+          "career_links": [
+            "https://www.lifemark.ca/careers/current-opportunities",
+            "https://www.lifemark.ca/careers",
+            "https://www.lifemark.ca/careers/physiotherapists",
+            "https://www.lifemark.ca/careers/occupational-therapists",
+            "https://www.lifemark.ca/careers/massage-therapists",
+            "https://www.lifemark.ca/careers/mental-health-professionals",
+            "https://www.lifemark.ca/careers/additional-healthcare-professionals",
+            "https://www.lifemark.ca/careers/corporate",
+            "https://www.lifemark.ca/careers/administration",
+            "https://www.lifemark.ca/careers/vocational-rehabilitation",
+            "https://www.lifemark.ca/careers/the-lifemark-difference",
+            "https://www.lifemark.ca/careers/student-and-graduates",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?client=pedjc&ccId=19000101_000001&cid=fece8f4b-0227-4caf-9cd1-0b464217347b&lang=en_CA&source=CC2&selectedMenuKey=CareerCenter"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "lifemark-health-group",
+        "name": "Lifemark Health Group",
+        "domain": "lifemark.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.7916856,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Lifemark Health Group",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "logo_url": "https://www.lifemark.ca/themes/custom/global/favicon.ico",
+      "logo_sha256": "beb01ca25bc1eacc22890a58a70701a7c337016c05685ae7b1dbd0a688896390",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Psychologist",
+          "location": "Surrey, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fece8f4b-0227-4caf-9cd1-0b464217347b&ccId=19000101_000001&lang=en_CA&jobId=603603"
+        },
+        {
+          "title": "Administrative Assistant",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fece8f4b-0227-4caf-9cd1-0b464217347b&ccId=19000101_000001&lang=en_CA&jobId=604276"
+        },
+        {
+          "title": "Physiotherapist",
+          "location": "363 Triangle Physio Etobicoke, Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fece8f4b-0227-4caf-9cd1-0b464217347b&ccId=19000101_000001&lang=en_CA&jobId=604275"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 20 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "mary-browns",
+      "name": "Mary Browns",
+      "jobs_observed": 20,
+      "pages": 21,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:31:09.784565+00:00",
+      "ownership": [
+        {
+          "url": "https://marybrowns.com/careers/",
+          "title": "Careers - Mary Brown's Chicken",
+          "ats_links": [],
+          "career_links": [
+            "https://marybrowns.com/careers/",
+            "https://marybrowns.com/careers/#modal-location",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab19e643-452b-40d6-92cf-04503639e774&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "mary-browns",
+        "name": "Mary Browns",
+        "domain": "marybrowns.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.9224284,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Mary Browns",
+          "total": 51,
+          "returned": 51
+        }
+      ],
+      "logo_url": "https://marybrowns.com/wp-content/themes/marybrowns/assets/images/favicon.png",
+      "logo_sha256": "9c568aeb5e786ac537981130f9772ebdfeb813693c99b6d16b9aceef2cd1fbed",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Packline",
+          "location": "Essex, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab19e643-452b-40d6-92cf-04503639e774&ccId=19000101_000001&lang=en_CA&jobId=576170"
+        },
+        {
+          "title": "Packline",
+          "location": "Goderich, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab19e643-452b-40d6-92cf-04503639e774&ccId=19000101_000001&lang=en_CA&jobId=576169"
+        },
+        {
+          "title": "Cashier",
+          "location": "Essex, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab19e643-452b-40d6-92cf-04503639e774&ccId=19000101_000001&lang=en_CA&jobId=576167"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 20 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "resort-municipality-of-whistler",
+      "name": "Resort Municipality of Whistler",
+      "jobs_observed": 8,
+      "pages": 9,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:22.596754+00:00",
+      "ownership": [
+        {
+          "url": "https://www.whistler.ca/municipal-services/careers/",
+          "title": "Careers | Resort Municipality of Whistler",
+          "ats_links": [],
+          "career_links": [
+            "https://www.whistler.ca/municipal-services/careers/#current-opportunities",
+            "https://www.whistler.ca/municipal-services/careers/",
+            "https://www.whistler.ca/municipal-services/careers/#main-content",
+            "https://www.whistler.ca/municipal-services/careers/#search-input",
+            "https://www.whistler.ca/municipal-services/careers/#footer-wrapper",
+            "https://www.whistler.ca/business-development/bid-opportunities/",
+            "https://www.whistler.ca/municipal-services/careers/volunteer/",
+            "https://www.whistler.ca/mayor-council/committees-of-council/human-resources-committee/",
+            "https://www.whistler.ca/municipal-services/safety-emergency-services/whistler-fire-rescue-service/fire-rescue-opportunities-and-recruitment/",
+            "https://www.whistler.ca/municipal-services/careers/#content-wrapper",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CurrentOpenings",
+            "mailto:communications@whistler.ca?subject=Page%20Issue%20Report&body=I%20would%20like%20to%20report%20an%20issue%20on%20the%20following%20page%3A%0A%0Ahttps://www.whistler.ca/municipal-services/careers/%0A%0APlease%20describe%20your%20issue%3A%0A%0A",
+            "https://www.whistler.ca/connect/engagement-opportunities/"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "resort-municipality-of-whistler",
+        "name": "Resort Municipality of Whistler",
+        "domain": "whistler.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792105770.7848177,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Resort Municipality of Whistler",
+          "total": 586,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://www.whistler.ca/wp-content/uploads/cropped-favicon-150x150.png",
+      "logo_sha256": "c3411ff6640788fd0779f798b6b728b73974aa236b57b8b1afb4d70df8aef317",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Computer Systems Technician - GIS",
+          "location": "Whistler, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA&jobId=553478"
+        },
+        {
+          "title": "Village Host Program Assistant",
+          "location": "Unspecified",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA&jobId=553638"
+        },
+        {
+          "title": "Supervisor - Utilities Wastewater",
+          "location": "Whistler, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA&jobId=553643"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "sms-equipment",
+      "name": "SMS Equipment",
+      "jobs_observed": 100,
+      "pages": 1,
+      "complete": false,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:24.553556+00:00",
+      "ownership": [
+        {
+          "url": "https://www.smsequipment.com/en-ca/",
+          "title": "SMS Equipment",
+          "ats_links": [],
+          "career_links": [
+            "https://www.smsequipment.com/en-ca/careers/",
+            "https://www.smsequipment.com/en-ca/new-equipment/crawler-carriers/",
+            "https://www.smsequipment.com/en-ca/parts/komatsu-undercarriage/",
+            "https://www.smsequipment.com/en-ca/parts/berco-undercarriage/",
+            "https://www.smsequipment.com/en-ca/services/undercarriage/",
+            "https://recruiting.ultipro.ca/SMS5000/JobBoard/dccf001c-2a74-6f6d-db34-5fea10a37eec/?q=&o=postedDateDesc&w=&wc=&we=&wpst=",
+            "https://www.smsequipment.com/en-ca/careers/heavy-equipment-technician-jobs/",
+            "https://www.smsequipment.com/en-ca/careers/frequently-asked-questions/"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "sms-equipment",
+        "name": "SMS Equipment",
+        "domain": "smsequipment.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102151.3695002,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "SMS Equipment",
+          "total": 47,
+          "returned": 47
+        }
+      ],
+      "logo_url": "https://www.smsequipment.com/Content/SmsequipMVC/favicon.svg",
+      "logo_sha256": "add834caa37a365fc462b64cc136b2171cc77fb116765fa639109b0b36051285",
+      "with_description": 100,
+      "samples": [
+        {
+          "title": "Warehouse Labourer, Reman",
+          "location": "Acheson",
+          "source_url": "https://recruiting.ultipro.ca/SMS5000/JobBoard/dccf001c-2a74-6f6d-db34-5fea10a37eec/OpportunityDetail?opportunityId=f63b18ee-c670-4678-8139-fa53a4a5f313"
+        },
+        {
+          "title": "Journeyperson, Parts Technician",
+          "location": "Prince George",
+          "source_url": "https://recruiting.ultipro.ca/SMS5000/JobBoard/dccf001c-2a74-6f6d-db34-5fea10a37eec/OpportunityDetail?opportunityId=29c65c2c-6eb0-4a33-a06e-79a5d0a8718b"
+        },
+        {
+          "title": "Manager, Accounting",
+          "location": "Acheson",
+          "source_url": "https://recruiting.ultipro.ca/SMS5000/JobBoard/dccf001c-2a74-6f6d-db34-5fea10a37eec/OpportunityDetail?opportunityId=6566941e-4470-430f-9f59-0dd1b3bbdb40"
+        }
+      ],
+      "warnings": [
+        "Source result window could not be fully traversed: observed 100/107 advertised postings.",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count."
+      ]
+    },
+    {
+      "id": "toronto-region-board-of-trade",
+      "name": "Toronto Region Board of Trade",
+      "jobs_observed": 4,
+      "pages": 5,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:24.752206+00:00",
+      "ownership": [
+        {
+          "url": "https://bot.com/about/careers",
+          "title": "Careers | Toronto Region Board of Trade",
+          "ats_links": [],
+          "career_links": [
+            "https://bot.com/about/careers",
+            "https://bot.com/about/careers#primary-content",
+            "https://bot.com/About/Careers",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=44815761-f721-49f5-a130-de3b4fe44e2e&ccId=2632555064_1521&type=MP&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "toronto-region-board-of-trade",
+        "name": "Toronto Region Board of Trade",
+        "domain": "bot.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102907.7235734,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Toronto Region Board of Trade",
+          "total": 54,
+          "returned": 54
+        }
+      ],
+      "logo_url": "https://bot.com/favicon.ico",
+      "logo_sha256": "5c7b9d59050de39ca26a0e848d01cd081d8ea239674bdca2a79af972738a3dba",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Senior Vice President, Marketing and Communications",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=44815761-f721-49f5-a130-de3b4fe44e2e&ccId=2632555064_1521&lang=en_CA&jobId=569602"
+        },
+        {
+          "title": "Manager, Business Development WTC",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=44815761-f721-49f5-a130-de3b4fe44e2e&ccId=2632555064_1521&lang=en_CA&jobId=569347"
+        },
+        {
+          "title": "Coordinator, Events",
+          "location": "Toronto, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=44815761-f721-49f5-a130-de3b4fe44e2e&ccId=2632555064_1521&lang=en_CA&jobId=569028"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "township-of-springwater",
+      "name": "Township of Springwater",
+      "jobs_observed": 3,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:25.463060+00:00",
+      "ownership": [
+        {
+          "url": "https://www.springwater.ca/careers",
+          "title": "Careers | Township of Springwater",
+          "ats_links": [],
+          "career_links": [
+            "https://www.springwater.ca/township-hall/careers/",
+            "https://www.springwater.ca/careers",
+            "https://www.springwater.ca/careers#site-content",
+            "https://www.springwater.ca/careers#site-footer",
+            "https://www.springwater.ca/careers#modal_6508",
+            "https://recruiting.ultipro.ca/COR5005CTOS/JobBoard/0978b5bd-56c3-4da2-b794-f846e3f339a3/?q=&o=postedDateDesc",
+            "mailto:recruitment@springwater.ca",
+            "https://www.springwater.ca/careers#collapse_7ab0c715-29b1-46ad-bcd5-d8b1dbb87d68_1",
+            "https://www.springwater.ca/careers#collapse_7ab0c715-29b1-46ad-bcd5-d8b1dbb87d68_2",
+            "https://www.springwater.ca/careers#collapse_7ab0c715-29b1-46ad-bcd5-d8b1dbb87d68_3",
+            "https://www.springwater.ca/township-hall/careers/fire-recruitment/"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "township-of-springwater",
+        "name": "Township of Springwater",
+        "domain": "springwater.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792538885.545449,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "Township of Springwater",
+          "total": 18,
+          "returned": 18
+        },
+        {
+          "query": "Springwater",
+          "total": 1,
+          "returned": 1
+        }
+      ],
+      "logo_url": "https://media-003-ca.cdn.govstack.com/springwater-ca/media/gozjrou1/town-of-springwater-logo-rgb-fullcolour-logo.png",
+      "logo_sha256": "ae5ef27a0776545fbcfbdfc2ac77332293c4d5eb4431d64f4e2681b0e9464a48",
+      "with_description": 3,
+      "samples": [
+        {
+          "title": "Volunteer Firefighter",
+          "location": "MINESING",
+          "source_url": "https://recruiting.ultipro.ca/COR5005CTOS/JobBoard/0978b5bd-56c3-4da2-b794-f846e3f339a3/OpportunityDetail?opportunityId=06bae2d3-3206-4605-95fe-fcefe67f3fca"
+        },
+        {
+          "title": "Substitute Crossing Guards",
+          "location": "Minesing",
+          "source_url": "https://recruiting.ultipro.ca/COR5005CTOS/JobBoard/0978b5bd-56c3-4da2-b794-f846e3f339a3/OpportunityDetail?opportunityId=40a1b696-0ba9-4180-a45d-962a3ec12338"
+        },
+        {
+          "title": "Arena Attendant",
+          "location": "ELMVALE",
+          "source_url": "https://recruiting.ultipro.ca/COR5005CTOS/JobBoard/0978b5bd-56c3-4da2-b794-f846e3f339a3/OpportunityDetail?opportunityId=2a0d9b0e-1cb4-49a6-95b8-98a08514ae25"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count."
+      ]
+    },
+    {
+      "id": "united-way-british-columbia",
+      "name": "United Way British Columbia",
+      "jobs_observed": 1,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:29:25.493618+00:00",
+      "ownership": [
+        {
+          "url": "https://uwbc.ca/careers/",
+          "title": "United Way BC Careers - United Way British Columbia",
+          "ats_links": [],
+          "career_links": [
+            "https://uwbc.ca/careers/",
+            "https://uwbc.ca/careers/#main",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e394d57c-e44f-4cce-9a86-72d5801535d2&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "united-way-british-columbia",
+        "name": "United Way British Columbia",
+        "domain": "uwbc.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102912.1233547,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "United Way British Columbia",
+          "total": 942,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://uwbc.ca/wp-content/themes/united-way-bc/favicon.ico",
+      "logo_sha256": "6c069acaf0caa6373c796328477dc952b05cec96fe00aaba0de70e1c6d8c7787",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Director, Union Participation & Resource Development",
+          "location": "Burnaby, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e394d57c-e44f-4cce-9a86-72d5801535d2&ccId=19000101_000001&lang=en_CA&jobId=614414"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    },
+    {
+      "id": "ymca-bc",
+      "name": "YMCA BC",
+      "jobs_observed": 20,
+      "pages": 21,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T23:31:09.817077+00:00",
+      "ownership": [
+        {
+          "url": "https://www.ymcabc.ca/y-careers",
+          "title": "Careers at YMCA BC | Join Our Team",
+          "ats_links": [],
+          "career_links": [
+            "https://www.ymcabc.ca/youth-support/youth-employment-bootcamp",
+            "https://www.ymcabc.ca/employment-and-newcomers/self-employment-program",
+            "https://www.ymcabc.ca/employment-and-newcomers/self-employment-newcomers-program",
+            "https://www.ymcabc.ca/employment-and-newcomers/international-students-employment-support",
+            "https://www.ymcabc.ca/employment-and-newcomers/english-conversation-club",
+            "https://www.ymcabc.ca/employment-and-newcomers/connect-to-work-newcomers-program",
+            "https://www.ymcabc.ca/employment-and-newcomers/tradeworks-employment-program",
+            "https://www.ymcabc.ca/employment-and-newcomers/explore-career-in-childcare-newcomers-program",
+            "https://www.ymcabc.ca/employment-and-newcomers/become-employer-partner",
+            "https://www.ymcabc.ca/employment-and-newcomers/canadian-citizenship-preparation",
+            "https://www.ymcabc.ca/employment-and-newcomers/interviewme",
+            "https://www.ymcabc.ca/employment-and-newcomers",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2b4cd153-66c2-4524-9a1c-714e9e1780df&ccId=19000101_000001&source=CC2&lang=en_CA&selectedMenuKey=CurrentOpenings",
+            "https://www.ymcabc.ca/y-careers"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "ymca-bc",
+        "name": "YMCA BC",
+        "domain": "gv.ymca.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792102911.910138,
+        "screen_version": 2
+      },
+      "freehire_queries": [
+        {
+          "query": "YMCA BC",
+          "total": 225,
+          "returned": 100
+        }
+      ],
+      "logo_url": "https://cdn.prod.website-files.com/68ddbcd6ab007a7b072e7c02/690d5f85d298c3954a89884b_Shine%20On_Stacked_redY_blackSO_RGB_YMCA_BC.png",
+      "logo_sha256": "6769aa3d6b78614596a0905a596844a410a1eb86eeac06eff924129906840cfa",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Early Childhood Educator, Infant-Toddler",
+          "location": "New Westminster, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2b4cd153-66c2-4524-9a1c-714e9e1780df&ccId=19000101_000001&lang=en_CA&jobId=607226"
+        },
+        {
+          "title": "School Age Leader",
+          "location": "Vancouver, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2b4cd153-66c2-4524-9a1c-714e9e1780df&ccId=19000101_000001&lang=en_CA&jobId=607485"
+        },
+        {
+          "title": "Team Leader",
+          "location": "Richmond, BC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2b4cd153-66c2-4524-9a1c-714e9e1780df&ccId=19000101_000001&lang=en_CA&jobId=607483"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 20 jobs",
+        "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+        "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+      ]
+    }
+  ],
+  "held": [
+    {
+      "id": "bentallgreenoak",
+      "reason": "Confirmed FreeHire BGO uses the identical BEN5000BENTK UKG board."
+    },
+    {
+      "id": "eblock",
+      "reason": "Official board mixes EBlock auction jobs and EDealer advertising roles. EDealer is already in FreeHire; hold until the parent feed can be partitioned with reliable ownership data."
+    },
+    {
+      "id": "fortisontario",
+      "reason": "No normalized live jobs"
+    }
+  ]
+}

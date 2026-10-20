@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "armtec",
+  "name": "Armtec",
+  "aliases": [],
+  "website_url": "https://armtec.com",
+  "logo_url": "https://armtec.com/wp-content/themes/Armtec/Assets/Ico/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

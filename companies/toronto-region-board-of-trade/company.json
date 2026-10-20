@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "toronto-region-board-of-trade",
+  "name": "Toronto Region Board of Trade",
+  "aliases": [],
+  "website_url": "https://bot.com",
+  "logo_url": "https://bot.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

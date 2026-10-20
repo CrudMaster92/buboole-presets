@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lifemark-health-group",
+  "name": "Lifemark Health Group",
+  "aliases": [],
+  "website_url": "https://lifemark.ca",
+  "logo_url": "https://www.lifemark.ca/themes/custom/global/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

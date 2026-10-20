@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "township-of-springwater",
+  "name": "Township of Springwater",
+  "aliases": [
+    "Springwater"
+  ],
+  "website_url": "https://springwater.ca",
+  "logo_url": "https://media-003-ca.cdn.govstack.com/springwater-ca/media/gozjrou1/town-of-springwater-logo-rgb-fullcolour-logo.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

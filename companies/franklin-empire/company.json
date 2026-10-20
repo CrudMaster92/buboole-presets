@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "franklin-empire",
+  "name": "Franklin Empire",
+  "aliases": [],
+  "website_url": "https://franklinempire.com",
+  "logo_url": "https://franklinempire.com/static/version1792471963/frontend/Franklin/default/en_CA/Magento_Theme/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

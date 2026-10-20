@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "killam-apartment-reit",
+  "name": "Killam Apartment REIT",
+  "aliases": [],
+  "website_url": "https://killamreit.com",
+  "logo_url": "https://www.killamreit.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

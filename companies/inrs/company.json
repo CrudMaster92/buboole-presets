@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "inrs",
+  "name": "INRS",
+  "aliases": [
+    "Institut national de la recherche scientifique"
+  ],
+  "website_url": "https://inrs.ca",
+  "logo_url": "https://inrs.ca/wp-content/themes/inrs/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

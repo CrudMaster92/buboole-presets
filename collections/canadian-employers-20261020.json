@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-employers-20261020",
-  "revision": 2,
+  "revision": 3,
   "name": "Canadian Employers — Public hiring expansion",
-  "description": "19 additional Canadian employers with fresh canonical-runtime verification, official logos or favicons and FreeHire screening. Includes municipal employers and Tenaquip. Sources explicitly declare partial coverage; some listing sources omit descriptions and geography.",
+  "description": "37 additional Canadian hiring employers with fresh canonical-runtime verification, official logos/favicons and FreeHire screening. Covers municipal, healthcare, industrial, financial and other employers. All sources explicitly declare partial coverage; some omit descriptions or geography.",
   "tags": [
     "Canada",
     "Municipal employers"
@@ -155,6 +155,132 @@
         "township-of-oro-medonte"
       ],
       "rank": 19
+    },
+    {
+      "company_id": "123dentist",
+      "monitor_ids": [
+        "123dentist"
+      ],
+      "rank": 20
+    },
+    {
+      "company_id": "access-alliance-multicultural-health",
+      "monitor_ids": [
+        "access-alliance-multicultural-health"
+      ],
+      "rank": 21
+    },
+    {
+      "company_id": "armtec",
+      "monitor_ids": [
+        "armtec"
+      ],
+      "rank": 22
+    },
+    {
+      "company_id": "canadian-medical-association",
+      "monitor_ids": [
+        "canadian-medical-association"
+      ],
+      "rank": 23
+    },
+    {
+      "company_id": "canadian-royalties",
+      "monitor_ids": [
+        "canadian-royalties"
+      ],
+      "rank": 24
+    },
+    {
+      "company_id": "franklin-empire",
+      "monitor_ids": [
+        "franklin-empire"
+      ],
+      "rank": 25
+    },
+    {
+      "company_id": "hecla-mining",
+      "monitor_ids": [
+        "hecla-mining"
+      ],
+      "rank": 26
+    },
+    {
+      "company_id": "inrs",
+      "monitor_ids": [
+        "inrs"
+      ],
+      "rank": 27
+    },
+    {
+      "company_id": "ivari",
+      "monitor_ids": [
+        "ivari"
+      ],
+      "rank": 28
+    },
+    {
+      "company_id": "killam-apartment-reit",
+      "monitor_ids": [
+        "killam-apartment-reit"
+      ],
+      "rank": 29
+    },
+    {
+      "company_id": "lifemark-health-group",
+      "monitor_ids": [
+        "lifemark-health-group"
+      ],
+      "rank": 30
+    },
+    {
+      "company_id": "mary-browns",
+      "monitor_ids": [
+        "mary-browns"
+      ],
+      "rank": 31
+    },
+    {
+      "company_id": "resort-municipality-of-whistler",
+      "monitor_ids": [
+        "resort-municipality-of-whistler"
+      ],
+      "rank": 32
+    },
+    {
+      "company_id": "sms-equipment",
+      "monitor_ids": [
+        "sms-equipment"
+      ],
+      "rank": 33
+    },
+    {
+      "company_id": "toronto-region-board-of-trade",
+      "monitor_ids": [
+        "toronto-region-board-of-trade"
+      ],
+      "rank": 34
+    },
+    {
+      "company_id": "township-of-springwater",
+      "monitor_ids": [
+        "township-of-springwater"
+      ],
+      "rank": 35
+    },
+    {
+      "company_id": "united-way-british-columbia",
+      "monitor_ids": [
+        "united-way-british-columbia"
+      ],
+      "rank": 36
+    },
+    {
+      "company_id": "ymca-bc",
+      "monitor_ids": [
+        "ymca-bc"
+      ],
+      "rank": 37
     }
   ]
 }

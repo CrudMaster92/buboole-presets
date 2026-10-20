@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ivari",
+  "name": "ivari",
+  "aliases": [],
+  "website_url": "https://ivari.ca",
+  "logo_url": "https://ivari.ca/files/2021/03/favicon-80x80.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

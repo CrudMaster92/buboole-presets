@@ -1,0 +1,71 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "resort-municipality-of-whistler",
+  "company_id": "resort-municipality-of-whistler",
+  "revision": 1,
+  "label": "Resort Municipality of Whistler public careers",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-20T23:29:22.596754+00:00",
+    "job_count": 8,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs",
+      "Explicitly partial public source. Unseen roles must not be inferred closed; this is not a whole-employer vacancy count.",
+      "The public ADP endpoint currently returns at most 20 listings per request. This recipe is a bounded first-page monitor; source totals may be larger."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Resort Municipality of Whistler",
+    "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "workforcenow.adp.com"
+    ],
+    "request": {
+      "url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "cid": "12dce37e-3785-4817-b131-27f23f235be8",
+        "ccId": "19000101_000001",
+        "lang": "en_CA"
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobRequisitions",
+      "source_id": "itemID",
+      "title": "requisitionTitle",
+      "url": "customFieldGroup.stringFields.0.stringValue",
+      "location": "requisitionLocations.0.nameCode.shortName",
+      "posted_date": "postDate",
+      "employment_type": "workLevelCode.shortName"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3,
+      "posting_url_template": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=12dce37e-3785-4817-b131-27f23f235be8&ccId=19000101_000001&lang=en_CA&jobId={url}"
+    }
+  }
+}

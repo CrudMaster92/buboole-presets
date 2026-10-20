@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "united-way-british-columbia",
+  "name": "United Way British Columbia",
+  "aliases": [],
+  "website_url": "https://uwbc.ca",
+  "logo_url": "https://uwbc.ca/wp-content/themes/united-way-bc/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
