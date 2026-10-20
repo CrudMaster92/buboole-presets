@@ -1,0 +1,91 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ville-de-brossard",
+  "company_id": "ville-de-brossard",
+  "revision": 1,
+  "label": "Ville de Brossard public careers",
+  "careers_url": "https://atlas.workland.com/careers/brossard/jobs?page=1",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-20T18:43:17.675252+00:00",
+    "job_count": 3,
+    "warnings": [
+      "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Ville de Brossard",
+    "careers_url": "https://atlas.workland.com/careers/brossard/jobs?page=1",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs-prod.workland.com",
+      "atlas.workland.com"
+    ],
+    "request": {
+      "url": "https://jobs-prod.workland.com/api/v1/job/published-external",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "page": 1,
+        "pageSize": 100,
+        "account_ids": [
+          880028
+        ],
+        "load_with": [
+          "locations",
+          "groups",
+          "types"
+        ]
+      },
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": "pageSize",
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "account_id",
+          "operator": "equals_ci",
+          "values": [
+            "880028"
+          ],
+          "label": null
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "data",
+      "source_id": "id",
+      "title": "translations.fr.title",
+      "url": "url",
+      "description": "translations.fr.description",
+      "location": "locations.0.city",
+      "posted_date": "published_externally_at",
+      "employment_type": "types.0.name"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "posting_url_template": "https://atlas.workland.com/work/{source_id}/{url}"
+    }
+  }
+}

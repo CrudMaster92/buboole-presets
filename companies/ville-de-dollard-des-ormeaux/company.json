@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-dollard-des-ormeaux",
+  "name": "Ville de Dollard-des-Ormeaux",
+  "aliases": [
+    "Dollard-des-Ormeaux"
+  ],
+  "website_url": "https://ville.ddo.qc.ca",
+  "logo_url": "https://ville.ddo.qc.ca/wp-content/uploads/2020/07/cropped-favicon-ddo-1-150x150.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

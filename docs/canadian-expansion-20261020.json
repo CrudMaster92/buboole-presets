@@ -1,0 +1,1062 @@
+{
+  "created_at": "2026-10-20T18:44:08.624020+00:00",
+  "companies": 13,
+  "monitors": 13,
+  "logos": 13,
+  "observed_job_records": 48,
+  "distinct_source_urls": 48,
+  "publication_state": "Validated locally; catalog and collector publication pending.",
+  "sources": [
+    {
+      "id": "city-of-port-coquitlam",
+      "name": "City of Port Coquitlam",
+      "jobs_observed": 2,
+      "pages": 3,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:42:40.281450+00:00",
+      "ownership": [
+        {
+          "url": "https://www.portcoquitlam.ca/our-government/careers",
+          "outbound": "https://portcoquitlam.njoyn.com/cl3/xweb/XWeb.asp?clid=56821&amp;page=joblisting"
+        },
+        {
+          "url": "https://www.portcoquitlam.ca/our-government/careers",
+          "outbound": "https://portcoquitlam.njoyn.com/cl3/xweb/XWeb.asp?clid=56821&page=joblisting"
+        }
+      ],
+      "freehire": {
+        "id": "city-of-port-coquitlam",
+        "name": "City of Port Coquitlam",
+        "domain": "portcoquitlam.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521523.8325953,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "City of Port Coquitlam",
+            "total": 1172,
+            "returned": 100
+          },
+          {
+            "query": "Port Coquitlam",
+            "total": 146,
+            "returned": 100
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.portcoquitlam.ca/sites/default/files/Favicon%20-%20Port%20Coquitlam.png",
+      "logo_sha256": "a465e56ca4f0e186efa74a1217cd222d1a0a80d8fd3bcf8713554c9c07f6e057",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "26-103e - Customer Service Attendant (Full-Time, Time Stated)",
+          "location": "Unspecified",
+          "source_url": "https://portcoquitlam.njoyn.com/cl3/xweb/xweb.asp?clid=56821&Page=JobDetails&Jobid=J1026-0661&BRID=365160&lang=1"
+        },
+        {
+          "title": "26-099e - Purchasing Clerk (Part Time, Time Stated)",
+          "location": "Unspecified",
+          "source_url": "https://portcoquitlam.njoyn.com/cl3/xweb/xweb.asp?clid=56821&Page=JobDetails&Jobid=J1026-0660&BRID=365158&lang=1"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "city-of-spruce-grove",
+      "name": "City of Spruce Grove",
+      "jobs_observed": 3,
+      "pages": 4,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:41:19.714563+00:00",
+      "ownership": [
+        {
+          "url": "https://sprucegrove.org/careers",
+          "title": "Careers - City of Spruce Grove",
+          "ats_links": [],
+          "career_links": [
+            "https://sprucegrove.org/careers",
+            "https://www.sprucegrove.org/careers/",
+            "https://www.sprucegrove.org/government/departments/strategic-and-communication-services/human-resources/",
+            "https://www.sprucegrove.org/careers/firefighter-recruitment/",
+            "https://www.sprucegrove.org/careers/why-work-here/",
+            "https://www.sprucegrove.org/careers/the-values-we-live-by/",
+            "https://www.sprucegrove.org/careers/organizational-structure/",
+            "https://sprucegrove.myavanti.ca/careers/Job/Details/RR2026053",
+            "https://sprucegrove.myavanti.ca/careers/Job/Details/RR2026067",
+            "https://sprucegrove.myavanti.ca/careers"
+          ]
+        },
+        {
+          "url": "https://sprucegrove.org/",
+          "title": "Spruce Grove, Alberta, Canada - Official Website of the City of Spruce Grove",
+          "ats_links": [],
+          "career_links": [
+            "https://www.sprucegrove.org/careers/",
+            "https://sprucegrove.org/careers",
+            "https://www.sprucegrove.org/government/departments/strategic-and-communication-services/human-resources/",
+            "https://www.sprucegrove.org/careers/firefighter-recruitment/",
+            "https://www.sprucegrove.org/careers/why-work-here/",
+            "https://www.sprucegrove.org/careers/the-values-we-live-by/",
+            "https://www.sprucegrove.org/careers/organizational-structure/",
+            "https://sprucegrove.myavanti.ca/careers"
+          ]
+        },
+        {
+          "url": "https://www.sprucegrove.org/careers/",
+          "ats_links": [],
+          "career_links": [
+            "https://sprucegrove.myavanti.ca/careers"
+          ]
+        },
+        {
+          "url": "https://sprucegrove.org/careers",
+          "ats_links": [],
+          "career_links": [
+            "https://sprucegrove.myavanti.ca/careers"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "city-of-spruce-grove",
+        "name": "City of Spruce Grove",
+        "domain": "sprucegrove.org",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521523.8721812,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "City of Spruce Grove",
+            "total": 1172,
+            "returned": 100
+          },
+          {
+            "query": "Spruce Grove",
+            "total": 8,
+            "returned": 8
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://sprucegrove.org/media/9391/cosg-favicon-1.png",
+      "logo_sha256": "a14f7bc8a99608993dbad6706c80468c600515cffc28a4e44ea9f62a06d375ef",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Development Officer",
+          "location": "Unspecified",
+          "source_url": "https://sprucegrove.myavanti.ca/careers/Job/Details/RR2026076"
+        },
+        {
+          "title": "Executive Assistant - Temporary",
+          "location": "Unspecified",
+          "source_url": "https://sprucegrove.myavanti.ca/careers/Job/Details/RR2026077"
+        },
+        {
+          "title": "Manager of GIS",
+          "location": "Unspecified",
+          "source_url": "https://sprucegrove.myavanti.ca/careers/Job/Details/RR2026053"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "district-of-squamish",
+      "name": "District of Squamish",
+      "jobs_observed": 12,
+      "pages": 13,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:38:04.100188+00:00",
+      "ownership": [
+        {
+          "url": "https://squamish.ca/government-and-administration/district-information/careers/",
+          "title": "Careers - District of Squamish - Hardwired for Adventure",
+          "ats_links": [],
+          "career_links": [
+            "https://squamish.ca/government-and-administration/district-information/careers/",
+            "https://squamish.ca/government-and-administration/district-information/careers/home",
+            "https://squamish.ca/government-and-administration/district-information/careers/#Content",
+            "https://squamish.ca/government-and-administration/district-information/careers/#squamish-search-q",
+            "https://squamish.ca/government-and-administration/district-information/careers/#menu-bar",
+            "https://squamish.ca/rec/recjobs/",
+            "https://squamish.ca/government-and-administration/district-information/careers/job-postings/",
+            "https://squamish.ca/government-and-administration/district-information/careers/apply-now/",
+            "https://squamish.ca/government-and-administration/district-information/careers/workplace-policies-and-resources/"
+          ]
+        },
+        {
+          "url": "https://squamish.ca/government-and-administration/district-information/careers/job-postings/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "district-of-squamish",
+        "name": "District of Squamish",
+        "domain": "squamish.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.1078365,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "District of Squamish",
+            "total": 568,
+            "returned": 100
+          },
+          {
+            "query": "Squamish",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://squamish.ca/favicon.ico",
+      "logo_sha256": "dbefcbe4be90597e59ced016679d5988673ff55c5fe335f02adab1042d42cb06",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Recreation Facility Clerk - Regular Part-Time",
+          "location": "Unspecified",
+          "source_url": "https://squamish.ca/assets/Uploads/Recreation-Facility-Clerk-Internal-External-Posting-Oct-2026.pdf"
+        },
+        {
+          "title": "Manager of Capital Projects - Permanent Full-Time",
+          "location": "Unspecified",
+          "source_url": "https://squamish.ca/assets/Uploads/Manager-of-Capital-Projects-External-Posting-Oct-2026-v2.pdf"
+        },
+        {
+          "title": "Custodian - Casual/On-Call",
+          "location": "Unspecified",
+          "source_url": "https://squamish.ca/assets/Uploads/Custodian-External-Posting-Casual-Feb-2026.pdf"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 12 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "town-of-gibsons",
+      "name": "Town of Gibsons",
+      "jobs_observed": 2,
+      "pages": 3,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:42:40.288219+00:00",
+      "ownership": [
+        {
+          "url": "https://gibsons.ca/",
+          "title": "Home - Town of Gibsons",
+          "ats_links": [],
+          "career_links": [
+            "https://gibsons.ca/government/employment-opportunities/",
+            "https://gibsons.ca/town-hall/employment-opportunities/"
+          ]
+        },
+        {
+          "url": "https://gibsons.ca/town-hall/employment-opportunities/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "town-of-gibsons",
+        "name": "Town of Gibsons",
+        "domain": "gibsons.ca",
+        "status": "overlap_or_possible_overlap",
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "gibsons-heating-plumbing",
+          "gibson-search",
+          "gibson-shipbrokers"
+        ],
+        "checked_at": 1792521524.733273,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Town of Gibsons",
+            "total": 135,
+            "returned": 100
+          },
+          {
+            "query": "Gibsons",
+            "total": 21,
+            "returned": 21
+          }
+        ]
+      },
+      "freehire_resolution": "Name collisions are Gibsons Heating & Plumbing, Gibson Search and Gibson Shipbrokers; none is the municipal Town of Gibsons, gibsons.ca.",
+      "logo_url": "https://gibsons.ca/wp-content/uploads/2018/01/cropped-header-logo-32x32.png",
+      "logo_sha256": "8d531a186bc3ab506adb10236a67cb46d39c8e7f151f034763c5d736e384192d",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Manager of Financial Services",
+          "location": "Unspecified",
+          "source_url": "https://gibsons.ca/wp-content/uploads/2026/10/P2026-10-Manager-of-Financial-Services-1.pdf"
+        },
+        {
+          "title": "ICBC Clerk",
+          "location": "Unspecified",
+          "source_url": "https://gibsons.ca/wp-content/uploads/2026/10/P2026-11-ICBC-Clerk-full-time.pdf"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "town-of-grimsby",
+      "name": "Town of Grimsby",
+      "jobs_observed": 2,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:38:04.119791+00:00",
+      "ownership": [
+        {
+          "url": "https://www.grimsby.ca/careers",
+          "title": "Careers | Town of Grimsby",
+          "ats_links": [],
+          "career_links": [
+            "https://www.grimsby.ca/town-hall/careers/current-opportunities/",
+            "https://www.grimsby.ca/town-hall/careers/",
+            "https://www.grimsby.ca/careers",
+            "https://www.grimsby.ca/careers#site-content",
+            "https://www.grimsby.ca/careers#site-footer",
+            "https://www.grimsby.ca/careers#modal_9889",
+            "https://www.grimsby.ca/town-hall/careers/community-profile/",
+            "https://www.grimsby.ca/town-hall/careers/volunteer-firefighter-recruitment/",
+            "https://www.grimsby.ca/town-hall/careers/human-resources-department/"
+          ]
+        },
+        {
+          "url": "https://www.grimsby.ca/",
+          "title": "Home | Town of Grimsby",
+          "ats_links": [],
+          "career_links": [
+            "https://www.grimsby.ca/town-hall/careers/current-opportunities/",
+            "https://www.grimsby.ca/town-hall/careers/",
+            "https://www.grimsby.ca/town-hall/careers/volunteer-firefighter-recruitment/"
+          ]
+        },
+        {
+          "url": "https://www.grimsby.ca/town-hall/careers/current-opportunities/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "town-of-grimsby",
+        "name": "Town of Grimsby",
+        "domain": "grimsby.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.7405176,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Town of Grimsby",
+            "total": 135,
+            "returned": 100
+          },
+          {
+            "query": "Grimsby",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.grimsby.ca/favicon.ico",
+      "logo_sha256": "6477817dd46a825d501ad6bd98be2b477f064e601742e628144d08b7145866d6",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "School Crossing Guards -",
+          "location": "Unspecified",
+          "source_url": "https://media-001-ca.cdn.govstack.com/grimsbylibrary-005-ca/media/1tgnlzgh/school-crossing-guards_job-posting_18-sept-2026.pdf"
+        },
+        {
+          "title": "Project Coordinator, Open Space -",
+          "location": "Unspecified",
+          "source_url": "https://media-001-ca.cdn.govstack.com/grimsbylibrary-005-ca/media/trlccbld/project-_coordinatoropen_space_external-posting_05-oct-2026.pdf"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "town-of-okotoks",
+      "name": "Town of Okotoks",
+      "jobs_observed": 10,
+      "pages": 11,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:38:04.117748+00:00",
+      "ownership": [
+        {
+          "url": "https://www.okotoks.ca/your-government/your-town-organization/careers",
+          "title": "Careers | The Town of Okotoks",
+          "ats_links": [],
+          "career_links": [
+            "https://www.okotoks.ca/your-government/your-town-organization/careers",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers#main-content",
+            "https://www.okotoks.ca/your-community/living-okotoks/get-involved/volunteering/volunteer-opportunities/care",
+            "https://www.okotoks.ca/your-community/community-support/family-community-support-services/funding-opportunities",
+            "https://www.okotoks.ca/your-community/community-support/family-community-support-services/funding-opportunities/united-way",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/job-postings",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/why-work-us",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/career-resources",
+            "https://www.okotoks.ca/your-services/public-safety/fire-services/recruitment",
+            "https://www.okotoks.ca/form/contact-us-human-resources",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/job-postings#salary",
+            "https://www.okotoks.ca/your-services/online-services/town-directory/human-resources",
+            "https://www.okotoks.ca/form/contact-us-human-resources?source_entity_type=node&source_entity_id=11376",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers#modal--hours",
+            "https://www.okotoks.ca/form/website-error?&title=Careers&id=6592"
+          ]
+        },
+        {
+          "url": "https://www.okotoks.ca/",
+          "title": "Home | The Town of Okotoks",
+          "ats_links": [],
+          "career_links": [
+            "https://www.okotoks.ca/your-government/your-town-organization/careers",
+            "https://www.okotoks.ca/your-community/living-okotoks/get-involved/volunteering/volunteer-opportunities/care",
+            "https://www.okotoks.ca/your-community/community-support/family-community-support-services/funding-opportunities",
+            "https://www.okotoks.ca/your-community/community-support/family-community-support-services/funding-opportunities/united-way",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/job-postings",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/why-work-us",
+            "https://www.okotoks.ca/your-government/your-town-organization/careers/career-resources",
+            "https://www.okotoks.ca/your-services/public-safety/fire-services/recruitment"
+          ]
+        },
+        {
+          "url": "https://www.okotoks.ca/your-government/your-town-organization/careers/job-postings",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "town-of-okotoks",
+        "name": "Town of Okotoks",
+        "domain": "okotoks.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.994321,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Town of Okotoks",
+            "total": 135,
+            "returned": 100
+          },
+          {
+            "query": "Okotoks",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.okotoks.ca/sites/default/files/favicon.png",
+      "logo_sha256": "5b3caadf6bfe20e03a307ce2710b642a4137bef8cac91fe06cdc028404c9e140",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Programs Leader - Sport and Fitness",
+          "location": "Unspecified",
+          "source_url": "https://www.okotoks.ca/careers/job-postings/programs-leader-sport-and-fitness"
+        },
+        {
+          "title": "Safety Codes Officer - Plans Examiner",
+          "location": "Unspecified",
+          "source_url": "https://www.okotoks.ca/careers/job-postings/safety-codes-officer-plans-examiner"
+        },
+        {
+          "title": "Policing Support Associate",
+          "location": "Unspecified",
+          "source_url": "https://www.okotoks.ca/careers/job-postings/policing-support-associate-1"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 10 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "township-of-scugog",
+      "name": "Township of Scugog",
+      "jobs_observed": 3,
+      "pages": 4,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:42:40.291325+00:00",
+      "ownership": [
+        {
+          "url": "https://www.scugog.ca/careers",
+          "title": "Careers and Volunteering | Township of Scugog",
+          "ats_links": [],
+          "career_links": [
+            "https://www.scugog.ca/council-and-administration/careers-and-volunteering/current-opportunities/",
+            "https://www.scugog.ca/careers",
+            "https://www.scugog.ca/careers#site-content",
+            "https://www.scugog.ca/careers#site-footer",
+            "https://www.scugog.ca/business-support/bid-opportunities/",
+            "http://www.scugog.ca/business-support/careers-and-volunteering/",
+            "http://www.scugog.ca/council-and-administration/careers-and-volunteering/",
+            "http://www.scugog.ca/council-and-administration/grant-opportunities/",
+            "https://www.scugog.ca/council-and-administration/careers-and-volunteering/volunteer/",
+            "https://media-001-ca.cdn.govstack.com/scugogtourism-001-ca/media/fbdhphd2/employment-accommodation-policy.pdf",
+            "https://www.scugog.ca/business-support/careers-and-volunteering/"
+          ]
+        },
+        {
+          "url": "https://www.scugog.ca/council-and-administration/careers-and-volunteering/current-opportunities/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "township-of-scugog",
+        "name": "Township of Scugog",
+        "domain": "scugog.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521525.7740448,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Township of Scugog",
+            "total": 32,
+            "returned": 32
+          },
+          {
+            "query": "Scugog",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.scugog.ca/favicon.ico",
+      "logo_sha256": "6477817dd46a825d501ad6bd98be2b477f064e601742e628144d08b7145866d6",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Manager, Human Resources (Permanent, Full-Time)",
+          "location": "Unspecified",
+          "source_url": "https://media-001-ca.cdn.govstack.com/scugogtourism-001-ca/media/okifmdqv/026-manager-human-resources.pdf"
+        },
+        {
+          "title": "School Crossing Guard, Regular and Spare (Temporary, Part-Time)",
+          "location": "Unspecified",
+          "source_url": "https://media-001-ca.cdn.govstack.com/scugogtourism-001-ca/media/vjpfauvj/2025-2026-crossing-guard.pdf"
+        },
+        {
+          "title": "Recreation Staff (Student, Part-Time)",
+          "location": "Unspecified",
+          "source_url": "https://media-001-ca.cdn.govstack.com/scugogtourism-001-ca/media/2eibm1qu/part-time-student-recreation-staff-2026.pdf"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-beaconsfield",
+      "name": "Ville de Beaconsfield",
+      "jobs_observed": 1,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:41:41.634187+00:00",
+      "ownership": [
+        {
+          "url": "https://www.beaconsfield.ca/fr",
+          "title": "Ville de Beaconsfield",
+          "ats_links": [],
+          "career_links": [
+            "https://www.beaconsfield.ca/fr/ma-ville/administration-et-finances/emplois",
+            "https://atlas.workland.com/careers/beaconsfield?open=jobs"
+          ]
+        },
+        {
+          "url": "https://www.beaconsfield.ca/fr/ma-ville/administration-et-finances/emplois",
+          "ats_links": [],
+          "career_links": [
+            "https://atlas.workland.com/careers/beaconsfield?open=jobs"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-beaconsfield",
+        "name": "Ville de Beaconsfield",
+        "domain": "beaconsfield.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521526.2047508,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Beaconsfield",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Beaconsfield",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.beaconsfield.ca/themes/beaconsfield/assets/medias/images/favicon.png",
+      "logo_sha256": "f6e11d58af11ffc6a34a525fd70ba6121c76e9bb7c0d574753dc703ed6a56cd7",
+      "with_description": 1,
+      "samples": [
+        {
+          "title": "Préposé aux patinoires",
+          "location": "Beaconsfield",
+          "source_url": "https://atlas.workland.com/work/91829/prepose-aux-patinoires"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-brossard",
+      "name": "Ville de Brossard",
+      "jobs_observed": 3,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:43:17.675252+00:00",
+      "ownership": [
+        {
+          "url": "https://brossard.ca/",
+          "title": "Vivre au présent Bâtir le futur | Ville de Brossard",
+          "ats_links": [],
+          "career_links": [
+            "https://brossard.ca/emplois/",
+            "https://atlas.workland.com/careers/brossard/jobs",
+            "https://atlas.workland.com/careers/brossard/jobs"
+          ]
+        },
+        {
+          "url": "https://brossard.ca/",
+          "title": "Vivre au présent Bâtir le futur | Ville de Brossard",
+          "ats_links": [],
+          "career_links": [
+            "https://brossard.ca/emplois/",
+            "https://atlas.workland.com/careers/brossard/jobs",
+            "https://atlas.workland.com/careers/brossard/jobs"
+          ]
+        },
+        {
+          "url": "https://brossard.ca/emplois/",
+          "ats_links": [],
+          "career_links": [
+            "https://atlas.workland.com/careers/brossard/jobs"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-brossard",
+        "name": "Ville de Brossard",
+        "domain": "brossard.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521526.4695373,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Brossard",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Brossard",
+            "total": 2,
+            "returned": 2
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://brossard.ca/app/uploads/2025/02/cropped-android-chrome-512x512-1-32x32.png",
+      "logo_sha256": "5e83f6efbbdd0d4fd95697347862e4e8e9495847ee645a27a9af4b704c13a2d2",
+      "with_description": 3,
+      "samples": [
+        {
+          "title": "Technicien(ne) en horticulture et arboriculture",
+          "location": "Brossard",
+          "source_url": "https://atlas.workland.com/work/92904/technicienne-en-horticulture-et-arboriculture"
+        },
+        {
+          "title": "Technicien(ne) en génie municipal",
+          "location": "Brossard",
+          "source_url": "https://atlas.workland.com/work/92466/technicienne-en-genie-municipal"
+        },
+        {
+          "title": "Sauveteur - Moniteur - Postes permanents",
+          "location": "Brossard",
+          "source_url": "https://atlas.workland.com/work/92146/sauveteur-moniteur-postes-permanents"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-dollard-des-ormeaux",
+      "name": "Ville de Dollard-des-Ormeaux",
+      "jobs_observed": 3,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:42:40.293373+00:00",
+      "ownership": [
+        {
+          "url": "https://ville.ddo.qc.ca/",
+          "title": "Ville de Dollard-des-Ormeaux",
+          "ats_links": [],
+          "career_links": [
+            "https://ville.ddo.qc.ca/travailler/offres-demploi/"
+          ]
+        },
+        {
+          "url": "https://ville.ddo.qc.ca/travailler/offres-demploi/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-dollard-des-ormeaux",
+        "name": "Ville de Dollard-des-Ormeaux",
+        "domain": "ville.ddo.qc.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521526.8201647,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Dollard-des-Ormeaux",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Dollard-des-Ormeaux",
+            "total": 25,
+            "returned": 25
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://ville.ddo.qc.ca/wp-content/uploads/2020/07/cropped-favicon-ddo-1-150x150.png",
+      "logo_sha256": "a76affdc2cabd82b11512bdaa2506c5f2c52bad9e9435ae19384685ca541f8f0",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Préposé à l’aqueduc – Employé des eaux et assainissement – chauffeur – Poste temporaire",
+          "location": "Unspecified",
+          "source_url": "https://ville.ddo.qc.ca/emplois/prepose-a-laqueduc-employe-des-eaux-et-assainissement-chauffeur"
+        },
+        {
+          "title": "Élagueur – Poste permanent",
+          "location": "Unspecified",
+          "source_url": "https://ville.ddo.qc.ca/emplois/elagueur-poste-permanent"
+        },
+        {
+          "title": "Mécanicien d’appareils motorisés – Poste permanent",
+          "location": "Unspecified",
+          "source_url": "https://ville.ddo.qc.ca/emplois/mecanicien"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-repentigny",
+      "name": "Ville de Repentigny",
+      "jobs_observed": 4,
+      "pages": 1,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:43:17.678253+00:00",
+      "ownership": [
+        {
+          "url": "https://repentigny.ca/",
+          "title": "Ville de Repentigny",
+          "ats_links": [],
+          "career_links": [
+            "https://repentigny.ca/la-ville/a-propos/emplois-stages",
+            "https://atlas.workland.com/careers/ville-de-repentigny/jobs?page=1"
+          ]
+        },
+        {
+          "url": "https://repentigny.ca/la-ville/a-propos/emplois-stages",
+          "ats_links": [],
+          "career_links": [
+            "https://atlas.workland.com/careers/ville-de-repentigny/jobs?page=1"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-repentigny",
+        "name": "Ville de Repentigny",
+        "domain": "repentigny.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521527.347951,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Repentigny",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Repentigny",
+            "total": 0,
+            "returned": 0
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://repentigny.ca/core/misc/favicon.ico",
+      "logo_sha256": "299a899d58416e84ead0d75af019bd1d6a7c12d931372e16b0d2fee5cfb74f7b",
+      "with_description": 4,
+      "samples": [
+        {
+          "title": "Préposé(e) aux installations récréatives",
+          "location": "Repentigny",
+          "source_url": "https://atlas.workland.com/work/93189/preposee-aux-installations-recreatives"
+        },
+        {
+          "title": "Technicien(ne) aux achats et gestion d'inventaire",
+          "location": "Repentigny",
+          "source_url": "https://atlas.workland.com/work/92889/technicienne-aux-achats-et-gestion-dinventaire"
+        },
+        {
+          "title": "Technicien(ne) en urbanisme et inspection - Remplacement de congé de maternité",
+          "location": "Repentigny",
+          "source_url": "https://atlas.workland.com/work/92740/technicienne-en-urbanisme-et-inspection-remplacement-de-conge-de-maternite"
+        }
+      ],
+      "warnings": [
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-saint-jerome",
+      "name": "Ville de Saint-Jerome",
+      "jobs_observed": 2,
+      "pages": 3,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:38:08.251457+00:00",
+      "ownership": [
+        {
+          "url": "https://www.vsj.ca/",
+          "title": "Ville de Saint-Jérôme - Site web officiel de la ville de Saint-Jérôme",
+          "ats_links": [],
+          "career_links": [
+            "https://www.vsj.ca/emplois/"
+          ]
+        },
+        {
+          "url": "https://www.vsj.ca/emplois/",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-saint-jerome",
+        "name": "Ville de Saint-Jerome",
+        "domain": "vsj.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521527.6074717,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Saint-Jerome",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Saint-Jerome",
+            "total": 147,
+            "returned": 100
+          }
+        ]
+      },
+      "freehire_resolution": null,
+      "logo_url": "https://www.vsj.ca/wp-content/themes/vsj.ca/assets/favicon/apple-touch-icon.png",
+      "logo_sha256": "ac6d43dfe39128e99fe1126a303f90c8038b6b2cff7906497522d3f33228058e",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Technicien juridique – Temporaire",
+          "location": "Unspecified",
+          "source_url": "https://www.vsj.ca/emplois/technicien-juridique-temporaire-2"
+        },
+        {
+          "title": "Analyste aux transactions – Temporaire (remplacement de congé de maternité)",
+          "location": "Unspecified",
+          "source_url": "https://www.vsj.ca/emplois/analyste-immobilier-temporaire-remplacement-de-conge-de-maternite"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    },
+    {
+      "id": "ville-de-westmount",
+      "name": "Ville de Westmount",
+      "jobs_observed": 1,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_html",
+      "checked_at": "2026-10-20T18:38:08.410705+00:00",
+      "ownership": [
+        {
+          "url": "https://westmount.org/fr",
+          "title": "Ville de Westmount",
+          "ats_links": [],
+          "career_links": [
+            "https://westmount.org/fr/emplois"
+          ]
+        },
+        {
+          "url": "https://westmount.org/fr/emplois",
+          "kind": "first-party-careers-domain"
+        }
+      ],
+      "freehire": {
+        "id": "ville-de-westmount",
+        "name": "Ville de Westmount",
+        "domain": "westmount.org",
+        "status": "overlap_or_possible_overlap",
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "westmount-realty-capital"
+        ],
+        "checked_at": 1792521528.1117673,
+        "screen_version": 2,
+        "live_queries": [
+          {
+            "query": "Ville de Westmount",
+            "total": 48,
+            "returned": 48
+          },
+          {
+            "query": "Westmount",
+            "total": 7,
+            "returned": 7
+          }
+        ]
+      },
+      "freehire_resolution": "FreeHire Westmount Realty Capital is a real estate business; this is the City of Westmount, westmount.org.",
+      "logo_url": "https://westmount.org/themes/westmount/assets/medias/images/favicon.ico",
+      "logo_sha256": "3826db280343a962d63faee83578a1fc99cd07871741b4806d3d4b8efc6d5941",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "2023 – 2026B - Préposé(e) aux télécommunications",
+          "location": "Unspecified",
+          "source_url": "https://westmount.org/fr/emplois/2023-2026b-preposee-aux-telecommunications"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+      ]
+    }
+  ],
+  "held": [
+    {
+      "id": "adga",
+      "reason": "ATS tenant or employer matches FreeHire"
+    },
+    {
+      "id": "all-seniors-care",
+      "reason": "ATS tenant or employer matches FreeHire"
+    },
+    {
+      "id": "amica-senior-lifestyles",
+      "reason": "No official outbound or first-party ownership proof"
+    },
+    {
+      "id": "ardene",
+      "reason": "ATS tenant or employer matches FreeHire"
+    },
+    {
+      "id": "cogir",
+      "reason": "ATS tenant or employer matches FreeHire"
+    },
+    {
+      "id": "igm-financial",
+      "reason": "No official outbound or first-party ownership proof"
+    },
+    {
+      "id": "osler",
+      "reason": "No official outbound or first-party ownership proof"
+    },
+    {
+      "id": "scarborough-health-network",
+      "reason": "ATS tenant or employer matches FreeHire"
+    },
+    {
+      "id": "trader-corporation",
+      "reason": "TRADER is AutoTrader.ca, already covered by FreeHire autotrader-ca."
+    },
+    {
+      "id": "ville-de-mont-royal",
+      "reason": "No normalized live jobs"
+    },
+    {
+      "id": "ville-de-sainte-therese",
+      "reason": "No normalized live jobs"
+    }
+  ]
+}

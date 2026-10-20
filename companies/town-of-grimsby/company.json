@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "town-of-grimsby",
+  "name": "Town of Grimsby",
+  "aliases": [
+    "Grimsby"
+  ],
+  "website_url": "https://grimsby.ca",
+  "logo_url": "https://www.grimsby.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

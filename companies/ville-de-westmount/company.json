@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-westmount",
+  "name": "Ville de Westmount",
+  "aliases": [
+    "Westmount"
+  ],
+  "website_url": "https://westmount.org",
+  "logo_url": "https://westmount.org/themes/westmount/assets/medias/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

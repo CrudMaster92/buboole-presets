@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ville-de-saint-jerome",
+  "company_id": "ville-de-saint-jerome",
+  "revision": 1,
+  "label": "Ville de Saint-Jerome public careers",
+  "careers_url": "https://www.vsj.ca/emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-20T18:38:08.251457+00:00",
+    "job_count": 2,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs",
+      "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Ville de Saint-Jerome",
+    "careers_url": "https://www.vsj.ca/emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.vsj.ca"
+    ],
+    "request": {
+      "url": "https://www.vsj.ca/emplois/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".jobs-list__item:has(a:contains(\"Voir le poste\"))",
+      "title": ".jobs-list__title",
+      "link": "a.jobs-list__link"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

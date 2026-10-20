@@ -1,0 +1,118 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-20261020",
+  "revision": 1,
+  "name": "Canadian Employers — Municipal hiring expansion",
+  "description": "13 additional Canadian municipal employers, screened against native identities and FreeHire with fresh canonical-runtime validation and official logos or favicons. Sources are explicitly partial; PDF adverts can lack descriptions or geographic fields.",
+  "tags": [
+    "Canada",
+    "Municipal employers"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "companies": [
+    {
+      "company_id": "city-of-port-coquitlam",
+      "monitor_ids": [
+        "city-of-port-coquitlam"
+      ],
+      "rank": 1
+    },
+    {
+      "company_id": "city-of-spruce-grove",
+      "monitor_ids": [
+        "city-of-spruce-grove"
+      ],
+      "rank": 2
+    },
+    {
+      "company_id": "district-of-squamish",
+      "monitor_ids": [
+        "district-of-squamish"
+      ],
+      "rank": 3
+    },
+    {
+      "company_id": "town-of-gibsons",
+      "monitor_ids": [
+        "town-of-gibsons"
+      ],
+      "rank": 4
+    },
+    {
+      "company_id": "town-of-grimsby",
+      "monitor_ids": [
+        "town-of-grimsby"
+      ],
+      "rank": 5
+    },
+    {
+      "company_id": "town-of-okotoks",
+      "monitor_ids": [
+        "town-of-okotoks"
+      ],
+      "rank": 6
+    },
+    {
+      "company_id": "township-of-scugog",
+      "monitor_ids": [
+        "township-of-scugog"
+      ],
+      "rank": 7
+    },
+    {
+      "company_id": "ville-de-beaconsfield",
+      "monitor_ids": [
+        "ville-de-beaconsfield"
+      ],
+      "rank": 8
+    },
+    {
+      "company_id": "ville-de-brossard",
+      "monitor_ids": [
+        "ville-de-brossard"
+      ],
+      "rank": 9
+    },
+    {
+      "company_id": "ville-de-dollard-des-ormeaux",
+      "monitor_ids": [
+        "ville-de-dollard-des-ormeaux"
+      ],
+      "rank": 10
+    },
+    {
+      "company_id": "ville-de-repentigny",
+      "monitor_ids": [
+        "ville-de-repentigny"
+      ],
+      "rank": 11
+    },
+    {
+      "company_id": "ville-de-saint-jerome",
+      "monitor_ids": [
+        "ville-de-saint-jerome"
+      ],
+      "rank": 12
+    },
+    {
+      "company_id": "ville-de-westmount",
+      "monitor_ids": [
+        "ville-de-westmount"
+      ],
+      "rank": 13
+    }
+  ]
+}

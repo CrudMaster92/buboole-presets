@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-saint-jerome",
+  "name": "Ville de Saint-Jerome",
+  "aliases": [
+    "Saint-Jerome"
+  ],
+  "website_url": "https://vsj.ca",
+  "logo_url": "https://www.vsj.ca/wp-content/themes/vsj.ca/assets/favicon/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

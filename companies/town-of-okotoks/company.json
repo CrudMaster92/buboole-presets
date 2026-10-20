@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "town-of-okotoks",
+  "name": "Town of Okotoks",
+  "aliases": [
+    "Okotoks"
+  ],
+  "website_url": "https://okotoks.ca",
+  "logo_url": "https://www.okotoks.ca/sites/default/files/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

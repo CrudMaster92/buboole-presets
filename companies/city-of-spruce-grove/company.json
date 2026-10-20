@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-spruce-grove",
+  "name": "City of Spruce Grove",
+  "aliases": [
+    "Spruce Grove"
+  ],
+  "website_url": "https://sprucegrove.org",
+  "logo_url": "https://sprucegrove.org/media/9391/cosg-favicon-1.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
