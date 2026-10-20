@@ -20,7 +20,7 @@
    when the limitation is visible and useful; never invent a centralized board.
 6. Create `collections/<id>.json` using references, ranks/notes where relevant,
    structured facets, and optional suggested criteria. Suggestions are labels,
-   not changes to a user's JobHound search profile.
+   not changes to a user's Buboole search profile.
 7. Run both validators and include their results in the pull request:
 
 ```sh

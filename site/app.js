@@ -50,7 +50,7 @@ function openJobHound(mode, selections, collectionId) {
   if (!selections.length) return;
   window.open(`http://127.0.0.1:4175/companies/presets#install=${encodeHandoff(mode, selections, collectionId)}`, '_blank', 'noopener');
   $('notice').hidden = false;
-  $('notice').textContent = 'Selection sent. If JobHound did not open, start JobHound and try again.';
+  $('notice').textContent = 'Selection sent. If Buboole did not open, start Buboole and try again.';
 }
 
 function matchingCompanyIds(query) {

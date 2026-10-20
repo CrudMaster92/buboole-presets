@@ -1,8 +1,8 @@
-# Job Hound Presets
+# Buboole Presets
 
-Public, portable company-monitor presets for [Job Hound](https://job-hound.realperson.chatgpt.site).
+Public, portable company-monitor presets for [Buboole](https://buboole.realperson.chatgpt.site).
 
-Each preset is a strict JSON manifest containing public careers URLs and deterministic scraper recipes. A Job Hound user can inspect a preset, select individual companies, and install those monitors while keeping their own global cities, titles, keywords, and schedule. Presets never contain credentials or personal search data.
+Each preset is a strict JSON manifest containing public careers URLs and deterministic scraper recipes. A Buboole user can inspect a preset, select individual companies, and install those monitors while keeping their own global cities, titles, keywords, and schedule. Presets never contain credentials or personal search data.
 
 ## Repository contract
 
@@ -16,7 +16,7 @@ number of collections:
   may have multiple monitors when it genuinely has separate careers systems.
 - `collections/<collection-id>.json` references companies and, optionally,
   specific monitor IDs. Collections own ranking, industry, role, and location
-  facets plus optional suggested JobHound criteria; they never duplicate a
+  facets plus optional suggested Buboole criteria; they never duplicate a
   recipe or silently change a user's filters.
 - `scripts/build_catalog.py` validates those sources and generates catalog
   version 3: compact indexes, paged collection membership, one artifact per
@@ -32,7 +32,7 @@ display-only grouping metadata: users still select and install each child
 company independently. A company and monitor can be referenced by multiple
 collections, so adding it to Marketing and a ranking collection never copies
 the recipe. Recipes that partition one real feed can declare the same
-`source_key` and typed listing or detail predicates; JobHound briefly reuses the
+`source_key` and typed listing or detail predicates; Buboole briefly reuses the
 bounded responses and applies each company's ownership rules separately.
 
 The **Marketing Agencies — Canada** collection is a phased migration from the
@@ -53,10 +53,10 @@ resolve only the relative hashed paths it publishes. Collection membership and
 search data are paged; recipes appear only in `monitors/<id>.json`. Optional
 large bundles are for explicit download, not ordinary browsing or installation.
 
-The [GitHub Pages catalog](https://crudmaster92.github.io/job-hound-presets/) is
+The [GitHub Pages catalog](https://crudmaster92.github.io/buboole-presets/) is
 an install-first catalog with preset cards, per-company and per-monitor
-selection, and advanced company search. Its **Open in JobHound** action sends a
-bounded, versioned selection to the loopback-only app; JobHound resolves and
+selection, and advanced company search. Its **Open in Buboole** action sends a
+bounded, versioned selection to the loopback-only app; Buboole resolves and
 hash-checks the trusted catalog again and requires a local confirmation before
 installing anything. The handoff contains only stable IDs and revisions, never
 recipes or personal data. Run

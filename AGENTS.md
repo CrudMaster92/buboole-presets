@@ -1,9 +1,9 @@
-# Job Hound Preset Agent Guide
+# Buboole Preset Agent Guide
 
 This repository is the public source and GitHub Pages catalog for portable
-JobHound company monitors. Read this file and `CONTRIBUTING.md` before changing
+Buboole company monitors. Read this file and `CONTRIBUTING.md` before changing
 catalog data. A preset task is scoped to this repository; do not edit the
-JobHound application or marketing site unless the user explicitly asks.
+Buboole application or marketing site unless the user explicitly asks.
 
 ## Canonical source model
 
@@ -27,7 +27,7 @@ JobHound application or marketing site unless the user explicitly asks.
 - Public install actions use `jobhound-catalog-install` version 1 as defined by
   `schemas/jobhound-catalog-install-v1.schema.json`. Keep handoffs bounded to
   200 stable company/monitor IDs and revisions. Never embed recipes, trust a
-  browser-supplied path or hash, or install without JobHound resolving the
+  browser-supplied path or hash, or install without Buboole resolving the
   current trusted catalog and asking for local confirmation.
 - The GitHub Pages browser is a live catalog consumer. Keep preset collections
   primary, company search secondary, individual monitor selection available,
@@ -45,7 +45,7 @@ JobHound application or marketing site unless the user explicitly asks.
    host must be in `allowed_hosts`; credentials, cookies, authorization headers,
    personal criteria, schedules, and local user data are forbidden.
 4. Prove ownership, not just schema validity. Run the recipe through the real
-   JobHound runtime and inspect titles and source URLs for cross-company
+   Buboole runtime and inspect titles and source URLs for cross-company
    contamination. A shared parent ATS feed must exclude unrelated employers.
    Use case-insensitive `source_filter.title_contains_any` only when titles
    contain a reliable company marker; filtering occurs after list
