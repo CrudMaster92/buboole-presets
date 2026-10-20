@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tenaquip",
+  "name": "Tenaquip",
+  "aliases": [],
+  "website_url": "https://tenaquip.com",
+  "logo_url": "https://www.tenaquip.com/tenaquip/images/favicon/apple-icon-57x57.png?1777893308",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
