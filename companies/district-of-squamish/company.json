@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "district-of-squamish",
+  "name": "District of Squamish",
+  "aliases": [
+    "Squamish"
+  ],
+  "website_url": "https://squamish.ca",
+  "logo_url": "https://squamish.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-port-coquitlam",
+  "name": "City of Port Coquitlam",
+  "aliases": [
+    "Port Coquitlam"
+  ],
+  "website_url": "https://portcoquitlam.ca",
+  "logo_url": "https://www.portcoquitlam.ca/sites/default/files/Favicon%20-%20Port%20Coquitlam.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

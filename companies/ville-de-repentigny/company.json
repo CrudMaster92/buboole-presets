@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-repentigny",
+  "name": "Ville de Repentigny",
+  "aliases": [
+    "Repentigny"
+  ],
+  "website_url": "https://repentigny.ca",
+  "logo_url": "https://repentigny.ca/core/misc/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

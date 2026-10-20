@@ -1,0 +1,82 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "city-of-spruce-grove",
+  "company_id": "city-of-spruce-grove",
+  "revision": 1,
+  "label": "City of Spruce Grove public careers",
+  "careers_url": "https://sprucegrove.myavanti.ca/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-20T18:41:19.714563+00:00",
+    "job_count": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Explicitly partial public source. Unseen jobs must not be treated as closed; employer-wide completeness is not claimed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "City of Spruce Grove",
+    "careers_url": "https://sprucegrove.myavanti.ca/careers",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "sprucegrove.myavanti.ca"
+    ],
+    "request": {
+      "url": "https://sprucegrove.myavanti.ca/careers/Job/Jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "filter": "",
+        "pageSize": 100,
+        "currentPageIndex": 0,
+        "aData": {
+          "category": "",
+          "location": ""
+        },
+        "fieldProperties": [
+          {
+            "id": "Title"
+          },
+          {
+            "id": "Location"
+          },
+          {
+            "id": "ClosingDate"
+          }
+        ]
+      },
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "items",
+      "source_id": "Job",
+      "title": "Title",
+      "url": "Job"
+    },
+    "metadata": {
+      "posting_url_template": "https://sprucegrove.myavanti.ca/careers/Job/Details/{source_id}",
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}
