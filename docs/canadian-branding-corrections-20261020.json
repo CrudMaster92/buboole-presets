@@ -38,5 +38,13 @@
     "logo_url": "https://media-001-ca.cdn.govstack.com/oromedonte-003-ca/media/3ytf1fua/logo.svg",
     "logo_sha256": "a104a7b5b084a57b419fd89ed3b5ee939297b2f7ba7727ec7e6c3ce83ad1e1c7",
     "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  },
+  {
+    "id": "killam-apartment-reit",
+    "official_homepage": "https://killamreit.com",
+    "before": "https://www.killamreit.com/favicon.ico",
+    "logo_url": "https://resource.rentcafe.com/image/upload/x_0,y_0,w_180,h_55,c_crop/q_auto,f_auto,c_limit,w_164,h_50/s3/2/47679/killam-corp1-propertylogo-default-live.png",
+    "logo_sha256": "df26d394c488779cdc6fe7c1ddc9ba53c1be3ad224514288dd15c87c50c36dd4",
+    "evidence": "Homepage header image explicitly labelled A logo for Killam Apartment Rentals; replaces the website platform favicon."
   }
 ]
