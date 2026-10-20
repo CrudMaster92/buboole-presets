@@ -1,0 +1,455 @@
+{
+  "created_at": "2026-10-20T18:57:00.992887+00:00",
+  "companies": 6,
+  "monitors": 6,
+  "logos": 6,
+  "observed_job_records": 18,
+  "sources": [
+    {
+      "id": "municipality-of-clarington",
+      "name": "Municipality of Clarington",
+      "jobs_observed": 1,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.159282+00:00",
+      "ownership": [
+        {
+          "url": "https://www.clarington.net/careers",
+          "title": "Careers | Municipality of Clarington",
+          "ats_links": [],
+          "career_links": [
+            "https://www.clarington.net/town-hall/careers/",
+            "https://www.clarington.net/careers#site-content",
+            "https://www.clarington.net/careers#site-footer",
+            "https://www.clarington.net/community-and-people/get-involved-public-engagement-opportunities/",
+            "https://www.clarington.net/careers#modal_2259",
+            "mailto:careers@clarington.net",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA",
+            "https://workforcenow.adp.com/theme/index.html#/Myself/MyselfTabTalentCategoryCareerCenter",
+            "https://www.clarington.net/town-hall/careers/part-time-jobs/",
+            "https://www.clarington.net/careers#collapse_89c2817a-d501-45b2-b213-a06638a1b1d3_1",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&type=JS&lang=en_CA&selectedMenuKey=CareerCenter",
+            "https://www.clarington.net/careers#collapse_89c2817a-d501-45b2-b213-a06638a1b1d3_2",
+            "https://www.clarington.net/careers#collapse_0387578a-4fce-4a09-8e64-dee3e70459d3_1",
+            "https://www.clarington.net/careers#collapse_0387578a-4fce-4a09-8e64-dee3e70459d3_2",
+            "https://www.clarington.net/careers#collapse_84772c10-1101-412c-91ac-30045389cca8_1",
+            "https://www.clarington.net/careers#collapse_84772c10-1101-412c-91ac-30045389cca8_2",
+            "https://www.clarington.net/careers#collapse_84772c10-1101-412c-91ac-30045389cca8_3",
+            "https://www.clarington.net/careers#collapse_6c391f1c-6286-44bb-837f-35e328253c02_1",
+            "https://www.clarington.net/careers#collapse_6c391f1c-6286-44bb-837f-35e328253c02_2",
+            "https://www.employmenthelp.ca/",
+            "http://kawarthaconservation.com/jobs",
+            "https://www.gojobs.gov.on.ca/Pages/SEP.aspx",
+            "https://www.ontario.ca/page/careers-ontario-public-service",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.clarington.net/",
+          "title": "Home | Municipality of Clarington",
+          "ats_links": [],
+          "career_links": [
+            "https://www.clarington.net/town-hall/careers/",
+            "https://www.clarington.net/community-and-people/get-involved-public-engagement-opportunities/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.clarington.net/town-hall/careers/",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.clarington.net/community-and-people/get-involved-public-engagement-opportunities/",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "municipality-of-clarington",
+        "name": "Municipality of Clarington",
+        "domain": "clarington.net",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.248361,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.clarington.net/favicon.ico",
+      "logo_sha256": "6477817dd46a825d501ad6bd98be2b477f064e601742e628144d08b7145866d6",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Crossing Guard",
+          "location": "Unspecified",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=09ed440f-e109-4f6f-ac03-075ea0a3a5e5&ccId=19000101_000001&lang=en_CA&jobId=463964"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    },
+    {
+      "id": "municipality-of-north-perth",
+      "name": "Municipality of North Perth",
+      "jobs_observed": 1,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.161549+00:00",
+      "ownership": [
+        {
+          "url": "https://www.northperth.ca/careers",
+          "title": "Career Opportunities | Municipality of North Perth",
+          "ats_links": [],
+          "career_links": [
+            "https://www.northperth.ca/careers",
+            "https://www.northperth.ca/careers#site-content",
+            "https://www.northperth.ca/careers#site-footer",
+            "http://www.northperth.ca/municipal-government/careers-and-volunteering/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0939b7ee-dace-4f4a-8077-8b915b316ffc&ccId=19000101_000001&lang=en_CA",
+            "https://www.northperth.ca/municipal-government/careers-and-volunteering/",
+            "https://www.northperth.ca/municipal-government/careers-and-volunteering/career-opportunities/",
+            "https://www.northperth.ca/municipal-government/careers-and-volunteering/celebrate-north-perth-awards/",
+            "https://www.northperth.ca/municipal-government/careers-and-volunteering/volunteering/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0939b7ee-dace-4f4a-8077-8b915b316ffc&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.northperth.ca/",
+          "title": "Home | Municipality of North Perth",
+          "ats_links": [],
+          "career_links": [
+            "http://www.northperth.ca/municipal-government/careers-and-volunteering/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0939b7ee-dace-4f4a-8077-8b915b316ffc&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.northperth.ca/municipal-government/careers-and-volunteering/",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0939b7ee-dace-4f4a-8077-8b915b316ffc&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "municipality-of-north-perth",
+        "name": "Municipality of North Perth",
+        "domain": "northperth.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.3025813,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.northperth.ca/favicon.ico",
+      "logo_sha256": "6477817dd46a825d501ad6bd98be2b477f064e601742e628144d08b7145866d6",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Seasonal Equipment Operator (Weekend Standby)",
+          "location": "Listowel, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0939b7ee-dace-4f4a-8077-8b915b316ffc&ccId=19000101_000001&lang=en_CA&jobId=598966"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    },
+    {
+      "id": "tenaquip",
+      "name": "Tenaquip",
+      "jobs_observed": 9,
+      "pages": 10,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.141708+00:00",
+      "ownership": [
+        {
+          "url": "https://www.tenaquip.com/",
+          "title": "Tenaquip - Industrial Equipment, Supplies & Solutions",
+          "ats_links": [],
+          "career_links": [
+            "https://www.tenaquip.com/company/careers",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=61027fcb-5146-4d49-86b8-c7a0214c5ece&ccId=19000101_000001&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.tenaquip.com/company/careers",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=61027fcb-5146-4d49-86b8-c7a0214c5ece&ccId=19000101_000001&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "tenaquip",
+        "name": "Tenaquip",
+        "domain": "tenaquip.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521297.6578617,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.tenaquip.com/tenaquip/images/favicon/apple-icon-57x57.png?1777893308",
+      "logo_sha256": "240ec95cbe07eb5acf4fab98a9001d5aa8c41f4a6bb6ac7d6b6aeb034e39a75e",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Customer Service Representative",
+          "location": "Senneville, Senneville, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=61027fcb-5146-4d49-86b8-c7a0214c5ece&ccId=19000101_000001&lang=en_CA&jobId=585979"
+        },
+        {
+          "title": "Merchandiser - Remote",
+          "location": "Granby, Granby, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=61027fcb-5146-4d49-86b8-c7a0214c5ece&ccId=19000101_000001&lang=en_CA&jobId=588405"
+        },
+        {
+          "title": "Sales Specialist - MRO/Industrial and Tooling",
+          "location": "Levis, Levis, QC, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=61027fcb-5146-4d49-86b8-c7a0214c5ece&ccId=19000101_000001&lang=en_CA&jobId=590732"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 9 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    },
+    {
+      "id": "town-of-east-gwillimbury",
+      "name": "Town of East Gwillimbury",
+      "jobs_observed": 4,
+      "pages": 5,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.150707+00:00",
+      "ownership": [
+        {
+          "url": "https://www.eastgwillimbury.ca/en/living-in-eg/careers.aspx",
+          "title": "\r\n\t\r\n        \n    \n        Careers\n    \r\n        - The Town of East Gwillimbury\r\n",
+          "ats_links": [],
+          "career_links": [
+            "https://www.eastgwillimbury.ca/en/living-in-eg/careers.aspx#mainContent",
+            "https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.eastgwillimbury.ca%2fen%2fliving-in-eg%2fcareers.aspx",
+            "https://twitter.com/intent/tweet?text=Check+out+https%3a%2f%2fwww.eastgwillimbury.ca%2fen%2fliving-in-eg%2fcareers.aspx",
+            "https://www.eastgwillimbury.ca/en/living-in-eg/careers.aspx",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&type=JS&lang=en_CA",
+            "https://www.eastgwillimbury.ca/en/living-in-eg/recreation-recruitment.aspx",
+            "https://www.eastgwillimbury.ca/en/municipal-services/firefighter-recruitment.aspx",
+            "https://www.egpl.ca/about-your-library/employment-and-volunteer-opportunities/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&type=JS&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.eastgwillimbury.ca/en/index.aspx",
+          "title": "\r\n\t\r\n        \r\n        The Town of East Gwillimbury\r\n",
+          "ats_links": [],
+          "career_links": [
+            "https://www.eastgwillimbury.ca/en/living-in-eg/careers.aspx",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&type=JS&lang=en_CA"
+          ]
+        },
+        {
+          "url": "https://www.eastgwillimbury.ca/en/living-in-eg/careers.aspx",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&type=JS&lang=en_CA"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "town-of-east-gwillimbury",
+        "name": "Town of East Gwillimbury",
+        "domain": "eastgwillimbury.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.4823194,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.eastgwillimbury.ca/apple-touch-icon.png",
+      "logo_sha256": "0735d01668e0931096207c9b1a34e88cb19e0a98fd54f79935e81947402b78fd",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Firefighter",
+          "location": "Unspecified",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&lang=en_CA&jobId=588298"
+        },
+        {
+          "title": "Health & Active Living Plaza (HALP) - Events Staff",
+          "location": "Queensville, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&lang=en_CA&jobId=586341"
+        },
+        {
+          "title": "HALP Aqua Fitness Instructor",
+          "location": "Queensville, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f5060f66-1f92-430e-b67b-c5e16cd9318f&ccId=19000101_000001&lang=en_CA&jobId=585438"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    },
+    {
+      "id": "town-of-erin",
+      "name": "Town of Erin",
+      "jobs_observed": 1,
+      "pages": 2,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.162688+00:00",
+      "ownership": [
+        {
+          "url": "https://www.erin.ca/careers",
+          "title": "\n        404\n        | Town Of Erin\n    ",
+          "ats_links": [],
+          "career_links": [
+            "https://www.erin.ca/careers#Top",
+            "https://www.erin.ca/careers#content",
+            "https://www.erin.ca/town-hall/town-hall/employment-opportunities",
+            "https://www.erin.ca/careers#top",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5d9aaa90-d2fa-4d27-afd3-61bb294d8dc9&ccId=19000101_000001&source=CC2&lang=en_CA&selectedMenuKey=CareerCenter"
+          ]
+        },
+        {
+          "url": "https://www.erin.ca/",
+          "title": "\n        Town of Erin\n        | Town Of Erin\n    ",
+          "ats_links": [],
+          "career_links": [
+            "https://www.erin.ca/town-hall/town-hall/employment-opportunities",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5d9aaa90-d2fa-4d27-afd3-61bb294d8dc9&ccId=19000101_000001&source=CC2&lang=en_CA&selectedMenuKey=CareerCenter"
+          ]
+        },
+        {
+          "url": "https://www.erin.ca/town-hall/town-hall/employment-opportunities",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5d9aaa90-d2fa-4d27-afd3-61bb294d8dc9&ccId=19000101_000001&source=CC2&lang=en_CA&selectedMenuKey=CareerCenter"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "town-of-erin",
+        "name": "Town of Erin",
+        "domain": "erin.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521524.521757,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.erin.ca/images/favicon/apple-touch-icon.png",
+      "logo_sha256": "92f76eda60b0cc87a53797408e9cd650a696cf975e728fada7e460a80edf322d",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Program Attendant - Active Living 55+ Program",
+          "location": "Unspecified",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5d9aaa90-d2fa-4d27-afd3-61bb294d8dc9&ccId=19000101_000001&lang=en_CA&jobId=561353"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    },
+    {
+      "id": "township-of-oro-medonte",
+      "name": "Township of Oro Medonte",
+      "jobs_observed": 2,
+      "pages": 3,
+      "complete": true,
+      "partial": true,
+      "strategy": "generic_json",
+      "checked_at": "2026-10-20T18:56:02.160544+00:00",
+      "ownership": [
+        {
+          "url": "https://www.oro-medonte.ca/careers",
+          "title": "Career Opportunities | Township of Oro-Medonte",
+          "ats_links": [],
+          "career_links": [
+            "https://www.oro-medonte.ca/careers",
+            "https://www.oro-medonte.ca/careers#site-content",
+            "https://www.oro-medonte.ca/careers#site-footer",
+            "http://www.oro-medonte.ca/working-here/career-opportunities/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CurrentOpenings",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=9200685307538_2&lang=en_CA",
+            "https://www.oro-medonte.ca/working-here/career-opportunities/volunteer-opportunities/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=9200720014078_2&lang=en_CA",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CareerCenter",
+            "https://www.oro-medonte.ca/careers#collapse_66458dd3-038b-4565-bad1-66405ed34a9e_1",
+            "https://www.oro-medonte.ca/careers#collapse_66458dd3-038b-4565-bad1-66405ed34a9e_2",
+            "https://www.oro-medonte.ca/careers#collapse_66458dd3-038b-4565-bad1-66405ed34a9e_3",
+            "https://www.oro-medonte.ca/careers#collapse_66458dd3-038b-4565-bad1-66405ed34a9e_4",
+            "https://www.oro-medonte.ca/working-here/career-opportunities/",
+            "https://www.oro-medonte.ca/working-here/township-departments/corporate-services/economic-development/local-oro-medonte-jobs/",
+            "https://www.oro-medonte.ca/working-here/township-departments/human-resources/",
+            "mailto:careers@oro-medonte.ca",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CurrentOpenings"
+          ]
+        },
+        {
+          "url": "https://www.oro-medonte.ca/",
+          "title": "Home | Township of Oro-Medonte",
+          "ats_links": [],
+          "career_links": [
+            "http://www.oro-medonte.ca/working-here/career-opportunities/",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CurrentOpenings"
+          ]
+        },
+        {
+          "url": "https://www.oro-medonte.ca/working-here/career-opportunities/",
+          "ats_links": [],
+          "career_links": [
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CurrentOpenings"
+          ]
+        }
+      ],
+      "freehire": {
+        "id": "township-of-oro-medonte",
+        "name": "Township of Oro Medonte",
+        "domain": "oro-medonte.ca",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "checked_at": 1792521526.5966673,
+        "screen_version": 2
+      },
+      "logo_url": "https://www.oro-medonte.ca/favicon.ico",
+      "logo_sha256": "6477817dd46a825d501ad6bd98be2b477f064e601742e628144d08b7145866d6",
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Deputy Chief Building Official",
+          "location": "Oro-Medonte, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&jobId=614680"
+        },
+        {
+          "title": "Records Management Clerk",
+          "location": "Oro-Medonte, ON, CA",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9f2305d4-136e-4d59-8ca5-961997f27eb5&ccId=19000101_000001&lang=en_CA&jobId=613060"
+        }
+      ],
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs",
+        "Explicitly partial public API source; unseen jobs must not be treated as closed. API location and source dates are retained as supplied."
+      ]
+    }
+  ]
+}

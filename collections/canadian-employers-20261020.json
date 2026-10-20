@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-employers-20261020",
-  "revision": 1,
-  "name": "Canadian Employers — Municipal hiring expansion",
-  "description": "13 additional Canadian municipal employers, screened against native identities and FreeHire with fresh canonical-runtime validation and official logos or favicons. Sources are explicitly partial; PDF adverts can lack descriptions or geographic fields.",
+  "revision": 2,
+  "name": "Canadian Employers — Public hiring expansion",
+  "description": "19 additional Canadian employers with fresh canonical-runtime verification, official logos or favicons and FreeHire screening. Includes municipal employers and Tenaquip. Sources explicitly declare partial coverage; some listing sources omit descriptions and geography.",
   "tags": [
     "Canada",
     "Municipal employers"
@@ -113,6 +113,48 @@
         "ville-de-westmount"
       ],
       "rank": 13
+    },
+    {
+      "company_id": "municipality-of-clarington",
+      "monitor_ids": [
+        "municipality-of-clarington"
+      ],
+      "rank": 14
+    },
+    {
+      "company_id": "municipality-of-north-perth",
+      "monitor_ids": [
+        "municipality-of-north-perth"
+      ],
+      "rank": 15
+    },
+    {
+      "company_id": "tenaquip",
+      "monitor_ids": [
+        "tenaquip"
+      ],
+      "rank": 16
+    },
+    {
+      "company_id": "town-of-east-gwillimbury",
+      "monitor_ids": [
+        "town-of-east-gwillimbury"
+      ],
+      "rank": 17
+    },
+    {
+      "company_id": "town-of-erin",
+      "monitor_ids": [
+        "town-of-erin"
+      ],
+      "rank": 18
+    },
+    {
+      "company_id": "township-of-oro-medonte",
+      "monitor_ids": [
+        "township-of-oro-medonte"
+      ],
+      "rank": 19
     }
   ]
 }

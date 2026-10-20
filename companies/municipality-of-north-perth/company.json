@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "municipality-of-north-perth",
+  "name": "Municipality of North Perth",
+  "aliases": [
+    "North Perth"
+  ],
+  "website_url": "https://northperth.ca",
+  "logo_url": "https://www.northperth.ca/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "municipality-of-clarington",
+  "name": "Municipality of Clarington",
+  "aliases": [
+    "Clarington"
+  ],
+  "website_url": "https://clarington.net",
+  "logo_url": "https://www.clarington.net/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
