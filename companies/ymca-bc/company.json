@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ymca-bc",
+  "name": "YMCA BC",
+  "aliases": [
+    "YMCA British Columbia",
+    "YMCA of Greater Vancouver"
+  ],
+  "website_url": "https://ymcabc.ca",
+  "logo_url": "https://cdn.prod.website-files.com/68ddbcd6ab007a7b072e7c02/690d5f85d298c3954a89884b_Shine%20On_Stacked_redY_blackSO_RGB_YMCA_BC.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

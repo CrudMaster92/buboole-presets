@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-royalties",
+  "name": "Canadian Royalties",
+  "aliases": [],
+  "website_url": "https://canadianroyalties.com",
+  "logo_url": "https://www.canadianroyalties.com/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

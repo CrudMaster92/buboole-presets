@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hecla-mining",
+  "name": "Hecla Mining",
+  "aliases": [],
+  "website_url": "https://hecla.com",
+  "logo_url": "https://www.hecla.com/wp-content/uploads/Hecla-Favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

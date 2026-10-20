@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "access-alliance-multicultural-health",
+  "name": "Access Alliance Multicultural Health",
+  "aliases": [],
+  "website_url": "https://accessalliance.ca",
+  "logo_url": "https://accessalliance.ca/wp-content/uploads/2020/06/cropped-favicon-2-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-medical-association",
+  "name": "Canadian Medical Association",
+  "aliases": [],
+  "website_url": "https://cma.ca",
+  "logo_url": "https://www.cma.ca/themes/custom/cma_theme_cma/images/favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

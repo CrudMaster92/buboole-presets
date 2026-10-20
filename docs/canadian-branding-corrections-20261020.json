@@ -1,0 +1,42 @@
+[
+  {
+    "id": "town-of-grimsby",
+    "official_homepage": "https://www.grimsby.ca/",
+    "before": "https://www.grimsby.ca/favicon.ico",
+    "logo_url": "https://media-001-ca.cdn.govstack.com/grimsbylibrary-005-ca/media/e2hjhr3h/grimsby-logo.png",
+    "logo_sha256": "57c7b42976c213928922b279d4c8de74a2291b4cbfc4b3eb295d499b9212eac3",
+    "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  },
+  {
+    "id": "township-of-scugog",
+    "official_homepage": "https://www.scugog.ca/",
+    "before": "https://www.scugog.ca/favicon.ico",
+    "logo_url": "https://media-001-ca.cdn.govstack.com/scugogtourism-001-ca/media/2rcpqliz/township-of-scugog-logo.png",
+    "logo_sha256": "39f26704a6c4e975da2eeed0adc0f03cea9cf87e3f81683422d60ab29bf05d54",
+    "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  },
+  {
+    "id": "municipality-of-clarington",
+    "official_homepage": "https://www.clarington.net/",
+    "before": "https://www.clarington.net/favicon.ico",
+    "logo_url": "https://media-003-ca.cdn.govstack.com/clarington-018-ca/media/tg1din1z/clarington-logo-svg.svg",
+    "logo_sha256": "a85b6004d7260fbec3ae50fb92f8085b9d151fc40eec53bbddf52795ae35c94d",
+    "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  },
+  {
+    "id": "municipality-of-north-perth",
+    "official_homepage": "https://www.northperth.ca/",
+    "before": "https://www.northperth.ca/favicon.ico",
+    "logo_url": "https://media-001-ca.cdn.govstack.com/northperth-003-ca/media/q3ufedwa/municipality-of-north-perth-logo.svg",
+    "logo_sha256": "ec1b94d8bd2007b2622c641b5a8eb3a510bf828d8d01a0177f0b911868de97b8",
+    "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  },
+  {
+    "id": "township-of-oro-medonte",
+    "official_homepage": "https://www.oro-medonte.ca/",
+    "before": "https://www.oro-medonte.ca/favicon.ico",
+    "logo_url": "https://media-001-ca.cdn.govstack.com/oromedonte-003-ca/media/3ytf1fua/logo.svg",
+    "logo_sha256": "a104a7b5b084a57b419fd89ed3b5ee939297b2f7ba7727ec7e6c3ce83ad1e1c7",
+    "evidence": "Official homepage header logo image; replaced generic shared Govstack favicon."
+  }
+]

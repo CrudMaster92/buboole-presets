@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "123dentist",
+  "name": "123Dentist",
+  "aliases": [],
+  "website_url": "https://123dentist.com",
+  "logo_url": "https://www.123dentist.com/wp-content/uploads/2025/05/cropped-123Dentist-Logomark-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
