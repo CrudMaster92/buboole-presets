@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hyundai-mobis",
+  "name": "Hyundai Mobis",
+  "aliases": [],
+  "website_url": "https://www.mobis.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "automotive-parts"
+    ],
+    "tags": [
+      "Car Industry",
+      "Auto Parts"
+    ]
+  }
+}

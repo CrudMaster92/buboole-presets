@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mazda",
+  "name": "Mazda",
+  "aliases": [],
+  "website_url": "https://www.mazda.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "vehicle-manufacturing"
+    ],
+    "tags": [
+      "Car Industry",
+      "Automakers"
+    ]
+  }
+}

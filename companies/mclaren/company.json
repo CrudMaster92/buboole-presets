@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mclaren",
+  "name": "McLaren Automotive",
+  "aliases": [],
+  "website_url": "https://cars.mclaren.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "vehicle-manufacturing"
+    ],
+    "tags": [
+      "Car Industry",
+      "Automakers"
+    ]
+  }
+}

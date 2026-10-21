@@ -1,0 +1,71 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "honda-us",
+  "company_id": "honda",
+  "revision": 1,
+  "label": "Honda — us",
+  "careers_url": "https://careers.honda.com/us/en",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T00:52:06.017198+00:00",
+    "job_count": 306,
+    "warnings": [
+      "Description traversal paused; 260 eligible roles resume next run.",
+      "American Honda public board; other regional Honda systems are not covered.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Honda",
+    "careers_url": "https://careers.honda.com/us/en",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.honda.com"
+    ],
+    "request": {
+      "url": "https://careers.honda.com/widgets",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "deviceType": "desktop",
+        "ddoKey": "refineSearch",
+        "jobs": true,
+        "from": 0,
+        "size": 100
+      },
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "from",
+      "page_size_parameter": "size",
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "refineSearch.data.jobs",
+      "source_id": "jobSeqNo",
+      "title": "title",
+      "url": "jobSeqNo",
+      "location": "cityState",
+      "posted_date": "postedDate"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "posting_url_template": "https://careers.honda.com/us/en/job/{url}"
+    }
+  }
+}

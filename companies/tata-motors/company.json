@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tata-motors",
+  "name": "Tata Motors",
+  "aliases": [],
+  "website_url": "https://careers.tatamotors.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "vehicle-manufacturing"
+    ],
+    "tags": [
+      "Car Industry",
+      "Automakers"
+    ]
+  }
+}

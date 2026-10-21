@@ -3,8 +3,8 @@
   "schema_version": 1,
   "id": "tesla-automation",
   "company_id": "tesla",
-  "revision": 1,
-  "label": "Tesla Automation - Germany",
+  "revision": 2,
+  "label": "Tesla — automation",
   "careers_url": "https://teslaautomation.de/de/recruitment/search?site=DE",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
@@ -12,15 +12,16 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-09-04T06:04:39.864868+00:00",
+    "checked_at": "2026-10-21T06:10:54.220100+00:00",
     "job_count": 2,
     "warnings": [
-      "Bounded/partial listing; unseen jobs must not be closed from this run.",
-      "Tesla Automation subsidiary in Germany only; currently two visible cards per headless page. Tesla worldwide careers remains HTTP 403 Access Denied. This does not cover Tesla U.S. or worldwide hiring."
+      "Tesla Automation Germany only, two visible listings. Tesla worldwide careers remains access-restricted and is not represented as global coverage.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
     ]
   },
   "recipe": {
     "version": 1,
+    "coverage_mode": "bounded",
     "company": "Tesla",
     "careers_url": "https://teslaautomation.de/de/recruitment/search?site=DE",
     "strategy": "playwright",
@@ -42,9 +43,10 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 100,
-      "max_pages": 10,
+      "max_pages": 1,
       "next_path": null
     },
+    "source_key": null,
     "source_filter": null,
     "selectors": {
       "item": "div:has(> div > a[class*=\"TitleLink\"]):has(> ul)",
@@ -56,7 +58,8 @@
     "mapping": {},
     "metadata": {
       "partial_listing": true,
-      "wait_selector": "a[class*=\"TitleLink\"]"
+      "wait_selector": "a[class*=\"TitleLink\"]",
+      "public_browser": true
     }
   }
 }

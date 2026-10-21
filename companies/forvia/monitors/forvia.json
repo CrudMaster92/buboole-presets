@@ -1,0 +1,72 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "forvia",
+  "company_id": "forvia",
+  "revision": 1,
+  "label": "FORVIA careers",
+  "careers_url": "https://jobs.faurecia.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:07:05.090713+00:00",
+    "job_count": 363,
+    "warnings": [
+      "Description traversal paused; 361 eligible roles resume next run.",
+      "description detail enrichment was incomplete for 2 jobs",
+      "FORVIA/Faurecia Eightfold public board; does not imply exhaustive coverage of separate HELLA systems.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "FORVIA",
+    "careers_url": "https://jobs.faurecia.com/careers",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs.faurecia.com"
+    ],
+    "request": {
+      "url": "https://jobs.faurecia.com/api/apply/v2/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "domain": "faurecia.com",
+        "query": "",
+        "start": 0,
+        "num": 10,
+        "sort_by": "relevance"
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "start",
+      "page_size_parameter": "num",
+      "page_size": 10,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "positions",
+      "source_id": "id",
+      "title": "name",
+      "url": "canonicalPositionUrl",
+      "location": "location",
+      "description": "job_description"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

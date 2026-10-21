@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mercedes-benz",
+  "name": "Mercedes-Benz",
+  "aliases": [],
+  "website_url": "https://jobs.mercedes-benz.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "vehicle-manufacturing"
+    ],
+    "tags": [
+      "Car Industry",
+      "Automakers"
+    ]
+  }
+}

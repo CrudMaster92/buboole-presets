@@ -1,0 +1,72 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "continental",
+  "company_id": "continental",
+  "revision": 1,
+  "label": "Continental careers",
+  "careers_url": "https://careers.smartrecruiters.com/Continental",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:24:48.601757+00:00",
+    "job_count": 569,
+    "warnings": [
+      "Description traversal paused; 561 eligible roles resume next run.",
+      "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Continental",
+    "careers_url": "https://careers.smartrecruiters.com/Continental",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.smartrecruiters.com",
+      "api.smartrecruiters.com",
+      "jobs.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Continental/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "limit": 100,
+        "offset": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "content",
+      "source_id": "id",
+      "title": "name",
+      "url": "id",
+      "location": "location.fullLocation",
+      "posted_date": "releasedDate",
+      "employment_type": "typeOfEmployment.label"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3,
+      "posting_url_template": "https://jobs.smartrecruiters.com/Continental/{url}"
+    }
+  }
+}

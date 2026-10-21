@@ -1,0 +1,505 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "car-industry",
+  "revision": 1,
+  "name": "Car Industry",
+  "description": "Automakers and major parts, tyre and aftermarket employers, including Korean, European, Japanese, American and Chinese companies. All role families are requested; regional boards and bounded sources are explicitly labelled. Includes UAP/NAPA Canada. Separate country/subsidiary systems and access-restricted boards remain coverage gaps. FreeHire discovery membership is planned separately; this collection contains validated native monitors only.",
+  "tags": [
+    "Automotive",
+    "Car Industry",
+    "Automakers",
+    "Auto Parts",
+    "Aftermarket",
+    "Tyres",
+    "Worldwide"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "automotive"
+    ],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "adient",
+      "monitor_ids": [
+        "adient-external"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "advance-auto-parts",
+      "monitor_ids": [
+        "advance-auto-parts"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "aisin",
+      "monitor_ids": [
+        "aisin-adp"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "aptiv",
+      "monitor_ids": [
+        "aptiv-aptiv-careers"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "aston-martin",
+      "monitor_ids": [
+        "aston-martin"
+      ],
+      "note": "Aston Martin official listing page, bounded to the first 20 rows. The root/alternate search routes were intermittent and are not used."
+    },
+    {
+      "company_id": "audi",
+      "monitor_ids": [
+        "audi-public"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "autoliv",
+      "monitor_ids": [
+        "autoliv-us"
+      ],
+      "note": "Autoliv United States Teamtailor board only."
+    },
+    {
+      "company_id": "autozone",
+      "monitor_ids": [
+        "autozone"
+      ],
+      "note": "AutoZone public Oracle board, bounded to the first 200 returned records."
+    },
+    {
+      "company_id": "bentley",
+      "monitor_ids": [
+        "bentley-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "bmw",
+      "monitor_ids": [
+        "bmw-browser"
+      ],
+      "note": "BMW Group global finder, bounded to five browser pages; 25 visible listings in this validation. No claim of all BMW vacancies."
+    },
+    {
+      "company_id": "borgwarner",
+      "monitor_ids": [
+        "borgwarner"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "bosch",
+      "monitor_ids": [
+        "bosch"
+      ],
+      "note": "Bosch Group official board, including automotive and other Bosch divisions; no claim that every role is automotive."
+    },
+    {
+      "company_id": "bridgestone",
+      "monitor_ids": [
+        "bridgestone-canadaexternalcareers",
+        "bridgestone-external",
+        "bridgestone-latamexternalcareers",
+        "bridgestone-wf-external-careers"
+      ],
+      "note": "Bridgestone named canadaexternalcareers Workday board; regional boards are separate and can overlap. Bridgestone named external Workday board; regional boards are separate and can overlap. Bridgestone named latamexternalcareers Workday board; regional boards are separate and can overlap. Bridgestone"
+    },
+    {
+      "company_id": "byd",
+      "monitor_ids": [
+        "byd-europe"
+      ],
+      "note": "BYD Europe Teamtailor board, with international roles advertised there; not mainland China-wide coverage."
+    },
+    {
+      "company_id": "chery",
+      "monitor_ids": [
+        "chery-poland"
+      ],
+      "note": "Chery Poland and OMODA/JAECOO Poland public employer board only. This does not claim worldwide Chery coverage; location city and the supplied description segment are retained."
+    },
+    {
+      "company_id": "continental",
+      "monitor_ids": [
+        "continental"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "dana",
+      "monitor_ids": [
+        "dana"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "denso",
+      "monitor_ids": [
+        "denso-oracle"
+      ],
+      "note": "DENSO public Oracle board; endpoint returned 107 current records in the bounded request. Other regional systems may exist."
+    },
+    {
+      "company_id": "ferrari",
+      "monitor_ids": [
+        "ferrari-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "ford",
+      "monitor_ids": [
+        "ford"
+      ],
+      "note": "Ford public Oracle board, first 200 returned records (endpoint caps the requested 500). Finder-embedded pagination is not representable in the current generic paginator."
+    },
+    {
+      "company_id": "forvia",
+      "monitor_ids": [
+        "forvia"
+      ],
+      "note": "FORVIA/Faurecia Eightfold public board; does not imply exhaustive coverage of separate HELLA systems."
+    },
+    {
+      "company_id": "geely",
+      "monitor_ids": [
+        "geely-europe"
+      ],
+      "note": "Geely Europe Teamtailor board only; other Geely group companies are separate."
+    },
+    {
+      "company_id": "general-motors",
+      "monitor_ids": [
+        "general-motors"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "genuine-parts-company",
+      "monitor_ids": [
+        "genuine-parts-company-careers"
+      ],
+      "note": "Genuine Parts Company group board, including automotive distribution and other group businesses such as Motion. Not every group role is exclusively automotive."
+    },
+    {
+      "company_id": "goodyear",
+      "monitor_ids": [
+        "goodyear"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "honda",
+      "monitor_ids": [
+        "honda-us"
+      ],
+      "note": "American Honda public board; other regional Honda systems are not covered."
+    },
+    {
+      "company_id": "hyundai",
+      "monitor_ids": [
+        "hyundai-singapore",
+        "hyundai-europe"
+      ],
+      "note": "Hyundai Motor Group Innovation Center Singapore board. Hyundai European public API; includes multiple legal entities/Genesis group roles. Dates and geography are omitted where the listing does not supply unambiguous values. ID-based posting routes were checked against source titles."
+    },
+    {
+      "company_id": "hyundai-mobis",
+      "monitor_ids": [
+        "hyundai-mobis-plymouth"
+      ],
+      "note": "Mobis North American LLC, Plymouth technical center only; other Mobis systems remain separate."
+    },
+    {
+      "company_id": "isuzu",
+      "monitor_ids": [
+        "isuzu-public"
+      ],
+      "note": "Isuzu group UD Trucks public recruitment board only; not all Isuzu group employers."
+    },
+    {
+      "company_id": "jaguar-land-rover",
+      "monitor_ids": [
+        "jaguar-land-rover-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "kia",
+      "monitor_ids": [
+        "kia-europe-1",
+        "kia-europe-2"
+      ],
+      "note": "Kia official Europe aggregate; disjoint hostname selection 1. Both monitors together observed 56 regional listings. Independent dealerships are excluded. Kia official Europe aggregate; disjoint hostname selection 2. Both monitors together observed 56 regional listings. Independent dealerships are ex"
+    },
+    {
+      "company_id": "lear",
+      "monitor_ids": [
+        "lear"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "linamar",
+      "monitor_ids": [
+        "linamar-oracle"
+      ],
+      "note": "Linamar public Oracle board, bounded to the first 200 returned records."
+    },
+    {
+      "company_id": "lkq",
+      "monitor_ids": [
+        "lkq-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "lucid",
+      "monitor_ids": [
+        "lucid"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "magna",
+      "monitor_ids": [
+        "magna-global"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "mahindra",
+      "monitor_ids": [
+        "mahindra-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "martinrea",
+      "monitor_ids": [
+        "martinrea-prevue"
+      ],
+      "note": "Martinrea public PrevueAPS board, partitioned by its explicit parentTitle employer field. Other regional hiring systems may exist."
+    },
+    {
+      "company_id": "mazda",
+      "monitor_ids": [
+        "mazda-canada"
+      ],
+      "note": "Mazda Canada UKG public board only."
+    },
+    {
+      "company_id": "mclaren",
+      "monitor_ids": [
+        "mclaren-automotive"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "mercedes-benz",
+      "monitor_ids": [
+        "mercedes-benz-beesite"
+      ],
+      "note": "Mercedes-Benz official public search, first 100 records. Nested JSON-in-query pagination is unsupported by the current generic paginator."
+    },
+    {
+      "company_id": "michelin",
+      "monitor_ids": [
+        "michelin-michelin"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "mitsubishi-motors",
+      "monitor_ids": [
+        "mitsubishi-motors"
+      ],
+      "note": "Mitsubishi Motors North America Greenhouse board only."
+    },
+    {
+      "company_id": "nio",
+      "monitor_ids": [
+        "nio-usa"
+      ],
+      "note": "NIO USA Lever board only; no claim of mainland China/global completeness."
+    },
+    {
+      "company_id": "nissan",
+      "monitor_ids": [
+        "nissan-nissanjobs"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "oreilly-auto-parts",
+      "monitor_ids": [
+        "oreilly-auto-parts-oreilly"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "porsche",
+      "monitor_ids": [
+        "porsche-beesite"
+      ],
+      "note": "Porsche official public search, first 500 records. Nested JSON-in-query pagination is unsupported by the current generic paginator."
+    },
+    {
+      "company_id": "renault",
+      "monitor_ids": [
+        "renault-group-careers"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "rivian",
+      "monitor_ids": [
+        "rivian"
+      ],
+      "note": "Public Rivian board, partitioned by the exact hiring_organization field; excludes records without Rivian ownership. Listing-only: one source description has a reversed salary range that fails canonical normalization."
+    },
+    {
+      "company_id": "saic-motor",
+      "monitor_ids": [
+        "saic-motor-europe"
+      ],
+      "note": "SAIC Motor Deutschland Personio board only."
+    },
+    {
+      "company_id": "schaeffler",
+      "monitor_ids": [
+        "schaeffler-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "skoda",
+      "monitor_ids": [
+        "skoda-czech"
+      ],
+      "note": "Skoda official Czech careers page, five visible positions; bounded browser listing."
+    },
+    {
+      "company_id": "stellantis",
+      "monitor_ids": [
+        "stellantis-adp"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "subaru",
+      "monitor_ids": [
+        "subaru-public-search",
+        "subaru-oracle"
+      ],
+      "note": "Subaru of Indiana Automotive manufacturing board only. Subaru corporate US public Oracle board, separate from Subaru Indiana manufacturing."
+    },
+    {
+      "company_id": "suzuki",
+      "monitor_ids": [
+        "suzuki-japan"
+      ],
+      "note": "Suzuki Japan experienced-hire board linked by the official Suzuki recruiting site; includes all role families advertised there."
+    },
+    {
+      "company_id": "tata-motors",
+      "monitor_ids": [
+        "tata-motors-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "tesla",
+      "monitor_ids": [
+        "tesla-automation"
+      ],
+      "note": "Tesla Automation Germany only, two visible listings. Tesla worldwide careers remains access-restricted and is not represented as global coverage."
+    },
+    {
+      "company_id": "toyota",
+      "monitor_ids": [
+        "toyota-tlac",
+        "toyota-tmna",
+        "toyota-tmna-college"
+      ],
+      "note": "Toyota Latin America and Caribbean public board. Toyota North America public Workday board. Toyota North America student/graduate board, separate from experienced hiring."
+    },
+    {
+      "company_id": "uap",
+      "monitor_ids": [
+        "uap"
+      ],
+      "note": "UAP Inc. public board, including Canadian NAPA, Altrom and Traction business units. Independent NAPA dealers are not inferred to be UAP."
+    },
+    {
+      "company_id": "valeo",
+      "monitor_ids": [
+        "valeo-valeo-jobs"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "vinfast",
+      "monitor_ids": [
+        "vinfast-canada"
+      ],
+      "note": "VinFast Canada officially linked Dayforce portal, bounded first page of 25."
+    },
+    {
+      "company_id": "volkswagen",
+      "monitor_ids": [
+        "volkswagen-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "volvo-cars",
+      "monitor_ids": [
+        "volvo-cars-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "volvo-group",
+      "monitor_ids": [
+        "volvo-group-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "xpeng",
+      "monitor_ids": [
+        "xpeng-us"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    },
+    {
+      "company_id": "zf",
+      "monitor_ids": [
+        "zf-public-search"
+      ],
+      "note": "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist."
+    }
+  ]
+}

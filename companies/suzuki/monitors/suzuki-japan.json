@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "suzuki-japan",
+  "company_id": "suzuki",
+  "revision": 1,
+  "label": "Suzuki — japan",
+  "careers_url": "https://job.axol.jp/qd/c/suzuki/public/job/list",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:10:54.215946+00:00",
+    "job_count": 246,
+    "warnings": [
+      "Description traversal paused; 211 eligible roles resume next run.",
+      "description detail enrichment was incomplete for 35 jobs",
+      "Suzuki Japan experienced-hire board linked by the official Suzuki recruiting site; includes all role families advertised there.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Suzuki",
+    "careers_url": "https://job.axol.jp/qd/c/suzuki/public/job/list",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "job.axol.jp"
+    ],
+    "request": {
+      "url": "https://job.axol.jp/qd/c/suzuki/public/job/list",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".offer__list__item",
+      "title": "a",
+      "link": "a"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

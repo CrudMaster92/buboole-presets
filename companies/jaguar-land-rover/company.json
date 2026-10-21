@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jaguar-land-rover",
+  "name": "JLR",
+  "aliases": [
+    "Jaguar Land Rover"
+  ],
+  "website_url": "https://www.jaguarlandrovercareers.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "vehicle-manufacturing"
+    ],
+    "tags": [
+      "Car Industry",
+      "Automakers"
+    ]
+  }
+}

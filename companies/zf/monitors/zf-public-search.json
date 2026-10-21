@@ -1,0 +1,68 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "zf-public-search",
+  "company_id": "zf",
+  "revision": 1,
+  "label": "ZF — public search",
+  "careers_url": "https://jobs.zf.com/search/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T00:50:07.755370+00:00",
+    "job_count": 600,
+    "warnings": [
+      "Listing traversal paused at its work budget; the next run resumes its checkpoint.",
+      "Description traversal paused; 600 eligible roles resume next run.",
+      "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "ZF",
+    "careers_url": "https://jobs.zf.com/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.zf.com"
+    ],
+    "request": {
+      "url": "https://jobs.zf.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "q": "",
+        "startrow": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "startrow",
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": ".hidden-phone a.jobTitle-link",
+      "link": ".hidden-phone a.jobTitle-link",
+      "location": "td.colLocation .jobLocation",
+      "posted_date": "td.colDate .jobDate"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

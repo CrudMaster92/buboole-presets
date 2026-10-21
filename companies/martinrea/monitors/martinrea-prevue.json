@@ -1,0 +1,81 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "martinrea-prevue",
+  "company_id": "martinrea",
+  "revision": 1,
+  "label": "Martinrea International — prevue",
+  "careers_url": "https://martinrea.prevueaps.com/jobs/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:33:24.907586+00:00",
+    "job_count": 12,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs",
+      "Martinrea public PrevueAPS board, partitioned by its explicit parentTitle employer field. Other regional hiring systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Martinrea International",
+    "careers_url": "https://martinrea.prevueaps.com/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "martinrea.prevueaps.com"
+    ],
+    "request": {
+      "url": "https://martinrea.prevueaps.com/core/jobs/596",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "getParams": "{\"cityUrl\":\"\",\"countryAbbreviation\":\"\",\"stateAbbreviation\":\"\",\"isInternal\":0,\"showPayFrequency\":1,\"showLocation\":1,\"locationTitle\":\"Location\",\"locationWeight\":2,\"showCustomCategory\":0,\"customCategoryTitle\":\"\",\"customCategoryWeight\":0,\"showEmploymentType\":1,\"employmentTypeTitle\":\"Employment Type\",\"employmentTypeWeight\":5,\"showJobBoardClassifications\":0,\"jobBoardClassificationsTitle\":\"Classification\",\"jobBoardClassificationsWeight\":4,\"showJobCategory\":0,\"jobCategoryTitle\":\"\",\"jobCategoryWeight\":0,\"showOrgUnit\":1,\"orgUnitTitle\":\"Department\",\"orgUnitWeight\":2,\"showDate\":1,\"dateTitle\":\"Closing Date\",\"dateWeight\":3,\"showWorkplaceType\":0,\"workplaceTypeTitle\":\"\",\"workplaceTypeWeight\":0,\"chatToApplyButton\":\"0\",\"chatToApplySort\":\"\"}"
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "parentTitle",
+          "operator": "equals_ci",
+          "values": [
+            "Martinrea International Inc."
+          ],
+          "label": null
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "data.jobs",
+      "source_id": "id",
+      "title": "title",
+      "url": "jobUrl",
+      "location": "jobLocation",
+      "employment_type": "employmentType",
+      "remote_mode": "workplaceType"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

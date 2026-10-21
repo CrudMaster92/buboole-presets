@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "geely-europe",
+  "company_id": "geely",
+  "revision": 1,
+  "label": "Geely — europe",
+  "careers_url": "https://geelyeurope.teamtailor.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T00:49:57.978694+00:00",
+    "job_count": 21,
+    "warnings": [
+      "Geely Europe Teamtailor board only; other Geely group companies are separate.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Geely",
+    "careers_url": "https://geelyeurope.teamtailor.com/jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "geelyeurope.teamtailor.com"
+    ],
+    "request": {
+      "url": "https://geelyeurope.teamtailor.com/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[href*=\"/jobs/\"])",
+      "title": "a[href*=\"/jobs/\"]",
+      "link": "a[href*=\"/jobs/\"]",
+      "location": "[data-location]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

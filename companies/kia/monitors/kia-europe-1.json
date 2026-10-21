@@ -1,0 +1,73 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "kia-europe-1",
+  "company_id": "kia",
+  "revision": 1,
+  "label": "Kia — europe 1",
+  "careers_url": "https://www.kia.com/eu/about-kia/career/job-opportunities/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:06:52.716535+00:00",
+    "job_count": 32,
+    "warnings": [
+      "Kia official Europe aggregate; disjoint hostname selection 1. Both monitors together observed 56 regional listings. Independent dealerships are excluded.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Kia Europe",
+    "careers_url": "https://www.kia.com/eu/about-kia/career/job-opportunities",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "www.kia.com",
+      "kia-austria.hirehive.com",
+      "kia-belux.hirehive.com",
+      "kia-connect.hirehive.com",
+      "kia-czechrepublic.hirehive.com",
+      "kia-deutschland-gmbh.hirehive.com",
+      "kia-europe-design.hirehive.com",
+      "kia-europe.hirehive.com",
+      "kia-france.hirehive.com"
+    ],
+    "request": {
+      "url": "https://www.kia.com/eu/about-kia/career/job-opportunities/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 12,
+      "max_pages": 5,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".hh-job-card:has(a[href^=\"https://kia-austria.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-belux.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-connect.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-czechrepublic.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-deutschland-gmbh.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-europe-design.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-europe.hirehive.com/\"]),.hh-job-card:has(a[href^=\"https://kia-france.hirehive.com/\"])",
+      "title": ".hh-job-title",
+      "link": "a.hh-job-cta",
+      "location": ".hh-job-location"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "wait_selector": ".hh-job-card",
+      "next_selector": ".hh-job-load-more",
+      "detail_fetch_limit": 0,
+      "public_browser": true
+    }
+  }
+}
