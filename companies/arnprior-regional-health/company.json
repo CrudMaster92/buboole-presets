@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "arnprior-regional-health",
+  "name": "Arnprior Regional Health",
+  "aliases": [],
+  "website_url": "https://arnpriorregionalhealth.ca",
+  "logo_url": "https://www.arnpriorregionalhealth.ca/wp-content/uploads/2017/04/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

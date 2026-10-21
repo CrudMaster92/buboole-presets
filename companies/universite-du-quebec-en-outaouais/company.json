@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "universite-du-quebec-en-outaouais",
+  "name": "Universite du Quebec en Outaouais",
+  "aliases": [
+    "Université du Québec en Outaouais (UQO)"
+  ],
+  "website_url": "https://uqo.ca",
+  "logo_url": "https://uqo.ca/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

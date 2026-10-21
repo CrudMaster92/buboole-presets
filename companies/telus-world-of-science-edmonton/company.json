@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "telus-world-of-science-edmonton",
+  "name": "TELUS World of Science Edmonton",
+  "aliases": [],
+  "website_url": "https://telusworldofscienceedmonton.ca",
+  "logo_url": "https://telusworldofscienceedmonton.ca/static/favicon/apple-touch-icon.28a6d5d72ebf.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

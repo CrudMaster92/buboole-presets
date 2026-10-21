@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "st-thomas-elgin-general-hospital",
+  "name": "St Thomas Elgin General Hospital",
+  "aliases": [],
+  "website_url": "https://stegh.on.ca",
+  "logo_url": "https://www.stegh.on.ca/wp-content/uploads/2020/05/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
