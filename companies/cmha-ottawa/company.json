@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cmha-ottawa",
+  "name": "CMHA Ottawa",
+  "aliases": [],
+  "website_url": "https://ottawa.cmha.ca",
+  "logo_url": "https://ottawa.cmha.ca/wp-content/uploads/2022/06/cropped-cmha_new_list-e1655175922134-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

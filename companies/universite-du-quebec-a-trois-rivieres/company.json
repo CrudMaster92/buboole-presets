@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "universite-du-quebec-a-trois-rivieres",
+  "name": "Universite du Quebec a Trois-Rivieres",
+  "aliases": [
+    "Université du Québec à Trois-Rivières"
+  ],
+  "website_url": "https://uqtr.ca",
+  "logo_url": "https://www.uqtr.ca/u20-img/logos/logo-uqtr-entete.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

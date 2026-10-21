@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "createto",
+  "name": "CreateTO",
+  "aliases": [],
+  "website_url": "https://createto.ca",
+  "logo_url": "https://createto.ca/images/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

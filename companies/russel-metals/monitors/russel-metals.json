@@ -1,0 +1,81 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "russel-metals",
+  "company_id": "russel-metals",
+  "revision": 1,
+  "label": "Russel Metals public careers",
+  "careers_url": "https://recruiting.ultipro.ca/RUS5000RUME/JobBoard/2c9eb4de-0808-4f40-b4f2-98e190b8f525",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T00:41:17.261102+00:00",
+    "job_count": 30,
+    "warnings": [
+      "Explicitly partial public source; not a whole-employer vacancy count. Unseen jobs must not be inferred closed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Russel Metals",
+    "careers_url": "https://recruiting.ultipro.ca/RUS5000RUME/JobBoard/2c9eb4de-0808-4f40-b4f2-98e190b8f525",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "recruiting.ultipro.ca"
+    ],
+    "request": {
+      "url": "https://recruiting.ultipro.ca/RUS5000RUME/JobBoard/2c9eb4de-0808-4f40-b4f2-98e190b8f525/JobBoardView/LoadSearchResults",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "opportunitySearch": {
+          "Top": 100,
+          "Skip": 0,
+          "QueryString": "",
+          "OrderBy": [],
+          "Filters": []
+        },
+        "matchCriteria": {
+          "PreferredJobs": [],
+          "Educations": [],
+          "LicenseAndCertifications": [],
+          "Skills": [],
+          "hasNoLicenses": false,
+          "SkippedSkills": []
+        }
+      },
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "opportunities",
+      "source_id": "Id",
+      "title": "Title",
+      "url": "Id",
+      "location": "Locations.0.Address.City",
+      "posted_date": "PostedDate",
+      "description": "BriefDescription"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "posting_url_template": "https://recruiting.ultipro.ca/RUS5000RUME/JobBoard/2c9eb4de-0808-4f40-b4f2-98e190b8f525/OpportunityDetail?opportunityId={url}",
+      "detail_fetch_limit": 3
+    }
+  }
+}

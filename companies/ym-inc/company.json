@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ym-inc",
+  "name": "YM Inc",
+  "aliases": [],
+  "website_url": "https://ym-inc.com",
+  "logo_url": "https://ym-inc.com/wp-content/uploads/ym-inc-logo-1-1.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

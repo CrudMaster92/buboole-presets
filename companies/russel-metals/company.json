@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "russel-metals",
+  "name": "Russel Metals",
+  "aliases": [],
+  "website_url": "https://russelmetals.com",
+  "logo_url": "https://www.russelmetals.com/wp-content/themes/kadence-child/assets/svg/russelmetals_logo.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

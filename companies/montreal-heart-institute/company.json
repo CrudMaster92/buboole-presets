@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "montreal-heart-institute",
+  "name": "Montreal Heart Institute",
+  "aliases": [
+    "Institut de cardiologie de Montréal"
+  ],
+  "website_url": "https://icm-mhi.org",
+  "logo_url": "https://icm-mhi.org/wp-content/uploads/2024/03/icm_favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

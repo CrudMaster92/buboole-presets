@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "exhibition-place",
+  "name": "Exhibition Place",
+  "aliases": [],
+  "website_url": "https://explace.on.ca",
+  "logo_url": "https://www.explace.on.ca/wp-content/uploads/2023/09/Logo-16x16.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

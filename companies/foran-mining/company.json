@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "foran-mining",
+  "name": "Eldorado Gold Saskatchewan (Foran)",
+  "aliases": [
+    "Foran Mining",
+    "Eldorado Gold",
+    "Eldorado Gold Saskatchewan"
+  ],
+  "website_url": "https://foranmining.com",
+  "logo_url": "https://foranmining.com/wp-content/themes/foran-theme/assets/img/meta/favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
