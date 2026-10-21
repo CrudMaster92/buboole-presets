@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cegep-edouard-montpetit",
+  "name": "Cégep Édouard-Montpetit",
+  "aliases": [
+    "cegepmontpetit"
+  ],
+  "website_url": "https://cegepmontpetit.ca",
+  "logo_url": "https://www.cegepmontpetit.ca/assets/icons/cegep/favicon-96x96.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

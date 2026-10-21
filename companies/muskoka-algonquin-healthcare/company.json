@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "muskoka-algonquin-healthcare",
+  "name": "Muskoka Algonquin Healthcare",
+  "aliases": [],
+  "website_url": "https://mahc.ca",
+  "logo_url": "https://media-001-ca.cdn.govstack.com/mahc-005-ca/media/d1phu0wo/mahc-logo-2025.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

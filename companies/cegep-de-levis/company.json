@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cegep-de-levis",
+  "name": "Cégep de Lévis",
+  "aliases": [
+    "Cégep de Lévis-Lauzon",
+    "cegep-levis"
+  ],
+  "website_url": "https://cegeplevis.ca",
+  "logo_url": "https://www.cegeplevis.ca/wp-content/themes/cll/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-robin",
+  "name": "Groupe Robin",
+  "aliases": [],
+  "website_url": "https://grouperobin.com",
+  "logo_url": "https://grouperobin.com/wp-content/uploads/2016/12/grouperobinfavicon.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

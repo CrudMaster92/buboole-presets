@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cegep-du-vieux-montreal",
+  "name": "Cégep du Vieux Montréal",
+  "aliases": [
+    "cvm"
+  ],
+  "website_url": "https://cvm.qc.ca",
+  "logo_url": "https://www.cvm.qc.ca/wp-content/uploads/cropped-logo_cvm_1080-32x32.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

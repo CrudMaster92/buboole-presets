@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "deep-river-and-district-health",
+  "company_id": "deep-river-and-district-health",
+  "revision": 1,
+  "label": "Deep River and District Health public careers",
+  "careers_url": "https://www.drdh.org/join-our-team/career-opportunities",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T15:16:25.633357+00:00",
+    "job_count": 17,
+    "warnings": [
+      "Explicitly partial public source; not a whole-employer vacancy count. Unseen jobs must not be inferred closed.",
+      "Explicit closing dates are checked in America/Toronto. Jobs with missing or past closing dates are excluded; descriptions are supplied in listing markup."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Deep River and District Health",
+    "careers_url": "https://www.drdh.org/join-our-team/career-opportunities",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.drdh.org"
+    ],
+    "request": {
+      "url": "https://www.drdh.org/join-our-team/career-opportunities/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".jobsListing__item",
+      "title": ".h5",
+      "link": "a[href*=\"apply-online/?job_id=\"]",
+      "description": ".jobDetails__description",
+      "employment_type": ".jobDetails__primaryTable tr:has(th:-soup-contains(\"Status\")) td",
+      "posted_date": ".jobDetails__secondaryTable tr:has(th:-soup-contains(\"Posting Date\")) td"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3,
+      "closing_date_selector": ".jobDetails__secondaryTable tr:has(th:-soup-contains(\"Closing Date\")) td",
+      "closing_date_timezone": "America/Toronto"
+    }
+  }
+}

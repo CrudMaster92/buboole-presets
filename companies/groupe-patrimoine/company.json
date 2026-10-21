@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-patrimoine",
+  "name": "Groupe Patrimoine",
+  "aliases": [],
+  "website_url": "https://groupepatrimoine.ca",
+  "logo_url": "https://cdn.prod.website-files.com/69c421ef388ac5a068a86440/6ab409b811bda02b3b7854e8_Logo_GP_principal_soleil_levant.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

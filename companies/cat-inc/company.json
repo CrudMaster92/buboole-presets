@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cat-inc",
+  "name": "C.A.T. Group",
+  "aliases": [
+    "C.A.T. Inc.",
+    "Canadian American Transport"
+  ],
+  "website_url": "https://cat.ca",
+  "logo_url": "https://cat.ca/wp-content/themes/betheme-child/images/header-logo.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

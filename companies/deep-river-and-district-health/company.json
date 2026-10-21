@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "deep-river-and-district-health",
+  "name": "Deep River and District Health",
+  "aliases": [],
+  "website_url": "https://drdh.org",
+  "logo_url": "https://www.drdh.org/wp-content/themes/selectrum/build/images/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

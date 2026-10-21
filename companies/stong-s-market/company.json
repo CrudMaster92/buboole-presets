@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "stong-s-market",
+  "name": "Stong’s Market",
+  "aliases": [],
+  "website_url": "https://stongs.com",
+  "logo_url": "https://images.squarespace-cdn.com/content/66f5c2558b9d9f36b3e34e8b/91f59f06-4b7d-4298-b434-1d5b59619653/download.png?format=100w&content-type=image%2Fpng",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
