@@ -1,0 +1,70 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "porsche-beesite",
+  "company_id": "porsche",
+  "revision": 1,
+  "label": "Porsche — beesite",
+  "careers_url": "https://jobs.porsche.com/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T05:55:55.198912+00:00",
+    "job_count": 500,
+    "warnings": [
+      "description detail enrichment skipped 497 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Porsche official public search, first 500 records. Nested JSON-in-query pagination is unsupported by the current generic paginator.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Porsche",
+    "careers_url": "https://jobs.porsche.com/",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs.porsche.com",
+      "porsche-beesite-production-gjb.app.beesite.de"
+    ],
+    "request": {
+      "url": "https://porsche-beesite-production-gjb.app.beesite.de/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "data": "{\"LanguageCode\":\"EN\",\"SearchParameters\":{\"FirstItem\":1,\"CountItem\":500}}"
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "SearchResult.SearchResultItems",
+      "source_id": "MatchedObjectId",
+      "title": "MatchedObjectDescriptor.PositionTitle",
+      "url": "MatchedObjectDescriptor.PositionURI",
+      "location": "MatchedObjectDescriptor.PositionLocation.0.CityName",
+      "posted_date": "MatchedObjectDescriptor.PublicationStartDate",
+      "description": "MatchedObjectDescriptor.PositionFormattedDescription.0.Content"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

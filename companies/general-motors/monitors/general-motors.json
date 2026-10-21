@@ -3,8 +3,8 @@
   "schema_version": 1,
   "id": "general-motors",
   "company_id": "general-motors",
-  "revision": 1,
-  "label": "General Motors Careers",
+  "revision": 2,
+  "label": "General Motors careers",
   "careers_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
@@ -12,15 +12,18 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-09-04T05:35:48.217754+00:00",
-    "job_count": 500,
+    "checked_at": "2026-10-21T00:47:09.993361+00:00",
+    "job_count": 540,
     "warnings": [
-      "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
-      "Bounded/partial listing; unseen jobs must not be closed from this run."
+      "Listing request failed (ScraperNetworkError); saved traversal remains incomplete and retries next run.",
+      "Description traversal paused; 540 eligible roles resume next run.",
+      "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
     ]
   },
   "recipe": {
     "version": 1,
+    "coverage_mode": "all",
     "company": "General Motors",
     "careers_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM",
     "strategy": "workday",
@@ -38,25 +41,26 @@
         "offset": 0,
         "searchText": ""
       },
-      "timeout_seconds": 15.0,
-      "max_response_bytes": 5000000
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
     },
     "pagination": {
       "kind": "offset",
       "parameter": "offset",
       "page_size_parameter": "limit",
       "page_size": 20,
-      "max_pages": 25,
+      "max_pages": null,
       "next_path": null
     },
+    "source_key": null,
     "source_filter": null,
     "selectors": {},
     "mapping": {},
     "metadata": {
       "tenant": "generalmotors",
       "site": "Careers_GM",
-      "detail_fetch_limit": 5,
-      "partial_listing": true
+      "partial_listing": true,
+      "detail_fetch_limit": 3
     }
   }
 }

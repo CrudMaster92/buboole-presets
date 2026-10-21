@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "uap",
+  "name": "UAP",
+  "aliases": [
+    "UAP Inc."
+  ],
+  "website_url": "https://www.uapinc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "automotive-parts"
+    ],
+    "tags": [
+      "Car Industry",
+      "Auto Parts",
+      "NAPA Canada",
+      "Traction"
+    ]
+  }
+}

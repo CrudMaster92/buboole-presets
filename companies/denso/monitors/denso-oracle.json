@@ -1,0 +1,71 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "denso-oracle",
+  "company_id": "denso",
+  "revision": 1,
+  "label": "DENSO — oracle",
+  "careers_url": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T05:55:50.442856+00:00",
+    "job_count": 107,
+    "warnings": [
+      "description detail enrichment skipped 104 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "DENSO public Oracle board; endpoint returned 107 current records in the bounded request. Other regional systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "DENSO",
+    "careers_url": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "hcwt.fa.us2.oraclecloud.com"
+    ],
+    "request": {
+      "url": "https://hcwt.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "onlyData": "true",
+        "expand": "requisitionList.secondaryLocations,requisitionList.workLocation",
+        "finder": "findReqs;siteNumber=CX,limit=500,offset=0,sortBy=POSTING_DATES_DESC"
+      },
+      "json_body": null,
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "items.0.requisitionList",
+      "source_id": "Id",
+      "title": "Title",
+      "url": "Id",
+      "location": "PrimaryLocation",
+      "posted_date": "PostedDate"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "posting_url_template": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/{url}",
+      "detail_fetch_limit": 3
+    }
+  }
+}

@@ -3,56 +3,69 @@
   "schema_version": 1,
   "id": "ford",
   "company_id": "ford",
-  "revision": 1,
-  "label": "Ford Motor Careers",
-  "careers_url": "https://www.careers.ford.com/search-jobs",
+  "revision": 2,
+  "label": "Ford Motor — oracle",
+  "careers_url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-09-04T05:57:21.570167+00:00",
-    "job_count": 15,
+    "checked_at": "2026-10-21T05:55:36.957216+00:00",
+    "job_count": 200,
     "warnings": [
-      "Bounded/partial listing; unseen jobs must not be closed from this run."
+      "description detail enrichment skipped 197 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Ford public Oracle board, first 200 returned records (endpoint caps the requested 500). Finder-embedded pagination is not representable in the current generic paginator.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
     ]
   },
   "recipe": {
     "version": 1,
+    "coverage_mode": "bounded",
     "company": "Ford Motor",
-    "careers_url": "https://www.careers.ford.com/search-jobs",
-    "strategy": "generic_html",
+    "careers_url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "strategy": "generic_json",
     "allowed_hosts": [
-      "www.careers.ford.com"
+      "efds.fa.em5.oraclecloud.com"
     ],
     "request": {
-      "url": "https://www.careers.ford.com/search-jobs",
+      "url": "https://efds.fa.em5.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
       "method": "GET",
       "headers": {},
-      "params": {},
+      "params": {
+        "onlyData": "true",
+        "expand": "requisitionList.secondaryLocations,requisitionList.workLocation",
+        "finder": "findReqs;siteNumber=CX_1,limit=500,offset=0,sortBy=POSTING_DATES_DESC"
+      },
       "json_body": null,
-      "timeout_seconds": 15.0,
-      "max_response_bytes": 5000000
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
     },
     "pagination": {
       "kind": "none",
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 100,
-      "max_pages": 10,
+      "max_pages": 1,
       "next_path": null
     },
+    "source_key": null,
     "source_filter": null,
-    "selectors": {
-      "item": "#search-results-list li",
-      "title": "h2",
-      "link": "a[data-job-id]",
-      "location": ".job-location"
+    "selectors": {},
+    "mapping": {
+      "items": "items.0.requisitionList",
+      "source_id": "Id",
+      "title": "Title",
+      "url": "Id",
+      "location": "PrimaryLocation",
+      "posted_date": "PostedDate"
     },
-    "mapping": {},
     "metadata": {
-      "partial_listing": true
+      "partial_listing": true,
+      "posting_url_template": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{url}",
+      "detail_fetch_limit": 3
     }
   }
 }

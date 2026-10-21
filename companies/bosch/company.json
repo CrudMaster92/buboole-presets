@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bosch",
+  "name": "Bosch",
+  "aliases": [],
+  "website_url": "https://www.bosch.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "automotive-parts"
+    ],
+    "tags": [
+      "Car Industry",
+      "Auto Parts"
+    ]
+  }
+}

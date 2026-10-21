@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "continental",
+  "name": "Continental",
+  "aliases": [],
+  "website_url": "https://jobs.continental.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "automotive-parts"
+    ],
+    "tags": [
+      "Car Industry",
+      "Auto Parts"
+    ]
+  }
+}

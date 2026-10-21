@@ -1,0 +1,956 @@
+{
+  "checked_at": "2026-10-21T06:35:16.378748+00:00",
+  "purpose": "Coverage reconnaissance, not an identity alias import or provider membership activation. Counts are provider observations and not net-new coverage.",
+  "company_searches": 68,
+  "detailed_provider_profiles": 69,
+  "exact_url_overlaps": [
+    {
+      "freehire_slug": "adient",
+      "provider_reported_count": 136,
+      "exact_url_overlap_count_in_sample": 17,
+      "observations": [
+        {
+          "company_id": "adient",
+          "title": "Manager, Commodity APAC",
+          "url": "https://adient.wd3.myworkdayjobs.com/External/job/Adient-Thailand-Co-Ltd/Manager--Commodity-APAC_R-29712"
+        },
+        {
+          "company_id": "adient",
+          "title": "Accounting Associate / Human Resources Training Coordinator",
+          "url": "https://adient.wd3.myworkdayjobs.com/External/job/Romulus-MI/Accounting-Associate_R-29490"
+        },
+        {
+          "company_id": "adient",
+          "title": "Weld Engineer",
+          "url": "https://adient.wd3.myworkdayjobs.com/External/job/Battle-Creek-MI/Weld-Engineer_R-29632"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "advance-auto-parts",
+      "provider_reported_count": 4401,
+      "exact_url_overlap_count_in_sample": 2,
+      "observations": [
+        {
+          "company_id": "advance-auto-parts",
+          "title": "Sr. Real Estate Development Manager",
+          "url": "https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers/job/Remote---USA/Sr-Real-Estate-Development-Manager_R-0615492"
+        },
+        {
+          "company_id": "advance-auto-parts",
+          "title": "Hub Supervisor - Store 8327 - Chattanooga, TN",
+          "url": "https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers/job/4011-Brainerd-Road-Suite-115-Chattanooga-TN-37411/Hub-Supervisor---Store-8327---Chattanooga--TN_R-0615141"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "aisin",
+      "provider_reported_count": 81,
+      "exact_url_overlap_count_in_sample": 16,
+      "observations": [
+        {
+          "company_id": "aisin",
+          "title": "Material Handler",
+          "url": "https://myjobs.adp.com/aisincareers/cx/job/5001114696300"
+        },
+        {
+          "company_id": "aisin",
+          "title": "2nd Shift Maintenance Technician",
+          "url": "https://myjobs.adp.com/aisincareers/cx/job/5001116095700"
+        },
+        {
+          "company_id": "aisin",
+          "title": "2nd Shift Reactive Maintenance Technician",
+          "url": "https://myjobs.adp.com/aisincareers/cx/job/5001162915400"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "aptiv",
+      "provider_reported_count": 636,
+      "exact_url_overlap_count_in_sample": 14,
+      "observations": [
+        {
+          "company_id": "aptiv",
+          "title": "Control Engineering Intern",
+          "url": "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/Krakow-Poland/Control-Engineering-Intern_J000705560"
+        },
+        {
+          "company_id": "aptiv",
+          "title": "Enterprise Architect Analyst",
+          "url": "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/IRL-Dublin-Office-Hanover-Quay/Enterprise-Architect-Analyst_J000705713"
+        },
+        {
+          "company_id": "aptiv",
+          "title": "Global Strategic Partnership Director",
+          "url": "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/USA-Remote-Worksite/Global-Strategic-Partnership-Director_J000705658"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "autoliv",
+      "provider_reported_count": 120,
+      "exact_url_overlap_count_in_sample": 3,
+      "observations": [
+        {
+          "company_id": "autoliv",
+          "title": "Quality Engineer",
+          "url": "https://careerunitedstates.autoliv.com/jobs/8571954-quality-engineer"
+        },
+        {
+          "company_id": "autoliv",
+          "title": "Automation and PLC Technician",
+          "url": "https://careerunitedstates.autoliv.com/jobs/8571879-automation-and-plc-technician"
+        },
+        {
+          "company_id": "autoliv",
+          "title": "Automation Controls Engineer",
+          "url": "https://careerunitedstates.autoliv.com/jobs/8554477-automation-controls-engineer"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "borgwarner",
+      "provider_reported_count": 153,
+      "exact_url_overlap_count_in_sample": 19,
+      "observations": [
+        {
+          "company_id": "borgwarner",
+          "title": "System Functional Test Engineer",
+          "url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Wuhan---China/System-Functional-Test-Engineer_R2026-4123"
+        },
+        {
+          "company_id": "borgwarner",
+          "title": "Senior System Development Engineer",
+          "url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Wuhan---China/Senior-System-Development-Engineer_R2026-4121"
+        },
+        {
+          "company_id": "borgwarner",
+          "title": "Senior Internal Auditor",
+          "url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Chennai---India/Senior-Internal-Auditor_R2026-4139-1"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "bridgestone",
+      "provider_reported_count": 147,
+      "exact_url_overlap_count_in_sample": 7,
+      "observations": [
+        {
+          "company_id": "bridgestone",
+          "title": "HR & Payroll Specialist (German speaker)",
+          "url": "https://bridgestone.wd5.myworkdayjobs.com/WF_External_Careers/job/Germany-Leipzig/HR---Payroll-Specialist--German-speaker-_2026_17668"
+        },
+        {
+          "company_id": "bridgestone",
+          "title": "HR & Payroll Specialist (German Speaker)",
+          "url": "https://bridgestone.wd5.myworkdayjobs.com/WF_External_Careers/job/Poland-Warsaw/HR---Payroll-Specialist--German-Speaker-_2026_24205"
+        },
+        {
+          "company_id": "bridgestone",
+          "title": "HR & Payroll Specialist (German Speaker)",
+          "url": "https://bridgestone.wd5.myworkdayjobs.com/WF_External_Careers/job/The-Netherlands-Amsterdam/HR---Payroll-Specialist_2026_24203"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "byd",
+      "provider_reported_count": 311,
+      "exact_url_overlap_count_in_sample": 18,
+      "observations": [
+        {
+          "company_id": "byd",
+          "title": "KFZ-Mechatroniker (m/w/d) Stuttgart",
+          "url": "https://careers.bydeurope.com/jobs/8576179-kfz-mechatroniker-m-w-d-stuttgart"
+        },
+        {
+          "company_id": "byd",
+          "title": "After-Sales Technical Support Manager - Passenger Cars",
+          "url": "https://careers.bydeurope.com/jobs/8580067-after-sales-technical-support-manager-passenger-cars"
+        },
+        {
+          "company_id": "byd",
+          "title": "Parts Specialist- Aftersales",
+          "url": "https://careers.bydeurope.com/jobs/7118758-parts-specialist-aftersales"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "careers-tatamotors-com",
+      "provider_reported_count": 15,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "tata-motors",
+          "title": "Senior Manager – Product line Development",
+          "url": "https://careers.tatamotors.com/job/Pune-Senior-Manager-Product-line-Development-MH/854414401"
+        },
+        {
+          "company_id": "tata-motors",
+          "title": "TSM-TMA",
+          "url": "https://careers.tatamotors.com/job/Hyderabad-TSM-TMA/918065201"
+        },
+        {
+          "company_id": "tata-motors",
+          "title": "Senior Manager-Advance Quality",
+          "url": "https://careers.tatamotors.com/job/Pune-Senior-Manager-Advance-Quality-MH/855263301"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "denso",
+      "provider_reported_count": 73,
+      "exact_url_overlap_count_in_sample": 10,
+      "observations": [
+        {
+          "company_id": "denso",
+          "title": "Sales Specialist",
+          "url": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25798"
+        },
+        {
+          "company_id": "denso",
+          "title": "Manager, Quality Assurance",
+          "url": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25715"
+        },
+        {
+          "company_id": "denso",
+          "title": "PMO Engineer 1",
+          "url": "https://hcwt.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25355"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "ferrari",
+      "provider_reported_count": 15,
+      "exact_url_overlap_count_in_sample": 10,
+      "observations": [
+        {
+          "company_id": "ferrari",
+          "title": "Senior Accountant (Englewood Cliffs, NJ) USA",
+          "url": "https://jobs.ferrari.com/job/Englewood-Cliffs-Senior-Accountant-%28Englewood-Cliffs%2C-NJ%29-USA-New/1366096055"
+        },
+        {
+          "company_id": "ferrari",
+          "title": "Global Clienteling Tools & Campaigns Expert (Milano)",
+          "url": "https://jobs.ferrari.com/job/Milano-Global-Clienteling-Tools-&-Campaigns-Expert-%28Milano%29/1370963655"
+        },
+        {
+          "company_id": "ferrari",
+          "title": "US Retail Popup & Training Manager (USA)",
+          "url": "https://jobs.ferrari.com/job/New-York-US-Retail-Popup-&-Training-Manager-%28USA%29-New/1370505255"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "ford-motor-company",
+      "provider_reported_count": 539,
+      "exact_url_overlap_count_in_sample": 17,
+      "observations": [
+        {
+          "company_id": "ford",
+          "title": "Supply Chain Resilience Lead",
+          "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72955"
+        },
+        {
+          "company_id": "ford",
+          "title": "Senior Systems Engineer, Vehicle Access & Passive Safety",
+          "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72902"
+        },
+        {
+          "company_id": "ford",
+          "title": "Closures Systems Launch Engineer",
+          "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72889"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "geely",
+      "provider_reported_count": 10,
+      "exact_url_overlap_count_in_sample": 16,
+      "observations": [
+        {
+          "company_id": "geely",
+          "title": "Finance Business Partner",
+          "url": "https://geelyeurope.teamtailor.com/jobs/8573797-finance-business-partner"
+        },
+        {
+          "company_id": "geely",
+          "title": "Marketing Intern",
+          "url": "https://geelyeurope.teamtailor.com/jobs/8540265-marketing-intern"
+        },
+        {
+          "company_id": "geely",
+          "title": "Digital Marketing Specialist",
+          "url": "https://geelyeurope.teamtailor.com/jobs/8486422-digital-marketing-specialist"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "general-motors",
+      "provider_reported_count": 1061,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "general-motors",
+          "title": "Group Manager (Indirect Purchasing)",
+          "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Giza-Egypt/Group-Manager--Indirect-Purchasing-_JR-202622577"
+        },
+        {
+          "company_id": "general-motors",
+          "title": "Controls Engineer",
+          "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Pontiac-Michigan-United-States-of-America/Controls-Engineer_JR-202622196"
+        },
+        {
+          "company_id": "general-motors",
+          "title": "Motorsports Tire Intelligence Scientist",
+          "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Concord-North-Carolina-United-States-of-America/Motorsports-Tire-Intelligence-Scientist_JR-202618007"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "genuine-parts-company",
+      "provider_reported_count": 689,
+      "exact_url_overlap_count_in_sample": 8,
+      "observations": [
+        {
+          "company_id": "genuine-parts-company",
+          "title": "Allround medewerker logistiek",
+          "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Helmond/Allround-medewerker-logistiek_R26_0000034877"
+        },
+        {
+          "company_id": "genuine-parts-company",
+          "title": "Oproepchauffeur Depot",
+          "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Helmond/Oproepchauffeur-Depot_R26_0000034879"
+        },
+        {
+          "company_id": "genuine-parts-company",
+          "title": "Head FP&A",
+          "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Ede/Head-FP-A_R26_0000035052"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "goodyear",
+      "provider_reported_count": 35,
+      "exact_url_overlap_count_in_sample": 19,
+      "observations": [
+        {
+          "company_id": "goodyear",
+          "title": "Sales coordinator",
+          "url": "https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers/job/CO-Colombia-Plt/Sales-coordinator_JR-40113509"
+        },
+        {
+          "company_id": "goodyear",
+          "title": "People Leader HPT",
+          "url": "https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers/job/RS-Krusevac/People-Leader-HPT_JR-40113164"
+        },
+        {
+          "company_id": "goodyear",
+          "title": "Manufacturing Unit Leader",
+          "url": "https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers/job/RS-Krusevac/Manufacturing-Unit-Leader_JR-40113162"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "honda",
+      "provider_reported_count": 226,
+      "exact_url_overlap_count_in_sample": 10,
+      "observations": [
+        {
+          "company_id": "honda",
+          "title": "Inventory Specialist",
+          "url": "https://careers.honda.com/us/en/job/AHMAHMUS12989EXTERNALENUS"
+        },
+        {
+          "company_id": "honda",
+          "title": "Senior Manager, Supply Chain Management",
+          "url": "https://careers.honda.com/us/en/job/AHMAHMUS13058EXTERNALENUS"
+        },
+        {
+          "company_id": "honda",
+          "title": "Senior Regional Manufacturing System Engineer I",
+          "url": "https://careers.honda.com/us/en/job/AHMAHMUS12968EXTERNALENUS"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "hyundai-mobis",
+      "provider_reported_count": 16,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "hyundai-mobis",
+          "title": "3D Technical Artist (Intern)",
+          "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4552695"
+        },
+        {
+          "company_id": "hyundai-mobis",
+          "title": "Sr. Legal Coordinator – Contracts, Immigration, Compliance",
+          "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4574880"
+        },
+        {
+          "company_id": "hyundai-mobis",
+          "title": "Automotive Audio Systems Engineer (Hybrid)",
+          "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4587263"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "hyundai-motor-group-innovation-center-singapore",
+      "provider_reported_count": 24,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "hyundai",
+          "title": "HR Specialist (People Services & Benefits)",
+          "url": "https://careers.hmgics.com/job/Singapore-HR-Specialist-%28People-Services-&-Benefits%29-649674/59873744"
+        },
+        {
+          "company_id": "hyundai",
+          "title": "Project Manager, Assembly Automation",
+          "url": "https://careers.hmgics.com/job/Singapore-Project-Manager%2C-Assembly-Automation-649674/57449044"
+        },
+        {
+          "company_id": "hyundai",
+          "title": "Project Director, IIoT, Connectivity & Cloud Platforms",
+          "url": "https://careers.hmgics.com/job/Singapore-Project-Director%2C-IIoT%2C-Connectivity-&-Cloud-Platforms-649674/58637344"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "isuzu-motors",
+      "provider_reported_count": 20,
+      "exact_url_overlap_count_in_sample": 8,
+      "observations": [
+        {
+          "company_id": "isuzu",
+          "title": "Retail Support, Dealer Management, Volvo Trucks Japan, Japan Sales",
+          "url": "https://isuzu-g-recruit.isuzu.co.jp/UDT/job/Ageo-Retail-Support%2C-Dealer-Management%2C-Volvo-Trucks-Japan%2C-Japan-Sales-%E6%97%A5%E6%9C%AC/4519150"
+        },
+        {
+          "company_id": "isuzu",
+          "title": "業務プロセス設計 品質保証アフターセールス領域担当",
+          "url": "https://isuzu-g-recruit.isuzu.co.jp/UDT/job/Ageo-%E6%A5%AD%E5%8B%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E8%A8%AD%E8%A8%88-%E5%93%81%E8%B3%AA%E4%BF%9D%E8%A8%BC%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E9%A0%98%E5%9F%9F%E6%8B%85%E5%BD%93-%E6%97%A5%E6%9C%AC/4511750"
+        },
+        {
+          "company_id": "isuzu",
+          "title": "国内販売部門アフターセールス領域担当 業務プロセス設計",
+          "url": "https://isuzu-g-recruit.isuzu.co.jp/UDT/job/Ageo-%E5%9B%BD%E5%86%85%E8%B2%A9%E5%A3%B2%E9%83%A8%E9%96%80%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E9%A0%98%E5%9F%9F%E6%8B%85%E5%BD%93-%E6%A5%AD%E5%8B%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E8%A8%AD%E8%A8%88-%E6%97%A5%E6%9C%AC/4482450"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "jlr",
+      "provider_reported_count": 32,
+      "exact_url_overlap_count_in_sample": 14,
+      "observations": [
+        {
+          "company_id": "jaguar-land-rover",
+          "title": "Enterprise Network Operations Manager - Service Management - Supplier Management & Governance",
+          "url": "https://www.jaguarlandrovercareers.com/job/Enterprise-Network-Operations-Manager-Service-Management-Supplier-Management-&-Governance/1411675233"
+        },
+        {
+          "company_id": "jaguar-land-rover",
+          "title": "Maintenance Technician",
+          "url": "https://www.jaguarlandrovercareers.com/job/Solihull-Maintenance-Technician/1190153601"
+        },
+        {
+          "company_id": "jaguar-land-rover",
+          "title": "Maintenance Technician",
+          "url": "https://www.jaguarlandrovercareers.com/job/Wolverhampton-EPMC-Maintenance-Technician/1291319901"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "lear",
+      "provider_reported_count": 199,
+      "exact_url_overlap_count_in_sample": 19,
+      "observations": [
+        {
+          "company_id": "lear",
+          "title": "Methods Engineer",
+          "url": "https://jobs.lear.com/job/Methods-Engineer/1448674433"
+        },
+        {
+          "company_id": "lear",
+          "title": "Especialista de Launch (Projetos de Chicotes Elétricos)",
+          "url": "https://jobs.lear.com/job/NAVEGANTES-Especialista-de-Launch-%28Projetos-de-Chicotes-El%C3%A9tricos%29-SC-88373-900/1449615333"
+        },
+        {
+          "company_id": "lear",
+          "title": "Analista de Maquinaria y Equipo",
+          "url": "https://jobs.lear.com/job/Cd-Ju%C3%A1rez-Analista-de-Maquinaria-y-Equipo-CHH-32607/1449138633"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "linamar",
+      "provider_reported_count": 110,
+      "exact_url_overlap_count_in_sample": 4,
+      "observations": [
+        {
+          "company_id": "linamar",
+          "title": "CNC Machinist",
+          "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14667"
+        },
+        {
+          "company_id": "linamar",
+          "title": "Supervisor, Production",
+          "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14659"
+        },
+        {
+          "company_id": "linamar",
+          "title": "Engineer - Manufacturing Technician",
+          "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14656"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "lkq-europe",
+      "provider_reported_count": 62,
+      "exact_url_overlap_count_in_sample": 18,
+      "observations": [
+        {
+          "company_id": "lkq",
+          "title": "RFC Delivery Driver",
+          "url": "https://careers.lkqeurope.com/job/Dublin-RFC-Delivery-Driver-D09-T6C1/1373461055"
+        },
+        {
+          "company_id": "lkq",
+          "title": "RFC Warehouse Operative",
+          "url": "https://careers.lkqeurope.com/job/Swansea-RFC-Warehouse-Operative-SA4-9WG/1373437555"
+        },
+        {
+          "company_id": "lkq",
+          "title": "Administrator - Branch",
+          "url": "https://careers.lkqeurope.com/job/Luton-Administrator-Branch-LU1-1XL/1373430455"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "lucid-motors",
+      "provider_reported_count": 198,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "lucid",
+          "title": "Technical Specialist, NVH",
+          "url": "https://lucidmotors.com/careers/search/5242351007?gh_jid=5242351007"
+        },
+        {
+          "company_id": "lucid",
+          "title": "Part Time Brand Ambassador, Beverly Hills",
+          "url": "https://lucidmotors.com/careers/search/5270423007?gh_jid=5270423007"
+        },
+        {
+          "company_id": "lucid",
+          "title": "Part Time Brand Ambassador ",
+          "url": "https://lucidmotors.com/careers/search/5246723007?gh_jid=5246723007"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "mazda-canada",
+      "provider_reported_count": 3,
+      "exact_url_overlap_count_in_sample": 3,
+      "observations": [
+        {
+          "company_id": "mazda",
+          "title": "Instructor, Service Training",
+          "url": "https://recruiting.ultipro.ca/maz5000mazc/JobBoard/40e3aa93-9753-4857-b275-27296a2f8c60/OpportunityDetail?opportunityId=5dd4b2fa-8b8a-46cd-a93c-7ac84f0ad7d7"
+        },
+        {
+          "company_id": "mazda",
+          "title": "Customer Assistance Representative - Bilingual FRE/ENG (12-Month Contract)",
+          "url": "https://recruiting.ultipro.ca/maz5000mazc/JobBoard/40e3aa93-9753-4857-b275-27296a2f8c60/OpportunityDetail?opportunityId=26ac60b3-6468-41a7-8eab-28aa969e960d"
+        },
+        {
+          "company_id": "mazda",
+          "title": "Manager, Vendor Supply Chain and Accessories",
+          "url": "https://recruiting.ultipro.ca/maz5000mazc/JobBoard/40e3aa93-9753-4857-b275-27296a2f8c60/OpportunityDetail?opportunityId=31bebf69-4538-48fd-9b63-93f5c6dae920"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "michelin",
+      "provider_reported_count": 215,
+      "exact_url_overlap_count_in_sample": 15,
+      "observations": [
+        {
+          "company_id": "michelin",
+          "title": "Minijob Bürokraft",
+          "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/EUROMASTER-ORANIENBURG/Minijob-Brokraft_R-2026038599"
+        },
+        {
+          "company_id": "michelin",
+          "title": "Auditor/a interno (talleres) Euromaster",
+          "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Madrid/Auditor-a-interno--talleres--Euromaster_R-2026039429"
+        },
+        {
+          "company_id": "michelin",
+          "title": "Contract Manager with German",
+          "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Voluntari/Contract-Manager-with-German_R-2026038391"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "mitsubishi-motors-north-america",
+      "provider_reported_count": 4,
+      "exact_url_overlap_count_in_sample": 10,
+      "observations": [
+        {
+          "company_id": "mitsubishi-motors",
+          "title": "Customer Service Supervisor",
+          "url": "https://job-boards.greenhouse.io/mitsubishimotorsna/jobs/5452538008"
+        },
+        {
+          "company_id": "mitsubishi-motors",
+          "title": "Manager, Accounting",
+          "url": "https://job-boards.greenhouse.io/mitsubishimotorsna/jobs/5452725008"
+        },
+        {
+          "company_id": "mitsubishi-motors",
+          "title": "Jr. Cloud Administrator",
+          "url": "https://job-boards.greenhouse.io/mitsubishimotorsna/jobs/5439899008"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "nissan",
+      "provider_reported_count": 191,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "nissan",
+          "title": "Modulador",
+          "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Aguascalientes-Aguascalientes---Mexico/Modulador_R00214951"
+        },
+        {
+          "company_id": "nissan",
+          "title": "FQI Jr Engineer",
+          "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/NTC-Rio-de-Janeiro--Brasil/FQI-Jr-Engineer_R00213857-1"
+        },
+        {
+          "company_id": "nissan",
+          "title": "Exterior Trim Purchasing Intern - Summer 2027 - Farmington Hills, MI",
+          "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Farmington-Hills-Michigan---United-States-of-America/Exterior-Trim-Purchasing-Intern---Summer-2027---Farmington-Hills--MI_R00214280"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "oreilly-auto-parts",
+      "provider_reported_count": 342,
+      "exact_url_overlap_count_in_sample": 9,
+      "observations": [
+        {
+          "company_id": "oreilly-auto-parts",
+          "title": "Customer Data Enablement Specialist",
+          "url": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly/job/Headquarters/Customer-Data-Enablement-Specialist_R207799"
+        },
+        {
+          "company_id": "oreilly-auto-parts",
+          "title": "Director Brand Management & Creative Services",
+          "url": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly/job/Headquarters/Director-Brand-Management---Creative-Services_R208118"
+        },
+        {
+          "company_id": "oreilly-auto-parts",
+          "title": "Material Handler I - Inbound",
+          "url": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly/job/Distribution-Center-Lubbock-TX/Material-Handler-I---Inbound_R199996"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "porsche",
+      "provider_reported_count": 127,
+      "exact_url_overlap_count_in_sample": 1,
+      "observations": [
+        {
+          "company_id": "porsche",
+          "title": "Material Handler",
+          "url": "https://jobs.porsche.com/index.php?ac=jobad&id=21450"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "rivian",
+      "provider_reported_count": 550,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "rivian",
+          "title": "Staff Technical Writer, Service Engineering",
+          "url": "https://careers.rivian.com/careers-home/jobs/34633"
+        },
+        {
+          "company_id": "rivian",
+          "title": "Coordinator, Workplace Operations, Facilities",
+          "url": "https://careers.rivian.com/careers-home/jobs/34817"
+        },
+        {
+          "company_id": "rivian",
+          "title": "Staff Engineer, Vehicle Ergonomics",
+          "url": "https://careers.rivian.com/careers-home/jobs/34214"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "saic-motor",
+      "provider_reported_count": 12,
+      "exact_url_overlap_count_in_sample": 20,
+      "observations": [
+        {
+          "company_id": "saic-motor",
+          "title": "Used Car Manager (m/w/d)",
+          "url": "https://saic-motor-deutschland-gmbh.jobs.personio.com/job/1694856"
+        },
+        {
+          "company_id": "saic-motor",
+          "title": "Technical Support & Training Specialist",
+          "url": "https://saic-motor-deutschland-gmbh.jobs.personio.com/job/2802355"
+        },
+        {
+          "company_id": "saic-motor",
+          "title": "Regional Sales Manager",
+          "url": "https://saic-motor-deutschland-gmbh.jobs.personio.com/job/2802318"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "schaeffler",
+      "provider_reported_count": 224,
+      "exact_url_overlap_count_in_sample": 19,
+      "observations": [
+        {
+          "company_id": "schaeffler",
+          "title": "Rectificator CNC",
+          "url": "https://jobs.schaeffler.com/job/Brasov-Rectificator-CNC-507075/1449336333"
+        },
+        {
+          "company_id": "schaeffler",
+          "title": "Montator subansamble",
+          "url": "https://jobs.schaeffler.com/job/Brasov-Montator-subansamble-507075/1449334633"
+        },
+        {
+          "company_id": "schaeffler",
+          "title": "Villamos karbantartó - Karbantartás területen",
+          "url": "https://jobs.schaeffler.com/job/Debrecen-Villamos-karbantart%C3%B3-Karbantart%C3%A1s-ter%C3%BCleten-4002/1449319633"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "stellantis",
+      "provider_reported_count": 304,
+      "exact_url_overlap_count_in_sample": 17,
+      "observations": [
+        {
+          "company_id": "stellantis",
+          "title": "Plant Financial Analyst",
+          "url": "https://myjobs.adp.com/stellantisexternalcx/cx/job/5001230839400"
+        },
+        {
+          "company_id": "stellantis",
+          "title": "Dealer Network Strategy Manager",
+          "url": "https://myjobs.adp.com/stellantisexternalcx/cx/job/5001232128506"
+        },
+        {
+          "company_id": "stellantis",
+          "title": "SIS Body Shop Director",
+          "url": "https://myjobs.adp.com/stellantisexternalcx/cx/job/5001232173006"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "subaru-of-indiana-automotive",
+      "provider_reported_count": 24,
+      "exact_url_overlap_count_in_sample": 17,
+      "observations": [
+        {
+          "company_id": "subaru",
+          "title": "Maintenance Technician - 2nd or 3rd Shift",
+          "url": "https://careers.subaru-sia.com/job/Lafayette-Maintenance-Technician-2nd-or-3rd-Shift-IN-47905/1372464500"
+        },
+        {
+          "company_id": "subaru",
+          "title": "Direct Hire Production Associate - 2nd Shift",
+          "url": "https://careers.subaru-sia.com/job/Lafayette-Direct-Hire-Production-Associate-2nd-Shift-IN-47905/1423094800"
+        },
+        {
+          "company_id": "subaru",
+          "title": "Senior Tax Accountant",
+          "url": "https://careers.subaru-sia.com/job/Lafayette-Senior-Tax-Accountant-IN-47905/1349713000"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "subaru",
+      "provider_reported_count": 39,
+      "exact_url_overlap_count_in_sample": 18,
+      "observations": [
+        {
+          "company_id": "subaru",
+          "title": "Warehouse Associate (Gresham)",
+          "url": "https://hcal.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2045"
+        },
+        {
+          "company_id": "subaru",
+          "title": "Warehouse Associate (Florence)",
+          "url": "https://hcal.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2331"
+        },
+        {
+          "company_id": "subaru",
+          "title": "Automotive Technician A",
+          "url": "https://hcal.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2277"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "toyota-motor",
+      "provider_reported_count": 22,
+      "exact_url_overlap_count_in_sample": 7,
+      "observations": [
+        {
+          "company_id": "toyota",
+          "title": "2027 Indirect Procurement Shared Services Internship",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA_College/job/Plano-Texas/XMLNAME-2027-Indirect-Procurement-Shared-Services-Internship_10338481"
+        },
+        {
+          "company_id": "toyota",
+          "title": "2027 Accounting & Finance, Product Profit Lifecycle Management Intern",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA_College/job/Ann-Arbor-Michigan/XMLNAME-2027-Accounting---Finance--Product-Profit-Lifecycle-Management-Intern_10338484"
+        },
+        {
+          "company_id": "toyota",
+          "title": "2027 Accounting & Finance, Financial Reporting Intern",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA_College/job/Plano-Texas/XMLNAME-2027-Accounting---Finance--Financial-Reporting-Intern_10338485"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "toyota",
+      "provider_reported_count": 224,
+      "exact_url_overlap_count_in_sample": 15,
+      "observations": [
+        {
+          "company_id": "toyota",
+          "title": "Skilled Maintenance Technician",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA/job/Georgetown-Kentucky/Skilled-Maintenance-Technician_10334451"
+        },
+        {
+          "company_id": "toyota",
+          "title": "Administrative Assistant",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA/job/Portland-Oregon/Administrative-Assistant_10336651"
+        },
+        {
+          "company_id": "toyota",
+          "title": "Sr. Manager, Connected Data Strategy & Business Development",
+          "url": "https://toyota.wd503.myworkdayjobs.com/TMNA/job/Plano-Texas/Sr-Manager--Connected-Data-Strategy---Business-Development_10336742"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "valeo",
+      "provider_reported_count": 408,
+      "exact_url_overlap_count_in_sample": 19,
+      "observations": [
+        {
+          "company_id": "valeo",
+          "title": "R&D gyakornok",
+          "url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/VESZPREM---VES1/R-D-gyakornok_REQ2026081191"
+        },
+        {
+          "company_id": "valeo",
+          "title": "AI Engineer",
+          "url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Crteil/AI-Engineer_REQ2026081784"
+        },
+        {
+          "company_id": "valeo",
+          "title": "Key Account Manager Valeo Service France Retail F/H",
+          "url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Saint-Denis/Key-Account-Manager-Valeo-Service-France-Retail-F-H_REQ2026081597"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "volkswagen-group",
+      "provider_reported_count": 196,
+      "exact_url_overlap_count_in_sample": 7,
+      "observations": [
+        {
+          "company_id": "audi",
+          "title": "Area Sales Manager",
+          "url": "https://jobs.volkswagen-group.com/Audi/job/Area-Sales-Manager/1449217633"
+        },
+        {
+          "company_id": "audi",
+          "title": "Sales Steering Analyst",
+          "url": "https://jobs.volkswagen-group.com/Audi/job/Ajax-Sales-Steering-Analyst-ON-L1S-7G7/1449219833"
+        },
+        {
+          "company_id": "audi",
+          "title": "Parts and Accessories Business Development Consultant",
+          "url": "https://jobs.volkswagen-group.com/Audi/job/Ajax-Parts-and-Accessories-Business-Development-Consultant-ON-L1S-7G7/1444912333"
+        }
+      ]
+    },
+    {
+      "freehire_slug": "xpeng-motors",
+      "provider_reported_count": 18,
+      "exact_url_overlap_count_in_sample": 18,
+      "observations": [
+        {
+          "company_id": "xpeng",
+          "title": "XPERT Specialist",
+          "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8893357002"
+        },
+        {
+          "company_id": "xpeng",
+          "title": "Talent Acquisition Partner",
+          "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8843553002"
+        },
+        {
+          "company_id": "xpeng",
+          "title": "Tech Lead — XPENG Robotics Xplore Lab",
+          "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8827815002"
+        }
+      ]
+    }
+  ],
+  "identity_exceptions": [
+    {
+      "provider_id": "bmw-group-us",
+      "status": "not-a-corporate-bmw-board",
+      "evidence": "Observed links point to BMWDealerCareers; independent dealers are not BMW Group corporate hiring."
+    },
+    {
+      "provider_id": "nio",
+      "status": "requires-ownership-review",
+      "evidence": "Observed company profile includes vtal.gupy.io telecom roles. Do not bind this slug to the NIO automaker. nio-usa has an independently validated manufacturer Lever board."
+    },
+    {
+      "provider_id": "suzuki-new-zealand",
+      "status": "regional-indirect-only",
+      "evidence": "Observed Seek listing does not establish worldwide Suzuki coverage."
+    },
+    {
+      "provider_id": "hyundai-motor-company",
+      "status": "indirect-unverified",
+      "evidence": "Sampled postings were WhatJobs links; native Europe/Singapore sources were validated independently."
+    },
+    {
+      "provider_id": "great-wall-motors",
+      "status": "indirect-regional-only",
+      "evidence": "One observed JobsDB/JobStreet Thailand listing is not a direct worldwide manufacturer scraper."
+    },
+    {
+      "provider_id": "chery",
+      "status": "indirect-unverified",
+      "evidence": "Sampled Seek/WhatJobs results do not establish a directly owned reusable career board."
+    }
+  ],
+  "fuzzy_searches_are_not_coverage": [
+    "kg-mobility",
+    "skoda",
+    "martinrea"
+  ],
+  "no_automatic_aliases": true,
+  "no_provider_recipes_in_native_collector": true
+}

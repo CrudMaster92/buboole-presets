@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "oreilly-auto-parts",
+  "name": "O'Reilly Auto Parts",
+  "aliases": [],
+  "website_url": "https://careers.oreillyauto.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [
+      "automotive-parts"
+    ],
+    "tags": [
+      "Car Industry",
+      "Auto Parts"
+    ]
+  }
+}

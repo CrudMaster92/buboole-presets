@@ -3,8 +3,8 @@
   "schema_version": 1,
   "id": "advance-auto-parts",
   "company_id": "advance-auto-parts",
-  "revision": 1,
-  "label": "Advance Auto Parts Careers",
+  "revision": 2,
+  "label": "Advance Auto Parts — advanceexternalcareers",
   "careers_url": "https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
@@ -12,14 +12,18 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-09-30T16:48:25.285826+00:00",
-    "job_count": 20,
+    "checked_at": "2026-10-21T00:49:10.046662+00:00",
+    "job_count": 61,
     "warnings": [
-      "Bounded/partial listing; unseen jobs must not be closed from this run."
+      "Listing traversal paused at its work budget; the next run resumes its checkpoint.",
+      "Description traversal paused; 61 eligible roles resume next run.",
+      "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
     ]
   },
   "recipe": {
     "version": 1,
+    "coverage_mode": "all",
     "company": "Advance Auto Parts",
     "careers_url": "https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers",
     "strategy": "workday",
@@ -37,25 +41,26 @@
         "offset": 0,
         "searchText": ""
       },
-      "timeout_seconds": 15.0,
-      "max_response_bytes": 5000000
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
     },
     "pagination": {
       "kind": "offset",
       "parameter": "offset",
       "page_size_parameter": "limit",
       "page_size": 20,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
+    "source_key": null,
     "source_filter": null,
     "selectors": {},
     "mapping": {},
     "metadata": {
       "tenant": "advanceauto",
       "site": "AdvanceExternalCareers",
-      "detail_fetch_limit": 20,
-      "partial_listing": true
+      "partial_listing": true,
+      "detail_fetch_limit": 3
     }
   }
 }

@@ -1,0 +1,67 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "renault-group-careers",
+  "company_id": "renault",
+  "revision": 1,
+  "label": "Renault Group — group careers",
+  "careers_url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T05:55:57.002419+00:00",
+    "job_count": 34,
+    "warnings": [
+      "Source result window could not be fully traversed: observed 34/453 advertised postings.",
+      "Description traversal paused; 7 eligible roles resume next run.",
+      "description detail enrichment was incomplete for 1 jobs",
+      "All role families on this named public employer board, without title or geographic filters. Separate regional or subsidiary systems may exist.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Renault Group",
+    "careers_url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "alliancewd.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://alliancewd.wd3.myworkdayjobs.com/wday/cxs/alliancewd/renault-group-careers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 25.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "alliancewd",
+      "site": "renault-group-careers",
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "bmw-browser",
+  "company_id": "bmw",
+  "revision": 1,
+  "label": "BMW Group — browser",
+  "careers_url": "https://www.bmwgroup.jobs/en.html",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T06:13:38.233247+00:00",
+    "job_count": 25,
+    "warnings": [
+      "BMW Group global finder, bounded to five browser pages; 25 visible listings in this validation. No claim of all BMW vacancies.",
+      "Partial/scoped source: unseen jobs must not be closed from this source."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "BMW Group",
+    "careers_url": "https://www.bmwgroup.jobs/en.html",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "www.bmwgroup.jobs",
+      "www.bmw.com"
+    ],
+    "request": {
+      "url": "https://www.bmwgroup.jobs/en.html",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 5,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".grp-jobfinder__wrapper",
+      "title": ".grp-jobfinder-cell-job-title-group__title",
+      "link": "a",
+      "location": ".grp-jobfinder-cell-job-location"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "public_browser": true,
+      "wait_selector": ".grp-jobfinder__link-jobdescription",
+      "next_selector": ".grp-jobfinder-load-more button",
+      "detail_fetch_limit": 0
+    }
+  }
+}
