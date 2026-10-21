@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cannapiece",
+  "name": "CannaPiece",
+  "aliases": [],
+  "website_url": "https://cannapiece.ca",
+  "logo_url": "https://cannapiece.ca/wp-content/uploads/2020/06/cropped-Blue_favicon-32x32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

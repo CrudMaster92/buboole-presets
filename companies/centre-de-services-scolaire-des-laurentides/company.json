@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "centre-de-services-scolaire-des-laurentides",
+  "name": "Centre de services scolaire des Laurentides",
+  "aliases": [
+    "csslaurentides"
+  ],
+  "website_url": "https://csslaurentides.gouv.qc.ca",
+  "logo_url": "https://csslaurentides.gouv.qc.ca/wp-content/uploads/2022/05/logo_header.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

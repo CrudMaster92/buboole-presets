@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cegep-de-trois-rivieres",
+  "name": "Cégep de Trois-Rivières",
+  "aliases": [
+    "cegep-trois-rivieres"
+  ],
+  "website_url": "https://cegeptr.qc.ca",
+  "logo_url": "https://www.cegeptr.qc.ca/wp-content/themes/acolyte-2_1_5/assets/icons/apple-icon-57x57.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

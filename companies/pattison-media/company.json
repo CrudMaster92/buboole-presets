@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pattison-media",
+  "name": "Pattison Media",
+  "aliases": [],
+  "website_url": "https://pattisonmedia.com",
+  "logo_url": "https://cdn.prod.website-files.com/6101806ddda3e50cc4b6b612/610193b68393d049a447cbb4_pattison-logo.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ville-de-salaberry-de-valleyfield",
+  "name": "Ville de Salaberry-de-Valleyfield",
+  "aliases": [
+    "Salaberry-de-Valleyfield"
+  ],
+  "website_url": "https://ville.valleyfield.qc.ca",
+  "logo_url": "https://www.ville.valleyfield.qc.ca/img/favicon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

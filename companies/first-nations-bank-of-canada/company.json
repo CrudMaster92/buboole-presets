@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "first-nations-bank-of-canada",
+  "name": "First Nations Bank of Canada",
+  "aliases": [],
+  "website_url": "https://fnbc.ca",
+  "logo_url": "https://www.fnbc.ca/assets/img/logos/FNBC_Logo_Full.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

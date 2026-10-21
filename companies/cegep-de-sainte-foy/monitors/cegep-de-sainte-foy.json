@@ -1,0 +1,103 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cegep-de-sainte-foy",
+  "company_id": "cegep-de-sainte-foy",
+  "revision": 1,
+  "label": "Cégep de Sainte-Foy public careers",
+  "careers_url": "https://atlas.workland.com/careers/csfoy/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-21T15:21:46.669100+00:00",
+    "job_count": 40,
+    "warnings": [
+      "Explicitly partial public source; not a whole-employer vacancy count. Unseen jobs must not be inferred closed.",
+      "Only the explicitly pinned employer account and observed vacancy categories are included. Application banks and uncategorized forms remain outside scope; some mixed Contract categories are excluded."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Cégep de Sainte-Foy",
+    "careers_url": "https://atlas.workland.com/careers/csfoy/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs-prod.workland.com",
+      "atlas.workland.com"
+    ],
+    "request": {
+      "url": "https://jobs-prod.workland.com/api/v1/job/published-external",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "page": 1,
+        "pageSize": 100,
+        "account_ids": [
+          557148
+        ],
+        "load_with": [
+          "locations",
+          "groups",
+          "types"
+        ]
+      },
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": "pageSize",
+      "page_size": 100,
+      "max_pages": 3,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "account_id",
+          "operator": "equals_ci",
+          "values": [
+            "557148"
+          ],
+          "label": null
+        },
+        {
+          "phase": "listing",
+          "path": "types",
+          "operator": "array_object_field_equals_ci",
+          "values": [
+            "Contract",
+            "Project",
+            "Regular Position"
+          ],
+          "label": "name"
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "data",
+      "source_id": "id",
+      "title": "translations.fr.title",
+      "url": "url",
+      "description": "translations.fr.description",
+      "location": "locations.0.city",
+      "posted_date": "published_externally_at",
+      "employment_type": "types.0.name"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "posting_url_template": "https://atlas.workland.com/work/{source_id}/{url}"
+    }
+  }
+}

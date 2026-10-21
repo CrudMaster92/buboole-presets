@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cegep-de-sainte-foy",
+  "name": "Cégep de Sainte-Foy",
+  "aliases": [
+    "csfoy"
+  ],
+  "website_url": "https://csfoy.ca",
+  "logo_url": "https://www.csfoy.ca/typo3conf/ext/skin_site_principal/Resources/Public/Icons/favicon.ico",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

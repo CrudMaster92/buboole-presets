@@ -1,0 +1,17 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kemptville-district-hospital",
+  "name": "Kemptville District Hospital",
+  "aliases": [],
+  "website_url": "https://kdh.on.ca",
+  "logo_url": "https://www.kdh.on.ca/wp-content/uploads/2019/09/kdh_fav_32.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
