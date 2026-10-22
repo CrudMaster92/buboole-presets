@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "luxor-collection",
   "company_id": "luxor-collection",
-  "revision": 1,
+  "revision": 2,
   "label": "Luxor Collection",
   "careers_url": "https://luxorcollection.com/carrieres",
   "compatibility": {
@@ -12,12 +12,11 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-18T21:22:29.942805+00:00",
+    "checked_at": "2026-10-22T13:07:09.434655+00:00",
     "job_count": 1,
     "warnings": [
-      "Listing is incomplete; unseen roles are not confirmed closed.",
-      "description detail enrichment was incomplete for 1 jobs",
-      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit",
+      "Bounded listing: not a claim of complete company coverage."
     ]
   },
   "recipe": {
@@ -30,7 +29,7 @@
       "inspirer-respirer.com"
     ],
     "request": {
-      "url": "https://inspirer-respirer.com/emplois/",
+      "url": "https://inspirer-respirer.com/emploi/",
       "method": "GET",
       "headers": {
         "Accept": "text/html"
@@ -51,15 +50,16 @@
     "source_key": null,
     "source_filter": null,
     "selectors": {
-      "item": "a.card[href^=\"https://inspirer-respirer.com/emplois/luxor-collection-\"]",
+      "item": "a.posting[href^=\"https://inspirer-respirer.com/emplois/luxor-collection-\"]",
       "title": "h6",
       "link": ":scope",
-      "posted_date": ".card__content__date span"
+      "location": ".posting__location"
     },
     "mapping": {},
     "metadata": {
       "partial_listing": true,
-      "detail_fetch_limit": 0
+      "detail_fetch_limit": 0,
+      "location_suffix": "Quebec, Canada"
     }
   }
 }
