@@ -1,0 +1,48 @@
+{
+  "id": "fbl",
+  "checked_at": "2026-10-22T14:01:45.088086+00:00",
+  "revision": 3,
+  "recipe_sha256": "fbdb109f74f07d82f5f672bda929abe4442c712711ca7e37c4d54ad8d260851e",
+  "status": "ok",
+  "job_count": 42,
+  "pages": 1,
+  "complete": false,
+  "warnings": [
+    "description detail enrichment skipped 42 jobs after the configured 0-posting limit"
+  ],
+  "locations": [
+    "Boisbriand, Quebec, Canada",
+    "Brossard, Quebec, Canada",
+    "Drummondville, Quebec, Canada",
+    "Farnham, Quebec, Canada",
+    "Lachute, Quebec, Canada",
+    "Montr\u00e9al, Quebec, Canada",
+    "Qu\u00e9bec, Quebec, Canada",
+    "Repentigny, Quebec, Canada",
+    "Saint-Sauveur, Quebec, Canada",
+    "Terrebonne, Quebec, Canada"
+  ],
+  "lachute": [
+    {
+      "title": "Candidat(e) \u00e0 l\u2019exercice de la profession CPA",
+      "location": "Lachute, Quebec, Canada",
+      "url": "https://www.fbl.com/fr/carrieres/candidate-a-lexercice-de-la-profession-cpa-4"
+    },
+    {
+      "title": "Responsable de dossier",
+      "location": "Lachute, Quebec, Canada",
+      "url": "https://www.fbl.com/fr/carrieres/responsable-de-dossier-4"
+    },
+    {
+      "title": "Technicien(ne) en comptabilit\u00e9 \u2013 Quickbooks",
+      "location": "Lachute, Quebec, Canada",
+      "url": "https://www.fbl.com/fr/carrieres/technicienne-en-comptabilite-quickbooks-3"
+    },
+    {
+      "title": "Stagiaire",
+      "location": "Lachute, Quebec, Canada",
+      "url": "https://www.fbl.com/fr/carrieres/stagiaire"
+    }
+  ],
+  "seconds": 1.6
+}
