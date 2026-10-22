@@ -1,0 +1,27 @@
+{
+  "id": "super-c-lachute",
+  "checked_at": "2026-10-22T14:31:37.783583+00:00",
+  "revision": 2,
+  "recipe_sha256": "24d9852a91111bf58287d862535c15cbbb55a7fb3e1b3d2f37d46d805fd9872d",
+  "status": "ok",
+  "job_count": 2,
+  "pages": 1,
+  "complete": false,
+  "warnings": [],
+  "locations": [
+    "501 Avenue Bethany, Lachute, Qu\u00e9bec, J8H 4A6, Canada"
+  ],
+  "lachute": [
+    {
+      "title": "Commis boulangerie A10",
+      "location": "501 Avenue Bethany, Lachute, Qu\u00e9bec, J8H 4A6, Canada",
+      "url": "https://talent.metro.ca/2-49209-commis-boulangerie-a10-lachute"
+    },
+    {
+      "title": "Commis \u00e9picerie A10",
+      "location": "501 Avenue Bethany, Lachute, Qu\u00e9bec, J8H 4A6, Canada",
+      "url": "https://talent.metro.ca/2-48452-commis-epicerie-a10-lachute"
+    }
+  ],
+  "seconds": 5.2
+}
