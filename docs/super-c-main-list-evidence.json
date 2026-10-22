@@ -1,0 +1,20 @@
+{
+  "id": "super-c",
+  "checked_at": "2026-10-22T15:15:24.737345+00:00",
+  "revision": 2,
+  "recipe_sha256": "681d027ec2c8217b5e691bc0f2e881ef4b7f9e8ac3dd66a9d61bb758da20965c",
+  "status": "ok",
+  "job_count": 18,
+  "pages": 1,
+  "complete": false,
+  "warnings": [],
+  "locations": [
+    "1000, Boul. Des Laurentides, Laval, Qu\u00e9bec, H7G 2W1",
+    "1110 Desserte Ouest, Laval, Qu\u00e9bec, H7X 4C9",
+    "1515 Boul. Marcel-Laurin, St-Laurent, Qu\u00e9bec, H4R 0B7",
+    "5300 Rue St-Hubert, Montr\u00e9al, Qu\u00e9bec, H2J 2Y5",
+    "8200,Boul.Pie-Ix, Montr\u00e9al, Qu\u00e9bec, H1Z 4P1"
+  ],
+  "lachute": [],
+  "seconds": 11.0
+}
