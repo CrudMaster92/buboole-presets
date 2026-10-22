@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-quebec-employers",
-  "revision": 4,
+  "revision": 5,
   "name": "Canadian and Quebec employers",
   "description": "Requested Canadian employers; employer-wide public sources where available, explicitly regional or partial where limited.",
   "tags": [
@@ -192,6 +192,12 @@
     {
       "company_id": "honda-lachute",
       "monitor_ids": []
+    },
+    {
+      "company_id": "ardene",
+      "monitor_ids": [
+        "ardene"
+      ]
     }
   ]
 }
