@@ -1,0 +1,219 @@
+[
+  {
+    "id": "groupe-be-well-okeanos",
+    "checked_at": "2026-10-22T13:07:09.386230+00:00",
+    "revision": 2,
+    "recipe_sha256": "81c2b3c675fee13fcb4b2f851e36038fa4650ba35d8cde4832c234e7f7d30fdd",
+    "status": "ok",
+    "job_count": 7,
+    "pages": 1,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 7 jobs after the configured 0-posting limit"
+    ],
+    "locations": [
+      "Lachute, Quebec, Canada"
+    ],
+    "lachute": [
+      {
+        "title": "Technicien(ne) RH - Dotation et recrutement",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-technicienne-rh-dotation-et-recrutement"
+      },
+      {
+        "title": "Technicien.ne en ressources humaines",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-technicien-ne-en-ressources-humaines"
+      },
+      {
+        "title": "Assistant(e)-commercial(e)",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-assistante-commerciale"
+      },
+      {
+        "title": "Assistant(e)-contrôleur(e)",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-assistante-controleure"
+      },
+      {
+        "title": "Assistant(e) logistique et facturation",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-assistante-logistique-et-facturation"
+      },
+      {
+        "title": "Mouliste",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-mouliste"
+      },
+      {
+        "title": "Journalier.ère de production",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/be-well-canada-spa-journalier-ere-de-production"
+      }
+    ],
+    "seconds": 0.9,
+    "careers_url": "https://www.canada-spa.com/",
+    "strategy": "generic_html",
+    "ownership": "Existing company identity and official public employer listing; Super C additionally filters brand and city."
+  },
+  {
+    "id": "luxor-collection",
+    "checked_at": "2026-10-22T13:07:09.434655+00:00",
+    "revision": 2,
+    "recipe_sha256": "b5f4dd41b6628682c0320b8ba089a4ef966f5993e3c26ff34497eb5263324680",
+    "status": "ok",
+    "job_count": 1,
+    "pages": 1,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "locations": [
+      "Lachute, Quebec, Canada"
+    ],
+    "lachute": [
+      {
+        "title": "Livreur.se de meubles",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://inspirer-respirer.com/emplois/luxor-collection-livreur-se-de-meubles"
+      }
+    ],
+    "seconds": 1.5,
+    "careers_url": "https://luxorcollection.com/carrieres",
+    "strategy": "generic_html",
+    "ownership": "Existing company identity and official public employer listing; Super C additionally filters brand and city."
+  },
+  {
+    "id": "fbl",
+    "checked_at": "2026-10-22T13:07:09.337698+00:00",
+    "revision": 2,
+    "recipe_sha256": "2679ef7f3772420555cdf41f30d8db0b6c7424e2cc9e51606f15db2e45a2f1ae",
+    "status": "ok",
+    "job_count": 42,
+    "pages": 1,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 42 jobs after the configured 0-posting limit"
+    ],
+    "locations": [
+      "Boisbriand, Quebec, Canada",
+      "Brossard, Quebec, Canada",
+      "Drummondville, Quebec, Canada",
+      "Farnham, Quebec, Canada",
+      "Lachute, Quebec, Canada",
+      "Montréal, Quebec, Canada",
+      "Québec, Quebec, Canada",
+      "Repentigny, Quebec, Canada",
+      "Saint-Sauveur, Quebec, Canada",
+      "Terrebonne, Quebec, Canada"
+    ],
+    "lachute": [
+      {
+        "title": "Candidat(e) à l’exercice de la profession CPA",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://www.fbl.com/fr/carrieres/candidate-a-lexercice-de-la-profession-cpa-4"
+      },
+      {
+        "title": "Responsable de dossier",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://www.fbl.com/fr/carrieres/responsable-de-dossier-4"
+      },
+      {
+        "title": "Technicien(ne) en comptabilité – Quickbooks",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://www.fbl.com/fr/carrieres/technicienne-en-comptabilite-quickbooks-3"
+      },
+      {
+        "title": "Stagiaire",
+        "location": "Lachute, Quebec, Canada",
+        "url": "https://www.fbl.com/fr/carrieres/stagiaire"
+      }
+    ],
+    "seconds": 1.9,
+    "careers_url": "https://www.fbl.com/fr/carrieres",
+    "strategy": "generic_html",
+    "ownership": "Existing company identity and official public employer listing; Super C additionally filters brand and city."
+  },
+  {
+    "id": "cascades",
+    "checked_at": "2026-10-22T13:14:14.466580+00:00",
+    "revision": 2,
+    "recipe_sha256": "5b6eee3597c695fc279d0a12bcdc88689cdc3ab5b82d51ebf3adea7a1564dfb2",
+    "status": "ok",
+    "job_count": 110,
+    "pages": 11,
+    "complete": true,
+    "warnings": [
+      "description detail enrichment skipped 110 jobs after the configured 0-posting limit"
+    ],
+    "locations": [
+      "Berthierville",
+      "Cabano",
+      "Candiac",
+      "Drummondville",
+      "Granby",
+      "Kingsey Falls",
+      "Lachute",
+      "Montréal",
+      "Saint-Hubert",
+      "Vaudreuil",
+      "Victoriaville"
+    ],
+    "lachute": [
+      {
+        "title": "Mécanicien industriel",
+        "location": "Lachute",
+        "url": "https://jobs.cascades.com/job/role/37784-fr_CA"
+      },
+      {
+        "title": "Directeur(rice) RH sénior(e) - contrat de 12 à 18 mois",
+        "location": "Lachute",
+        "url": "https://jobs.cascades.com/job/role/37438-fr_CA"
+      },
+      {
+        "title": "Opérateur(trice) de machine",
+        "location": "Lachute",
+        "url": "https://jobs.cascades.com/job/role/37641-fr_CA"
+      },
+      {
+        "title": "Planificateur(trice) maintenance",
+        "location": "Lachute",
+        "url": "https://jobs.cascades.com/job/role/37329-fr_CA"
+      }
+    ],
+    "seconds": 10.1,
+    "careers_url": "https://jobs.cascades.com/search?locale=fr_CA",
+    "strategy": "generic_json",
+    "ownership": "Existing company identity and official public employer listing; Super C additionally filters brand and city."
+  },
+  {
+    "id": "super-c-lachute",
+    "checked_at": "2026-10-22T13:10:18.676632+00:00",
+    "revision": 1,
+    "recipe_sha256": "b21beccb13c424aa18a4aab9fb99fb903412a9b7a6651f0f1950aad18c7872a9",
+    "status": "ok",
+    "job_count": 2,
+    "pages": 1,
+    "complete": false,
+    "warnings": [],
+    "locations": [
+      "501 Avenue Bethany, Lachute, Québec, J8H 4A6, Canada"
+    ],
+    "lachute": [
+      {
+        "title": "Commis boulangerie A10",
+        "location": "501 Avenue Bethany, Lachute, Québec, J8H 4A6, Canada",
+        "url": "https://talent.metro.ca/2-49209-commis-boulangerie-a10-lachute"
+      },
+      {
+        "title": "Commis épicerie A10",
+        "location": "501 Avenue Bethany, Lachute, Québec, J8H 4A6, Canada",
+        "url": "https://talent.metro.ca/2-48452-commis-epicerie-a10-lachute"
+      }
+    ],
+    "seconds": 7.8,
+    "careers_url": "https://talent.metro.ca/fr?brandname=Super+C",
+    "strategy": "playwright",
+    "ownership": "Existing company identity and official public employer listing; Super C additionally filters brand and city."
+  }
+]

@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-quebec-employers",
-  "revision": 1,
+  "revision": 2,
   "name": "Canadian and Quebec employers",
   "description": "Requested Canadian employers; employer-wide public sources where available, explicitly regional or partial where limited.",
   "tags": [
@@ -69,7 +69,8 @@
     {
       "company_id": "super-c",
       "monitor_ids": [
-        "super-c"
+        "super-c",
+        "super-c-lachute"
       ]
     },
     {

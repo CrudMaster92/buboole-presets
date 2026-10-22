@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "cascades",
   "company_id": "cascades",
-  "revision": 1,
+  "revision": 2,
   "label": "Cascades",
   "careers_url": "https://jobs.cascades.com/search?locale=fr_CA",
   "compatibility": {
@@ -12,55 +12,67 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-18T21:21:44.251296+00:00",
-    "job_count": 10,
+    "checked_at": "2026-10-22T13:14:14.466580+00:00",
+    "job_count": 110,
     "warnings": [
-      "Listing is incomplete; unseen roles are not confirmed closed.",
-      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+      "description detail enrichment skipped 110 jobs after the configured 0-posting limit"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Cascades",
     "careers_url": "https://jobs.cascades.com/search?locale=fr_CA",
-    "strategy": "playwright",
+    "strategy": "generic_json",
     "allowed_hosts": [
-      "jobs.cascades.com",
-      "performancemanager4.successfactors.com",
-      "rmkcdn.successfactors.com"
+      "jobs.cascades.com"
     ],
     "request": {
-      "url": "https://jobs.cascades.com/search/?locale=fr_CA",
-      "method": "GET",
-      "headers": {},
+      "url": "https://jobs.cascades.com/services/recruiting/v1/jobs",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      },
       "params": {},
-      "json_body": null,
-      "timeout_seconds": 30.0,
+      "json_body": {
+        "locale": "fr_CA",
+        "pageNumber": 0,
+        "sortBy": "date",
+        "keywords": "",
+        "location": "",
+        "facetFilters": {},
+        "brand": "",
+        "skills": [],
+        "categoryId": 0,
+        "alertId": "",
+        "rcmCandidateId": ""
+      },
+      "timeout_seconds": 25,
       "max_response_bytes": 5000000
     },
     "pagination": {
-      "kind": "none",
-      "parameter": null,
+      "kind": "page",
+      "parameter": "pageNumber",
       "page_size_parameter": null,
-      "page_size": 100,
-      "max_pages": 1,
+      "page_size": 10,
+      "max_pages": null,
       "next_path": null
     },
     "source_key": null,
     "source_filter": null,
-    "selectors": {
-      "item": "li[data-testid=\"jobCard\"]",
-      "title": "a.jobCardTitle",
-      "link": "a.jobCardTitle",
-      "location": "[data-testid=\"jobCardFooter\"] > div:first-child [data-haslabel] + span"
+    "selectors": {},
+    "mapping": {
+      "items": "jobSearchResult",
+      "source_id": "response.id",
+      "title": "response.unifiedStandardTitle",
+      "location": "response.city.0",
+      "posted_date": "response.unifiedStandardStart"
     },
-    "mapping": {},
     "metadata": {
+      "pagination_page_base": 0,
+      "posting_url_template": "https://jobs.cascades.com/job/role/{source_id}-fr_CA",
       "partial_listing": true,
-      "detail_fetch_limit": 10,
-      "wait_selector": "a.jobCardTitle",
-      "public_browser": true
+      "detail_fetch_limit": 0
     }
   }
 }
