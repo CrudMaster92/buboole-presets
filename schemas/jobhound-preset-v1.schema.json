@@ -39,7 +39,7 @@
         "request": {"$ref": "#/$defs/request"},
         "pagination": {"$ref": "#/$defs/pagination"},
         "selectors": {"type": "object", "propertyNames": {"enum": ["item", "title", "link", "location", "description", "employment_type", "posted_date", "remote_mode", "salary", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
-        "mapping": {"type": "object", "propertyNames": {"enum": ["items", "source_id", "title", "location", "url", "description", "posted_date", "employment_type", "remote_mode", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
+        "mapping": {"type": "object", "propertyNames": {"enum": ["items", "source_id", "title", "location", "location_country", "location_region", "url", "description", "posted_date", "employment_type", "remote_mode", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
         "source_key": {"type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 100},
         "source_filter": {"type": ["object", "null"], "additionalProperties": false,
           "properties": {
