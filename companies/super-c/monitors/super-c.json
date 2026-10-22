@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "super-c",
   "company_id": "super-c",
-  "revision": 1,
+  "revision": 2,
   "label": "Super C",
   "careers_url": "https://talent.metro.ca/fr?brandname=Super+C",
   "compatibility": {
@@ -12,11 +12,10 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-18T21:21:45.900884+00:00",
+    "checked_at": "2026-10-22T15:15:24.737345+00:00",
     "job_count": 18,
     "warnings": [
-      "Listing is incomplete; unseen roles are not confirmed closed.",
-      "Maintainer-authorized public-worker validation; explicitly partial source coverage."
+      "Bounded main-list capture; extra sidebar/campaign predicates are excluded."
     ]
   },
   "recipe": {
@@ -67,7 +66,7 @@
       "source_id": "id",
       "title": "title",
       "url": "joburl",
-      "location": "city.0",
+      "location": "locations.0",
       "employment_type": "jobtype.0",
       "posted_date": "postedon"
     },
@@ -76,7 +75,11 @@
       "detail_fetch_limit": 0,
       "browser_json_url": "https://talent.metro.ca/api/jobs",
       "browser_json_method": "POST",
-      "public_browser": true
+      "public_browser": true,
+      "browser_json_request_list_path": "query.filter_query.must",
+      "browser_json_request_list_count": 1,
+      "browser_json_request_path": "query.filter_query.must.*.match.brandname",
+      "browser_json_request_value": "Super C"
     }
   }
 }
