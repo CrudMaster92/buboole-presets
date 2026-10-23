@@ -5,6 +5,11 @@ Buboole company monitors. Read this file and `CONTRIBUTING.md` before changing
 catalog data. A preset task is scoped to this repository; do not edit the
 Buboole application or marketing site unless the user explicitly asks.
 
+Use Buboole for display branding. Read
+`docs/branding-compatibility.md` before renaming technical identifiers. Keep
+existing schema formats, compatibility keys, handoffs, and historical evidence
+compatible with installed readers.
+
 ## Canonical source model
 
 - The public endpoint is `api/v1/catalog.json`, but it publishes

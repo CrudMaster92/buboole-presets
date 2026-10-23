@@ -4,7 +4,7 @@ The stable `fortune-50-2026` collection advances to revision 9 with **375 ranked
 
 ## New scraper coverage
 
-Twenty-four of the 25 additions have one verified monitor. Each exact saved recipe returned company-owned jobs through the JobHound scraper runtime on September 24, 2026. The [structured evidence](fortune-375-2026-evidence.json) records strategy, observed count, page count, completeness, warnings, recipe hash, representative titles, locations, and direct source URLs. All 25 logos returned HTTP 200 and decoded as images. Twenty-three representative job URLs returned HTTP 200. Darden's returned HTTP 202 to a plain request; its browser page displayed the expected title and job description.
+Twenty-four of the 25 additions have one verified monitor. Each exact saved recipe returned company-owned jobs through the Buboole scraper runtime on September 24, 2026. The [structured evidence](fortune-375-2026-evidence.json) records strategy, observed count, page count, completeness, warnings, recipe hash, representative titles, locations, and direct source URLs. All 25 logos returned HTTP 200 and decoded as images. Twenty-three representative job URLs returned HTTP 200. Darden's returned HTTP 202 to a plain request; its browser page displayed the expected title and job description.
 
 Wayfair is included as **unavailable** with no monitor. Its official careers board returned HTTP 429 during validation, and no safe live alternative passed verification. The accessible SmartRecruiters record was stale and was not used. No access-control bypass was used.
 

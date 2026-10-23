@@ -12,7 +12,7 @@ unavailable pending a supported scraper. The collection has 28 companies and
 ## Validated replacements
 
 All counts are observations from September 12, 2026 in America/Toronto, not
-permanent expectations. Every recipe ran through the canonical JobHound
+permanent expectations. Every recipe ran through the canonical Buboole
 `ScraperRecipe` and `run_scraper` runtime without installing local monitors.
 
 | Company | Strategy | Jobs | Requests/pages | Coverage |
@@ -89,6 +89,6 @@ The six withdrawn monitor IDs and last revisions are retained in the audit
 evidence and Git history. A later validated repair should restore the same ID
 at a higher revision, rather than create a duplicate company or monitor.
 Existing installations are not silently updated by a catalog release; users
-must explicitly apply a catalog recipe update through JobHound.
+must explicitly apply a catalog recipe update through Buboole.
 
 The repair is prepared locally. Publishing requires explicit authorization.

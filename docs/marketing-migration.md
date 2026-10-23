@@ -19,16 +19,16 @@ between collections. Acosta, ActionLink, and Mosaic Canada use the source's
 Canadian agency listing paths and an exact `country_short = CAN` filter. CORE
 Foodservice and Premium are held back because their draft JSON feeds returned
 other Acosta-family agencies' jobs. Viral Nation's source descriptions are
-temporarily omitted because JobHound's current salary inference rejected some
+temporarily omitted because Buboole's current salary inference rejected some
 of that text; titles, locations, and direct source URLs remain available.
 
 Publicis and dentsu child companies share a `source_key` within their respective
-feeds. JobHound can therefore reuse a bounded response while applying each
-company's typed ownership predicates independently. Existing JobHound recipes
+feeds. Buboole can therefore reuse a bounded response while applying each
+company's typed ownership predicates independently. Existing Buboole recipes
 remain authoritative when a company is already installed or later appears in
 another collection.
 
-On September 29, 2026, all 51 included recipes completed a live JobHound
+On September 29, 2026, all 51 included recipes completed a live Buboole
 runtime run without an execution error. Forty-one returned jobs and ten returned
 zero current jobs: BBDO Canada, Critical Mass, DDB Canada, GALE, Klick Health,
 Léger, NIQ Canada, Ogilvy Canada, OLIVER Canada, and Zulu Alpha Kilo. The

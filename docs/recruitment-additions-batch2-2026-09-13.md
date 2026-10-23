@@ -8,7 +8,7 @@ Adds The Judge Group, Jackson Healthcare and Supplemental Health Care to recruit
 | Jackson Healthcare | Workday | 31 | 33 | Parent and six staffing/search brands; descriptions enriched |
 | Supplemental Health Care | playwright / Dayforce | 12 | 1 | Initial corporate recruiting, sales and client-services listing |
 
-These are live observations through the canonical JobHound `ScraperRecipe` and `run_scraper`, not permanent counts. Every returned job has a description or excerpt and a unique HTTPS source URL. All three declare `partial_listing=true` and returned `complete=false`, so jobs outside the selected scope or pagination window are not closed. Structured evidence, timestamps, warnings, official ownership URLs and sample normalized jobs are in `recruitment-additions-batch2-2026-09-13.json`.
+These are live observations through the canonical Buboole `ScraperRecipe` and `run_scraper`, not permanent counts. Every returned job has a description or excerpt and a unique HTTPS source URL. All three declare `partial_listing=true` and returned `complete=false`, so jobs outside the selected scope or pagination window are not closed. Structured evidence, timestamps, warnings, official ownership URLs and sample normalized jobs are in `recruitment-additions-batch2-2026-09-13.json`.
 
 ## Ownership and coverage
 

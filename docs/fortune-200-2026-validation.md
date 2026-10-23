@@ -4,7 +4,7 @@ The stable collection `fortune-50-2026` is now **Fortune 200 — 2026**, revisio
 
 ## Validation
 
-The 50 additions include 49 recipes executed through the real JobHound runtime. Each returned company-owned jobs; exact recipe hashes, timestamps, counts, pages, warnings and representative URLs are recorded in [the evidence report](fortune-200-2026-evidence.json). All new recipes declare partial coverage. Workday feeds are bounded to 20 listings with up to 20 detail fetches so job URLs and descriptions are enriched. These are point-in-time checks, not a guarantee of complete or permanent coverage.
+The 50 additions include 49 recipes executed through the real Buboole runtime. Each returned company-owned jobs; exact recipe hashes, timestamps, counts, pages, warnings and representative URLs are recorded in [the evidence report](fortune-200-2026-evidence.json). All new recipes declare partial coverage. Workday feeds are bounded to 20 listings with up to 20 detail fetches so job URLs and descriptions are enriched. These are point-in-time checks, not a guarantee of complete or permanent coverage.
 
 All 50 new logo URLs passed HTTP checks and browser decoding, followed by visual review. Official replacements resolved broken or unsuitable favicons, including a white Marriott logo that disappeared on white cards.
 

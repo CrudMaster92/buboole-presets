@@ -2,7 +2,7 @@
 
 The Gaming collection now contains **100 companies**, **106 deterministic monitors**, and **4,067 point-in-time listings**. The set prioritizes large and well-known publishers, platforms, and studios worldwide, including Sony / PlayStation, Nintendo, Microsoft Gaming, Amazon Games, Tencent, NetEase, HoYoverse, KRAFTON, Nexon, Cygames, Koei Tecmo, SNK, and FromSoftware.
 
-All **100 logo URLs decoded successfully in Chromium** on both light and dark preview backgrounds. All **184 sampled source links** from the 66 newly added companies were reachable. Recipes were executed through JobHound's canonical runtime; catalog schemas, generated artifacts, hashes, and unit tests passed. This work is local and has not been published or installed into personal monitors.
+All **100 logo URLs decoded successfully in Chromium** on both light and dark preview backgrounds. All **184 sampled source links** from the 66 newly added companies were reachable. Recipes were executed through Buboole's canonical runtime; catalog schemas, generated artifacts, hashes, and unit tests passed. This work is local and has not been published or installed into personal monitors.
 
 ## Coverage
 

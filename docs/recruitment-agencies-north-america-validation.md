@@ -18,7 +18,7 @@ operates in North America.
 The Aquent site did not provide a stable, fetchable raster logo endpoint during
 validation, so its catalog entry intentionally uses the product’s initials
 fallback. The other entries use public raster assets served by their official
-careers hosts and were checked by JobHound’s logo fetcher.
+careers hosts and were checked by Buboole’s logo fetcher.
 
 Candidates that expose only client-placement boards, sign-in walls, a talent
 community form, or an unverified guessed ATS board are excluded until a public
