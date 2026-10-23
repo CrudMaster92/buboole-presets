@@ -1,35 +1,181 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "object", "additionalProperties": false,
-  "required": ["format", "schema_version", "id", "name", "aliases", "website_url", "logo_url", "facets"],
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "schema_version",
+    "id",
+    "name",
+    "aliases",
+    "website_url",
+    "logo_url",
+    "facets"
+  ],
   "properties": {
-    "format": {"const": "jobhound-company"}, "schema_version": {"const": 1},
-    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80},
-    "name": {"type": "string", "minLength": 1, "maxLength": 160},
-    "legal_name": {"type": ["string", "null"], "maxLength": 200},
-    "parent_company_id": {"type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80},
-    "aliases": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
-    "website_url": {"type": "string", "format": "uri", "pattern": "^https://"},
-    "logo_url": {"type": ["string", "null"], "format": "uri"},
-    "availability": {"$ref": "#/$defs/availability"},
-    "facets": {"$ref": "#/$defs/facets"}
-  },
-  "$defs": {
-    "availability": {"type": "object", "additionalProperties": false,
-      "required": ["status", "reason", "message", "checked_at"],
-      "properties": {
-        "status": {"const": "unavailable"},
-        "reason": {"enum": ["access-restricted", "maintenance", "not-hiring", "regional-restriction", "repair-needed"]},
-        "message": {"type": "string", "minLength": 1, "maxLength": 300},
-        "checked_at": {"type": "string", "format": "date-time"}
+    "format": {
+      "const": "jobhound-company"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "maxLength": 80
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "legal_name": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    },
+    "parent_company_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "maxLength": 80
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 80
       }
     },
-    "facets": {"type": "object", "additionalProperties": false,
-    "required": ["industries", "specialties", "tags"],
-    "properties": {
-      "industries": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
-      "specialties": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
-      "tags": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 40}}
-    }}
+    "website_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "logo_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "availability": {
+      "$ref": "#/$defs/availability"
+    },
+    "facets": {
+      "$ref": "#/$defs/facets"
+    },
+    "public_job_board": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "company_id",
+        "careers_url",
+        "evidence_url",
+        "checked_at"
+      ],
+      "properties": {
+        "provider": {
+          "const": "freehire"
+        },
+        "company_id": {
+          "type": "string",
+          "pattern": "^fh_company:[a-z0-9][a-z0-9_-]{0,150}$"
+        },
+        "careers_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://[^/@:]+[/:]"
+        },
+        "evidence_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://[^/@:]+[/:]"
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "availability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reason",
+        "message",
+        "checked_at"
+      ],
+      "properties": {
+        "status": {
+          "const": "unavailable"
+        },
+        "reason": {
+          "enum": [
+            "access-restricted",
+            "maintenance",
+            "not-hiring",
+            "regional-restriction",
+            "repair-needed"
+          ]
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "facets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "industries",
+        "specialties",
+        "tags"
+      ],
+      "properties": {
+        "industries": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          }
+        },
+        "specialties": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          }
+        }
+      }
+    }
   }
 }

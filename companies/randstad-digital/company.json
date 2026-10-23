@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "randstad-digital",
+  "name": "Randstad Digital",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.randstaddigital.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "recruitment"
+    ],
+    "specialties": [
+      "technology-talent",
+      "digital-services"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:randstad-digital",
+    "careers_url": "https://www.randstaddigital.com/",
+    "evidence_url": "https://www.randstaddigital.com/",
+    "checked_at": "2026-10-23T23:19:58Z"
+  }
+}

@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "ai",
-  "revision": 12,
+  "revision": 13,
   "name": "AI",
   "description": "Curated AI companies with ready-to-run public careers scrapers.",
   "tags": [
@@ -74,6 +74,12 @@
     },
     {
       "company_id": "suno"
+    },
+    {
+      "company_id": "hugging-face"
+    },
+    {
+      "company_id": "together-ai"
     }
   ]
 }

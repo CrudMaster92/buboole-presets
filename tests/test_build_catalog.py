@@ -32,7 +32,7 @@ class CatalogBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             catalog = build(output=Path(directory), source_commit="test-commit")
             collection = next(item for item in catalog["collections"] if item["id"] == "recruitment-agencies-north-america")
-            self.assertEqual(collection["company_count"], 34)
+            self.assertEqual(collection["company_count"], 35)
             self.assertEqual(collection["monitor_count"], 27)
             api = Path(directory) / "api" / "v1"
             members = json.loads((api / "collections/recruitment-agencies-north-america/members-0001.json").read_text())["companies"]
@@ -42,11 +42,29 @@ class CatalogBuildTests(unittest.TestCase):
                     self.assertEqual(member["monitors"], [])
                     self.assertEqual(member["availability"]["status"], "unavailable")
                     self.assertTrue(member["availability"]["message"])
+                elif member.get("public_job_board"):
+                    self.assertEqual(member["monitors"], [])
+                    self.assertEqual(member["public_job_board"]["provider"], "freehire")
                 else:
                     self.assertTrue(member["monitors"])
                     for monitor in member["monitors"]:
                         self.assertEqual(monitor["verification"]["status"], "verified")
                         self.assertGreater(monitor["verification"]["job_count"], 0)
+
+    def test_public_board_members_have_hashed_metadata_and_no_fake_monitor(self):
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = build(output=Path(directory), source_commit="public-discovery")
+            api = Path(directory) / "api/v1"
+            ai = next(row for row in catalog["collections"] if row["id"] == "ai")
+            self.assertEqual(ai["company_count"], 17)
+            members = json.loads((api / "collections/ai/members-0001.json").read_text(encoding="utf8"))["companies"]
+            for company_id in ["hugging-face", "together-ai"]:
+                member = next(row for row in members if row["company_id"] == company_id)
+                self.assertEqual(member["monitors"], [])
+                self.assertEqual(member["public_job_board"]["company_id"], "fh_company:" + company_id)
+                detail = json.loads((api / member["company_path"]).read_text(encoding="utf8"))
+                self.assertEqual(digest(detail), member["company_sha256"])
+                self.assertNotIn("recipe", detail)
 
     def test_catalog_v3_keeps_recipes_only_in_monitors_and_bundles(self):
         with tempfile.TemporaryDirectory() as directory:

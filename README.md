@@ -80,3 +80,13 @@ python scripts/build_catalog.py
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the review checklist. This repository is licensed under the MIT License; company names and trademarks remain the property of their respective owners.
+
+## Public-board companies
+
+A company may provide `public_job_board` metadata instead of an installable monitor.
+The first provider is FreeHire: its explicit company ID, public careers link,
+identity evidence URL and observation date live in the authored company file.
+Collections still contain references only. Generated company, search and member
+artifacts carry this metadata under the existing catalog-v3 hashes. These records
+are discovery coverage, not verified scraper recipes or promises of active jobs;
+local installation consumers skip companies with no selected monitors.
