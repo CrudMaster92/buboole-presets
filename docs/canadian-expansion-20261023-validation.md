@@ -44,3 +44,5 @@ This batch changes authored preset data only. It does not activate sources in th
 [HTTP, ownership, logo and FreeHire evidence](canadian-expansion-20261023-evidence.json) · [Trimmed parser fixtures](canadian-expansion-20261023-fixtures.json)
 
 Live runtime evidence: https://github.com/CrudMaster92/buboole-presets/actions/runs/39997135793 (all 20 recipe checks passed; browser helper failure is recorded separately).
+
+Intact logo: the official corporate SVG is preserved at `site/intact-financial.svg` and referenced by an immutable public commit URL. Original source: https://www.intactfc.com/dist/static/images/logo-intact-colors.svg. Intact retains its trademark rights. Remote employer images were blocked by Chrome ORB; the preserved image avoids that cross-origin response problem without disabling browser safeguards.

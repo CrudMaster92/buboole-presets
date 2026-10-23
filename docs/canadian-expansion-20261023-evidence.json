@@ -991,9 +991,9 @@
           ]
         }
       ],
-      "logo_url": "https://www.intactfc.com/favicon-96x96.png",
-      "logo_sha256": "4b22cfa69cc21d49e6b992613a58db5bc5a19da91f96bcafeaaeb014ac44b723",
-      "logo_review": "Official corporate 96px PNG favicon, discovered in the intactfc.com page header. Remote browser check pending; earlier Workday JPEG and corporate SVG did not embed on the GitHub runner.",
+      "logo_url": "https://raw.githubusercontent.com/CrudMaster92/buboole-presets/2741e3ed8c4c8f1fa15b567ce9f877a4f0b14690/site/intact-financial.svg",
+      "logo_sha256": "6aeb306ef5f0b9c5703f4d1e3011ba56f7f8179071c955f404dab7cc70bed48c",
+      "logo_review": "Official corporate SVG preserved as a repository asset after remote corporate/Workday embeds were blocked by Chrome ORB. No browser security setting is disabled. Remote embedding of the preserved copy is being validated.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:00.000651+00:00",
         "query": "Intact",
@@ -1095,7 +1095,8 @@
         "url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Vancouver-British-Columbia-CAN/Senior-Commercial-Property-Adjuster_R155807",
         "status": 200,
         "redirect": null
-      }
+      },
+      "logo_original_source": "https://www.intactfc.com/dist/static/images/logo-intact-colors.svg"
     },
     {
       "id": "enbridge",
