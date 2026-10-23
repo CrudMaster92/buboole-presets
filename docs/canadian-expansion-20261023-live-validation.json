@@ -1,0 +1,830 @@
+{
+  "run_url": "https://github.com/CrudMaster92/buboole-presets/actions/runs/40000974753",
+  "validated_head": "24a89541428dc28992454175c765684e9456d7de",
+  "status": "success",
+  "runtime_commit": "651853357ad93ca29e0d696295df53af6682a4c6",
+  "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+  "recipe_proof_note": "Passing live source checks from GitHub run 39999306289 are reused only for unchanged exact recipe hashes and matching runtime within six hours. Each source retains its actual live checked_at timestamp. Browser logo checks ran fresh in this successful run.",
+  "sources": [
+    {
+      "id": "bmo",
+      "company_id": "bmo",
+      "revision": 1,
+      "recipe_sha256": "6205705e14f2f73de3a44cb138139ccd7f33362aa739aa916df5581b28ba7677",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:57:54.732124+00:00",
+      "status": "pass",
+      "job_count": 535,
+      "pages": 60,
+      "complete": false,
+      "descriptions": 33,
+      "warnings": [
+        "Public metadata is still missing for 1 advertised postings; no placeholder roles were fabricated.",
+        "Source result window could not be fully traversed: observed 536/536 advertised postings.",
+        "Description traversal paused; 502 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Associate or Vice President Full Stack Engineer",
+          "location": "Toronto, ON, CAN",
+          "source_url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Associate--Full-Stack-Engineer_R250030896",
+          "description_chars": 8115
+        },
+        {
+          "title": "Cloud Application Developer - (AWS / Banking/ Payment Systems)",
+          "location": "Toronto, ON, CAN",
+          "source_url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Cloud-Application-Developer----AWS---Banking--Payment-Systems-_R260005483",
+          "description_chars": 5638
+        },
+        {
+          "title": "Wealth Planning Consultant, Private Wealth",
+          "location": "Waterloo, ON, CAN",
+          "source_url": "https://bmo.wd3.myworkdayjobs.com/External/job/Waterloo-ON-CAN/Wealth-Planning-Consultant--Private-Wealth_R250024477",
+          "description_chars": 7933
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "cibc",
+      "company_id": "cibc",
+      "revision": 1,
+      "recipe_sha256": "9745952e8f5b074692f0a2943748e1edbb25aae76123685172d48cf6ed0b31aa",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:57:54.732602+00:00",
+      "status": "pass",
+      "job_count": 476,
+      "pages": 60,
+      "complete": false,
+      "descriptions": 36,
+      "warnings": [
+        "Public metadata is still missing for 1 advertised postings; no placeholder roles were fabricated.",
+        "Source result window could not be fully traversed: observed 477/477 advertised postings.",
+        "Description traversal paused; 440 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Mobile Mortgage Advisor - Victoria/Nanaimo/Comox/Courtenay location",
+          "location": "Vancouver, BC",
+          "source_url": "https://cibc.wd3.myworkdayjobs.com/search/job/Vancouver-BC/Mobile-Mortgage-Advisor---Victoria-Nanaimo-Comox-Courtenay-location_2407091",
+          "description_chars": 4919
+        },
+        {
+          "title": "Mobile Mortgage Advisor - (Commission Only) - Calgary, Alberta",
+          "location": "Calgary, AB",
+          "source_url": "https://cibc.wd3.myworkdayjobs.com/search/job/Calgary-AB/Mobile-Mortgage-Advisor----Commission-Only----Calgary--Alberta_2525430",
+          "description_chars": 4911
+        },
+        {
+          "title": "Mobile Mortgage Advisor",
+          "location": "Vancouver, BC",
+          "source_url": "https://cibc.wd3.myworkdayjobs.com/search/job/Vancouver-BC/Mobile-Mortgage-Advisor_2502995",
+          "description_chars": 4948
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "desjardins",
+      "company_id": "desjardins",
+      "revision": 1,
+      "recipe_sha256": "b785762008f01050f4f09ed2350d4ee7c27808f131a90ff99c9da4a4a62d12db",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:57:54.732942+00:00",
+      "status": "pass",
+      "job_count": 298,
+      "pages": 60,
+      "complete": false,
+      "descriptions": 31,
+      "warnings": [
+        "Facet unions could not establish full coverage for 1 searches.",
+        "Source result window could not be fully traversed: observed 298/300 advertised postings.",
+        "Description traversal paused; 267 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Account Manager",
+          "location": "Gatineau",
+          "source_url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Gatineau/Directeur-de-comptes-ou-directrice-de-comptes_R2500845-1",
+          "description_chars": 2377
+        },
+        {
+          "title": "Property and Casualty Insurance Agent",
+          "location": "Montréal",
+          "source_url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Montral/Agent-ou-agente-en-assurance-de-dommages-et-Expert-ou-experte-en-sinistre_R2408435-1",
+          "description_chars": 3680
+        },
+        {
+          "title": "Jobs in Property and Casualty Insurance",
+          "location": "Mississauga",
+          "source_url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Mississauga/Jobs-in-Property-and-Casualty-Insurance--Remote_R2407034-2",
+          "description_chars": 3408
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "manulife",
+      "company_id": "manulife",
+      "revision": 1,
+      "recipe_sha256": "5f73d03b763749e0c9ba62a9d7a43496c83c9fe9df43f40ab7eccf10810ec181",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:57:54.733273+00:00",
+      "status": "pass",
+      "job_count": 171,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 51,
+      "warnings": [
+        "Description traversal paused; 120 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Lead Full Stack Software Engineer",
+          "location": "Waterloo, Ontario",
+          "source_url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Waterloo-Ontario/Lead-Full-Stack-Software-Engineer_JR26071723",
+          "description_chars": 7650
+        },
+        {
+          "title": "Senior Mobile Software Engineer",
+          "location": "CAN, Ontario, Waterloo, 500 King Street North",
+          "source_url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/CAN-Ontario-Waterloo-500-King-Street-North/Senior-Mobile-Software-Engineer_JR26060524",
+          "description_chars": 6247
+        },
+        {
+          "title": "Payroll Analyst",
+          "location": "Boston, Massachusetts",
+          "source_url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Payroll-Analyst_JR26081976",
+          "description_chars": 9919
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "sun-life",
+      "company_id": "sun-life",
+      "revision": 1,
+      "recipe_sha256": "70f494b5c98439d0d6d4b207d714e520395e57a305b1dfdb9d7d17f433f08b02",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:58:52.762194+00:00",
+      "status": "pass",
+      "job_count": 86,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 55,
+      "warnings": [
+        "Description traversal paused; 31 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunities",
+          "location": "Richmond Hill, Ontario",
+          "source_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced/job/Richmond-Hill-Ontario/Advisor-Trainee--Advisor-Development-Program_JR00122116-1",
+          "description_chars": 5837
+        },
+        {
+          "title": "Senior Data Engineer",
+          "location": "Toronto, Ontario",
+          "source_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced/job/Toronto-Ontario/Senior-Data-Engineer_JR00127178-2",
+          "description_chars": 8175
+        },
+        {
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunities",
+          "location": "Toronto, Ontario",
+          "source_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced/job/Toronto-Ontario/Advisor-Trainee--Advisor-Development-Program_JR00123093-1",
+          "description_chars": 5770
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "intact-financial",
+      "company_id": "intact-financial",
+      "revision": 1,
+      "recipe_sha256": "66e751cfee8caeb032a60bc171397f2266268fd23c6cc5da8b127ce487f22bf8",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:58:54.327995+00:00",
+      "status": "pass",
+      "job_count": 151,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 52,
+      "warnings": [
+        "Description traversal paused; 99 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Administrative Support I (Mailroom Equipment Operator )",
+          "location": "Mississauga, Ontario, CAN",
+          "source_url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Mississauga-Ontario-CAN/Administrative-Support-I--Machine-Operations-Focused-_R155063",
+          "description_chars": 7782
+        },
+        {
+          "title": "Senior Brand Planning and Reporting Advisor (12-Month Contract)",
+          "location": "Montréal, Quebec, CAN",
+          "source_url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Montral-Quebec-CAN/Brand-Planning-and-Reporting-Advisor--12-Month-Contract---Maternity-Cover--_R155159-1",
+          "description_chars": 6346
+        },
+        {
+          "title": "Senior Full stack AI Developer (Python & Angular/React)",
+          "location": "Montréal, Quebec, CAN",
+          "source_url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Montral-Quebec-CAN/AI-Developer-Senior_R152942",
+          "description_chars": 6867
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "enbridge",
+      "company_id": "enbridge",
+      "revision": 1,
+      "recipe_sha256": "0d47b837cb9ff1303c8b624e068a15002420c9aacfb72f3edd049657df1caba8",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:00.814035+00:00",
+      "status": "pass",
+      "job_count": 22,
+      "pages": 24,
+      "complete": true,
+      "descriptions": 22,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Corrosion Technician",
+          "location": "HopeStn 8B Hope/Othello",
+          "source_url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/HopeStn-8B-HopeOthello/Corrosion-Technician_73374",
+          "description_chars": 3578
+        },
+        {
+          "title": "Asset Investment Planning & Management Specialist",
+          "location": "Edmonton, AB, CAN",
+          "source_url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/Edmonton-AB-CAN/Asset-Investment-Planning---Management-Specialist_73469-1",
+          "description_chars": 5952
+        },
+        {
+          "title": "Specialist Contracts Center",
+          "location": "Houston, TX, USA",
+          "source_url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/Houston-TX-USA/Specialist-Contracts-Center_73323-1",
+          "description_chars": 8160
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "suncor",
+      "company_id": "suncor",
+      "revision": 1,
+      "recipe_sha256": "0277878497faaa5cdb07bf570299be1d89e4028e8f049dac0c041397461eafba",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:03.611142+00:00",
+      "status": "pass",
+      "job_count": 27,
+      "pages": 29,
+      "complete": true,
+      "descriptions": 27,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Mine Planning Engineer in Training",
+          "location": "Fort McMurray (Fort Hills), AB, CAN",
+          "source_url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Fort-McMurray-Fort-Hills-AB-CAN/Mine-Planning-Engineer-in-Training_R0018416",
+          "description_chars": 3686
+        },
+        {
+          "title": "Coordinator Production Control - Transportation",
+          "location": "Calgary, AB, CAN",
+          "source_url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Calgary-AB-CAN/Coordinator-Production-Control---Transportation_R0018231",
+          "description_chars": 4497
+        },
+        {
+          "title": "Rotating Engineer",
+          "location": "Fort McMurray (Mildred Lake), AB, CAN",
+          "source_url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Fort-McMurray-Mildred-Lake-AB-CAN/Rotating-Engineer_R0018303",
+          "description_chars": 4262
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "cenovus",
+      "company_id": "cenovus",
+      "revision": 1,
+      "recipe_sha256": "0e01e458e9d729c26549fcfe4003d15bfe5fd29d85538c73b431d9354ab34fef",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:24.345072+00:00",
+      "status": "pass",
+      "job_count": 25,
+      "pages": 27,
+      "complete": true,
+      "descriptions": 25,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Team Lead, Treasury Intercompany Strategy",
+          "location": "CA-AB-Calgary",
+          "source_url": "https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Team-Lead--Treasury-Intercompany-Strategy_R-411189",
+          "description_chars": 6953
+        },
+        {
+          "title": "Senior Advisor, Program Planning & Scheduling",
+          "location": "CA-AB-Calgary",
+          "source_url": "https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Program-Planning---Scheduling-Advisor_R-411245",
+          "description_chars": 7689
+        },
+        {
+          "title": "Mineral Land Negotiator",
+          "location": "CA-AB-Calgary",
+          "source_url": "https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Mineral-Land-Negotiator_R-411244",
+          "description_chars": 7496
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "canadian-tire",
+      "company_id": "canadian-tire",
+      "revision": 1,
+      "recipe_sha256": "b6c79140adffee638d6f450fb30c484d17d0309f1a64f4a4f7120f5f4b6380a9",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:39.725919+00:00",
+      "status": "pass",
+      "job_count": 133,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 53,
+      "warnings": [
+        "Description traversal paused; 80 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Analyst, Data Governance",
+          "location": "Oakville, ON",
+          "source_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Oakville-ON/Analyst--Data-Governance_JR151508",
+          "description_chars": 5952
+        },
+        {
+          "title": "Department Manager, Hardgoods, Market Mall",
+          "location": "Calgary, AB",
+          "source_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Calgary-AB/Department-Manager--Hardgoods--Market-Mall_JR164002",
+          "description_chars": 4198
+        },
+        {
+          "title": "Manager, Data Architecture, Capability & Activation",
+          "location": "2180 Yonge",
+          "source_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/2180-Yonge/Data-Product-Manager_JR163336",
+          "description_chars": 6188
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "atkinsrealis",
+      "company_id": "atkinsrealis",
+      "revision": 1,
+      "recipe_sha256": "4d657a5cbadd0019004241ba3283f7dbe4fd56e36d0c300fab7a407005b93fef",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:50.105233+00:00",
+      "status": "pass",
+      "job_count": 717,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 24,
+      "warnings": [
+        "Description traversal paused; 693 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Trackwork Engineer",
+          "location": "CA.ON.Toronto.191 The West Mall",
+          "source_url": "https://slihrms.wd3.myworkdayjobs.com/Careers/job/CAONToronto191-The-West-Mall/Trackwork-Engineer_R-130605",
+          "description_chars": 3862
+        },
+        {
+          "title": "Senior Electrical Engineer - Defence Sector",
+          "location": "CA.NS.Bedford.175",
+          "source_url": "https://slihrms.wd3.myworkdayjobs.com/Careers/job/CANSBedford175/Senior-Electrical-Engineer_R-139397",
+          "description_chars": 5947
+        },
+        {
+          "title": "Senior Mechanical Engineer - Defence Sector",
+          "location": "CA.NS.Bedford.175",
+          "source_url": "https://slihrms.wd3.myworkdayjobs.com/Careers/job/CANSBedford175/Senior-Mechanical-Engineer_R-139355",
+          "description_chars": 5644
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "saputo",
+      "company_id": "saputo",
+      "revision": 1,
+      "recipe_sha256": "a6f75dbbefaf26cf9e3e97124533fe80389c3a3391a9bfb6c0211f9c8684fc53",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:54.581142+00:00",
+      "status": "pass",
+      "job_count": 95,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 55,
+      "warnings": [
+        "Description traversal paused; 40 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Warehouse Worker - Relief",
+          "location": "Port Coquitlam, BC",
+          "source_url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Port-Coquitlam-BC/Warehouse-Worker---Relief_JR64028",
+          "description_chars": 4897
+        },
+        {
+          "title": "Skilled Worker - Warehouse - Temp",
+          "location": "Georgetown, ON",
+          "source_url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Georgetown-ON/Skilled-Worker---Warehouse---Temp_JR66670",
+          "description_chars": 6422
+        },
+        {
+          "title": "IT Architect, Warehouse and Inventory (SAP EWM)",
+          "location": "Saint-Laurent, QC",
+          "source_url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Saint-Laurent-QC/IT-Architect--Enterprise-Applications---Warehouse---Inventory-Process---Solutions_JR66440",
+          "description_chars": 7691
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "finning",
+      "company_id": "finning",
+      "revision": 1,
+      "recipe_sha256": "0cb01fd689a90b59b26910c98a6dd7b4a3bdc17e4cd8657600274590083b55d2",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T17:59:57.412371+00:00",
+      "status": "pass",
+      "job_count": 63,
+      "pages": 60,
+      "complete": false,
+      "descriptions": 42,
+      "warnings": [
+        "Facet unions could not establish full coverage for 1 searches.",
+        "Source result window could not be fully traversed: observed 63/101 advertised postings.",
+        "Description traversal paused; 21 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Gas Compression Field Technician",
+          "location": "Fort St John, BC, CA",
+          "source_url": "https://finning.wd3.myworkdayjobs.com/External/job/Fort-St-John-BC-CA/Gas-Compression-Field-Technician_R-2026-2419",
+          "description_chars": 3215
+        },
+        {
+          "title": "Service Supervisor - Power & Energy",
+          "location": "Edmonton, AB, CA",
+          "source_url": "https://finning.wd3.myworkdayjobs.com/External/job/Edmonton-AB-CA/Service-Supervisor---Power---Energy_R-2026-3919",
+          "description_chars": 3665
+        },
+        {
+          "title": "Operations Supervisor - Electrical Power",
+          "location": "Red Deer, AB, CA",
+          "source_url": "https://finning.wd3.myworkdayjobs.com/External/job/Red-Deer-AB-CA/Operations-Supervisor---Electrical-Power_R-2026-4152-1",
+          "description_chars": 3360
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "thomson-reuters",
+      "company_id": "thomson-reuters",
+      "revision": 1,
+      "recipe_sha256": "bd39909bce9875e921a741fc88cf4ac7ec277f891b3e335620b8540416fa5716",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:00:48.101713+00:00",
+      "status": "pass",
+      "job_count": 16,
+      "pages": 20,
+      "complete": false,
+      "descriptions": 16,
+      "warnings": [
+        "Source result window could not be fully traversed: observed 16/72 advertised postings."
+      ],
+      "samples": [
+        {
+          "title": "Lead Software Engineer AI (Staff Engineer)",
+          "location": "United States of America, Eagan, Minnesota",
+          "source_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Lead-Software-Engineer-AI--Staff-Engineer-_JREQ201665",
+          "description_chars": 11103
+        },
+        {
+          "title": "AI Engineering Lead, Product Analytics",
+          "location": "Canada, Toronto, Ontario",
+          "source_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Canada-Toronto-Ontario/AI-Engineering-Lead--Product-Analytics_JREQ201724",
+          "description_chars": 12601
+        },
+        {
+          "title": "Staff Software Engineer / Architect - AI, CoCounsel FDE",
+          "location": "United States of America, Frisco, Texas",
+          "source_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Frisco-Texas/Staff-Software-Engineer---Architect---AI--CoCounsel-FDE_JREQ203830-4",
+          "description_chars": 10618
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "cae",
+      "company_id": "cae",
+      "revision": 1,
+      "recipe_sha256": "b86fa78bd45b78ee784783eae02280d7bfa50d4aa4ecc5b4b7037cf10453250f",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:00:49.097852+00:00",
+      "status": "pass",
+      "job_count": 100,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 55,
+      "warnings": [
+        "Description traversal paused; 45 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Engineering Manager, Operations Support (Andon)",
+          "location": "Montreal (St. Laurent)",
+          "source_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Manager---operations-support_122545",
+          "description_chars": 5526
+        },
+        {
+          "title": "Senior Manager, Safety & Quality Intelligence",
+          "location": "Montreal (St. Laurent)",
+          "source_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Senior-Manager--Safety---Quality-Intelligence_122369",
+          "description_chars": 6155
+        },
+        {
+          "title": "Electromechanic Technician",
+          "location": "Montreal (St. Laurent)",
+          "source_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Electromechanic-Technician_121942",
+          "description_chars": 3331
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "tc-energy",
+      "company_id": "tc-energy",
+      "revision": 1,
+      "recipe_sha256": "11c1472fb3477808733ea1e5ecfe82d2bedd203a63f276218973b8df57ac8d5f",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:01:04.377643+00:00",
+      "status": "pass",
+      "job_count": 26,
+      "pages": 28,
+      "complete": true,
+      "descriptions": 26,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Intern, Canada Gas Operations",
+          "location": "Swift Current, Saskatchewan",
+          "source_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Swift-Current-Saskatchewan/Intern--Canada-Gas-Operations_JR-10851",
+          "description_chars": 5966
+        },
+        {
+          "title": "Mainline Pipeline Manager - Prairies Pipe Team",
+          "location": "Emerald Park Mainline Office",
+          "source_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Emerald-Park-Mainline-Office/Mainline-Pipeline-Manager---Prairies-Pipe-Team_JR-11233",
+          "description_chars": 6367
+        },
+        {
+          "title": "Team Lead, BPC System",
+          "location": "Calgary, Alberta",
+          "source_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Calgary-Alberta/Team-Lead--BPC-System_JR-11236-1",
+          "description_chars": 4580
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "restaurant-brands-international",
+      "company_id": "restaurant-brands-international",
+      "revision": 1,
+      "recipe_sha256": "6d7701064b48dbf3376ff391b992cbc255ee8da06c3b63472774f9249e70d62c",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:01:06.552299+00:00",
+      "status": "pass",
+      "job_count": 35,
+      "pages": 37,
+      "complete": true,
+      "descriptions": 35,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Manager, Franchise Performance, Tim Hortons, Canada",
+          "location": "Corp - Toronto Corporate Office",
+          "source_url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Corp---Toronto-Corporate-Office/Manager--Franchise-Performance--Tim-Hortons--Canada_R4025-1",
+          "description_chars": 5159
+        },
+        {
+          "title": "Manager, Research and Development, Tim Hortons, Canada",
+          "location": "Mftg - Fruition Fruits & Fills",
+          "source_url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Mftg---Fruition-Fruits--Fills/Manager--Research-and-Development_R4009",
+          "description_chars": 5432
+        },
+        {
+          "title": "Manager, Strategic Sourcing",
+          "location": "Corp - Toronto Corporate Office",
+          "source_url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Corp---Toronto-Corporate-Office/Manager--Strategic-Sourcing_R4026",
+          "description_chars": 5356
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "canada-goose",
+      "company_id": "canada-goose",
+      "revision": 1,
+      "recipe_sha256": "f1a6cfa629a268e33d1e1ec9c8e1cd38184573745d373e991808a8bae0ead506",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:01:10.206437+00:00",
+      "status": "pass",
+      "job_count": 53,
+      "pages": 60,
+      "complete": false,
+      "descriptions": 48,
+      "warnings": [
+        "Facet unions could not establish full coverage for 1 searches.",
+        "Source result window could not be fully traversed: observed 53/54 advertised postings.",
+        "Description traversal paused; 5 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "QC In Line Inspector",
+          "location": "Winnipeg, Manitoba, CAN",
+          "source_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/job/Winnipeg-Manitoba-CAN/QC-In-Line-Inspector_R16409",
+          "description_chars": 4276
+        },
+        {
+          "title": "Sewing Machine Operator",
+          "location": "Winnipeg, Manitoba, CAN",
+          "source_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/job/Winnipeg-Manitoba-CAN/Sewing-Machine-Operator_R16019",
+          "description_chars": 4239
+        },
+        {
+          "title": "Sewing Machine Operator",
+          "location": "Toronto, Ontario, CAN",
+          "source_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/job/Toronto-Ontario-CAN/Sewing-Machine-Operator_14201",
+          "description_chars": 3878
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "element-fleet",
+      "company_id": "element-fleet",
+      "revision": 1,
+      "recipe_sha256": "f2aae75c010e0eca652b2786011de2b474d62372d845313be444f1f9fdb06dc3",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:01:29.715836+00:00",
+      "status": "pass",
+      "job_count": 3,
+      "pages": 4,
+      "complete": true,
+      "descriptions": 3,
+      "warnings": [],
+      "samples": [
+        {
+          "title": "Bilingual Customer Care Representative (English/French)",
+          "location": "Canada Remote",
+          "source_url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Canada-Remote/Bilingual-Customer-Care-Representative_R105966",
+          "description_chars": 6014
+        },
+        {
+          "title": "Future Opportunities: Relationship Manager",
+          "location": "Canada Remote",
+          "source_url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Canada-Remote/Future-Opportunities--Relationship-Manager_R105940",
+          "description_chars": 7746
+        },
+        {
+          "title": "Future Opportunities: Sales Director, Commercial Sales",
+          "location": "Canada Remote",
+          "source_url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Canada-Remote/Future-Opportunities--Sales-Director--Commercial-Sales_R105816",
+          "description_chars": 9661
+        }
+      ],
+      "reused_passing_live_check": true
+    },
+    {
+      "id": "gfl-environmental",
+      "company_id": "gfl-environmental",
+      "revision": 1,
+      "recipe_sha256": "62c2b936bb8466edf8e1ffc8df1e25f8ed3b8929bdc95cfa8697ba3f3b755c3b",
+      "runtime_revision": "0a1401d4bbde0ab4b022607944587246466baa7081210609f8e7516a065c4e2e",
+      "checked_at": "2026-10-23T18:01:33.139541+00:00",
+      "status": "pass",
+      "job_count": 346,
+      "pages": 60,
+      "complete": true,
+      "descriptions": 42,
+      "warnings": [
+        "Description traversal paused; 304 eligible roles resume next run."
+      ],
+      "samples": [
+        {
+          "title": "Heavy Duty Mechanic Red Seal or Apprentice",
+          "location": "Cranbrook, British Columbia",
+          "source_url": "https://wd3.myworkdaysite.com/recruiting/gflenv/Careers/job/Cranbrook-British-Columbia/Heavy-Duty-Mechanic-Red-Seal-or-Apprentice_R37294",
+          "description_chars": 3427
+        },
+        {
+          "title": "DZ Driver",
+          "location": "Fort Frances, Ontario",
+          "source_url": "https://wd3.myworkdaysite.com/recruiting/gflenv/Careers/job/Fort-Frances-Ontario/DZ-Driver_R33262-1",
+          "description_chars": 3781
+        },
+        {
+          "title": "DZ Residential Driver/Loader",
+          "location": "590 Archer Drive, Kirkland Lake, ON",
+          "source_url": "https://wd3.myworkdaysite.com/recruiting/gflenv/Careers/job/590-Archer-Drive-Kirkland-Lake-ON/DZ-Residential-Driver-Loader_R32124",
+          "description_chars": 2627
+        }
+      ],
+      "reused_passing_live_check": true
+    }
+  ],
+  "logos": [
+    {
+      "url": "https://bmo.wd3.myworkdayjobs.com/External/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://cibc.wd3.myworkdayjobs.com/search/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://sunlife.wd3.myworkdayjobs.com/Experienced/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CrudMaster92/buboole-presets/2741e3ed8c4c8f1fa15b567ce9f877a4f0b14690/site/intact-financial.svg",
+      "loaded": true
+    },
+    {
+      "url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://cenovus.wd3.myworkdayjobs.com/careers/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://slihrms.wd3.myworkdayjobs.com/Careers/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://finning.wd3.myworkdayjobs.com/External/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://cae.wd3.myworkdayjobs.com/career/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/assets/logo",
+      "loaded": true
+    },
+    {
+      "url": "https://gflenv.wd3.myworkdayjobs.com/Careers/assets/logo",
+      "loaded": true
+    }
+  ]
+}

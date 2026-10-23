@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "enbridge",
+  "name": "Enbridge",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.enbridge.com",
+  "logo_url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/assets/logo",
+  "facets": {
+    "industries": [
+      "energy"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

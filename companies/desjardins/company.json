@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "desjardins",
+  "name": "Desjardins",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.desjardins.com",
+  "logo_url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/assets/logo",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

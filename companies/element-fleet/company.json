@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "element-fleet",
+  "name": "Element Fleet Management",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.elementfleet.com",
+  "logo_url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/assets/logo",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}
