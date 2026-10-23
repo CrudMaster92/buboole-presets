@@ -35,7 +35,7 @@ Country facets are pinned where the employer publishes them. Canada Goose, Intac
 | Element Fleet Management | Explicitly labelled Canadian location subset; additional Canadian locations may be omitted | 3 |
 | GFL Environmental | Canada country facet | 345 |
 
-Advertised counts are point-in-time source observations, not promises of unique or complete live feed coverage.
+Advertised counts are point-in-time source observations, not promises of unique or complete live feed coverage. For example, the saved Thomson Reuters first page has 20 posting rows but only nine distinct requisition IDs. Its advertised posting total therefore cannot be interpreted directly as a unique-role count or used to calculate a reliable coverage percentage from the runtime count.
 
 ## Publication
 

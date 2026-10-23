@@ -21,6 +21,7 @@ def main():
     parser.add_argument('--collection', required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--check-logos', action='store_true')
+    parser.add_argument('--prior-live-report', type=Path)
     args = parser.parse_args()
     root, runtime, output = args.catalog.resolve(), args.runtime.resolve(), args.output.resolve()
     if not re.fullmatch(r'[a-z0-9][a-z0-9-]*', args.collection):
@@ -45,6 +46,11 @@ def main():
             monitor = json.loads((root / 'companies' / company_id / 'monitors' / f'{monitor_id}.json').read_text())
             entries.append((company, monitor))
     limiter = HostLimiter()
+    prior = {}
+    if args.prior_live_report and args.prior_live_report.is_file() and args.prior_live_report.stat().st_size <= 1_000_000:
+        previous = json.loads(args.prior_live_report.read_text())
+        if previous.get('runtime_revision') == manifest['runtime_revision']:
+            prior = {item['id']: item for item in previous.get('sources', [])}
 
     def validate(entry):
         company, monitor = entry
@@ -56,6 +62,14 @@ def main():
         try:
             if recipe.company != company['name'] or monitor['company_id'] != company['id']:
                 raise ValueError('Company/monitor identity mismatch')
+            cached = prior.get(monitor['id'], {})
+            if cached.get('status') == 'pass' and cached.get('recipe_sha256') == proof['recipe_sha256']:
+                checked = datetime.fromisoformat(cached['checked_at'])
+                age = (datetime.now(timezone.utc) - checked).total_seconds()
+                if 0 <= age < 6 * 3600 and cached.get('descriptions', 0) > 0 and cached.get('job_count', 0) > 0:
+                    proof = {**cached, 'reused_passing_live_check': True}
+                    print('BUBOOLE_VALIDATION ' + json.dumps(proof, ensure_ascii=False), flush=True)
+                    return proof
             with PublicClient(limiter, time.monotonic() + 180) as client:
                 result = run_scraper(recipe, client=client, detail_cache={})
             proof.update(job_count=len(result.jobs), pages=result.pages_fetched, complete=result.complete,
@@ -89,6 +103,8 @@ def main():
             context = browser.new_context(service_workers='block', accept_downloads=False, viewport={'width': 1200, 'height': 1000})
             context.route('**/*', lambda route: route.continue_() if urlsplit(route.request.url).scheme == 'https' and urlsplit(route.request.url).hostname in hosts else route.abort())
             page = context.new_page()
+            page.on('requestfailed', lambda request: print('LOGO_REQUEST_FAILED ' + json.dumps({'url': request.url, 'reason': request.failure}), flush=True))
+            page.on('response', lambda response: print('LOGO_RESPONSE ' + json.dumps({'url': response.url, 'status': response.status}), flush=True) if response.status >= 300 else None)
             cards = ''.join(f'<article><img src="{html.escape(company["logo_url"], quote=True)}"><p>{html.escape(company["name"])}</p></article>' for company, _ in entries)
             page.set_content('<style>body{font:14px sans-serif;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;background:#ddd}article{padding:12px;background:white;text-align:center}img{width:230px;height:110px;object-fit:contain}</style>' + cards, wait_until='networkidle', timeout=60000)
             loaded = page.locator('img').evaluate_all('(images)=>images.map(i=>({url:i.src,loaded:i.complete&&i.naturalWidth>0}))')

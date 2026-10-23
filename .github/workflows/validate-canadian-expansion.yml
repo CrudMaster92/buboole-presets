@@ -30,6 +30,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   live-validation:
@@ -52,12 +53,20 @@ jobs:
       - name: Verify pinned exported runtime
         working-directory: .runtime
         run: python -m server.public_jobs.export --destination . --check
+      - name: Reuse recent passing checks for unchanged recipes
+        continue-on-error: true
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: canadian-expansion-live-validation
+          run-id: 39999306289
+          github-token: ${{ github.token }}
+          path: .prior-validation
       - name: Install Chromium for remote logo embedding checks
         run: |
           printf '%s\n' 'https://archive.ubuntu.com/ubuntu' | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
           python -m playwright install --with-deps chromium
       - name: Validate Canadian collection through canonical runtime
-        run: python scripts/validate_public_collection.py --catalog . --runtime .runtime --collection canadian-employers-20261023 --output validation-output --check-logos
+        run: python scripts/validate_public_collection.py --catalog . --runtime .runtime --collection canadian-employers-20261023 --output validation-output --check-logos --prior-live-report .prior-validation/report.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
