@@ -1,0 +1,74 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "canada-goose",
+  "company_id": "canada-goose",
+  "revision": 1,
+  "label": "Canada Goose — Canadian careers",
+  "careers_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Group-owned subsidiaries or brands may appear on the official employer board.",
+      "Author fixtures and direct HTTP observations are provisional; awaiting fresh canonical runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Canada Goose",
+    "careers_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "canadagoose.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://canadagoose.wd3.myworkdayjobs.com/wday/cxs/canadagoose/CanadaGooseCareers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "locations": [
+            "30ddad7ca45e010ce2d4fb8bdf231c1b",
+            "f72f5088bb5e10011ed6b5abefd20000",
+            "6616babeae25100120f25e2e0fc10000",
+            "b475b886a96b10011ed5c07bfc7c0000",
+            "cf06ac5b003e1000c2828602c0790000",
+            "6616babeae25100121440edaf7940000",
+            "6616babeae251001215e16de64c80000",
+            "6616babeae25100121723d94b1cb0000",
+            "46e642552fcd1001218f75658ab60000",
+            "46e642552fcd100121a3c987d5fa0000"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "canadagoose",
+      "site": "CanadaGooseCareers",
+      "partial_listing": true
+    }
+  }
+}

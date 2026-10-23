@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "tc-energy",
+  "company_id": "tc-energy",
+  "revision": 1,
+  "label": "TC Energy — Canadian careers",
+  "careers_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Canada country facet. Group-owned subsidiaries or brands may appear on the official employer board.",
+      "Author fixtures and direct HTTP observations are provisional; awaiting fresh canonical runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "TC Energy",
+    "careers_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "tcenergy.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://tcenergy.wd3.myworkdayjobs.com/wday/cxs/tcenergy/CAREER_SITE_TC/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "Country": [
+            "a30a87ed25634629aa6c3958aa2b91ea"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "tcenergy",
+      "site": "CAREER_SITE_TC",
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "finning",
+  "name": "Finning International",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.finning.com",
+  "logo_url": "https://finning.wd3.myworkdayjobs.com/External/assets/logo",
+  "facets": {
+    "industries": [
+      "industrial-equipment"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

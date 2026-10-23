@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "restaurant-brands-international",
+  "name": "Restaurant Brands International",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.rbi.com",
+  "logo_url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/assets/logo",
+  "facets": {
+    "industries": [
+      "restaurants"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

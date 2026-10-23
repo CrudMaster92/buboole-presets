@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cae",
+  "name": "CAE",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cae.com",
+  "logo_url": "https://cae.wd3.myworkdayjobs.com/career/assets/logo",
+  "facets": {
+    "industries": [
+      "aerospace"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "saputo",
+  "name": "Saputo",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.saputo.com",
+  "logo_url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/assets/logo",
+  "facets": {
+    "industries": [
+      "food-manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

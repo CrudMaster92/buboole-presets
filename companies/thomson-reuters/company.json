@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "thomson-reuters",
+  "name": "Thomson Reuters",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.thomsonreuters.com",
+  "logo_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/assets/logo",
+  "facets": {
+    "industries": [
+      "information-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}
