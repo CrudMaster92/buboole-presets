@@ -71,7 +71,7 @@
       ],
       "logo_url": "https://bmo.wd3.myworkdayjobs.com/External/assets/logo",
       "logo_sha256": "7fdffc6bc929388b0bc47f369982445dc1ee46950715f8f4bb2902bd97c5e088",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:29:52.537271+00:00",
         "query": "BMO",
@@ -267,7 +267,7 @@
       ],
       "logo_url": "https://cibc.wd3.myworkdayjobs.com/search/assets/logo",
       "logo_sha256": "33a78b5a8fea4afcc3ff43c569c11dc900a51148bb1b83899dfcce7f0c8c7800",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:29:56.907930+00:00",
         "query": "CIBC",
@@ -412,7 +412,7 @@
       ],
       "logo_url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/assets/logo",
       "logo_sha256": "2127070480276c3425b6f6f67d95b4b912657fd350ba2a072e93d235a87180dd",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:29:57.665522+00:00",
         "query": "Desjardins",
@@ -571,7 +571,7 @@
       ],
       "logo_url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/assets/logo",
       "logo_sha256": "69c4a442c79b2c490438abdc83a04aa78ea21a154337c7f2c7afc1d0e75b547f",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:29:58.493603+00:00",
         "query": "Manulife",
@@ -769,7 +769,7 @@
       ],
       "logo_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced/assets/logo",
       "logo_sha256": "e778b5308d70cc2b4dbf417eefae7b279c454f72993465e73ac21676b63adb44",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:29:59.252134+00:00",
         "query": "Sun Life",
@@ -993,7 +993,7 @@
       ],
       "logo_url": "https://raw.githubusercontent.com/CrudMaster92/buboole-presets/2741e3ed8c4c8f1fa15b567ce9f877a4f0b14690/site/intact-financial.svg",
       "logo_sha256": "6aeb306ef5f0b9c5703f4d1e3011ba56f7f8179071c955f404dab7cc70bed48c",
-      "logo_review": "Official corporate SVG preserved as a repository asset after remote corporate/Workday embeds were blocked by Chrome ORB. No browser security setting is disabled. Remote embedding of the preserved copy is being validated.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:00.000651+00:00",
         "query": "Intact",
@@ -1156,7 +1156,7 @@
       ],
       "logo_url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/assets/logo",
       "logo_sha256": "fac5d68d044ca22ce206772127a17bda046e5b4f2fdebf2963d3b94098f16ce3",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:00.758777+00:00",
         "query": "Enbridge",
@@ -1290,7 +1290,7 @@
       ],
       "logo_url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/assets/logo",
       "logo_sha256": "8c1d9d2293b3d943d459d3d9a1944e3945171364cb19f0404b7149590a2479b1",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:01.528455+00:00",
         "query": "Suncor",
@@ -1433,7 +1433,7 @@
       ],
       "logo_url": "https://cenovus.wd3.myworkdayjobs.com/careers/assets/logo",
       "logo_sha256": "204ad11f16bc1b5845e158d614ac6a5ce75dff1205a74b6779a39c3faa8ae55b",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:02.346171+00:00",
         "query": "Cenovus",
@@ -1563,7 +1563,7 @@
       ],
       "logo_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/assets/logo",
       "logo_sha256": "696b1cfaa893cbfe25ee9b1cbe1f2a98d8a6e1ccf3441719a9ea2825ff2f8809",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:03.095491+00:00",
         "query": "Canadian Tire",
@@ -2809,7 +2809,7 @@
       ],
       "logo_url": "https://slihrms.wd3.myworkdayjobs.com/Careers/assets/logo",
       "logo_sha256": "1bba9611d69191d6feafa6e8070e36e85bc22e3023b1579d475d57d82ed246c7",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:03.986018+00:00",
         "query": "Atkins",
@@ -2966,7 +2966,7 @@
       ],
       "logo_url": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/assets/logo",
       "logo_sha256": "04d9ca9e094d5ebbf04f242920ff2fb80106f2a4efa69eff3d063afb78c1e092",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:04.747310+00:00",
         "query": "Saputo",
@@ -3101,7 +3101,7 @@
       ],
       "logo_url": "https://finning.wd3.myworkdayjobs.com/External/assets/logo",
       "logo_sha256": "1e001368b7700e117b86602856a33229a5dd911dd4570b76c8e7c03566cb55be",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:05.511890+00:00",
         "query": "Finning",
@@ -3296,7 +3296,7 @@
       ],
       "logo_url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/assets/logo",
       "logo_sha256": "7c1d9172d8bdb175e64d5aaabcf7c7728a6a551a7c87a45c150a5446ebb36cde",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:06.270601+00:00",
         "query": "Thomson Reuters",
@@ -3513,7 +3513,7 @@
       ],
       "logo_url": "https://cae.wd3.myworkdayjobs.com/career/assets/logo",
       "logo_sha256": "7fa196fd0abb136d1cf5de3b130301a323cb4e1b7f6f382befe123b378256f9b",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:07.025264+00:00",
         "query": "CAE",
@@ -3670,7 +3670,7 @@
       ],
       "logo_url": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/assets/logo",
       "logo_sha256": "7e33d9a31d230b02d2c7e6927c9b3590b96bca236d5bd877f90c7dcc0828eb9a",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:07.820533+00:00",
         "query": "TC Energy",
@@ -3804,7 +3804,7 @@
       ],
       "logo_url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/assets/logo",
       "logo_sha256": "406cec31dc1d7b3efa3d8a71af3abdceb1a15da5b50accf4e7ed56c752756990",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:08.573574+00:00",
         "query": "Restaurant Brands",
@@ -4678,7 +4678,7 @@
       ],
       "logo_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/assets/logo",
       "logo_sha256": "5874ea0b6f895a3e19b765d091ba7ce594b85fc1f7517d900a2285b8b403a1b9",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:30:09.391807+00:00",
         "query": "Canada Goose",
@@ -5948,7 +5948,7 @@
       ],
       "logo_url": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/assets/logo",
       "logo_sha256": "b27f175c57d353cc91152e95375b95c18aa145ef79b0f635050095ffa5a14bdf",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:31:42.167167+00:00",
         "query": "Element Fleet",
@@ -6110,7 +6110,7 @@
       ],
       "logo_url": "https://gflenv.wd3.myworkdayjobs.com/Careers/assets/logo",
       "logo_sha256": "e060bbcf662a8d69e2b0a020fc6d89584afadd7581f0a7f9084e9b8579bd448b",
-      "logo_review": "Decoded and visually inspected against employer brand; remote browser embed check pending.",
+      "logo_review": "Decoded, visually inspected and successfully embedded in Chromium; see final successful validation run.",
       "freehire": {
         "checked_at": "2026-10-23T17:31:46.092839+00:00",
         "query": "GFL",
@@ -7009,5 +7009,13 @@
       }
     ],
     "note": "All 20 runtime checks passed again; 19/20 embedded logos loaded. Intact Workday image failed embedding and has been replaced by the official corporate SVG for the next check."
+  },
+  "final_validation": {
+    "status": "success",
+    "run_url": "https://github.com/CrudMaster92/buboole-presets/actions/runs/40000974753",
+    "validated_head": "24a89541428dc28992454175c765684e9456d7de",
+    "sources_passed": 20,
+    "remote_logos_loaded": 20,
+    "details_file": "canadian-expansion-20261023-live-validation.json"
   }
 }

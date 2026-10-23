@@ -6,7 +6,11 @@ FreeHire was screened directly through its public companies API because the Chat
 
 ## Validation status
 
-Direct public HTTP checks returned job listings and descriptions for all 20. Forty trimmed real records replayed successfully through the current canonical runtime, including descriptions and original source URLs. Logos were downloaded, decoded and visually inspected. The read-only GitHub workflow runs fresh live runtime and Chromium embedding checks using an exact exported runtime commit; all 20 source checks have passed on GitHub and author verification now records those dated counts and warnings. The combined workflow then failed on a Playwright viewport argument in its logo helper; that helper is fixed and the browser embedding check is being rerun. The workspace DNS guard was not disabled.
+All 20 exact recipe hashes passed fresh canonical runtime execution on GitHub. All 20 remote logo URLs also loaded successfully in Chromium. The [final successful check](https://github.com/CrudMaster92/buboole-presets/actions/runs/40000974753) binds current recipes to recent passing live proofs from the pinned runtime and reruns browser embedding. Source proofs retain their actual timestamps; reuse requires an identical recipe hash, identical runtime revision, and age below six hours. Missing, stale or changed proofs require fresh live execution.
+
+Authored monitors record dated verified counts and completeness warnings. All 40 trimmed fixture records also replayed with descriptions through the canonical runtime. Twenty sampled public job links returned HTTP 200. The catalog build and all 10 existing unit tests passed. The workspace DNS guard was not disabled; protected live validation ran on the GitHub runner instead.
+
+[Structured passing source proofs and browser results](canadian-expansion-20261023-live-validation.json) accompany the HTTP/ownership/FreeHire evidence. Counts are dated observations; the source request budget is a resumable work slice, not a permanent role cap.
 
 ## Scope
 
@@ -43,6 +47,6 @@ This batch changes authored preset data only. It does not activate sources in th
 
 [HTTP, ownership, logo and FreeHire evidence](canadian-expansion-20261023-evidence.json) · [Trimmed parser fixtures](canadian-expansion-20261023-fixtures.json)
 
-Live runtime evidence: https://github.com/CrudMaster92/buboole-presets/actions/runs/39997135793 (all 20 recipe checks passed; browser helper failure is recorded separately).
+
 
 Intact logo: the official corporate SVG is preserved at `site/intact-financial.svg` and referenced by an immutable public commit URL. Original source: https://www.intactfc.com/dist/static/images/logo-intact-colors.svg. Intact retains its trademark rights. Remote employer images were blocked by Chrome ORB; the preserved image avoids that cross-origin response problem without disabling browser safeguards.
