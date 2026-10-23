@@ -11,12 +11,15 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-23T17:45:23.060506+00:00",
+    "job_count": 53,
     "warnings": [
       "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Group-owned subsidiaries or brands may appear on the official employer board.",
-      "Author fixtures and direct HTTP observations are provisional; awaiting fresh canonical runtime validation."
+      "Explicit partial scope; unseen roles must not be inferred closed.",
+      "Facet unions could not establish full coverage for 1 searches.",
+      "Source result window could not be fully traversed: observed 53/54 advertised postings.",
+      "Description traversal paused; 5 eligible roles resume next run."
     ]
   },
   "recipe": {

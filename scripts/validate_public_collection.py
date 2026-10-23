@@ -86,9 +86,9 @@ def main():
         hosts = {urlsplit(url).hostname for url in urls}
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            context = browser.new_context(service_workers='block', accept_downloads=False)
+            context = browser.new_context(service_workers='block', accept_downloads=False, viewport={'width': 1200, 'height': 1000})
             context.route('**/*', lambda route: route.continue_() if urlsplit(route.request.url).scheme == 'https' and urlsplit(route.request.url).hostname in hosts else route.abort())
-            page = context.new_page(viewport={'width': 1200, 'height': 1000})
+            page = context.new_page()
             cards = ''.join(f'<article><img src="{html.escape(company["logo_url"], quote=True)}"><p>{html.escape(company["name"])}</p></article>' for company, _ in entries)
             page.set_content('<style>body{font:14px sans-serif;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;background:#ddd}article{padding:12px;background:white;text-align:center}img{width:230px;height:110px;object-fit:contain}</style>' + cards, wait_until='networkidle', timeout=60000)
             loaded = page.locator('img').evaluate_all('(images)=>images.map(i=>({url:i.src,loaded:i.complete&&i.naturalWidth>0}))')

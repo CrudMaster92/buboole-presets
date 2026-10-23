@@ -4,7 +4,7 @@
   "id": "canadian-employers-20261023",
   "revision": 1,
   "name": "Canadian Employers — Major employer expansion, October 23",
-  "description": "20 large Canadian employers missing from the Buboole catalog. FreeHire overlap is documented separately. Official Workday sources include Canadian country filters or explicitly partial location/board scope. Fresh canonical validation is required before promotion.",
+  "description": "20 large Canadian employers missing from the Buboole catalog, with fresh live canonical runtime validation and documented FreeHire overlap. Official Workday sources include Canadian country filters or explicitly partial location/board scope. Descriptions resume within source budgets.",
   "tags": [
     "Canada",
     "Canadian employers"
@@ -49,7 +49,7 @@
         "bmo"
       ],
       "rank": 1,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "cibc",
@@ -57,7 +57,7 @@
         "cibc"
       ],
       "rank": 2,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "desjardins",
@@ -65,7 +65,7 @@
         "desjardins"
       ],
       "rank": 3,
-      "note": "Official Desjardins board with Canadian roles; no country facet published; partial employer scope. Canonical live validation pending."
+      "note": "Official Desjardins board with Canadian roles; no country facet published; partial employer scope. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "manulife",
@@ -73,7 +73,7 @@
         "manulife"
       ],
       "rank": 4,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "sun-life",
@@ -81,7 +81,7 @@
         "sun-life"
       ],
       "rank": 5,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "intact-financial",
@@ -89,7 +89,7 @@
         "intact-financial"
       ],
       "rank": 6,
-      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Canonical live validation pending."
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "enbridge",
@@ -97,7 +97,7 @@
         "enbridge"
       ],
       "rank": 7,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "suncor",
@@ -105,7 +105,7 @@
         "suncor"
       ],
       "rank": 8,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "cenovus",
@@ -113,7 +113,7 @@
         "cenovus"
       ],
       "rank": 9,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "canadian-tire",
@@ -121,7 +121,7 @@
         "canadian-tire"
       ],
       "rank": 10,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "atkinsrealis",
@@ -129,7 +129,7 @@
         "atkinsrealis"
       ],
       "rank": 11,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "saputo",
@@ -137,7 +137,7 @@
         "saputo"
       ],
       "rank": 12,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "finning",
@@ -145,7 +145,7 @@
         "finning"
       ],
       "rank": 13,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "thomson-reuters",
@@ -153,7 +153,7 @@
         "thomson-reuters"
       ],
       "rank": 14,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "cae",
@@ -161,7 +161,7 @@
         "cae"
       ],
       "rank": 15,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "tc-energy",
@@ -169,7 +169,7 @@
         "tc-energy"
       ],
       "rank": 16,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "restaurant-brands-international",
@@ -177,7 +177,7 @@
         "restaurant-brands-international"
       ],
       "rank": 17,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "canada-goose",
@@ -185,7 +185,7 @@
         "canada-goose"
       ],
       "rank": 18,
-      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Canonical live validation pending."
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "element-fleet",
@@ -193,7 +193,7 @@
         "element-fleet"
       ],
       "rank": 19,
-      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Canonical live validation pending."
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
     },
     {
       "company_id": "gfl-environmental",
@@ -201,7 +201,7 @@
         "gfl-environmental"
       ],
       "rank": 20,
-      "note": "Canada country facet. Canonical live validation pending."
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
     }
   ]
 }

@@ -11,12 +11,15 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-23T17:42:08.376599+00:00",
+    "job_count": 297,
     "warnings": [
       "Official Desjardins board with Canadian roles; no country facet published; partial employer scope. Group-owned subsidiaries or brands may appear on the official employer board.",
-      "Author fixtures and direct HTTP observations are provisional; awaiting fresh canonical runtime validation."
+      "Explicit partial scope; unseen roles must not be inferred closed.",
+      "Facet unions could not establish full coverage for 1 searches.",
+      "Source result window could not be fully traversed: observed 297/299 advertised postings.",
+      "Description traversal paused; 266 eligible roles resume next run."
     ]
   },
   "recipe": {

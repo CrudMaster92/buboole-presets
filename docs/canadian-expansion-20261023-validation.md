@@ -6,7 +6,7 @@ FreeHire was screened directly through its public companies API because the Chat
 
 ## Validation status
 
-Direct public HTTP checks returned job listings and descriptions for all 20. Forty trimmed real records replayed successfully through the current canonical runtime, including descriptions and original source URLs. Logos were downloaded, decoded and visually inspected. The read-only GitHub workflow runs fresh live runtime and Chromium embedding checks using an exact exported runtime commit; author verification remains unverified until those checks succeed. The workspace DNS guard was not disabled.
+Direct public HTTP checks returned job listings and descriptions for all 20. Forty trimmed real records replayed successfully through the current canonical runtime, including descriptions and original source URLs. Logos were downloaded, decoded and visually inspected. The read-only GitHub workflow runs fresh live runtime and Chromium embedding checks using an exact exported runtime commit; all 20 source checks have passed on GitHub and author verification now records those dated counts and warnings. The combined workflow then failed on a Playwright viewport argument in its logo helper; that helper is fixed and the browser embedding check is being rerun. The workspace DNS guard was not disabled.
 
 ## Scope
 
@@ -42,3 +42,5 @@ Advertised counts are point-in-time source observations, not promises of unique 
 This batch changes authored preset data only. It does not activate sources in the public jobs feed. The collector still needs an intentional reviewed catalog-lock update before collecting these new monitors.
 
 [HTTP, ownership, logo and FreeHire evidence](canadian-expansion-20261023-evidence.json) · [Trimmed parser fixtures](canadian-expansion-20261023-fixtures.json)
+
+Live runtime evidence: https://github.com/CrudMaster92/buboole-presets/actions/runs/39997135793 (all 20 recipe checks passed; browser helper failure is recorded separately).
