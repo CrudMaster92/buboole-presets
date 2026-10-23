@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://huggingface.co/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "open-source-ai",
+      "machine-learning"
+    ],
+    "tags": [
+      "AI",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:hugging-face",
+    "careers_url": "https://apply.workable.com/huggingface/",
+    "evidence_url": "https://huggingface.co/",
+    "checked_at": "2026-10-23T23:19:58Z"
+  }
+}
