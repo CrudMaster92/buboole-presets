@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-quebec-employers",
-  "revision": 6,
+  "revision": 7,
   "name": "Canadian and Quebec employers",
   "description": "Requested Canadian employers; employer-wide public sources where available, explicitly regional or partial where limited.",
   "tags": [
