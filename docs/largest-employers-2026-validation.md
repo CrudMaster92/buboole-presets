@@ -1,6 +1,6 @@
 # Large employer coverage: Canada and USA
 
-Validated October 7, 2026 against the canonical JobHound runtime, starting from
+Validated October 7, 2026 against the canonical Buboole runtime, starting from
 catalog main `684d7d6`. This is a local draft, not a published catalog or an
 installation into a user's monitors. No personal tracking data was changed.
 

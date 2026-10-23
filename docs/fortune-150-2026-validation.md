@@ -4,7 +4,7 @@ The existing Fortune preset now contains ranks 1–150. Its display name is **Fo
 
 ## Coverage and validation
 
-- Added 50 company identities and logos, plus 48 reusable monitors validated through the canonical JobHound scraper runtime on September 6, 2026.
+- Added 50 company identities and logos, plus 48 reusable monitors validated through the canonical Buboole scraper runtime on September 6, 2026.
 - The whole collection contains **150 companies, 142 installable companies, 145 monitors, and eight unavailable placeholders**. CBRE and Lithia join the six previously documented exceptions.
 - All 50 new logo URLs returned HTTP 200, then loaded successfully in a normal browser: **50 loaded, zero failures**. The contact sheet was visually inspected. Northwestern Mutual, BNY and Dow required replacement logo URLs.
 - Every new monitor records bounded/partial coverage. Job counts are point-in-time observations, not guarantees of exhaustive inventory.

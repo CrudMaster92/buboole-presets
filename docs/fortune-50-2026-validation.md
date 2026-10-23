@@ -8,11 +8,11 @@ The former Fortune 10 collection has been promoted to **Fortune 50 — 2026** un
 
 ## Verification
 
-- Every saved monitor ran through the canonical JobHound `ScraperRecipe` and `run_scraper`, with real public network requests and host confinement.
+- Every saved monitor ran through the canonical Buboole `ScraperRecipe` and `run_scraper`, with real public network requests and host confinement.
 - Inspected representative titles, employers, locations, source URLs, warnings, and completeness. Stored recipe hashes tie evidence to the tested behavior.
 - Checked 53 sample job links (one per monitor): all HTTP 200.
 - Downloaded and decoded logo candidates, visually rejected wrong/blank/product logos, then embedded the final remote URLs from a local HTTP origin: 50 loaded, zero failed.
-- Catalog validation, generation, tests, JobHound pytest, and the web production build passed. The web build reports its existing bundle-size warning.
+- Catalog validation, generation, tests, Buboole pytest, and the web production build passed. The web build reports its existing bundle-size warning.
 - The generated collection contains 50 ranked companies and 53 monitors. Generated catalog output remains derived from the authored collection and company records.
 
 ## Brief scaling report

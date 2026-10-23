@@ -5,7 +5,8 @@ const context = { TextEncoder, btoa, state: {catalog: {source_commit:'test', col
   $: id => { if (!elements.has(id)) elements.set(id, {showModal(){}}); return elements.get(id); },
   renderDrawer(){}, keyOf: (a,b)=>`${a}:${b}`, selection: (c,m)=>({company_id:c.company_id,monitor_id:m.id,revision:1}) };
 vm.createContext(context);
-vm.runInContext(source.slice(source.indexOf('function selectable('), source.indexOf('function openJobHound(')), context);
+vm.runInContext(source.slice(source.indexOf('function selectable('), source.indexOf('function openBuboole(')), context);
+vm.runInContext(source.slice(source.indexOf('function openBuboole('), source.indexOf('function matchingCompanyIds(')), context);
 vm.runInContext(source.slice(source.indexOf('async function openCollection('), source.indexOf('function renderDrawer(')), context);
 const members = Array.from({length:447}, (_,i)=>({company_id:`company-${i}`, monitors:[{id:`monitor-${i}`,verification:{status:'verified'}}]}));
 context.collectionMembers = async()=>members;
@@ -17,7 +18,21 @@ context.collectionMembers = async()=>members;
     const payload = JSON.parse(Buffer.from(context.encodeHandoff('collection',batch,'fortune-50-2026'),'base64url').toString());
     assert.deepEqual(payload.selections,batch);
     assert.equal(payload.collection_id,'fortune-50-2026');
+    assert.equal(payload.format,'jobhound-catalog-install');
+    assert.equal(payload.version,1);
+    assert.equal(payload.catalog_version,3);
   }
+  let opened;
+  context.window = {open: (...args)=>{opened=args;}};
+  context.openBuboole('collection',selections.slice(0,200),'fortune-50-2026');
+  const installUrl = new URL(opened[0]);
+  assert.equal(installUrl.origin,'http://127.0.0.1:4175');
+  assert.equal(installUrl.pathname,'/companies/presets');
+  const installed = JSON.parse(Buffer.from(installUrl.hash.slice('#install='.length),'base64url').toString());
+  assert.equal(installed.format,'jobhound-catalog-install');
+  assert.deepEqual(installed.selections,selections.slice(0,200));
+  assert.deepEqual(opened.slice(1),['_blank','noopener']);
+  assert.match(elements.get('notice').textContent,/Buboole/);
   assert.throws(()=>context.encodeHandoff('collection',selections,'fortune-50-2026'), /1 and 200/);
   assert.throws(()=>context.encodeHandoff('collection',[],'fortune-50-2026'), /1 and 200/);
   context.collectionMembers = async()=>members.slice(0,200);

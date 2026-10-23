@@ -2,7 +2,7 @@
 
 Gaming Industry expanded from 3 to **34 companies**, with **40 deterministic monitors** returning **2,568 listings** in the live verification runs. Sony / PlayStation and Nintendo are included. All **34 remote company logos loaded successfully in Chromium** (68 images across light/dark checks). Counts are point-in-time source listings, not a promise of active vacancies or a deduplicated worldwide inventory.
 
-The normalized source catalog is updated locally at collection revision 4. Nothing was pushed, published, or installed into personal monitors. Existing unrelated Fortune-company changes and JobHound user data were preserved.
+The normalized source catalog is updated locally at collection revision 4. Nothing was pushed, published, or installed into personal monitors. Existing unrelated Fortune-company changes and Buboole user data were preserved.
 
 ## Coverage
 
@@ -65,12 +65,12 @@ The normalized source catalog is updated locally at collection revision 4. Nothi
 
 ## Validation
 
-- All 40 promoted recipes passed the canonical JobHound `ScraperRecipe` model and live `run_scraper` execution; promotion requires an exact SHA-256 match to the tested recipe.
+- All 40 promoted recipes passed the canonical Buboole `ScraperRecipe` model and live `run_scraper` execution; promotion requires an exact SHA-256 match to the tested recipe.
 - Every returned role has an HTTPS source URL. First/middle/last role links were sampled for each monitor; JavaScript-only pages may not expose their title in the raw HTTP response. Epic and Roblox detail-check limitations remain explicit.
 - All 259 returned Workday records across Activision, Blizzard, King and Unity have company-board job paths after detail enrichment.
 - Full catalog schema/build: **98 companies, 107 monitors, 3 collections** (includes unrelated existing work). Repository tests: **4 passed**. `git diff --check` passed.
 - No application/UI/MCP code changed; all recipes use the existing shared runtime and catalog contracts.
 
-Technical URL note: JobHound strips trailing slashes from careers URLs. Nintendo and the compact SmartRecruiters recipes use the standards-equivalent directory URL ending in `/.` so relative numeric IDs retain the correct directory when normalized. These URLs and representative resulting job links were fetched successfully.
+Technical URL note: Buboole strips trailing slashes from careers URLs. Nintendo and the compact SmartRecruiters recipes use the standards-equivalent directory URL ending in `/.` so relative numeric IDs retain the correct directory when normalized. These URLs and representative resulting job links were fetched successfully.
 
 The accompanying `gaming-verification-2026-09-04.json` records each monitor’s revision, strategy, count, warnings, tested recipe hash, and representative URLs.

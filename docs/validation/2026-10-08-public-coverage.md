@@ -1,6 +1,6 @@
 # Public coverage validation — 2026-10-08
 
-Fresh public-only execution through the canonical JobHound collector. Counts are a point-in-time observation, not a guarantee of every employer opening. No credentials, local profiles or private application state were used.
+Fresh public-only execution through the canonical Buboole collector. Counts are a point-in-time observation, not a guarantee of every employer opening. No credentials, local profiles or private application state were used.
 
 Run started: 2026-10-08T17:33:33.968505+00:00. Four paced workers, 40-minute resumable budget.
 

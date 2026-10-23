@@ -46,7 +46,7 @@ function encodeHandoff(mode, selections, collectionId) {
   let binary = ''; bytes.forEach(byte => binary += String.fromCharCode(byte));
   return btoa(binary).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
 }
-function openJobHound(mode, selections, collectionId) {
+function openBuboole(mode, selections, collectionId) {
   if (!selections.length) return;
   window.open(`http://127.0.0.1:4175/companies/presets#install=${encodeHandoff(mode, selections, collectionId)}`, '_blank', 'noopener');
   $('notice').hidden = false;
@@ -116,8 +116,8 @@ $('preset-tab').onclick=()=>{$('preset-view').hidden=false;$('company-view').hid
 $('company-tab').onclick=()=>{$('preset-view').hidden=true;$('company-view').hidden=false;$('preset-tab').setAttribute('aria-selected','false');$('company-tab').setAttribute('aria-selected','true');renderCompanies();};
 $('drawer-close').onclick=()=>$('drawer').close(); $('drawer').onclick=event=>{if(event.target===$('drawer'))$('drawer').close();};
 $('drawer-clear').onclick=()=>{state.drawer.chosen.clear();renderDrawer();}; $('drawer-all').onclick=()=>{state.drawer.members.forEach(company=>company.monitors.forEach(monitor=>{if(selectable(monitor)&&state.drawer.chosen.size<200)state.drawer.chosen.set(keyOf(company.company_id,monitor.id),selection(company,monitor));}));renderDrawer();};
-$('drawer-install').onclick=()=>openJobHound('collection',[...state.drawer.chosen.values()],state.drawer.collection.id);
-$('basket-clear').onclick=()=>{state.selected.clear();renderBasket();renderCompanies();}; $('basket-install').onclick=()=>openJobHound('monitors',[...state.selected.values()]);
+$('drawer-install').onclick=()=>openBuboole('collection',[...state.drawer.chosen.values()],state.drawer.collection.id);
+$('basket-clear').onclick=()=>{state.selected.clear();renderBasket();renderCompanies();}; $('basket-install').onclick=()=>openBuboole('monitors',[...state.selected.values()]);
 
 api('catalog.json').then(async catalog=>{
   if(catalog.catalog_version!==3)throw Error('This viewer requires catalog version 3.'); state.catalog=catalog;

@@ -4,7 +4,7 @@ The stable `fortune-50-2026` collection advances to revision 11 with **500 ranke
 
 ## New coverage
 
-One hundred ranked identities are added, with **77 new live-verified scraper recipes**. All accepted recipes returned normalized public jobs through the canonical JobHound runtime on September 30, 2026. All 77 representative source URLs also returned HTTP 200. The [structured evidence](fortune-500-2026-evidence.json) records timestamps, counts, strategies, fetched pages, completeness, recipe hashes, research URLs, warnings, and representative direct job links. Counts describe these runs, not future expectations.
+One hundred ranked identities are added, with **77 new live-verified scraper recipes**. All accepted recipes returned normalized public jobs through the canonical Buboole runtime on September 30, 2026. All 77 representative source URLs also returned HTTP 200. The [structured evidence](fortune-500-2026-evidence.json) records timestamps, counts, strategies, fetched pages, completeness, recipe hashes, research URLs, warnings, and representative direct job links. Counts describe these runs, not future expectations.
 
 Twenty-three additions remain explicitly unavailable: Jefferies, Intuitive, Ace Hardware, Seaboard, Icahn, THOR, APA, Old Republic, Comfort Systems USA, PPL, TransDigm, Sprouts, Franklin Resources, CACI, SiriusXM, Monster Beverage, Yum, Post Holdings, APi Group, Roper, Coterra, Somnigroup, and Equinix. Each company has a specific access, ownership, or recipe limitation, and no placeholder monitor. These states do not establish that a company has no vacancies. The collection contains all ranked identities; scraper coverage remains incomplete.
 

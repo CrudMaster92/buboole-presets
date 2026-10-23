@@ -8,7 +8,7 @@ Adds three missing recruitment employers to collection revision 4: Staffmark Gro
 | Beacon Hill | generic_html | 10 | 1 | Initial US internal sales/recruiting listing; no descriptions |
 | Kforce | playwright | 20 | 1 | Initial corporate result page; no descriptions |
 
-These are point-in-time live observations through the canonical JobHound `ScraperRecipe` and `run_scraper`. All results have unique HTTPS source URLs. Each monitor explicitly sets `partial_listing=true`; the runtime returned `complete=false`. This preserves unseen jobs when a bounded source is checked. Counts, timestamps, representative normalized jobs, warnings and official ownership links are in `recruitment-additions-2026-09-13.json`.
+These are point-in-time live observations through the canonical Buboole `ScraperRecipe` and `run_scraper`. All results have unique HTTPS source URLs. Each monitor explicitly sets `partial_listing=true`; the runtime returned `complete=false`. This preserves unseen jobs when a bounded source is checked. Counts, timestamps, representative normalized jobs, warnings and official ownership links are in `recruitment-additions-2026-09-13.json`.
 
 Staffmark's dedicated internal page describes jobs supporting its own branches and clients. The identity is Staffmark Group because the feed covers internal group roles, not just one brand. Its listing excerpts occasionally contain malformed punctuation and source locations can contain inconsistent ZIP codes; preserve the source rather than guess a correction.
 

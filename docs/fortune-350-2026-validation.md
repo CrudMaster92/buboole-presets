@@ -4,7 +4,7 @@ The stable `fortune-50-2026` collection advances to revision 8 with **350 ranked
 
 ## New scraper coverage
 
-Twenty-four of the 25 additions have one verified monitor. Each exact saved recipe returned company-owned jobs through the real JobHound runtime on September 24, 2026. The [structured evidence](fortune-350-2026-evidence.json) records strategy, observed count, pages, completeness, warnings, recipe hash, representative titles, locations, and source URLs. A representative job URL for every new monitor returned HTTP 200. All 25 logo URLs returned HTTP 200 and decoded as images.
+Twenty-four of the 25 additions have one verified monitor. Each exact saved recipe returned company-owned jobs through the real Buboole runtime on September 24, 2026. The [structured evidence](fortune-350-2026-evidence.json) records strategy, observed count, pages, completeness, warnings, recipe hash, representative titles, locations, and source URLs. A representative job URL for every new monitor returned HTTP 200. All 25 logo URLs returned HTTP 200 and decoded as images.
 
 Sempra is included as **unavailable** with no monitor. Its official headquarters board exposes listings through an ADP session-token request, while the listing cards do not expose stable direct job links. No safe reusable recipe passed validation. This limitation is visible in the company and collection data.
 

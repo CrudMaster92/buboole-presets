@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://job-hound.realperson.chatgpt.site/schemas/jobhound-preset-v1.schema.json",
-  "title": "Job Hound preset manifest version 1",
+  "title": "Buboole preset manifest version 1",
   "type": "object",
   "additionalProperties": false,
   "required": ["format", "version", "id", "name", "description", "tags", "companies"],

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the Job Hound preset catalog and every referenced manifest."""
+"""Validate the Buboole preset catalog and every referenced manifest."""
 
 from __future__ import annotations
 

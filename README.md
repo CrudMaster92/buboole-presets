@@ -2,6 +2,11 @@
 
 Public, portable company-monitor presets for [Buboole](https://buboole.realperson.chatgpt.site).
 
+Human-facing names use Buboole. Existing `jobhound-*` schema identifiers and
+install contracts remain for compatibility with installed readers; see
+[branding and compatibility](docs/branding-compatibility.md) before renaming
+technical identifiers.
+
 Each preset is a strict JSON manifest containing public careers URLs and deterministic scraper recipes. A Buboole user can inspect a preset, select individual companies, and install those monitors while keeping their own global cities, titles, keywords, and schedule. Presets never contain credentials or personal search data.
 
 ## Repository contract
