@@ -3,14 +3,17 @@
   "schema_version": 1,
   "id": "les-portes-ard",
   "name": "Les Portes ARD",
-  "aliases": [],
+  "aliases": [
+    "Portes ARD",
+    "Les Portes A.R.D."
+  ],
   "website_url": "https://www.portesard.com/fr/emploi.php",
   "logo_url": "https://www.portesard.com/images/logo.png",
   "availability": {
     "status": "unavailable",
+    "checked_at": "2026-10-23T01:08:56.703508Z",
     "reason": "repair-needed",
-    "message": "Official employment page is empty.",
-    "checked_at": "2026-10-18T00:00:00Z"
+    "message": "The official employment page contains no current listings. The employer has an external Indeed page; its live vacancies cannot be verified by automated collection."
   },
   "facets": {
     "industries": [],

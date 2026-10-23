@@ -3,14 +3,17 @@
   "schema_version": 1,
   "id": "benny-co",
   "name": "Benny & Co.",
-  "aliases": [],
+  "aliases": [
+    "Benny&Co.",
+    "Benny & Co"
+  ],
   "website_url": "https://www.benny-co.com/carriere/",
   "logo_url": "https://www.benny-co.com/wp-content/uploads/2019/06/cropped-Logo-2lignes-512-192x192.jpg",
   "availability": {
     "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "Official careers page lists generic role descriptions and applications, not current location-specific vacancies.",
-    "checked_at": "2026-10-18T00:00:00Z"
+    "checked_at": "2026-10-23T01:08:56.703508Z",
+    "reason": "access-restricted",
+    "message": "The careers site routes restaurant vacancies to Indeed. Automated access is blocked; use the employer board or choose a restaurant on the careers page."
   },
   "facets": {
     "industries": [],

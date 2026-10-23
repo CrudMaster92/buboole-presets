@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "super-c-lachute",
   "company_id": "super-c",
-  "revision": 3,
+  "revision": 4,
   "label": "Super C — Lachute",
   "careers_url": "https://talent.metro.ca/fr?brandname=Super+C",
   "compatibility": {
@@ -12,10 +12,11 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-22T15:15:24.739400+00:00",
+    "checked_at": "2026-10-23T01:04:54.571895+00:00",
     "job_count": 2,
     "warnings": [
-      "Bounded main-list capture; extra sidebar/campaign predicates are excluded."
+      "Regional public collection: the source restricts non-Canadian visitors; cloud-only collection is incomplete.",
+      "Bounded listing; unseen vacancies are not confirmed closed."
     ]
   },
   "recipe": {
@@ -89,7 +90,8 @@
       "browser_json_request_path": "query.filter_query.must.*.match.city",
       "browser_json_request_value": "Lachute",
       "browser_json_request_list_path": "query.filter_query.must",
-      "browser_json_request_list_count": 2
+      "browser_json_request_list_count": 2,
+      "public_regional_snapshot": true
     }
   }
 }
