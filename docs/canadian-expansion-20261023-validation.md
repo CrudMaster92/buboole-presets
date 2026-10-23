@@ -10,7 +10,7 @@ Direct public HTTP checks returned job listings and descriptions for all 20. For
 
 ## Scope
 
-Country facets are pinned where the employer publishes them. Canada Goose, Intact and Element use explicitly Canadian-labelled location subsets; those can omit other current or future Canadian locations. Desjardins does not publish a country facet on this board. Canadian Tire includes group brands such as Marks; Restaurant Brands includes Tim Hortons; Enbridge includes its group subsidiaries. Cross-border postings may list Canada as an additional location rather than the primary country. Every recipe declares partial listing coverage and supports resumable all-role traversal within that scope.
+Country facets are pinned where the employer publishes them. Canada Goose, Intact and Element use explicitly Canadian-labelled location subsets; those can omit other current or future Canadian locations. Desjardins does not publish a country facet on this board. Canadian Tire includes group brands such as Marks; Restaurant Brands includes Tim Hortons; Enbridge includes its group subsidiaries. The current exported Workday detail adapter retains the primary location only. Although our evidence records Canadian additional locations, some cross-border roles may not surface under Canada text/location filters until that adapter is updated in the canonical app. Cross-border postings may list Canada as an additional location rather than the primary country. Every recipe declares partial listing coverage and supports resumable all-role traversal within that scope.
 
 | Employer | Scope | Observed advertised count |
 |---|---|---:|
