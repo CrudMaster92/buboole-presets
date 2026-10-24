@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sthree",
+  "name": "SThree",
+  "aliases": [],
+  "website_url": "https://www.sthree.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:sthree",
+    "careers_url": "https://www.sthree.com/en-gb/careers/job-search/",
+    "evidence_url": "https://freehire.me/api/v1/companies/sthree?limit=100",
+    "checked_at": "2026-10-24T15:18:05.175834+00:00"
+  }
+}

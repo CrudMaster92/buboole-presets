@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "recruitment-agencies-north-america",
-  "revision": 5,
-  "name": "Recruitment Agencies \u2014 North America",
-  "description": "Internal corporate, recruiting, sales and branch-support openings at recruitment and staffing agencies operating in North America. Includes 27 validated monitors and 7 unavailable companies with explanations. Some feeds are global or explicitly bounded; consult each monitor's coverage warnings.",
+  "revision": 6,
+  "name": "Recruitment Agencies — North America",
+  "description": "Internal corporate, recruiting, sales and branch-support openings at recruitment and staffing agencies operating in North America. Includes global feeds, 34 validated native monitors, two FreeHire-backed company boards and seven existing unavailable companies. Client placements are excluded from this expansion. Consult each source for coverage limits.",
   "tags": [
     "Recruitment",
     "Staffing",
@@ -128,6 +128,33 @@
     },
     {
       "company_id": "supplemental-health-care"
+    },
+    {
+      "company_id": "chg-healthcare"
+    },
+    {
+      "company_id": "talentful"
+    },
+    {
+      "company_id": "egon-zehnder"
+    },
+    {
+      "company_id": "onward-search"
+    },
+    {
+      "company_id": "sheffield-haworth"
+    },
+    {
+      "company_id": "ingenovis-health"
+    },
+    {
+      "company_id": "sthree"
+    },
+    {
+      "company_id": "employbridge"
+    },
+    {
+      "company_id": "express-employment-international"
     }
   ]
 }
