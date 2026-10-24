@@ -18,14 +18,14 @@ These are fresh public-only runs of the canonical public collector, with employe
 | The Martin Agency (`the-martin-agency`) | 15 | 16 | 2026-10-24T17:41:31.276392+00:00 | [Account Supervisor II ](https://interpublic.wd5.myworkdayjobs.com/OMC/job/Richmond-Virginia-United-States-of-America/Account-Supervisor-II_R17369) |
 | Momentum Worldwide (`momentum-worldwide`) | 19 | 20 | 2026-10-24T17:41:32.070593+00:00 | [Account Manager, Business Leadership - Commerce/CPG ](https://interpublic.wd5.myworkdayjobs.com/OMC/job/Remote-Missouri-United-States-of-America/Account-Manager--Business-Leadership---Commerce-CPG_R17104) |
 | TBWA (`tbwa`) | 9 | 10 | 2026-10-24T17:42:11.141465+00:00 | [Creative Director ](https://interpublic.wd5.myworkdayjobs.com/OMC/job/Chicago-Illinois-United-States-of-America/Creative-Director_R11998) |
-| Cossette (`cossette`) | 9 | 1 | 2026-10-24T17:42:22.713349+00:00 | [Chargé·e de produits ](https://cossette.talentpoolbuilder.com/Chargee%20de%20produits/296871) |
-| Cossette Media (`cossette-media`) | 17 | 1 | 2026-10-24T17:42:26.374950+00:00 | [Senior Buyer (Video & Audio) ](https://cossette.talentpoolbuilder.com/Senior%20Buyer%20Video%20%26%20Audio/297130) |
+| Cossette (`cossette`) | 9 | 2 | 2026-10-24T17:49:12.272699+00:00 | [Chargé·e de produits , Cossette ](https://cossette.talentpoolbuilder.com/Chargee%2520de%2520produits/296871?l=en-ca) |
+| Cossette Media (`cossette-media`) | 17 | 2 | 2026-10-24T17:49:12.272699+00:00 | [Senior Buyer (Video & Audio) , Cossette Media ](https://cossette.talentpoolbuilder.com/Senior%2520Buyer%2520Video%2520%2526%2520Audio/297130?l=en-ca) |
 
 Total observed native listings: 199. This total excludes FreeHire counts.
 
 The Omnicom sources use the official Workday board linked from [The Martin Agency careers](https://www.martinagency.com/careers/). Every recipe pins the source-advertised Agency facet and applies a second exact raw `bulletFields.2` employer predicate. OMD, PHD, Initiative and UM additionally pin Canada and require explicit Canada listing text. Other agencies on the shared board are excluded. [Omnicom Media Canada](https://omnicommedia.com/canada/) establishes the Canadian brand relationships.
 
-[Cossette careers](https://www.cossette.com/en/careers?sc=true) links its TalentPoolBuilder board. The ordinary public page returns jobs for Cossette, Cossette Media and Septième. Two bounded anonymous browser captures filter exact `brand_name` values: 9 Cossette and 17 Cossette Media jobs; the 2 Septième jobs are excluded. No API authentication or account is used.
+[Cossette careers](https://www.cossette.com/en/careers?sc=true) links its TalentPoolBuilder board. Two bounded anonymous browsers read two rendered listing pages and filter exact employer labels: 9 Cossette and 17 Cossette Media jobs; the 2 Septième jobs are excluded. Employer-rendered double-encoded application URLs are retained verbatim and checked for reachability. No API authentication or account is used.
 
 The canonical Workday parser now identifies requisitions from the bullet that matches the public posting path, rather than assuming the first display bullet is an ID. This board lists job category first; the old assumption collapsed distinct postings. Adapter and traversal share one helper. Regression tests cover bounded/all-role traversal, distinct IDs, explicit detail IDs and safe path fallback. Publish the matching generated public-runtime/feed change alongside this catalog change.
 
