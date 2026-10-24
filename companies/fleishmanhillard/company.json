@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fleishmanhillard",
+  "name": "FleishmanHillard",
+  "aliases": [],
+  "website_url": "https://fleishmanhillard.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:fleishmanhillard",
+    "careers_url": "https://fleishmanhillard.com/join-us/",
+    "evidence_url": "https://freehire.me/api/v1/companies/fleishmanhillard?limit=2",
+    "checked_at": "2026-10-24T04:19:13.304154+00:00"
+  }
+}

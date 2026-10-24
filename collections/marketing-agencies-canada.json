@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "marketing-agencies-canada",
-  "revision": 3,
+  "revision": 4,
   "name": "Marketing Agencies",
-  "description": "Marketing, advertising, media, experiential, research, CRM, content, and digital agencies with North American and global operations and reusable public-careers monitors. Individual monitors may cover specific regions or divisions.",
+  "description": "Marketing, advertising, media, experiential, research, CRM, content, PR, and digital agencies with North American and global operations. Public careers sources include catalog monitors and FreeHire company boards; coverage may be regional or incomplete.",
   "tags": [
     "Marketing",
     "Agencies",
@@ -348,6 +348,70 @@
     {
       "company_id": "omnicom",
       "note": "Also in the Fortune collection. Omnicom Group has no validated group-wide monitor; select its listed agencies individually."
+    },
+    {
+      "company_id": "wpromote",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "tinuiti",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "akqa",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "burson",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "fleishmanhillard",
+      "note": "FreeHire currently exposes a German regional board; provider total and returned row counts differ."
+    },
+    {
+      "company_id": "weber-shandwick",
+      "note": "FreeHire sample contains Brazilian regional postings; global coverage is not established."
+    },
+    {
+      "company_id": "marketing-for-change",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "marketing-architects",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "nve-experience-agency",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "maxplus-advertising",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "pulse-advertising",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "mdg-advertising",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "power-digital-marketing",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "rapp",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "gmr-marketing",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "enthuse-marketing",
+      "note": "Public FreeHire company board; coverage may be regional or incomplete."
     }
   ]
 }

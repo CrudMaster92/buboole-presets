@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nve-experience-agency",
+  "name": "NVE Experience Agency",
+  "aliases": [],
+  "website_url": "https://experiencenve.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:nve-experience-agency",
+    "careers_url": "https://experiencenve.com/careers/",
+    "evidence_url": "https://freehire.me/api/v1/companies/nve-experience-agency?limit=2",
+    "checked_at": "2026-10-24T04:19:13.304154+00:00"
+  }
+}

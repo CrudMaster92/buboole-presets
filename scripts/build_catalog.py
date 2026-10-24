@@ -144,7 +144,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             selected = member.get("monitor_ids") or [
                 monitor_id for monitor_id, monitor in monitors.items() if monitor["company_id"] == company_id
             ]
-            if not selected and companies[company_id].get("availability", {}).get("status") != "unavailable":
+            if not selected and not companies[company_id].get("public_job_board") and companies[company_id].get("availability", {}).get("status") != "unavailable":
                 raise ValueError(f"{path.relative_to(ROOT)}: {company_id!r} has no installable monitor")
             for monitor_id in selected:
                 if monitor_id not in monitors or monitors[monitor_id]["company_id"] != company_id:
@@ -198,6 +198,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
                 **member, "name": company["name"], "legal_name": company.get("legal_name"),
                 "aliases": company.get("aliases", []), "logo_url": company.get("logo_url"),
                 "availability": company.get("availability"),
+            "public_job_board": company.get("public_job_board"),
                 "parent": parent_summary(company, companies), "facets": company.get("facets", {}),
                 "company_path": company_references[company["id"]]["path"],
                 "company_sha256": company_references[company["id"]]["sha256"],
@@ -251,7 +252,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
         company_monitors = [
             value for _, value in sorted(monitors.items()) if value["company_id"] == company_id
         ]
-        if not company_monitors and not company.get("availability"):
+        if not company_monitors and not company.get("availability") and not company.get("public_job_board"):
             continue
         search_values.append({
             "id": company_id, "name": company["name"], "legal_name": company.get("legal_name"),
@@ -259,6 +260,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             "parent": parent_summary(company, companies),
             "logo_url": company.get("logo_url"), "website_url": company.get("website_url"),
             "availability": company.get("availability"),
+            "public_job_board": company.get("public_job_board"),
             "collection_ids": sorted(company_collections[company_id]),
             "monitor_count": len(company_monitors),
             "adapters": sorted({value["recipe"]["strategy"] for value in company_monitors}),
