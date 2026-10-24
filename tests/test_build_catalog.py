@@ -21,7 +21,7 @@ class CatalogBuildTests(unittest.TestCase):
         self.assertEqual(fortune_ids & marketing_ids, {"omnicom"})
         self.assertIn("mosaic", fortune_ids)
         self.assertIn("mosaic-canada", marketing_ids)
-        self.assertEqual(len(marketing["companies"]), 52)
+        self.assertEqual(len(marketing["companies"]), 68)
         self.assertEqual(sum(bool(member.get("monitor_ids")) for member in marketing["companies"]), 51)
         self.assertEqual(
             json.loads((root / "companies/omnicom/company.json").read_text(encoding="utf-8"))["id"],
@@ -47,6 +47,25 @@ class CatalogBuildTests(unittest.TestCase):
                     for monitor in member["monitors"]:
                         self.assertEqual(monitor["verification"]["status"], "verified")
                         self.assertGreater(monitor["verification"]["job_count"], 0)
+
+    def test_marketing_provider_members_preserve_identity_hashes_without_fake_monitors(self):
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = build(output=Path(directory), source_commit="marketing-discovery")
+            api = Path(directory) / "api/v1"
+            collection = next(row for row in catalog["collections"] if row["id"] == "marketing-agencies-canada")
+            self.assertEqual(collection["company_count"], 68)
+            members = []
+            detail = json.loads((api / collection["path"]).read_text(encoding="utf8"))
+            for page in detail["member_pages"]:
+                members.extend(json.loads((api / page["path"]).read_text(encoding="utf8"))["companies"])
+            provider = [member for member in members if member.get("public_job_board")]
+            self.assertEqual(len(provider), 16)
+            for member in provider:
+                self.assertEqual(member["monitors"], [])
+                self.assertEqual(member["public_job_board"]["company_id"], "fh_company:" + member["company_id"])
+                company = json.loads((api / member["company_path"]).read_text(encoding="utf8"))
+                self.assertEqual(digest(company), member["company_sha256"])
+                self.assertNotIn("recipe", company)
 
     def test_catalog_v3_keeps_recipes_only_in_monitors_and_bundles(self):
         with tempfile.TemporaryDirectory() as directory:

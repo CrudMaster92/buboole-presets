@@ -12,7 +12,41 @@
     "website_url": {"type": "string", "format": "uri", "pattern": "^https://"},
     "logo_url": {"type": ["string", "null"], "format": "uri"},
     "availability": {"$ref": "#/$defs/availability"},
-    "facets": {"$ref": "#/$defs/facets"}
+    "facets": {"$ref": "#/$defs/facets"},
+    "public_job_board": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "company_id",
+        "careers_url",
+        "evidence_url",
+        "checked_at"
+      ],
+      "properties": {
+        "provider": {
+          "const": "freehire"
+        },
+        "company_id": {
+          "type": "string",
+          "pattern": "^fh_company:[a-z0-9][a-z0-9_-]{0,150}$"
+        },
+        "careers_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://[^/@:]+[/:]"
+        },
+        "evidence_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://[^/@:]+[/:]"
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
   },
   "$defs": {
     "availability": {"type": "object", "additionalProperties": false,
