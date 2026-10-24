@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://huggingface.co/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global"
+    ]
+  }
+}

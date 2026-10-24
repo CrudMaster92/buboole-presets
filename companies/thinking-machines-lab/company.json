@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "thinking-machines-lab",
+  "name": "Thinking Machines Lab",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://thinkingmachines.ai/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global"
+    ]
+  }
+}
