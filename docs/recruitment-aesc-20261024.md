@@ -17,7 +17,6 @@ All 184 name/tagline-screened FreeHire leads received a public detail/sample rev
 | SThree | generic_html | 25 | False | [Official careers](https://www.sthree.com/en-gb/careers/job-search/) |
 | Employbridge | FreeHire only | — | Not asserted | [Official careers](https://www.employbridge.com/about-us/join-our-team) |
 | Express Employment International Headquarters | FreeHire only | — | Not asserted | [Official careers](https://www.expresspros.com/who-we-are/international-hq) |
-
 | Stone Harbor Staffing Group (formerly Epic Staffing Group) | workday | 4 | False | [Official careers](https://stoneharborstaffing.com/careers/) |
 
 Native counts are live observations through canonical `ScraperRecipe` and `run_scraper`, using the public collector HTTP client and host limiter. All 220 normalized jobs have distinct HTTPS posting URLs within their source. Completeness refers to listing traversal, not description enrichment. See validation JSON for exact timestamps, pages, warnings and sample URLs. Public collection enriches descriptions under its own canonical budget. Bounded feeds remain explicitly partial.
