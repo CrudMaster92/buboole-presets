@@ -1,0 +1,403 @@
+[
+  {
+    "id": "chg-healthcare",
+    "name": "CHG Healthcare",
+    "ownership_url": "https://chghealthcare.com/work-with-us/chg-careers/careers-overview",
+    "board": "https://chghealthcare.wd1.myworkdayjobs.com/External",
+    "checked_at": "2026-10-24T15:15:12.471176+00:00",
+    "ownership_source": "https://chghealthcare.com/work-with-us/chg-careers/careers-overview",
+    "strategy": "workday",
+    "status": "ok",
+    "job_count": 36,
+    "pages": 5,
+    "complete": true,
+    "warnings": [
+      "description detail enrichment skipped 33 jobs after the configured 3-posting limit"
+    ],
+    "samples": [
+      {
+        "title": "Sales Consultant",
+        "source_url": "https://chghealthcare.wd1.myworkdayjobs.com/External/job/Salt-Lake-City-UT/Sales-Consultant-Sr_JR104468",
+        "location": "Salt Lake City, UT"
+      },
+      {
+        "title": "Sr Manager, Public Relations",
+        "source_url": "https://chghealthcare.wd1.myworkdayjobs.com/External/job/Salt-Lake-City-UT/Sr-Manager--Public-Relations_JR104592",
+        "location": "Salt Lake City, UT"
+      },
+      {
+        "title": "Senior Director, Physician Experience: CareerMD",
+        "source_url": "https://chghealthcare.wd1.myworkdayjobs.com/External/job/Salt-Lake-City-UT/Senior-Director--Physician-Experience--CareerMD_JR104510",
+        "location": "2 Locations"
+      },
+      {
+        "title": "Executive Assistant",
+        "source_url": "https://chghealthcare.wd1.myworkdayjobs.com/External/job/Salt-Lake-City-UT/Executive-Assistant_JR104569",
+        "location": "2 Locations"
+      },
+      {
+        "title": "AI Product Engineer",
+        "source_url": "https://chghealthcare.wd1.myworkdayjobs.com/External/job/Salt-Lake-City-UT/AI-Product-Engineer_JR104370",
+        "location": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
+    "id": "talentful",
+    "name": "Talentful",
+    "ownership_url": "https://www.talentful.com/careers/",
+    "board": "https://jobs.ashbyhq.com/talentful",
+    "checked_at": "2026-10-24T15:15:12.472175+00:00",
+    "ownership_source": "https://www.talentful.com/careers/",
+    "strategy": "ashby",
+    "status": "ok",
+    "job_count": 52,
+    "pages": 1,
+    "complete": true,
+    "warnings": [],
+    "samples": [
+      {
+        "title": "Technical Sourcer",
+        "source_url": "https://jobs.ashbyhq.com/talentful/425dc403-95ca-4e23-8677-e20f962632eb",
+        "location": "San Francisco Bay Area Hybrid"
+      },
+      {
+        "title": "Senior Technical Recruiter",
+        "source_url": "https://jobs.ashbyhq.com/talentful/248dc161-ad42-4d4f-8455-d4c968eaaa80",
+        "location": "USA Remote"
+      },
+      {
+        "title": "Senior GTM Recruiter",
+        "source_url": "https://jobs.ashbyhq.com/talentful/5bd47e16-4846-4305-9b1b-1a54a7635554",
+        "location": "USA Remote"
+      },
+      {
+        "title": "Senior GTM Recruiter",
+        "source_url": "https://jobs.ashbyhq.com/talentful/09f08142-6e8a-48b9-ab18-a6b72fb178ec",
+        "location": "San Francisco Bay Area Hybrid"
+      },
+      {
+        "title": "Senior Technical Recruiter",
+        "source_url": "https://jobs.ashbyhq.com/talentful/61754aec-c086-47a4-8165-d94f9ac07401",
+        "location": "San Francisco Bay Area Hybrid"
+      }
+    ]
+  },
+  {
+    "id": "egon-zehnder",
+    "name": "Egon Zehnder",
+    "ownership_url": "https://www.egonzehnder.com/join-us",
+    "board": "https://apply.workable.com/ezrecruiting/",
+    "checked_at": "2026-10-24T15:15:12.472175+00:00",
+    "ownership_source": "https://www.egonzehnder.com/join-us",
+    "strategy": "generic_json",
+    "status": "ok",
+    "job_count": 68,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 65 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "samples": [
+      {
+        "title": "Analyst HPG",
+        "source_url": "https://apply.workable.com/j/FC19CCDF72",
+        "location": "Gurugram, Haryana, India"
+      },
+      {
+        "title": "Asset Management Researcher, Financial Services Practice - Executive Search",
+        "source_url": "https://apply.workable.com/j/B82A3FEE38",
+        "location": "New York, New York, United States"
+      },
+      {
+        "title": "Associate",
+        "source_url": "https://apply.workable.com/j/CB49D2AD85",
+        "location": "Montreal, Quebec, Canada"
+      },
+      {
+        "title": "Associate CPG",
+        "source_url": "https://apply.workable.com/j/BB4A414B38",
+        "location": "Gurugram, Haryana, India"
+      },
+      {
+        "title": "Associate FS Insurance",
+        "source_url": "https://apply.workable.com/j/75195DE2A2",
+        "location": "Gurugram, Haryana, India"
+      }
+    ]
+  },
+  {
+    "id": "onward-search",
+    "name": "Onward Search",
+    "ownership_url": "https://www.onwardsearch.com/join-our-team/",
+    "board": "https://onwardsearch.bamboohr.com/careers",
+    "checked_at": "2026-10-24T15:15:13.358649+00:00",
+    "ownership_source": "https://www.onwardsearch.com/join-our-team/",
+    "strategy": "generic_json",
+    "status": "ok",
+    "job_count": 14,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 11 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "samples": [
+      {
+        "title": "Account Executive, Education Staffing",
+        "source_url": "https://onwardsearch.bamboohr.com/careers/188",
+        "location": "Norwalk, Connecticut, United States"
+      },
+      {
+        "title": "Recruiter, Education Staffing",
+        "source_url": "https://onwardsearch.bamboohr.com/careers/190",
+        "location": "Fairfield, Connecticut, United States"
+      },
+      {
+        "title": "Business Development Manager",
+        "source_url": "https://onwardsearch.bamboohr.com/careers/199",
+        "location": "Fairfield, Connecticut, United States"
+      },
+      {
+        "title": "VP, Behavioral Health Staffing Division",
+        "source_url": "https://onwardsearch.bamboohr.com/careers/214",
+        "location": "Fairfield, Connecticut, United States"
+      },
+      {
+        "title": "Recruiter, Behavioral Health Staffing",
+        "source_url": "https://onwardsearch.bamboohr.com/careers/217",
+        "location": "Fairfield, Connecticut, United States"
+      }
+    ]
+  },
+  {
+    "id": "sheffield-haworth",
+    "name": "Sheffield Haworth",
+    "ownership_url": "https://www.sheffieldhaworth.com/careers/",
+    "board": "https://www.sheffieldhaworth.com/careers/",
+    "checked_at": "2026-10-24T15:15:16.333987+00:00",
+    "ownership_source": "https://www.sheffieldhaworth.com/careers/",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 3,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "samples": [
+      {
+        "title": "Associate – Executive Recruiter",
+        "source_url": "https://www.sheffieldhaworth.com/jobs/associate-executive-recruiter-2",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Associate – Executive Recruiter",
+        "source_url": "https://www.sheffieldhaworth.com/jobs/associate-executive-recruiter",
+        "location": "NewYork"
+      },
+      {
+        "title": "Associate-Global Banking",
+        "source_url": "https://www.sheffieldhaworth.com/jobs/associate-global-banking",
+        "location": "NewYork"
+      }
+    ]
+  },
+  {
+    "id": "ingenovis-health",
+    "name": "Ingenovis Health",
+    "ownership_url": "https://www.ingenovishealth.com/corporate-careers",
+    "board": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth",
+    "checked_at": "2026-10-24T15:16:23.834504+00:00",
+    "ownership_source": "https://www.ingenovishealth.com/corporate-careers",
+    "strategy": "workday",
+    "status": "ok",
+    "job_count": 18,
+    "pages": 4,
+    "complete": true,
+    "warnings": [
+      "description detail enrichment skipped 15 jobs after the configured 3-posting limit"
+    ],
+    "samples": [
+      {
+        "title": "Business Development Associate",
+        "source_url": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth/job/Cincinnati/Business-Development-Associate_JR1801",
+        "location": "2 Locations"
+      },
+      {
+        "title": "VISTA - Business Development Manager",
+        "source_url": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth/job/Remote/VISTA---Business-Development-Manager_JR1800",
+        "location": "Remote"
+      },
+      {
+        "title": "VitalSolution - Sr. Account Manager",
+        "source_url": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth/job/Remote/VitalSolution----Sr-Account-Manager_JR1805",
+        "location": "Remote"
+      },
+      {
+        "title": "VISTA - Search Consultant",
+        "source_url": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth/job/Remote/VISTA---Search-Consultant_JR1802",
+        "location": "Remote"
+      },
+      {
+        "title": "VISTA - Search Recruiter",
+        "source_url": "https://ingenovishealth.wd1.myworkdayjobs.com/Ingenovishealth/job/Remote/VISTA---Search-Recruiter_JR1803",
+        "location": "Remote"
+      }
+    ]
+  },
+  {
+    "id": "sthree",
+    "name": "SThree",
+    "ownership_url": "https://www.sthree.com/en-gb/careers/job-search/",
+    "board": "https://careers.sthree.com/search/",
+    "checked_at": "2026-10-24T15:16:27.741574+00:00",
+    "ownership_source": "https://www.sthree.com/en-gb/careers/job-search/",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 25,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 22 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "samples": [
+      {
+        "title": "Senior Recruitment Consultant",
+        "source_url": "https://careers.sthree.com/job/Leeds-Senior-Recruitment-Consultant-LS1-4DW/1336443855",
+        "location": "Leeds, GB, LS1 4DW"
+      },
+      {
+        "title": "Associate Recruitment Consultant",
+        "source_url": "https://careers.sthree.com/job/New-York-Associate-Recruitment-Consultant-NY-10007/1365619355",
+        "location": "New York, NY, US, 10007"
+      },
+      {
+        "title": "Associate Recruitment Consultant",
+        "source_url": "https://careers.sthree.com/job/Boston-Associate-Recruitment-Consultant-MA-02110/1365618955",
+        "location": "Boston, MA, US, 02110"
+      },
+      {
+        "title": "Associate Sales Team Manager",
+        "source_url": "https://careers.sthree.com/job/San-Diego-Associate-Sales-Team-Manager-CA-9210/1365621255",
+        "location": "San Diego, CA, US, 9210"
+      },
+      {
+        "title": "Recruitment Consultant (m/w/d)",
+        "source_url": "https://careers.sthree.com/job/D%C3%BCsseldorf-Recruitment-Consultant-%28mwd%29-40474/1365518055",
+        "location": "Düsseldorf, DE, 40474"
+      }
+    ]
+  },
+  {
+    "id": "employbridge",
+    "name": "Employbridge",
+    "ownership_url": "https://www.employbridge.com/about-us/join-our-team",
+    "board": "https://www.employbridge.com/about-us/join-our-team",
+    "status": "provider-only",
+    "provider_reported_count": 40,
+    "reviewed_sample_count": 61,
+    "samples": [
+      {
+        "title": "Staff Performance Coordinator - Required: Forklift Experience & Bilingual",
+        "url": "https://recruiting2.ultipro.com/emp1013empbr/JobBoard/8dfe92d0-c97b-4482-8667-0dd5b28c2c6a/OpportunityDetail?opportunityId=f88088c9-aea2-4cb8-9e9d-46c688f8cb3a&utm_source=freehire.me"
+      },
+      {
+        "title": "Forklift Certification Specialist",
+        "url": "https://recruiting2.ultipro.com/emp1013empbr/JobBoard/8dfe92d0-c97b-4482-8667-0dd5b28c2c6a/OpportunityDetail?opportunityId=b06524c6-9486-4c4d-a023-264cad6e4f06&utm_source=freehire.me"
+      },
+      {
+        "title": "Business Development Manager",
+        "url": "https://recruiting2.ultipro.com/emp1013empbr/JobBoard/8dfe92d0-c97b-4482-8667-0dd5b28c2c6a/OpportunityDetail?opportunityId=2436d6e6-7523-4850-9ba5-dc2b70dab433&utm_source=freehire.me"
+      },
+      {
+        "title": "Field Recruiter (Seasonal Opportunity)",
+        "url": "https://recruiting2.ultipro.com/emp1013empbr/JobBoard/8dfe92d0-c97b-4482-8667-0dd5b28c2c6a/OpportunityDetail?opportunityId=bb850a21-8b71-41a0-b3dc-b4da1daa4f10&utm_source=freehire.me"
+      },
+      {
+        "title": "Bilingual Branch Recruiter - not remote or hybrid",
+        "url": "https://recruiting2.ultipro.com/emp1013empbr/JobBoard/8dfe92d0-c97b-4482-8667-0dd5b28c2c6a/OpportunityDetail?opportunityId=0e5929c4-c8b0-4d0b-94f0-8c3054924048&utm_source=freehire.me"
+      }
+    ],
+    "note": "Public internal ATS source confirmed on official employer site; no native scraper claimed. Provider counts differ between search and detail."
+  },
+  {
+    "id": "express-employment-international",
+    "name": "Express Employment International Headquarters",
+    "ownership_url": "https://www.expresspros.com/who-we-are/international-hq",
+    "board": "https://www.expresspros.com/who-we-are/international-hq",
+    "status": "provider-only",
+    "provider_reported_count": 5,
+    "reviewed_sample_count": 15,
+    "samples": [
+      {
+        "title": "Payroll Auditor",
+        "url": "https://www.paycomonline.net/v4/ats/web.php/portal/0bf66ea8e0fdc58ee478c46aa8894ab6/jobs/72658?utm_source=freehire.me"
+      },
+      {
+        "title": "Franchise Service Consultant",
+        "url": "https://www.paycomonline.net/v4/ats/web.php/portal/0bf66ea8e0fdc58ee478c46aa8894ab6/jobs/26926?utm_source=freehire.me"
+      },
+      {
+        "title": "Legal Support and Contracts Specialist",
+        "url": "https://www.paycomonline.net/v4/ats/web.php/portal/0bf66ea8e0fdc58ee478c46aa8894ab6/jobs/72474?utm_source=freehire.me"
+      },
+      {
+        "title": "Lead UAT Analyst",
+        "url": "https://www.paycomonline.net/v4/ats/web.php/portal/0bf66ea8e0fdc58ee478c46aa8894ab6/jobs/72203?utm_source=freehire.me"
+      },
+      {
+        "title": "Business Development Manager (Atlanta)",
+        "url": "https://www.paycomonline.net/v4/ats/web.php/portal/0bf66ea8e0fdc58ee478c46aa8894ab6/jobs/72008?utm_source=freehire.me"
+      }
+    ],
+    "note": "Public internal ATS source confirmed on official employer site; no native scraper claimed. Provider counts differ between search and detail."
+  },
+  {
+    "id": "stone-harbor-staffing-group",
+    "name": "Stone Harbor Staffing Group",
+    "website": "https://stoneharborstaffing.com/",
+    "ownership": "https://stoneharborstaffing.com/careers/",
+    "board": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers",
+    "aliases": [
+      "Epic Staffing Group"
+    ],
+    "recipe": null,
+    "checked_at": "2026-10-24T15:24:35.562606+00:00",
+    "ownership_source": "https://stoneharborstaffing.com/careers/",
+    "strategy": "workday",
+    "status": "ok",
+    "job_count": 4,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "removed 4 duplicate source IDs",
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit"
+    ],
+    "samples": [
+      {
+        "title": "Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-USA/Recruiter_JR0000001054",
+        "location": "Remote, USA"
+      },
+      {
+        "title": "Recruiter, Locums",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Onsite-Hollywood-FL/Recruiter_JR0000001036",
+        "location": "Onsite, Hollywood, FL"
+      },
+      {
+        "title": "Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-North-Carolina/Recruiter_JR0000001062",
+        "location": "Remote North Carolina"
+      },
+      {
+        "title": "Executive Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-Massachusetts/Executive-Recruiter_JR0000001011",
+        "location": "Remote Massachusetts"
+      }
+    ],
+    "ownership_note": "Former Epic Staffing Group domain redirects to Stone Harbor; official website JSON-LD alternateName confirms prior name. Official careers page links exact new Workday board. FreeHire old Epic board is not attached as current coverage."
+  }
+]

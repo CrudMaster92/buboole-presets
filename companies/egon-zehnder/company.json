@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "egon-zehnder",
+  "name": "Egon Zehnder",
+  "aliases": [],
+  "website_url": "https://www.egonzehnder.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "executive-search"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:egon-zehnder",
+    "careers_url": "https://www.egonzehnder.com/join-us",
+    "evidence_url": "https://freehire.me/api/v1/companies/egon-zehnder?limit=100",
+    "checked_at": "2026-10-24T15:18:05.175834+00:00"
+  }
+}

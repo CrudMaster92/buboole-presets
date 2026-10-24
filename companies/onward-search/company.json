@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "onward-search",
+  "name": "Onward Search",
+  "aliases": [],
+  "website_url": "https://www.onwardsearch.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:onward-search",
+    "careers_url": "https://www.onwardsearch.com/join-our-team/",
+    "evidence_url": "https://freehire.me/api/v1/companies/onward-search?limit=100",
+    "checked_at": "2026-10-24T15:18:05.175834+00:00"
+  }
+}
