@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "legora",
+  "name": "Legora",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://legora.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global"
+    ]
+  }
+}

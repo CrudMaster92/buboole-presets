@@ -1,0 +1,68 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "weights-biases",
+  "company_id": "weights-biases",
+  "revision": 1,
+  "label": "Weights & Biases careers",
+  "careers_url": "https://coreweave.com/careers/weights-biases",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-24T15:07:40.193169+00:00",
+    "job_count": 7,
+    "warnings": [
+      "Dedicated Weights & Biases brand board at CoreWeave; parent-company vacancies are excluded."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Weights & Biases",
+    "careers_url": "https://coreweave.com/careers/weights-biases",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "boards-api.greenhouse.io",
+      "coreweave.com"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/weights_and_biases/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "id",
+      "title": "title",
+      "location": "location.name",
+      "url": "absolute_url",
+      "description": "content",
+      "posted_date": "first_published"
+    },
+    "metadata": {
+      "board_token": "weightsandbiases",
+      "ownership_note": "Dedicated Weights & Biases board at CoreWeave; excludes parent CoreWeave board.",
+      "ownership_source": "https://wandb.ai/site"
+    }
+  }
+}

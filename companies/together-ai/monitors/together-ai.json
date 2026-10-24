@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "together-ai",
+  "company_id": "together-ai",
+  "revision": 1,
+  "label": "Together AI careers",
+  "careers_url": "https://job-boards.greenhouse.io/togetherai",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-24T15:05:18.909088+00:00",
+    "job_count": 85,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Together AI",
+    "careers_url": "https://job-boards.greenhouse.io/togetherai",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "boards-api.greenhouse.io",
+      "job-boards.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "id",
+      "title": "title",
+      "location": "location.name",
+      "url": "absolute_url",
+      "description": "content",
+      "posted_date": "first_published"
+    },
+    "metadata": {
+      "board_token": "togetherai",
+      "ownership_source": "https://www.together.ai/"
+    }
+  }
+}

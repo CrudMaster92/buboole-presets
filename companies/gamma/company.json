@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gamma",
+  "name": "Gamma",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://gamma.app/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global"
+    ]
+  }
+}

@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "ai",
-  "revision": 12,
+  "revision": 13,
   "name": "AI",
-  "description": "Curated AI companies with ready-to-run public careers scrapers.",
+  "description": "Curated AI companies with verified public careers scrapers, expanded using Forbes AI 50 (2026) and FreeHire AI company leads. Source availability and job counts change over time.",
   "tags": [
     "AI",
     "Technology",
@@ -74,6 +74,210 @@
     },
     {
       "company_id": "suno"
+    },
+    {
+      "company_id": "abridge",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "applied-intuition",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "baseten",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "black-forest-labs",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "chai-discovery",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "cognition",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "crusoe",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "decagon",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "eliseai",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "fal",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "fireworks-ai",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "gamma",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "gensparkai",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "glean",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "harvey",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "heygen",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "krea",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "legora",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "listen-labs",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "notion",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "openevidence",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "physical-intelligence",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "reflection",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "replit",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "rogo",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "sierra",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "skild-ai",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "speak",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "surge-ai",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "synthesia",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "thinking-machines-lab",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "together-ai",
+      "note": "Forbes AI 50 2026; FreeHire AI"
+    },
+    {
+      "company_id": "world-labs",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "langchain",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "cresta",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "anyscale",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "character-ai",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "descript",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "jasper",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "pinecone",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "weights-biases",
+      "note": "FreeHire AI; dedicated W&B brand board at CoreWeave"
+    },
+    {
+      "company_id": "llamaindex",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "clay",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "sambanova",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "stability-ai",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "hugging-face",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "modal-labs",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "mercor",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "databricks",
+      "note": "Forbes AI 50 2026"
+    },
+    {
+      "company_id": "ai21-labs",
+      "note": "FreeHire AI"
+    },
+    {
+      "company_id": "cyera",
+      "note": "Forbes AI 50 2026"
     }
   ]
 }
