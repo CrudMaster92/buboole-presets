@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "modal-labs",
+  "name": "Modal Labs",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://modal.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global"
+    ]
+  }
+}

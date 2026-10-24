@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cyera",
+  "company_id": "cyera",
+  "revision": 1,
+  "label": "Cyera careers",
+  "careers_url": "https://www.cyera.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-24T15:08:31.961816+00:00",
+    "job_count": 256,
+    "warnings": [
+      "description detail enrichment skipped 256 jobs after the configured 0-posting limit",
+      "Public employer careers listing with direct Comeet posting URLs; descriptions remain on employer postings.",
+      "description detail enrichment skipped 236 jobs after the configured 20-posting limit",
+      "description detail enrichment was incomplete for 20 jobs"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Cyera",
+    "careers_url": "https://www.cyera.com/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.comeet.com",
+      "www.cyera.com"
+    ],
+    "request": {
+      "url": "https://www.cyera.com/careers",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "2b203ba4_page",
+      "page_size_parameter": null,
+      "page_size": 15,
+      "max_pages": 20,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".positions_item",
+      "title": "[fs-list-field=\"itemTitle\"]",
+      "link": "a[href*=\"comeet.com/jobs/cyera/\"]",
+      "location": "[fs-list-field=\"location\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 0,
+      "description_note": "Public employer careers listing with direct Comeet posting URLs; descriptions remain on employer postings.",
+      "ownership_source": "https://cyera.com/"
+    }
+  }
+}
