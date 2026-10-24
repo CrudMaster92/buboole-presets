@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "next-level-marketing",
+  "name": "Next Level Marketing",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://nextlevel-co.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "United States"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:next-level-marketing",
+    "careers_url": "https://next-level-marketing.breezy.hr/",
+    "evidence_url": "https://freehire.me/api/v1/companies/next-level-marketing?limit=2",
+    "checked_at": "2026-10-24T17:34:42.899304+00:00"
+  }
+}

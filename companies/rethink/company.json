@@ -21,10 +21,11 @@
       "Canada"
     ]
   },
-  "availability": {
-    "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The Marketing Job Board collector has not yet been converted and validated as a Buboole monitor.",
-    "checked_at": "2026-09-30T00:53:28.032653Z"
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:rethinkcanada",
+    "careers_url": "https://www.rethinkideas.com/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/rethinkcanada?limit=2",
+    "checked_at": "2026-10-24T17:34:32.094397+00:00"
   }
 }

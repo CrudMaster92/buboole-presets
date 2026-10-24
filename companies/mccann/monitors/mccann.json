@@ -1,0 +1,82 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mccann",
+  "company_id": "mccann",
+  "revision": 1,
+  "label": "McCann careers",
+  "careers_url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-24T17:40:21.623673+00:00",
+    "job_count": 22,
+    "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Exact Workday agency scope; other regional systems may contain additional jobs."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "McCann",
+    "careers_url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "interpublic.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://interpublic.wd5.myworkdayjobs.com/wday/cxs/interpublic/OMC/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "limit": 20,
+        "offset": 0,
+        "searchText": "",
+        "appliedFacets": {
+          "REC_-_CF_LRV_Recruiting_Agency__Job_Posting_Anchor__Extended": [
+            "65f98a8defd81001e7fe0e86521a0000"
+          ]
+        }
+      },
+      "timeout_seconds": 25,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 30,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "bulletFields.2",
+          "operator": "equals_ci",
+          "values": [
+            "McCann"
+          ]
+        }
+      ]
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "interpublic",
+      "site": "OMC",
+      "detail_fetch_limit": 20,
+      "partial_listing": true,
+      "ownership_source": "https://www.martinagency.com/careers/",
+      "ownership_note": "Official Omnicom Workday board linked from Martin careers. Exact Agency facet plus raw bulletFields agency predicate exclude other employers. Brand-specific source; other regional/legacy systems may not be covered."
+    }
+  }
+}

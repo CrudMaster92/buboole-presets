@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rpa",
+  "name": "RPA",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.rpa.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "United States"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:rpa",
+    "careers_url": "https://www.rpa.com/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/rpa?limit=2",
+    "checked_at": "2026-10-24T17:34:43.774297+00:00"
+  }
+}

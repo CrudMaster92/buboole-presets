@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "betc",
+  "name": "BETC",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.betc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "France"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:betc",
+    "careers_url": "https://betc.teamtailor.com/jobs",
+    "evidence_url": "https://freehire.me/api/v1/companies/betc?limit=2",
+    "checked_at": "2026-10-24T17:34:34.560166+00:00"
+  }
+}

@@ -24,11 +24,5 @@
       "Plus Company"
     ]
   },
-  "parent_company_id": "plus-company",
-  "availability": {
-    "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The Marketing Job Board collector has not yet been converted and validated as a Buboole monitor.",
-    "checked_at": "2026-09-30T00:53:28.032653Z"
-  }
+  "parent_company_id": "plus-company"
 }

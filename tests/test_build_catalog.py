@@ -21,8 +21,8 @@ class CatalogBuildTests(unittest.TestCase):
         self.assertEqual(fortune_ids & marketing_ids, {"omnicom"})
         self.assertIn("mosaic", fortune_ids)
         self.assertIn("mosaic-canada", marketing_ids)
-        self.assertEqual(len(marketing["companies"]), 68)
-        self.assertEqual(sum(bool(member.get("monitor_ids")) for member in marketing["companies"]), 51)
+        self.assertEqual(len(marketing["companies"]), 106)
+        self.assertEqual(sum(bool(member.get("monitor_ids")) for member in marketing["companies"]), 63)
         self.assertEqual(
             json.loads((root / "companies/omnicom/company.json").read_text(encoding="utf-8"))["id"],
             "omnicom",
@@ -53,16 +53,21 @@ class CatalogBuildTests(unittest.TestCase):
             catalog = build(output=Path(directory), source_commit="marketing-discovery")
             api = Path(directory) / "api/v1"
             collection = next(row for row in catalog["collections"] if row["id"] == "marketing-agencies-canada")
-            self.assertEqual(collection["company_count"], 68)
+            self.assertEqual(collection["company_count"], 106)
             members = []
             detail = json.loads((api / collection["path"]).read_text(encoding="utf8"))
             for page in detail["member_pages"]:
                 members.extend(json.loads((api / page["path"]).read_text(encoding="utf8"))["companies"])
             provider = [member for member in members if member.get("public_job_board")]
-            self.assertEqual(len(provider), 16)
+            self.assertEqual(len(provider), 42)
+            provider_slugs = {"rethink": "rethinkcanada", "lg2": "groupe-lg2",
+                              "serviceplan": "serviceplan-gruppe", "innocean-us": "innocean",
+                              "vccp": "vccp-group", "jack-morton": "jack-morton-worldwide",
+                              "huge": "hugeinc"}
             for member in provider:
                 self.assertEqual(member["monitors"], [])
-                self.assertEqual(member["public_job_board"]["company_id"], "fh_company:" + member["company_id"])
+                self.assertEqual(member["public_job_board"]["company_id"],
+                                 "fh_company:" + provider_slugs.get(member["company_id"], member["company_id"]))
                 company = json.loads((api / member["company_path"]).read_text(encoding="utf8"))
                 self.assertEqual(digest(company), member["company_sha256"])
                 self.assertNotIn("recipe", company)
