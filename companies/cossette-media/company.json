@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cossette-media",
+  "name": "Cossette Media",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cossette.com/en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Canada"
+    ]
+  }
+}

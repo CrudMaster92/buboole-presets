@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tbwa",
+  "name": "TBWA",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://tbwa.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  }
+}

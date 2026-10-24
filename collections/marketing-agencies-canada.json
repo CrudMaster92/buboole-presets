@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "marketing-agencies-canada",
-  "revision": 4,
+  "revision": 5,
   "name": "Marketing Agencies",
-  "description": "Marketing, advertising, media, experiential, research, CRM, content, PR, and digital agencies with North American and global operations. Public careers sources include catalog monitors and FreeHire company boards; coverage may be regional or incomplete.",
+  "description": "Marketing, advertising, media, experiential, research, CRM, content, PR, and digital agencies with North American and global operations. Reviewed company-scoped monitors and FreeHire employer boards; regional, partial and unavailable coverage is explicit.",
   "tags": [
     "Marketing",
     "Agencies",
@@ -412,6 +412,220 @@
     {
       "company_id": "enthuse-marketing",
       "note": "Public FreeHire company board; coverage may be regional or incomplete."
+    },
+    {
+      "company_id": "omd-canada",
+      "monitor_ids": [
+        "omd-canada"
+      ],
+      "note": "Exact Workday agency scope; Canada only."
+    },
+    {
+      "company_id": "phd-canada",
+      "monitor_ids": [
+        "phd-canada"
+      ],
+      "note": "Exact Workday agency scope; Canada only."
+    },
+    {
+      "company_id": "initiative-canada",
+      "monitor_ids": [
+        "initiative-canada"
+      ],
+      "note": "Exact Workday agency scope; Canada only."
+    },
+    {
+      "company_id": "um-canada",
+      "monitor_ids": [
+        "um-canada"
+      ],
+      "note": "Exact Workday agency scope; Canada only."
+    },
+    {
+      "company_id": "mccann",
+      "monitor_ids": [
+        "mccann"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "area-23",
+      "monitor_ids": [
+        "area-23"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "gsdm",
+      "monitor_ids": [
+        "gsdm"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "the-martin-agency",
+      "monitor_ids": [
+        "the-martin-agency"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "momentum-worldwide",
+      "monitor_ids": [
+        "momentum-worldwide"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "tbwa",
+      "monitor_ids": [
+        "tbwa"
+      ],
+      "note": "Exact Workday agency scope; other regional systems may contain additional jobs."
+    },
+    {
+      "company_id": "cossette",
+      "monitor_ids": [
+        "cossette"
+      ],
+      "note": "Bounded public browser capture; employer brand filtered exactly; source does not supply full descriptions."
+    },
+    {
+      "company_id": "cossette-media",
+      "monitor_ids": [
+        "cossette-media"
+      ],
+      "note": "Bounded public browser capture; employer brand filtered exactly; source does not supply full descriptions."
+    },
+    {
+      "company_id": "rethink",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Canada scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "havas",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "lg2",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Canada scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "we-are-social",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "bond-brand-loyalty",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "brand-momentum",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Canada scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "circana",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "ipsos",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "serviceplan",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "betc",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; France scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "media-arts-lab",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "goodby-silverstein-partners",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "innocean-canada",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Canada scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "innocean-us",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "vccp",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "tombras",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "goodway-group",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "jack-morton",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "miq",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "tank-worldwide",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "next-level-marketing",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "m2w",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "allen-gerritsen",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "rpa",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "barkleyokrp",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; United States scope. Listings may be regional or partial; no native monitor is claimed."
+    },
+    {
+      "company_id": "huge",
+      "monitor_ids": [],
+      "note": "FreeHire employer board; Global scope. Listings may be regional or partial; no native monitor is claimed."
     }
   ]
 }

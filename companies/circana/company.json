@@ -15,5 +15,12 @@
     "tags": [
       "Marketing group"
     ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:circana",
+    "careers_url": "https://www.circana.com/company/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/circana?limit=2",
+    "checked_at": "2026-10-24T17:34:33.880154+00:00"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "goodby-silverstein-partners",
+  "name": "Goodby Silverstein & Partners",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://goodbysilverstein.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "United States"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:goodby-silverstein-partners",
+    "careers_url": "https://goodbysilverstein.com/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/goodby-silverstein-partners?limit=2",
+    "checked_at": "2026-10-24T17:34:36.734127+00:00"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "barkleyokrp",
+  "name": "BarkleyOKRP",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://barkleyokrp.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "United States"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:barkleyokrp",
+    "careers_url": "https://barkleyokrp.com/careers/",
+    "evidence_url": "https://freehire.me/api/v1/companies/barkleyokrp?limit=2",
+    "checked_at": "2026-10-24T17:34:44.005593+00:00"
+  }
+}

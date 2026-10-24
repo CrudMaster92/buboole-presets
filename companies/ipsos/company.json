@@ -15,5 +15,12 @@
     "tags": [
       "Marketing group"
     ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:ipsos",
+    "careers_url": "https://www.ipsos.com/en/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/ipsos?limit=2",
+    "checked_at": "2026-10-24T17:34:34.375970+00:00"
   }
 }
