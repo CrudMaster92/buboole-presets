@@ -354,5 +354,50 @@
       }
     ],
     "note": "Public internal ATS source confirmed on official employer site; no native scraper claimed. Provider counts differ between search and detail."
+  },
+  {
+    "id": "stone-harbor-staffing-group",
+    "name": "Stone Harbor Staffing Group",
+    "website": "https://stoneharborstaffing.com/",
+    "ownership": "https://stoneharborstaffing.com/careers/",
+    "board": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers",
+    "aliases": [
+      "Epic Staffing Group"
+    ],
+    "recipe": null,
+    "checked_at": "2026-10-24T15:24:35.562606+00:00",
+    "ownership_source": "https://stoneharborstaffing.com/careers/",
+    "strategy": "workday",
+    "status": "ok",
+    "job_count": 4,
+    "pages": 4,
+    "complete": false,
+    "warnings": [
+      "removed 4 duplicate source IDs",
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit"
+    ],
+    "samples": [
+      {
+        "title": "Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-USA/Recruiter_JR0000001054",
+        "location": "Remote, USA"
+      },
+      {
+        "title": "Recruiter, Locums",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Onsite-Hollywood-FL/Recruiter_JR0000001036",
+        "location": "Onsite, Hollywood, FL"
+      },
+      {
+        "title": "Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-North-Carolina/Recruiter_JR0000001062",
+        "location": "Remote North Carolina"
+      },
+      {
+        "title": "Executive Recruiter",
+        "source_url": "https://stoneharborstaffing.wd1.myworkdayjobs.com/Stone_Harbor_Careers/job/Remote-Massachusetts/Executive-Recruiter_JR0000001011",
+        "location": "Remote Massachusetts"
+      }
+    ],
+    "ownership_note": "Former Epic Staffing Group domain redirects to Stone Harbor; official website JSON-LD alternateName confirms prior name. Official careers page links exact new Workday board. FreeHire old Epic board is not attached as current coverage."
   }
 ]

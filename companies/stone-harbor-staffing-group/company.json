@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "stone-harbor-staffing-group",
+  "name": "Stone Harbor Staffing Group",
+  "legal_name": "Stone Harbor Staffing Group, Inc.",
+  "aliases": [
+    "Epic Staffing Group"
+  ],
+  "website_url": "https://stoneharborstaffing.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "North America"
+    ]
+  }
+}

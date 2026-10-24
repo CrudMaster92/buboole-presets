@@ -32,8 +32,8 @@ class CatalogBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             catalog = build(output=Path(directory), source_commit="test-commit")
             collection = next(item for item in catalog["collections"] if item["id"] == "recruitment-agencies-north-america")
-            self.assertEqual(collection["company_count"], 34)
-            self.assertEqual(collection["monitor_count"], 27)
+            self.assertEqual(collection["company_count"], 44)
+            self.assertEqual(collection["monitor_count"], 35)
             api = Path(directory) / "api" / "v1"
             members = json.loads((api / "collections/recruitment-agencies-north-america/members-0001.json").read_text())["companies"]
             unavailable = {"insight-global", "aston-carter", "mlag", "korn-ferry", "pagegroup", "robert-walters", "manpowergroup"}
@@ -42,6 +42,12 @@ class CatalogBuildTests(unittest.TestCase):
                     self.assertEqual(member["monitors"], [])
                     self.assertEqual(member["availability"]["status"], "unavailable")
                     self.assertTrue(member["availability"]["message"])
+                elif member["company_id"] in {"employbridge", "express-employment-international"}:
+                    self.assertEqual(member["monitors"], [])
+                    self.assertEqual(member["public_job_board"]["provider"], "freehire")
+                    company = json.loads((api / member["company_path"]).read_text(encoding="utf8"))
+                    self.assertEqual(digest(company), member["company_sha256"])
+                    self.assertNotIn("recipe", company)
                 else:
                     self.assertTrue(member["monitors"])
                     for monitor in member["monitors"]:
