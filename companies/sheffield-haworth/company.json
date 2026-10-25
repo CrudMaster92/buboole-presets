@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sheffield-haworth",
+  "name": "Sheffield Haworth",
+  "aliases": [],
+  "website_url": "https://www.sheffieldhaworth.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "executive-search"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  }
+}
