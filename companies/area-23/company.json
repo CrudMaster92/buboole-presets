@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "area-23",
+  "name": "AREA 23",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://area23hc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  }
+}

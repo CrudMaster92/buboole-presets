@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "innocean-canada",
+  "name": "INNOCEAN Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.innocean.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Canada"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:innocean-canada",
+    "careers_url": "https://www.innocean.ca/careers",
+    "evidence_url": "https://freehire.me/api/v1/companies/innocean-canada?limit=2",
+    "checked_at": "2026-10-24T17:34:36.949347+00:00"
+  }
+}

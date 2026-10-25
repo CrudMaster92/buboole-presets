@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jack-morton",
+  "name": "Jack Morton Worldwide",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jackmorton.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:jack-morton-worldwide",
+    "careers_url": "https://jackmorton.com/careers/",
+    "evidence_url": "https://freehire.me/api/v1/companies/jack-morton-worldwide?limit=2",
+    "checked_at": "2026-10-24T17:34:41.126037+00:00"
+  }
+}

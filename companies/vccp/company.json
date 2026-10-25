@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vccp",
+  "name": "VCCP",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.vccp.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing",
+      "Agencies",
+      "Global"
+    ]
+  },
+  "public_job_board": {
+    "provider": "freehire",
+    "company_id": "fh_company:vccp-group",
+    "careers_url": "https://www.vccp.com/careers/",
+    "evidence_url": "https://freehire.me/api/v1/companies/vccp-group?limit=2",
+    "checked_at": "2026-10-24T17:34:37.729414+00:00"
+  }
+}
