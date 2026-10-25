@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "huuuge-games",
+  "name": "Huuuge Games",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://huuugegames.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

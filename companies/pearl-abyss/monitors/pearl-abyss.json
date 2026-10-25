@@ -1,0 +1,79 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "pearl-abyss",
+  "company_id": "pearl-abyss",
+  "revision": 1,
+  "label": "Pearl Abyss careers",
+  "careers_url": "https://apply.workable.com/pearlabyss-europe",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-25T03:27:15.307478+00:00",
+    "job_count": 9,
+    "warnings": [
+      "removed 9 duplicate source IDs",
+      "description detail enrichment skipped 4 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs",
+      "Europe office only; official parent careers page links this board."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Pearl Abyss",
+    "careers_url": "https://apply.workable.com/pearlabyss-europe",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "apply.workable.com"
+    ],
+    "request": {
+      "url": "https://apply.workable.com/api/v1/widget/accounts/pearlabyss-europe",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "[data-job-id], .job, .job-listing, li.position, article",
+      "title": "h2, h3, .title, [itemprop=title]",
+      "link": "a[href]",
+      "location": ".location, [itemprop=jobLocation]",
+      "description": ".description, [itemprop=description]",
+      "employment_type": ".employment-type, .job-type, [itemprop=employmentType]",
+      "salary": ".salary, .compensation, [itemprop=baseSalary]"
+    },
+    "mapping": {
+      "items": "jobs",
+      "source_id": "shortcode",
+      "title": "title",
+      "url": "url",
+      "location": "city",
+      "location_country": "country",
+      "location_region": "state",
+      "employment_type": "employment_type",
+      "posted_date": "published_on"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5,
+      "coverage_note": "Europe office only; official parent careers page links this board.",
+      "ownership_source": "https://www.pearlabyss.com/en-US/Company/Careers/Intro"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "xsolla",
+  "name": "Xsolla",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://xsolla.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

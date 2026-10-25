@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "second-dinner",
+  "name": "Second Dinner",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://seconddinner.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

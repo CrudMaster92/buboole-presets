@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "linden-lab",
+  "name": "Linden Lab",
+  "legal_name": null,
+  "aliases": [
+    "Linden lab"
+  ],
+  "website_url": "https://lindenlab.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

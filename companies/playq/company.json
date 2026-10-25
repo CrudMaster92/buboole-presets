@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "playq",
+  "name": "PlayQ",
+  "legal_name": null,
+  "aliases": [
+    "Playq"
+  ],
+  "website_url": "https://playq.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}
