@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mob-entertainment",
+  "name": "Mob Entertainment",
+  "legal_name": null,
+  "aliases": [
+    "Mob entertainment"
+  ],
+  "website_url": "https://mobentertainment.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

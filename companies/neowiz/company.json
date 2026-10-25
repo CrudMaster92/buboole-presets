@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "neowiz",
+  "name": "NEOWIZ",
+  "legal_name": null,
+  "aliases": [
+    "Neowiz"
+  ],
+  "website_url": "https://www.neowiz.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

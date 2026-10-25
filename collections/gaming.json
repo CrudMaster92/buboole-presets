@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 7,
+  "revision": 8,
   "name": "Gaming Industry",
-  "description": "Verified public careers scrapers for 100 gaming companies worldwide, prioritizing major and well-known publishers, platforms, and studios.",
+  "description": "Curated public careers sources for game publishers, platforms, studios and gaming services worldwide. Expanded using a publicly reproduced historical Newzoo ranking and FreeHire leads, with source ownership checks and visible coverage limitations.",
   "tags": [
     "Gaming",
     "Video Games",
@@ -338,6 +338,90 @@
     },
     {
       "company_id": "bkom-studios"
+    },
+    {
+      "company_id": "xsolla",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "spellbrush",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "vrchat",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "sky-mavis",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "mob-entertainment",
+      "note": "FreeHire gaming discovery; official employer ATS link. Official Greenhouse JSON; job descriptions preserved. Optional null department lists are not mapped."
+    },
+    {
+      "company_id": "linden-lab",
+      "note": "FreeHire gaming discovery; official employer ATS link. Official Greenhouse JSON; job descriptions preserved. Optional null department lists are not mapped."
+    },
+    {
+      "company_id": "voldex",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "a-thinking-ape",
+      "note": "FreeHire gaming discovery; official employer ATS link. Official Greenhouse JSON; job descriptions preserved. Optional null department lists are not mapped."
+    },
+    {
+      "company_id": "playq",
+      "note": "FreeHire gaming discovery; official employer ATS link. Official Greenhouse JSON; job descriptions preserved. Optional null department lists are not mapped."
+    },
+    {
+      "company_id": "second-dinner",
+      "note": "FreeHire gaming discovery; official employer ATS link"
+    },
+    {
+      "company_id": "garena",
+      "note": "Newzoo historical ranking and/or FreeHire gaming leads. Official global job-list API; details bounded to five fetches. Includes general-interest listings."
+    },
+    {
+      "company_id": "37games",
+      "note": "Newzoo historical ranking and/or FreeHire gaming leads. Official mobile social-recruitment list, selected operations category; not all group openings."
+    },
+    {
+      "company_id": "pearl-abyss",
+      "note": "Newzoo historical ranking and/or FreeHire gaming leads. Europe office only; official parent careers page links this board."
+    },
+    {
+      "company_id": "ludia",
+      "note": "Newzoo historical ranking and/or FreeHire gaming leads. Dedicated Ludia board; includes internships and general applications."
+    },
+    {
+      "company_id": "virtuos",
+      "note": "Newzoo historical ranking and/or FreeHire gaming leads. First 100 official group requisitions; may include named Virtuos studios. Bounded details."
+    },
+    {
+      "company_id": "scorewarrior",
+      "note": "FreeHire lead; exact official frontend board reference"
+    },
+    {
+      "company_id": "neowiz",
+      "note": "FreeHire lead; exact official frontend board reference"
+    },
+    {
+      "company_id": "discord",
+      "note": "FreeHire lead; exact official frontend board reference. Official Greenhouse JSON; job descriptions preserved. Optional null department lists are not mapped."
+    },
+    {
+      "company_id": "pocket-worlds",
+      "note": "FreeHire gaming lead; official employer frontend reference"
+    },
+    {
+      "company_id": "smoking-gun-interactive",
+      "note": "FreeHire gaming lead; official employer frontend reference. Official embedded Workable account; bounded posting detail enrichment."
+    },
+    {
+      "company_id": "huuuge-games",
+      "note": "FreeHire gaming lead; official employer frontend reference. Official Recruitee public offers API."
     }
   ]
 }
