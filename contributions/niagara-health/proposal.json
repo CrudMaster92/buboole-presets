@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "niagara-health",
+    "name": "Niagara Health",
+    "aliases": [],
+    "website_url": "https://niagarahealth.on.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "niagara-health",
+    "company_id": "niagara-health",
+    "revision": 1,
+    "label": "Niagara Health public careers",
+    "careers_url": "https://careers.niagarahealth.on.ca/erecruit/Search_Results.aspx",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Niagara Health",
+      "careers_url": "https://careers.niagarahealth.on.ca/erecruit/Search_Results.aspx",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.niagarahealth.on.ca"
+      ],
+      "request": {
+        "url": "https://careers.niagarahealth.on.ca/erecruit/Search_Results.aspx",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(a[href*=\"VacancyDetail.aspx?\"])",
+        "title": "a[href*=\"VacancyDetail.aspx?\"]",
+        "link": "a[href*=\"VacancyDetail.aspx?\"]",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.niagarahealth.on.ca/erecruit/Search_Results.aspx",
+    "fetched_at": "2026-10-27T13:07:55.736796Z",
+    "payload": "<html><body><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-xs-12 col-md-9\"><div id=\"content_header\"><div class=\"content\"><div id=\"MainLink\"><div id=\"SearchResults\"><div><table class=\"gridView\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults\"><tr class=\"gridViewRow\">\n<td>\n<div class=\"vacancyList\">\n<div class=\"gridHeader\">\n<div class=\"row\">\n<div class=\"col-sm-7\">\n<span class=\"gridHeader_Left\">\n<a aria-label=\"Click to view the vacancy for: 0000044737 - SENIOR PROJECT MANAGER, TFT                                 \" class=\"SearchResultsHyperlink\" href=\"VacancyDetail.aspx?VacancyUID=000000041744\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_hlnkVacancy\">0000044737 - SENIOR PROJECT MANAGER, TFT                                 </a>\r\n                                     \r\n                                     \r\n                                </span>\n</div>\n\n<div class=\"col-sm-4\">\n<span class=\"gridHeader\">\n<span aria-label=\"Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_hlnkVacancyLocation\" navigateurl=\"~/VacancyDetail.aspx?VacancyUID=000000041744\">Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES</span>\n</span>\n</div>\n<div class=\"col-sm-1\">\n</div>\n</div>\n</div>\n<div class=\"gridDetail\">\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblPublishDate\">Posted Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblFldPublishDate\">2026-10-26</span>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<div id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_pnlFuncDisc\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblFunctionaldiscipline\">Functional Discipline:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblFldFunctionaldiscipline\">CORPORATE                               </span>\n</div>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridRight\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblClosingDate\">Closing Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl02_lblFldClosingDate\">2026-11-08</span>\n</span>\n</div>\n</div>\n</div>\n</div>\n</td>\n</tr></table></div></div></div></div></div></div></div></div><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-xs-12 col-md-9\"><div id=\"content_header\"><div class=\"content\"><div id=\"MainLink\"><div id=\"SearchResults\"><div><table class=\"gridView\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults\"><tr class=\"gridViewAlternatingRow\">\n<td>\n<div class=\"vacancyList\">\n<div class=\"gridHeader\">\n<div class=\"row\">\n<div class=\"col-sm-7\">\n<span class=\"gridHeader_Left\">\n<a aria-label=\"Click to view the vacancy for: 0000044781 - REGISTERED NURSE, RPTB                                      \" class=\"SearchResultsHyperlink\" href=\"VacancyDetail.aspx?VacancyUID=000000041788\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_hlnkVacancy\">0000044781 - REGISTERED NURSE, RPTB                                      </a>\r\n                                     \r\n                                     \r\n                                </span>\n</div>\n\n<div class=\"col-sm-4\">\n<span class=\"gridHeader\">\n<span aria-label=\"Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_hlnkVacancyLocation\" navigateurl=\"~/VacancyDetail.aspx?VacancyUID=000000041788\">Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES</span>\n</span>\n</div>\n<div class=\"col-sm-1\">\n</div>\n</div>\n</div>\n<div class=\"gridDetail\">\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblPublishDate\">Posted Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblFldPublishDate\">2026-10-26</span>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<div id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_pnlFuncDisc\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblFunctionaldiscipline\">Functional Discipline:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblFldFunctionaldiscipline\">NEPHROLOGY                              </span>\n</div>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridRight\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblClosingDate\">Closing Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl03_lblFldClosingDate\">2026-11-01</span>\n</span>\n</div>\n</div>\n</div>\n</div>\n</td>\n</tr></table></div></div></div></div></div></div></div></div><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-xs-12 col-md-9\"><div id=\"content_header\"><div class=\"content\"><div id=\"MainLink\"><div id=\"SearchResults\"><div><table class=\"gridView\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults\"><tr class=\"gridViewRow\">\n<td>\n<div class=\"vacancyList\">\n<div class=\"gridHeader\">\n<div class=\"row\">\n<div class=\"col-sm-7\">\n<span class=\"gridHeader_Left\">\n<a aria-label=\"Click to view the vacancy for: 0000044060 - SR CASE COSTING PERFORMANCE ADVISOR, FT                     \" class=\"SearchResultsHyperlink\" href=\"VacancyDetail.aspx?VacancyUID=000000041084\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_hlnkVacancy\">0000044060 - SR CASE COSTING PERFORMANCE ADVISOR, FT                     </a>\r\n                                     \r\n                                     \r\n                                </span>\n</div>\n\n<div class=\"col-sm-4\">\n<span class=\"gridHeader\">\n<span aria-label=\"Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES\" id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_hlnkVacancyLocation\" navigateurl=\"~/VacancyDetail.aspx?VacancyUID=000000041084\">Job Location: MAROTTA FAMILY HOSPITAL, ST. CATHARINES</span>\n</span>\n</div>\n<div class=\"col-sm-1\">\n</div>\n</div>\n</div>\n<div class=\"gridDetail\">\n<div class=\"row\">\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblPublishDate\">Posted Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblFldPublishDate\">2026-10-23</span>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridLeft\">\n<div id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_pnlFuncDisc\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblFunctionaldiscipline\">Functional Discipline:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblFldFunctionaldiscipline\">FINANCE                                 </span>\n</div>\n</span>\n</div>\n<div class=\"col-sm-4\">\n<span class=\"gridRight\">\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblClosingDate\">Closing Date:</span>\n<span id=\"ctl00_cphContent_ucGrdVacancy_Results_gvwSearchResults_ctl04_lblFldClosingDate\">2026-11-08</span>\n</span>\n</div>\n</div>\n</div>\n</div>\n</td>\n</tr></table></div></div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://niagarahealth.on.ca/",
+    "explanation": "Official employer website https://niagarahealth.on.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041744",
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041788",
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041084"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "transport-bourassa",
+  "company_id": "transport-bourassa",
+  "revision": 1,
+  "label": "Transport Bourassa public careers",
+  "careers_url": "https://bourassa.ca/carriere",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Transport Bourassa",
+    "careers_url": "https://bourassa.ca/carriere",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "bourassa.ca"
+    ],
+    "request": {
+      "url": "https://bourassa.ca/carriere/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".row-single-job",
+      "title": "a.single-job-link",
+      "link": "a.single-job-link",
+      "location": ".col-ville h4"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8,
+      "location_suffix": "Québec, Canada"
+    }
+  }
+}

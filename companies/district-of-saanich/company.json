@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "district-of-saanich",
+  "name": "District of Saanich",
+  "aliases": [],
+  "website_url": "https://saanich.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

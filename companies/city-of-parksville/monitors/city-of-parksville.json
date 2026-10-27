@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "city-of-parksville",
+  "company_id": "city-of-parksville",
+  "revision": 1,
+  "label": "City of Parksville public careers",
+  "careers_url": "https://www.parksville.ca/cms.asp?wpID=94",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "City of Parksville",
+    "careers_url": "https://www.parksville.ca/cms.asp?wpID=94",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.parksville.ca"
+    ],
+    "request": {
+      "url": "https://www.parksville.ca/cms.asp?wpID=94",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "#rt_txt:has(a[href*=\"wpID94atID\"])",
+      "title": ":scope > b:nth-of-type(2)",
+      "link": "a[href*=\"wpID94atID\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "coverage_note": "Employer page currently advertises one position; PDF posting and job description links are preserved."
+    }
+  }
+}

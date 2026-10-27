@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "royal-ottawa-health-care-group",
+    "name": "Royal Ottawa Health Care Group",
+    "aliases": [],
+    "website_url": "https://theroyal.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "royal-ottawa-health-care-group",
+    "company_id": "royal-ottawa-health-care-group",
+    "revision": 1,
+    "label": "Royal Ottawa Health Care Group public careers",
+    "careers_url": "https://jobs.jobvite.com/theroyal/jobs?nl=1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Royal Ottawa Health Care Group",
+      "careers_url": "https://jobs.jobvite.com/theroyal/jobs?nl=1",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "jobs.jobvite.com"
+      ],
+      "request": {
+        "url": "https://jobs.jobvite.com/theroyal/jobs?nl=1",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(.jv-job-list-name)",
+        "title": ".jv-job-list-name a",
+        "link": ".jv-job-list-name a",
+        "location": ".jv-job-list-location"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://jobs.jobvite.com/theroyal/jobs?nl=1",
+    "fetched_at": "2026-10-27T13:07:58.040758Z",
+    "payload": "<html><body><div class=\"jv-page-container\"><div class=\"jv-page\"><div class=\"jv-page-content\"><article class=\"jv-page-body\"><div class=\"jv-wrapper\"><table class=\"jv-job-list\"><tbody><tr>\n<td class=\"jv-job-list-name\">\n<a href=\"/theroyal/job/otuUAfwb\">Administrative Assistant, Patient Care Leaders (RFT 1.0 FTE)</a>\n</td>\n<td>Secure Treatment Unit - BMHC</td>\n<td>BMHC26-120E</td>\n<td class=\"jv-job-list-location\">\n\n        \n            Brockville,\n            Ontario\n        \n            </td>\n</tr></tbody></table></div></article></div></div></div><div class=\"jv-page-container\"><div class=\"jv-page\"><div class=\"jv-page-content\"><article class=\"jv-page-body\"><div class=\"jv-wrapper\"><table class=\"jv-job-list\"><tbody><tr>\n<td class=\"jv-job-list-name\">\n<a href=\"/theroyal/job/obqRAfwM\">Clinical Team Secretary</a>\n</td>\n<td>Geriatric Psychiatry - BMHC</td>\n<td>BMHC26-119E</td>\n<td class=\"jv-job-list-location\">\n\n        \n            Brockville,\n            Ontario\n        \n            </td>\n</tr></tbody></table></div></article></div></div></div><div class=\"jv-page-container\"><div class=\"jv-page\"><div class=\"jv-page-content\"><article class=\"jv-page-body\"><div class=\"jv-wrapper\"><table class=\"jv-job-list\"><tbody><tr>\n<td class=\"jv-job-list-name\">\n<a href=\"/theroyal/job/oowZAfwd\">Executive Assistant II (RFT 1.0 FTE)</a>\n</td>\n<td>Administration</td>\n<td>ROM26-328E</td>\n<td class=\"jv-job-list-location\">\n\n        \n            Ottawa,\n            Ontario\n        \n            </td>\n</tr></tbody></table></div></article></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://theroyal.ca/",
+    "explanation": "Official employer website https://theroyal.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.jobvite.com/theroyal/job/otuUAfwb",
+      "https://jobs.jobvite.com/theroyal/job/obqRAfwM",
+      "https://jobs.jobvite.com/theroyal/job/oowZAfwd"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-maple-ridge",
+    "name": "City of Maple Ridge",
+    "aliases": [],
+    "website_url": "https://mapleridge.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-maple-ridge",
+    "company_id": "city-of-maple-ridge",
+    "revision": 1,
+    "label": "City of Maple Ridge public careers",
+    "careers_url": "https://mapleridge.hiringplatform.ca/list/external",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "City of Maple Ridge",
+      "careers_url": "https://mapleridge.hiringplatform.ca/list/external",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "mapleridge.hiringplatform.ca"
+      ],
+      "request": {
+        "url": "https://mapleridge.hiringplatform.ca/list/external",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".vidcruiter-job-item",
+        "title": ".vidcruiter-job-item-title a",
+        "link": "a.vidcruiter-btn",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://mapleridge.hiringplatform.ca/list/external",
+    "fetched_at": "2026-10-27T13:07:56.556276Z",
+    "payload": "<html><body><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item vidcruiter-job-item-first\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/b309d45b-4739-4c00-92ec-62b1949fe6c1?locale=en&amp;source=vidcruiter_careers\">26-165 Database Administrator 1</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\">Temporary Full-Time (CUPE) - Closing November 8, 2026</p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-255057\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://mapleridge.hiringplatform.ca/255057-26-165-database-administrator-1/1157744/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/c7d1e1b8-d16b-4638-9d54-36af37db41bd?locale=en&amp;source=vidcruiter_careers\">26-171 Deputy Director of Finance (RFT)</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\">Regular Full-Time (EXEMPT) Open until filled</p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-254858\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://mapleridge.hiringplatform.ca/254858-26-171-deputy-director-of-finance-rft/1156665/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/8e05d1e6-a920-4fe6-bfd9-fad02414b1fa?locale=en&amp;source=vidcruiter_careers\">26-173 Fitness Trainer</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\">Auxiliary (CUPE) - Closing November 15, 2026</p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-254464\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://mapleridge.hiringplatform.ca/254464-26-173-fitness-trainer/1154794/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://mapleridge.ca/",
+    "explanation": "Official employer website https://mapleridge.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://mapleridge.hiringplatform.ca/255057-26-165-database-administrator-1/1157744/en?source=vidcruiter_careers",
+      "https://mapleridge.hiringplatform.ca/254858-26-171-deputy-director-of-finance-rft/1156665/en?source=vidcruiter_careers",
+      "https://mapleridge.hiringplatform.ca/254464-26-173-fitness-trainer/1154794/en?source=vidcruiter_careers"
+    ]
+  }
+}

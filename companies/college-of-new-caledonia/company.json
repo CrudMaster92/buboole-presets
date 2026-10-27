@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "college-of-new-caledonia",
+  "name": "College of New Caledonia",
+  "aliases": [],
+  "website_url": "https://cnc.bc.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "education"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

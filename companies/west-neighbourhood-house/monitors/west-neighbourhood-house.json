@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "west-neighbourhood-house",
+  "company_id": "west-neighbourhood-house",
+  "revision": 1,
+  "label": "West Neighbourhood House public careers",
+  "careers_url": "https://www.westnh.org/jobopportunities",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "West Neighbourhood House",
+    "careers_url": "https://www.westnh.org/jobopportunities",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.westnh.org"
+    ],
+    "request": {
+      "url": "https://www.westnh.org/jobopportunities/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".pe-article-content a[href*=\"/jobopportunities/\"]:not([href$=\"/jobopportunities/\"])",
+      "title": ":scope",
+      "link": ":scope"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

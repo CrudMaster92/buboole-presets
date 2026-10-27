@@ -1,0 +1,102 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "westburne",
+    "name": "Westburne",
+    "aliases": [],
+    "website_url": "https://westburne.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "distribution"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "westburne",
+    "company_id": "westburne",
+    "revision": 1,
+    "label": "Westburne public careers",
+    "careers_url": "https://rexel.ca/westburne-view-jobs-en",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Westburne",
+      "careers_url": "https://rexel.ca/westburne-view-jobs-en",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "rexel.ca",
+        "www.fitzii.com"
+      ],
+      "request": {
+        "url": "https://rexel.ca/westburne-view-jobs-en/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(a[href*=\"fitzii.com/apply/\"])",
+        "title": "td[data-label=\"Position\"]",
+        "link": "a[href*=\"fitzii.com/apply/\"]",
+        "location": "td[data-label=\"City\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://rexel.ca/westburne-view-jobs-en/",
+    "fetched_at": "2026-10-27T13:07:06.718481Z",
+    "payload": "<html><body><div class=\"elementor elementor-1741\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ab1c96d elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8b383e1\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-d3740de elementor-widget elementor-widget-shortcode\"><div class=\"elementor-widget-container\"><div class=\"elementor-shortcode\"><div class=\"gv-template-table\" id=\"gv-view-1909-2\"><div class=\"gv-table-view gv-table-container gv-table-multiple-container gv-container gv-container-1909\"><table class=\"gv-table-view\"><tbody><tr class=\"alt\" data-row=\"0\">\n<td class=\"gv-field-3-1\" data-label=\"Position\" id=\"gv-field-3-1\">Account Manager</td><td class=\"gv-field-3-2\" data-label=\"City\" id=\"gv-field-3-2\">Brockville</td><td class=\"gv-field-3-18\" data-label=\"Division\" id=\"gv-field-3-18\">Westburne Ontario</td><td class=\"gv-field-3-10\" data-label=\"Status\" id=\"gv-field-3-10\">Full Time</td><td class=\"gv-field-3-9\" data-label=\"Type\" id=\"gv-field-3-9\">Permanent</td><td class=\"gv-field-3-6\" data-label=\"Expiry Date\" id=\"gv-field-3-6\">11/30/2026</td><td class=\"gv-field-3-12\" data-label=\"Career Link\" id=\"gv-field-3-12\"><a href=\"https://www.fitzii.com/apply/100786\" rel=\"noopener noreferrer\" target=\"_blank\">Apply here</a></td> </tr></tbody></table></div></div></div></div></div></div></div></div></section></div><div class=\"elementor elementor-1741\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ab1c96d elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8b383e1\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-d3740de elementor-widget elementor-widget-shortcode\"><div class=\"elementor-widget-container\"><div class=\"elementor-shortcode\"><div class=\"gv-template-table\" id=\"gv-view-1909-2\"><div class=\"gv-table-view gv-table-container gv-table-multiple-container gv-container gv-container-1909\"><table class=\"gv-table-view\"><tbody><tr class=\"\" data-row=\"0\">\n<td class=\"gv-field-3-1\" data-label=\"Position\" id=\"gv-field-3-1\">Account Manager</td><td class=\"gv-field-3-2\" data-label=\"City\" id=\"gv-field-3-2\">Tri City (Kitchener, Waterloo, and Cambridge)</td><td class=\"gv-field-3-18\" data-label=\"Division\" id=\"gv-field-3-18\">Westburne Ontario</td><td class=\"gv-field-3-10\" data-label=\"Status\" id=\"gv-field-3-10\">Full Time</td><td class=\"gv-field-3-9\" data-label=\"Type\" id=\"gv-field-3-9\">Permanent</td><td class=\"gv-field-3-6\" data-label=\"Expiry Date\" id=\"gv-field-3-6\">11/30/2026</td><td class=\"gv-field-3-12\" data-label=\"Career Link\" id=\"gv-field-3-12\"><a href=\"https://www.fitzii.com/apply/100815\" rel=\"noopener noreferrer\" target=\"_blank\">Apply here</a></td> </tr></tbody></table></div></div></div></div></div></div></div></div></section></div><div class=\"elementor elementor-1741\"><section class=\"elementor-section elementor-top-section elementor-element elementor-element-ab1c96d elementor-section-boxed elementor-section-height-default elementor-section-height-default\"><div class=\"elementor-container elementor-column-gap-default\"><div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8b383e1\"><div class=\"elementor-widget-wrap elementor-element-populated\"><div class=\"elementor-element elementor-element-d3740de elementor-widget elementor-widget-shortcode\"><div class=\"elementor-widget-container\"><div class=\"elementor-shortcode\"><div class=\"gv-template-table\" id=\"gv-view-1909-2\"><div class=\"gv-table-view gv-table-container gv-table-multiple-container gv-container gv-container-1909\"><table class=\"gv-table-view\"><tbody><tr class=\"alt\" data-row=\"0\">\n<td class=\"gv-field-3-1\" data-label=\"Position\" id=\"gv-field-3-1\">Account Manager</td><td class=\"gv-field-3-2\" data-label=\"City\" id=\"gv-field-3-2\">London</td><td class=\"gv-field-3-18\" data-label=\"Division\" id=\"gv-field-3-18\">Westburne Ontario</td><td class=\"gv-field-3-10\" data-label=\"Status\" id=\"gv-field-3-10\">Full Time</td><td class=\"gv-field-3-9\" data-label=\"Type\" id=\"gv-field-3-9\">Permanent</td><td class=\"gv-field-3-6\" data-label=\"Expiry Date\" id=\"gv-field-3-6\">11/30/2026</td><td class=\"gv-field-3-12\" data-label=\"Career Link\" id=\"gv-field-3-12\"><a href=\"https://www.fitzii.com/apply/100816\" rel=\"noopener noreferrer\" target=\"_blank\">Apply here</a></td> </tr></tbody></table></div></div></div></div></div></div></div></div></section></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://westburne.ca/",
+    "explanation": "Official employer website https://westburne.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.fitzii.com/apply/100786",
+      "https://www.fitzii.com/apply/100815",
+      "https://www.fitzii.com/apply/100816"
+    ]
+  }
+}

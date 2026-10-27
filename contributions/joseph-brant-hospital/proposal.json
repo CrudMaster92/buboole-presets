@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "joseph-brant-hospital",
+    "name": "Joseph Brant Hospital",
+    "aliases": [],
+    "website_url": "https://josephbranthospital.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "joseph-brant-hospital",
+    "company_id": "joseph-brant-hospital",
+    "revision": 1,
+    "label": "Joseph Brant Hospital public careers",
+    "careers_url": "https://josephbranthospital.hiringplatform.ca/list/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Joseph Brant Hospital",
+      "careers_url": "https://josephbranthospital.hiringplatform.ca/list/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "josephbranthospital.hiringplatform.ca"
+      ],
+      "request": {
+        "url": "https://josephbranthospital.hiringplatform.ca/list/careers",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".vidcruiter-job-item",
+        "title": ".vidcruiter-job-item-title a",
+        "link": "a.vidcruiter-btn",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://josephbranthospital.hiringplatform.ca/list/careers",
+    "fetched_at": "2026-10-27T13:07:56.735543Z",
+    "payload": "<html><body><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item vidcruiter-job-item-first\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/4a69244c-14da-4bb8-aae9-3421562d9f60?locale=en&amp;source=vidcruiter_careers\">Clerk III - Emergency - RFT-E (0.5 FTE) (255148-67)</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-255148\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://josephbranthospital.hiringplatform.ca/255148-clerk-iii-emergency-rft-e-0-5-fte-255148-67/1158223/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/64ca716f-7a43-447c-a331-79d2d1401f2c?locale=en&amp;source=vidcruiter_careers\">Occupational Therapist - Allied Health - TFT (255052-67)</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-255052\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://josephbranthospital.hiringplatform.ca/255052-occupational-therapist-allied-health-tft-255052-67/1157714/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/2d6b86ea-69d1-40a0-b3d3-f97d0252c2f5?locale=en&amp;source=vidcruiter_careers\">Registered Nurse - Acute Medicine 7S - RFT (255035-67)</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-255035\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://josephbranthospital.hiringplatform.ca/255035-registered-nurse-acute-medicine-7s-rft-255035-67/1157615/en?source=vidcruiter_careers\">Apply</a>\n</div>\n</div>\n</div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://josephbranthospital.ca/",
+    "explanation": "Official employer website https://josephbranthospital.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://josephbranthospital.hiringplatform.ca/255148-clerk-iii-emergency-rft-e-0-5-fte-255148-67/1158223/en?source=vidcruiter_careers",
+      "https://josephbranthospital.hiringplatform.ca/255052-occupational-therapist-allied-health-tft-255052-67/1157714/en?source=vidcruiter_careers",
+      "https://josephbranthospital.hiringplatform.ca/255035-registered-nurse-acute-medicine-7s-rft-255035-67/1157615/en?source=vidcruiter_careers"
+    ]
+  }
+}

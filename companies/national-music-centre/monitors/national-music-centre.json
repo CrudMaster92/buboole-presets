@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "national-music-centre",
+  "company_id": "national-music-centre",
+  "revision": 1,
+  "label": "National Music Centre public careers",
+  "careers_url": "https://www.studiobell.ca/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "National Music Centre",
+    "careers_url": "https://www.studiobell.ca/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.studiobell.ca"
+    ],
+    "request": {
+      "url": "https://www.studiobell.ca/careers",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".colourBlock:has(h2:-soup-contains(\"Current Openings\")) p a",
+      "title": ":scope",
+      "link": ":scope"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

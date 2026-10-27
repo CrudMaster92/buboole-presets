@@ -1,0 +1,26 @@
+{
+  "git_commit": null,
+  "source_note": "Canonical authored app directory has no Git metadata; exact executed runtime files are fingerprinted below.",
+  "files": {
+    "server/contributions/contracts.py": "07dbc3f436873e14702778544f005dc8e79cb42c8e5cf40615dc7b245847d81c",
+    "server/contributions/validation.py": "c7c9096d25c66c772a568e591d2ad7e0fec59997ccb3f4384ed58d8d27c4343e",
+    "server/public_jobs/collector.py": "51a6781cadfb73c88780be244072fb11f14eec3cd14e9fc53fc48ff4f102e5db",
+    "server/scrapers/__init__.py": "cfa59be2dfd78150c61601b788beb9a8ba92cb0bd4595b9a67b08750e7afeb5e",
+    "server/scrapers/adapters.py": "1d2df707e930a05adf695b217e0915998794a66b2c62f2b47ad91b90bb785026",
+    "server/scrapers/ai_contract.py": "e5b7967021df4c53e603ae54575c4c4685b85fab915d39c27a4b26ce4946e8d7",
+    "server/scrapers/detail_cache.py": "2baa5d2a3122f8e8a6bd3bb27fd66c1d35f34b94360657a1dff4698c959a2be2",
+    "server/scrapers/detail_extraction.py": "55cff807d29a7eddc7863957e6fbc78663a877757f4056a5a260b8b6bc7d516b",
+    "server/scrapers/detection.py": "de47b82f7d0f2c645fe3517c911236b6735ed4dc34c2f0e46e86d090b90bd615",
+    "server/scrapers/facade.py": "74bb4987c252425a82f8cf83d44d917324df646827af40dcfdf6ae21baa5afc9",
+    "server/scrapers/http.py": "edfe6cf58dd8b2cb64c60856f382f21811835903638e71bf6d1915e9493ce977",
+    "server/scrapers/missing_postings.py": "11c27ea9581c91a06e239d17ed184b447da26e5b4f292beff7e6afd0a7b3261f",
+    "server/scrapers/models.py": "41a559114125ef175cc1beae09dec19d6fc70625ed9eed0fd446f31a999a2760",
+    "server/scrapers/normalize.py": "1ae47379d0bae1504f1a48b065d0dc0316e7206165d21be0d4ed6d3e9740cf1e",
+    "server/scrapers/posting_urls.py": "0cd7b49fadb01409c06095e0fccdf07efb52b39eb13a19e48fd30008d30d36b1",
+    "server/scrapers/progress.py": "d86fc14ad0a343c18ca703f306aeacb48de1ff22c3496f7730124e074315afc0",
+    "server/scrapers/runtime.py": "7d6fd20be26989978d387a9b8d29045106dbb02b5fa9c79789b63a07bfa1e840",
+    "server/scrapers/traversal.py": "2be0213bec38f466415ba7d12a2fd320493ceff6f38e3499387c777eecc09c3a",
+    "server/scrapers/workday_inventory.py": "7e22d7e7f22a823475134fbc14a9384ecad161099713b59bc34bdb4fd56c0f4a"
+  },
+  "files_digest": "844ce9f4e1bbc22cbb2358c40336bee01d71b3587586554601ee458989678863"
+}

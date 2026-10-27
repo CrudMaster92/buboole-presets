@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "national-music-centre",
+  "name": "National Music Centre",
+  "aliases": [],
+  "website_url": "https://studiobell.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "arts-culture"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

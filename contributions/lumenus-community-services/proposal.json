@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "lumenus-community-services",
+    "name": "Lumenus Community Services",
+    "aliases": [],
+    "website_url": "https://lumenus.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "nonprofit"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "lumenus-community-services",
+    "company_id": "lumenus-community-services",
+    "revision": 1,
+    "label": "Lumenus Community Services public careers",
+    "careers_url": "https://lumenus.hiringplatform.ca/list/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Lumenus Community Services",
+      "careers_url": "https://lumenus.hiringplatform.ca/list/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "lumenus.hiringplatform.ca"
+      ],
+      "request": {
+        "url": "https://lumenus.hiringplatform.ca/list/careers",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".vidcruiter-job-item",
+        "title": ".vidcruiter-job-item-title a",
+        "link": "a.vidcruiter-btn",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://lumenus.hiringplatform.ca/list/careers",
+    "fetched_at": "2026-10-27T13:07:56.655259Z",
+    "payload": "<html><body><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item vidcruiter-job-item-first\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/17cd327c-6428-42ca-aa67-4857afa26164?locale=en\">Health and Safety Specialist</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-255001\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://lumenus.hiringplatform.ca/255001-health-and-safety-specialist/1157368/en\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/2325668f-b7f6-465b-8ba7-576f77bc9c1c?locale=en\">Psychotherapist (WSIB Mental Health Program of Care (MHPOC)</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-254237\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://lumenus.hiringplatform.ca/254237-psychotherapist-wsib-mental-health-program-of-care-mhpoc/1153449/en\">Apply</a>\n</div>\n</div>\n</div></div></div></div><div id=\"content-container\"><div id=\"content\"><div class=\"clearfix shadow vidcruiter-form vidcruiter-job-board\"><div class=\"clearfix vidcruiter-job-item\">\n<div class=\"left\">\n<div class=\"vidcruiter-job-item-title\">\n<a href=\"/processes/a734c059-2cea-44b8-b56f-30aff7ce5f61?locale=en\">Behaviour Technician</a>\n</div>\n<p class=\"vidcruiter-job-item-description-title\"></p>\n<p class=\"vidcruiter-job-item-description-text vidcruiter-job-item-description-text-preview-245567\">\n</p>\n<div class=\"hide\">\n<a class=\"btn vidcruiter-btn\" href=\"https://lumenus.hiringplatform.ca/245567-behaviour-technician/1116447/en\">Apply</a>\n</div>\n</div>\n</div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://lumenus.ca/",
+    "explanation": "Official employer website https://lumenus.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://lumenus.hiringplatform.ca/255001-health-and-safety-specialist/1157368/en",
+      "https://lumenus.hiringplatform.ca/254237-psychotherapist-wsib-mental-health-program-of-care-mhpoc/1153449/en",
+      "https://lumenus.hiringplatform.ca/245567-behaviour-technician/1116447/en"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "genome-quebec",
+  "name": "Genome Quebec",
+  "aliases": [],
+  "website_url": "https://genomequebec.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "nonprofit"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

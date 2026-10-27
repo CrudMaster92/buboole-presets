@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "westburne",
+  "company_id": "westburne",
+  "revision": 1,
+  "label": "Westburne public careers",
+  "careers_url": "https://rexel.ca/westburne-view-jobs-en",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Westburne",
+    "careers_url": "https://rexel.ca/westburne-view-jobs-en",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "rexel.ca",
+      "www.fitzii.com"
+    ],
+    "request": {
+      "url": "https://rexel.ca/westburne-view-jobs-en/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href*=\"fitzii.com/apply/\"])",
+      "title": "td[data-label=\"Position\"]",
+      "link": "a[href*=\"fitzii.com/apply/\"]",
+      "location": "td[data-label=\"City\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

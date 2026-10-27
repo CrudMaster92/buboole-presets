@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "central-toronto-youth-services",
+  "company_id": "central-toronto-youth-services",
+  "revision": 1,
+  "label": "Central Toronto Youth Services public careers",
+  "careers_url": "https://ctys.org/about-us/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Central Toronto Youth Services",
+    "careers_url": "https://ctys.org/about-us/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "ctys.org"
+    ],
+    "request": {
+      "url": "https://ctys.org/about-us/careers/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "body:has(article.entry-content h2.wp-block-heading + p.has-text-align-center)",
+      "title": "article.entry-content h2.wp-block-heading + p.has-text-align-center",
+      "link": "a[href=\"https://ctys.org/about-us/careers/\"]",
+      "description": ".entry-content .wp-block-kadence-column"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "coverage_note": "Single current CTYS Youth Justice Mental Health ACCESS advert, a collaboration with WoodGreen. The employer careers page is the original posting URL; this is not a general partner-employer feed."
+    }
+  }
+}

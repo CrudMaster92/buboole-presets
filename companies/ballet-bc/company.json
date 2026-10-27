@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ballet-bc",
+  "name": "Ballet BC",
+  "aliases": [],
+  "website_url": "https://balletbc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "arts-culture"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

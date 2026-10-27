@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "city-of-chilliwack",
+  "company_id": "city-of-chilliwack",
+  "revision": 1,
+  "label": "City of Chilliwack public careers",
+  "careers_url": "https://jobs.chilliwack.com/postings",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "City of Chilliwack",
+    "careers_url": "https://jobs.chilliwack.com/postings",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.chilliwack.com"
+    ],
+    "request": {
+      "url": "https://jobs.chilliwack.com/postings/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href*=\"jobsAction=view\"]):has(td:-soup-contains(\"Closing in\"))",
+      "title": "td:nth-of-type(2)",
+      "link": "a[href*=\"jobsAction=view\"]",
+      "description": "td:nth-of-type(4)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

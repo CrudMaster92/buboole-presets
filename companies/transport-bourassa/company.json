@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "transport-bourassa",
+  "name": "Transport Bourassa",
+  "aliases": [],
+  "website_url": "https://bourassa.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "transportation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

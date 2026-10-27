@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "west-neighbourhood-house",
+  "name": "West Neighbourhood House",
+  "aliases": [],
+  "website_url": "https://westnh.org/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "nonprofit"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

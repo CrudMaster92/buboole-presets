@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "royal-ottawa-health-care-group",
+  "name": "Royal Ottawa Health Care Group",
+  "aliases": [],
+  "website_url": "https://theroyal.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "status": "prepared_not_published",
+  "catalog_repository": "CrudMaster92/buboole-presets",
+  "feed_repository": "CrudMaster92/buboole-jobs",
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "collection_id": "canadian-employers-new-30-20261027",
+  "sources": [
+    {
+      "id": "cambridge-memorial-hospital",
+      "company_id": "cambridge-memorial-hospital",
+      "revision": 1,
+      "path": "companies/cambridge-memorial-hospital/monitors/cambridge-memorial-hospital.json",
+      "authored_monitor_file_sha256": "aeee7aabc90f31a9a78dc48d5e087140ea48c34fd42f6879603800dee41436e4",
+      "recipe_sha256": "60934b5be389f820c5d78980f14c9f29aa0c3bd03a3675aa7fa768f04412c571"
+    },
+    {
+      "id": "apotex",
+      "company_id": "apotex",
+      "revision": 1,
+      "path": "companies/apotex/monitors/apotex.json",
+      "authored_monitor_file_sha256": "1006bb974612afb49038814fdf86b23d808f96958ed8a206dc28e584f25c6eb6",
+      "recipe_sha256": "e81c29994c763392de91d5734d888c11753621ac4f2981dbcd734f970323dc1e"
+    },
+    {
+      "id": "region-of-waterloo",
+      "company_id": "region-of-waterloo",
+      "revision": 1,
+      "path": "companies/region-of-waterloo/monitors/region-of-waterloo.json",
+      "authored_monitor_file_sha256": "56a86f2c759f082bd005517695e385c9984a0b8f1c79b285489278ea4aa73ff0",
+      "recipe_sha256": "c0d1dcbcf24b3529e3e1e3324dd7755ab07703ae7e97cc66d227893885cc1e3e"
+    },
+    {
+      "id": "westburne",
+      "company_id": "westburne",
+      "revision": 1,
+      "path": "companies/westburne/monitors/westburne.json",
+      "authored_monitor_file_sha256": "5288cf81445b56777c5e69c062e0d2739884372f3a53c731151bd663c660ed04",
+      "recipe_sha256": "6276b0caae5309ae47a6de57ffa184c0327999f00074961ef9511df6249ffd12"
+    },
+    {
+      "id": "niagara-health",
+      "company_id": "niagara-health",
+      "revision": 1,
+      "path": "companies/niagara-health/monitors/niagara-health.json",
+      "authored_monitor_file_sha256": "0c3ebb365e185366789db93baa18aeddb3248ad1b71ec663c7d9399a6ab5fa1f",
+      "recipe_sha256": "03e960f08d47234eb2182b03e1aa453859f4aa30a5795724bf33fd7950eac43a"
+    },
+    {
+      "id": "lakeridge-health",
+      "company_id": "lakeridge-health",
+      "revision": 1,
+      "path": "companies/lakeridge-health/monitors/lakeridge-health.json",
+      "authored_monitor_file_sha256": "92aa64bcca7d95087ef5c4d06c1ce29ab2bc2fe007b40af8cb05c5496f22e675",
+      "recipe_sha256": "d2ecf7114dca6345aaa76987121ed50b2faed986279d1918fcb74e517a7468fa"
+    },
+    {
+      "id": "city-of-langley",
+      "company_id": "city-of-langley",
+      "revision": 1,
+      "path": "companies/city-of-langley/monitors/city-of-langley.json",
+      "authored_monitor_file_sha256": "0ec4fb831ae0af2775d706a12d1bab0539351f037b668995ab8361bfb5e1e939",
+      "recipe_sha256": "5fe974a38bc7e410426bbec427b2e9195018cee7f55f04f4fa2dc10c49b68f16"
+    },
+    {
+      "id": "genome-quebec",
+      "company_id": "genome-quebec",
+      "revision": 1,
+      "path": "companies/genome-quebec/monitors/genome-quebec.json",
+      "authored_monitor_file_sha256": "318dd7bb25958a960cd41224fe1adb6b7885036417b9b8e383f75015d168272e",
+      "recipe_sha256": "42a5730718d793cd08f1b4cfda2d915728f0ae737d2b3c935fe3da15312e0598"
+    },
+    {
+      "id": "west-neighbourhood-house",
+      "company_id": "west-neighbourhood-house",
+      "revision": 1,
+      "path": "companies/west-neighbourhood-house/monitors/west-neighbourhood-house.json",
+      "authored_monitor_file_sha256": "b31c424cbecb7ed9070145e3777024d0b732db6705e5dadff4e7490865536d4d",
+      "recipe_sha256": "8a362fe4b10738c6a2c00d409a5f235a8154421efbf722bf0c7c264d5d1bbb6a"
+    },
+    {
+      "id": "ocean-choice-international",
+      "company_id": "ocean-choice-international",
+      "revision": 1,
+      "path": "companies/ocean-choice-international/monitors/ocean-choice-international.json",
+      "authored_monitor_file_sha256": "69c50f7c7527b4e74914b74637062c8611e718be9ba82625cda145da1e5508c2",
+      "recipe_sha256": "4284ae6f204af46468057afa8c3b2674b48077eaa0aadc103fa811780aa14710"
+    },
+    {
+      "id": "ballet-bc",
+      "company_id": "ballet-bc",
+      "revision": 1,
+      "path": "companies/ballet-bc/monitors/ballet-bc.json",
+      "authored_monitor_file_sha256": "5053b3a7d973b041e0b0439119ed593e21506c1b7f7ebc52abba618e66fb119e",
+      "recipe_sha256": "fa43c254d466766a83a14bc282b5a023e9cab73b2da70b7df050b679d1fed838"
+    },
+    {
+      "id": "contemporary-calgary",
+      "company_id": "contemporary-calgary",
+      "revision": 1,
+      "path": "companies/contemporary-calgary/monitors/contemporary-calgary.json",
+      "authored_monitor_file_sha256": "783a26143f50e15be84824ee5dd665b32b7f453ecc676e2d052a2f878704def7",
+      "recipe_sha256": "7b1dffe14c9ab09185f7f0dcae65a7681c8e3d7fd9da57dd4ca1d7f9c782f395"
+    },
+    {
+      "id": "soulpepper-theatre",
+      "company_id": "soulpepper-theatre",
+      "revision": 1,
+      "path": "companies/soulpepper-theatre/monitors/soulpepper-theatre.json",
+      "authored_monitor_file_sha256": "d78c75acce65b0952c6cc3e9051315143522040fe5769c43763cfac4f64a2326",
+      "recipe_sha256": "a4e0a5a259551305fd5813c3a92145e6276d5c7e3a13156bb47f2ecfc94ec5e9"
+    },
+    {
+      "id": "flemingdon-health-centre",
+      "company_id": "flemingdon-health-centre",
+      "revision": 1,
+      "path": "companies/flemingdon-health-centre/monitors/flemingdon-health-centre.json",
+      "authored_monitor_file_sha256": "db50ac0004bb84d1ff043b72db7f591f5fab94b71ad258042de946ff292bdabe",
+      "recipe_sha256": "e2fc405b75847db40a614a3148e4e843cfeca2b8227b639ad94dabd0f0179cfa"
+    },
+    {
+      "id": "city-of-maple-ridge",
+      "company_id": "city-of-maple-ridge",
+      "revision": 1,
+      "path": "companies/city-of-maple-ridge/monitors/city-of-maple-ridge.json",
+      "authored_monitor_file_sha256": "40ddb4db2ea3590e0b30f25f87fba8e4108e755c91da1112079355f172f9cd83",
+      "recipe_sha256": "c430ee58a39633869198a1bfe065637fb100a8b648d9d862f8aad5dc791b4606"
+    },
+    {
+      "id": "joseph-brant-hospital",
+      "company_id": "joseph-brant-hospital",
+      "revision": 1,
+      "path": "companies/joseph-brant-hospital/monitors/joseph-brant-hospital.json",
+      "authored_monitor_file_sha256": "70cd5efd0e1b88af87d2a159930ecb3b7c4a2e4491c2a802ec0c7a7d3fc30c34",
+      "recipe_sha256": "2c3bc331bf4e7cee47943cddf1ee090e3a59361ea55ca10200e989a7a884da1a"
+    },
+    {
+      "id": "lumenus-community-services",
+      "company_id": "lumenus-community-services",
+      "revision": 1,
+      "path": "companies/lumenus-community-services/monitors/lumenus-community-services.json",
+      "authored_monitor_file_sha256": "5a9dba8390e36403a8ba47fb2457601328d1bb22ca027d8977a476e0832b425a",
+      "recipe_sha256": "e9cc9555728f56f821145eec33299b378bf8eade9c6a5177ccfcedeb57193436"
+    },
+    {
+      "id": "city-of-north-vancouver",
+      "company_id": "city-of-north-vancouver",
+      "revision": 1,
+      "path": "companies/city-of-north-vancouver/monitors/city-of-north-vancouver.json",
+      "authored_monitor_file_sha256": "88991b61d022c3361d35a94338533baccf03b006248e684aa0772f8c249f97d6",
+      "recipe_sha256": "01a7984aec74784084a30f2373d2244a03f804d16b9ab193263102c7d76497cf"
+    },
+    {
+      "id": "college-of-new-caledonia",
+      "company_id": "college-of-new-caledonia",
+      "revision": 1,
+      "path": "companies/college-of-new-caledonia/monitors/college-of-new-caledonia.json",
+      "authored_monitor_file_sha256": "e8094b0b21f3ae49419751c48e08a03785ba086f2e3fd04e53fa17ee0a765906",
+      "recipe_sha256": "ce8c6a2e62fdeecdd83379e1d554bd9e25f3300ebadc95bc799bdbe2b0349fb9"
+    },
+    {
+      "id": "district-of-saanich",
+      "company_id": "district-of-saanich",
+      "revision": 1,
+      "path": "companies/district-of-saanich/monitors/district-of-saanich.json",
+      "authored_monitor_file_sha256": "61a535a5eabecdd4c2f67e2200e644de2b0a6aeff0fd46302798a81108e609d0",
+      "recipe_sha256": "520311edd0cd62057747c46fc1796b94460373098d9df176372dc80c1ea65997"
+    },
+    {
+      "id": "campbellford-memorial-hospital",
+      "company_id": "campbellford-memorial-hospital",
+      "revision": 1,
+      "path": "companies/campbellford-memorial-hospital/monitors/campbellford-memorial-hospital.json",
+      "authored_monitor_file_sha256": "9d377d47bf1a12267b79daafb5106d17b0e7991b35c068867f63e9bae1d49aeb",
+      "recipe_sha256": "423ad57bcfa9e603c51e7905e5a7cade74efb8e4dda273c66d7fb0c82ff844a1"
+    },
+    {
+      "id": "polycultural-immigrant-and-community-services",
+      "company_id": "polycultural-immigrant-and-community-services",
+      "revision": 1,
+      "path": "companies/polycultural-immigrant-and-community-services/monitors/polycultural-immigrant-and-community-services.json",
+      "authored_monitor_file_sha256": "24dcc37b47a477037f8014321cc7e6c37efe695400ed5c9784df9c94091ec117",
+      "recipe_sha256": "b8edffe40971dafd5ae751610c63c79b5563abeb57e351eee47ac847234737fb"
+    },
+    {
+      "id": "headwaters-health-care-centre",
+      "company_id": "headwaters-health-care-centre",
+      "revision": 1,
+      "path": "companies/headwaters-health-care-centre/monitors/headwaters-health-care-centre.json",
+      "authored_monitor_file_sha256": "d005584c78c3c92f9fd1f64dab97cd6174a9fe4147ad7d1cc858a617edfe5690",
+      "recipe_sha256": "6866ccb9d5269697f5c474cb655897360116ad8ab7b6e108397033c60d73f575"
+    },
+    {
+      "id": "national-music-centre",
+      "company_id": "national-music-centre",
+      "revision": 1,
+      "path": "companies/national-music-centre/monitors/national-music-centre.json",
+      "authored_monitor_file_sha256": "67179aa1036c3ac046ba8e1e3934a6779342c12096210c9c114b7714837aa040",
+      "recipe_sha256": "b384feab192f51b68d9f7dcfa5af9bfaa5ed712f64b218e4b620465369889f61"
+    },
+    {
+      "id": "transport-bourassa",
+      "company_id": "transport-bourassa",
+      "revision": 1,
+      "path": "companies/transport-bourassa/monitors/transport-bourassa.json",
+      "authored_monitor_file_sha256": "0e38e61e95ec291b7101ec8622d9835594f1ff4dabb34e98406e60b9e73116b8",
+      "recipe_sha256": "a4aed96d21c82db695e247046609caf1f8301bfa99ce12f202df55ee50cd34b2"
+    },
+    {
+      "id": "groupe-guilbault",
+      "company_id": "groupe-guilbault",
+      "revision": 1,
+      "path": "companies/groupe-guilbault/monitors/groupe-guilbault.json",
+      "authored_monitor_file_sha256": "e8ea13a7b3613c974f6aeb0063b3ce3c3e579572bd4dad42460d72c06c36bda1",
+      "recipe_sha256": "36e59bf5762370637c129e71f3d088949902182077ee02cd2d6564108a1a9820"
+    },
+    {
+      "id": "city-of-chilliwack",
+      "company_id": "city-of-chilliwack",
+      "revision": 1,
+      "path": "companies/city-of-chilliwack/monitors/city-of-chilliwack.json",
+      "authored_monitor_file_sha256": "7393e8adaa1badb2c6cf61ad8503ece17ba8659665777a246207385e483783eb",
+      "recipe_sha256": "c750af40ffe81e76a07275dbb2d14a834e376120622abcb984b3744990b14430"
+    },
+    {
+      "id": "city-of-parksville",
+      "company_id": "city-of-parksville",
+      "revision": 1,
+      "path": "companies/city-of-parksville/monitors/city-of-parksville.json",
+      "authored_monitor_file_sha256": "2e36a00f185ebfdd1972b749bdf86aea5e9f5834d21373184691d99c096c494e",
+      "recipe_sha256": "5c8faaa42b8198f5baa1c089f03fe765c455e8c0236d64f85d0929c49bf4ec04"
+    },
+    {
+      "id": "royal-ottawa-health-care-group",
+      "company_id": "royal-ottawa-health-care-group",
+      "revision": 1,
+      "path": "companies/royal-ottawa-health-care-group/monitors/royal-ottawa-health-care-group.json",
+      "authored_monitor_file_sha256": "33a07f0bad7cb46b5d5262be4aaca254f33cde5923deadbe3783daaa60fc60a4",
+      "recipe_sha256": "ceae056e3a9effec5571e3b891ac588551ea69a4a7743ab8edf1f99541a0ddf0"
+    },
+    {
+      "id": "central-toronto-youth-services",
+      "company_id": "central-toronto-youth-services",
+      "revision": 1,
+      "path": "companies/central-toronto-youth-services/monitors/central-toronto-youth-services.json",
+      "authored_monitor_file_sha256": "6e87c4d0ee851c5debc8186bc713a0255822fe36600a247ed26bd2dee2c9b070",
+      "recipe_sha256": "113eb1a1c91a473780b5623c215bbb304e0f6a9c48ddc435af5572b7363b6e8d"
+    }
+  ],
+  "required_next_steps": [
+    "Review exact employer ownership and bounded coverage evidence.",
+    "Obtain explicit public-submission consent before submitting these proposals.",
+    "Complete the supported trusted runtime/review and maintainer merge gates.",
+    "Pin the approved merged catalog revisions through the canonical collector; do not hand-edit generated runtime.",
+    "Verify a successful public feed generation and all thirty company source statuses before claiming live coverage."
+  ]
+}

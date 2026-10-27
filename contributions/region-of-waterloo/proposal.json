@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "region-of-waterloo",
+    "name": "Region of Waterloo",
+    "aliases": [],
+    "website_url": "https://regionofwaterloo.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "region-of-waterloo",
+    "company_id": "region-of-waterloo",
+    "revision": 1,
+    "label": "Region of Waterloo public careers",
+    "careers_url": "https://careers.regionofwaterloo.ca/RoW/search?createNewAlert=false&q=",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Region of Waterloo",
+      "careers_url": "https://careers.regionofwaterloo.ca/RoW/search?createNewAlert=false&q=",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.regionofwaterloo.ca"
+      ],
+      "request": {
+        "url": "https://careers.regionofwaterloo.ca/RoW/search/?createNewAlert=false&q=",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li.job-tile",
+        "title": "a.jobTitle-link",
+        "link": "a.jobTitle-link",
+        "location": ".jobLocation"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.regionofwaterloo.ca/RoW/search/?createNewAlert=false&q=",
+    "fetched_at": "2026-10-27T13:07:06.106153Z",
+    "payload": "<html><body><div class=\"outershellRoW\" id=\"outershell\"><div class=\"innershellRoW\" id=\"innershell\"><div class=\"contentRoW\" id=\"content\"><div class=\"inner\"><div class=\"job-tile-result-container backgroundcolor76a1865d\"><ul class=\"container job-list\" id=\"job-tile-list\"><li class=\"job-tile job-id-607358417 job-row-index-1 linkhovercolor\" data-focus-tile=\".job-id-607358417\" data-row-index=\"1\" data-url=\"/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417/\">\n<div class=\"job-tile-cell\">\n<div class=\"row job job-row backgroundcolor shadowcolornull shadowhovercolornull bordercolor280bf2e7aa45b075\">\n<div class=\"col-md-12 sub-section sub-section-desktop hidden-xs hidden-sm\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607358417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607358417\" href=\"/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417/\">\n                    Roads Maintainer (Operations Programs)\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field city fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-desktop-section-city\">\n<span aria-describedby=\"job-607358417-desktop-section-city-value\" class=\"section-label fontcolor\" id=\"job-607358417-desktop-section-city-label\">\n                    City\n                </span>\n<div id=\"job-607358417-desktop-section-city-value\">Cambridge\n                </div>\n</div>\n<div class=\"section-field dept fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-desktop-section-dept\">\n<span aria-describedby=\"job-607358417-desktop-section-dept-value\" class=\"section-label fontcolor\" id=\"job-607358417-desktop-section-dept-label\">\n                    Department\n                </span>\n<div id=\"job-607358417-desktop-section-dept-value\">Operations Programs\n                </div>\n</div>\n<div class=\"section-field customfield1 fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-desktop-section-customfield1\">\n<span aria-describedby=\"job-607358417-desktop-section-customfield1-value\" class=\"section-label fontcolor\" id=\"job-607358417-desktop-section-customfield1-label\">\n                    Job Req ID\n                </span>\n<div id=\"job-607358417-desktop-section-customfield1-value\">5045\n                </div>\n</div>\n<div class=\"section-field customfield2 fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-desktop-section-customfield2\">\n<span aria-describedby=\"job-607358417-desktop-section-customfield2-value\" class=\"section-label fontcolor\" id=\"job-607358417-desktop-section-customfield2-label\">\n                    Job Closing Date\n                </span>\n<div id=\"job-607358417-desktop-section-customfield2-value\">November 2, 2026 at 11:59pm\n                </div>\n</div>\n</div>\n</div>\n<div class=\"col-md-12 sub-section sub-section-tablet hidden-xs hidden-md hidden-lg\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607358417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607358417\" href=\"/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417/\">\n                    Roads Maintainer (Operations Programs)\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-tablet-section-location\">\n<span aria-describedby=\"job-607358417-tablet-section-location-value\" class=\"section-label fontcolor\" id=\"job-607358417-tablet-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607358417-tablet-section-location-value\">Cambridge, ON, CA\n                </div>\n</div>\n</div>\n</div>\n<span class=\"col-md-12 sub-section sub-section-mobile hidden-sm hidden-md hidden-lg\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607358417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607358417\" href=\"/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417/\">\n                    Roads Maintainer (Operations Programs)\n                </a>\n</span>\n</div>\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607358417\" id=\"job-607358417-mobile-section-location\">\n<span aria-describedby=\"job-607358417-mobile-section-location-value\" class=\"section-label fontcolor\" id=\"job-607358417-mobile-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607358417-mobile-section-location-value\">Cambridge, ON, CA\n                </div>\n</div>\n</span>\n<span class=\"sr-only\" id=\"jobSearchTileHelpText-607358417\">Select with space bar to view the full contents of the job information.</span>\n</div>\n</div>\n</li></ul></div></div></div></div></div><div class=\"outershellRoW\" id=\"outershell\"><div class=\"innershellRoW\" id=\"innershell\"><div class=\"contentRoW\" id=\"content\"><div class=\"inner\"><div class=\"job-tile-result-container backgroundcolor76a1865d\"><ul class=\"container job-list\" id=\"job-tile-list\"><li class=\"job-tile job-id-607357417 job-row-index-2 linkhovercolor\" data-focus-tile=\".job-id-607357417\" data-row-index=\"2\" data-url=\"/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417/\">\n<div class=\"job-tile-cell\">\n<div class=\"row job job-row backgroundcolor shadowcolornull shadowhovercolornull bordercolor280bf2e7aa45b075\">\n<div class=\"col-md-12 sub-section sub-section-desktop hidden-xs hidden-sm\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607357417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607357417\" href=\"/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417/\">\n                    Operations Assistant (Transportation)\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field city fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-desktop-section-city\">\n<span aria-describedby=\"job-607357417-desktop-section-city-value\" class=\"section-label fontcolor\" id=\"job-607357417-desktop-section-city-label\">\n                    City\n                </span>\n<div id=\"job-607357417-desktop-section-city-value\">Cambridge\n                </div>\n</div>\n<div class=\"section-field dept fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-desktop-section-dept\">\n<span aria-describedby=\"job-607357417-desktop-section-dept-value\" class=\"section-label fontcolor\" id=\"job-607357417-desktop-section-dept-label\">\n                    Department\n                </span>\n<div id=\"job-607357417-desktop-section-dept-value\">Operations Administration\n                </div>\n</div>\n<div class=\"section-field customfield1 fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-desktop-section-customfield1\">\n<span aria-describedby=\"job-607357417-desktop-section-customfield1-value\" class=\"section-label fontcolor\" id=\"job-607357417-desktop-section-customfield1-label\">\n                    Job Req ID\n                </span>\n<div id=\"job-607357417-desktop-section-customfield1-value\">5050\n                </div>\n</div>\n<div class=\"section-field customfield2 fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-desktop-section-customfield2\">\n<span aria-describedby=\"job-607357417-desktop-section-customfield2-value\" class=\"section-label fontcolor\" id=\"job-607357417-desktop-section-customfield2-label\">\n                    Job Closing Date\n                </span>\n<div id=\"job-607357417-desktop-section-customfield2-value\">November 2, 2026 at 11:59pm\n                </div>\n</div>\n</div>\n</div>\n<div class=\"col-md-12 sub-section sub-section-tablet hidden-xs hidden-md hidden-lg\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607357417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607357417\" href=\"/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417/\">\n                    Operations Assistant (Transportation)\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-tablet-section-location\">\n<span aria-describedby=\"job-607357417-tablet-section-location-value\" class=\"section-label fontcolor\" id=\"job-607357417-tablet-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607357417-tablet-section-location-value\">Cambridge, ON, CA\n                </div>\n</div>\n</div>\n</div>\n<span class=\"col-md-12 sub-section sub-section-mobile hidden-sm hidden-md hidden-lg\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607357417\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607357417\" href=\"/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417/\">\n                    Operations Assistant (Transportation)\n                </a>\n</span>\n</div>\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607357417\" id=\"job-607357417-mobile-section-location\">\n<span aria-describedby=\"job-607357417-mobile-section-location-value\" class=\"section-label fontcolor\" id=\"job-607357417-mobile-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607357417-mobile-section-location-value\">Cambridge, ON, CA\n                </div>\n</div>\n</span>\n<span class=\"sr-only\" id=\"jobSearchTileHelpText-607357417\">Select with space bar to view the full contents of the job information.</span>\n</div>\n</div>\n</li></ul></div></div></div></div></div><div class=\"outershellRoW\" id=\"outershell\"><div class=\"innershellRoW\" id=\"innershell\"><div class=\"contentRoW\" id=\"content\"><div class=\"inner\"><div class=\"job-tile-result-container backgroundcolor76a1865d\"><ul class=\"container job-list\" id=\"job-tile-list\"><li class=\"job-tile job-id-607351617 job-row-index-3 linkhovercolor\" data-focus-tile=\".job-id-607351617\" data-row-index=\"3\" data-url=\"/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617/\">\n<div class=\"job-tile-cell\">\n<div class=\"row job job-row backgroundcolor shadowcolornull shadowhovercolornull bordercolor280bf2e7aa45b075\">\n<div class=\"col-md-12 sub-section sub-section-desktop hidden-xs hidden-sm\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607351617\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607351617\" href=\"/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617/\">\n                    Roads Maintainer, Sweeper\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field city fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-desktop-section-city\">\n<span aria-describedby=\"job-607351617-desktop-section-city-value\" class=\"section-label fontcolor\" id=\"job-607351617-desktop-section-city-label\">\n                    City\n                </span>\n<div id=\"job-607351617-desktop-section-city-value\">Wellesley\n                </div>\n</div>\n<div class=\"section-field dept fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-desktop-section-dept\">\n<span aria-describedby=\"job-607351617-desktop-section-dept-value\" class=\"section-label fontcolor\" id=\"job-607351617-desktop-section-dept-label\">\n                    Department\n                </span>\n<div id=\"job-607351617-desktop-section-dept-value\">Operations Programs\n                </div>\n</div>\n<div class=\"section-field customfield1 fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-desktop-section-customfield1\">\n<span aria-describedby=\"job-607351617-desktop-section-customfield1-value\" class=\"section-label fontcolor\" id=\"job-607351617-desktop-section-customfield1-label\">\n                    Job Req ID\n                </span>\n<div id=\"job-607351617-desktop-section-customfield1-value\">5056\n                </div>\n</div>\n<div class=\"section-field customfield2 fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-desktop-section-customfield2\">\n<span aria-describedby=\"job-607351617-desktop-section-customfield2-value\" class=\"section-label fontcolor\" id=\"job-607351617-desktop-section-customfield2-label\">\n                    Job Closing Date\n                </span>\n<div id=\"job-607351617-desktop-section-customfield2-value\">November 2, 2026 at 11:59pm\n                </div>\n</div>\n</div>\n</div>\n<div class=\"col-md-12 sub-section sub-section-tablet hidden-xs hidden-md hidden-lg\">\n<div class=\"oneline\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607351617\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607351617\" href=\"/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617/\">\n                    Roads Maintainer, Sweeper\n                </a>\n</span>\n</div>\n</div>\n<div class=\"oneline\">\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-tablet-section-location\">\n<span aria-describedby=\"job-607351617-tablet-section-location-value\" class=\"section-label fontcolor\" id=\"job-607351617-tablet-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607351617-tablet-section-location-value\">Wellesley, ON, CA\n                </div>\n</div>\n</div>\n</div>\n<span class=\"col-md-12 sub-section sub-section-mobile hidden-sm hidden-md hidden-lg\">\n<div class=\"tiletitle\">\n<span class=\"sr-only\">Title</span>\n<span aria-level=\"2\" class=\"col-md-12 section-title title\" role=\"heading\">\n<a aria-describedby=\"jobSearchTileHelpText-607351617\" class=\"jobTitle-link fontcolor\" data-focus-tile=\".job-id-607351617\" href=\"/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617/\">\n                    Roads Maintainer, Sweeper\n                </a>\n</span>\n</div>\n<div class=\"section-field location fontcolor\" data-focus-tile=\".job-id-607351617\" id=\"job-607351617-mobile-section-location\">\n<span aria-describedby=\"job-607351617-mobile-section-location-value\" class=\"section-label fontcolor\" id=\"job-607351617-mobile-section-location-label\">\n                    Location\n                </span>\n<div id=\"job-607351617-mobile-section-location-value\">Wellesley, ON, CA\n                </div>\n</div>\n</span>\n<span class=\"sr-only\" id=\"jobSearchTileHelpText-607351617\">Select with space bar to view the full contents of the job information.</span>\n</div>\n</div>\n</li></ul></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://regionofwaterloo.ca/",
+    "explanation": "Official employer website https://regionofwaterloo.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417",
+      "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417",
+      "https://careers.regionofwaterloo.ca/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-27T13:12:32.695949+00:00",
+  "exact_live_recipes": {
+    "passed": 30,
+    "failed": 0
+  },
+  "canonical_proposal_fixture_checks": {
+    "passed": 30,
+    "failed": 0
+  },
+  "sample_links": {
+    "passed": 54,
+    "failed": 0
+  },
+  "catalog_validator": {
+    "status": "passed"
+  },
+  "catalog_production_build": {
+    "status": "passed",
+    "companies": 1245,
+    "monitors": 1128,
+    "collections": 19
+  },
+  "catalog_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "active_site_tests": {
+    "passed": 611,
+    "failed": 0
+  },
+  "active_site_production_build": {
+    "status": "passed",
+    "command": "npm run build:site"
+  },
+  "site_tracked_changes_after_checks": 0,
+  "publication_status": "not_submitted_or_published"
+}

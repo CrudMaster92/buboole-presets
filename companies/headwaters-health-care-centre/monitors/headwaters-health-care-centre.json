@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "headwaters-health-care-centre",
+  "company_id": "headwaters-health-care-centre",
+  "revision": 1,
+  "label": "Headwaters Health Care Centre public careers",
+  "careers_url": "https://hwaternew.bluelemonmedia.com/hr",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Headwaters Health Care Centre",
+    "careers_url": "https://hwaternew.bluelemonmedia.com/hr",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "hwaternew.bluelemonmedia.com"
+    ],
+    "request": {
+      "url": "https://hwaternew.bluelemonmedia.com/hr",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "table.tbJobs tr:has(a[href*=\"?job=\"])",
+      "title": "a[href*=\"?job=\"]",
+      "link": "a[href*=\"?job=\"]",
+      "description": "td:nth-of-type(3)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

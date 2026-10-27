@@ -1,0 +1,390 @@
+[
+  {
+    "id": "cambridge-memorial-hospital",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://encareers-cmh.icims.com/jobs/7061/personal-support-worker---nrt-ptc-2026-7061/job?in_iframe=1",
+      "https://encareers-cmh.icims.com/jobs/7059/registered-nurse%2c-icu-%28unmastered-line%29-ft-2026-7059/job?in_iframe=1",
+      "https://encareers-cmh.icims.com/jobs/7058/shift-administrator-ft-2026-7058/job?in_iframe=1"
+    ]
+  },
+  {
+    "id": "apotex",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://careers.apotex.com/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617",
+      "https://careers.apotex.com/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717",
+      "https://careers.apotex.com/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017"
+    ]
+  },
+  {
+    "id": "region-of-waterloo",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417",
+      "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417",
+      "https://careers.regionofwaterloo.ca/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617"
+    ]
+  },
+  {
+    "id": "westburne",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.fitzii.com/apply/100786",
+      "https://www.fitzii.com/apply/100815",
+      "https://www.fitzii.com/apply/100816"
+    ]
+  },
+  {
+    "id": "niagara-health",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041744",
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041788",
+      "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041084"
+    ]
+  },
+  {
+    "id": "lakeridge-health",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000053919",
+      "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000054249",
+      "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000054295"
+    ]
+  },
+  {
+    "id": "city-of-langley",
+    "status": "parsed",
+    "job_count": 2,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.langleycity.ca/careers/fire-prevention-officer-1",
+      "https://www.langleycity.ca/careers/clerical-pool"
+    ]
+  },
+  {
+    "id": "genome-quebec",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://genomequebec.com/carrieres/responsable-qualite-et-accreditation"
+    ]
+  },
+  {
+    "id": "west-neighbourhood-house",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.westnh.org/jobopportunities/home-care-aide-pt-ongoing-recruitment-mar-2024-external-4",
+      "https://www.westnh.org/jobopportunities/personal-support-worker-overnight-on-call-ongoing-recruitment-mar-2024-external-3",
+      "https://www.westnh.org/jobopportunities/personal-support-worker-ongoing-recruitment-mar-2024-external-3"
+    ]
+  },
+  {
+    "id": "ocean-choice-international",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://oceanchoice.com/wp-content/uploads/2026/09/Job-Ad-Logistics-and-Sales-Coordinator-September-2026.pdf",
+      "https://oceanchoice.com/wp-content/uploads/2026/06/Power-Engineer-Trition-Plant-June-2026.pdf",
+      "https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-Captain-Groundfish-Vessels-July-2026.pdf"
+    ]
+  },
+  {
+    "id": "ballet-bc",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://balletbc.com/app/uploads/2026/08/Ballet-BC-Job-Posting-Controller-1.pdf"
+    ]
+  },
+  {
+    "id": "contemporary-calgary",
+    "status": "parsed",
+    "job_count": 2,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://www.contemporarycalgary.com/s/Capital-Project-Accountant_JobPosting-dhpg.pdf",
+      "https://www.contemporarycalgary.com/s/Event-Staff_CC-Job-Descriptiondocx.pdf"
+    ]
+  },
+  {
+    "id": "soulpepper-theatre",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://soulpepper.ca/wp-content/uploads/2026/10/Building-Supervisor-job-description-Oct-2026.pdf"
+    ]
+  },
+  {
+    "id": "flemingdon-health-centre",
+    "status": "parsed",
+    "job_count": 2,
+    "runtime_verified": false,
+    "warnings": [
+      "removed 4 duplicate source IDs",
+      "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf",
+      "https://www.fhc-chc.com/wp-content/uploads/2026/08/Job-Posting-PA-0.5-to-1.0-FTE-Aug-2026.pdf"
+    ]
+  },
+  {
+    "id": "city-of-maple-ridge",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://mapleridge.hiringplatform.ca/255057-26-165-database-administrator-1/1157744/en?source=vidcruiter_careers",
+      "https://mapleridge.hiringplatform.ca/254858-26-171-deputy-director-of-finance-rft/1156665/en?source=vidcruiter_careers",
+      "https://mapleridge.hiringplatform.ca/254464-26-173-fitness-trainer/1154794/en?source=vidcruiter_careers"
+    ]
+  },
+  {
+    "id": "joseph-brant-hospital",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://josephbranthospital.hiringplatform.ca/255148-clerk-iii-emergency-rft-e-0-5-fte-255148-67/1158223/en?source=vidcruiter_careers",
+      "https://josephbranthospital.hiringplatform.ca/255052-occupational-therapist-allied-health-tft-255052-67/1157714/en?source=vidcruiter_careers",
+      "https://josephbranthospital.hiringplatform.ca/255035-registered-nurse-acute-medicine-7s-rft-255035-67/1157615/en?source=vidcruiter_careers"
+    ]
+  },
+  {
+    "id": "lumenus-community-services",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://lumenus.hiringplatform.ca/255001-health-and-safety-specialist/1157368/en",
+      "https://lumenus.hiringplatform.ca/254237-psychotherapist-wsib-mental-health-program-of-care-mhpoc/1153449/en",
+      "https://lumenus.hiringplatform.ca/245567-behaviour-technician/1116447/en"
+    ]
+  },
+  {
+    "id": "city-of-north-vancouver",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://cnv.peopleadmin.ca/postings/4331",
+      "https://cnv.peopleadmin.ca/postings/4329",
+      "https://cnv.peopleadmin.ca/postings/4327"
+    ]
+  },
+  {
+    "id": "college-of-new-caledonia",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://cnc.peopleadmin.ca/postings/10909",
+      "https://cnc.peopleadmin.ca/postings/10905",
+      "https://cnc.peopleadmin.ca/postings/10902"
+    ]
+  },
+  {
+    "id": "district-of-saanich",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html",
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html",
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html"
+    ]
+  },
+  {
+    "id": "campbellford-memorial-hospital",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://cmh.ca/document/026-29-ppt-rn-ipu-external",
+      "https://cmh.ca/document/026-28-ppt-ii-rn-ipu-external",
+      "https://cmh.ca/document/o24-05-ppt-rn-ed-external"
+    ]
+  },
+  {
+    "id": "polycultural-immigrant-and-community-services",
+    "status": "parsed",
+    "job_count": 2,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2303?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+      "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2323?CLIENT=7462587466797&SID=20&LANGUAGE=en"
+    ]
+  },
+  {
+    "id": "headwaters-health-care-centre",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://hwaternew.bluelemonmedia.com/hr?job=23737",
+      "https://hwaternew.bluelemonmedia.com/hr?job=23738",
+      "https://hwaternew.bluelemonmedia.com/hr?job=23731"
+    ]
+  },
+  {
+    "id": "national-music-centre",
+    "status": "parsed",
+    "job_count": 2,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.studiobell.ca/lighting-designer-part-time",
+      "https://www.studiobell.ca/audio-specialist-part-time"
+    ]
+  },
+  {
+    "id": "transport-bourassa",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://bourassa.ca/available-positions/commis-a-lentree-de-donnees",
+      "https://bourassa.ca/available-positions/administrateur-de-systemes",
+      "https://bourassa.ca/available-positions/5698"
+    ]
+  },
+  {
+    "id": "groupe-guilbault",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://www.groupeguilbault.com/en/career/job-opportunities/heavy-vehicle-mechanic-evening-shift-boucherville",
+      "https://www.groupeguilbault.com/en/career/job-opportunities/class-1-driver-local-driver-day-shift-boucherville",
+      "https://www.groupeguilbault.com/en/career/job-opportunities/forklift-operator-loading-dock-evening-and-night-shifts-boucherville"
+    ]
+  },
+  {
+    "id": "city-of-chilliwack",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [],
+    "representative_urls": [
+      "https://jobs.chilliwack.com/index.cfm?jobsAction=view&pID=10528"
+    ]
+  },
+  {
+    "id": "city-of-parksville",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://www.parksville.ca/cms/wpattachments/wpID94atID13118.pdf"
+    ]
+  },
+  {
+    "id": "royal-ottawa-health-care-group",
+    "status": "parsed",
+    "job_count": 3,
+    "runtime_verified": false,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "representative_urls": [
+      "https://jobs.jobvite.com/theroyal/job/otuUAfwb",
+      "https://jobs.jobvite.com/theroyal/job/obqRAfwM",
+      "https://jobs.jobvite.com/theroyal/job/oowZAfwd"
+    ]
+  },
+  {
+    "id": "central-toronto-youth-services",
+    "status": "parsed",
+    "job_count": 1,
+    "runtime_verified": false,
+    "warnings": [
+      "removed 1 duplicate source IDs"
+    ],
+    "representative_urls": [
+      "https://ctys.org/about-us/careers"
+    ]
+  }
+]

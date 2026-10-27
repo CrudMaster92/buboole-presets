@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "city-of-north-vancouver",
+  "name": "City of North Vancouver",
+  "aliases": [],
+  "website_url": "https://cnv.org/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

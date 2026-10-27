@@ -1,0 +1,105 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "apotex",
+    "name": "Apotex",
+    "aliases": [],
+    "website_url": "https://apotex.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "pharmaceuticals"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "apotex",
+    "company_id": "apotex",
+    "revision": 1,
+    "label": "Apotex public careers",
+    "careers_url": "https://careers.apotex.com/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Apotex",
+      "careers_url": "https://careers.apotex.com/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "careers.apotex.com"
+      ],
+      "request": {
+        "url": "https://careers.apotex.com/search/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {
+          "d": 10,
+          "q": ""
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "startrow",
+        "page_size_parameter": null,
+        "page_size": 10,
+        "max_pages": 10,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr.data-row",
+        "title": "a.jobTitle-link",
+        "link": "a.jobTitle-link",
+        "location": ".jobLocation"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8,
+        "coverage_note": "Ten listing pages of ten roles, plus bounded detail enrichment; larger future inventories remain explicitly partial."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://careers.apotex.com/search/",
+    "fetched_at": "2026-10-27T13:07:05.868919Z",
+    "payload": "<html><body><div class=\"outershell\" id=\"outershell\"><div class=\"innershell\" id=\"innershell\"><div class=\"content\" id=\"content\"><div class=\"inner\"><div class=\"searchResultsShell\"><table class=\"searchResults full table table-striped table-hover\" id=\"searchresults\"><tbody><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617/\">Scientific Leader, Analytical Product Life Cycle Mgmt/Method Life Cycle Mgmt</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617/\">Scientific Leader, Analytical Product Life Cycle Mgmt/Method Life Cycle Mgmt</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            North York, ON, CA, M9L 1T9\n            \n        </span></span>\n<span class=\"jobFacility visible-phone\">Apotex Inc.</span>\n<span class=\"jobDate visible-phone\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            North York, ON, CA, M9L 1T9\n            \n        </span>\n</td>\n<td class=\"colFacility hidden-phone\" headers=\"hdrFacility\">\n<span class=\"jobFacility\">Apotex Inc.</span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></tbody></table></div></div></div></div></div><div class=\"outershell\" id=\"outershell\"><div class=\"innershell\" id=\"innershell\"><div class=\"content\" id=\"content\"><div class=\"inner\"><div class=\"searchResultsShell\"><table class=\"searchResults full table table-striped table-hover\" id=\"searchresults\"><tbody><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717/\">Manager, Ops Excellence</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717/\">Manager, Ops Excellence</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            Bangalore, KA, IN, 560099\n            \n        </span></span>\n<span class=\"jobFacility visible-phone\">Apotex Inc.</span>\n<span class=\"jobDate visible-phone\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            Bangalore, KA, IN, 560099\n            \n        </span>\n</td>\n<td class=\"colFacility hidden-phone\" headers=\"hdrFacility\">\n<span class=\"jobFacility\">Apotex Inc.</span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></tbody></table></div></div></div></div></div><div class=\"outershell\" id=\"outershell\"><div class=\"innershell\" id=\"innershell\"><div class=\"content\" id=\"content\"><div class=\"inner\"><div class=\"searchResultsShell\"><table class=\"searchResults full table table-striped table-hover\" id=\"searchresults\"><tbody><tr class=\"data-row\">\n<td class=\"colTitle\" headers=\"hdrTitle\">\n<span class=\"jobTitle hidden-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017/\">Verificador de Almacén</a>\n</span>\n<div class=\"jobdetail-phone visible-phone\">\n<span class=\"jobTitle visible-phone\">\n<a class=\"jobTitle-link\" href=\"/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017/\">Verificador de Almacén</a>\n</span>\n<span class=\"jobLocation visible-phone\">\n<span class=\"jobLocation\">\n            Mexico City, MEX, MX, 08400\n            \n        </span></span>\n<span class=\"jobFacility visible-phone\">Protein, S.A. de C.V</span>\n<span class=\"jobDate visible-phone\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n</div>\n</td>\n<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n<span class=\"jobLocation\">\n            Mexico City, MEX, MX, 08400\n            \n        </span>\n</td>\n<td class=\"colFacility hidden-phone\" headers=\"hdrFacility\">\n<span class=\"jobFacility\">Protein, S.A. de C.V</span>\n</td>\n<td class=\"colDate hidden-phone\" headers=\"hdrDate\" nowrap=\"nowrap\">\n<span class=\"jobDate\">Oct 27, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n</td>\n<td class=\"hidden-phone\"></td>\n</tr></tbody></table></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://apotex.com/",
+    "explanation": "Official employer website https://apotex.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.apotex.com/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617",
+      "https://careers.apotex.com/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717",
+      "https://careers.apotex.com/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017"
+    ]
+  }
+}

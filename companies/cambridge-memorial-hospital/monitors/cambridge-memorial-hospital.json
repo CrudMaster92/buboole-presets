@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cambridge-memorial-hospital",
+  "company_id": "cambridge-memorial-hospital",
+  "revision": 1,
+  "label": "Cambridge Memorial Hospital public careers",
+  "careers_url": "https://encareers-cmh.icims.com/jobs/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Awaiting trusted JobHound runtime validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Cambridge Memorial Hospital",
+    "careers_url": "https://encareers-cmh.icims.com/jobs/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "encareers-cmh.icims.com"
+    ],
+    "request": {
+      "url": "https://encareers-cmh.icims.com/jobs/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "ss": 1,
+        "in_iframe": 1
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "pr",
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".iCIMS_JobCardItem",
+      "title": ".title h3",
+      "link": ".title a[href]",
+      "location": ".header.left span:not(.field-label)",
+      "description": ".description"
+    },
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 8,
+      "partial_listing": true
+    }
+  }
+}

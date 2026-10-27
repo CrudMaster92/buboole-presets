@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "polycultural-immigrant-and-community-services",
+    "name": "Polycultural Immigrant and Community Services",
+    "aliases": [],
+    "website_url": "https://polycultural.org/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "nonprofit"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "polycultural-immigrant-and-community-services",
+    "company_id": "polycultural-immigrant-and-community-services",
+    "revision": 1,
+    "label": "Polycultural Immigrant and Community Services public careers",
+    "careers_url": "https://www.polycultural.org/about-us/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Polycultural Immigrant and Community Services",
+      "careers_url": "https://www.polycultural.org/about-us/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "inclusionsystem.itacit.com",
+        "www.polycultural.org"
+      ],
+      "request": {
+        "url": "https://www.polycultural.org/about-us/careers",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "a[href*=\"itacit-career-ui/postings/\"]",
+        "title": ":scope",
+        "link": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 0,
+        "coverage_note": "Current internal roles linked to the official iTacit application board only; employer placement and archived PDFs excluded."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.polycultural.org/about-us/careers",
+    "fetched_at": "2026-10-27T13:07:57.357973Z",
+    "payload": "<html><body><div class=\"columns-6 w-row\"><div class=\"column-4 w-col w-col-9\"><div class=\"collection-list-wrapper-4 w-dyn-list\"><div class=\"collection-list-4 w-dyn-items w-row\"><div class=\"collection-item-5 w-dyn-item w-col w-col-2\"><a class=\"link-4\" href=\"https://inclusionsystem.itacit.com/itacit-career-ui/postings/2303?CLIENT=7462587466797&amp;SID=20&amp;LANGUAGE=en\">Intake Admin Assistant - Reception House</a></div></div></div></div></div><div class=\"columns-6 w-row\"><div class=\"column-4 w-col w-col-9\"><div class=\"collection-list-wrapper-4 w-dyn-list\"><div class=\"collection-list-4 w-dyn-items w-row\"><div class=\"collection-item-5 w-dyn-item w-col w-col-2\"><a class=\"link-4\" href=\"https://inclusionsystem.itacit.com/itacit-career-ui/postings/2323?CLIENT=7462587466797&amp;SID=20&amp;LANGUAGE=en\">Engagement &amp; Retention Specialist</a></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://polycultural.org/",
+    "explanation": "Official employer website https://polycultural.org/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2303?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+      "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2323?CLIENT=7462587466797&SID=20&LANGUAGE=en"
+    ]
+  }
+}

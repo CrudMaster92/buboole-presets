@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "joseph-brant-hospital",
+  "name": "Joseph Brant Hospital",
+  "aliases": [],
+  "website_url": "https://josephbranthospital.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

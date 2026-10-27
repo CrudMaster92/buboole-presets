@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "cambridge-memorial-hospital",
+    "name": "Cambridge Memorial Hospital",
+    "checked_at": "2026-10-27T13:06:06.257206+00:00",
+    "recipe_sha256": "60934b5be389f820c5d78980f14c9f29aa0c3bd03a3675aa7fa768f04412c571",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 20,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 20,
+    "samples": [
+      {
+        "title": "Personal Support Worker - NRT PTC 2026-7061",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7061/personal-support-worker---nrt-ptc-2026-7061/job?in_iframe=1",
+        "location": "Unspecified",
+        "description": "Join a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation. Our vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing..."
+      },
+      {
+        "title": "Registered Nurse, ICU (Unmastered Line) FT 2026-7059",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7059/registered-nurse%2c-icu-%28unmastered-line%29-ft-2026-7059/job?in_iframe=1",
+        "location": "Unspecified",
+        "description": "Join a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation. Our vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing..."
+      },
+      {
+        "title": "Shift Administrator FT 2026-7058",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7058/shift-administrator-ft-2026-7058/job?in_iframe=1",
+        "location": "Unspecified",
+        "description": "Join a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation. Our vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing..."
+      },
+      {
+        "title": "Nurse Practitioner - APS/Surgical Program FT 2026-7057",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7057/nurse-practitioner---aps-surgical-program-ft-2026-7057/job?in_iframe=1",
+        "location": "Unspecified",
+        "description": "Join a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation. Our vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing..."
+      }
+    ]
+  },
+  {
+    "id": "apotex",
+    "name": "Apotex",
+    "checked_at": "2026-10-27T13:06:06.259283+00:00",
+    "recipe_sha256": "e81c29994c763392de91d5734d888c11753621ac4f2981dbcd734f970323dc1e",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 92,
+    "complete": false,
+    "pages": 18,
+    "warnings": [
+      "description detail enrichment skipped 84 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Scientific Leader, Analytical Product Life Cycle Mgmt/Method Life Cycle Mgmt",
+        "source_url": "https://careers.apotex.com/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617",
+        "location": "North York, ON, CA, M9L 1T9",
+        "description": ""
+      },
+      {
+        "title": "Manager, Ops Excellence",
+        "source_url": "https://careers.apotex.com/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717",
+        "location": "Bangalore, KA, IN, 560099",
+        "description": ""
+      },
+      {
+        "title": "Verificador de Almacén",
+        "source_url": "https://careers.apotex.com/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017",
+        "location": "Mexico City, MEX, MX, 08400",
+        "description": ""
+      },
+      {
+        "title": "Product Marketing Manager - Sistema Nervioso Central",
+        "source_url": "https://careers.apotex.com/job/Mexico-City-Product-Marketing-Manager-Sistema-Nervioso-Central-MEX-03900/604884117",
+        "location": "Mexico City, MEX, MX, 03900",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "region-of-waterloo",
+    "name": "Region of Waterloo",
+    "checked_at": "2026-10-27T13:06:06.260288+00:00",
+    "recipe_sha256": "c0d1dcbcf24b3529e3e1e3324dd7755ab07703ae7e97cc66d227893885cc1e3e",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 25,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 17 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Roads Maintainer (Operations Programs)",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Operations Assistant (Transportation)",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Roads Maintainer, Sweeper",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Student, Treasury Services",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Kitchener-Student%2C-Treasury-Services-ON/606397217",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "westburne",
+    "name": "Westburne",
+    "checked_at": "2026-10-27T13:06:06.260288+00:00",
+    "recipe_sha256": "6276b0caae5309ae47a6de57ffa184c0327999f00074961ef9511df6249ffd12",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 82,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 74 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100786",
+        "location": "Brockville",
+        "description": ""
+      },
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100815",
+        "location": "Tri City (Kitchener, Waterloo, and Cambridge)",
+        "description": ""
+      },
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100816",
+        "location": "London",
+        "description": ""
+      },
+      {
+        "title": "Account Manager - Commercial",
+        "source_url": "https://www.fitzii.com/apply/100813",
+        "location": "GTA",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "niagara-health",
+    "name": "Niagara Health",
+    "checked_at": "2026-10-27T13:06:06.260288+00:00",
+    "recipe_sha256": "03e960f08d47234eb2182b03e1aa453859f4aa30a5795724bf33fd7950eac43a",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 10,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "0000044737 - SENIOR PROJECT MANAGER, TFT",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041744",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "0000044781 - REGISTERED NURSE, RPTB",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041788",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "0000044060 - SR CASE COSTING PERFORMANCE ADVISOR, FT",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041084",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "0000044110 - ENTERPRISE ARCHITECT - GOVERNANCE, RISK AND COMPLIANCE, FT",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041134",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "lakeridge-health",
+    "name": "Lakeridge Health",
+    "checked_at": "2026-10-27T13:06:07.795699+00:00",
+    "recipe_sha256": "d2ecf7114dca6345aaa76987121ed50b2faed986279d1918fcb74e517a7468fa",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 10,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "2600002407 - Registered Nurse",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000053919",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "2600002751 - Registered Nurse",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000054249",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "2600002798 - Endo Aide",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000054295",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "2300003459 - Ultrasound Technologist",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000043883",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "city-of-langley",
+    "name": "City of Langley",
+    "checked_at": "2026-10-27T13:06:12.950178+00:00",
+    "recipe_sha256": "5fe974a38bc7e410426bbec427b2e9195018cee7f55f04f4fa2dc10c49b68f16",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 2,
+    "complete": false,
+    "pages": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Fire Prevention Officer",
+        "source_url": "https://www.langleycity.ca/careers/fire-prevention-officer-1",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Clerical Pool",
+        "source_url": "https://www.langleycity.ca/careers/clerical-pool",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "genome-quebec",
+    "name": "Genome Quebec",
+    "checked_at": "2026-10-27T13:06:13.367061+00:00",
+    "recipe_sha256": "42a5730718d793cd08f1b4cfda2d915728f0ae737d2b3c935fe3da15312e0598",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 2,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Responsable qualité et accréditation",
+        "source_url": "https://genomequebec.com/carrieres/responsable-qualite-et-accreditation",
+        "location": "Montréal",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "west-neighbourhood-house",
+    "name": "West Neighbourhood House",
+    "checked_at": "2026-10-27T13:06:13.693839+00:00",
+    "recipe_sha256": "8a362fe4b10738c6a2c00d409a5f235a8154421efbf722bf0c7c264d5d1bbb6a",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 7,
+    "complete": false,
+    "pages": 8,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Home Care Aide – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/home-care-aide-pt-ongoing-recruitment-mar-2024-external-4",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Personal Support Worker Overnight On Call – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/personal-support-worker-overnight-on-call-ongoing-recruitment-mar-2024-external-3",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Personal Support Worker – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/personal-support-worker-ongoing-recruitment-mar-2024-external-3",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Personal Support Worker Evenings & Weekends – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/personal-support-worker-evenings-weekends-ongoing-recruitment-mar-2024-external-3",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "ocean-choice-international",
+    "name": "Ocean Choice International",
+    "checked_at": "2026-10-27T13:06:14.363484+00:00",
+    "recipe_sha256": "4284ae6f204af46468057afa8c3b2674b48077eaa0aadc103fa811780aa14710",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 13,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 13 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Logistics and Sales Coordinator",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/09/Job-Ad-Logistics-and-Sales-Coordinator-September-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Power Engineers – Multiple Locations",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/06/Power-Engineer-Trition-Plant-June-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Captain",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-Captain-Groundfish-Vessels-July-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "1st Mate",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-1st-Mate-Groundfish-Vessels-July-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "ballet-bc",
+    "name": "Ballet BC",
+    "checked_at": "2026-10-27T13:06:15.038606+00:00",
+    "recipe_sha256": "fa43c254d466766a83a14bc282b5a023e9cab73b2da70b7df050b679d1fed838",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 1,
+    "samples": [
+      {
+        "title": "Controller",
+        "source_url": "https://balletbc.com/app/uploads/2026/08/Ballet-BC-Job-Posting-Controller-1.pdf",
+        "location": "Unspecified",
+        "description": "Controller (Full time, permanent)\n\nApplications open until filled\n\nLearn more + apply"
+      }
+    ]
+  },
+  {
+    "id": "contemporary-calgary",
+    "name": "Contemporary Calgary",
+    "checked_at": "2026-10-27T13:06:15.521740+00:00",
+    "recipe_sha256": "7b1dffe14c9ab09185f7f0dcae65a7681c8e3d7fd9da57dd4ca1d7f9c782f395",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 2,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 2,
+    "samples": [
+      {
+        "title": "Capital Project Accountant",
+        "source_url": "https://www.contemporarycalgary.com/s/Capital-Project-Accountant_JobPosting-dhpg.pdf",
+        "location": "Unspecified",
+        "description": "Contemporary Cagary is seeking a full-time Capital Project Accountant.\n\nWith the Centennial Planetarium Transformation Project underway and expected to be completed in 2030, we are seeking a Capital Project Accountant to provide disciplined financial oversight for this major, multi-year investment. The successful candidate will partner closely with project leadership, contractors, consultants and funders, maintaining strong controls, reliable forecasts and transparent reporting from the construction phase through to close-out.\n\nContemporary Calgary is an equal opportunity employer committed to creating a diverse, respectful and inclusive environment that is reflective of the community we serve. We encourage applications from all qualified candidates for this position.\n\nPlease apply with a PDF cover letter and resume by end of business day Friday November 13, 2026 to: careers@contemporarycalgary.com\n\nSubject line: First & Last Name_Capital Project Accountant\n\nDOWNLOAD FULL JOB POSTING\n\nAPPLY NOW"
+      },
+      {
+        "title": "Event Staff",
+        "source_url": "https://www.contemporarycalgary.com/s/Event-Staff_CC-Job-Descriptiondocx.pdf",
+        "location": "Unspecified",
+        "description": "Contemporary Calgary is seeking a casual/part-time Event Staff.\n\nContemporary Calgary is an equal opportunity employer committed to creating a diverse, respectful and inclusive environment, and encourages applications from all qualified candidates for this position.\n\nPlease apply with a cover letter and resume in PDF format to careers@contemporarycalgary.com.\n\nSubject Line: Event Staff\n\nDOWNLOAD FULL JOB POSTING\n\nAPPLY NOW"
+      }
+    ]
+  },
+  {
+    "id": "soulpepper-theatre",
+    "name": "Soulpepper Theatre",
+    "checked_at": "2026-10-27T13:06:15.869445+00:00",
+    "recipe_sha256": "a4e0a5a259551305fd5813c3a92145e6276d5c7e3a13156bb47f2ecfc94ec5e9",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Building Supervisor",
+        "source_url": "https://soulpepper.ca/wp-content/uploads/2026/10/Building-Supervisor-job-description-Oct-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "flemingdon-health-centre",
+    "name": "Flemingdon Health Centre",
+    "checked_at": "2026-10-27T13:06:15.976165+00:00",
+    "recipe_sha256": "e2fc405b75847db40a614a3148e4e843cfeca2b8227b639ad94dabd0f0179cfa",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 3,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "removed 3 duplicate source IDs",
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Job Posting – Nurse Practitioner- 0.4 FT Regular",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Job Posting – PA – 0.5 to 1.0 FTE – Aug 2026",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2026/08/Job-Posting-PA-0.5-to-1.0-FTE-Aug-2026.pdf",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Job Posting – Nurse Practitioner- 0.5 FT Contract",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2025/11/Job-Posting-Nurse-Practitioner-0.5-FT-Contract.pdf",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "city-of-maple-ridge",
+    "name": "City of Maple Ridge",
+    "checked_at": "2026-10-27T13:06:16.265452+00:00",
+    "recipe_sha256": "c430ee58a39633869198a1bfe065637fb100a8b648d9d862f8aad5dc791b4606",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 11,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "26-165 Database Administrator 1",
+        "source_url": "https://mapleridge.hiringplatform.ca/255057-26-165-database-administrator-1/1157744/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "26-171 Deputy Director of Finance (RFT)",
+        "source_url": "https://mapleridge.hiringplatform.ca/254858-26-171-deputy-director-of-finance-rft/1156665/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "26-173 Fitness Trainer",
+        "source_url": "https://mapleridge.hiringplatform.ca/254464-26-173-fitness-trainer/1154794/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "26-170 Group Fitness Instructor",
+        "source_url": "https://mapleridge.hiringplatform.ca/254462-26-170-group-fitness-instructor/1154775/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "joseph-brant-hospital",
+    "name": "Joseph Brant Hospital",
+    "checked_at": "2026-10-27T13:06:16.642812+00:00",
+    "recipe_sha256": "2c3bc331bf4e7cee47943cddf1ee090e3a59361ea55ca10200e989a7a884da1a",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 15,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 7 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Clerk III - Emergency - RFT-E (0.5 FTE) (255148-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255148-clerk-iii-emergency-rft-e-0-5-fte-255148-67/1158223/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Occupational Therapist - Allied Health - TFT (255052-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255052-occupational-therapist-allied-health-tft-255052-67/1157714/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Registered Nurse - Acute Medicine 7S - RFT (255035-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255035-registered-nurse-acute-medicine-7s-rft-255035-67/1157615/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Registered Nurse - Mental Health - Inpatient Psychiatry - RPT (255009-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255009-registered-nurse-mental-health-inpatient-psychiatry-rpt-255009-67/1157442/en?source=vidcruiter_careers",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "lumenus-community-services",
+    "name": "Lumenus Community Services",
+    "checked_at": "2026-10-27T13:06:17.879186+00:00",
+    "recipe_sha256": "e9cc9555728f56f821145eec33299b378bf8eade9c6a5177ccfcedeb57193436",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 5,
+    "complete": false,
+    "pages": 6,
+    "warnings": [
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Health and Safety Specialist",
+        "source_url": "https://lumenus.hiringplatform.ca/255001-health-and-safety-specialist/1157368/en",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Psychotherapist (WSIB Mental Health Program of Care (MHPOC)",
+        "source_url": "https://lumenus.hiringplatform.ca/254237-psychotherapist-wsib-mental-health-program-of-care-mhpoc/1153449/en",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Behaviour Technician",
+        "source_url": "https://lumenus.hiringplatform.ca/245567-behaviour-technician/1116447/en",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Occupational Therapist Assistant, Core Clinical Services",
+        "source_url": "https://lumenus.hiringplatform.ca/245165-occupational-therapist-assistant-core-clinical-services/1114293/en",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "city-of-north-vancouver",
+    "name": "City of North Vancouver",
+    "checked_at": "2026-10-27T13:06:18.858441+00:00",
+    "recipe_sha256": "01a7984aec74784084a30f2373d2244a03f804d16b9ab193263102c7d76497cf",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 9,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 9,
+    "samples": [
+      {
+        "title": "Building Service Worker",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4331",
+        "location": "Unspecified",
+        "description": "The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City.The Corporate Services Department – Facilities Division requires auxiliary Building Service Workers."
+      },
+      {
+        "title": "Facilities Maintenance Worker 1",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4329",
+        "location": "Unspecified",
+        "description": "The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City.The Corporate Services Department – Facilities Division, is looking for an auxiliary Facilities Maintenance Worker 1."
+      },
+      {
+        "title": "Plan Checker 1",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4327",
+        "location": "Unspecified",
+        "description": "The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City. The Planning, Development & Real Estate Department is looking for a temporary full-time Plan Checker 1 to join their te..."
+      },
+      {
+        "title": "Project Coordinator",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4325",
+        "location": "Unspecified",
+        "description": "The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City.The Planning, Development & Real Estate department requires a temporary full-time Project Coordinator in the Development..."
+      }
+    ]
+  },
+  {
+    "id": "college-of-new-caledonia",
+    "name": "College of New Caledonia",
+    "checked_at": "2026-10-27T13:06:19.176102+00:00",
+    "recipe_sha256": "ce8c6a2e62fdeecdd83379e1d554bd9e25f3300ebadc95bc799bdbe2b0349fb9",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 49,
+    "complete": false,
+    "pages": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "with_description": 48,
+    "samples": [
+      {
+        "title": "Educational Technology and Multimedia Project Coordinator",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10909",
+        "location": "Unspecified",
+        "description": "Supports teaching and learning by providing support and guidance on the use and integration of education technology, as well as the use of multimedia instructional resources in face to face or online learning. Provides training on various educational technologies, Microsoft 365 and media tools used for creating instructional resources. Acts as support and back-up personnel for the daily operati..."
+      },
+      {
+        "title": "CASUAL Laboratory Technologist - MLT",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10905",
+        "location": "Unspecified",
+        "description": "This position will work in collaboration with laboratory science programs in School of Health Sciences (SoHS). Under the direction of the Dean and/or Associate Dean, this position will set annual priorities for meeting the various and emerging needs of School of Health Sciences. Time allotted per program will vary throughout the year and will be determined prior to the beginning of each semester."
+      },
+      {
+        "title": "Laboratory Technologist - MLT (Part-Time Seasonal)",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10902",
+        "location": "Unspecified",
+        "description": "This position will work in collaboration with laboratory science programs in School of Health Sciences (SoHS). Under the direction of the Dean and/or Associate Dean, this position will set annual priorities for meeting the various and emerging needs of School of Health Sciences. Time allotted per program will vary throughout the year and will be determined prior to the beginning of each semester."
+      },
+      {
+        "title": "CASUAL Clerk II - Invigilator (To Garner Applications)",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10901",
+        "location": "Unspecified",
+        "description": "This role provides clerical and invigilation support services for an assigned department."
+      }
+    ]
+  },
+  {
+    "id": "district-of-saanich",
+    "name": "District of Saanich",
+    "checked_at": "2026-10-27T13:06:21.635434+00:00",
+    "recipe_sha256": "520311edd0cd62057747c46fc1796b94460373098d9df176372dc80c1ea65997",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 21,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 13 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Program Leader I – Youth Centres",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Engineering Technician III",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Engineering Technician II",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "HR Specialist - Disability Management",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/hr-specialist-disability-management.html",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "campbellford-memorial-hospital",
+    "name": "Campbellford Memorial Hospital",
+    "checked_at": "2026-10-27T13:06:23.705211+00:00",
+    "recipe_sha256": "423ad57bcfa9e603c51e7905e5a7cade74efb8e4dda273c66d7fb0c82ff844a1",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 9,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 9 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Registered Nurse - Inpatient Unit (Part Time)",
+        "source_url": "https://cmh.ca/document/026-29-ppt-rn-ipu-external",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Registered Nurse - Inpatient Unit (Part Time II)",
+        "source_url": "https://cmh.ca/document/026-28-ppt-ii-rn-ipu-external",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Registered Nurse - Emergency Department (Part Time)",
+        "source_url": "https://cmh.ca/document/o24-05-ppt-rn-ed-external",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Registered Practical Nurse - Inpatient Unit (Full Time)",
+        "source_url": "https://cmh.ca/document/c26-53-pft-rpn-ipu-external1",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "polycultural-immigrant-and-community-services",
+    "name": "Polycultural Immigrant and Community Services",
+    "checked_at": "2026-10-27T13:06:24.400309+00:00",
+    "recipe_sha256": "b8edffe40971dafd5ae751610c63c79b5563abeb57e351eee47ac847234737fb",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 2,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Intake Admin Assistant - Reception House",
+        "source_url": "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2303?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Engagement & Retention Specialist",
+        "source_url": "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2323?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "headwaters-health-care-centre",
+    "name": "Headwaters Health Care Centre",
+    "checked_at": "2026-10-27T13:06:24.632548+00:00",
+    "recipe_sha256": "6866ccb9d5269697f5c474cb655897360116ad8ab7b6e108397033c60d73f575",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 40,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 40,
+    "samples": [
+      {
+        "title": "Ultrasound Technologist - 0.80 FTE Full Time (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23737",
+        "location": "Unspecified",
+        "description": "Ultrasound Technologist - 0.80 FTE Full Time (Diagnostic Imaging)"
+      },
+      {
+        "title": "Ultrasound Technologist - Part Time (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23738",
+        "location": "Unspecified",
+        "description": "Ultrasound Technologist - Part Time (Diagnostic Imaging)"
+      },
+      {
+        "title": "Ultrasound Technologist - Casual (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23731",
+        "location": "Unspecified",
+        "description": "Ultrasound Technologist - Casual (Diagnostic Imaging)"
+      },
+      {
+        "title": "MRT Medical Radiation Technologist - Casual (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23727",
+        "location": "Unspecified",
+        "description": "MRT Medical Radiation Technologist - Casual (Diagnostic Imaging)"
+      }
+    ]
+  },
+  {
+    "id": "national-music-centre",
+    "name": "National Music Centre",
+    "checked_at": "2026-10-27T13:06:24.827151+00:00",
+    "recipe_sha256": "b384feab192f51b68d9f7dcfa5af9bfaa5ed712f64b218e4b620465369889f61",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 2,
+    "complete": false,
+    "pages": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Lighting Designer (Part-time)",
+        "source_url": "https://www.studiobell.ca/lighting-designer-part-time",
+        "location": "Unspecified",
+        "description": ""
+      },
+      {
+        "title": "Audio Specialist (Part-time)",
+        "source_url": "https://www.studiobell.ca/audio-specialist-part-time",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "transport-bourassa",
+    "name": "Transport Bourassa",
+    "checked_at": "2026-10-27T13:06:24.987157+00:00",
+    "recipe_sha256": "a4aed96d21c82db695e247046609caf1f8301bfa99ce12f202df55ee50cd34b2",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 25,
+    "complete": false,
+    "pages": 9,
+    "warnings": [
+      "description detail enrichment skipped 17 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "COMMIS À L’ENTRÉE DE DONNÉES",
+        "source_url": "https://bourassa.ca/available-positions/commis-a-lentree-de-donnees",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada",
+        "description": ""
+      },
+      {
+        "title": "ADMINISTRATEUR DE SYSTÈMES",
+        "source_url": "https://bourassa.ca/available-positions/administrateur-de-systemes",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada",
+        "description": ""
+      },
+      {
+        "title": "TECHNICIEN COMPTABLE",
+        "source_url": "https://bourassa.ca/available-positions/5698",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada",
+        "description": ""
+      },
+      {
+        "title": "COMMIS À LA PRISE DE COMMANDES",
+        "source_url": "https://bourassa.ca/available-positions/commis-a-la-prise-de-commandes",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "groupe-guilbault",
+    "name": "Groupe Guilbault",
+    "checked_at": "2026-10-27T13:06:26.310091+00:00",
+    "recipe_sha256": "36e59bf5762370637c129e71f3d088949902182077ee02cd2d6564108a1a9820",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 3,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 3,
+    "samples": [
+      {
+        "title": "Heavy vehicle mechanic",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/heavy-vehicle-mechanic-evening-shift-boucherville",
+        "location": "Boucherville",
+        "description": "Category : Mécanique"
+      },
+      {
+        "title": "Class 1 Driver - Local Driver",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/class-1-driver-local-driver-day-shift-boucherville",
+        "location": "Boucherville",
+        "description": "Category : Chauffeur classe 1"
+      },
+      {
+        "title": "Forklift operator - Loading dock",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/forklift-operator-loading-dock-evening-and-night-shifts-boucherville",
+        "location": "Boucherville",
+        "description": "Category : Quai de chargement"
+      }
+    ]
+  },
+  {
+    "id": "city-of-chilliwack",
+    "name": "City of Chilliwack",
+    "checked_at": "2026-10-27T13:06:26.548387+00:00",
+    "recipe_sha256": "c750af40ffe81e76a07275dbb2d14a834e376120622abcb984b3744990b14430",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 1,
+    "samples": [
+      {
+        "title": "Senior Environmental Specialist -Landfill Systems Operator (Full Time)",
+        "source_url": "https://jobs.chilliwack.com/index.cfm?jobsAction=view&pID=10528",
+        "location": "Unspecified",
+        "description": "Closing in 30 Days"
+      }
+    ]
+  },
+  {
+    "id": "city-of-parksville",
+    "name": "City of Parksville",
+    "checked_at": "2026-10-27T13:06:26.746735+00:00",
+    "recipe_sha256": "5c8faaa42b8198f5baa1c089f03fe765c455e8c0236d64f85d0929c49bf4ec04",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "ENGINEERING TECHNOLOGIST II",
+        "source_url": "https://www.parksville.ca/cms/wpattachments/wpID94atID13118.pdf",
+        "location": "Unspecified",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "royal-ottawa-health-care-group",
+    "name": "Royal Ottawa Health Care Group",
+    "checked_at": "2026-10-27T13:06:26.935795+00:00",
+    "recipe_sha256": "ceae056e3a9effec5571e3b891ac588551ea69a4a7743ab8edf1f99541a0ddf0",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 72,
+    "complete": false,
+    "pages": 1,
+    "warnings": [
+      "description detail enrichment skipped 64 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "with_description": 0,
+    "samples": [
+      {
+        "title": "Administrative Assistant, Patient Care Leaders (RFT 1.0 FTE)",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/otuUAfwb",
+        "location": "Brockville, Ontario",
+        "description": ""
+      },
+      {
+        "title": "Clinical Team Secretary",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/obqRAfwM",
+        "location": "Brockville, Ontario",
+        "description": ""
+      },
+      {
+        "title": "Executive Assistant II (RFT 1.0 FTE)",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/oowZAfwd",
+        "location": "Ottawa, Ontario",
+        "description": ""
+      },
+      {
+        "title": "Secretary III (RFT 1.0 FTE)",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/o7MXAfwa",
+        "location": "Ottawa, Ontario",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "central-toronto-youth-services",
+    "name": "Central Toronto Youth Services",
+    "checked_at": "2026-10-27T13:06:27.232159+00:00",
+    "recipe_sha256": "113eb1a1c91a473780b5623c215bbb304e0f6a9c48ddc435af5572b7363b6e8d",
+    "strategy": "generic_html",
+    "status": "ok",
+    "job_count": 1,
+    "complete": false,
+    "pages": 1,
+    "warnings": [],
+    "with_description": 1,
+    "samples": [
+      {
+        "title": "YJ Mental Health Access Coordinator – Open Custody and Open Detention",
+        "source_url": "https://ctys.org/about-us/careers",
+        "location": "Unspecified",
+        "description": "1 Full Time, Permanent Position – 35 hrs./week\n\nUnion: OPSEU Bargaining Unit\n\nInternal/External Posting\n\nThis is an exciting opportunity to be a member of a YJ Mental Health ACCESS, a collaborative between CTYS and Woodgreen Community Services that supports youth and families involved with the youth justice system. The purpose of the position is to engage youth referred from Open Detention/Custody sites across the greater Toronto Area. You will provide brief mental health assessments and interventions. Flexibility is required to work some evenings to accommodate youth and family. This is a brief service model which will include outreach to meet youth at the detention sites. As employers, we are committed to building intervention and management teams that reflect the diversity of our clients. Priority will be given to qualified applicants who identify with and have experience supporting BIPOC communities.\n\nPrimary Responsibilities:\n\n• Provide mental health assessments and counselling intervention for youth referred by 3 open detention/ custody facilities across the GTA\n• Work collaboratively with youth,parentsand detention staff by developing individualized assessment and service/treatment plans using astrengthbased and trauma informed approach\n• Provide youth with a clear pathway to access a psychological or psychiatric assessment when needed\n• Providepsychoeducationto youth and/or families regardingmental health diagnosis and services\n• Develop andfacilitatemonthly mental health psycho-educational workshops to staff at participating custody/ detention sites\n• Provide consultation and support to staff in Open Custody and Detention facilities on acase-by-case basis\n• Work with youth and families to follow up on assessment recommendations and/ or connect with ongoing therapeutic supports\n• Advise Program Manager of any serious occurrence and ensure documentation\n• Provide case coverage/support for other team members due to vacation/illness/emergency when assigned\n• Participate in supervision, program meetings, all-staff meetings, clinical consultations, peer consultations and committee/partnership meetings when required\n• Ensure that all recordings and documentation meet CTYS Policy and Procedures requirements, accreditation standards and are completed in a timely manner\n• Participate in agency committees,special eventsor community activities when determined appropriate in consultation with the Program Manager\n• Participate in training and professional development activities as required\n• Other duties as assigned\n\nQualifications:\n\n• A graduate degree in Social Work or related helping profession\n• Membership in the appropriate professional regulatory body (R.SW or R.P) (Registered Social Worker or Registered Psychotherapist)\n• Demonstrated experience working from an anti-oppressive framework with youth and families from diverse ethno-cultural and socio-economic backgrounds including youth with diverse intellectual abilities and racialized communities\n• Minimum threeyears’ experienceworking in children’s mental health\n• Knowledge of and experience working in theYouth Justice system\n• Experience working with youth with complex concurrent disorders\n• Experience in strength based and trauma informed mental health assessments, brief intervention modalities and CBT\n• Demonstrate skills in assessment, counseling, caseplanning and coordination with marginalized, youth, their families and detention staff\n• Strong interpersonal skills and ability to build rapport and engage with detention staff and marginalized youth\n• Knowledge of child and adolescent development and crisis intervention techniques\n• Knowledge of community resources to support youth\n• Experience working from a community outreach model\n• Demonstrated ability to work collaboratively and effectively with theYouth Justice system and collateral service providers\n• Ability to work independently and as part of a team\n• A valid Ontario driver’s license and daily access to a vehicle\n• Proficient in use of computers and software applications\n• Proficiencyin a second language an asset\n\nWhat CTYS offers:\n\n• Vacation:15 days first year, 20 days after one year of service\n• Personal Leave:17days\n• Float Days:1 day\n• Educational Leave:7 days\n• Extended Health: Employer pays extended health and dental single and family coverage, employee and family assistance program, and travel insurance.\n• Pension: OPTrust Pension: EE-3% and ER -3%. In addition, ER contributes 2.5% towards RRSP.\n• Compensation: Competitive salary & support during approved medical leave (sick-leave, LTD).\n• Flexibility:Hybrid work,Flexible work week\n\nCompensation: $ 66,463.16 – $79,360.49 (1 FTE)\n\nApplication instructions:\n\nPlease submit your cover letter and chronological resume via email to:\n\nCentral Toronto Youth Services\n\nE-mail: [email protected]\n\nWe thank all interested candidates, but only those selected for an interview will be contacted.\n\nEquity and inclusion:\n\nWe acknowledge that Central Toronto Youth Services (CTYS) is situated on the ceded lands and territories of the Anishinaabeg, Haudenosaunee, the Chippewa, the Mississauga’s of the Credit, the Wendat Peoples, and is now home to many diverse nations. We also acknowledge that Toronto is covered by Treaty 13 signed with the Mississauga’s of the Credit. We respectfully recognize the presence of Indigenous peoples, both in the past and present, as we commit to action, education, meaningful dialogue and necessary change.\n\nAs an employer, we are dedicated to cultivating an inclusive workplace and building intervention and management teams that reflect the diversity of our clients and the communities we serve.\n\nWe actively seek to attract, develop, and retain talent from diverse backgrounds, including but not limited to racialized individuals, 2SLGBTQIA+ individuals, persons with disabilities, and those from various socio-economic backgrounds. We strive to cultivate an inclusive culture that eliminates barriers, advances equity, and supports the success and well-being of all employees.\n\nAccommodation:\n\nCTYS is committed to creating an accessible and inclusive organization. In accordance with the Accessibility for Ontarians with Disabilities Act, 2005 (AODA) and the Ontario Human Rights Code (OHRC), CTYS will provide accommodations throughout the recruitment and selection process to applicants with disabilities. During any stage of the recruitment process, please notify [email protected] of the nature of any accommodation(s) you may require. Any information received relating to accommodation measures will be addressed confidentially."
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ocean-choice-international",
+  "name": "Ocean Choice International",
+  "aliases": [],
+  "website_url": "https://oceanchoice.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "food-production"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

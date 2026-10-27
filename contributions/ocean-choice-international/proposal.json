@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ocean-choice-international",
+    "name": "Ocean Choice International",
+    "aliases": [],
+    "website_url": "https://oceanchoice.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "food-production"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ocean-choice-international",
+    "company_id": "ocean-choice-international",
+    "revision": 1,
+    "label": "Ocean Choice International public careers",
+    "careers_url": "https://oceanchoice.com/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Ocean Choice International",
+      "careers_url": "https://oceanchoice.com/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "oceanchoice.com"
+      ],
+      "request": {
+        "url": "https://oceanchoice.com/careers/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "li:has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 0,
+        "coverage_note": "Employer-listed vessel and plant opportunities; PDF descriptions are linked, not extracted."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://oceanchoice.com/careers/",
+    "fetched_at": "2026-10-27T13:07:08.242112Z",
+    "payload": "<html><body><div class=\"w1\"><div class=\"wrapper\"><div class=\"wrapper-holder\"><main id=\"main\"><div class=\"same-height-column\" id=\"content\"><article><div class=\"wpb-content-wrapper\" id=\"wpb-content-root\"><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_text_column wpb_content_element\"><div class=\"wpb_wrapper\"><ul><li><a href=\"https://oceanchoice.com/wp-content/uploads/2026/09/Job-Ad-Logistics-and-Sales-Coordinator-September-2026.pdf\" rel=\"noopener\" target=\"_blank\">Logistics and Sales Coordinator </a></li></ul></div></div></div></div></div></div></div></article></div></main></div></div></div><div class=\"w1\"><div class=\"wrapper\"><div class=\"wrapper-holder\"><main id=\"main\"><div class=\"same-height-column\" id=\"content\"><article><div class=\"wpb-content-wrapper\" id=\"wpb-content-root\"><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_text_column wpb_content_element\"><div class=\"wpb_wrapper\"><ul><li><a href=\"https://oceanchoice.com/wp-content/uploads/2026/06/Power-Engineer-Trition-Plant-June-2026.pdf\" rel=\"noopener\" target=\"_blank\">Power Engineers – Multiple Locations</a></li></ul></div></div></div></div></div></div></div></article></div></main></div></div></div><div class=\"w1\"><div class=\"wrapper\"><div class=\"wrapper-holder\"><main id=\"main\"><div class=\"same-height-column\" id=\"content\"><article><div class=\"wpb-content-wrapper\" id=\"wpb-content-root\"><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_text_column wpb_content_element\"><div class=\"wpb_wrapper\"><div class=\"o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q\"><ul><li><a href=\"https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-Captain-Groundfish-Vessels-July-2026.pdf\" rel=\"noopener\" target=\"_blank\">Captain</a></li></ul></div></div></div></div></div></div></div></div></article></div></main></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://oceanchoice.com/",
+    "explanation": "Official employer website https://oceanchoice.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://oceanchoice.com/wp-content/uploads/2026/09/Job-Ad-Logistics-and-Sales-Coordinator-September-2026.pdf",
+      "https://oceanchoice.com/wp-content/uploads/2026/06/Power-Engineer-Trition-Plant-June-2026.pdf",
+      "https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-Captain-Groundfish-Vessels-July-2026.pdf"
+    ]
+  }
+}

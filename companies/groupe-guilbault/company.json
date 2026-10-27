@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-guilbault",
+  "name": "Groupe Guilbault",
+  "aliases": [],
+  "website_url": "https://groupeguilbault.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "transportation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}
