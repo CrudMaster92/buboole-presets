@@ -3,33 +3,30 @@
   "schema_version": 1,
   "id": "preverco",
   "company_id": "preverco",
-  "revision": 1,
+  "revision": 2,
   "label": "Preverco public careers",
-  "careers_url": "https://www.jobillico.com/see-company/preverco-inc-.zYsdUe",
+  "careers_url": "https://www.jobillico.com/en/employers/preverco-inc-.zYsdUe/view-all-jobs",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T20:21:45.748540+00:00",
-    "job_count": 3,
-    "warnings": [
-      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
-      "Employer-linked Jobillico profile; selector confines matches to the exact Preverco posting URL prefix."
-    ]
+    "checked_at": "2026-10-27T23:09:42.912182+00:00",
+    "job_count": 11,
+    "warnings": []
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Preverco",
-    "careers_url": "https://www.jobillico.com/see-company/preverco-inc-.zYsdUe",
+    "careers_url": "https://www.jobillico.com/en/employers/preverco-inc-.zYsdUe/view-all-jobs",
     "strategy": "generic_html",
     "allowed_hosts": [
       "www.jobillico.com"
     ],
     "request": {
-      "url": "https://www.jobillico.com/see-company/preverco-inc-.zYsdUe",
+      "url": "https://www.jobillico.com/en/employers/preverco-inc-.zYsdUe/view-all-jobs",
       "method": "GET",
       "headers": {
         "Accept-Encoding": "gzip, deflate"
@@ -44,20 +41,19 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
       "item": "li:has(a[title][href*=\"/en/job-offer/preverco-inc-.zYsdUe/\"])",
       "title": "a[title]",
       "link": "a[title]",
-      "location": "p.sm",
+      "location": "p:not(.date)",
       "posted_date": ".date"
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

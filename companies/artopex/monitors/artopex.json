@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "artopex",
   "company_id": "artopex",
-  "revision": 1,
+  "revision": 2,
   "label": "Artopex public careers",
   "careers_url": "https://www.artopex.com/fr-ca/liste-offres-emploi/",
   "compatibility": {
@@ -12,15 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T19:48:21.781561+00:00",
+    "checked_at": "2026-10-27T23:10:01.556867+00:00",
     "job_count": 9,
     "warnings": [
-      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete."
+      "Spontaneous application and the assembler card with a mismatched shipping-agent URL remain excluded."
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Artopex",
     "careers_url": "https://www.artopex.com/fr-ca/liste-offres-emploi/",
     "strategy": "generic_html",
@@ -43,7 +43,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -54,8 +54,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "north-american-employers-new-25-20261027",
-  "revision": 1,
+  "revision": 2,
   "name": "North American Employers — 25 New Sources",
-  "description": "Twenty-five additional employer hiring sources screened against the existing catalog and FreeHire. Leclerc, NanoXplore and Meridian Lightweight Technologies had Canadian and US roles in the live checks. Listing and description coverage is explicitly partial.",
+  "description": "Public employer sources configured for all roles without page-count, role-count or description-count sampling caps. Source failures and missing description data remain visible; role counts are current observations.",
   "tags": [
     "Canada",
     "United States",
@@ -41,175 +41,175 @@
       "monitor_ids": [
         "acces-industriel"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "air-inuit",
       "monitor_ids": [
         "air-inuit"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "amisco",
       "monitor_ids": [
         "amisco"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "artopex",
       "monitor_ids": [
         "artopex"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "avianor",
       "monitor_ids": [
         "avianor"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "canadel",
       "monitor_ids": [
         "canadel"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "chrono-aviation",
       "monitor_ids": [
         "chrono-aviation"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "duroking",
       "monitor_ids": [
         "duroking"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "groupe-mundial",
       "monitor_ids": [
         "groupe-mundial"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "houle-electric",
       "monitor_ids": [
         "houle-electric"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "infrastructel",
       "monitor_ids": [
         "infrastructel"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "keilhauer",
       "monitor_ids": [
         "keilhauer"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "leclerc",
       "monitor_ids": [
         "leclerc"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "lemaymichaud",
       "monitor_ids": [
         "lemaymichaud"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "meridian-lightweight-technologies",
       "monitor_ids": [
         "meridian-lightweight-technologies"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "nanoxplore",
       "monitor_ids": [
         "nanoxplore"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "nolinor",
       "monitor_ids": [
         "nolinor"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "polykar",
       "monitor_ids": [
         "polykar"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "provencher-roy",
       "monitor_ids": [
         "provencher-roy"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "rimap-hospitality",
       "monitor_ids": [
         "rimap-hospitality"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "solmatech",
       "monitor_ids": [
         "solmatech"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "st-denis-thompson",
       "monitor_ids": [
         "st-denis-thompson"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "verbom",
       "monitor_ids": [
         "verbom"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "vicwest",
       "monitor_ids": [
         "vicwest"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     },
     {
       "company_id": "wiptec",
       "monitor_ids": [
         "wiptec"
       ],
-      "note": "Live-tested public employer source. Explicitly partial listing and description coverage."
+      "note": "All-role collection; unrelated employers and non-job applications remain excluded."
     }
   ]
 }

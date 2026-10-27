@@ -32,3 +32,15 @@ Reviewers should reject duplicate identities, copied recipes, unstable IDs,
 private endpoints, unexplained browser automation, excessive response sizes,
 unsafe hosts, stale verification claims, or generated `dist` edits that do not
 match the authored sources.
+
+## Complete role collection
+
+New and repaired sources must aim to collect every publicly advertised role.
+Use `coverage_mode: "all"`, `pagination.max_pages: null`, and provider pagination
+that traverses to the actual end of the source. Do not impose role-count,
+first-page, or description-count sampling limits unless the user explicitly
+requests a sample. Use full employer listings instead of profile previews.
+Keep ownership exclusions for unrelated employers and non-job applications.
+An interrupted or failed traversal remains incomplete and must resume/retry;
+never treat a request/time slice as proof that the source ended. Report actual
+source restrictions honestly instead of manufacturing completeness.

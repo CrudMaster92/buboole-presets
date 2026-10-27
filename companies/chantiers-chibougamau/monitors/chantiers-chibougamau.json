@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "chantiers-chibougamau",
   "company_id": "chantiers-chibougamau",
-  "revision": 1,
+  "revision": 2,
   "label": "Chantiers Chibougamau public careers",
   "careers_url": "https://emploi.nordic.ca/en/",
   "compatibility": {
@@ -12,17 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T20:21:43.450616+00:00",
+    "checked_at": "2026-10-27T23:09:24.830387+00:00",
     "job_count": 38,
     "warnings": [
-      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
-      "description detail enrichment skipped 35 jobs after the configured 3-posting limit",
-      "description detail enrichment was incomplete for 3 jobs"
+      "description detail enrichment was incomplete for 38 jobs"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Chantiers Chibougamau",
     "careers_url": "https://emploi.nordic.ca/en/",
     "strategy": "generic_html",
@@ -45,7 +43,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -56,8 +54,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

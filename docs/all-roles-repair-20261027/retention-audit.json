@@ -1,0 +1,534 @@
+[
+  {
+    "id": "aeroport-de-quebec",
+    "previous_urls_retained": 3,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "barrette-structural",
+    "previous_urls_retained": 12,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "cabco",
+    "previous_urls_retained": 4,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "cafe-william",
+    "previous_urls_retained": 5,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "chantiers-chibougamau",
+    "previous_urls_retained": 38,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "christie-innomed",
+    "previous_urls_retained": 6,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "co7-technologies",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "construction-pbm",
+    "previous_urls_retained": 7,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "decast",
+    "previous_urls_retained": 4,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "dermapure",
+    "previous_urls_retained": 10,
+    "new_urls": 25,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "groupe-lebel",
+    "previous_urls_retained": 20,
+    "new_urls": 11,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "groupe-petra",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "groupe-pmi",
+    "previous_urls_retained": 10,
+    "new_urls": 4,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "hyperflo",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "infosignal",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "krb-avocats",
+    "previous_urls_retained": 4,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "lightform",
+    "previous_urls_retained": 6,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "lumenwerx",
+    "previous_urls_retained": 4,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "ovc-assurance",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "preverco",
+    "previous_urls_retained": 3,
+    "new_urls": 8,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "produits-boreal",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "sonele",
+    "previous_urls_retained": 11,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "tms-systeme",
+    "previous_urls_retained": 20,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "westcliff",
+    "previous_urls_retained": 5,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "yhu-terminal",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "call-center-guys",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "communaute-metropolitaine-montreal",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "cssdhr",
+    "previous_urls_retained": 18,
+    "new_urls": 9,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "deloupe",
+    "previous_urls_retained": 7,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "groupe-contant",
+    "previous_urls_retained": 10,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "ljl-mecanique",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "loiselle",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "madysta",
+    "previous_urls_retained": 5,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "madysta-usa",
+    "previous_urls_retained": 3,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "mccord-stewart",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "mnlct",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "nts-amega",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "office-interiors",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "pavages-metropolitain",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "port-montreal",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "quebec-international",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "ripplecove",
+    "previous_urls_retained": 10,
+    "new_urls": 1,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "robertson-college",
+    "previous_urls_retained": 10,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "ropack",
+    "previous_urls_retained": 10,
+    "new_urls": 5,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "sante-arbec",
+    "previous_urls_retained": 26,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "smittys-car-wash",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "sopfeu",
+    "previous_urls_retained": 5,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "transcol",
+    "previous_urls_retained": 10,
+    "new_urls": 2,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "transport-laberge",
+    "previous_urls_retained": 10,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "transport-lemieux",
+    "previous_urls_retained": 10,
+    "new_urls": 2,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "xdi-energy",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "acces-industriel",
+    "previous_urls_retained": 10,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "air-inuit",
+    "previous_urls_retained": 12,
+    "new_urls": 13,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "amisco",
+    "previous_urls_retained": 7,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "artopex",
+    "previous_urls_retained": 9,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "avianor",
+    "previous_urls_retained": 20,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "canadel",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "chrono-aviation",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "duroking",
+    "previous_urls_retained": 24,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "groupe-mundial",
+    "previous_urls_retained": 6,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "houle-electric",
+    "previous_urls_retained": 30,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "infrastructel",
+    "previous_urls_retained": 7,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "keilhauer",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "leclerc",
+    "previous_urls_retained": 30,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "lemaymichaud",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "meridian-lightweight-technologies",
+    "previous_urls_retained": 20,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "nanoxplore",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "nolinor",
+    "previous_urls_retained": 14,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "polykar",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "provencher-roy",
+    "previous_urls_retained": 8,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "rimap-hospitality",
+    "previous_urls_retained": 10,
+    "new_urls": 39,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "solmatech",
+    "previous_urls_retained": 10,
+    "new_urls": 7,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "st-denis-thompson",
+    "previous_urls_retained": 14,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "verbom",
+    "previous_urls_retained": 10,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "vicwest",
+    "previous_urls_retained": 2,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  },
+  {
+    "id": "wiptec",
+    "previous_urls_retained": 1,
+    "new_urls": 0,
+    "listing_complete": true,
+    "pending_continuation": false
+  }
+]

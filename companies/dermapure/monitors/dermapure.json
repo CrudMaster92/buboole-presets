@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "dermapure",
   "company_id": "dermapure",
-  "revision": 1,
+  "revision": 2,
   "label": "Dermapure public careers",
   "careers_url": "https://jobs.glowinthecloud.com/dermapure?l=en",
   "compatibility": {
@@ -12,17 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T20:21:28.183119+00:00",
-    "job_count": 10,
+    "checked_at": "2026-10-27T23:09:33.982393+00:00",
+    "job_count": 35,
     "warnings": [
-      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
-      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
-      "description detail enrichment was incomplete for 3 jobs"
+      "description detail enrichment was incomplete for 34 jobs"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Dermapure",
     "careers_url": "https://jobs.glowinthecloud.com/dermapure?l=en",
     "strategy": "generic_html",
@@ -41,11 +39,11 @@
       "max_response_bytes": 10000000
     },
     "pagination": {
-      "kind": "none",
-      "parameter": null,
+      "kind": "page",
+      "parameter": "page",
       "page_size_parameter": null,
-      "page_size": 25,
-      "max_pages": 1,
+      "page_size": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -57,8 +55,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "houle-electric",
   "company_id": "houle-electric",
-  "revision": 1,
+  "revision": 2,
   "label": "Houle Electric public careers",
   "careers_url": "https://houle.prevueaps.com/iframe/mobile/",
   "compatibility": {
@@ -12,17 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T19:44:49.961884+00:00",
+    "checked_at": "2026-10-27T23:10:14.864970+00:00",
     "job_count": 30,
     "warnings": [
-      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
-      "description detail enrichment skipped 27 jobs after the configured 3-posting limit",
-      "description detail enrichment was incomplete for 3 jobs"
+      "description detail enrichment was incomplete for 30 jobs"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Houle Electric",
     "careers_url": "https://houle.prevueaps.com/iframe/mobile/",
     "strategy": "generic_html",
@@ -45,7 +43,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -57,8 +55,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

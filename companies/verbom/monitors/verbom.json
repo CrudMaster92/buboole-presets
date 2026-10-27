@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "verbom",
   "company_id": "verbom",
-  "revision": 1,
+  "revision": 2,
   "label": "Verbom public careers",
   "careers_url": "https://verbominc.easyapply.co/",
   "compatibility": {
@@ -12,16 +12,13 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T19:44:42.560560+00:00",
+    "checked_at": "2026-10-27T23:10:33.700525+00:00",
     "job_count": 10,
-    "warnings": [
-      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
-      "description detail enrichment skipped 7 jobs after the configured 3-posting limit"
-    ]
+    "warnings": []
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Verbom",
     "careers_url": "https://verbominc.easyapply.co/",
     "strategy": "generic_html",
@@ -45,7 +42,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -55,8 +52,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "rimap-hospitality",
   "company_id": "rimap-hospitality",
-  "revision": 1,
+  "revision": 2,
   "label": "RIMAP Hospitality public careers",
   "careers_url": "https://jobs.glowinthecloud.com/rimap-hospitality?l=en",
   "compatibility": {
@@ -12,17 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T19:45:49.705536+00:00",
-    "job_count": 10,
+    "checked_at": "2026-10-27T23:10:33.457408+00:00",
+    "job_count": 49,
     "warnings": [
-      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
-      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
-      "description detail enrichment was incomplete for 1 jobs"
+      "description detail enrichment was incomplete for 34 jobs"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "RIMAP Hospitality",
     "careers_url": "https://jobs.glowinthecloud.com/rimap-hospitality?l=en",
     "strategy": "generic_html",
@@ -41,11 +39,11 @@
       "max_response_bytes": 20000000
     },
     "pagination": {
-      "kind": "none",
-      "parameter": null,
+      "kind": "page",
+      "parameter": "page",
       "page_size_parameter": null,
-      "page_size": 25,
-      "max_pages": 1,
+      "page_size": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -57,8 +55,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

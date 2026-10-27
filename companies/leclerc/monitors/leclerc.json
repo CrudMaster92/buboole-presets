@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "leclerc",
   "company_id": "leclerc",
-  "revision": 1,
+  "revision": 2,
   "label": "Leclerc Foods public careers",
   "careers_url": "https://leclerc.ca/en/jobs/",
   "compatibility": {
@@ -12,17 +12,15 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T19:44:32.256632+00:00",
+    "checked_at": "2026-10-27T23:11:50.432656+00:00",
     "job_count": 30,
     "warnings": [
-      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
-      "description detail enrichment skipped 27 jobs after the configured 3-posting limit",
-      "description detail enrichment was incomplete for 3 jobs"
+      "description detail enrichment was incomplete for 30 jobs"
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Leclerc Foods",
     "careers_url": "https://leclerc.ca/en/jobs/",
     "strategy": "generic_html",
@@ -45,7 +43,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -56,8 +54,7 @@
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

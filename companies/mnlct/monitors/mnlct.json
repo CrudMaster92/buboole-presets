@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "mnlct",
   "company_id": "mnlct",
-  "revision": 1,
+  "revision": 2,
   "label": "Mennonite New Life Centre public careers",
   "careers_url": "https://mnlct.easyapply.co/",
   "compatibility": {
@@ -12,15 +12,13 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T21:14:59.865439+00:00",
+    "checked_at": "2026-10-27T23:09:51.499180+00:00",
     "job_count": 1,
-    "warnings": [
-      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
-    ]
+    "warnings": []
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Mennonite New Life Centre",
     "careers_url": "https://mnlct.easyapply.co/",
     "strategy": "generic_html",
@@ -44,7 +42,7 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "selectors": {
@@ -52,13 +50,11 @@
       "title": "h5 a",
       "link": "h5 a",
       "location": ".tag:has(i.fa-map-marker)",
-      "employment_type": ".tag:has(i.fa-clock-o)",
-      "description": "p.no_word_break"
+      "employment_type": ".tag:has(i.fa-clock-o)"
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 3
+      "partial_listing": false
     }
   }
 }

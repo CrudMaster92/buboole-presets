@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-27T23:12:33.209041+00:00",
+  "catalog_validation": "passed",
+  "catalog_build": {
+    "companies": 1320,
+    "monitors": 1204,
+    "collections": 22
+  },
+  "catalog_tests": 11,
+  "collector_tests": 202,
+  "runtime_export_check": "passed; 51 unchanged generated files",
+  "live_monitors": 76,
+  "employers": 75,
+  "all_listing_traversals_complete": true,
+  "previous_urls_retained": 655,
+  "additional_urls": 126,
+  "total_records": 781,
+  "all_max_pages_null": true,
+  "description_attempt_quotas": false
+}
