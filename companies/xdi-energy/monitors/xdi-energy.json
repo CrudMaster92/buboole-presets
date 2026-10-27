@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "xdi-energy",
+  "company_id": "xdi-energy",
+  "revision": 1,
+  "label": "XDI Energy Solutions public careers",
+  "careers_url": "https://xdienergy.easyapply.co/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T21:15:01.775304+00:00",
+    "job_count": 1,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "XDI Energy Solutions",
+    "careers_url": "https://xdienergy.easyapply.co/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "xdienergy.easyapply.co",
+      "easyapply.co"
+    ],
+    "request": {
+      "url": "https://xdienergy.easyapply.co/",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "a.job_row",
+      "title": ".font_18",
+      "link": ":scope",
+      "location": "p:has(i.icon-map-marker) span",
+      "description": "p.font_14"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mccord-stewart",
+  "name": "Musée McCord Stewart",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.musee-mccord-stewart.ca/fr/emplois-et-stages/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "museums"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

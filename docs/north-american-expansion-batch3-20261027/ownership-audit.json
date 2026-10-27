@@ -1,0 +1,187 @@
+{
+  "checks": [
+    {
+      "id": "ljl-mecanique",
+      "selected_cards": 8,
+      "returned_jobs": 8,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "8641e0107ef685310814b56781d73b17138e9b552b24d71c9ded2394f23f8ff5"
+    },
+    {
+      "id": "sante-arbec",
+      "selected_cards": 26,
+      "returned_jobs": 26,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "89b64c6536b05679cc5cbd06bda78e6844420b540a82b530a2ef1f07f726e1ca"
+    },
+    {
+      "id": "loiselle",
+      "selected_cards": 8,
+      "returned_jobs": 8,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "3db1b59bbdae9e01437683b8a62d0f2936a92bfb9dd4d2ca91fffa8d56345a96"
+    },
+    {
+      "id": "cssdhr",
+      "selected_cards": 18,
+      "returned_jobs": 18,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "a74b169550f2e59aa486012474bfd36c921afdddc2d25002dc7aa1912c77ff28"
+    },
+    {
+      "id": "madysta",
+      "selected_cards": 5,
+      "returned_jobs": 5,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "4ba402ce12d853e7e328d812592f0167d44c7106ad69fc55e82dc274f5c20788"
+    },
+    {
+      "id": "transport-laberge",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "56fdb280cc27c569582ba5fb6b558f266ffddce7c1cc71353f4a93bb49d2c433"
+    },
+    {
+      "id": "communaute-metropolitaine-montreal",
+      "selected_cards": 2,
+      "returned_jobs": 2,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "c04d942b2a9b79d70b58355809b498d19c68b8b65e449cc56752b035f31ee916"
+    },
+    {
+      "id": "ripplecove",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "f11e93ba8b31aa849adbc78e4d786a5dd03c025e2ed30d11778342e5e5ef226f"
+    },
+    {
+      "id": "mccord-stewart",
+      "selected_cards": 2,
+      "returned_jobs": 2,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "537e964df3268bd859d8f556ae3b703f211c060153c220fe4b77a4a5be9b8c5f"
+    },
+    {
+      "id": "quebec-international",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "05c6633bb3a5ea2cac11f5178cbf0bbc02821d1d1de5ab71dc4e30fa0eb4a981"
+    },
+    {
+      "id": "port-montreal",
+      "selected_cards": 8,
+      "returned_jobs": 8,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "c37921c393ec836189c1e81ffe19d5b720617dc7ddf616afe672845ab3752df8"
+    },
+    {
+      "id": "transcol",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "f6e6c81e1c3a0d0e28f961e0acc284791d85c4cc25a97efe67310a3f9a28a2d1"
+    },
+    {
+      "id": "transport-lemieux",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "3474b30c284476e3339e59e0704a8fd5e9fc3bf16d7eaf09376c5fbb0bcfaf48"
+    },
+    {
+      "id": "sopfeu",
+      "selected_cards": 5,
+      "returned_jobs": 5,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "6c3f492628e0fe1422dddfc07cb9bebc66f0a5a691abd004a93ba0649eb0120e"
+    },
+    {
+      "id": "ropack",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "767e03df931a1dd177fc1b42d0f771231bd12c281065a970e052fa6de651f63f"
+    },
+    {
+      "id": "pavages-metropolitain",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "9632102f268123fd9fa94e1b94e5e5fdaf9bd02c578d7c6ab4695f6bd0c3ac84"
+    },
+    {
+      "id": "deloupe",
+      "selected_cards": 7,
+      "returned_jobs": 7,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "4c84a7c5789245acafde9e07f55d9734ddd12d340243b338c96528612bd32793"
+    },
+    {
+      "id": "groupe-contant",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "72b0e34551ed0bda3756ad4c4244be3c3cf794b4c602327fbca1fd894ac562c1"
+    },
+    {
+      "id": "office-interiors",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "17de5a47cbb0480883a70fb3446fedad540fd61c53f01f5851a8f0bc0422f5d3"
+    },
+    {
+      "id": "robertson-college",
+      "selected_cards": 10,
+      "returned_jobs": 10,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "3f2662d528cd3d03638c2fa494952aa6dd892df0146db6b6b2dd4a54dfab532c"
+    },
+    {
+      "id": "nts-amega",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "3e8ad5daec5851a8f123b4125db6cebb3b966167cd8125d4573781c95fac0bed"
+    },
+    {
+      "id": "xdi-energy",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "790c76505f1a16e76b9e5f720de5e5a51943f3291077051d7629ed4d7ef0c92a"
+    },
+    {
+      "id": "call-center-guys",
+      "selected_cards": 2,
+      "returned_jobs": 2,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "227cf8335892cee4ed7ca6efd703dc25a2f60bbdbd72dfc4133595dd2fb9cea5"
+    },
+    {
+      "id": "smittys-car-wash",
+      "selected_cards": 2,
+      "returned_jobs": 2,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "b5ce8cbc2b8da10e31d8bb5f520a9ca45e2b42acee8c71709e91831899d4b19a"
+    },
+    {
+      "id": "mnlct",
+      "selected_cards": 1,
+      "returned_jobs": 1,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "8789a5404c679ff1b6747863a5067d6dbaa36da75431ad9243f87a11e2d54512"
+    },
+    {
+      "id": "madysta-usa",
+      "selected_cards": 3,
+      "returned_jobs": 3,
+      "all_titles_and_urls_match_selected_cards": true,
+      "source_snapshot_sha256": "ae09908e6acedcc2ff4966d073c0f835c0f9a960fdcdfb99852d42ae61395671"
+    }
+  ],
+  "cross_monitor_url_duplicates": 0
+}

@@ -1,0 +1,217 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "north-american-employers-new-25-batch3-20261027",
+  "revision": 1,
+  "name": "25 More Employers — October 2026, Batch 3",
+  "description": "Twenty-five additional employer identities and 26 public source monitors, including separate Canada/USA boards for Madysta. Screened against the expanded catalog and current FreeHire directory/aliases. Coverage is explicitly partial.",
+  "tags": [
+    "Canada",
+    "USA",
+    "Hiring expansion",
+    "Batch 3"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      },
+      {
+        "city": "",
+        "region": "",
+        "country": "US"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "call-center-guys",
+      "monitor_ids": [
+        "call-center-guys"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "communaute-metropolitaine-montreal",
+      "monitor_ids": [
+        "communaute-metropolitaine-montreal"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "cssdhr",
+      "monitor_ids": [
+        "cssdhr"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "deloupe",
+      "monitor_ids": [
+        "deloupe"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "groupe-contant",
+      "monitor_ids": [
+        "groupe-contant"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "ljl-mecanique",
+      "monitor_ids": [
+        "ljl-mecanique"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "loiselle",
+      "monitor_ids": [
+        "loiselle"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "madysta",
+      "monitor_ids": [
+        "madysta",
+        "madysta-usa"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "mccord-stewart",
+      "monitor_ids": [
+        "mccord-stewart"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "mnlct",
+      "monitor_ids": [
+        "mnlct"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "nts-amega",
+      "monitor_ids": [
+        "nts-amega"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "office-interiors",
+      "monitor_ids": [
+        "office-interiors"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "pavages-metropolitain",
+      "monitor_ids": [
+        "pavages-metropolitain"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "port-montreal",
+      "monitor_ids": [
+        "port-montreal"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "quebec-international",
+      "monitor_ids": [
+        "quebec-international"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "ripplecove",
+      "monitor_ids": [
+        "ripplecove"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "robertson-college",
+      "monitor_ids": [
+        "robertson-college"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "ropack",
+      "monitor_ids": [
+        "ropack"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "sante-arbec",
+      "monitor_ids": [
+        "sante-arbec"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "smittys-car-wash",
+      "monitor_ids": [
+        "smittys-car-wash"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "sopfeu",
+      "monitor_ids": [
+        "sopfeu"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "transcol",
+      "monitor_ids": [
+        "transcol"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "transport-laberge",
+      "monitor_ids": [
+        "transport-laberge"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "transport-lemieux",
+      "monitor_ids": [
+        "transport-lemieux"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "xdi-energy",
+      "monitor_ids": [
+        "xdi-energy"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    }
+  ]
+}

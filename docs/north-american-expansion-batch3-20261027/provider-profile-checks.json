@@ -1,0 +1,606 @@
+[
+  {
+    "slug": "golden-state-medical-supply",
+    "url": "https://freehire.me/api/v1/companies/golden-state-medical-supply?limit=100",
+    "checked_at": "2026-10-27T21:13:31.833986+00:00",
+    "company": "Golden State Medical Supply",
+    "jobs": [
+      {
+        "title": "Sr. Business Development Analyst",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a78879ea15447f701a17901625b75fd&utm_source=freehire.me",
+        "location": "Camarillo, CA"
+      },
+      {
+        "title": "Sr. Buyer",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a78839ea150ae2901a155df9f5605fc&utm_source=freehire.me",
+        "location": "Camarillo, CA"
+      },
+      {
+        "title": "Supervisor, Packaging - 1st Shift (Machine Operations)",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a78879ea133543701a13b85dc666eb6&utm_source=freehire.me",
+        "location": "Camarillo, CA"
+      },
+      {
+        "title": "Sales Operations Manager",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a7887a1a0f425da01a0fe133d34010d&utm_source=freehire.me",
+        "location": "Camarillo, CA"
+      },
+      {
+        "title": "Sales Operations Analyst",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a7887a1a0f425da01a0fe113e430008&utm_source=freehire.me",
+        "location": "Camarillo, CA"
+      },
+      {
+        "title": "Federal Account Manager - West Coast",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d095e5298a0195f28e86970a5a&id=8a78859f9fd3baa001a0342bc96274cd&utm_source=freehire.me",
+        "location": "Los Angeles, CA"
+      }
+    ]
+  },
+  {
+    "slug": "nts",
+    "url": "https://freehire.me/api/v1/companies/nts?limit=100",
+    "checked_at": "2026-10-27T21:13:35.276245+00:00",
+    "company": "nts",
+    "jobs": [
+      {
+        "title": "TIG WELDER | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/tig-welder-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Head of Supply Chain Management | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/head-of-supply-chain-management-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Team Lead/Lead Engineer - Optical Engineering | NTS Optel",
+        "source_url": "https://nts.recruitee.com/o/team-leadlead-engineer-optical-engineering-nts-optel?utm_source=freehire.me",
+        "location": "Nijmegen, Gelderland, Netherlands"
+      },
+      {
+        "title": "Industrial Parts Washing Operator",
+        "source_url": "https://nts.recruitee.com/o/productiemedewerker-wasstraat-1?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Supplier Quality Engineer",
+        "source_url": "https://nts.recruitee.com/o/supplier-quality-engineer-3?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Project Manager NPI | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/project-manager-npi-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "TIG WELDER",
+        "source_url": "https://nts.recruitee.com/o/tig-welder-6?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "CNC EDM Machinist | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/cnc-vonkverspaner-nts-hengelo-1?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Procurement Manager | NTS Eindhoven - Mechatronics Assembly",
+        "source_url": "https://nts.recruitee.com/o/manager-inkoop-nts-eindhoven-mechatronics-assembly?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Operations Planner | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/operations-planner-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Salarisadministrateur | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/salarisadministrateur-nts-eindhoven?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "QA LEAD (CSG)",
+        "source_url": "https://nts.recruitee.com/o/qa-lead-csg?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "QA LEAD - Mechatronics | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/qa-lead-mechatronics-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Operational Excellence Lead | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/operational-excellence-lead-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Recruitment Business Partner | NTS Group",
+        "source_url": "https://nts.recruitee.com/o/recruitment-business-partner-nts-group?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Manufacturing Engineer Machining | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/werkvoorbereider-verspaning-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Mechanical Assembler",
+        "source_url": "https://nts.recruitee.com/o/mechanical-assembler-10?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Head of HR | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/head-of-hr-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Procurement Team Lead",
+        "source_url": "https://nts.recruitee.com/o/procurement-team-lead?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Project Buyer | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/project-buyer-nts-eindhoven-2?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Project Manager NPI | NTS Eindhoven - Mechatronics Assembly",
+        "source_url": "https://nts.recruitee.com/o/project-manager-npi-nts-eindhoven-mechatronics-assembly?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Manufacturing Engineer | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/manufacturing-engineer-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Assembly Technician Cleanroom | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/assemblagemedewerker-cleanroom-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Manufacturing Engineer NPI | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/manufacturing-engineer-npi-nts-eindhoven?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Skladník",
+        "source_url": "https://nts.recruitee.com/o/skladnik?utm_source=freehire.me",
+        "location": "Brno, Jihomoravský kraj, Czechia"
+      },
+      {
+        "title": "Purchasing Team Lead | Material Readiness Planner | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/purchasing-team-lead-material-readiness-planner-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "HR Specialist (TA focus)",
+        "source_url": "https://nts.recruitee.com/o/hr-specialist-ta-focus?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "HR Business Partner | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/hr-business-partner-nts-eindhoven?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Mechanical Technician",
+        "source_url": "https://nts.recruitee.com/o/mechanical-technician-1?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Bender",
+        "source_url": "https://nts.recruitee.com/o/bender-1?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Assembly Technician",
+        "source_url": "https://nts.recruitee.com/o/assembly-technician-21?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Optical Design Engineer | NTS Optel",
+        "source_url": "https://nts.recruitee.com/o/optical-design-engineer-nts-optel?utm_source=freehire.me",
+        "location": "Nijmegen, Gelderland, Netherlands"
+      },
+      {
+        "title": "QA Inspector (UV Inspection and Packaging)",
+        "source_url": "https://nts.recruitee.com/o/qa-inspector-uv-inspection-and-packaging?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "CNC Turner / Programmer | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/cnc-draaier-programmeur-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Project Buyer | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/project-inkoper-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Project Manager | NTS Optel",
+        "source_url": "https://nts.recruitee.com/o/project-manager-nts-optel?utm_source=freehire.me",
+        "location": "Nijmegen, Gelderland, Netherlands"
+      },
+      {
+        "title": "Buyer Maintenance & Tools (NPR) | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/inkoper-maintenance-gereedschappen-npr-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Configuration & Logistics Engineer | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/configuration-logistics-engineer-nts-hengelo-1?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Teamlead Production | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/teamleider-productie-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Operational Buyer/Outsourcing Specialist",
+        "source_url": "https://nts.recruitee.com/o/operationeel-inkoper-uitbestedingen-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Wire EDM Operator | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/draadvonker-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "BBL-leerling Verspaning (VIP-traject) | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/bbl-leerling-verspaning-vip-traject-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Internships / Graduation | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/stages-afstuderen-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "QA Inspector | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/qa-inspector-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Customer Service Executive",
+        "source_url": "https://nts.recruitee.com/o/customer-service-executive-2?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Supplier Quality Engineer | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/supplier-quality-engineer-1?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Supplier Development Manager | NTS Eindhoven HQ",
+        "source_url": "https://nts.recruitee.com/o/supplier-development-manager-nts-eindhoven-hq?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Category Manager - Mechanics | NTS Eindhoven HQ",
+        "source_url": "https://nts.recruitee.com/o/category-manager-mechanics-nts-eindhoven-hq?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Tactical buyer | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/tactisch-inkoper-nts-eindhoven?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Productie Planner | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/productie-planner-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "CNC Draaier | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/cnc-draaier-nts-drachten-1?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "CNC Frezer | NTS Drachten",
+        "source_url": "https://nts.recruitee.com/o/cnc-frezer-nts-drachten?utm_source=freehire.me",
+        "location": "Drachten, Fryslân, Netherlands"
+      },
+      {
+        "title": "Head of NPI Engineering and Project Management | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/head-of-npi-engineering-and-project-management-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "Applied Optics Internship | Interferometric Focus Sensor | NTS Optel",
+        "source_url": "https://nts.recruitee.com/o/applied-optics-internship-interferometric-focus-sensor-nts-optel?utm_source=freehire.me",
+        "location": "Nijmegen, Gelderland, Netherlands"
+      },
+      {
+        "title": "Applied Physics Internship | Structured illumination depth sensor | NTS Optel",
+        "source_url": "https://nts.recruitee.com/o/applied-physics-internship-structured-illumination-depth-sensor-nts-optel?utm_source=freehire.me",
+        "location": "Nijmegen, Gelderland, Netherlands"
+      },
+      {
+        "title": "CNC Milling Machine Operator/Programmer | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/cnc-frezerprogrammeur-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Assembly Technician (Cleanroom) | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/assemblagemonteur-cleanroom-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Productiemedewerker Nabewerking | NTS Helmond",
+        "source_url": "https://nts.recruitee.com/o/productiemedewerker-nabewerking-nts-helmond?utm_source=freehire.me",
+        "location": "Helmond, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "CNC Operator | NTS Helmond",
+        "source_url": "https://nts.recruitee.com/o/cnc-operator-nts-helmond-5?utm_source=freehire.me",
+        "location": "Helmond, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "Assembly Monteur Electro | NTS Brno",
+        "source_url": "https://nts.recruitee.com/o/assembly-monteur-electro-nts-brno?utm_source=freehire.me",
+        "location": "Brno, Jihomoravský kraj, Czechia"
+      },
+      {
+        "title": "Planning Team Lead | NTS Singapore",
+        "source_url": "https://nts.recruitee.com/o/planning-team-lead-nts-singapore?utm_source=freehire.me",
+        "location": "Singapore, Central Singapore, Singapore"
+      },
+      {
+        "title": "CNC soustružník - náborový příspěvek 80 000,- Kč",
+        "source_url": "https://nts.recruitee.com/o/cnc-soustruznik-naborovy-prispevek-80-000-kc?utm_source=freehire.me",
+        "location": "Slavičín, Zlínský kraj, Czechia"
+      },
+      {
+        "title": "CNC Frézař - náborový příspěvek 80 000,- Kč",
+        "source_url": "https://nts.recruitee.com/o/cnc-frezar-naborovy-prispevek-80-000-kc?utm_source=freehire.me",
+        "location": "Slavičín, Zlínský kraj, Czechia"
+      },
+      {
+        "title": "Svářeč - náborový příspěvek 50.000,- Kč",
+        "source_url": "https://nts.recruitee.com/o/svarec-naborovy-prispevek-50000-kc?utm_source=freehire.me",
+        "location": "Slavičín, Zlínský kraj, Czechia"
+      },
+      {
+        "title": "CNC Operator | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/cnc-operator-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "CNC Miller 5-axis | NTS Eindhoven - Precision Machining",
+        "source_url": "https://nts.recruitee.com/o/cnc-frezer-5-assig-nts-eindhoven-precision-machining?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      },
+      {
+        "title": "CNC Turner | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/cnc-draaier-nts-hengelo-1?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "CNC Miller | NTS Hengelo",
+        "source_url": "https://nts.recruitee.com/o/cnc-frezer-5-assig-nts-hengelo?utm_source=freehire.me",
+        "location": "Hengelo, Overijssel, Netherlands"
+      },
+      {
+        "title": "Production Manager | NTS Eindhoven",
+        "source_url": "https://nts.recruitee.com/o/productie-manager-nts-eindhoven?utm_source=freehire.me",
+        "location": "Eindhoven, Noord-Brabant, Netherlands"
+      }
+    ]
+  },
+  {
+    "slug": "above-security",
+    "url": "https://freehire.me/api/v1/companies/above-security?limit=100",
+    "checked_at": "2026-10-27T21:13:31.679459+00:00",
+    "company": "Above Security",
+    "jobs": [
+      {
+        "title": "Senior Software Engineer - Platform",
+        "source_url": "https://www.comeet.com/jobs/abovesecurity/FA.00D/senior-software-engineer---platform/8E.F66?utm_source=freehire.me",
+        "location": "Tel Aviv-Yafo, Tel Aviv District"
+      },
+      {
+        "title": "Senior Full-Stack Engineer",
+        "source_url": "https://www.comeet.com/jobs/abovesecurity/FA.00D/senior-full-stack-engineer/C3.A63?utm_source=freehire.me",
+        "location": "Tel Aviv-Yafo, Tel Aviv District"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "source_url": "https://www.comeet.com/jobs/abovesecurity/FA.00D/senior-ai-engineer/34.76A?utm_source=freehire.me",
+        "location": "Tel Aviv-Yafo, Tel Aviv District"
+      }
+    ]
+  },
+  {
+    "slug": "safecor-health",
+    "url": "https://freehire.me/api/v1/companies/safecor-health?limit=100",
+    "checked_at": "2026-10-27T21:13:31.838644+00:00",
+    "company": "Safecor Health",
+    "jobs": [
+      {
+        "title": "Senior Quality and Regulatory Manager",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/172467?utm_source=freehire.me",
+        "location": "Woburn MA - WOBURN, MA 01801"
+      },
+      {
+        "title": " Production Lead - 1st Shift 7am - 3:30pm",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/172440?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "Warehouse & Shipping Coordinator",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/172270?utm_source=freehire.me",
+        "location": "Woburn MA - WOBURN, MA 01801"
+      },
+      {
+        "title": "Production Supervisor (2nd Shift)",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171111?utm_source=freehire.me",
+        "location": "Rockford IL - Rockford, IL 61103"
+      },
+      {
+        "title": "Production Supervisor",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/170641?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "Pharmaceutical Production Technician ",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171099?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "2nd Shift Pharmaceutical Production Technician 3:45pm - 12:15am",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171104?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "Production Technician (2nd Shift)",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171117?utm_source=freehire.me",
+        "location": "Rockford IL - Rockford, IL 61103"
+      },
+      {
+        "title": " CNC Programmer/Tool and Die Maker (Machinist)",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171127?utm_source=freehire.me",
+        "location": "Rockford IL - Rockford, IL 61103"
+      },
+      {
+        "title": "Quality Operations Specialist, 1st Shift (6:00am-2:30pm)",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/171085?utm_source=freehire.me",
+        "location": "Woburn MA - WOBURN, MA 01801"
+      },
+      {
+        "title": "Production Technician (1st Shift)",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/170976?utm_source=freehire.me",
+        "location": "Rockford IL - Rockford, IL 61103"
+      },
+      {
+        "title": "Quality Operations Specialist",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/170806?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "Customer Service Specialist",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/170634?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      },
+      {
+        "title": "Pharmaceutical Production Technician - 2nd Shift, 3:30pm-12:00am",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/169695?utm_source=freehire.me",
+        "location": "Woburn MA - WOBURN, MA 01801"
+      },
+      {
+        "title": "Pharmaceutical Production Technician - 1st Shift, 7:00am-3:30pm",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/169339?utm_source=freehire.me",
+        "location": "Woburn MA - WOBURN, MA 01801"
+      },
+      {
+        "title": "Supervisor, Quality Operations - 2nd Shift 3:45pm-12:15am",
+        "source_url": "https://www.paycomonline.net/v4/ats/web.php/portal/90db6e6b19a2f93be5a0982939481db3/jobs/168150?utm_source=freehire.me",
+        "location": "Columbus OH - Columbus, OH 43204"
+      }
+    ]
+  },
+  {
+    "slug": "pine-pharmaceuticals",
+    "url": "https://freehire.me/api/v1/companies/pine-pharmaceuticals?limit=100",
+    "checked_at": "2026-10-27T21:13:31.633356+00:00",
+    "company": "Pine Pharmaceuticals",
+    "jobs": [
+      {
+        "title": "Production Operator I",
+        "source_url": "https://pinepharmaceuticals.bamboohr.com/careers/171?utm_source=freehire.me",
+        "location": "Tonawanda, New York, United States"
+      },
+      {
+        "title": "Aseptic Preparation Operator",
+        "source_url": "https://pinepharmaceuticals.bamboohr.com/careers/173?utm_source=freehire.me",
+        "location": "Tonawanda, New York, United States"
+      },
+      {
+        "title": "Maintenance Engineering Supervisor",
+        "source_url": "https://pinepharmaceuticals.bamboohr.com/careers/170?utm_source=freehire.me",
+        "location": "Tonawanda, New York, United States"
+      }
+    ]
+  },
+  {
+    "slug": "contemporary-office-interiors",
+    "url": "https://freehire.me/api/v1/companies/contemporary-office-interiors?limit=100",
+    "checked_at": "2026-10-27T21:13:34.714170+00:00",
+    "company": "Contemporary Office Interiors Ltd",
+    "jobs": [
+      {
+        "title": "Account Manager, Window Coverings",
+        "source_url": "https://easyapply.co/job/account-manager-695?utm_source=freehire.me",
+        "location": "Toronto, ON"
+      },
+      {
+        "title": "Project Manager",
+        "source_url": "https://easyapply.co/job/project-manager-1083?utm_source=freehire.me",
+        "location": "Vancouver, BC"
+      },
+      {
+        "title": "Field Supervisor",
+        "source_url": "https://easyapply.co/job/field-supervisor-41?utm_source=freehire.me",
+        "location": "Vancouver, BC"
+      }
+    ]
+  },
+  {
+    "slug": "smittysinc",
+    "url": "https://freehire.me/api/v1/companies/smittysinc?limit=100",
+    "checked_at": "2026-10-27T21:13:34.716217+00:00",
+    "company": "smittysinc",
+    "jobs": [
+      {
+        "title": "Security Guard",
+        "source_url": "https://smittysinc.isolvedhire.com/jobs/1879006?utm_source=freehire.me",
+        "location": "Roseland, LA, US"
+      },
+      {
+        "title": "Warehouse Operator",
+        "source_url": "https://smittysinc.isolvedhire.com/jobs/1864161?utm_source=freehire.me",
+        "location": "Roseland, LA, US"
+      },
+      {
+        "title": "Production Line Operators",
+        "source_url": "https://smittysinc.isolvedhire.com/jobs/1864152?utm_source=freehire.me",
+        "location": "Roseland, LA, US"
+      }
+    ]
+  },
+  {
+    "slug": "lemieux-et-cie",
+    "url": "https://freehire.me/api/v1/companies/lemieux-et-cie?limit=100",
+    "checked_at": "2026-10-27T21:13:34.719004+00:00",
+    "company": "Lemieux et Cie",
+    "jobs": []
+  },
+  {
+    "slug": "ccg",
+    "url": "https://freehire.me/api/v1/companies/ccg?limit=100",
+    "checked_at": "2026-10-27T21:17:06.194344+00:00",
+    "company": "CCG",
+    "jobs": [
+      {
+        "title": "Director of Business Development",
+        "source_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68c602471018c7802522918d7&id=8a7883ac9cbb2ae3019cbf54e9811d06&utm_source=freehire.me",
+        "location": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
+    "slug": "ropac",
+    "url": "https://freehire.me/api/v1/companies/ropac?limit=100",
+    "checked_at": "2026-10-27T21:13:31.631265+00:00",
+    "company": "Ropac",
+    "jobs": [
+      {
+        "title": "Iron Worker ALABAMA",
+        "source_url": "https://seaa-careers.careerplug.com/jobs/3595316?utm_source=freehire.me",
+        "location": "Deatsville, AL, US"
+      }
+    ]
+  }
+]

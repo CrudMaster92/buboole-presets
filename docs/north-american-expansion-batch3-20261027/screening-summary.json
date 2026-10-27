@@ -1,0 +1,17 @@
+{
+  "catalog_baseline": "46e983f03c40601398167737c8a823dff90aeedb",
+  "directory_completed_at": "2026-10-27T21:12:13.642844+00:00",
+  "directory_source": "https://freehire.me/api/v1/companies/sitemap",
+  "nonempty_pages": 44,
+  "page_size": 10000,
+  "terminal_empty_offset": 440000,
+  "unique_slugs": 438158,
+  "directory_sha256": "11cf7091bb817eeb0d60e1ceb8a67ded3c0072d95ccabb7bf38979264f5ecce5",
+  "companies": 25,
+  "monitors": 26,
+  "observed_source_records": 172,
+  "both_country_employers": [
+    "madysta"
+  ],
+  "caveat": "Mutable directory and fuzzy searches: no matching employer found is a point-in-time review, not a guarantee against all intermediary postings or unknown spellings."
+}

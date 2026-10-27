@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "quebec-international",
+  "name": "Québec International",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.quebecinternational.ca/fr/a-propos-de-nous/nos-carrieres",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "economic-development"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-27T21:19:58.666905+00:00",
+  "checks": [
+    {
+      "command": "python scripts/validate_presets.py",
+      "result": "passed; optional legacy imports: 0"
+    },
+    {
+      "command": "python scripts/build_catalog.py",
+      "result": "passed; 1320 companies, 1204 monitors, 22 collections"
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "result": "11 passed"
+    },
+    {
+      "command": "python -m server.public_jobs.export --destination . --check",
+      "result": "passed; 51 files; runtime revision f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97"
+    },
+    {
+      "command": "python -m pytest tests -q",
+      "result": "202 passed"
+    },
+    {
+      "command": "real run_scraper live requests for all new recipes",
+      "result": "26 sources; 25 employer identities; 172 records"
+    },
+    {
+      "command": "source card identity/title/URL audit",
+      "result": "all 172 matched; zero cross-monitor duplicate URLs"
+    },
+    {
+      "command": "baseline identity and request URL novelty audit",
+      "result": "25 identities and 26 request URLs absent from the expanded baseline"
+    }
+  ]
+}

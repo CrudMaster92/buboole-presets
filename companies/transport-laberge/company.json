@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "transport-laberge",
+  "name": "Transport Laberge",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://transportlaberge.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "transportation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

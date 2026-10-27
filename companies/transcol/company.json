@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "transcol",
+  "name": "Transcol",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jobs.glowinthecloud.com/transcol?l=en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "transportation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

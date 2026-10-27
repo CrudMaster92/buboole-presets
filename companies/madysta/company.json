@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "madysta",
+  "name": "Groupe Madysta",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jobs.glowinthecloud.com/groupemadysta?l=en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "telecommunications"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

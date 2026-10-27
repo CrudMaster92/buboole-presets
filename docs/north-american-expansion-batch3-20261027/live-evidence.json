@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "ljl-mecanique",
+    "company_id": "ljl-mecanique",
+    "name": "LJL Mécanique",
+    "checked_at": "2026-10-27T21:14:46.303705+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Only cards with a Client label containing LJL are admitted. Agnico-Eagle-labelled client placements are excluded."
+    ],
+    "jobs": [
+      {
+        "title": "Chargé(e) de projets",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20261005001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy Duty Equipment Technician",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260916002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) industrielle - Secteur minier",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d’engins de chantier – secteur minier",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Acheteur(se)",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste - Soumission & Estimation",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260817002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur(se)",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20251128001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Machiniste - opérateur(trice) CNC",
+        "location": "Sainte-Germaine-Boulé, Quebec",
+        "source_url": "https://jobs.glowinthecloud.com/ljlmecanique/20260611001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "sante-arbec",
+    "company_id": "sante-arbec",
+    "name": "Groupe Santé Arbec",
+    "checked_at": "2026-10-27T21:14:46.164044+00:00",
+    "strategy": "generic_html",
+    "job_count": 26,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 23 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Technicien(ne) en administration - gestion des horaires",
+        "location": "8105, boul. Cousineau, Saint-Hubert, QC J3Z 0G6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261009003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) chef(fe) d'équipe",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261002002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) assistant au supérieur immédiat (ASI)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) chef(fe) d'équipe",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en administration - Ressources humaines, rémunération et avantages sociaux",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) administrative à la paie",
+        "location": "751 Rue Marcel-de la Sablonnière, Terrebonne, QC J6Y 1G5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à l'entretien des planchers multisite",
+        "location": "751 rue Marcel-de-la Sablonnière, Terrebonne",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260910002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef cuisinier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste financier(ère)",
+        "location": "751 Rue Marcel-de la Sablonnière, Terrebonne, QC J6Y 1G5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261015002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste en procédés administratifs",
+        "location": "751 Rue Marcel-de la Sablonnière, Terrebonne, QC J6Y 1G5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261015003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aide-cuisinier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cuisinier(ère) volant(e) (multisite)",
+        "location": "Terrebonne, J6Y 1G5",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261006003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) clinicien(ne) assistant(e) au supérieur immédiat",
+        "location": "1350 Bd Michèle-Bohec, Blainville, QC J7C 5S4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) aux bénéficiaires",
+        "location": "3931 Lakeshore Dr, Rawdon, QC J0K 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261006002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) chef(fe) d'équipe",
+        "location": "751 Rue Marcel-de la Sablonnière, Terrebonne, QC J6Y 1G5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) chef(fe) d'équipe",
+        "location": "300, rue du Docteur-Charles-Léonard, Saint-Jérôme, QC J7Y 0N2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260914001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) assistant(e) au supérieur immédiat",
+        "location": "300, rue du Docteur-Charles-Léonard, Saint-Jérôme, QC J7Y 0N2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260914003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) de la maintenance",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260928002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef(fe) des installations matérielles",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ergothérapeute",
+        "location": "1350 Bd Michèle-Bohec, Blainville, QC J7C 5Y3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260918002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technologue en physiothérapie",
+        "location": "300, rue du Docteur-Charles-Léonard, Saint-Jérôme, QC J7Y 0N2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260911003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technologue en physiothérapie",
+        "location": "3931 Lakeshore Dr, Rawdon, QC J0K 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260910003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "infirmier(ère) clinicien(ne) assistant(e) au supérieur immédiat",
+        "location": "3931 Lakeshore Dr, Rawdon, QC J0K 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260911002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) assistant(e) au supérieur immédiat",
+        "location": "3931 Lakeshore Dr, Rawdon, QC J0K 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Diététiste- nutritionniste",
+        "location": "1440, boul. Iberville, Repentigny, QC J5Y 4G2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260909003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmier(ère) chef(fe) d'équipe",
+        "location": "3931 Lakeshore Dr, Rawdon, QC J0K 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsgroupesantearbeccomemplois/20260619007?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "loiselle",
+    "company_id": "loiselle",
+    "name": "Groupe Loiselle",
+    "checked_at": "2026-10-27T21:14:45.037646+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Chargé de projets | Génie civil",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur déneigement - A20-520",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260918005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaitre en excavation",
+        "location": "Grand Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260909002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "DRIVER SNOW PLOW HIGHWAY 174 (OTTAWA)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260918003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre CCQ",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260918001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur pelle mécanique CCQ",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260918002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur",
+        "location": "Rive-Sud",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260821001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur loader CCQ",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/loiselle/20260813002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "cssdhr",
+    "company_id": "cssdhr",
+    "name": "Centre de services scolaire des Hautes-Rivières",
+    "checked_at": "2026-10-27T21:14:45.460470+00:00",
+    "strategy": "generic_html",
+    "job_count": 18,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 15 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Leadership succession program and substitute candidate bank are excluded; advertised replacement and on-call opportunities remain included."
+    ],
+    "jobs": [
+      {
+        "title": "Éducateur·trice en milieu scolaire - Remplacement à temps complet de janvier à juin 2027 (départ à la retraite) - École des Prés-Verts",
+        "location": "Secteur St-Jean-sur-Richelieu",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien·ne e en travaux pratiques - Monseigneur-Euclide-Théberge",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ergothérapeute en milieu scolaire",
+        "location": "Secteur St-Jean-sur-Richelieu",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Tuyauteuse ou tuyauteur- Poste régulier",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260416001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Enseignant·e·s - Secondaire - Remplacements à moyen et long terme",
+        "location": "Secteur St-Jean-sur-Richelieu",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20250131001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ouvrier·ères d'entretien- Postes réguliers -École Saint-Lucien",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conciergerie et ouvriers d’entretien – remplacements- De soir",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20250303002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Concierge de soir - École professionnel des métiers",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261013002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller ou conseillère en communication",
+        "location": "Secteur St-Jean-sur-Richelieu",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261013004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préventionniste - Secteur santé et bien-être au travail",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20261013003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé·e aux élèves handicapés - Remplacements de moyenne et longue durée",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20250904002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien·ne en éducation spécialisée - Remplacements de moyenne et longue durée à pourvoir pour l'année scolaire 2026-2027",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260305002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Éducateur·trice en milieu scolaire - Remplacements ponctuels - Selon votre disponibilité",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260824001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Éducateur·trice en milieu scolaire - Remplacements de moyenne et longue durée à pourvoir pour l'année scolaire 2026-2027",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260305001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste - Approvisionnement",
+        "location": "Secteur St-Jean-sur-Richelieu",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260818001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Orthopédagogue professionnel∙le",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260610001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Orthophoniste en milieu scolaire",
+        "location": "Tout le territoire du CSSDHR",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20260211001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Secrétaire d'école - Remplacements de moyenne et longue durée",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cssdhr/20230808001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "madysta",
+    "company_id": "madysta",
+    "name": "Groupe Madysta",
+    "checked_at": "2026-10-27T21:15:11.063829+00:00",
+    "strategy": "generic_html",
+    "job_count": 5,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 2 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Only Madysta-labelled cards are admitted. Canada and USA boards share one employer identity; no group division is counted as another employer.",
+      "The source labels one Dieppe job as Quebec and another as New Brunswick; source location text is preserved without correcting it."
+    ],
+    "jobs": [
+      {
+        "title": "Telecom Foreman – Maritimes",
+        "location": "Dieppe, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupemadysta/20261027003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Telecom Rigger – Maritimes",
+        "location": "Dieppe, Nouveau Brunswick, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupemadysta/20261027002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Telecom Foreman – Quebec",
+        "location": "Trois-Rivières, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupemadysta/20261021002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mobile Mechanic - Maritimes",
+        "location": "Dieppe, New Brunswick, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupemadysta/20260401001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Telecom Rigger – Quebec",
+        "location": "Trois-Rivières, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupemadysta/20260619001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "transport-laberge",
+    "company_id": "transport-laberge",
+    "name": "Transport Laberge",
+    "checked_at": "2026-10-27T21:14:49.652053+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Claims agent",
+        "location": "435 Rue Norman, Montréal, QC H8R 1A4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260821001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Road Transport Inspector and Trainer Class 1",
+        "location": "435 Rue Norman suite 100, Lachine, QC H8R 1A4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20251205001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Class 1 Driver-City",
+        "location": "144 Prom. Edinburgh, Moncton, NB E1E 2K7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260923002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Business Development Representative (BDR)",
+        "location": "435 Rue Norman, Montréal, QC H8R 1A4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Workshop Supervisor- Montreal",
+        "location": "435 Rue Norman, Montréal, QC H8R 1A4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260618001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Class 1 Driver-CAN",
+        "location": "Transport laberge, 3200 Rue de l'Etchemin, Lévis, QC G6W 7X6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20251230002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Welder-Montreal",
+        "location": "435 Rue Norman, Lachine, QC H8R 1A1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260310001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy Vehicle Mechanic-Lévis",
+        "location": "Transport laberge, 3200 Rue de l'Etchemin, Lévis, QC G6W 7X6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20260611002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy Vehicle Mechanic-Moncton",
+        "location": "144 Prom. Edinburgh suite 1a, Moncton, NB E1E 2K7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20251215001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Class 1 Driver - US - Montreal",
+        "location": "435 Rue Norman, Lachine, QC H8R 1A4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transport-laberge/20251230001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "communaute-metropolitaine-montreal",
+    "company_id": "communaute-metropolitaine-montreal",
+    "name": "Communauté métropolitaine de Montréal",
+    "checked_at": "2026-10-27T21:14:48.538611+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Conseiller(ère) juridique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/communaute-metropolitaine-de-montreal/20260902001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) - Médias sociaux et contenus numériques",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/communaute-metropolitaine-de-montreal/20260820002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "ripplecove",
+    "company_id": "ripplecove",
+    "name": "Ripplecove Hotel & Spa",
+    "checked_at": "2026-10-27T21:14:49.016727+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Réceptionniste",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260902001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef de partie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260609001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sous-chef",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417015?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef de rang",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417013?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance technician",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417010?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cook",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417008?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Busser",
+        "location": "700 Chem. Ripple Cove, Ayer's Cliff, QC J0B 1C0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dishwasher",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Housekeeping attendant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Room attendant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ripplecovecarrieres/20260417001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "mccord-stewart",
+    "company_id": "mccord-stewart",
+    "name": "Musée McCord Stewart",
+    "checked_at": "2026-10-27T21:14:48.555635+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Financial controller",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/emplois/20260619001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technician, Collection Management",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/emplois/20261013001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "quebec-international",
+    "company_id": "quebec-international",
+    "name": "Québec International",
+    "checked_at": "2026-10-27T21:14:48.335059+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 2,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Économiste",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/quebec-international/20261021001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "port-montreal",
+    "company_id": "port-montreal",
+    "name": "Port de Montréal",
+    "checked_at": "2026-10-27T21:14:52.450365+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Communications Advisor (Temporary)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager - Expansion Project for the Port of Montreal in Contrecoeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Real Estate Director",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager, Strategy and Organizational Excellence (temporary position with the possibility of extension)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20260924001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Strategic procurement Advisor",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20261005001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Vice President, Contracts, Legal Affairs, and Corporate Secretary",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Legal advisor (Temporary)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Business partner, capital projects (Finance and control)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/port-de-montreal/20260922002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "transcol",
+    "company_id": "transcol",
+    "name": "Transcol",
+    "checked_at": "2026-10-27T21:14:52.626505+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Chauffeur classe 5",
+        "location": "21 Av. Babin, Baie-Comeau, QC G4Z 3A6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur Classe 1 - Local",
+        "location": "3495 Rue de la Recherche, Jonquière, QC G7X 0H5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20261021002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste à la tarification et aux réclamations",
+        "location": "3495 Rue de la Recherche, Jonquière, QC G7X 0H5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur Classe 1 - Nuit",
+        "location": "21 Av. Babin, Baie-Comeau, QC G4Z 3A6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur classe 3",
+        "location": "3495 Rue de la Recherche, Jonquière, QC G7X 0H5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manutentionnaire - Saint-Félicien",
+        "location": "760 Chem. de la Moraine, Saint-Félicien, QC G8K 0A1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manutentionnaire de soir",
+        "location": "3495 Rue de la Recherche, Jonquière, QC G7X 0H5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20260918001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur classe 3",
+        "location": "21 Av. Babin, Baie-Comeau, QC G4Z 3A6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur classe 5 - Entrepôt",
+        "location": "91 Rue Debilly, Chibougamau, QC G8P 3C2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20260828001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur classe 1",
+        "location": "91 Rue Debilly, Chibougamau, QC G8P 3C2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/transcol/20260505002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "transport-lemieux",
+    "company_id": "transport-lemieux",
+    "name": "Transport Hervé Lemieux",
+    "checked_at": "2026-10-27T21:14:52.336929+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Aviseur.euse technique du garage - Poste de soir 13h-21h",
+        "location": "6500 Chemin Saint François, Montréal, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260917001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Planificateur.trice aux opérations",
+        "location": "6500 Chemin Saint François, Montréal, Québec, H4S 1B7",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 - Flatbed/Rideau - RIVE-SUD ET RIVE-NORD",
+        "location": "200 Boulevard Industriel, Boucherville, Québec, J4B 2X4",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20261007003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 - Poste de soir - Switch de pup - QC-LAVAL",
+        "location": "445 Avenue Saint-Jean-Baptiste, Québec City, Québec, G2E 5N7",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20261007002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 - Switch b-train (set de pup) - Départ 21h00 - Prime de soir",
+        "location": "207 Rue des Alouettes, Saint-Alphonse-de-Granby, Québec, J0E 2A0",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 3 - Moffet",
+        "location": "400 Boulevard Brunswick, Pointe-Claire, Québec, H9R 5X4",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 | Local & États-Unis | Flatbed",
+        "location": "La Prairie, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260619003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 | Local | Manutention | 30,94$/h",
+        "location": "5540 Rue Ernest-Cormier, Laval, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260722003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 | Local | Rive-Sud de Montréal",
+        "location": "545 Rue de l'Industrie, Verchères, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260722002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur.euse Classe 1 - Train Routier - Mention T",
+        "location": "Avenue Francis-Hughes, Laval, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/transport-lemieux/20260707003?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "sopfeu",
+    "company_id": "sopfeu",
+    "name": "SOPFEU",
+    "checked_at": "2026-10-27T21:14:52.189703+00:00",
+    "strategy": "generic_html",
+    "job_count": 5,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 2 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Chef comptable",
+        "location": "715 7e Rue de l'Aéroport, Québec, QC G2G 2S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/sopfeu-emploi/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis - Comptes payables",
+        "location": "285 Rue du Concorde, Val-d'Or, QC J9P 4P6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/sopfeu-emploi/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur - Transport aérien",
+        "location": "715 7e Rue de l'Aéroport, Québec, QC G2G 2S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/sopfeu-emploi/20261026002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire de projets - systèmes d'affaires et transformation numérique",
+        "location": "715 7e Rue de l'Aéroport, Québec, QC G2G 2S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/sopfeu-emploi/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste en acquisition de talents",
+        "location": "715 7e Rue de l'Aéroport, Québec, QC G2G 2S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/sopfeu-emploi/20260805002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "ropack",
+    "company_id": "ropack",
+    "name": "Ropack Pharma Solutions",
+    "checked_at": "2026-10-27T21:14:52.344721+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Réception-Expédition Pharmaceutique - Poste administratif",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste AQ-CQ",
+        "location": "10801 Rue Mirabeau, Anjou, QC H1J 1T7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire de projets clients",
+        "location": "10801 Mirabeau Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste, Validation et développement de méthodes analytiques",
+        "location": "7800 Rue Vauban, Anjou, QC H1J 2N1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste financier sénior",
+        "location": "10801 Mirabeau Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste Conformité Réglementaire",
+        "location": "10801 Mirabeau Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260918001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher",
+        "location": "10801 Rue Mirabeau, Anjou, QC H1J 1T7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260918002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur(trice) contrôle qualité",
+        "location": "10801 Mirabeau Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260915001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste Validation - équipements et procédés",
+        "location": "10801 Mirabeau Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260825001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste, coûts manufacturiers et planification",
+        "location": "10801 Rue Mirabeau, Anjou, QC H1J 1T7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ropack/20260729001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "pavages-metropolitain",
+    "company_id": "pavages-metropolitain",
+    "name": "Pavages Métropolitain",
+    "checked_at": "2026-10-27T21:14:55.372440+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 2,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "MÉCANICIEN(NE) DE VÉHICULES LOURDS – QUART DE SOIR",
+        "location": "Saint-Hubert",
+        "source_url": "https://jobs.glowinthecloud.com/pavage-metropolitain-inc/20260511004?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "deloupe",
+    "company_id": "deloupe",
+    "name": "Deloupe",
+    "checked_at": "2026-10-27T21:14:56.111328+00:00",
+    "strategy": "generic_html",
+    "job_count": 7,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 4 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Soudeur-assembleur",
+        "location": "102 Av. du Parc Industriel, Saint-Évariste-de-Forsyth, QC G0M 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260505001?l=en",
+        "description_chars": 1537
+      },
+      {
+        "title": "Soudeur-assembleur",
+        "location": "144 Rue Hervé-Dickner, Rimouski, QC G5M 1B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260519001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur de production",
+        "location": "102 Av. du Parc Industriel, Saint-Évariste-de-Forsyth, QC G0M 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur de production",
+        "location": "144 Rue Hervé-Dickner, Rimouski, QC G5M 1B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260929003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier peintre",
+        "location": "102 Av. du Parc Industriel, Saint-Évariste-de-Forsyth, QC G0M 1S0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260519002?l=en",
+        "description_chars": 1586
+      },
+      {
+        "title": "Opérateur de scie à ruban",
+        "location": "144 Rue Hervé-Dickner, Rimouski, QC G5M 1B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260818001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier peintre",
+        "location": "144 Rue Hervé-Dickner, Rimouski, QC G5M 1B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/deloupe/20260519003?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-contant",
+    "company_id": "groupe-contant",
+    "name": "Groupe Contant",
+    "checked_at": "2026-10-27T21:14:56.095407+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Conseiller(ère) boutique Temps partiel",
+        "location": "1300 Imp. de la Tourbière",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) boutique Temps partiel",
+        "location": "33 Rue de Lyon, Repentigny, QC J5Z 4Z3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis aux pièces – Véhicules récréatifs",
+        "location": "1300 Imp. de la Tourbière",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) à la vente – Boutique & accessoires",
+        "location": "18000 R. J.-A.-Bombardier, Mirabel, QC J7J 2H8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "MÉCANICIEN(NE) – VÉHICULES RÉCRÉATIFS",
+        "location": "33 Rue de Lyon, Repentigny, QC J5Z 4Z3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20260914005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "CONSEILLER(ÈRE) AUX VENTES – BOUTIQUE Temps plein",
+        "location": "2109 Rue de l'Industrie, Saint-Mathieu-de-Beloeil, QC J3G 2C9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20260915001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant(e) vendeur(euse) – Véhicules récréatifs",
+        "location": "140 Rue Aimé-Vincent, Vaudreuil-Dorion, QC J7V 3X5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20260914003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste aux pièces – Véhicules récréatifs",
+        "location": "18000 R. J.-A.-Bombardier, Mirabel, QC J7J 2H8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261016002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "CONSEILLER(ÈRE) BOUTIQUE",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261006002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) – Véhicules récréatifs",
+        "location": "2109 Rue de l'Industrie, Saint-Mathieu-de-Beloeil, QC J3G 2C9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-contant/20261014001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "office-interiors",
+    "company_id": "office-interiors",
+    "name": "Office Interiors",
+    "checked_at": "2026-10-27T21:14:55.620930+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "The general Careers page expression-of-interest card is excluded."
+    ],
+    "jobs": [
+      {
+        "title": "Marketing Coordinator",
+        "location": "Dartmouth, NS",
+        "source_url": "https://easyapply.co/job/marketing-coordinator-402",
+        "description_chars": 173
+      }
+    ]
+  },
+  {
+    "id": "robertson-college",
+    "company_id": "robertson-college",
+    "name": "Robertson College",
+    "checked_at": "2026-10-27T21:16:55.183259+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Early Childhood Education Instructor (Global MB)",
+        "location": "Robertson college 180 main street, MB",
+        "source_url": "https://easyapply.co/job/health-care-aide-instructor",
+        "description_chars": 164
+      },
+      {
+        "title": "Health Care Aide Instructor",
+        "location": "Robertson college 180 main street, MB",
+        "source_url": "https://easyapply.co/job/elc-practicum-observer-2",
+        "description_chars": 164
+      },
+      {
+        "title": "Student Financial Advisor/Learner Account Advisor (SFA/LAA)",
+        "location": "Calgary, AB",
+        "source_url": "https://easyapply.co/job/learner-experience-guide-7",
+        "description_chars": 169
+      },
+      {
+        "title": "ELC PRACTICUM OBSERVER",
+        "location": "Edmonton, AB",
+        "source_url": "https://easyapply.co/job/elc-practicum-observer-1",
+        "description_chars": 169
+      },
+      {
+        "title": "ELC PRACTICUM OBSERVER",
+        "location": "Calgary, AB",
+        "source_url": "https://easyapply.co/job/elc-practicum-observer",
+        "description_chars": 169
+      },
+      {
+        "title": "HCA Clinical Instructor (Morden/Winkler, MB)",
+        "location": "Winkler/Modern, MB",
+        "source_url": "https://easyapply.co/job/hca-clinical-instructor-morden-winkler-mb-2",
+        "description_chars": 169
+      },
+      {
+        "title": "Student Admissions Advisor",
+        "location": "Winnipeg, MB",
+        "source_url": "https://easyapply.co/job/student-admissions-advisor-12",
+        "description_chars": 169
+      },
+      {
+        "title": "Student Admissions Advisor",
+        "location": "Calgary, AB",
+        "source_url": "https://easyapply.co/job/student-admissions-advisor-13",
+        "description_chars": 169
+      },
+      {
+        "title": "Pharmacy Technician Curriculum Consultant",
+        "location": "Remote",
+        "source_url": "https://easyapply.co/job/pharmacy-technician-curriculum-consultant",
+        "description_chars": 169
+      },
+      {
+        "title": "Program Consultant, Rehabilitation Aide",
+        "location": "Winnipeg, MB",
+        "source_url": "https://easyapply.co/job/program-consultant-rehabilitation-aide-1",
+        "description_chars": 169
+      }
+    ]
+  },
+  {
+    "id": "nts-amega",
+    "company_id": "nts-amega",
+    "name": "NTS Amega West Canada",
+    "checked_at": "2026-10-27T21:14:59.274399+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Quality Coordinator",
+        "location": "Leduc, AB",
+        "source_url": "https://easyapply.co/job/quality-coordinator-8",
+        "description_chars": 163
+      }
+    ]
+  },
+  {
+    "id": "xdi-energy",
+    "company_id": "xdi-energy",
+    "name": "XDI Energy Solutions",
+    "checked_at": "2026-10-27T21:15:01.775304+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Coiled Tubing Supervisors and Operators - Grande Prairie, AB",
+        "location": "Grande Prairie, AB",
+        "source_url": "https://easyapply.co/job/coiled-tubing-supervisors-and-operators-grande-prairie-ab",
+        "description_chars": 163
+      }
+    ]
+  },
+  {
+    "id": "call-center-guys",
+    "company_id": "call-center-guys",
+    "name": "Call Center Guys",
+    "checked_at": "2026-10-27T21:14:59.331384+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Customer Service Representative",
+        "location": "Remote",
+        "source_url": "https://easyapply.co/job/customer-service-representative-2102",
+        "description_chars": 163
+      },
+      {
+        "title": "Wireless Outbound Sales",
+        "location": "Remote",
+        "source_url": "https://easyapply.co/job/wireless-outbound-sales-4",
+        "description_chars": 164
+      }
+    ]
+  },
+  {
+    "id": "smittys-car-wash",
+    "company_id": "smittys-car-wash",
+    "name": "Smitty’s Car Wash Canada",
+    "checked_at": "2026-10-27T21:15:00.031585+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Shift Leader",
+        "location": "Cambridge, ON",
+        "source_url": "https://easyapply.co/job/shift-leader-578",
+        "description_chars": 161
+      },
+      {
+        "title": "Customer Service Associate",
+        "location": "Cambridge, ON",
+        "source_url": "https://easyapply.co/job/customer-service-associate-121",
+        "description_chars": 160
+      }
+    ]
+  },
+  {
+    "id": "mnlct",
+    "company_id": "mnlct",
+    "name": "Mennonite New Life Centre",
+    "checked_at": "2026-10-27T21:14:59.865439+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Accounting Administrator - Maternity Leave Replacement",
+        "location": "Toronto, ON",
+        "source_url": "https://easyapply.co/job/accounting-administrator-maternity-leave-replacement",
+        "description_chars": 162
+      }
+    ]
+  },
+  {
+    "id": "madysta-usa",
+    "company_id": "madysta",
+    "name": "Groupe Madysta",
+    "checked_at": "2026-10-27T21:15:10.884869+00:00",
+    "strategy": "generic_html",
+    "job_count": 3,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions may be missing or truncated; location fields may be incomplete.",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Only Madysta-labelled cards are admitted. Canada and USA boards share one employer identity; no group division is counted as another employer."
+    ],
+    "jobs": [
+      {
+        "title": "Telecom Technician",
+        "location": "Thomasville, North Carolina, États-Unis",
+        "source_url": "https://jobs.glowinthecloud.com/madystagroupusa/20260908003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Telecom Tophand",
+        "location": "Thomasville, North Carolina, États-Unis",
+        "source_url": "https://jobs.glowinthecloud.com/madystagroupusa/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Telecom Foreman",
+        "location": "Thomasville, North Carolina, États-Unis",
+        "source_url": "https://jobs.glowinthecloud.com/madystagroupusa/20260908002?l=en",
+        "description_chars": 0
+      }
+    ]
+  }
+]
