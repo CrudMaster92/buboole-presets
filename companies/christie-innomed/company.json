@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "christie-innomed",
+  "name": "Christie Innomed",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jobs.glowinthecloud.com/christie-innomed?l=en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "medical-equipment"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "north-american-employers-new-25-batch2-20261027",
+  "revision": 1,
+  "name": "25 More Employers — October 2026, Batch 2",
+  "description": "Twenty-five additional employer sources, screened against the expanded catalog and current FreeHire directory/aliases. Canadian employers in manufacturing, engineering, aviation, services and real estate. Coverage is explicitly partial; visible job records are not a deduplicated vacancy count.",
+  "tags": [
+    "Canada",
+    "Hiring expansion",
+    "Batch 2"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "aeroport-de-quebec",
+      "monitor_ids": [
+        "aeroport-de-quebec"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "barrette-structural",
+      "monitor_ids": [
+        "barrette-structural"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "cabco",
+      "monitor_ids": [
+        "cabco"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "cafe-william",
+      "monitor_ids": [
+        "cafe-william"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "chantiers-chibougamau",
+      "monitor_ids": [
+        "chantiers-chibougamau"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "christie-innomed",
+      "monitor_ids": [
+        "christie-innomed"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "co7-technologies",
+      "monitor_ids": [
+        "co7-technologies"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "construction-pbm",
+      "monitor_ids": [
+        "construction-pbm"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "decast",
+      "monitor_ids": [
+        "decast"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "dermapure",
+      "monitor_ids": [
+        "dermapure"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "groupe-lebel",
+      "monitor_ids": [
+        "groupe-lebel"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "groupe-petra",
+      "monitor_ids": [
+        "groupe-petra"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "groupe-pmi",
+      "monitor_ids": [
+        "groupe-pmi"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "hyperflo",
+      "monitor_ids": [
+        "hyperflo"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "infosignal",
+      "monitor_ids": [
+        "infosignal"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "krb-avocats",
+      "monitor_ids": [
+        "krb-avocats"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "lightform",
+      "monitor_ids": [
+        "lightform"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "lumenwerx",
+      "monitor_ids": [
+        "lumenwerx"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "ovc-assurance",
+      "monitor_ids": [
+        "ovc-assurance"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "preverco",
+      "monitor_ids": [
+        "preverco"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "produits-boreal",
+      "monitor_ids": [
+        "produits-boreal"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "sonele",
+      "monitor_ids": [
+        "sonele"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "tms-systeme",
+      "monitor_ids": [
+        "tms-systeme"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "westcliff",
+      "monitor_ids": [
+        "westcliff"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    },
+    {
+      "company_id": "yhu-terminal",
+      "monitor_ids": [
+        "yhu-terminal"
+      ],
+      "note": "Live-tested public employer source; explicitly partial coverage."
+    }
+  ]
+}

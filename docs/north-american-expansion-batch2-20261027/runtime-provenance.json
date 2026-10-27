@@ -1,0 +1,8 @@
+{
+  "repository": "CrudMaster92/buboole-jobs",
+  "commit": "f7fb9412d3290a2297ddc8b05dbb4bc887dadb02",
+  "runtime_manifest_sha256": "73f5739faa3da82608abc808ec99515380362f58c9c782ea1d3b8b0124a5f1d1",
+  "transport": "real HTTPX requests through approved environment proxy; no mocks",
+  "verified_sources": 25,
+  "observed_source_records": 216
+}

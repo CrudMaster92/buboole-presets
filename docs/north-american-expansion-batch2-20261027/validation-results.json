@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-27T20:28:48.744918+00:00",
+  "catalog_validation": "passed",
+  "catalog_build": {
+    "status": "passed",
+    "companies": 1295,
+    "monitors": 1178,
+    "collections": 21
+  },
+  "catalog_tests": {
+    "status": "passed",
+    "tests": 11
+  },
+  "public_runtime_export_check": "passed",
+  "public_collector_tests": {
+    "status": "passed",
+    "tests": 202
+  },
+  "live_sources": 25,
+  "observed_source_records": 216,
+  "canonical_urls_unique_within_each_monitor": true,
+  "generated_artifacts_committed": false
+}

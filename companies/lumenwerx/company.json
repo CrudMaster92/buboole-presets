@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lumenwerx",
+  "name": "Lumenwerx",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://lumenwerx.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "lighting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

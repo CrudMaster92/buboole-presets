@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "dermapure",
+    "name": "Dermapure",
+    "checked_at": "2026-10-27T20:21:28.183119+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Aesthetic Nurse Injector",
+        "location": "3920 Dougall Ave, Windsor, ON N9G 1X2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Medical Talent Acquisition Specialist",
+        "location": "995 Rue Wellington, Montréal, QC H3C 1V3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20260924001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Doctor's Assistant/Technician",
+        "location": "3568 W 41st Ave, Vancouver, BC V6N 3E6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20260811002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) adjoint(e)",
+        "location": "3333 Rue du Carrefour local 211, Québec, QC G1C 5R9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261005003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne)",
+        "location": "75 Bd des Châteaux #106, Blainville, QC J7B 0A8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Receptionist",
+        "location": "10129 109 St NW, Edmonton, AB, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20260909002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Laser Technician",
+        "location": "2548 Guardian Rd NW, Edmonton, AB T5T 1K8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20260728003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Receptionist",
+        "location": "2800 Main St S #2151, Airdrie, AB T4B 3G2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261016002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne)",
+        "location": "1961 Chem. Gascon #202, Terrebonne, QC J6X 4H2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/dermapure/20261015001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "lumenwerx",
+    "name": "Lumenwerx",
+    "checked_at": "2026-10-27T20:21:27.910671+00:00",
+    "strategy": "generic_html",
+    "job_count": 4,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Mechanical Engineering Technician",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/lumenwerx/20261001001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "CNC Operator - NIGHT",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/lumenwerx/20260528002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/lumenwerx/20260615001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "General Worker",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/lumenwerx/20260401001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "christie-innomed",
+    "name": "Christie Innomed",
+    "checked_at": "2026-10-27T20:21:27.928708+00:00",
+    "strategy": "generic_html",
+    "job_count": 6,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 3 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Medical Imaging Sales Representative – Quebec",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Field service Representative - Edmonton",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Warehouse and Facilities Specialist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Account Executive",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Clinical Application Specialist, X-ray & Mammography (AB or Manitoba)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Field Service Representative - Winnipeg (MB)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/christie-innomed/20260910001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "ovc-assurance",
+    "name": "OVC Assurance",
+    "checked_at": "2026-10-27T20:21:27.959271+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Réceptioniste",
+        "location": "3135 Bd Moïse-Vincent, Longueuil, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Personal-lines damage insurance broker",
+        "location": "Québec, J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20251121006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Courtier en assurance de dommages des entreprises– Service & Développement des affaires",
+        "location": "3135 Bd Moïse-Vincent, Longueuil, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20260918001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Développement des affaires - Étudiants vente conseil",
+        "location": "3135 Boulevard Moïse-Vincent, Longueuil, Québec, J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20261001001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Courtier en assurance de dommages des particuliers – Service & Développement des affaires",
+        "location": "3135 Bd Moïse-Vincent, Longueuil, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Account Manager – Commercial Insurance Broker",
+        "location": "3135 Bd Moïse-Vincent, Longueuil, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20260112012?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commercial-lines damage insurance broker",
+        "location": "3135 Bd Moïse-Vincent, Longueuil, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20251210001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service: Personal-lines damage insurance broker",
+        "location": "3135 Bd Moïse-Vincent, Saint-Hubert, QC J3Z 0G7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/ovc-assurance/20241001002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "yhu-terminal",
+    "name": "YHU Terminal",
+    "checked_at": "2026-10-27T20:21:27.918001+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Préposé au dégivrage / Deicing Agent",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260611001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien électromécanicien / Electromechanic YHU Terminal",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260330001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef(fe) d'équipe sol coté piste / Ramp Team Leader",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260325002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent(e) sol coté piste / Ramp Agent - YHU Terminal",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260320002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef d’équipe – Déneigement / Snow Removal Lead - YHU Terminal",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260827002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent de Déneigement / Snow Removal Agent - YHU Terminal",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260827001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef de permanence d’entrepôt – Opérations traiteur /Warehouse Duty Manager – Catering Operations",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260325001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ambassadeur YHU / YHU Ambassador",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yhu-terminal/20260409001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "aeroport-de-quebec",
+    "name": "Aéroport de Québec",
+    "checked_at": "2026-10-27T20:21:33.185693+00:00",
+    "strategy": "generic_html",
+    "job_count": 3,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Escorte de chantier aéroportuaire",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/aeroport-de-quebec/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé.e de projets, Planification et infrastructures",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/aeroport-de-quebec/20260807001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne - Opérations aéroportuaires",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/aeroport-de-quebec/20260513002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "infosignal",
+    "name": "Infosignal",
+    "checked_at": "2026-10-27T20:21:36.771014+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "DCSM Technician",
+        "location": "Remote",
+        "source_url": "https://easyapply.co/job/dcsm-technician-1",
+        "description_chars": 2633
+      },
+      {
+        "title": "DCSM Operator",
+        "location": "Remote",
+        "source_url": "https://easyapply.co/job/dcsm-operator",
+        "description_chars": 5127
+      }
+    ]
+  },
+  {
+    "id": "lightform",
+    "name": "LightForm Canada",
+    "checked_at": "2026-10-27T20:21:37.759530+00:00",
+    "strategy": "generic_html",
+    "job_count": 6,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 3 jobs after the configured 3-posting limit"
+    ],
+    "jobs": [
+      {
+        "title": "Accounting Specialist",
+        "location": "EDMONTON, Alberta",
+        "source_url": "https://easyapply.co/job/accounting-specialist-187",
+        "description_chars": 0
+      },
+      {
+        "title": "Quotation Specialist",
+        "location": "Toronto, ON",
+        "source_url": "https://easyapply.co/job/quotation-specialist-2",
+        "description_chars": 2408
+      },
+      {
+        "title": "Account Executive – Vancouver",
+        "location": "Vancouver, BC",
+        "source_url": "https://easyapply.co/job/account-executive-vancouver",
+        "description_chars": 0
+      },
+      {
+        "title": "Customer Service Representative",
+        "location": "Edmonton, AB",
+        "source_url": "https://easyapply.co/job/customer-service-representative-2187",
+        "description_chars": 2727
+      },
+      {
+        "title": "Account Executive – Edmonton",
+        "location": "Edmonton, AB",
+        "source_url": "https://easyapply.co/job/account-executive-halifax-1",
+        "description_chars": 2557
+      },
+      {
+        "title": "Showroom Sales Associate",
+        "location": "Vancouver, BC",
+        "source_url": "https://easyapply.co/job/showroom-sales-associate-6",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "cabco",
+    "name": "Cabco Technologies",
+    "checked_at": "2026-10-27T20:21:31.997422+00:00",
+    "strategy": "generic_html",
+    "job_count": 4,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "OUTSIDE PLANT LINE TECHNICIAN (TELECOMMUNICATIONS)",
+        "location": "Dartmouth, NS",
+        "source_url": "https://easyapply.co/job/outside-plant-line-technician-telecommunications-4",
+        "description_chars": 159
+      },
+      {
+        "title": "Senior Security Technician",
+        "location": "Dartmouth, NS",
+        "source_url": "https://easyapply.co/job/senior-security-technician-7",
+        "description_chars": 162
+      },
+      {
+        "title": "Senior Communications Cabling Technician",
+        "location": "Dartmouth, NS",
+        "source_url": "https://easyapply.co/job/senior-communications-cabling-technician-9",
+        "description_chars": 165
+      },
+      {
+        "title": "Communications Cabling Technician",
+        "location": "Dartmouth, NS",
+        "source_url": "https://easyapply.co/job/communications-cabling-technician-11",
+        "description_chars": 159
+      }
+    ]
+  },
+  {
+    "id": "hyperflo",
+    "name": "Hyperflo",
+    "checked_at": "2026-10-27T20:21:33.124541+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Shared Hyperflo/Groupe VM portal: only cards explicitly labelled Hyperflo are admitted."
+    ],
+    "jobs": [
+      {
+        "title": "Directeur(trice) de l'ingénierie mécanique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20260724001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable expédition-réception et entrepôt",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20251126003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Monteur(euse) mécanique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20251007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Peintre industriel(le)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20260929003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur(trice) industriel(le)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20260922002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de cour / manutentionnaire",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20260623001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier de production - support à l'équipe",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20251126002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeurs",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/hyperflocaemplois/20250902001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "cafe-william",
+    "name": "Café William",
+    "checked_at": "2026-10-27T20:21:35.787662+00:00",
+    "strategy": "generic_html",
+    "job_count": 5,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 2 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Cariste (Soir)",
+        "location": "5807 Rue Robert-Boyd, Sherbrooke, QC J1R 0W8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cafewilliam/20260305001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Développeur.euse Senior FullStack (.NET / PHP)",
+        "location": "5807 Rue Robert-Boyd, Sherbrooke, QC J1R 0W8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cafewilliam/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Livreur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/cafewilliam/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de torréfaction (Nuit)",
+        "location": "5807 Rue Robert-Boyd, Sherbrooke, QC J1R 0W8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cafewilliam/20260309001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à l'entretien ménager",
+        "location": "5807 Rue Robert-Boyd, Sherbrooke, QC J1R 0W8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cafewilliam/20250912002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "westcliff",
+    "name": "Gérances Westcliff",
+    "checked_at": "2026-10-27T20:21:35.991351+00:00",
+    "strategy": "generic_html",
+    "job_count": 5,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 2 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Directeur(trice) Location",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/westcliff/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Operations manager",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/westcliff/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Controller",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/westcliff/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint(e) administratif(tive) construction",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/westcliff/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Security Guard - Part-Time - Fairview Park, Kitchener, ON",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/westcliff/20260708003?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "sonele",
+    "name": "Sonele",
+    "checked_at": "2026-10-27T20:21:36.190840+00:00",
+    "strategy": "generic_html",
+    "job_count": 11,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 8 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Senior Mechanical Design Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Lab Technician (Night Shift)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261019003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Lab Technician (Day Shift)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mechanical Engineering Technologist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Laser / Photonics Technician",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261008002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembly Technician",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Electronics Assembler (Night)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261006002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Electronics Assembler (Day)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ultrasound Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261002002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ultrasound Transducer R&D Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manufacturing Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/sonele-inc/20260928001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-pmi",
+    "name": "Groupe PMI",
+    "checked_at": "2026-10-27T20:21:39.950677+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Mécanicien industriel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20261015002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien industriel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20260926001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électricien(ne) industriel(le)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chaudronnier - Bécancour",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20260925001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne industriel.le",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne) industriel(le) (aux appels)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur assembleur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électricien.ne industriel.le",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20260528001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien industriel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20260909001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne industriel.le - TEMPS PARTIEL",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepmi/20260908002?l=en",
+        "description_chars": 2417
+      }
+    ]
+  },
+  {
+    "id": "krb-avocats",
+    "name": "KRB Avocats",
+    "checked_at": "2026-10-27T20:21:39.622401+00:00",
+    "strategy": "generic_html",
+    "job_count": 4,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Analyst - Financial Reporting",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/krb-avocats/20260909001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Généraliste en ressources humaines",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/krb-avocats/20260922001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint(e) Administratif(ve) / Administrative Assistant",
+        "location": "1350 Rue Sherbrooke O, Montréal, QC H3G 1J1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/krb-avocats/20260310001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Graphic Design & Digital Marketing Coordinator",
+        "location": "1350 Rue Sherbrooke O, Montréal, QC H3G 1J1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/krb-avocats/20260812001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "produits-boreal",
+    "name": "Produits Boréal",
+    "checked_at": "2026-10-27T20:21:39.190210+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "http_pages_including_details": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Designer / Draftsperson",
+        "location": "1640 Av. de la Technologie, Alma, QC G8C 1M6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/produitsboreal/20260505001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier-menuisier — Gestionnaire de projets de construction corporatifs internes",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/produitsboreal/20260622001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "decast",
+    "name": "DECAST",
+    "checked_at": "2026-10-27T20:21:39.517071+00:00",
+    "strategy": "generic_html",
+    "job_count": 4,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Forklift Operator - Counterbalance",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/decast/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Administrative Coordinator",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/decast/20260925001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Welder + Fitter",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/decast/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "WSIB & Leave Management Specialist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/decast/20261002001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-petra",
+    "name": "Groupe Petra",
+    "checked_at": "2026-10-27T20:21:39.420264+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Mécanicien maintenance bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260817001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur Exploitation",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20261001001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur Exploitation",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260915001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur Location",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien juridique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260803002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller juridique (baux commerciaux)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260803001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur Exploitation",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260902001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projets",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupepetra/20260724001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "construction-pbm",
+    "name": "Construction PBM",
+    "checked_at": "2026-10-27T20:21:42.590074+00:00",
+    "strategy": "generic_html",
+    "job_count": 7,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 4 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Ingénieur(e)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20260616001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) civil- Chargé de projet structure d'acier",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20251028001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur de l'atelier de fabrication",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20250620001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) Industriel(le)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20250529001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître Charpenterie/Menuiserie décret/hors décret",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20250507002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier/ Journalière",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20250507001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Fabricant/soudeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/construction-pbm/20250415001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "co7-technologies",
+    "name": "CO7 Technologies",
+    "checked_at": "2026-10-27T20:21:42.501477+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Assembleur(euse)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur(trice) mécanique (remplacement de congé de maternité - 12 mois)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonateur(trice) de projets RD",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20261014003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Concepteur(trice) Mécanique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Acheteur(euse)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20260929002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef d'équipe production",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20260924001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Concepteur(trice) électrique Sherbrooke",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20260805002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur(euse) mécanique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/co7tech/20260413001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "tms-systeme",
+    "name": "TMS Bâtiments préfabriqués",
+    "checked_at": "2026-10-27T20:21:43.395806+00:00",
+    "strategy": "generic_html",
+    "job_count": 20,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 17 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Journalier en préfabrication",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable développement des affaires",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261023002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre à l'usine de béton",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître de production",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261021002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien intermédiaire",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260805001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien (Quart de soir)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260824001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur soudeur classe A",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260716001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur soudeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260511003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier soudeur au préassemblage",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260803001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre web",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier soudeur au préassemblage",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260515001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître de la maintenance",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé (connexion)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260715001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur en certification, conformité et amélioration de produits",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier menuisier (CCQ)",
+        "location": "Brossard",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260417002?l=en",
+        "description_chars": 1553
+      },
+      {
+        "title": "Charpentier menuisier (CCQ)",
+        "location": "Sainte-Thérèse",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260417001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur classe 1",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20260416001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître",
+        "location": "Sainte-Thérèse, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwtmssystemecomcarrieres-2/20251006001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "chantiers-chibougamau",
+    "name": "Chantiers Chibougamau",
+    "checked_at": "2026-10-27T20:21:43.450616+00:00",
+    "strategy": "generic_html",
+    "job_count": 38,
+    "http_pages_including_details": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 35 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Électricité industrielle et automatisation",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2154",
+        "description_chars": 0
+      },
+      {
+        "title": "Sand truck operator",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2136",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimator – Mass timber",
+        "location": "Montréal",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2153",
+        "description_chars": 0
+      },
+      {
+        "title": "Production supervisor",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2152",
+        "description_chars": 0
+      },
+      {
+        "title": "Machinist",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2151",
+        "description_chars": 0
+      },
+      {
+        "title": "Production area manager",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2149",
+        "description_chars": 0
+      },
+      {
+        "title": "Recovery & Biomass Boiler Supervisor",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2148",
+        "description_chars": 0
+      },
+      {
+        "title": "Bark handler",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=69",
+        "description_chars": 0
+      },
+      {
+        "title": "Project mechanical engineer",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=11",
+        "description_chars": 0
+      },
+      {
+        "title": "Instrumentation and control technician",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=8",
+        "description_chars": 0
+      },
+      {
+        "title": "Mechanical drafter",
+        "location": "Landrienne",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=43",
+        "description_chars": 0
+      },
+      {
+        "title": "Millwright",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=23",
+        "description_chars": 0
+      },
+      {
+        "title": "Production worker",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2093",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy machinery operator",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2088",
+        "description_chars": 0
+      },
+      {
+        "title": "Boiler and Kiln Operator",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2085",
+        "description_chars": 0
+      },
+      {
+        "title": "Electrician",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2084",
+        "description_chars": 0
+      },
+      {
+        "title": "Millwright",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2083",
+        "description_chars": 0
+      },
+      {
+        "title": "Process, Technical Services and Environmental Engineer",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2133",
+        "description_chars": 0
+      },
+      {
+        "title": "Plumber",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2075",
+        "description_chars": 0
+      },
+      {
+        "title": "Saw filer",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2130",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy equipment operator",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=49",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy equipment operator",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2126",
+        "description_chars": 0
+      },
+      {
+        "title": "Laborer",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2125",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial electrician",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2124",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial Mechanic",
+        "location": "Matagami",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2123",
+        "description_chars": 0
+      },
+      {
+        "title": "heavy industrial mechanic",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2078",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) d'entretien mécanique",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2104",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial electrician",
+        "location": "Landrienne",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2100",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de procédé",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=17",
+        "description_chars": 0
+      },
+      {
+        "title": "Production supervisor",
+        "location": "La Sarre",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2095",
+        "description_chars": 0
+      },
+      {
+        "title": "Millwright",
+        "location": "Landrienne",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2089",
+        "description_chars": 0
+      },
+      {
+        "title": "Stationary Mechanic",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=9",
+        "description_chars": 0
+      },
+      {
+        "title": "Machinist",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=2076",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance planner",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=12",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance mechanic",
+        "location": "Lebel-Sur-Quévillon",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=68",
+        "description_chars": 0
+      },
+      {
+        "title": "Welder",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=31",
+        "description_chars": 0
+      },
+      {
+        "title": "production worker",
+        "location": "Landrienne",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=27",
+        "description_chars": 0
+      },
+      {
+        "title": "labourer",
+        "location": "Chibougamau",
+        "source_url": "https://emploi.nordic.ca/posts/details.cfm?CategorieID=0&NoPage=1&ID=41",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "preverco",
+    "name": "Preverco",
+    "checked_at": "2026-10-27T20:21:45.748540+00:00",
+    "strategy": "generic_html",
+    "job_count": 3,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "Employer-linked Jobillico profile; selector confines matches to the exact Preverco posting URL prefix."
+    ],
+    "jobs": [
+      {
+        "title": "Directeur mécanique",
+        "location": "285, rue de Rotterdam, Saint-Augustin-de-Desmaures, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/preverco-inc-.zYsdUe/directeur-mecanique/17553339",
+        "description_chars": 1626
+      },
+      {
+        "title": "Journalier",
+        "location": "423 Chemin Côte Sud, Boisbriand, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/preverco-inc-.zYsdUe/journalier/14625323",
+        "description_chars": 1209
+      },
+      {
+        "title": "Classificateur(trice) de bois franc",
+        "location": "345 6e rue, Daveluyville, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/preverco-inc-.zYsdUe/classificateur-trice-de-bois-franc/16335613",
+        "description_chars": 1650
+      }
+    ]
+  },
+  {
+    "id": "groupe-lebel",
+    "name": "Groupe Lebel",
+    "checked_at": "2026-10-27T20:21:49.914973+00:00",
+    "strategy": "generic_html",
+    "job_count": 20,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 17 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Mécanicien ou mécanicienne d'engins de chantier...",
+        "location": "Groupe Lebel Nouvelle",
+        "source_url": "https://emplois.groupelebel.com/jobs/8619698-mecanicien-ou-mecanicienne-d-engins-de-chantier-usine-de-nouvelle",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur.trice de chargeuse sur roues",
+        "location": "Bois Daaquam St-Pamphile",
+        "source_url": "https://emplois.groupelebel.com/jobs/8610747-operateur-trice-de-chargeuse-sur-roues",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé (e) à la cour",
+        "location": "Bois Daaquam St-Pamphile",
+        "source_url": "https://emplois.groupelebel.com/jobs/8610719-prepose-e-a-la-cour",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne machinerie fixe classe IV - Dégelis",
+        "location": "Groupe Lebel Rivière-du-Loup",
+        "source_url": "https://emplois.groupelebel.com/jobs/8570872-mecanicien-ne-machinerie-fixe-classe-iv-degelis",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier.ère - Lebel Cambium Dégelis",
+        "location": "Lebel Cambium Dégelis",
+        "source_url": "https://emplois.groupelebel.com/jobs/8553584-journalier-ere-lebel-cambium-degelis",
+        "description_chars": 0
+      },
+      {
+        "title": "Électricien.ne industriel.le - Price",
+        "location": "Groupe Lebel Rivière-du-Loup",
+        "source_url": "https://emplois.groupelebel.com/jobs/8527639-electricien-ne-industriel-le-price",
+        "description_chars": 3069
+      },
+      {
+        "title": "Mécanicien.ne industriel.le - Price",
+        "location": "Groupe Lebel Price",
+        "source_url": "https://emplois.groupelebel.com/jobs/8527630-mecanicien-ne-industriel-le-price",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur.e SST - Price",
+        "location": "Groupe Lebel Price",
+        "source_url": "https://emplois.groupelebel.com/jobs/8527150-superviseur-e-sst-price",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur.trice de cour et de gestion des i...",
+        "location": "Bois Lemelin St-Jean-Port-Joli",
+        "source_url": "https://emplois.groupelebel.com/jobs/8525996-coordonnateur-trice-de-cour-et-de-gestion-des-inventaires-st-jean-port-joli",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien de production",
+        "location": "Sur site",
+        "source_url": "https://emplois.groupelebel.com/jobs/8487640-mecanicien-de-production",
+        "description_chars": 2679
+      },
+      {
+        "title": "Journalier.ère Lafontaine",
+        "location": "Bois de sciage Lafontaine Ste-Perpétue",
+        "source_url": "https://emplois.groupelebel.com/jobs/8468540-journalier-ere-lafontaine",
+        "description_chars": 0
+      },
+      {
+        "title": "Journaliers.ères - Dégelis",
+        "location": "Sur site",
+        "source_url": "https://emplois.groupelebel.com/jobs/8449522-journaliers-eres-degelis",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller.ère juridique",
+        "location": "Groupe Lebel Rivière-du-Loup",
+        "source_url": "https://emplois.groupelebel.com/jobs/8442984-conseiller-ere-juridique",
+        "description_chars": 0
+      },
+      {
+        "title": "Électricien.ne industriel.le - Nouvelle",
+        "location": "Groupe Lebel Nouvelle",
+        "source_url": "https://emplois.groupelebel.com/jobs/8262061-electricien-ne-industriel-le-nouvelle",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne industriel.le St-Pamphile alterna...",
+        "location": "Bois Daaquam St-Pamphile",
+        "source_url": "https://emplois.groupelebel.com/jobs/8237696-mecanicien-ne-industriel-le-st-pamphile-alternance-travail-etudes",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste en administration des comptes recev...",
+        "location": "Groupe Lebel Rivière-du-Loup",
+        "source_url": "https://emplois.groupelebel.com/jobs/8183659-specialiste-en-administration-des-comptes-recevables",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur de production",
+        "location": "Groupe Lebel Dégelis",
+        "source_url": "https://emplois.groupelebel.com/jobs/8071930-superviseur-de-production",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien.ne industriel.le - St-Hilarion",
+        "location": "Groupe Lebel St-Hilarion",
+        "source_url": "https://emplois.groupelebel.com/jobs/8032628-mecanicien-ne-industriel-le-st-hilarion",
+        "description_chars": 0
+      },
+      {
+        "title": "Millwright",
+        "location": "Plaster Rock Lumber Corporation",
+        "source_url": "https://emplois.groupelebel.com/en/jobs/7901555-millwright",
+        "description_chars": 0
+      },
+      {
+        "title": "Inventory Control, Receiving & Shipping Clerk",
+        "location": "Plaster Rock Lumber Corporation",
+        "source_url": "https://emplois.groupelebel.com/en/jobs/7889287-inventory-control-receiving-shipping-clerk",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "barrette-structural",
+    "name": "Barrette Structural",
+    "checked_at": "2026-10-27T20:26:19.193356+00:00",
+    "strategy": "generic_json",
+    "job_count": 12,
+    "http_pages_including_details": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 9 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs",
+      "Public employer WordPress jobs API, bounded to 100 published records. French and English records may represent the same vacancy; location taxonomies are not flattened."
+    ],
+    "jobs": [
+      {
+        "title": "Technicien(ne) en maintenance préventive",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/technicienne-en-maintenance-preventive",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) TI — Technologies de l’information",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/directeurtrice-ti-technologies-de-linformation",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste financier(ère) Sénior",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/analyste-financierere-senior",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) en automatisation de production",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/ingenieure-en-automatisation-de-production",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en génie mécanique",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/technicienne-en-genie-mecanique",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) mécanique",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/technicien-ne-mecanique-senior",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) de production",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/journalier-ere-a-la-production",
+        "description_chars": 0
+      },
+      {
+        "title": "Développeur(se) logiciel C#/.NET",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/developpeurse-logiciel-interfaces-usagers-industriels",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère)-Poste extérieur",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/journalierere-a-la-cour-2",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne)",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/electromecanicienne-2",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) de production",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/journalierere-de-production-3",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) de production",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.barrettestructural.com/fr/emploi/journalierere-de-production",
+        "description_chars": 0
+      }
+    ]
+  }
+]

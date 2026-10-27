@@ -1,0 +1,31 @@
+{
+  "catalog_baseline": "8a10080c616ff4c8457edcd80786b3aeea87a796",
+  "directory_completed_at": "2026-10-27T20:14:58.126415+00:00",
+  "directory_source": "https://freehire.me/api/v1/companies/sitemap",
+  "nonempty_pages": 44,
+  "page_size": 10000,
+  "terminal_empty_offset": 440000,
+  "unique_slugs": 438158,
+  "directory_sha256": "11cf7091bb817eeb0d60e1ceb8a67ded3c0072d95ccabb7bf38979264f5ecce5",
+  "caveat": "Mutable paged directory and fuzzy search; no matching employer found is an observed screening result, not a guarantee against every intermediary or unknown spelling.",
+  "excluded": [
+    {
+      "name": "Mattr / Shawcor",
+      "reason": "FreeHire mattr profile includes postings from the same careers.mattr.com manufacturing board, despite also mixing an unrelated digital-identity company."
+    },
+    {
+      "name": "Fenplast",
+      "reason": "Public listing endpoint returned zero current records."
+    },
+    {
+      "name": "Mon Technicien",
+      "reason": "No current job cards on the inspected public board."
+    },
+    {
+      "name": "Groupe VM",
+      "reason": "Independent co-listed employer on the Hyperflo portal; excluded by explicit Client label filter instead of assigned to Hyperflo."
+    }
+  ],
+  "observed_source_records": 216,
+  "sources": 25
+}

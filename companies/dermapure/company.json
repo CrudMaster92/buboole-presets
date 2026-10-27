@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dermapure",
+  "name": "Dermapure",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.dermapure.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "medical-aesthetics"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

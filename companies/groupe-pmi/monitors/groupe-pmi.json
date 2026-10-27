@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "groupe-pmi",
+  "company_id": "groupe-pmi",
+  "revision": 1,
+  "label": "Groupe PMI public careers",
+  "careers_url": "https://jobs.glowinthecloud.com/groupepmi?l=en",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T20:21:39.950677+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Explicitly partial public source; missing roles do not prove closure. Descriptions and location fields may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 2 jobs"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Groupe PMI",
+    "careers_url": "https://jobs.glowinthecloud.com/groupepmi?l=en",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.glowinthecloud.com"
+    ],
+    "request": {
+      "url": "https://jobs.glowinthecloud.com/groupepmi?l=en",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "ul.jobs-listing > li",
+      "title": ".job-title a",
+      "link": ".job-title a",
+      "location": "li[title=\"Address\"] span",
+      "employment_type": "li[title=\"Job types\"] span"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

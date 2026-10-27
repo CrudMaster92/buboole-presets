@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-pmi",
+  "name": "Groupe PMI",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.groupepmi.ca/fr/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "industrial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

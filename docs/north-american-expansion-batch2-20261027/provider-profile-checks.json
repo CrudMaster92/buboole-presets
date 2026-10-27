@@ -1,0 +1,930 @@
+[
+  {
+    "slug": "hyperflow",
+    "url": "https://freehire.me/api/v1/companies/hyperflow?limit=100",
+    "checked_at": "2026-10-27T20:24:20.117492+00:00",
+    "company": "Hyperflow",
+    "jobs": [
+      {
+        "title": "Bdr- business development representative",
+        "source_url": "https://br.whatjobs.com/pub_api__cpl__462791132__7076?geoID=9327&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Uberlândia, Brazil"
+      }
+    ]
+  },
+  {
+    "slug": "mattr",
+    "url": "https://freehire.me/api/v1/companies/mattr?limit=100",
+    "checked_at": "2026-10-27T20:22:30.527175+00:00",
+    "company": "Mattr Corp.",
+    "jobs": [
+      {
+        "title": "Sales Development Representative - Australia",
+        "source_url": "https://mattr.bamboohr.com/careers/111?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Business Development Manager (South-East Asia Based)",
+        "source_url": "https://mattr.bamboohr.com/careers/110?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Business Development Manager (North America)",
+        "source_url": "https://mattr.bamboohr.com/careers/109?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Quality Control Technician - Shipping",
+        "source_url": "https://careers.mattr.com/job/Tipton-Quality-Control-Technician-Shipping-IA-52772/1399568400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "General Packer",
+        "source_url": "https://careers.mattr.com/job/Fairfield-General-Packer-OH-45014/1386944200/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Maintenance Electrician",
+        "source_url": "https://careers.mattr.com/job/El-Dorado-Maintenance-Electrician-AR-71730/1442854300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Maintenance Mechanic",
+        "source_url": "https://careers.mattr.com/job/El-Dorado-Maintenance-Mechanic-AR-71730/1442853600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Molder",
+        "source_url": "https://careers.mattr.com/job/Edmonton-Molder-AB-T6B-2Z6/1442496200/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Operator",
+        "source_url": "https://careers.mattr.com/job/Rockwall-Production-Operator-TX-75032/1442505000/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Supply Chain Manager - DSG Canusa",
+        "source_url": "https://careers.mattr.com/job/Supply-Chain-Manager-DSG-Canusa-OH/1442015000/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Maintenance Technician",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Maintenance-Technician-OH-45014/1441788300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Global Program Manager",
+        "source_url": "https://careers.mattr.com/job/Global-Program-Manager-OH/1441539400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Operator",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Production-Operator-OH-45014/1406567000/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Operator",
+        "source_url": "https://careers.mattr.com/job/Rockwall-Production-Operator-TX-75032/1339178500/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Machine Operator",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Machine-Operator-OH-45014/1423769500/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Supervisor - Night Shift",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Production-Supervisor-Night-Shift-OH-45014/1440837600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Manufacturing Operator",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Manufacturing-Operator-OH-45014/1441048200/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Receiving Clerk",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Receiving-Clerk-OH-45014/1440537900/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Regional Sales Manager",
+        "source_url": "https://careers.mattr.com/job/Regional-Sales-Manager/1438651300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Assembler",
+        "source_url": "https://careers.mattr.com/job/Edmonton-Assembler-AB-T6B-2Z6/1438023900/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Regional Sales Manager, Eastern Canada",
+        "source_url": "https://careers.mattr.com/job/Quebec-Regional-Sales-Manager%2C-Eastern-Canada-Queb/1436169800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Quality Inspector",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Quality-Inspector-OH-45014/1436149800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Process Engineer II",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Process-Engineer-II-OH-45014/1435474600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Territory Sales Manager",
+        "source_url": "https://careers.mattr.com/job/Territory-Sales-Manager-GA/1434919400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Territory Sales Manager",
+        "source_url": "https://careers.mattr.com/job/Vaughan-Territory-Sales-Manager-ON-L4K-4Y1/1434955800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Talent Acquisition Partner",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Talent-Acquisition-Partner-OH-45014/1434338400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Assembler",
+        "source_url": "https://careers.mattr.com/job/Seguin-Assembler-TX-78155/1433926300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Corporate HRBP",
+        "source_url": "https://careers.mattr.com/job/Vaughan-Corporate-HRBP-ON-L4K-4Y1/1433627800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Assembleur",
+        "source_url": "https://careers.mattr.com/job/Drummondville-Assembleur-Queb-J2C-6Z7/1398804500/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Senior FP&A Analyst",
+        "source_url": "https://careers.mattr.com/job/Vaughan-Senior-FP&A-Analyst-ON-L4K-4Y1/1426981700/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Senior FP&A Analyst",
+        "source_url": "https://careers.mattr.com/job/Houston-Senior-FP&A-Analyst-TX-77086/1426979600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Industrial Process Engineer",
+        "source_url": "https://careers.mattr.com/job/El-Dorado-Industrial-Process-Engineer-AR-71730/1407791700/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Sales and Operations Coordinator",
+        "source_url": "https://careers.mattr.com/job/Etobicoke-Sales-and-Operations-Coordinator-ON-M9V-4A8/1426363000/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Manager",
+        "source_url": "https://careers.mattr.com/job/Vaughan-Production-Manager-ON-L4K-4Y1/1425945800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Quality Control Technician",
+        "source_url": "https://careers.mattr.com/job/Tipton-Quality-Control-Technician-IA-52772/1381360000/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Assembler",
+        "source_url": "https://careers.mattr.com/job/Blythewood-Assembler-SC-29016/1406717600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "International Business Strategy and Planning Analyst - Canada based",
+        "source_url": "https://careers.mattr.com/job/Vaughan-International-Business-Strategy-and-Planning-Analyst-Canada-based-ON-L4K-4Y1/1403693400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Branch Manager - Operations",
+        "source_url": "https://careers.mattr.com/job/Midland-Branch-Manager-Operations-TX-79701/1411488500/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Regional Sales Manager, Nuclear",
+        "source_url": "https://careers.mattr.com/job/Etobicoke-Regional-Sales-Manager%2C-Nuclear-ON-M9V-4A8/1419521800/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Business Development Manager - North East Region",
+        "source_url": "https://careers.mattr.com/job/Business-Development-Manager-North-East-Region-NJ/1387778300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Sableur",
+        "source_url": "https://careers.mattr.com/job/Drummondville-Sableur-Queb-J2C-6Z7/1408636300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Applications Engineer",
+        "source_url": "https://careers.mattr.com/job/El-Dorado-Applications-Engineer-AR-71730/1408151300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Technicien de Maintenance",
+        "source_url": "https://careers.mattr.com/job/Drummondville-Technicien-de-Maintenance-Queb-J2C-6Z7/1412549400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Extrusion Operator",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Extrusion-Operator-OH-45014/1407230700/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Inside Sales Representative",
+        "source_url": "https://careers.mattr.com/job/Inside-Sales-Representative-GA/1414904600/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Senior Manager, Supply Chain Governance",
+        "source_url": "https://careers.mattr.com/job/Calgary-Senior-Manager%2C-Supply-Chain-Governance-AB-T2P-3N4/1416148900/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Senior Manager, Supply Chain Governance",
+        "source_url": "https://careers.mattr.com/job/Dallas-Senior-Manager%2C-Supply-Chain-Governance-TX-75201/1416553100/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Production Assembler",
+        "source_url": "https://careers.mattr.com/job/Williamsport-Production-Assembler-MD-21795/1403402300/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "HSE Specialist",
+        "source_url": "https://careers.mattr.com/job/Blythewood-HSE-Specialist-SC-29016/1421466400/?utm_source=freehire.me",
+        "location": ""
+      },
+      {
+        "title": "Process Engineer I",
+        "source_url": "https://careers.mattr.com/job/Fairfield-Process-Engineer-I-OH-45014/1421586300/?utm_source=freehire.me",
+        "location": ""
+      }
+    ]
+  },
+  {
+    "slug": "pmi",
+    "url": "https://freehire.me/api/v1/companies/pmi?limit=100",
+    "checked_at": "2026-10-27T20:24:16.126604+00:00",
+    "company": "PMI GmbH",
+    "jobs": [
+      {
+        "title": "Social Media & Creative Manager – Beauty & Haircare (m/w/d)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2860549?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Social Media Marketing Manager*in - Schwerpunkt Beauty (m/w/d)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2860402?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Trainee Marketing & Content Sport (all genders welcome)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2801782?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Praktikant:in Marketing & Content Sport (Pflicht oder freiwillig, all genders welcome)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2801766?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Cutter/Videograf – Teilzeit / Vollzeit (all genders welcome)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2689160?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Pflichtpraktikant:in Videografie für Social-Drehs & Events (all genders welcome)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2633737?utm_source=freehire.me",
+        "location": "Köln"
+      },
+      {
+        "title": "Creative Designer / Grafikdesigner (m/w/d)",
+        "source_url": "https://pmi-gmbh.jobs.personio.com/job/2671838?utm_source=freehire.me",
+        "location": "Köln"
+      }
+    ]
+  },
+  {
+    "slug": "christie",
+    "url": "https://freehire.me/api/v1/companies/christie?limit=100",
+    "checked_at": "2026-10-27T20:24:16.213915+00:00",
+    "company": "Christie",
+    "jobs": [
+      {
+        "title": "Warehouse Supervisor",
+        "source_url": "https://apply.workable.com/j/F2C785C7B4?utm_source=freehire.me",
+        "location": "Mt. Juliet, Tennessee, United States"
+      },
+      {
+        "title": "Warehouse Department Head",
+        "source_url": "https://apply.workable.com/j/3EC2B5263F?utm_source=freehire.me",
+        "location": "Mt. Juliet, Tennessee, United States"
+      },
+      {
+        "title": "VP Asset Management",
+        "source_url": "https://apply.workable.com/j/6EF180D7F2?utm_source=freehire.me",
+        "location": "Orlando, Florida, United States"
+      },
+      {
+        "title": "Transportation & Logistics Manager for Live Events",
+        "source_url": "https://apply.workable.com/j/A80F58010F?utm_source=freehire.me",
+        "location": "Argentina"
+      },
+      {
+        "title": "Territory Sales Agent",
+        "source_url": "https://apply.workable.com/j/EF27060505?utm_source=freehire.me",
+        "location": "Orlando, Florida, United States"
+      },
+      {
+        "title": "Senior Carpenter Site Lead",
+        "source_url": "https://apply.workable.com/j/FD0BB4143D?utm_source=freehire.me",
+        "location": "Seeley Lake, Montana, United States"
+      },
+      {
+        "title": "Rental Rep - Entertainment Lighting",
+        "source_url": "https://apply.workable.com/j/26CA7AB5FB?utm_source=freehire.me",
+        "location": "Germany"
+      },
+      {
+        "title": "Motor Repair Technician",
+        "source_url": "https://apply.workable.com/j/4426635C54?utm_source=freehire.me",
+        "location": "Coventry, England, United Kingdom"
+      },
+      {
+        "title": "Lighting & A/V Business Development",
+        "source_url": "https://apply.workable.com/j/AC5FF8327B?utm_source=freehire.me",
+        "location": "Toronto, Ontario, Canada"
+      },
+      {
+        "title": "Cable Department Head",
+        "source_url": "https://apply.workable.com/j/42466EA897?utm_source=freehire.me",
+        "location": "Berlin, Berlin, Germany"
+      },
+      {
+        "title": "IT Systems & Network Administrator",
+        "source_url": "https://apply.workable.com/j/18D3761BB4?utm_source=freehire.me",
+        "location": "Belle Isle, Florida, United States"
+      },
+      {
+        "title": "Hoist and Automation Repair Technician",
+        "source_url": "https://apply.workable.com/j/190C165223?utm_source=freehire.me",
+        "location": "New York, New York, United States"
+      },
+      {
+        "title": "Hoist and Automation Repair Technician",
+        "source_url": "https://apply.workable.com/j/039F985D51?utm_source=freehire.me",
+        "location": "Berlin, Berlin, Germany"
+      },
+      {
+        "title": "IT Help Desk Technician",
+        "source_url": "https://apply.workable.com/j/A7F3FBC525?utm_source=freehire.me",
+        "location": "Orlando, Florida, United States"
+      },
+      {
+        "title": "Hoist and Automation Repair Technician",
+        "source_url": "https://apply.workable.com/j/A8F1E2DA4A?utm_source=freehire.me",
+        "location": "Coventry, England, United Kingdom"
+      },
+      {
+        "title": "Operations & Logistics Coordinator",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2966?utm_source=freehire.me",
+        "location": "Dubai, AE-DU, AE"
+      },
+      {
+        "title": "Customer Service Engineer I",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2945?utm_source=freehire.me",
+        "location": "Des Moines, IA, US"
+      },
+      {
+        "title": "RMA Coordinator I -RMA Recovery",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2937?utm_source=freehire.me",
+        "location": "BENGALURU, IN-KA, IN"
+      },
+      {
+        "title": "Customer Service Engineer I  -  (Germany)",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2914?utm_source=freehire.me",
+        "location": "DE"
+      },
+      {
+        "title": "Customer Service Engineer I (France)",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2925?utm_source=freehire.me",
+        "location": "FR"
+      },
+      {
+        "title": "Internal Service Technician",
+        "source_url": "https://jobs.dayforcehcm.com/en-US/cdsc/candidateportal/jobs/2878?utm_source=freehire.me",
+        "location": "Köln, NRW, DE"
+      }
+    ]
+  },
+  {
+    "slug": "petra-group",
+    "url": "https://freehire.me/api/v1/companies/petra-group?limit=100",
+    "checked_at": "2026-10-27T20:24:16.338009+00:00",
+    "company": "Petra Group",
+    "jobs": [
+      {
+        "title": "Coordenador de Frota e Logística",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297633017?utm_source=freehire.me",
+        "location": "São José dos Campos, Brazil"
+      },
+      {
+        "title": "Supervisor de contenedores refrigerados (Refers)",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297648001?utm_source=freehire.me",
+        "location": "Manzanillo, Mexico"
+      },
+      {
+        "title": "Gerente de Convênios",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294782197?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Project Manager Automação Alto Forno",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000293931007?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Analista de Planejamento Financeiro",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294730729?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Director de Mercadeo",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295751002?utm_source=freehire.me",
+        "location": "La Paz Bolivia, Bolivia"
+      },
+      {
+        "title": "Gerente de Operaçōes- Mineração",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000293179059?utm_source=freehire.me",
+        "location": "Minas Gerais, Brazil"
+      },
+      {
+        "title": "Gerente Nuevos Negocios",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000293646175?utm_source=freehire.me",
+        "location": "Centro de Los Heroes, República Dominicana"
+      },
+      {
+        "title": "Coordenador Comercial",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296168572?utm_source=freehire.me",
+        "location": "College Park, Estados Unidos"
+      },
+      {
+        "title": "Senior Tax Advisor",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295564785?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brazil"
+      },
+      {
+        "title": "Mantenedor II",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296076031?utm_source=freehire.me",
+        "location": "Cachoeira Dourada, Brazil"
+      },
+      {
+        "title": "Gerente de Finanzas (CFO)",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295730002?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      },
+      {
+        "title": "LEAD Growth Manager - Lubs  - América Latina",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295724002?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Coordenador(a) Administrativo/Financeiro(a)",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296472318?utm_source=freehire.me",
+        "location": "Linhares, Brazil"
+      },
+      {
+        "title": "Engenheiro Mecânico Especialista - Confiabilidade de Equipamentos de Geração de Energia",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295487356?utm_source=freehire.me",
+        "location": "Santa Catarina, Brazil"
+      },
+      {
+        "title": "Fleet Manager",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296384002?utm_source=freehire.me",
+        "location": "São Paulo, Brazil"
+      },
+      {
+        "title": "Arquitecto Empresarial SAP",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296081024?utm_source=freehire.me",
+        "location": "Colombia, Colombia"
+      },
+      {
+        "title": "Arquitecto de Integraciones SAP",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296081002?utm_source=freehire.me",
+        "location": "Colombia, Colombia"
+      },
+      {
+        "title": "Gerente de Projetos e Engenharia - Agropecuário",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295529004?utm_source=freehire.me",
+        "location": "São Carlos, Brazil"
+      },
+      {
+        "title": "Coordenador de Logística e Comércio Exterior",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296737022?utm_source=freehire.me",
+        "location": "Recife, Brasil"
+      },
+      {
+        "title": "Project Manager Aciaria",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294736003?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Técnico de Mantenimiento",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296393052?utm_source=freehire.me",
+        "location": "Medellin, Colombia"
+      },
+      {
+        "title": "Gerente Nacional de Vendas",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296165012?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Engenheiro de Projetos de Energia e Utilidades III",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294674186?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brazil"
+      },
+      {
+        "title": "Gerente de Novos Negócios - Geologia e Geotecnia",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295420041?utm_source=freehire.me",
+        "location": "Belo Horizonte, Brasil"
+      },
+      {
+        "title": "Gerente de Unidade — Academia",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296687154?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Ingeniero Civil de Mantenimiento Locativo",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296756017?utm_source=freehire.me",
+        "location": "Barranquilla, Colombia"
+      },
+      {
+        "title": "Supervisor programador de mantenimiento",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296812006?utm_source=freehire.me",
+        "location": "Cali, Colombia"
+      },
+      {
+        "title": "Supervisor de Operação e Manutenção",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297011009?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Ingeniero de Confiabilidad - Ingeniero de mantenimiento",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296321001?utm_source=freehire.me",
+        "location": "Monterrey, Mexico"
+      },
+      {
+        "title": "Técnicos de Sistema Elétrico",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296173053?utm_source=freehire.me",
+        "location": "São Paulo, Brazil"
+      },
+      {
+        "title": "Senior Accounting/Finance Coordinator",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295913976?utm_source=freehire.me",
+        "location": "Marietta, Estados Unidos"
+      },
+      {
+        "title": "Gerente de Contas - Industrial",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297109019?utm_source=freehire.me",
+        "location": "Belo Horizonte, Brasil"
+      },
+      {
+        "title": "Especialista Sênior de Desenvolvimento de Rede",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297167090?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Consultor de RH",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294076029?utm_source=freehire.me",
+        "location": "Pouso Alegre, Brasil"
+      },
+      {
+        "title": "Coordinador de Servicio al Cliente - Argentina",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296647004?utm_source=freehire.me",
+        "location": "Buenos Aires, Argentina"
+      },
+      {
+        "title": "Diretor de Vendas",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296010034?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Especialista Operação e Manutenção",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297167086?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Especialista HSEQ",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297167078?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Médico Ocupacional  - Bogotá",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296506001?utm_source=freehire.me",
+        "location": "Fontibon, Colombia"
+      },
+      {
+        "title": "Gerente de Projetos – Engenharia Elétrica",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294847193?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Diretor de operações Offshore",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296676007?utm_source=freehire.me",
+        "location": "Macaé, Brazil"
+      },
+      {
+        "title": "Maintenance Manager Ironmaking",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297039615?utm_source=freehire.me",
+        "location": "Monterrey, Mexico"
+      },
+      {
+        "title": "Gerente de RH",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297436062?utm_source=freehire.me",
+        "location": "Belo Horizonte, Brasil"
+      },
+      {
+        "title": "Coordenador de Desenvolvimento de Software WMS",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296720008?utm_source=freehire.me",
+        "location": "Blumenau, Brasil"
+      },
+      {
+        "title": "Joven Profesional Comercial - México",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297296013?utm_source=freehire.me",
+        "location": "Ciudad de México, Mexico"
+      },
+      {
+        "title": "Coordinador de Recursos Humanos - Venezuela",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297111016?utm_source=freehire.me",
+        "location": "Caracas, Venezuela"
+      },
+      {
+        "title": "Consultor Funcional ERP – Manufactura",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297178012?utm_source=freehire.me",
+        "location": "Usaquen, Ninguno"
+      },
+      {
+        "title": "Jefe de operaciones de patio",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297147078?utm_source=freehire.me",
+        "location": "mexico, Ninguno"
+      },
+      {
+        "title": "Director(a) de Agronomía",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296878054?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      },
+      {
+        "title": "Diretor de Operações - Empresa de Bebidas",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294848019?utm_source=freehire.me",
+        "location": "Grande BH, Brazil"
+      },
+      {
+        "title": "Executivo de Vendas",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295592016?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "SAP Functional Lead",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297403001?utm_source=freehire.me",
+        "location": "Medellin, Colombia"
+      },
+      {
+        "title": "Técnico Mecánico - Ecuador",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297161002?utm_source=freehire.me",
+        "location": "Ecuador, Ecuador"
+      },
+      {
+        "title": "Operador de campo",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297124001?utm_source=freehire.me",
+        "location": "Ecuador, Ninguno"
+      },
+      {
+        "title": "Analista de Categoría Diesel",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296927010?utm_source=freehire.me",
+        "location": "Medellin, Colombia"
+      },
+      {
+        "title": "TÉCNICO ELETROMECÂNICO IV - OVERHAUL",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296737013?utm_source=freehire.me",
+        "location": "Barueri, Brazil"
+      },
+      {
+        "title": "Especialista Operações Comerciais",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297147051?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Técnico Centro de Operações Pleno / Sênior",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296173017?utm_source=freehire.me",
+        "location": "São Paulo, Brazil"
+      },
+      {
+        "title": "Jefe de Riesgos y Fraude",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295757002?utm_source=freehire.me",
+        "location": "Lima, Peru"
+      },
+      {
+        "title": "Especialista Sr de Operação e Manutenção",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297167097?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Analista Jurídico Sr.",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296985003?utm_source=freehire.me",
+        "location": "Fortaleza, Brazil"
+      },
+      {
+        "title": "Especialista em Engenharia de Manutenção",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296737001?utm_source=freehire.me",
+        "location": "São Paulo, Brazil"
+      },
+      {
+        "title": "Gerente de Manutenção - MINERACAO",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000293179029?utm_source=freehire.me",
+        "location": "Mato Grosso, Brazil"
+      },
+      {
+        "title": "Especialista SOX",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296973004?utm_source=freehire.me",
+        "location": "Medellin, Colombia"
+      },
+      {
+        "title": "Médico Laboral",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295003011?utm_source=freehire.me",
+        "location": "Fontibon, Colômbia"
+      },
+      {
+        "title": "Business Controller - Energy - Pernambuco",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295661211?utm_source=freehire.me",
+        "location": "Cabo de Santo Agostinho, Brazil"
+      },
+      {
+        "title": "Diretor Jurídico",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295339050?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Técnico Ayudante de Mantenimiento",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296393012?utm_source=freehire.me",
+        "location": "Bucaramanga, Ninguno"
+      },
+      {
+        "title": "Ingeniero de Mantenimiento Eléctrico",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296735036?utm_source=freehire.me",
+        "location": "Monterrey, Mexico"
+      },
+      {
+        "title": "Especialista Sênior Operações Comerciais",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297147070?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Country Manager Perú",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295515004?utm_source=freehire.me",
+        "location": "Lima, Peru"
+      },
+      {
+        "title": "Gerente Médico do Trabalho",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294675005?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brazil"
+      },
+      {
+        "title": "Business Controller, FP&A Manager",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000295843006?utm_source=freehire.me",
+        "location": "Pinhais, Brazil"
+      },
+      {
+        "title": "Gerente de Contas",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296165002?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "General Manager – Brazil",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000294498587?utm_source=freehire.me",
+        "location": "Rio de Janeiro, Brasil"
+      },
+      {
+        "title": "Analista de Compras Sênior",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296937005?utm_source=freehire.me",
+        "location": "Santos, Brazil"
+      },
+      {
+        "title": "Pre-Sales Manager",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296465013?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Líder comercial de canales",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297556056?utm_source=freehire.me",
+        "location": "Bucaramanga, Colombia"
+      },
+      {
+        "title": "Líder de Cadena de Suministro y contratación",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297342001?utm_source=freehire.me",
+        "location": "Bucaramanga, Colombia"
+      },
+      {
+        "title": "Gerente de Engenharia",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000296858041?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Business Development",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297531013?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      },
+      {
+        "title": "Especialista Sr HV",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297167134?utm_source=freehire.me",
+        "location": "São Paulo, Brasil"
+      },
+      {
+        "title": "Profesional de Procesos y Continuidad Senior - Cali",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297505024?utm_source=freehire.me",
+        "location": "Cali, Colombia"
+      },
+      {
+        "title": "Líder comercial",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297499026?utm_source=freehire.me",
+        "location": "lima, Peru"
+      },
+      {
+        "title": "Líder comercial",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297499017?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      },
+      {
+        "title": "Profesional de Evaluación Financiera de Proyectos",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297403017?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      },
+      {
+        "title": "Business Development",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297531033?utm_source=freehire.me",
+        "location": "Lima, Peru"
+      },
+      {
+        "title": "Líder de Mantenimiento",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297498017?utm_source=freehire.me",
+        "location": "Villavicencio, Colombia"
+      },
+      {
+        "title": "Profesional Gestión de Activos",
+        "source_url": "https://petra-group.zohorecruit.com/jobs/Careers/347316000297403058?utm_source=freehire.me",
+        "location": "Usaquen, Colombia"
+      }
+    ]
+  },
+  {
+    "slug": "tms",
+    "url": "https://freehire.me/api/v1/companies/tms?limit=100",
+    "checked_at": "2026-10-27T20:24:15.994563+00:00",
+    "company": "TMS, LLC",
+    "jobs": [
+      {
+        "title": "Monteure (m/w), Montagekolonnen (m/w)",
+        "source_url": "https://jobs.smartrecruiters.com/TMSSA/743999669994155-monteure-m-w-montagekolonnen-m-w-?utm_source=freehire.me",
+        "location": "Grevenmacher, Grevenmacher, lu"
+      },
+      {
+        "title": "Canada Role: Java Developer | Spring Boot | Upgrade & Modernization | Hybrid | 7+ years of experienc",
+        "source_url": "https://en-ca.whatjobs.com/pub_api__cpl__145620990__7103?geoID=6225&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Senior Python React Developer | Canada-Remote | 8+ years of experience",
+        "source_url": "https://en-ca.whatjobs.com/pub_api__cpl__144911236__7103?geoID=6399&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Vancouver, Canada"
+      },
+      {
+        "title": "Senior Python React Developer | Canada | Remote | 8+ Years",
+        "source_url": "https://en-ca.whatjobs.com/pub_api__cpl__144909649__7103?geoID=6225&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Canada Role: Java Developer | Spring Boot | Upgrade & Modernization | Hybrid | 7+ years of experience",
+        "source_url": "https://en-ca.whatjobs.com/pub_api__cpl__145131531__7103?geoID=6225&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Java Developer: Spring Boot Upgrade & Modernization (Hybrid)",
+        "source_url": "https://en-ca.whatjobs.com/pub_api__cpl__145132091__7103?geoID=6225&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Senior AI-Native Forward Deployed Engineer | Remote | Long Term | C2C",
+        "source_url": "https://aijobs.net/job/senior-ai-native-forward-deployed-engineer-remote-long-term-c2c-jersey-city-nj-united-states-311583/?utm_source=freehire.me",
+        "location": "Jersey City, NJ, United States"
+      }
+    ]
+  }
+]

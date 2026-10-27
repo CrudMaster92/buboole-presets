@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "preverco",
+  "name": "Preverco",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/see-company/preverco-inc-.zYsdUe",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "forest-products"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}
