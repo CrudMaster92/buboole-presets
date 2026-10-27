@@ -1,0 +1,6741 @@
+[
+  {
+    "id": "leclerc",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Leclerc",
+        "url": "https://freehire.me/api/v1/companies?q=Leclerc&limit=100",
+        "checked_at": "2026-10-27T19:45:57.110578+00:00",
+        "total": 4,
+        "companies": [
+          {
+            "slug": "leclerc-approvisionnement-sud",
+            "name": "LECLERC APPROVISIONNEMENT SUD",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-e-leclerc",
+            "name": "Groupe E.Leclerc",
+            "job_count": 3
+          },
+          {
+            "slug": "galec-groupement-dachats-e-leclerc",
+            "name": "GALEC - Groupement d'Achats E.LECLERC",
+            "job_count": 1
+          },
+          {
+            "slug": "siplec-e-leclerc",
+            "name": "SIPLEC - E.LECLERC",
+            "job_count": 1
+          }
+        ]
+      },
+      {
+        "query": "Leclerc Foods",
+        "url": "https://freehire.me/api/v1/companies?q=Leclerc+Foods&limit=100",
+        "checked_at": "2026-10-27T19:46:00.197794+00:00",
+        "total": 4,
+        "companies": [
+          {
+            "slug": "leclerc-approvisionnement-sud",
+            "name": "LECLERC APPROVISIONNEMENT SUD",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-e-leclerc",
+            "name": "Groupe E.Leclerc",
+            "job_count": 3
+          },
+          {
+            "slug": "galec-groupement-dachats-e-leclerc",
+            "name": "GALEC - Groupement d'Achats E.LECLERC",
+            "job_count": 1
+          },
+          {
+            "slug": "siplec-e-leclerc",
+            "name": "SIPLEC - E.LECLERC",
+            "job_count": 1
+          }
+        ]
+      },
+      {
+        "query": "Biscuits Leclerc",
+        "url": "https://freehire.me/api/v1/companies?q=Biscuits+Leclerc&limit=100",
+        "checked_at": "2026-10-27T19:46:03.090842+00:00",
+        "total": 8,
+        "companies": [
+          {
+            "slug": "biscuits-bath-companies",
+            "name": "BISCUITS & BATH COMPANIES",
+            "job_count": 5
+          },
+          {
+            "slug": "julies-biscuits",
+            "name": "Julie's Biscuits",
+            "job_count": 1
+          },
+          {
+            "slug": "biscuit-international-services-germany",
+            "name": "Biscuit International Services Germany GmbH & Co. KG",
+            "job_count": 1
+          },
+          {
+            "slug": "flying-biscuit-cafe",
+            "name": "Flying Biscuit Cafe",
+            "job_count": 7
+          },
+          {
+            "slug": "flying-biscuit-cafe-kennesaw",
+            "name": "Flying Biscuit Cafe - Kennesaw",
+            "job_count": 1
+          },
+          {
+            "slug": "callies-hot-little-biscuit",
+            "name": "Callie's Hot Little Biscuit",
+            "job_count": 4
+          },
+          {
+            "slug": "grupo-marilan",
+            "name": "Grupo Marilan",
+            "job_count": 4
+          },
+          {
+            "slug": "grupo-cvlb",
+            "name": "Grupo CVLB",
+            "job_count": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vicwest",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Vicwest",
+        "url": "https://freehire.me/api/v1/companies?q=Vicwest&limit=100",
+        "checked_at": "2026-10-27T19:45:57.135836+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "keilhauer",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Keilhauer",
+        "url": "https://freehire.me/api/v1/companies?q=Keilhauer&limit=100",
+        "checked_at": "2026-10-27T19:45:57.136204+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "canadel",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Canadel",
+        "url": "https://freehire.me/api/v1/companies?q=Canadel&limit=100",
+        "checked_at": "2026-10-27T19:45:57.169900+00:00",
+        "total": 9,
+        "companies": [
+          {
+            "slug": "candela-medical",
+            "name": "Candela Medical",
+            "job_count": 6
+          },
+          {
+            "slug": "candel-therapeutics",
+            "name": "Candel Therapeutics",
+            "job_count": 4
+          },
+          {
+            "slug": "candela-medicalziyobu-huido",
+            "name": "Candela Medicalジョブ・フィード",
+            "job_count": 3
+          },
+          {
+            "slug": "candela",
+            "name": "Candela",
+            "job_count": 2
+          },
+          {
+            "slug": "candela-medical-zhi-wei-yuan",
+            "name": "Candela Medical 职位源",
+            "job_count": 1
+          },
+          {
+            "slug": "candelaria-sur",
+            "name": "candelaria sur",
+            "job_count": 1
+          },
+          {
+            "slug": "syneron-candela",
+            "name": "Syneron Candela",
+            "job_count": 2
+          },
+          {
+            "slug": "job-feed-von-candela-medical",
+            "name": "Job-Feed von Candela Medical",
+            "job_count": 2
+          },
+          {
+            "slug": "carga-de-puesto-de-candela-medical",
+            "name": "Carga de puesto de Candela Medical",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nolinor",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Nolinor Aviation",
+        "url": "https://freehire.me/api/v1/companies?q=Nolinor+Aviation&limit=100",
+        "checked_at": "2026-10-27T19:45:57.126772+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "polykar",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Polykar",
+        "url": "https://freehire.me/api/v1/companies?q=Polykar&limit=100",
+        "checked_at": "2026-10-27T19:46:00.207224+00:00",
+        "total": 5,
+        "companies": [
+          {
+            "slug": "polymarket",
+            "name": "Polymarket",
+            "job_count": 114
+          },
+          {
+            "slug": "polyart-group",
+            "name": "Polyart Group",
+            "job_count": 3
+          },
+          {
+            "slug": "polygard",
+            "name": "POLYGARD",
+            "job_count": 1
+          },
+          {
+            "slug": "ip-polikarpova-s-v",
+            "name": "ИП ПОЛИКАРПОВА С. В.",
+            "job_count": 1
+          },
+          {
+            "slug": "ip-polikarpov-a-v",
+            "name": "ИП ПОЛИКАРПОВ А. В.",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chrono-aviation",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Chrono Aviation",
+        "url": "https://freehire.me/api/v1/companies?q=Chrono+Aviation&limit=100",
+        "checked_at": "2026-10-27T19:46:00.199273+00:00",
+        "total": 12,
+        "companies": [
+          {
+            "slug": "chronos-aviation",
+            "name": "Chronos Aviation",
+            "job_count": 1
+          },
+          {
+            "slug": "chrono-toys",
+            "name": "Chrono Toys",
+            "job_count": 2
+          },
+          {
+            "slug": "chronos-personalberatung",
+            "name": "CHRONOS Personalberatung GmbH",
+            "job_count": 12
+          },
+          {
+            "slug": "chrona",
+            "name": "Chrona",
+            "job_count": 8
+          },
+          {
+            "slug": "chronos-consulting",
+            "name": "Chronos Consulting",
+            "job_count": 3
+          },
+          {
+            "slug": "chrona-agency",
+            "name": "Chrona agency",
+            "job_count": 2
+          },
+          {
+            "slug": "chronon",
+            "name": "Chronon",
+            "job_count": 1
+          },
+          {
+            "slug": "chronos-process-integration-sdn-bhd",
+            "name": "Chronos Process Integration Sdn Bhd",
+            "job_count": 1
+          },
+          {
+            "slug": "chronos-systems",
+            "name": "Chronos Systems Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "crono-logica-telefonia-avancada-de-vr",
+            "name": "CRONO LÓGICA TELEFONIA AVANÇADA DE VR",
+            "job_count": 1
+          },
+          {
+            "slug": "pt-chronos-universal",
+            "name": "PT Chronos Universal",
+            "job_count": 1
+          },
+          {
+            "slug": "coberon-chronos",
+            "name": "CoberonChronos",
+            "job_count": 2
+          }
+        ]
+      },
+      {
+        "query": "Chrono",
+        "url": "https://freehire.me/api/v1/companies?q=Chrono&limit=100",
+        "checked_at": "2026-10-27T19:46:03.211149+00:00",
+        "total": 152,
+        "companies": [
+          {
+            "slug": "chrono-toys",
+            "name": "Chrono Toys",
+            "job_count": 2
+          },
+          {
+            "slug": "chronos-personalberatung",
+            "name": "CHRONOS Personalberatung GmbH",
+            "job_count": 12
+          },
+          {
+            "slug": "chrono24",
+            "name": "chrono24",
+            "job_count": 11
+          },
+          {
+            "slug": "chronograph",
+            "name": "Chronograph",
+            "job_count": 11
+          },
+          {
+            "slug": "chronos-consulting",
+            "name": "Chronos Consulting",
+            "job_count": 3
+          },
+          {
+            "slug": "chronoai",
+            "name": "ChronoAI Pte Ltd",
+            "job_count": 2
+          },
+          {
+            "slug": "chronocraft",
+            "name": "ChronoCraft",
+            "job_count": 2
+          },
+          {
+            "slug": "chronograph-chronograph-pe",
+            "name": "Chronograph (chronograph.pe)",
+            "job_count": 1
+          },
+          {
+            "slug": "chronon",
+            "name": "Chronon",
+            "job_count": 1
+          },
+          {
+            "slug": "chronos-aviation",
+            "name": "Chronos Aviation",
+            "job_count": 1
+          },
+          {
+            "slug": "chronoscale-holdings",
+            "name": "ChronoScale Holdings Corporation",
+            "job_count": 1
+          },
+          {
+            "slug": "chronos-process-integration-sdn-bhd",
+            "name": "Chronos Process Integration Sdn Bhd",
+            "job_count": 1
+          },
+          {
+            "slug": "chronossolutions",
+            "name": "ChronosSolutions",
+            "job_count": 1
+          },
+          {
+            "slug": "chronos-systems",
+            "name": "Chronos Systems Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "bei-chrono24",
+            "name": "bei Chrono24",
+            "job_count": 1
+          },
+          {
+            "slug": "pt-chronos-universal",
+            "name": "PT Chronos Universal",
+            "job_count": 1
+          },
+          {
+            "slug": "coberon-chronos",
+            "name": "CoberonChronos",
+            "job_count": 2
+          },
+          {
+            "slug": "cronos-europa",
+            "name": "Cronos Europa",
+            "job_count": 54
+          },
+          {
+            "slug": "chronim-delivery-logistics",
+            "name": "Chronim Delivery & Logistics",
+            "job_count": 29
+          },
+          {
+            "slug": "cronos",
+            "name": "Cronos GmbH",
+            "job_count": 9
+          },
+          {
+            "slug": "cronos-group",
+            "name": "Cronos Group Inc.",
+            "job_count": 9
+          },
+          {
+            "slug": "chrona",
+            "name": "Chrona",
+            "job_count": 8
+          },
+          {
+            "slug": "chronicle-heritage",
+            "name": "Chronicle Heritage",
+            "job_count": 5
+          },
+          {
+            "slug": "cronos-unternehmensberatung",
+            "name": "cronos Unternehmensberatung GmbH",
+            "job_count": 4
+          },
+          {
+            "slug": "chronext",
+            "name": "chronext",
+            "job_count": 3
+          },
+          {
+            "slug": "chrona-agency",
+            "name": "Chrona agency",
+            "job_count": 2
+          },
+          {
+            "slug": "chronicle",
+            "name": "Chronicle",
+            "job_count": 2
+          },
+          {
+            "slug": "chronicle-labs",
+            "name": "Chronicle Labs",
+            "job_count": 2
+          },
+          {
+            "slug": "cronofy",
+            "name": "Cronofy",
+            "job_count": 2
+          },
+          {
+            "slug": "cronometer",
+            "name": "Cronometer",
+            "job_count": 2
+          },
+          {
+            "slug": "cronos-international",
+            "name": "Cronos International",
+            "job_count": 2
+          },
+          {
+            "slug": "chromologic",
+            "name": "chromologic",
+            "job_count": 1
+          },
+          {
+            "slug": "chronicare",
+            "name": "ChroniCare",
+            "job_count": 1
+          },
+          {
+            "slug": "chronicle-books",
+            "name": "Chronicle Books",
+            "job_count": 1
+          },
+          {
+            "slug": "chronicles-rt",
+            "name": "Chronicles RT",
+            "job_count": 1
+          },
+          {
+            "slug": "chrontec",
+            "name": "ChronTec",
+            "job_count": 1
+          },
+          {
+            "slug": "chronus",
+            "name": "Chronus",
+            "job_count": 1
+          },
+          {
+            "slug": "crono-logica-telefonia-avancada-de-vr",
+            "name": "CRONO LÓGICA TELEFONIA AVANÇADA DE VR",
+            "job_count": 1
+          },
+          {
+            "slug": "cronometer-software",
+            "name": "Cronometer Software Inc",
+            "job_count": 1
+          },
+          {
+            "slug": "cronomhr",
+            "name": "CronomHR",
+            "job_count": 1
+          },
+          {
+            "slug": "cronos-digital-safety-solutions",
+            "name": "Cronos Digital Safety Solutions Oy",
+            "job_count": 1
+          },
+          {
+            "slug": "de-cronos-groep",
+            "name": "De Cronos Groep",
+            "job_count": 2
+          },
+          {
+            "slug": "the-chronicle-of-higher-education",
+            "name": "The Chronicle of Higher Education",
+            "job_count": 2
+          },
+          {
+            "slug": "skyark-chronicles",
+            "name": "SkyArk Chronicles",
+            "job_count": 1
+          },
+          {
+            "slug": "the-chronic-michigan",
+            "name": "The Chronic Michigan",
+            "job_count": 1
+          },
+          {
+            "slug": "discharge-iq-inc-dba-chroniccareiq",
+            "name": "Discharge IQ Inc dba ChronicCareIQ",
+            "job_count": 2
+          },
+          {
+            "slug": "national-association-of-chronic-disease-directors",
+            "name": "National Association of Chronic Disease Directors",
+            "job_count": 2
+          },
+          {
+            "slug": "madou-ds-5-noril-chonok",
+            "name": "МАДОУ \"ДС №5 \"НОРИЛЬЧОНОК\"",
+            "job_count": 4
+          },
+          {
+            "slug": "endogen-wellness",
+            "name": "Endogen Wellness",
+            "job_count": 7
+          },
+          {
+            "slug": "metaphy-health",
+            "name": "MetaPhy Health",
+            "job_count": 5
+          },
+          {
+            "slug": "conversio-health",
+            "name": "Conversio Health",
+            "job_count": 3
+          },
+          {
+            "slug": "nura-precision-pain-management",
+            "name": "Nura Precision Pain Management",
+            "job_count": 1
+          },
+          {
+            "slug": "sonoran-pain-consultants",
+            "name": "Sonoran Pain Consultants",
+            "job_count": 1
+          },
+          {
+            "slug": "vida-health",
+            "name": "Vida Health",
+            "job_count": 20
+          },
+          {
+            "slug": "careharmony",
+            "name": "CareHarmony",
+            "job_count": 14
+          },
+          {
+            "slug": "lifekind-health",
+            "name": "Lifekind Health",
+            "job_count": 13
+          },
+          {
+            "slug": "twelvestone-health-partners",
+            "name": "TwelveStone Health Partners",
+            "job_count": 10
+          },
+          {
+            "slug": "phamily",
+            "name": "Phamily",
+            "job_count": 9
+          },
+          {
+            "slug": "chartspan",
+            "name": "ChartSpan",
+            "job_count": 7
+          },
+          {
+            "slug": "juno",
+            "name": "Juno",
+            "job_count": 6
+          },
+          {
+            "slug": "measured",
+            "name": "Measured",
+            "job_count": 6
+          },
+          {
+            "slug": "cosan-group",
+            "name": "Cosan Group",
+            "job_count": 5
+          },
+          {
+            "slug": "brook-health",
+            "name": "Brook Health",
+            "job_count": 4
+          },
+          {
+            "slug": "foresight-health",
+            "name": "Foresight Health",
+            "job_count": 4
+          },
+          {
+            "slug": "shandin-hills-behavioral-health-center",
+            "name": "Shandin Hills Behavioral Health Center",
+            "job_count": 4
+          },
+          {
+            "slug": "vigilant-health",
+            "name": "Vigilant Health",
+            "job_count": 4
+          },
+          {
+            "slug": "circlelink-health",
+            "name": "CircleLink Health",
+            "job_count": 3
+          },
+          {
+            "slug": "simplex-health",
+            "name": "Simplex Health",
+            "job_count": 3
+          },
+          {
+            "slug": "singlepoint-healthcare",
+            "name": "Singlepoint Healthcare",
+            "job_count": 3
+          },
+          {
+            "slug": "uptiv-health",
+            "name": "Uptiv Health, Inc.",
+            "job_count": 3
+          },
+          {
+            "slug": "albany-care",
+            "name": "Albany Care",
+            "job_count": 2
+          },
+          {
+            "slug": "tria-health",
+            "name": "Tria Health",
+            "job_count": 1
+          },
+          {
+            "slug": "vheda-health",
+            "name": "Vheda Health",
+            "job_count": 1
+          },
+          {
+            "slug": "volastra-therapeutics",
+            "name": "Volastra Therapeutics",
+            "job_count": 1
+          },
+          {
+            "slug": "vor-bio",
+            "name": "Vor Bio",
+            "job_count": 1
+          },
+          {
+            "slug": "ccs",
+            "name": "CCS",
+            "job_count": 75
+          },
+          {
+            "slug": "omada-health",
+            "name": "Omada Health",
+            "job_count": 34
+          },
+          {
+            "slug": "ivx-health",
+            "name": "IVX Health",
+            "job_count": 27
+          },
+          {
+            "slug": "glaukos",
+            "name": "Glaukos Corporation",
+            "job_count": 23
+          },
+          {
+            "slug": "pain-treatment-centers-of-america",
+            "name": "Pain Treatment Centers of America",
+            "job_count": 21
+          },
+          {
+            "slug": "pharmd-live",
+            "name": "PharmD Live",
+            "job_count": 19
+          },
+          {
+            "slug": "sage-infusion",
+            "name": "Sage Infusion",
+            "job_count": 19
+          },
+          {
+            "slug": "novella-infusion",
+            "name": "Novella Infusion",
+            "job_count": 18
+          },
+          {
+            "slug": "andhealth",
+            "name": "andhealth",
+            "job_count": 17
+          },
+          {
+            "slug": "biotab-healthcare",
+            "name": "BioTAB Healthcare",
+            "job_count": 16
+          },
+          {
+            "slug": "medsien",
+            "name": "Medsien",
+            "job_count": 16
+          },
+          {
+            "slug": "tactile-medical",
+            "name": "Tactile Medical",
+            "job_count": 14
+          },
+          {
+            "slug": "noctrix-health",
+            "name": "Noctrix Health",
+            "job_count": 12
+          },
+          {
+            "slug": "pelvic-rehabilitation-medicine",
+            "name": "Pelvic Rehabilitation Medicine",
+            "job_count": 11
+          },
+          {
+            "slug": "cala-health",
+            "name": "Cala Health",
+            "job_count": 10
+          },
+          {
+            "slug": "joint-academy",
+            "name": "Joint Academy",
+            "job_count": 10
+          },
+          {
+            "slug": "nsight-health",
+            "name": "Nsight Health",
+            "job_count": 10
+          },
+          {
+            "slug": "arthritis-knee-pain-centers",
+            "name": "Arthritis Knee Pain Centers",
+            "job_count": 9
+          },
+          {
+            "slug": "epicured",
+            "name": "Epicured",
+            "job_count": 9
+          },
+          {
+            "slug": "evn-dialysis-center",
+            "name": "EVN Dialysis Center LLC",
+            "job_count": 9
+          },
+          {
+            "slug": "welldoc",
+            "name": "welldoc",
+            "job_count": 9
+          },
+          {
+            "slug": "medcentris",
+            "name": "MedCentris",
+            "job_count": 7
+          },
+          {
+            "slug": "recovia",
+            "name": "Recovia",
+            "job_count": 7
+          },
+          {
+            "slug": "suite-life-health-wellness",
+            "name": "Suite Life Health & Wellness",
+            "job_count": 7
+          },
+          {
+            "slug": "supercare-health",
+            "name": "supercare-health",
+            "job_count": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amisco",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Amisco",
+        "url": "https://freehire.me/api/v1/companies?q=Amisco&limit=100",
+        "checked_at": "2026-10-27T19:46:00.233011+00:00",
+        "total": 11,
+        "companies": [
+          {
+            "slug": "ames-construction",
+            "name": "amesconstruction",
+            "job_count": 49
+          },
+          {
+            "slug": "amico",
+            "name": "Amico",
+            "job_count": 29
+          },
+          {
+            "slug": "amiconsult",
+            "name": "amiconsult",
+            "job_count": 11
+          },
+          {
+            "slug": "amico-technology-international",
+            "name": "AMICO TECHNOLOGY INTERNATIONAL PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "awisco",
+            "name": "AWISCO",
+            "job_count": 2
+          },
+          {
+            "slug": "amesco",
+            "name": "AMESCO",
+            "job_count": 1
+          },
+          {
+            "slug": "amicon-partners",
+            "name": "Amicon Partners",
+            "job_count": 1
+          },
+          {
+            "slug": "amicorp-asset-management-singapore",
+            "name": "AMICORP ASSET MANAGEMENT SINGAPORE PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "amicorp-singapore",
+            "name": "AMICORP SINGAPORE PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "amicorp-trustees-singapore",
+            "name": "AMICORP TRUSTEES (SINGAPORE) LIMITED",
+            "job_count": 1
+          },
+          {
+            "slug": "damico-hospitality",
+            "name": "D’Amico Hospitality",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "verbom",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Verbom",
+        "url": "https://freehire.me/api/v1/companies?q=Verbom&limit=100",
+        "checked_at": "2026-10-27T19:46:00.201276+00:00",
+        "total": 5,
+        "companies": [
+          {
+            "slug": "verbolia",
+            "name": "Verbolia",
+            "job_count": 1
+          },
+          {
+            "slug": "veriom",
+            "name": "Veriom",
+            "job_count": 1
+          },
+          {
+            "slug": "pidz-met-zorg-verbonden",
+            "name": "PIDZ - Met zorg verbonden",
+            "job_count": 1
+          },
+          {
+            "slug": "mbou-verbovologovskaia-ssh-6",
+            "name": "МБОУ ВЕРБОВОЛОГОВСКАЯ СШ № 6",
+            "job_count": 1
+          },
+          {
+            "slug": "ooo-tsentr-slukha-i-rechi-verboton-m",
+            "name": "ООО \"ЦЕНТР СЛУХА И РЕЧИ ВЕРБОТОН - М +\"",
+            "job_count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "artopex",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Artopex",
+        "url": "https://freehire.me/api/v1/companies?q=Artopex&limit=100",
+        "checked_at": "2026-10-27T19:46:03.122180+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "wiptec",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Wiptec",
+        "url": "https://freehire.me/api/v1/companies?q=Wiptec&limit=100",
+        "checked_at": "2026-10-27T19:46:03.215051+00:00",
+        "total": 11,
+        "companies": [
+          {
+            "slug": "wintech-services",
+            "name": "Wintech Services",
+            "job_count": 5
+          },
+          {
+            "slug": "wimtech",
+            "name": "WIMTECH",
+            "job_count": 2
+          },
+          {
+            "slug": "wintech",
+            "name": "WinTech",
+            "job_count": 2
+          },
+          {
+            "slug": "witec-elektrotechnik-gmbh-mehtap-behluli",
+            "name": "Witec Elektrotechnik GmbH Mehtap Behluli",
+            "job_count": 2
+          },
+          {
+            "slug": "wiztech-group",
+            "name": "Wiztech Group",
+            "job_count": 2
+          },
+          {
+            "slug": "weptech-elektronik",
+            "name": "WEPTECH elektronik GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "wintec",
+            "name": "Wintec",
+            "job_count": 1
+          },
+          {
+            "slug": "wintec-autoglas",
+            "name": "Wintec Autoglas GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "wintech-nano-technology-services",
+            "name": "WINTECH NANO-TECHNOLOGY SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "wipotec",
+            "name": "Wipotec GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "wipotec-ocs",
+            "name": "WIPOTEC-OCS GmbH",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "air-inuit",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Air Inuit",
+        "url": "https://freehire.me/api/v1/companies?q=Air+Inuit&limit=100",
+        "checked_at": "2026-10-27T19:46:03.152233+00:00",
+        "total": 867,
+        "companies": [
+          {
+            "slug": "air",
+            "name": "Air",
+            "job_count": 65
+          },
+          {
+            "slug": "air-liquide",
+            "name": "Air Liquide",
+            "job_count": 398
+          },
+          {
+            "slug": "air-products",
+            "name": "Air Products",
+            "job_count": 199
+          },
+          {
+            "slug": "air-national-guard-units",
+            "name": "Air National Guard Units",
+            "job_count": 195
+          },
+          {
+            "slug": "air-control-concepts",
+            "name": "AIR Control Concepts",
+            "job_count": 94
+          },
+          {
+            "slug": "air-apps",
+            "name": "Air Apps",
+            "job_count": 85
+          },
+          {
+            "slug": "air-arabia",
+            "name": "Air Arabia",
+            "job_count": 69
+          },
+          {
+            "slug": "air-methods",
+            "name": "Air Methods",
+            "job_count": 64
+          },
+          {
+            "slug": "air-distribution-technologies",
+            "name": "Air Distribution Technologies",
+            "job_count": 61
+          },
+          {
+            "slug": "air-force-materiel-command",
+            "name": "Air Force Materiel Command",
+            "job_count": 48
+          },
+          {
+            "slug": "air-mobility-command",
+            "name": "Air Mobility Command",
+            "job_count": 41
+          },
+          {
+            "slug": "air-space-xin-di-guo-ji-gu-fen-you-xian-gong-si",
+            "name": "AIR SPACE_新地國際股份有限公司",
+            "job_count": 26
+          },
+          {
+            "slug": "air-combat-command",
+            "name": "Air Combat Command",
+            "job_count": 25
+          },
+          {
+            "slug": "air-force-global-strike-command",
+            "name": "Air Force Global Strike Command",
+            "job_count": 25
+          },
+          {
+            "slug": "air-culinaire-worldwide",
+            "name": "Air Culinaire Worldwide",
+            "job_count": 24
+          },
+          {
+            "slug": "air-new-zealand",
+            "name": "Air New Zealand",
+            "job_count": 21
+          },
+          {
+            "slug": "air-education-and-training-command",
+            "name": "Air Education and Training Command",
+            "job_count": 19
+          },
+          {
+            "slug": "air-minas",
+            "name": "Air Minas",
+            "job_count": 19
+          },
+          {
+            "slug": "air-systems-service-construction",
+            "name": "Air Systems Service & Construction",
+            "job_count": 14
+          },
+          {
+            "slug": "air-systems",
+            "name": "Air Systems, Inc.",
+            "job_count": 13
+          },
+          {
+            "slug": "air-transport-services-group",
+            "name": "Air Transport Services Group",
+            "job_count": 13
+          },
+          {
+            "slug": "air-experts",
+            "name": "Air Experts",
+            "job_count": 12
+          },
+          {
+            "slug": "air-treatment",
+            "name": "Air Treatment Corporation",
+            "job_count": 11
+          },
+          {
+            "slug": "air-canada",
+            "name": "Air Canada",
+            "job_count": 10
+          },
+          {
+            "slug": "air-canada-vacations",
+            "name": "Air Canada Vacations",
+            "job_count": 10
+          },
+          {
+            "slug": "air-force-civilian-career-training",
+            "name": "Air Force Civilian Career Training",
+            "job_count": 10
+          },
+          {
+            "slug": "air-force-special-operations-command",
+            "name": "Air Force Special Operations Command",
+            "job_count": 10
+          },
+          {
+            "slug": "air-tech-of-houston",
+            "name": "Air Tech of Houston",
+            "job_count": 10
+          },
+          {
+            "slug": "air-tek",
+            "name": "Air-tek",
+            "job_count": 10
+          },
+          {
+            "slug": "air-transport-international",
+            "name": "Air Transport International",
+            "job_count": 10
+          },
+          {
+            "slug": "air-controls",
+            "name": "Air Controls",
+            "job_count": 9
+          },
+          {
+            "slug": "air-force-district-of-washington",
+            "name": "Air Force District of Washington",
+            "job_count": 9
+          },
+          {
+            "slug": "air-comm",
+            "name": "Air Comm",
+            "job_count": 8
+          },
+          {
+            "slug": "air-hydro-power",
+            "name": "Air Hydro Power",
+            "job_count": 8
+          },
+          {
+            "slug": "air-combat-effectiveness-consulting-group",
+            "name": "Air Combat Effectiveness Consulting Group",
+            "job_count": 7
+          },
+          {
+            "slug": "air-fayre",
+            "name": "Air Fayre",
+            "job_count": 7
+          },
+          {
+            "slug": "air-temp-mechanical",
+            "name": "Air Temp Mechanical",
+            "job_count": 7
+          },
+          {
+            "slug": "air-comfort-solutions-okc",
+            "name": "Air Comfort Solutions OKC",
+            "job_count": 6
+          },
+          {
+            "slug": "air-nu-of-baton-rouge",
+            "name": "Air-Nu of Baton Rouge",
+            "job_count": 6
+          },
+          {
+            "slug": "air-sea-packing-group",
+            "name": "Air Sea Packing Group",
+            "job_count": 6
+          },
+          {
+            "slug": "air-squared",
+            "name": "Air Squared",
+            "job_count": 6
+          },
+          {
+            "slug": "air-wisconsin",
+            "name": "Air Wisconsin",
+            "job_count": 6
+          },
+          {
+            "slug": "air-international-thermal-systems",
+            "name": "Air International Thermal Systems",
+            "job_count": 5
+          },
+          {
+            "slug": "air-labs",
+            "name": "air-labs-inc-",
+            "job_count": 5
+          },
+          {
+            "slug": "air-lift",
+            "name": "Air Lift",
+            "job_count": 5
+          },
+          {
+            "slug": "air-ref",
+            "name": "Air-Ref",
+            "job_count": 5
+          },
+          {
+            "slug": "air-specialty-equipment-company",
+            "name": "Air Specialty & Equipment Company",
+            "job_count": 5
+          },
+          {
+            "slug": "air-academy-credit-union",
+            "name": "Air Academy Credit Union",
+            "job_count": 4
+          },
+          {
+            "slug": "air-comfort-service-group",
+            "name": "Air Comfort Service Group",
+            "job_count": 4
+          },
+          {
+            "slug": "air-france-klm",
+            "name": "Air France KLM",
+            "job_count": 4
+          },
+          {
+            "slug": "air-general",
+            "name": "Air General",
+            "job_count": 4
+          },
+          {
+            "slug": "air-master-systems",
+            "name": "Air Master Systems Corp",
+            "job_count": 4
+          },
+          {
+            "slug": "air-products-middle-east-fze",
+            "name": "Air Products (Middle East) FZE",
+            "job_count": 4
+          },
+          {
+            "slug": "air-techniques",
+            "name": "Air Techniques",
+            "job_count": 4
+          },
+          {
+            "slug": "air-and-water",
+            "name": "Air and Water",
+            "job_count": 3
+          },
+          {
+            "slug": "air-associates-ltd-yong-xin-qi-ye-gu-fen-you-xian-gong-si",
+            "name": "AIR  ASSOCIATES  LTD_永新企業股份有限公司",
+            "job_count": 3
+          },
+          {
+            "slug": "air-cargo-carriers",
+            "name": "Air Cargo Carriers",
+            "job_count": 3
+          },
+          {
+            "slug": "air-force-services-agency",
+            "name": "Air Force Services Agency",
+            "job_count": 3
+          },
+          {
+            "slug": "air-france",
+            "name": "AIR FRANCE",
+            "job_count": 3
+          },
+          {
+            "slug": "air-group",
+            "name": "Air Group",
+            "job_count": 3
+          },
+          {
+            "slug": "air-haifa",
+            "name": "Air Haifa",
+            "job_count": 3
+          },
+          {
+            "slug": "air-north",
+            "name": "Air North",
+            "job_count": 3
+          },
+          {
+            "slug": "air-partner",
+            "name": "Air Partner",
+            "job_count": 3
+          },
+          {
+            "slug": "air-serbia",
+            "name": "Air Serbia",
+            "job_count": 3
+          },
+          {
+            "slug": "air-technologies",
+            "name": "Air Technologies",
+            "job_count": 3
+          },
+          {
+            "slug": "air-transport-components",
+            "name": "Air Transport Components",
+            "job_count": 3
+          },
+          {
+            "slug": "air-up",
+            "name": "air up ",
+            "job_count": 3
+          },
+          {
+            "slug": "air-canada-rouge",
+            "name": "Air Canada Rouge",
+            "job_count": 2
+          },
+          {
+            "slug": "air-charter-service-singapore-private",
+            "name": "AIR CHARTER SERVICE (SINGAPORE) PRIVATE LIMITED",
+            "job_count": 2
+          },
+          {
+            "slug": "air-chefs",
+            "name": "Air Chefs",
+            "job_count": 2
+          },
+          {
+            "slug": "air-energi-group-singapore",
+            "name": "AIR ENERGI GROUP SINGAPORE PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "air-fitness-ai-er-jian-shen-ai-er-you-xian-gong-si",
+            "name": "AIR FITNESS 艾兒健身_艾兒有限公司",
+            "job_count": 2
+          },
+          {
+            "slug": "air-force-elements-u-s-strategic-command",
+            "name": "Air Force Elements, U.S. Strategic Command",
+            "job_count": 2
+          },
+          {
+            "slug": "air-force-one",
+            "name": "Air Force One, LLC",
+            "job_count": 2
+          },
+          {
+            "slug": "air-force-personnel-center",
+            "name": "Air Force Personnel Center",
+            "job_count": 2
+          },
+          {
+            "slug": "air-georgia-heaing-cooling",
+            "name": "Air Georgia Heaing & Cooling",
+            "job_count": 2
+          },
+          {
+            "slug": "air-greenland",
+            "name": "Air Greenland",
+            "job_count": 2
+          },
+          {
+            "slug": "air-kranken-und-intensivpflege",
+            "name": "AIR Kranken- und Intensivpflege GmbH",
+            "job_count": 2
+          },
+          {
+            "slug": "air-liquide-advanced-materials-singapore",
+            "name": "AIR LIQUIDE ADVANCED MATERIALS SINGAPORE PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "air-national-guard",
+            "name": "Air National Guard",
+            "job_count": 2
+          },
+          {
+            "slug": "air-niugini",
+            "name": "Air Niugini",
+            "job_count": 2
+          },
+          {
+            "slug": "air-on-demand",
+            "name": "Air On Demand",
+            "job_count": 2
+          },
+          {
+            "slug": "air-power-manufacturing-solutions",
+            "name": "Air Power Manufacturing Solutions",
+            "job_count": 2
+          },
+          {
+            "slug": "air-q-management",
+            "name": "AIR-Q MANAGEMENT PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "air-services-heating-cooling-plumbing-electrical",
+            "name": "Air Services Heating, Cooling, Plumbing & Electrical",
+            "job_count": 2
+          },
+          {
+            "slug": "air-star-transportation",
+            "name": "Air Star Transportation",
+            "job_count": 2
+          },
+          {
+            "slug": "air-stream-air-conditioning",
+            "name": "AIR STREAM AIR CONDITIONING CORP",
+            "job_count": 2
+          },
+          {
+            "slug": "air-tech-of-league-city",
+            "name": "Air Tech of League City",
+            "job_count": 2
+          },
+          {
+            "slug": "air-tindi",
+            "name": "Air Tindi",
+            "job_count": 2
+          },
+          {
+            "slug": "air-zone-plus-llc-998bd6fb-6e31-48a9-b2c1-1bc62cc4fad4",
+            "name": "air-zone-plus-llc-998bd6fb-6e31-48a9-b2c1-1bc62cc4fad4",
+            "job_count": 2
+          },
+          {
+            "slug": "armee-de-lair-et-de-lespace",
+            "name": "Armée de l’air et de l’espace",
+            "job_count": 2
+          },
+          {
+            "slug": "carson-air",
+            "name": "Carson Air",
+            "job_count": 2
+          },
+          {
+            "slug": "air-7-asia",
+            "name": "AIR 7 ASIA PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "air-alsie",
+            "name": "AIR ALSIE A/S",
+            "job_count": 1
+          },
+          {
+            "slug": "air-alsie-a-s-postbox-240",
+            "name": "AIR ALSIE A/S POSTBOX 240",
+            "job_count": 1
+          },
+          {
+            "slug": "air-arabia-group",
+            "name": "Air Arabia Group",
+            "job_count": 1
+          },
+          {
+            "slug": "air-assurance",
+            "name": "Air Assurance",
+            "job_count": 1
+          },
+          {
+            "slug": "air-authority",
+            "name": "Air Authority LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "air-care-of-new-jersey-inc-4597e42b-9c20-464d-90cd-ecad6452b693",
+            "name": "air-care-of-new-jersey-inc-4597e42b-9c20-464d-90cd-ecad6452b693",
+            "job_count": 1
+          },
+          {
+            "slug": "air-charter-service",
+            "name": "Air Charter Service",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "groupe-mundial",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Groupe Mundial",
+        "url": "https://freehire.me/api/v1/companies?q=Groupe+Mundial&limit=100",
+        "checked_at": "2026-10-27T19:46:06.579029+00:00",
+        "total": 10821,
+        "companies": [
+          {
+            "slug": "groupe-sii",
+            "name": "Groupe SII",
+            "job_count": 147
+          },
+          {
+            "slug": "groupe-talents-handicap",
+            "name": "Groupe Talents Handicap",
+            "job_count": 135
+          },
+          {
+            "slug": "groupe-pomona",
+            "name": "Groupe Pomona",
+            "job_count": 129
+          },
+          {
+            "slug": "groupe-lr-technologies",
+            "name": "Groupe LR Technologies",
+            "job_count": 108
+          },
+          {
+            "slug": "groupe-montpetit-ressources-humaines",
+            "name": "Groupe Montpetit Ressources Humaines Inc",
+            "job_count": 75
+          },
+          {
+            "slug": "groupe-adf",
+            "name": "GROUPE ADF",
+            "job_count": 72
+          },
+          {
+            "slug": "groupe-etam",
+            "name": "Groupe ETAM",
+            "job_count": 71
+          },
+          {
+            "slug": "groupe-touchette",
+            "name": "Groupe Touchette",
+            "job_count": 57
+          },
+          {
+            "slug": "groupe-roullier",
+            "name": "Groupe Roullier",
+            "job_count": 55
+          },
+          {
+            "slug": "groupe-barriere",
+            "name": "Groupe Barrière",
+            "job_count": 39
+          },
+          {
+            "slug": "groupe-labelvie",
+            "name": "Groupe LabelVie",
+            "job_count": 39
+          },
+          {
+            "slug": "groupe-rocher",
+            "name": "Groupe Rocher",
+            "job_count": 32
+          },
+          {
+            "slug": "groupe-artemys",
+            "name": "groupe Artemys",
+            "job_count": 24
+          },
+          {
+            "slug": "groupe-serpe",
+            "name": "Groupe Serpe",
+            "job_count": 22
+          },
+          {
+            "slug": "groupe-e",
+            "name": "Groupe E",
+            "job_count": 21
+          },
+          {
+            "slug": "groupe-bourdoncle",
+            "name": "Groupe Bourdoncle",
+            "job_count": 19
+          },
+          {
+            "slug": "groupe-la-bonbonniere",
+            "name": "Groupe la Bonbonnière",
+            "job_count": 19
+          },
+          {
+            "slug": "groupe-bmr",
+            "name": "Groupe BMR",
+            "job_count": 18
+          },
+          {
+            "slug": "groupe-helios",
+            "name": "Groupe Helios",
+            "job_count": 17
+          },
+          {
+            "slug": "groupe-gcf",
+            "name": "groupe-gcf",
+            "job_count": 16
+          },
+          {
+            "slug": "groupe-bbl",
+            "name": "Groupe BBL",
+            "job_count": 15
+          },
+          {
+            "slug": "groupe-3f",
+            "name": "Groupe 3F",
+            "job_count": 13
+          },
+          {
+            "slug": "groupe-berto",
+            "name": "Groupe Berto",
+            "job_count": 13
+          },
+          {
+            "slug": "groupe-guisnel",
+            "name": "Groupe Guisnel",
+            "job_count": 12
+          },
+          {
+            "slug": "groupe-open",
+            "name": "Groupe Open",
+            "job_count": 12
+          },
+          {
+            "slug": "groupe-eolen",
+            "name": "GROUPE EOLEN",
+            "job_count": 11
+          },
+          {
+            "slug": "groupe-rand",
+            "name": "Groupe Rand",
+            "job_count": 10
+          },
+          {
+            "slug": "groupe-robert",
+            "name": "Groupe Robert",
+            "job_count": 10
+          },
+          {
+            "slug": "groupe-aptenia",
+            "name": "Groupe Aptenia",
+            "job_count": 9
+          },
+          {
+            "slug": "groupe-atlantic-nederland",
+            "name": "Groupe Atlantic Nederland",
+            "job_count": 9
+          },
+          {
+            "slug": "groupe-carrion",
+            "name": "Groupe Carrion",
+            "job_count": 9
+          },
+          {
+            "slug": "groupe-gardinier",
+            "name": "Groupe-Gardinier",
+            "job_count": 9
+          },
+          {
+            "slug": "groupe-lg2",
+            "name": "Groupe LG2",
+            "job_count": 9
+          },
+          {
+            "slug": "groupe-ch",
+            "name": "Groupe CH",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-idea",
+            "name": "Groupe IDEA",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-mach",
+            "name": "Groupe MACH",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-plissonneau",
+            "name": "Groupe Plissonneau",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-psa",
+            "name": "Groupe PSA",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-steva",
+            "name": "Groupe Steva",
+            "job_count": 8
+          },
+          {
+            "slug": "groupe-bigard",
+            "name": "Groupe Bigard",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-deret",
+            "name": "Groupe DERET",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-kanbios",
+            "name": "Groupe Kanbios",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-qerys",
+            "name": "Groupe Qérys",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-scandinave",
+            "name": "Groupe Scandinave",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-tpi",
+            "name": "Groupe TPI",
+            "job_count": 7
+          },
+          {
+            "slug": "groupe-alliance",
+            "name": "GROUPE ALLIANCE",
+            "job_count": 6
+          },
+          {
+            "slug": "groupe-grisoni",
+            "name": "Groupe Grisoni",
+            "job_count": 6
+          },
+          {
+            "slug": "groupe-lou-tec",
+            "name": "Groupe Lou-Tec",
+            "job_count": 6
+          },
+          {
+            "slug": "groupe-marcelle",
+            "name": "Groupe Marcelle",
+            "job_count": 6
+          },
+          {
+            "slug": "groupe-seb",
+            "name": "Groupe SEB",
+            "job_count": 6
+          },
+          {
+            "slug": "groupe-alpena",
+            "name": "Groupe ALPENA",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-altitude",
+            "name": "Groupe Altitude",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-copland",
+            "name": "Groupe Copland",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-deric",
+            "name": "Groupe Deric",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-iliad",
+            "name": "Groupe iliad",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-interway",
+            "name": "Groupe Interway",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-jarnias",
+            "name": "Groupe JARNIAS",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-meloche",
+            "name": "Groupe Meloche",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-segula-technologies",
+            "name": "Groupe SEGULA Technologies SA",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-segula-technologies-sa-old",
+            "name": "Groupe SEGULA Technologies SA (old)",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-syd",
+            "name": "GROUPE SYD",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-vauban",
+            "name": "Groupe Vauban",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-vyv",
+            "name": "Groupe VYV",
+            "job_count": 5
+          },
+          {
+            "slug": "groupe-avanista",
+            "name": "Groupe Avanista",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-ilf",
+            "name": "Groupe ILF",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-luminess",
+            "name": "Groupe Luminess",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-m6",
+            "name": "GROUPE M6",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-m-service",
+            "name": "GROUPE M SERVICE",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-na",
+            "name": "Groupe NA ",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-regis-malcles-sas",
+            "name": "Groupe Régis Malclès SAS",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-seb-iberica",
+            "name": "GROUPE SEB IBERICA",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-siat",
+            "name": "GROUPE SIAT",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-tf1",
+            "name": "Groupe TF1",
+            "job_count": 4
+          },
+          {
+            "slug": "groupe-abysse",
+            "name": "Groupe ABYSSE",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-bpce",
+            "name": "Groupe BPCE",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-canimex",
+            "name": "Groupe Canimex",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-covea-maaf-mma-gmf",
+            "name": "Groupe Covéa (MAAF, MMA, GMF)",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-dynamite",
+            "name": "Groupe Dynamite",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-e-leclerc",
+            "name": "Groupe E.Leclerc",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-ingeno",
+            "name": "Groupe Ingeno Inc.",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-intuis",
+            "name": "groupe intuis",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-la-mere-poulard",
+            "name": "Groupe La Mère Poulard",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-maurin",
+            "name": "Groupe Maurin",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-ortec",
+            "name": "Groupe Ortec",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-oui-care",
+            "name": "Groupe Oui Care",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-rmo-maroc",
+            "name": "Groupe RMO Maroc",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-rocca",
+            "name": "Groupe Rocca",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-sante-nadon",
+            "name": "Groupe Santé Nadon",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-valeor",
+            "name": "Groupe Valeor",
+            "job_count": 3
+          },
+          {
+            "slug": "groupe-afnor",
+            "name": "GROUPE AFNOR",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-akacia",
+            "name": "Groupe Akacia",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-alten",
+            "name": "Groupe ALTEN",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-antares-infogerance-services-numeriques",
+            "name": "Groupe ANTARES | Infogérance & Services Numériques",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-artemys-1",
+            "name": "Groupe-Artemys-1",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-berger-levrault",
+            "name": "Groupe Berger-Levrault",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-duclos",
+            "name": "Groupe Duclos",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-ecocert",
+            "name": "Groupe-Ecocert-",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-edh",
+            "name": "Groupe EDH",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-editor",
+            "name": "GROUPE EDITOR",
+            "job_count": 2
+          },
+          {
+            "slug": "groupe-guillin",
+            "name": "Groupe Guillin",
+            "job_count": 2
+          }
+        ]
+      },
+      {
+        "query": "Mundial",
+        "url": "https://freehire.me/api/v1/companies?q=Mundial&limit=100",
+        "checked_at": "2026-10-27T19:46:10.026631+00:00",
+        "total": 17,
+        "companies": [
+          {
+            "slug": "mundial-rh",
+            "name": "Mundial rh",
+            "job_count": 10
+          },
+          {
+            "slug": "mundial-ecologica",
+            "name": "MUNDIAL ECOLÓGICA",
+            "job_count": 6
+          },
+          {
+            "slug": "mundial-system",
+            "name": "MUNDIAL SYSTEM",
+            "job_count": 2
+          },
+          {
+            "slug": "mundial-logistics",
+            "name": "Mundial Logistics ",
+            "job_count": 1
+          },
+          {
+            "slug": "mundial-records",
+            "name": "Mundial Records",
+            "job_count": 1
+          },
+          {
+            "slug": "mundialmix-comercio-de-alimentos",
+            "name": "MUNDIALMIX COMERCIO DE ALIMENTOS",
+            "job_count": 17
+          },
+          {
+            "slug": "mundialtech-engenharia-eletrica-e-hidraulica",
+            "name": "MUNDIALTECH ENGENHARIA ELETRICA E HIDRAULICA",
+            "job_count": 2
+          },
+          {
+            "slug": "mundiale",
+            "name": "Mundiale",
+            "job_count": 1
+          },
+          {
+            "slug": "plaza-mundial-s-a-de-c-v",
+            "name": "Plaza Mundial, S.A. de C.V.",
+            "job_count": 7
+          },
+          {
+            "slug": "aco-mundial-comercio-e-servicos-ltda",
+            "name": "ACO MUNDIAL COMERCIO E SERVICOS LTDA",
+            "job_count": 1
+          },
+          {
+            "slug": "mondiale-vgl",
+            "name": "Mondiale VGL",
+            "job_count": 10
+          },
+          {
+            "slug": "mondiale-vgl-singapore",
+            "name": "MONDIALE VGL SINGAPORE PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "mondial-relay",
+            "name": "Mondial Relay",
+            "job_count": 1
+          },
+          {
+            "slug": "mundal-fenster-u-fassaden-technik",
+            "name": "Mundal Fenster- u. Fassaden-Technik GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "maschinenbau-mundil",
+            "name": "Maschinenbau Mundil GmbH & Co. KG",
+            "job_count": 2
+          },
+          {
+            "slug": "offres-demploi-crawford-mondiales",
+            "name": "Offres d’emploi Crawford - Mondiales",
+            "job_count": 1
+          },
+          {
+            "slug": "topo-design-studio-mondial",
+            "name": "TOPO DESIGN STUDIO MONDIAL PTE. LTD.",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "provencher-roy",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Provencher Roy",
+        "url": "https://freehire.me/api/v1/companies?q=Provencher+Roy&limit=100",
+        "checked_at": "2026-10-27T19:46:06.523695+00:00",
+        "total": 10,
+        "companies": [
+          {
+            "slug": "provencher-company",
+            "name": "Provencher & Company, LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "restaurant-provence",
+            "name": "Restaurant Provence",
+            "job_count": 3
+          },
+          {
+            "slug": "loccitane-en-provence",
+            "name": "L'Occitane En Provence",
+            "job_count": 24
+          },
+          {
+            "slug": "summerhouse-park-provence-oasisrecruit-com",
+            "name": "summerhouse-park-provence.oasisrecruit.com",
+            "job_count": 3
+          },
+          {
+            "slug": "axians-cc-aix-en-provence",
+            "name": "Axians CC Aix-en-Provence",
+            "job_count": 2
+          },
+          {
+            "slug": "hedon-technologies-aix-en-provence",
+            "name": "Hedon Technologies Aix-en-Provence",
+            "job_count": 2
+          },
+          {
+            "slug": "obornes-aix-en-provence-it",
+            "name": "O'BORNES AIX EN PROVENCE - IT",
+            "job_count": 2
+          },
+          {
+            "slug": "credit-agricole-alpes-provence",
+            "name": "Crédit Agricole Alpes Provence",
+            "job_count": 1
+          },
+          {
+            "slug": "vf-property-provence-sud",
+            "name": "VF PROPERTY PROVENCE SUD",
+            "job_count": 1
+          },
+          {
+            "slug": "vinci-energies-infrastructures-provence-alpes-cote-dazur",
+            "name": "VINCI Energies Infrastructures Provence Alpes Côte d'Azur",
+            "job_count": 1
+          }
+        ]
+      },
+      {
+        "query": "Provencher_Roy",
+        "url": "https://freehire.me/api/v1/companies?q=Provencher_Roy&limit=100",
+        "checked_at": "2026-10-27T19:46:09.991888+00:00",
+        "total": 10,
+        "companies": [
+          {
+            "slug": "provencher-company",
+            "name": "Provencher & Company, LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "restaurant-provence",
+            "name": "Restaurant Provence",
+            "job_count": 3
+          },
+          {
+            "slug": "loccitane-en-provence",
+            "name": "L'Occitane En Provence",
+            "job_count": 24
+          },
+          {
+            "slug": "summerhouse-park-provence-oasisrecruit-com",
+            "name": "summerhouse-park-provence.oasisrecruit.com",
+            "job_count": 3
+          },
+          {
+            "slug": "axians-cc-aix-en-provence",
+            "name": "Axians CC Aix-en-Provence",
+            "job_count": 2
+          },
+          {
+            "slug": "hedon-technologies-aix-en-provence",
+            "name": "Hedon Technologies Aix-en-Provence",
+            "job_count": 2
+          },
+          {
+            "slug": "obornes-aix-en-provence-it",
+            "name": "O'BORNES AIX EN PROVENCE - IT",
+            "job_count": 2
+          },
+          {
+            "slug": "credit-agricole-alpes-provence",
+            "name": "Crédit Agricole Alpes Provence",
+            "job_count": 1
+          },
+          {
+            "slug": "vf-property-provence-sud",
+            "name": "VF PROPERTY PROVENCE SUD",
+            "job_count": 1
+          },
+          {
+            "slug": "vinci-energies-infrastructures-provence-alpes-cote-dazur",
+            "name": "VINCI Energies Infrastructures Provence Alpes Côte d'Azur",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avianor",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Avianor",
+        "url": "https://freehire.me/api/v1/companies?q=Avianor&limit=100",
+        "checked_at": "2026-10-27T19:46:06.534175+00:00",
+        "total": 17,
+        "companies": [
+          {
+            "slug": "aviator-home-health",
+            "name": "Aviator Home Health",
+            "job_count": 11
+          },
+          {
+            "slug": "aviator-nation",
+            "name": "Aviator Nation",
+            "job_count": 9
+          },
+          {
+            "slug": "aviano",
+            "name": "Aviano GmbH",
+            "job_count": 7
+          },
+          {
+            "slug": "aviator",
+            "name": "AVIATOR",
+            "job_count": 6
+          },
+          {
+            "slug": "aviator-paving-company",
+            "name": "AVIATOR PAVING COMPANY",
+            "job_count": 3
+          },
+          {
+            "slug": "aviator-asas-para-voar",
+            "name": "Aviator, Asas para Voar.",
+            "job_count": 2
+          },
+          {
+            "slug": "aviatornation",
+            "name": "AviatorNation",
+            "job_count": 2
+          },
+          {
+            "slug": "aviator-car-sl",
+            "name": "AVIATOR CAR SL.",
+            "job_count": 1
+          },
+          {
+            "slug": "aviator-suites-hotel-juneau-oasisrecruit-com",
+            "name": "aviator-suites-hotel-juneau.oasisrecruit.com",
+            "job_count": 1
+          },
+          {
+            "slug": "aviaworks-global",
+            "name": "AVIAWORKS GLOBAL PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "avinor-utvikling",
+            "name": "AVINOR UTVIKLING AS",
+            "job_count": 1
+          },
+          {
+            "slug": "ao-aviakor-aviatsionnyi-zavod",
+            "name": "АО \"АВИАКОР-АВИАЦИОННЫЙ ЗАВОД\"",
+            "job_count": 61
+          },
+          {
+            "slug": "ooo-aviator",
+            "name": "ООО \"АВИАТОР\"",
+            "job_count": 8
+          },
+          {
+            "slug": "ao-aviabor",
+            "name": "АО \"АВИАБОР\"",
+            "job_count": 2
+          },
+          {
+            "slug": "mbu-do-sshor-fso-aviator-g-kazani",
+            "name": "МБУ ДО \"СШОР \"ФСО \"АВИАТОР\"\" Г.КАЗАНИ",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-sts-aviator",
+            "name": "ООО СЦ \"АВИАТОР\"",
+            "job_count": 2
+          },
+          {
+            "slug": "ooo-uk-aviator-zavodskoi",
+            "name": "ООО \"УК АВИАТОР ЗАВОДСКОЙ\"",
+            "job_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "duroking",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Duroking",
+        "url": "https://freehire.me/api/v1/companies?q=Duroking&limit=100",
+        "checked_at": "2026-10-27T19:46:06.490934+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "lemaymichaud",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "LemayMichaud",
+        "url": "https://freehire.me/api/v1/companies?q=LemayMichaud&limit=100",
+        "checked_at": "2026-10-27T19:46:09.982574+00:00",
+        "total": 0,
+        "companies": []
+      }
+    ]
+  },
+  {
+    "id": "infrastructel",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Infrastructel",
+        "url": "https://freehire.me/api/v1/companies?q=Infrastructel&limit=100",
+        "checked_at": "2026-10-27T19:46:10.056060+00:00",
+        "total": 1635,
+        "companies": [
+          {
+            "slug": "infrastructureandcapitalprojects",
+            "name": "InfrastructureandCapitalProjects",
+            "job_count": 114
+          },
+          {
+            "slug": "infrastructure-engineering",
+            "name": "Infrastructure Engineering Inc.",
+            "job_count": 18
+          },
+          {
+            "slug": "thayer-infrastructure-services",
+            "name": "Thayer Infrastructure Services",
+            "job_count": 15
+          },
+          {
+            "slug": "infrastructure-networks-inet",
+            "name": "Infrastructure Networks (iNet)",
+            "job_count": 5
+          },
+          {
+            "slug": "infrastructure-ontario",
+            "name": "Infrastructure Ontario",
+            "job_count": 5
+          },
+          {
+            "slug": "infrastructure-design-group",
+            "name": "Infrastructure Design Group",
+            "job_count": 4
+          },
+          {
+            "slug": "infrastructure-it-professionals",
+            "name": "Infrastructure IT Professionals",
+            "job_count": 2
+          },
+          {
+            "slug": "infrastructuretechllc",
+            "name": "infrastructuretechllc",
+            "job_count": 2
+          },
+          {
+            "slug": "infrastructure-traffic-services",
+            "name": "INFRASTRUCTURE TRAFFIC SERVICES LLC",
+            "job_count": 2
+          },
+          {
+            "slug": "infrastructure-development-corporation-karnataka-limited-ideck",
+            "name": "Infrastructure Development Corporation (Karnataka) Limited (iDeCK)",
+            "job_count": 1
+          },
+          {
+            "slug": "infrastructure-facility-services",
+            "name": "INFRASTRUCTURE & FACILITY SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "infrastructure-nsw",
+            "name": "Infrastructure NSW",
+            "job_count": 1
+          },
+          {
+            "slug": "infrastructure-people",
+            "name": "Infrastructure People",
+            "job_count": 1
+          },
+          {
+            "slug": "infrastructuresupplysolutioninc",
+            "name": "infrastructuresupplysolutioninc",
+            "job_count": 1
+          },
+          {
+            "slug": "global-infrastructure",
+            "name": "Global Infrastructure",
+            "job_count": 107
+          },
+          {
+            "slug": "jensen-infrastructure",
+            "name": "JENSEN INFRASTRUCTURE",
+            "job_count": 56
+          },
+          {
+            "slug": "stack-infrastructure",
+            "name": "STACK Infrastructure",
+            "job_count": 56
+          },
+          {
+            "slug": "stack-infrastructure-apac",
+            "name": "STACK Infrastructure APAC",
+            "job_count": 37
+          },
+          {
+            "slug": "stallion-infrastructure-services",
+            "name": "Stallion Infrastructure Services",
+            "job_count": 29
+          },
+          {
+            "slug": "afcons-infrastructure",
+            "name": "Afcons Infrastructure Limited",
+            "job_count": 26
+          },
+          {
+            "slug": "keel-infrastructure",
+            "name": "Keel Infrastructure",
+            "job_count": 26
+          },
+          {
+            "slug": "nwpx-infrastructure",
+            "name": "NWPX Infrastructure",
+            "job_count": 26
+          },
+          {
+            "slug": "stack-infrastructure-emea",
+            "name": "STACK Infrastructure EMEA",
+            "job_count": 20
+          },
+          {
+            "slug": "badger-infrastructure-solutions",
+            "name": "Badger Infrastructure Solutions",
+            "job_count": 19
+          },
+          {
+            "slug": "bristol-infrastructure-design-services",
+            "name": "Bristol Infrastructure Design Services",
+            "job_count": 18
+          },
+          {
+            "slug": "united-infrastructure-group",
+            "name": "United Infrastructure Group",
+            "job_count": 15
+          },
+          {
+            "slug": "prime-infrastructure-capital",
+            "name": "Prime Infrastructure Capital",
+            "job_count": 14
+          },
+          {
+            "slug": "jdh-infrastructure-group",
+            "name": "JDH Infrastructure Group",
+            "job_count": 11
+          },
+          {
+            "slug": "unison-infrastructure",
+            "name": "Unison Infrastructure",
+            "job_count": 11
+          },
+          {
+            "slug": "accenture-infrastructure-and-capital-projects",
+            "name": "Accenture Infrastructure and Capital Projects, LLC",
+            "job_count": 10
+          },
+          {
+            "slug": "buuk-infrastructure",
+            "name": "BUUK Infrastructure",
+            "job_count": 9
+          },
+          {
+            "slug": "terra-infrastructure",
+            "name": "terra-infrastructure",
+            "job_count": 7
+          },
+          {
+            "slug": "energy-infrastructure-partners",
+            "name": "Energy Infrastructure Partners LLC",
+            "job_count": 6
+          },
+          {
+            "slug": "smart-infrastructure-group",
+            "name": "Smart Infrastructure Group",
+            "job_count": 6
+          },
+          {
+            "slug": "trp-infrastructures-services",
+            "name": "TRP Infrastructures Services",
+            "job_count": 6
+          },
+          {
+            "slug": "beale-infrastructure",
+            "name": "Beale Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "edged-infrastructure",
+            "name": "Edged Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "renaissance-infrastructure-consulting",
+            "name": "Renaissance Infrastructure Consulting",
+            "job_count": 5
+          },
+          {
+            "slug": "terawatt-infrastructure",
+            "name": "Terawatt Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "united-infrastructure",
+            "name": "United Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "yotta-infrastructure",
+            "name": "Yotta Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "exa-infrastructure",
+            "name": "EXA Infrastructure",
+            "job_count": 4
+          },
+          {
+            "slug": "hochtief-infrastructure-gmbh-tyskland-sverige-fi",
+            "name": "Hochtief Infrastructure Gmbh Tyskland Sverige Fi",
+            "job_count": 4
+          },
+          {
+            "slug": "quinbrook-infrastructure-partners",
+            "name": "Quinbrook Infrastructure Partners",
+            "job_count": 4
+          },
+          {
+            "slug": "rcr-infrastructure",
+            "name": "RCR Infrastructure",
+            "job_count": 4
+          },
+          {
+            "slug": "smart-infrastructure",
+            "name": "Smart Infrastructure",
+            "job_count": 4
+          },
+          {
+            "slug": "banyan-infrastructure",
+            "name": "Banyan Infrastructure Corporation",
+            "job_count": 3
+          },
+          {
+            "slug": "bulk-infrastructure",
+            "name": "Bulk Infrastructure",
+            "job_count": 3
+          },
+          {
+            "slug": "canada-infrastructure-bank",
+            "name": "Canada Infrastructure Bank",
+            "job_count": 3
+          },
+          {
+            "slug": "civismart-infrastructure",
+            "name": "CiviSmart Infrastructure",
+            "job_count": 3
+          },
+          {
+            "slug": "corix-infrastructure-services-us",
+            "name": "CORIX INFRASTRUCTURE SERVICES US INC",
+            "job_count": 3
+          },
+          {
+            "slug": "flower-infrastructure-technologies",
+            "name": "Flower Infrastructure Technologies AB",
+            "job_count": 3
+          },
+          {
+            "slug": "poolside-infrastructure-company",
+            "name": "Poolside Infrastructure Company",
+            "job_count": 3
+          },
+          {
+            "slug": "tvk-infrastructure",
+            "name": "TVK INFRASTRUCTURE PTE. LTD.",
+            "job_count": 3
+          },
+          {
+            "slug": "copenhagen-infrastructure-partners",
+            "name": "Copenhagen Infrastructure Partners",
+            "job_count": 2
+          },
+          {
+            "slug": "hochtief-infrastructure",
+            "name": "HOCHTIEF Infrastructure GmbH",
+            "job_count": 2
+          },
+          {
+            "slug": "advanced-infrastructure-engineering",
+            "name": "ADVANCED INFRASTRUCTURE ENGINEERING PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "ally-infrastructure",
+            "name": "Ally Infrastructure Pty Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "antin-infrastructure-partners",
+            "name": "Antin Infrastructure Partners",
+            "job_count": 1
+          },
+          {
+            "slug": "arc-infrastructure",
+            "name": "Arc Infrastructure",
+            "job_count": 1
+          },
+          {
+            "slug": "asia-infrastructure-solutions-singapore",
+            "name": "ASIA INFRASTRUCTURE SOLUTIONS SINGAPORE PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "asian-infrastructure-investment-bank",
+            "name": "Asian Infrastructure Investment Bank",
+            "job_count": 1
+          },
+          {
+            "slug": "asian-infrastructure-investment-bank-aiib",
+            "name": "Asian Infrastructure Investment Bank (AIIB)",
+            "job_count": 1
+          },
+          {
+            "slug": "bulk-infrastructure-group",
+            "name": "Bulk Infrastructure Group",
+            "job_count": 1
+          },
+          {
+            "slug": "canopy-infrastructure",
+            "name": "canopy-infrastructure",
+            "job_count": 1
+          },
+          {
+            "slug": "digital-infrastructure",
+            "name": "Digital Infrastructure",
+            "job_count": 1
+          },
+          {
+            "slug": "elevate-infrastructure",
+            "name": "Elevate Infrastructure",
+            "job_count": 1
+          },
+          {
+            "slug": "eurovia-infrastructure",
+            "name": "EUROVIA Infrastructure GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "hammerstone-infrastructure-materials",
+            "name": "Hammerstone Infrastructure Materials",
+            "job_count": 1
+          },
+          {
+            "slug": "hochtief-infrastructure-gmbh-building",
+            "name": "HOCHTIEF Infrastructure GmbH Building",
+            "job_count": 1
+          },
+          {
+            "slug": "hochtief-infrastructure-gmbh-nederland",
+            "name": "HOCHTIEF Infrastructure GmbH | Nederland",
+            "job_count": 1
+          },
+          {
+            "slug": "premier-infrastructure-energy",
+            "name": "Premier Infrastructure & Energy",
+            "job_count": 1
+          },
+          {
+            "slug": "primewater-infrastructure",
+            "name": "PrimeWater Infrastructure Corporation",
+            "job_count": 1
+          },
+          {
+            "slug": "privacy-infrastructure-company",
+            "name": "Privacy Infrastructure Company",
+            "job_count": 1
+          },
+          {
+            "slug": "sempra-infrastructure",
+            "name": "Sempra Infrastructure",
+            "job_count": 1
+          },
+          {
+            "slug": "singapore-infrastructure-investments-and-construction-group",
+            "name": "SINGAPORE INFRASTRUCTURE INVESTMENTS AND CONSTRUCTION GROUP PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "slater-infrastructure-group",
+            "name": "Slater Infrastructure Group",
+            "job_count": 1
+          },
+          {
+            "slug": "stein-infrastructure-management",
+            "name": "Stein Infrastructure Management GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "symphony-infrastructure-partners",
+            "name": "Symphony Infrastructure Partners Pty Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "telecom-infrastructure-partners",
+            "name": "Telecom Infrastructure Partners",
+            "job_count": 1
+          },
+          {
+            "slug": "wipro-infrastructure-engineering-ab-tech-centre",
+            "name": "Wipro Infrastructure Engineering AB, Tech Centre",
+            "job_count": 1
+          },
+          {
+            "slug": "vortex-companies-trenchless-infrastructure-rehabilitation-solutions",
+            "name": "Vortex Companies - Trenchless Infrastructure Rehabilitation Solutions",
+            "job_count": 32
+          },
+          {
+            "slug": "solaris-energy-infrastructure",
+            "name": "Solaris Energy Infrastructure",
+            "job_count": 26
+          },
+          {
+            "slug": "euronet-payments-infrastructure",
+            "name": "Euronet Payments Infrastructure",
+            "job_count": 22
+          },
+          {
+            "slug": "rowan-digital-infrastructure",
+            "name": "Rowan Digital Infrastructure",
+            "job_count": 16
+          },
+          {
+            "slug": "e-to-e-transportation-infrastructure",
+            "name": "E TO E TRANSPORTATION INFRASTRUCTURE LIMITED",
+            "job_count": 14
+          },
+          {
+            "slug": "welty-energy-infrastructure",
+            "name": "Welty Energy & Infrastructure",
+            "job_count": 13
+          },
+          {
+            "slug": "atlantica-sustainable-infrastructure",
+            "name": "Atlantica Sustainable Infrastructure",
+            "job_count": 12
+          },
+          {
+            "slug": "credit-agricole-group-infrastructure-platform",
+            "name": "Crédit Agricole Group Infrastructure Platform",
+            "job_count": 11
+          },
+          {
+            "slug": "stealth-startup-ai-infrastructure",
+            "name": "Stealth Startup AI infrastructure",
+            "job_count": 8
+          },
+          {
+            "slug": "endeavour-inspired-infrastructure",
+            "name": "Endeavour. Inspired Infrastructure.",
+            "job_count": 7
+          },
+          {
+            "slug": "fer-pal-infrastructure",
+            "name": "Fer-Pal Infrastructure",
+            "job_count": 7
+          },
+          {
+            "slug": "j-m-infrastructure",
+            "name": "J+M Infrastructure",
+            "job_count": 6
+          },
+          {
+            "slug": "stellar-energy-global-infrastructure",
+            "name": "Stellar Energy Global Infrastructure",
+            "job_count": 6
+          },
+          {
+            "slug": "australian-gas-infrastructure-group",
+            "name": "Australian Gas Infrastructure Group",
+            "job_count": 5
+          },
+          {
+            "slug": "e-on-drive-infrastructure",
+            "name": "E.ON Drive Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "pacific-west-environmental-infrastructure",
+            "name": "Pacific West Environmental & Infrastructure",
+            "job_count": 5
+          },
+          {
+            "slug": "vinci-energies-infrastructures-auvergne",
+            "name": "VINCI Energies Infrastructures Auvergne",
+            "job_count": 5
+          },
+          {
+            "slug": "bureau-veritas-buildings-infrastructure",
+            "name": "BUREAU VERITAS BUILDINGS & INFRASTRUCTURE PTE. LTD.",
+            "job_count": 4
+          },
+          {
+            "slug": "vinci-energies-infrastructures-rhone-alpes-et-bourgogne",
+            "name": "VINCI Energies Infrastructures Rhône Alpes et Bourgogne",
+            "job_count": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "houle-electric",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Houle",
+        "url": "https://freehire.me/api/v1/companies?q=Houle&limit=100",
+        "checked_at": "2026-10-27T19:46:13.492996+00:00",
+        "total": 910,
+        "companies": [
+          {
+            "slug": "housecall-pro",
+            "name": "Housecall Pro",
+            "job_count": 50
+          },
+          {
+            "slug": "housepitality-family",
+            "name": "HOUSEpitality Family",
+            "job_count": 40
+          },
+          {
+            "slug": "house-of-raeford",
+            "name": "House of Raeford",
+            "job_count": 28
+          },
+          {
+            "slug": "house-buyers-of-america",
+            "name": "House Buyers of America",
+            "job_count": 19
+          },
+          {
+            "slug": "housemart",
+            "name": "HouseMart",
+            "job_count": 19
+          },
+          {
+            "slug": "house-of-healthcare",
+            "name": "house-of-healthcare-gmbh",
+            "job_count": 19
+          },
+          {
+            "slug": "holley-performance-brands",
+            "name": "Holley Performance Brands",
+            "job_count": 16
+          },
+          {
+            "slug": "house-rx",
+            "name": "House Rx",
+            "job_count": 15
+          },
+          {
+            "slug": "house-of-recruitment-solutions",
+            "name": "HOUSE OF RECRUITMENT SOLUTIONS BV",
+            "job_count": 14
+          },
+          {
+            "slug": "hauler-hero",
+            "name": "Hauler Hero Inc.",
+            "job_count": 13
+          },
+          {
+            "slug": "holenek-ingenierie",
+            "name": "HOLENEK INGENIERIE",
+            "job_count": 13
+          },
+          {
+            "slug": "hoyleton-youth-family-services",
+            "name": "Hoyleton Youth & Family Services",
+            "job_count": 13
+          },
+          {
+            "slug": "house-of-aby",
+            "name": "HOUSE OF ABY",
+            "job_count": 11
+          },
+          {
+            "slug": "house-of-dank",
+            "name": "House of Dank",
+            "job_count": 9
+          },
+          {
+            "slug": "hoyle-tanner",
+            "name": "Hoyle Tanner",
+            "job_count": 9
+          },
+          {
+            "slug": "house-hasson-hardware-company",
+            "name": "House-Hasson Hardware Company",
+            "job_count": 8
+          },
+          {
+            "slug": "house-of-branded-lifestyle",
+            "name": "House of Branded Lifestyle",
+            "job_count": 8
+          },
+          {
+            "slug": "houseworks-home-care",
+            "name": "HouseWorks Home Care",
+            "job_count": 8
+          },
+          {
+            "slug": "house-of-ruth-maryland",
+            "name": "House of Ruth Maryland",
+            "job_count": 7
+          },
+          {
+            "slug": "housley-group",
+            "name": "Housley Group",
+            "job_count": 7
+          },
+          {
+            "slug": "house-of-nh",
+            "name": "HOUSE OF NH",
+            "job_count": 6
+          },
+          {
+            "slug": "house-of-tickets",
+            "name": "House of Tickets",
+            "job_count": 6
+          },
+          {
+            "slug": "hole-products",
+            "name": "Hole Products",
+            "job_count": 5
+          },
+          {
+            "slug": "houdek",
+            "name": "Houdek",
+            "job_count": 5
+          },
+          {
+            "slug": "housecall",
+            "name": "Housecall",
+            "job_count": 5
+          },
+          {
+            "slug": "housewrights",
+            "name": "Housewrights",
+            "job_count": 5
+          },
+          {
+            "slug": "hollerhyundaigenesisnorthorlando",
+            "name": "hollerhyundaigenesisnorthorlando",
+            "job_count": 4
+          },
+          {
+            "slug": "holley-central-school-district",
+            "name": "Holley Central School District",
+            "job_count": 4
+          },
+          {
+            "slug": "housecallpro",
+            "name": "housecallpro",
+            "job_count": 4
+          },
+          {
+            "slug": "house-of-commons-of-canada",
+            "name": "House of Commons of Canada",
+            "job_count": 4
+          },
+          {
+            "slug": "house-of-flavors",
+            "name": "House of Flavors, Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "house-of-hope",
+            "name": "House of Hope Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "holepunch",
+            "name": "Holepunch",
+            "job_count": 3
+          },
+          {
+            "slug": "hollenbeck-palms",
+            "name": "Hollenbeck Palms",
+            "job_count": 3
+          },
+          {
+            "slug": "house",
+            "name": "HOUSE + PTE. LTD.",
+            "job_count": 3
+          },
+          {
+            "slug": "housemax-funding",
+            "name": "HouseMax Funding",
+            "job_count": 3
+          },
+          {
+            "slug": "housen-health-services",
+            "name": "Housen Health Services",
+            "job_count": 3
+          },
+          {
+            "slug": "housenumbers",
+            "name": "Housenumbers",
+            "job_count": 3
+          },
+          {
+            "slug": "house-of-ruth",
+            "name": "House of Ruth",
+            "job_count": 3
+          },
+          {
+            "slug": "house-on-the-hill",
+            "name": "HOUSE ON THE HILL PTE. LTD.",
+            "job_count": 3
+          },
+          {
+            "slug": "howley-and-company",
+            "name": "HOWLEY AND COMPANY",
+            "job_count": 3
+          },
+          {
+            "slug": "holegal-rechtsanwaltsgesellschaft-mbh",
+            "name": "Holegal Rechtsanwaltsgesellschaft mbh",
+            "job_count": 2
+          },
+          {
+            "slug": "hollerhonda",
+            "name": "hollerhonda",
+            "job_count": 2
+          },
+          {
+            "slug": "house-auto-group",
+            "name": "House Auto Group",
+            "job_count": 2
+          },
+          {
+            "slug": "house-autry-mills",
+            "name": "House-Autry Mills",
+            "job_count": 2
+          },
+          {
+            "slug": "house-doctors-of-south-denver",
+            "name": "House Doctors of South Denver",
+            "job_count": 2
+          },
+          {
+            "slug": "houseful",
+            "name": "houseful",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-amber-nectar",
+            "name": "HOUSE OF AMBER NECTAR PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-bennys",
+            "name": "HOUSE OF BENNYS",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-cai",
+            "name": "HOUSE OF CAI PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-communication",
+            "name": "house-of-communication",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-construction",
+            "name": "House of Construction",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-control-sverige",
+            "name": "House of Control Sverige",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-raania",
+            "name": "HOUSE OF RAANIA PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-schwan",
+            "name": "HOUSE OF SCHWAN INC",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-seo",
+            "name": "House of SEO ApS",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-sport",
+            "name": "House of Sport",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-talents",
+            "name": "House of Talents",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-wisdom",
+            "name": "HOUSE OF WISDOM PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-refresh",
+            "name": "house refresh",
+            "job_count": 2
+          },
+          {
+            "slug": "howlettlogisticsllc",
+            "name": "howlettlogisticsllc",
+            "job_count": 2
+          },
+          {
+            "slug": "howley-bread-group",
+            "name": "HOWLEY BREAD GROUP",
+            "job_count": 2
+          },
+          {
+            "slug": "hulett-environmental-services",
+            "name": "Hulett Environmental Services",
+            "job_count": 2
+          },
+          {
+            "slug": "hole-in-the-wall-drywall-repair-of-chester-valley",
+            "name": "Hole in The Wall Drywall Repair of Chester Valley",
+            "job_count": 1
+          },
+          {
+            "slug": "hole-in-the-wall-drywall-repair-of-east-salt-lake",
+            "name": "Hole in The Wall Drywall Repair of East Salt Lake",
+            "job_count": 1
+          },
+          {
+            "slug": "hollender-krohnstieg",
+            "name": "Hollender Krohnstieg KG",
+            "job_count": 1
+          },
+          {
+            "slug": "holler-classic-family-of-dealerships",
+            "name": "Holler-Classic Family of Dealerships",
+            "job_count": 1
+          },
+          {
+            "slug": "hollerford",
+            "name": "hollerford",
+            "job_count": 1
+          },
+          {
+            "slug": "holler-trade",
+            "name": "Holler Trade",
+            "job_count": 1
+          },
+          {
+            "slug": "holley",
+            "name": "Holley",
+            "job_count": 1
+          },
+          {
+            "slug": "holley-nethercote-commercial-lawyers",
+            "name": "Holley Nethercote Commercial Lawyers",
+            "job_count": 1
+          },
+          {
+            "slug": "holley-performance",
+            "name": "Holley Performance",
+            "job_count": 1
+          },
+          {
+            "slug": "holley-tecnologia-de-medidores",
+            "name": "HOLLEY TECNOLOGIA DE MEDIDORES",
+            "job_count": 1
+          },
+          {
+            "slug": "hooley-manufacturing",
+            "name": "Hooley Manufacturing",
+            "job_count": 1
+          },
+          {
+            "slug": "houlberg-instrumentering",
+            "name": "Houlberg Instrumentering A/S",
+            "job_count": 1
+          },
+          {
+            "slug": "houlihan-lawrence",
+            "name": "Houlihan Lawrence",
+            "job_count": 1
+          },
+          {
+            "slug": "houlihan-lokey",
+            "name": "Houlihan Lokey",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-amherst",
+            "name": "House Doctors of Amherst",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-andover",
+            "name": "House Doctors of Andover",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-chelmsford",
+            "name": "House Doctors of Chelmsford",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-south-dekalb-henry",
+            "name": "House Doctors of South Dekalb/Henry",
+            "job_count": 1
+          },
+          {
+            "slug": "househomephotography",
+            "name": "HouseHomePhotography",
+            "job_count": 1
+          },
+          {
+            "slug": "house-insulation-canberra",
+            "name": "House Insulation Canberra",
+            "job_count": 1
+          },
+          {
+            "slug": "housemarque",
+            "name": "Housemarque",
+            "job_count": 1
+          },
+          {
+            "slug": "housemaster-of-melbourne-satellite-beach-palm-bay",
+            "name": "HouseMaster of Melbourne, Satellite Beach, Palm Bay",
+            "job_count": 1
+          },
+          {
+            "slug": "housemaster-of-miami",
+            "name": "HouseMaster of Miami",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-28",
+            "name": "HOUSE OF 28 PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-anli",
+            "name": "HOUSE OF ANLI PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-beauty",
+            "name": "House of Beauty",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-butter",
+            "name": "HOUSE OF BUTTER PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-charts",
+            "name": "House of Charts AG",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-cheatham",
+            "name": "House of Cheatham",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-commons",
+            "name": "House of Commons",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-edtech",
+            "name": "House of Edtech",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-finance-and-tech-berlin",
+            "name": "House of Finance and Tech Berlin",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-global-flavours",
+            "name": "HOUSE OF GLOBAL FLAVOURS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-hair",
+            "name": "House of Hair",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-healthcare-professionals",
+            "name": "House of Healthcare Professionals GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-healthcare-professionals-gmbh-niederlassung-bremen",
+            "name": "House of Healthcare Professionals GmbH | Niederlassung Bremen",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-i-t",
+            "name": "House of I.T",
+            "job_count": 1
+          }
+        ]
+      },
+      {
+        "query": "Houle Electric",
+        "url": "https://freehire.me/api/v1/companies?q=Houle+Electric&limit=100",
+        "checked_at": "2026-10-27T19:46:17.071390+00:00",
+        "total": 756,
+        "companies": [
+          {
+            "slug": "house-of-raeford",
+            "name": "House of Raeford",
+            "job_count": 28
+          },
+          {
+            "slug": "house-buyers-of-america",
+            "name": "House Buyers of America",
+            "job_count": 19
+          },
+          {
+            "slug": "house-of-healthcare",
+            "name": "house-of-healthcare-gmbh",
+            "job_count": 19
+          },
+          {
+            "slug": "house-rx",
+            "name": "House Rx",
+            "job_count": 15
+          },
+          {
+            "slug": "house-of-recruitment-solutions",
+            "name": "HOUSE OF RECRUITMENT SOLUTIONS BV",
+            "job_count": 14
+          },
+          {
+            "slug": "house-of-aby",
+            "name": "HOUSE OF ABY",
+            "job_count": 11
+          },
+          {
+            "slug": "house-of-dank",
+            "name": "House of Dank",
+            "job_count": 9
+          },
+          {
+            "slug": "hoyle-tanner",
+            "name": "Hoyle Tanner",
+            "job_count": 9
+          },
+          {
+            "slug": "house-hasson-hardware-company",
+            "name": "House-Hasson Hardware Company",
+            "job_count": 8
+          },
+          {
+            "slug": "house-of-branded-lifestyle",
+            "name": "House of Branded Lifestyle",
+            "job_count": 8
+          },
+          {
+            "slug": "house-of-ruth-maryland",
+            "name": "House of Ruth Maryland",
+            "job_count": 7
+          },
+          {
+            "slug": "house-of-nh",
+            "name": "HOUSE OF NH",
+            "job_count": 6
+          },
+          {
+            "slug": "house-of-tickets",
+            "name": "House of Tickets",
+            "job_count": 6
+          },
+          {
+            "slug": "hole-products",
+            "name": "Hole Products",
+            "job_count": 5
+          },
+          {
+            "slug": "house-of-commons-of-canada",
+            "name": "House of Commons of Canada",
+            "job_count": 4
+          },
+          {
+            "slug": "house-of-flavors",
+            "name": "House of Flavors, Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "house-of-hope",
+            "name": "House of Hope Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "house",
+            "name": "HOUSE + PTE. LTD.",
+            "job_count": 3
+          },
+          {
+            "slug": "house-of-ruth",
+            "name": "House of Ruth",
+            "job_count": 3
+          },
+          {
+            "slug": "house-on-the-hill",
+            "name": "HOUSE ON THE HILL PTE. LTD.",
+            "job_count": 3
+          },
+          {
+            "slug": "house-auto-group",
+            "name": "House Auto Group",
+            "job_count": 2
+          },
+          {
+            "slug": "house-autry-mills",
+            "name": "House-Autry Mills",
+            "job_count": 2
+          },
+          {
+            "slug": "house-doctors-of-south-denver",
+            "name": "House Doctors of South Denver",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-amber-nectar",
+            "name": "HOUSE OF AMBER NECTAR PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-bennys",
+            "name": "HOUSE OF BENNYS",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-cai",
+            "name": "HOUSE OF CAI PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-communication",
+            "name": "house-of-communication",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-construction",
+            "name": "House of Construction",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-control-sverige",
+            "name": "House of Control Sverige",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-raania",
+            "name": "HOUSE OF RAANIA PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-schwan",
+            "name": "HOUSE OF SCHWAN INC",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-seo",
+            "name": "House of SEO ApS",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-sport",
+            "name": "House of Sport",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-talents",
+            "name": "House of Talents",
+            "job_count": 2
+          },
+          {
+            "slug": "house-of-wisdom",
+            "name": "HOUSE OF WISDOM PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "house-refresh",
+            "name": "house refresh",
+            "job_count": 2
+          },
+          {
+            "slug": "hole-in-the-wall-drywall-repair-of-chester-valley",
+            "name": "Hole in The Wall Drywall Repair of Chester Valley",
+            "job_count": 1
+          },
+          {
+            "slug": "hole-in-the-wall-drywall-repair-of-east-salt-lake",
+            "name": "Hole in The Wall Drywall Repair of East Salt Lake",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-amherst",
+            "name": "House Doctors of Amherst",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-andover",
+            "name": "House Doctors of Andover",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-chelmsford",
+            "name": "House Doctors of Chelmsford",
+            "job_count": 1
+          },
+          {
+            "slug": "house-doctors-of-south-dekalb-henry",
+            "name": "House Doctors of South Dekalb/Henry",
+            "job_count": 1
+          },
+          {
+            "slug": "house-insulation-canberra",
+            "name": "House Insulation Canberra",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-28",
+            "name": "HOUSE OF 28 PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-anli",
+            "name": "HOUSE OF ANLI PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-beauty",
+            "name": "House of Beauty",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-butter",
+            "name": "HOUSE OF BUTTER PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-charts",
+            "name": "House of Charts AG",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-cheatham",
+            "name": "House of Cheatham",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-commons",
+            "name": "House of Commons",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-edtech",
+            "name": "House of Edtech",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-finance-and-tech-berlin",
+            "name": "House of Finance and Tech Berlin",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-global-flavours",
+            "name": "HOUSE OF GLOBAL FLAVOURS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-hair",
+            "name": "House of Hair",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-healthcare-professionals",
+            "name": "House of Healthcare Professionals GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-healthcare-professionals-gmbh-niederlassung-bremen",
+            "name": "House of Healthcare Professionals GmbH | Niederlassung Bremen",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-i-t",
+            "name": "House of I.T",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-kacchi",
+            "name": "HOUSE OF KACCHI PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-leads",
+            "name": "House Of Leads ApS",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-lords",
+            "name": "House of Lords",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-magna",
+            "name": "HOUSE OF MAGNA LTD",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-models",
+            "name": "House of Models",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-oliver-twist",
+            "name": "House of Oliver Twist A/S",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-recruitment",
+            "name": "House of Recruitment",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-representatives",
+            "name": "House of Representatives",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-sassoon",
+            "name": "House of Sassoon",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-spectacles",
+            "name": "HOUSE OF SPECTACLES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-spices",
+            "name": "House of Spices",
+            "job_count": 1
+          },
+          {
+            "slug": "house-of-vapes-london",
+            "name": "House of Vapes London",
+            "job_count": 1
+          },
+          {
+            "slug": "soho-house",
+            "name": "Soho House & Co",
+            "job_count": 275
+          },
+          {
+            "slug": "horizon-house",
+            "name": "Horizon House",
+            "job_count": 104
+          },
+          {
+            "slug": "soho-house-via-caterer-com",
+            "name": "Soho House via Caterer.com ",
+            "job_count": 102
+          },
+          {
+            "slug": "american-house-senior-living-communities",
+            "name": "American House Senior Living Communities",
+            "job_count": 92
+          },
+          {
+            "slug": "full-house-resorts",
+            "name": "Full House Resorts",
+            "job_count": 78
+          },
+          {
+            "slug": "red-house-international-school",
+            "name": "Red House International School",
+            "job_count": 54
+          },
+          {
+            "slug": "rtb-house",
+            "name": "RTB House",
+            "job_count": 46
+          },
+          {
+            "slug": "noble-house-hotels-resorts",
+            "name": "Noble House Hotels & Resorts",
+            "job_count": 44
+          },
+          {
+            "slug": "mercy-house",
+            "name": "MERCY HOUSE",
+            "job_count": 39
+          },
+          {
+            "slug": "jackson-hole-mountain-resort",
+            "name": "Jackson Hole Mountain Resort Corporation",
+            "job_count": 38
+          },
+          {
+            "slug": "cliff-house-maine",
+            "name": "Cliff House Maine",
+            "job_count": 34
+          },
+          {
+            "slug": "vienna-house-by-wyndham-andel-s-berlin",
+            "name": "Vienna House by Wyndham Andel´s Berlin",
+            "job_count": 33
+          },
+          {
+            "slug": "espresso-house",
+            "name": "Espresso House AB",
+            "job_count": 25
+          },
+          {
+            "slug": "neighborhood-house-association",
+            "name": "Neighborhood House Association",
+            "job_count": 25
+          },
+          {
+            "slug": "rock-house-farms-rhf",
+            "name": "Rock House Farms (RHF)",
+            "job_count": 24
+          },
+          {
+            "slug": "sunshine-house",
+            "name": "Sunshine House",
+            "job_count": 24
+          },
+          {
+            "slug": "odyssey-house",
+            "name": "Odyssey House",
+            "job_count": 23
+          },
+          {
+            "slug": "the-house-of-the-good-shepherd",
+            "name": "The House of The Good Shepherd",
+            "job_count": 23
+          },
+          {
+            "slug": "phoenix-house-of-new-york",
+            "name": "Phoenix House of New York",
+            "job_count": 22
+          },
+          {
+            "slug": "greek-house-chefs",
+            "name": "GREEK HOUSE CHEFS INC",
+            "job_count": 21
+          },
+          {
+            "slug": "palm-house",
+            "name": "Palm House",
+            "job_count": 21
+          },
+          {
+            "slug": "terrapin-house",
+            "name": "TERRAPIN HOUSE INC",
+            "job_count": 21
+          },
+          {
+            "slug": "windsor-house",
+            "name": "Windsor House Inc",
+            "job_count": 21
+          },
+          {
+            "slug": "abbott-house",
+            "name": "Abbott House",
+            "job_count": 20
+          },
+          {
+            "slug": "sekisui-house-u-s",
+            "name": "Sekisui House U.S.",
+            "job_count": 20
+          },
+          {
+            "slug": "friendship-house",
+            "name": "FRIENDSHIP HOUSE",
+            "job_count": 19
+          },
+          {
+            "slug": "huddle-house",
+            "name": "Huddle House",
+            "job_count": 19
+          },
+          {
+            "slug": "alpha-house-calgary",
+            "name": "Alpha House Calgary",
+            "job_count": 17
+          },
+          {
+            "slug": "odyssey-house-louisiana",
+            "name": "Odyssey House Louisiana, Inc.",
+            "job_count": 17
+          },
+          {
+            "slug": "public-house-group",
+            "name": "Public House Group",
+            "job_count": 16
+          },
+          {
+            "slug": "hill-house-home",
+            "name": "Hill House Home",
+            "job_count": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nanoxplore",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "NanoXplore",
+        "url": "https://freehire.me/api/v1/companies?q=NanoXplore&limit=100",
+        "checked_at": "2026-10-27T19:46:13.324083+00:00",
+        "total": 2,
+        "companies": [
+          {
+            "slug": "oxford-nanopore-technologies",
+            "name": "Oxford Nanopore Technologies",
+            "job_count": 30
+          },
+          {
+            "slug": "oxford-nanopore",
+            "name": "Oxford Nanopore",
+            "job_count": 2
+          }
+        ]
+      },
+      {
+        "query": "RMC Advanced Technologies",
+        "url": "https://freehire.me/api/v1/companies?q=RMC+Advanced+Technologies&limit=100",
+        "checked_at": "2026-10-27T19:46:17.018422+00:00",
+        "total": 6,
+        "companies": [
+          {
+            "slug": "rmc-group-of-companies",
+            "name": "RMC Group of Companies",
+            "job_count": 10
+          },
+          {
+            "slug": "rmc-logan-operating",
+            "name": "RMC LOGAN OPERATING LLC",
+            "job_count": 6
+          },
+          {
+            "slug": "rmc-clearfield-operating",
+            "name": "RMC - CLEARFIELD OPERATING LLC",
+            "job_count": 5
+          },
+          {
+            "slug": "rmc-global",
+            "name": "RMC Global",
+            "job_count": 2
+          },
+          {
+            "slug": "rmc-logistics",
+            "name": "RMC LOGISTICS PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "rotterdamse-mobiliteit-centrale-rmc",
+            "name": "Rotterdamse Mobiliteit Centrale (RMC)",
+            "job_count": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meridian-lightweight-technologies",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Meridian Lightweight",
+        "url": "https://freehire.me/api/v1/companies?q=Meridian+Lightweight&limit=100",
+        "checked_at": "2026-10-27T19:46:13.396203+00:00",
+        "total": 102,
+        "companies": [
+          {
+            "slug": "meridian-waste",
+            "name": "Meridian Waste",
+            "job_count": 53
+          },
+          {
+            "slug": "meridian-senior-living",
+            "name": "MERIDIAN SENIOR LIVING",
+            "job_count": 48
+          },
+          {
+            "slug": "meridian-health-services",
+            "name": "Meridian Health Services",
+            "job_count": 43
+          },
+          {
+            "slug": "meridian-services",
+            "name": "Meridian Services",
+            "job_count": 19
+          },
+          {
+            "slug": "meridian-partners",
+            "name": "Meridian Partners",
+            "job_count": 18
+          },
+          {
+            "slug": "meridian-credit-union",
+            "name": "Meridian Credit Union",
+            "job_count": 14
+          },
+          {
+            "slug": "meridian-healthcare",
+            "name": "Meridian HealthCare",
+            "job_count": 13
+          },
+          {
+            "slug": "meridian-bioscience",
+            "name": "Meridian Bioscience, Inc.",
+            "job_count": 12
+          },
+          {
+            "slug": "meridian-charter-schools",
+            "name": "Meridian Charter Schools",
+            "job_count": 8
+          },
+          {
+            "slug": "meridian-energy",
+            "name": "Meridian Energy",
+            "job_count": 6
+          },
+          {
+            "slug": "meridian-counseling",
+            "name": "Meridian Counseling",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-health-partners",
+            "name": "Meridian Health Partners",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-onecap-credit",
+            "name": "Meridian OneCap Credit Corp",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-at-westwood",
+            "name": "Meridian at Westwood",
+            "job_count": 4
+          },
+          {
+            "slug": "meridian-care",
+            "name": "Meridian Care Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "meridian-at-chino",
+            "name": "Meridian at Chino",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-at-stone-creek",
+            "name": "Meridian at Stone Creek",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-cooperative",
+            "name": "MERIDIAN COOPERATIVE INC",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-hills-country-club",
+            "name": "Meridian Hills Country Club",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-industries",
+            "name": "Meridian Industries",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-it",
+            "name": "Meridian IT",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-public-charter-school",
+            "name": "Meridian Public Charter School",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-waste-alabama",
+            "name": "MERIDIAN WASTE ALABAMA LLC",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-at-lantana",
+            "name": "Meridian at Lantana",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-blue-construction",
+            "name": "Meridian Blue Construction",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-business-support",
+            "name": "Meridian Business Support Limited",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-specialty-yarn-group",
+            "name": "Meridian Specialty Yarn Group",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-systematics",
+            "name": "Meridian Systematics",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-trust-federal-credit-union",
+            "name": "Meridian Trust Federal Credit Union",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-university",
+            "name": "meridian-university",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-adhesives-group",
+            "name": "Meridian Adhesives Group",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-and-saturn-capital",
+            "name": "Meridian and Saturn Capital",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-at-laguna-hills",
+            "name": "Meridian at Laguna Hills",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-club-24",
+            "name": "MERIDIAN CLUB 24 LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-consultancy",
+            "name": "MERIDIAN CONSULTANCY PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-dental-specialists",
+            "name": "Meridian Dental Specialists",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-fitness-group",
+            "name": "MERIDIAN FITNESS GROUP PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-group",
+            "name": "Meridian Group",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-library-district",
+            "name": "Meridian Library District",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-saturn-capital",
+            "name": "MERIDIAN & SATURN CAPITAL PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-singapore-immigration",
+            "name": "MERIDIAN SINGAPORE IMMIGRATION PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-technologies",
+            "name": "Meridian Technologies, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-title",
+            "name": "Meridian Title",
+            "job_count": 1
+          },
+          {
+            "slug": "hackensack-meridian-health",
+            "name": "Hackensack Meridian Health",
+            "job_count": 681
+          },
+          {
+            "slug": "first-meridian-services",
+            "name": "First Meridian Services",
+            "job_count": 48
+          },
+          {
+            "slug": "le-meridian-element-salt-lake-city",
+            "name": "Le Meridian Element Salt Lake City",
+            "job_count": 17
+          },
+          {
+            "slug": "source-meridian",
+            "name": "Source Meridian",
+            "job_count": 11
+          },
+          {
+            "slug": "the-meridian-at-boca-raton",
+            "name": "THE MERIDIAN AT BOCA RATON",
+            "job_count": 7
+          },
+          {
+            "slug": "the-meridian-company",
+            "name": "The Meridian Company",
+            "job_count": 7
+          },
+          {
+            "slug": "the-meridian-at-punta-gorda",
+            "name": "THE MERIDIAN AT PUNTA GORDA",
+            "job_count": 5
+          },
+          {
+            "slug": "aura-meridian-wellness",
+            "name": "AURA MERIDIAN WELLNESS PTE. LTD.",
+            "job_count": 4
+          },
+          {
+            "slug": "hudson-meridian-construction-group",
+            "name": "Hudson Meridian Construction Group",
+            "job_count": 4
+          },
+          {
+            "slug": "the-meridian-at-anaheim-hills",
+            "name": "The Meridian at Anaheim Hills",
+            "job_count": 3
+          },
+          {
+            "slug": "the-meridian-at-waterways",
+            "name": "THE MERIDIAN AT WATERWAYS",
+            "job_count": 3
+          },
+          {
+            "slug": "blo-meridian",
+            "name": "Blo Meridian",
+            "job_count": 2
+          },
+          {
+            "slug": "new-meridian",
+            "name": "New Meridian Corporation",
+            "job_count": 2
+          },
+          {
+            "slug": "the-meridian-at-chevy-chase",
+            "name": "THE MERIDIAN AT CHEVY CHASE",
+            "job_count": 2
+          },
+          {
+            "slug": "ac-meridian-sub-csm",
+            "name": "AC MERIDIAN (SUB CSM) PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "chg-meridian",
+            "name": "CHG-MERIDIAN",
+            "job_count": 1
+          },
+          {
+            "slug": "first-meridian-business-services",
+            "name": "First Meridian Business Services",
+            "job_count": 1
+          },
+          {
+            "slug": "straits-meridian-capital-office",
+            "name": "Straits Meridian Capital Office",
+            "job_count": 1
+          },
+          {
+            "slug": "the-meridian-at-brandon",
+            "name": "THE MERIDIAN AT BRANDON",
+            "job_count": 1
+          },
+          {
+            "slug": "stretchlab-boise-eagle-meridian",
+            "name": "StretchLab - Boise & Eagle & Meridian",
+            "job_count": 4
+          },
+          {
+            "slug": "holiday-inn-meridian-east-i20-59",
+            "name": "Holiday Inn Meridian East I20/59",
+            "job_count": 3
+          },
+          {
+            "slug": "toyota-of-meridian",
+            "name": "Toyota of Meridian",
+            "job_count": 2
+          },
+          {
+            "slug": "big-o-tires-meridian",
+            "name": "BIG O TIRES - MERIDIAN",
+            "job_count": 1
+          },
+          {
+            "slug": "i9-sports-boise-meridian-id",
+            "name": "i9 Sports - Boise/Meridian, ID",
+            "job_count": 1
+          },
+          {
+            "slug": "primrose-school-of-north-meridian",
+            "name": "Primrose School of North Meridian",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian",
+            "name": "МЕРИДИАН",
+            "job_count": 10
+          },
+          {
+            "slug": "ooo-meridian",
+            "name": "ООО \"МЕРИДИАН\"",
+            "job_count": 31
+          },
+          {
+            "slug": "ao-meridian",
+            "name": "АО \"МЕРИДИАН\"",
+            "job_count": 16
+          },
+          {
+            "slug": "fgku-meridian",
+            "name": "ФГКУ \"МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-meridian-nt",
+            "name": "ООО \"МЕРИДИАН НТ\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-gdts-meridian",
+            "name": "ООО \"ГДЦ \"МЕРИДИАН\"",
+            "job_count": 4
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-kulebaki",
+            "name": "Филиал АО \"Меридиан\" в г. Кулебаки",
+            "job_count": 3
+          },
+          {
+            "slug": "mbu-mko-meridian",
+            "name": "МБУ \"МКО \"МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-le-meridian",
+            "name": "ООО \"ЛЕ МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-uk-meridian",
+            "name": "ООО \"УК МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-lukoianov",
+            "name": "Филиал АО \"Меридиан\" в г. Лукоянов",
+            "job_count": 2
+          },
+          {
+            "slug": "filial-ao-meridian-v-gorode-perevoz",
+            "name": "Филиал АО \"Меридиан\" в городе Перевоз",
+            "job_count": 2
+          },
+          {
+            "slug": "ooo-pp-meridian-energo",
+            "name": "ООО \"ПП \"МЕРИДИАН ЭНЕРГО\"",
+            "job_count": 2
+          },
+          {
+            "slug": "al-med-ooo-meridian",
+            "name": "Альмед (ООО Меридиан)",
+            "job_count": 1
+          },
+          {
+            "slug": "buk-g-omska-tsd-meridian",
+            "name": "БУК Г. ОМСКА \"ЦД \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-arzamase-nizhegorodskoi-oblasti",
+            "name": "ФИЛИАЛ АО \"МЕРИДИАН\" В Г. АРЗАМАСЕ НИЖЕГОРОДСКОЙ ОБЛАСТИ",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-lyskovo",
+            "name": "Филиал АО \"Меридиан\" в г.Лысково",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-r-p-mukhtolovo",
+            "name": "ФИЛИАЛ АО \"МЕРИДИАН\" В Р.П. МУХТОЛОВО",
+            "job_count": 1
+          },
+          {
+            "slug": "mbu-sob-meridian",
+            "name": "МБУ \"СОБ \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "ooo-restoran-meridian",
+            "name": "ООО \"РЕСТОРАН \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "meridiam",
+            "name": "Meridiam",
+            "job_count": 2
+          },
+          {
+            "slug": "meridia-land",
+            "name": "Meridia Land",
+            "job_count": 1
+          },
+          {
+            "slug": "meridiam-glasfaser-gmbh-und",
+            "name": "meridiam-glasfaser-gmbh-und-co-kg",
+            "job_count": 1
+          },
+          {
+            "slug": "meridien-travel-services",
+            "name": "MERIDIEN TRAVEL SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridion",
+            "name": "Meridion AG",
+            "job_count": 1
+          },
+          {
+            "slug": "meridion-technologies",
+            "name": "Meridion Technologies GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "le-meridien-houston-downtown",
+            "name": "Le Méridien Houston Downtown",
+            "job_count": 8
+          },
+          {
+            "slug": "le-meridien-lav",
+            "name": "Le Méridien Lav",
+            "job_count": 8
+          },
+          {
+            "slug": "le-meridien",
+            "name": "Le Meridien",
+            "job_count": 6
+          },
+          {
+            "slug": "le-meridien-tampa-the-courthouse",
+            "name": "Le Meridien Tampa, The Courthouse",
+            "job_count": 5
+          },
+          {
+            "slug": "le-meridien-st-louis-clayton",
+            "name": "Le Méridien St. Louis Clayton",
+            "job_count": 3
+          },
+          {
+            "slug": "le-meridien-dania-beach",
+            "name": "Le Meridien Dania Beach",
+            "job_count": 2
+          }
+        ]
+      },
+      {
+        "query": "Meridian Magnesium",
+        "url": "https://freehire.me/api/v1/companies?q=Meridian+Magnesium&limit=100",
+        "checked_at": "2026-10-27T19:46:17.135070+00:00",
+        "total": 102,
+        "companies": [
+          {
+            "slug": "meridian-waste",
+            "name": "Meridian Waste",
+            "job_count": 53
+          },
+          {
+            "slug": "meridian-senior-living",
+            "name": "MERIDIAN SENIOR LIVING",
+            "job_count": 48
+          },
+          {
+            "slug": "meridian-health-services",
+            "name": "Meridian Health Services",
+            "job_count": 43
+          },
+          {
+            "slug": "meridian-services",
+            "name": "Meridian Services",
+            "job_count": 19
+          },
+          {
+            "slug": "meridian-partners",
+            "name": "Meridian Partners",
+            "job_count": 18
+          },
+          {
+            "slug": "meridian-credit-union",
+            "name": "Meridian Credit Union",
+            "job_count": 14
+          },
+          {
+            "slug": "meridian-healthcare",
+            "name": "Meridian HealthCare",
+            "job_count": 13
+          },
+          {
+            "slug": "meridian-bioscience",
+            "name": "Meridian Bioscience, Inc.",
+            "job_count": 12
+          },
+          {
+            "slug": "meridian-charter-schools",
+            "name": "Meridian Charter Schools",
+            "job_count": 8
+          },
+          {
+            "slug": "meridian-energy",
+            "name": "Meridian Energy",
+            "job_count": 6
+          },
+          {
+            "slug": "meridian-counseling",
+            "name": "Meridian Counseling",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-health-partners",
+            "name": "Meridian Health Partners",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-onecap-credit",
+            "name": "Meridian OneCap Credit Corp",
+            "job_count": 5
+          },
+          {
+            "slug": "meridian-at-westwood",
+            "name": "Meridian at Westwood",
+            "job_count": 4
+          },
+          {
+            "slug": "meridian-care",
+            "name": "Meridian Care Inc",
+            "job_count": 4
+          },
+          {
+            "slug": "meridian-at-chino",
+            "name": "Meridian at Chino",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-at-stone-creek",
+            "name": "Meridian at Stone Creek",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-cooperative",
+            "name": "MERIDIAN COOPERATIVE INC",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-hills-country-club",
+            "name": "Meridian Hills Country Club",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-industries",
+            "name": "Meridian Industries",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-it",
+            "name": "Meridian IT",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-public-charter-school",
+            "name": "Meridian Public Charter School",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-waste-alabama",
+            "name": "MERIDIAN WASTE ALABAMA LLC",
+            "job_count": 3
+          },
+          {
+            "slug": "meridian-at-lantana",
+            "name": "Meridian at Lantana",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-blue-construction",
+            "name": "Meridian Blue Construction",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-business-support",
+            "name": "Meridian Business Support Limited",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-specialty-yarn-group",
+            "name": "Meridian Specialty Yarn Group",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-systematics",
+            "name": "Meridian Systematics",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-trust-federal-credit-union",
+            "name": "Meridian Trust Federal Credit Union",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-university",
+            "name": "meridian-university",
+            "job_count": 2
+          },
+          {
+            "slug": "meridian-adhesives-group",
+            "name": "Meridian Adhesives Group",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-and-saturn-capital",
+            "name": "Meridian and Saturn Capital",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-at-laguna-hills",
+            "name": "Meridian at Laguna Hills",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-club-24",
+            "name": "MERIDIAN CLUB 24 LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-consultancy",
+            "name": "MERIDIAN CONSULTANCY PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-dental-specialists",
+            "name": "Meridian Dental Specialists",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-fitness-group",
+            "name": "MERIDIAN FITNESS GROUP PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-group",
+            "name": "Meridian Group",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-library-district",
+            "name": "Meridian Library District",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-saturn-capital",
+            "name": "MERIDIAN & SATURN CAPITAL PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-singapore-immigration",
+            "name": "MERIDIAN SINGAPORE IMMIGRATION PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-technologies",
+            "name": "Meridian Technologies, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian-title",
+            "name": "Meridian Title",
+            "job_count": 1
+          },
+          {
+            "slug": "hackensack-meridian-health",
+            "name": "Hackensack Meridian Health",
+            "job_count": 681
+          },
+          {
+            "slug": "first-meridian-services",
+            "name": "First Meridian Services",
+            "job_count": 48
+          },
+          {
+            "slug": "le-meridian-element-salt-lake-city",
+            "name": "Le Meridian Element Salt Lake City",
+            "job_count": 17
+          },
+          {
+            "slug": "source-meridian",
+            "name": "Source Meridian",
+            "job_count": 11
+          },
+          {
+            "slug": "the-meridian-at-boca-raton",
+            "name": "THE MERIDIAN AT BOCA RATON",
+            "job_count": 7
+          },
+          {
+            "slug": "the-meridian-company",
+            "name": "The Meridian Company",
+            "job_count": 7
+          },
+          {
+            "slug": "the-meridian-at-punta-gorda",
+            "name": "THE MERIDIAN AT PUNTA GORDA",
+            "job_count": 5
+          },
+          {
+            "slug": "aura-meridian-wellness",
+            "name": "AURA MERIDIAN WELLNESS PTE. LTD.",
+            "job_count": 4
+          },
+          {
+            "slug": "hudson-meridian-construction-group",
+            "name": "Hudson Meridian Construction Group",
+            "job_count": 4
+          },
+          {
+            "slug": "the-meridian-at-anaheim-hills",
+            "name": "The Meridian at Anaheim Hills",
+            "job_count": 3
+          },
+          {
+            "slug": "the-meridian-at-waterways",
+            "name": "THE MERIDIAN AT WATERWAYS",
+            "job_count": 3
+          },
+          {
+            "slug": "blo-meridian",
+            "name": "Blo Meridian",
+            "job_count": 2
+          },
+          {
+            "slug": "new-meridian",
+            "name": "New Meridian Corporation",
+            "job_count": 2
+          },
+          {
+            "slug": "the-meridian-at-chevy-chase",
+            "name": "THE MERIDIAN AT CHEVY CHASE",
+            "job_count": 2
+          },
+          {
+            "slug": "ac-meridian-sub-csm",
+            "name": "AC MERIDIAN (SUB CSM) PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "chg-meridian",
+            "name": "CHG-MERIDIAN",
+            "job_count": 1
+          },
+          {
+            "slug": "first-meridian-business-services",
+            "name": "First Meridian Business Services",
+            "job_count": 1
+          },
+          {
+            "slug": "straits-meridian-capital-office",
+            "name": "Straits Meridian Capital Office",
+            "job_count": 1
+          },
+          {
+            "slug": "the-meridian-at-brandon",
+            "name": "THE MERIDIAN AT BRANDON",
+            "job_count": 1
+          },
+          {
+            "slug": "stretchlab-boise-eagle-meridian",
+            "name": "StretchLab - Boise & Eagle & Meridian",
+            "job_count": 4
+          },
+          {
+            "slug": "holiday-inn-meridian-east-i20-59",
+            "name": "Holiday Inn Meridian East I20/59",
+            "job_count": 3
+          },
+          {
+            "slug": "toyota-of-meridian",
+            "name": "Toyota of Meridian",
+            "job_count": 2
+          },
+          {
+            "slug": "big-o-tires-meridian",
+            "name": "BIG O TIRES - MERIDIAN",
+            "job_count": 1
+          },
+          {
+            "slug": "i9-sports-boise-meridian-id",
+            "name": "i9 Sports - Boise/Meridian, ID",
+            "job_count": 1
+          },
+          {
+            "slug": "primrose-school-of-north-meridian",
+            "name": "Primrose School of North Meridian",
+            "job_count": 1
+          },
+          {
+            "slug": "meridian",
+            "name": "МЕРИДИАН",
+            "job_count": 10
+          },
+          {
+            "slug": "ooo-meridian",
+            "name": "ООО \"МЕРИДИАН\"",
+            "job_count": 31
+          },
+          {
+            "slug": "ao-meridian",
+            "name": "АО \"МЕРИДИАН\"",
+            "job_count": 16
+          },
+          {
+            "slug": "fgku-meridian",
+            "name": "ФГКУ \"МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-meridian-nt",
+            "name": "ООО \"МЕРИДИАН НТ\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-gdts-meridian",
+            "name": "ООО \"ГДЦ \"МЕРИДИАН\"",
+            "job_count": 4
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-kulebaki",
+            "name": "Филиал АО \"Меридиан\" в г. Кулебаки",
+            "job_count": 3
+          },
+          {
+            "slug": "mbu-mko-meridian",
+            "name": "МБУ \"МКО \"МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-le-meridian",
+            "name": "ООО \"ЛЕ МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "ooo-uk-meridian",
+            "name": "ООО \"УК МЕРИДИАН\"",
+            "job_count": 3
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-lukoianov",
+            "name": "Филиал АО \"Меридиан\" в г. Лукоянов",
+            "job_count": 2
+          },
+          {
+            "slug": "filial-ao-meridian-v-gorode-perevoz",
+            "name": "Филиал АО \"Меридиан\" в городе Перевоз",
+            "job_count": 2
+          },
+          {
+            "slug": "ooo-pp-meridian-energo",
+            "name": "ООО \"ПП \"МЕРИДИАН ЭНЕРГО\"",
+            "job_count": 2
+          },
+          {
+            "slug": "al-med-ooo-meridian",
+            "name": "Альмед (ООО Меридиан)",
+            "job_count": 1
+          },
+          {
+            "slug": "buk-g-omska-tsd-meridian",
+            "name": "БУК Г. ОМСКА \"ЦД \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-arzamase-nizhegorodskoi-oblasti",
+            "name": "ФИЛИАЛ АО \"МЕРИДИАН\" В Г. АРЗАМАСЕ НИЖЕГОРОДСКОЙ ОБЛАСТИ",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-g-lyskovo",
+            "name": "Филиал АО \"Меридиан\" в г.Лысково",
+            "job_count": 1
+          },
+          {
+            "slug": "filial-ao-meridian-v-r-p-mukhtolovo",
+            "name": "ФИЛИАЛ АО \"МЕРИДИАН\" В Р.П. МУХТОЛОВО",
+            "job_count": 1
+          },
+          {
+            "slug": "mbu-sob-meridian",
+            "name": "МБУ \"СОБ \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "ooo-restoran-meridian",
+            "name": "ООО \"РЕСТОРАН \"МЕРИДИАН\"",
+            "job_count": 1
+          },
+          {
+            "slug": "meridiam",
+            "name": "Meridiam",
+            "job_count": 2
+          },
+          {
+            "slug": "meridia-land",
+            "name": "Meridia Land",
+            "job_count": 1
+          },
+          {
+            "slug": "meridiam-glasfaser-gmbh-und",
+            "name": "meridiam-glasfaser-gmbh-und-co-kg",
+            "job_count": 1
+          },
+          {
+            "slug": "meridien-travel-services",
+            "name": "MERIDIEN TRAVEL SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "meridion",
+            "name": "Meridion AG",
+            "job_count": 1
+          },
+          {
+            "slug": "meridion-technologies",
+            "name": "Meridion Technologies GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "le-meridien-houston-downtown",
+            "name": "Le Méridien Houston Downtown",
+            "job_count": 8
+          },
+          {
+            "slug": "le-meridien-lav",
+            "name": "Le Méridien Lav",
+            "job_count": 8
+          },
+          {
+            "slug": "le-meridien",
+            "name": "Le Meridien",
+            "job_count": 6
+          },
+          {
+            "slug": "le-meridien-tampa-the-courthouse",
+            "name": "Le Meridien Tampa, The Courthouse",
+            "job_count": 5
+          },
+          {
+            "slug": "le-meridien-st-louis-clayton",
+            "name": "Le Méridien St. Louis Clayton",
+            "job_count": 3
+          },
+          {
+            "slug": "le-meridien-dania-beach",
+            "name": "Le Meridien Dania Beach",
+            "job_count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acces-industriel",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Acces Industriel",
+        "url": "https://freehire.me/api/v1/companies?q=Acces+Industriel&limit=100",
+        "checked_at": "2026-10-27T19:46:13.431680+00:00",
+        "total": 548,
+        "companies": [
+          {
+            "slug": "industrial-access",
+            "name": "Industrial Access",
+            "job_count": 1
+          },
+          {
+            "slug": "wifco-steel-products",
+            "name": "Wifco Steel Products",
+            "job_count": 2
+          },
+          {
+            "slug": "secomea",
+            "name": "Secomea",
+            "job_count": 6
+          },
+          {
+            "slug": "dispel",
+            "name": "Dispel",
+            "job_count": 2
+          },
+          {
+            "slug": "accesa-raro",
+            "name": "Accesa & RaRo",
+            "job_count": 2
+          },
+          {
+            "slug": "sixaxis",
+            "name": "SixAxis",
+            "job_count": 7
+          },
+          {
+            "slug": "wintech",
+            "name": "WinTech",
+            "job_count": 2
+          },
+          {
+            "slug": "teamviewer",
+            "name": "TeamViewer",
+            "job_count": 143
+          },
+          {
+            "slug": "portage-cybertech",
+            "name": "portagecybertech",
+            "job_count": 6
+          },
+          {
+            "slug": "acces-personnel",
+            "name": "Accès Personnel SA",
+            "job_count": 3
+          },
+          {
+            "slug": "acces-employment",
+            "name": "ACCES Employment",
+            "job_count": 1
+          },
+          {
+            "slug": "axians-reseaux-dacces-centre-est",
+            "name": "Axians Réseaux d'accès Centre Est",
+            "job_count": 1
+          },
+          {
+            "slug": "maisons-du-monde",
+            "name": "maisonsdumonde",
+            "job_count": 17
+          },
+          {
+            "slug": "accel-schools",
+            "name": "ACCEL Schools",
+            "job_count": 117
+          },
+          {
+            "slug": "access-supports-for-living",
+            "name": "Access: Supports for Living",
+            "job_count": 44
+          },
+          {
+            "slug": "access",
+            "name": "ACCESS, Inc",
+            "job_count": 43
+          },
+          {
+            "slug": "aces",
+            "name": "ACES",
+            "job_count": 39
+          },
+          {
+            "slug": "access-information-services",
+            "name": "Access Information Services",
+            "job_count": 37
+          },
+          {
+            "slug": "access-community-health-network",
+            "name": "Access Community Health Network",
+            "job_count": 34
+          },
+          {
+            "slug": "access-bank",
+            "name": "Access Bank",
+            "job_count": 27
+          },
+          {
+            "slug": "access-offshoring-philippines",
+            "name": "Access Offshoring Philippines, Inc.",
+            "job_count": 24
+          },
+          {
+            "slug": "aces-management",
+            "name": "ACES MANAGEMENT",
+            "job_count": 22
+          },
+          {
+            "slug": "access-group",
+            "name": "ACCESS Group",
+            "job_count": 20
+          },
+          {
+            "slug": "accesa-eu",
+            "name": "accesa.eu",
+            "job_count": 19
+          },
+          {
+            "slug": "access-medical-clinic",
+            "name": "Access Medical Clinic",
+            "job_count": 19
+          },
+          {
+            "slug": "access-community-health-centers",
+            "name": "Access Community Health Centers",
+            "job_count": 12
+          },
+          {
+            "slug": "access-management",
+            "name": "Access Management",
+            "job_count": 12
+          },
+          {
+            "slug": "access-tlc-health-care",
+            "name": "Access TLC Health Care",
+            "job_count": 12
+          },
+          {
+            "slug": "accel",
+            "name": "accel",
+            "job_count": 11
+          },
+          {
+            "slug": "access-healthcare-staffing-recruitment",
+            "name": "Access Healthcare Staffing & Recruitment",
+            "job_count": 11
+          },
+          {
+            "slug": "access-to-future",
+            "name": "Access To Future Inc",
+            "job_count": 11
+          },
+          {
+            "slug": "accel-therapies",
+            "name": "Accel Therapies",
+            "job_count": 10
+          },
+          {
+            "slug": "access-services-3",
+            "name": "access-services-3",
+            "job_count": 10
+          },
+          {
+            "slug": "access-destination-services",
+            "name": "Access Destination Services",
+            "job_count": 9
+          },
+          {
+            "slug": "access-tlc",
+            "name": "Access TLC",
+            "job_count": 9
+          },
+          {
+            "slug": "accel-club",
+            "name": "Accel Club",
+            "job_count": 8
+          },
+          {
+            "slug": "access-2-interpreters",
+            "name": "Access 2 Interpreters",
+            "job_count": 8
+          },
+          {
+            "slug": "access-sports-medicine-orthopaedics-pllc",
+            "name": "ACCESS SPORTS MEDICINE & ORTHOPAEDICS PLLC",
+            "job_count": 8
+          },
+          {
+            "slug": "access-computer-consulting",
+            "name": "Access Computer Consulting",
+            "job_count": 7
+          },
+          {
+            "slug": "access-tca",
+            "name": "ACCESS TCA INC",
+            "job_count": 5
+          },
+          {
+            "slug": "access-healthcare",
+            "name": "Access Healthcare",
+            "job_count": 4
+          },
+          {
+            "slug": "access-healthcare-associates",
+            "name": "Access Healthcare Associates",
+            "job_count": 4
+          },
+          {
+            "slug": "access-sciences",
+            "name": "Access Sciences",
+            "job_count": 4
+          },
+          {
+            "slug": "access-to-healthcare-network",
+            "name": "Access to Healthcare Network",
+            "job_count": 4
+          },
+          {
+            "slug": "accel-learning",
+            "name": "Accel Learning",
+            "job_count": 3
+          },
+          {
+            "slug": "access-control-devices",
+            "name": "Access Control Devices, Inc.",
+            "job_count": 3
+          },
+          {
+            "slug": "access-home-health",
+            "name": "Access Home Health",
+            "job_count": 3
+          },
+          {
+            "slug": "access-laser-company",
+            "name": "Access Laser Company",
+            "job_count": 3
+          },
+          {
+            "slug": "access-systems-operations-service",
+            "name": "Access Systems - Operations & Service",
+            "job_count": 3
+          },
+          {
+            "slug": "access-talent-group",
+            "name": "Access Talent Group",
+            "job_count": 3
+          },
+          {
+            "slug": "access-vascular",
+            "name": "Access Vascular",
+            "job_count": 3
+          },
+          {
+            "slug": "acres",
+            "name": "Acres",
+            "job_count": 3
+          },
+          {
+            "slug": "accel-it-services",
+            "name": "Accel It Services",
+            "job_count": 2
+          },
+          {
+            "slug": "access-alaska",
+            "name": "Access Alaska",
+            "job_count": 2
+          },
+          {
+            "slug": "access-ambulatory-surgery-center",
+            "name": "ACCESS AMBULATORY SURGERY CENTER LLC",
+            "job_count": 2
+          },
+          {
+            "slug": "access-nursecare",
+            "name": "Access Nursecare",
+            "job_count": 2
+          },
+          {
+            "slug": "access-one",
+            "name": "Access One",
+            "job_count": 2
+          },
+          {
+            "slug": "access-people-singapore",
+            "name": "ACCESS PEOPLE (SINGAPORE) PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "access-softek",
+            "name": "Access Softek",
+            "job_count": 2
+          },
+          {
+            "slug": "access-systems",
+            "name": "Access Systems",
+            "job_count": 2
+          },
+          {
+            "slug": "accec",
+            "name": "accec",
+            "job_count": 1
+          },
+          {
+            "slug": "accel-analytics",
+            "name": "ACCEL ANALYTICS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "accel-marketing-solutions",
+            "name": "Accel Marketing Solutions, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "accels-technology-sg",
+            "name": "ACCELS TECHNOLOGY SG PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "accesa-java",
+            "name": "ACCESA. Java",
+            "job_count": 1
+          },
+          {
+            "slug": "accesa-operations-support",
+            "name": "ACCESA. Operations & Support",
+            "job_count": 1
+          },
+          {
+            "slug": "access-1-properties",
+            "name": "Access 1 Properties",
+            "job_count": 1
+          },
+          {
+            "slug": "access-appointments-consultancy",
+            "name": "Access Appointments Consultancy Limited",
+            "job_count": 1
+          },
+          {
+            "slug": "access-business-technologies",
+            "name": "access-business-technologies",
+            "job_count": 1
+          },
+          {
+            "slug": "access-care-proactive-health",
+            "name": "Access Care Proactive Health",
+            "job_count": 1
+          },
+          {
+            "slug": "access-communications",
+            "name": "ACCESS COMMUNICATIONS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-community-credit-union",
+            "name": "Access Community Credit Union",
+            "job_count": 1
+          },
+          {
+            "slug": "access-concept",
+            "name": "ACCESS CONCEPT PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-control-systems",
+            "name": "Access Control Systems LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "access-e-v-materials-and-processes",
+            "name": "Access e.V. Materials and Processes",
+            "job_count": 1
+          },
+          {
+            "slug": "access-garage-doors",
+            "name": "Access Garage Doors Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "access-harbour-services",
+            "name": "ACCESS HARBOUR SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-health-ct",
+            "name": "Access Health CT",
+            "job_count": 1
+          },
+          {
+            "slug": "access-health-services",
+            "name": "Access Health Services LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "access-information-management",
+            "name": "Access Information Management",
+            "job_count": 1
+          },
+          {
+            "slug": "access-it-software",
+            "name": "Access-It Software Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "access-lapland",
+            "name": "Access Lapland Oy",
+            "job_count": 1
+          },
+          {
+            "slug": "access-mewp",
+            "name": "ACCESS MEWP PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-partnership",
+            "name": "Access Partnership",
+            "job_count": 1
+          },
+          {
+            "slug": "access-search",
+            "name": "Access Search, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-systems-technology",
+            "name": "ACCESS SYSTEMS TECHNOLOGY PTE LTD",
+            "job_count": 1
+          },
+          {
+            "slug": "access-to-home-care-services",
+            "name": "Access To Home Care Services",
+            "job_count": 1
+          },
+          {
+            "slug": "access-ventures",
+            "name": "Access Ventures",
+            "job_count": 1
+          },
+          {
+            "slug": "accss-digital",
+            "name": "ACCSS DIGITAL PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "acesmei-yu-aces-english-tai-bei-shi-si-li-rui-zhi-yu-wen-duan-qi-bu-xi-ban-yi-fen-ban",
+            "name": "ACES美語(ACES English)_台北市私立睿智語文短期補習班一分班",
+            "job_count": 1
+          },
+          {
+            "slug": "aces-subs",
+            "name": "Aces Subs",
+            "job_count": 1
+          },
+          {
+            "slug": "acies",
+            "name": "Acies",
+            "job_count": 1
+          },
+          {
+            "slug": "alces-software",
+            "name": "Alces Software Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "the-access-group",
+            "name": "The Access Group",
+            "job_count": 94
+          },
+          {
+            "slug": "top-aces-tai",
+            "name": "Top Aces (TAI)",
+            "job_count": 21
+          },
+          {
+            "slug": "total-access-urgent-care",
+            "name": "Total Access Urgent Care",
+            "job_count": 17
+          },
+          {
+            "slug": "net-access",
+            "name": "NET ACCESS",
+            "job_count": 15
+          },
+          {
+            "slug": "project-access",
+            "name": "Project Access",
+            "job_count": 15
+          },
+          {
+            "slug": "arbor-acres-united-methodist-retirement-community",
+            "name": "ARBOR ACRES UNITED METHODIST RETIREMENT COMMUNITY INC",
+            "job_count": 14
+          },
+          {
+            "slug": "community-access-unlimited",
+            "name": "Community Access Unlimited",
+            "job_count": 14
+          }
+        ]
+      },
+      {
+        "query": "Accès Industriel",
+        "url": "https://freehire.me/api/v1/companies?q=Acc%C3%A8s+Industriel&limit=100",
+        "checked_at": "2026-10-27T19:46:17.137023+00:00",
+        "total": 548,
+        "companies": [
+          {
+            "slug": "industrial-access",
+            "name": "Industrial Access",
+            "job_count": 1
+          },
+          {
+            "slug": "wifco-steel-products",
+            "name": "Wifco Steel Products",
+            "job_count": 2
+          },
+          {
+            "slug": "secomea",
+            "name": "Secomea",
+            "job_count": 6
+          },
+          {
+            "slug": "dispel",
+            "name": "Dispel",
+            "job_count": 2
+          },
+          {
+            "slug": "accesa-raro",
+            "name": "Accesa & RaRo",
+            "job_count": 2
+          },
+          {
+            "slug": "sixaxis",
+            "name": "SixAxis",
+            "job_count": 7
+          },
+          {
+            "slug": "wintech",
+            "name": "WinTech",
+            "job_count": 2
+          },
+          {
+            "slug": "teamviewer",
+            "name": "TeamViewer",
+            "job_count": 143
+          },
+          {
+            "slug": "portage-cybertech",
+            "name": "portagecybertech",
+            "job_count": 6
+          },
+          {
+            "slug": "acces-personnel",
+            "name": "Accès Personnel SA",
+            "job_count": 3
+          },
+          {
+            "slug": "acces-employment",
+            "name": "ACCES Employment",
+            "job_count": 1
+          },
+          {
+            "slug": "axians-reseaux-dacces-centre-est",
+            "name": "Axians Réseaux d'accès Centre Est",
+            "job_count": 1
+          },
+          {
+            "slug": "maisons-du-monde",
+            "name": "maisonsdumonde",
+            "job_count": 17
+          },
+          {
+            "slug": "accel-schools",
+            "name": "ACCEL Schools",
+            "job_count": 117
+          },
+          {
+            "slug": "access-supports-for-living",
+            "name": "Access: Supports for Living",
+            "job_count": 44
+          },
+          {
+            "slug": "access",
+            "name": "ACCESS, Inc",
+            "job_count": 43
+          },
+          {
+            "slug": "aces",
+            "name": "ACES",
+            "job_count": 39
+          },
+          {
+            "slug": "access-information-services",
+            "name": "Access Information Services",
+            "job_count": 37
+          },
+          {
+            "slug": "access-community-health-network",
+            "name": "Access Community Health Network",
+            "job_count": 34
+          },
+          {
+            "slug": "access-bank",
+            "name": "Access Bank",
+            "job_count": 27
+          },
+          {
+            "slug": "access-offshoring-philippines",
+            "name": "Access Offshoring Philippines, Inc.",
+            "job_count": 24
+          },
+          {
+            "slug": "aces-management",
+            "name": "ACES MANAGEMENT",
+            "job_count": 22
+          },
+          {
+            "slug": "access-group",
+            "name": "ACCESS Group",
+            "job_count": 20
+          },
+          {
+            "slug": "accesa-eu",
+            "name": "accesa.eu",
+            "job_count": 19
+          },
+          {
+            "slug": "access-medical-clinic",
+            "name": "Access Medical Clinic",
+            "job_count": 19
+          },
+          {
+            "slug": "access-community-health-centers",
+            "name": "Access Community Health Centers",
+            "job_count": 12
+          },
+          {
+            "slug": "access-management",
+            "name": "Access Management",
+            "job_count": 12
+          },
+          {
+            "slug": "access-tlc-health-care",
+            "name": "Access TLC Health Care",
+            "job_count": 12
+          },
+          {
+            "slug": "accel",
+            "name": "accel",
+            "job_count": 11
+          },
+          {
+            "slug": "access-healthcare-staffing-recruitment",
+            "name": "Access Healthcare Staffing & Recruitment",
+            "job_count": 11
+          },
+          {
+            "slug": "access-to-future",
+            "name": "Access To Future Inc",
+            "job_count": 11
+          },
+          {
+            "slug": "accel-therapies",
+            "name": "Accel Therapies",
+            "job_count": 10
+          },
+          {
+            "slug": "access-services-3",
+            "name": "access-services-3",
+            "job_count": 10
+          },
+          {
+            "slug": "access-destination-services",
+            "name": "Access Destination Services",
+            "job_count": 9
+          },
+          {
+            "slug": "access-tlc",
+            "name": "Access TLC",
+            "job_count": 9
+          },
+          {
+            "slug": "accel-club",
+            "name": "Accel Club",
+            "job_count": 8
+          },
+          {
+            "slug": "access-2-interpreters",
+            "name": "Access 2 Interpreters",
+            "job_count": 8
+          },
+          {
+            "slug": "access-sports-medicine-orthopaedics-pllc",
+            "name": "ACCESS SPORTS MEDICINE & ORTHOPAEDICS PLLC",
+            "job_count": 8
+          },
+          {
+            "slug": "access-computer-consulting",
+            "name": "Access Computer Consulting",
+            "job_count": 7
+          },
+          {
+            "slug": "access-tca",
+            "name": "ACCESS TCA INC",
+            "job_count": 5
+          },
+          {
+            "slug": "access-healthcare",
+            "name": "Access Healthcare",
+            "job_count": 4
+          },
+          {
+            "slug": "access-healthcare-associates",
+            "name": "Access Healthcare Associates",
+            "job_count": 4
+          },
+          {
+            "slug": "access-sciences",
+            "name": "Access Sciences",
+            "job_count": 4
+          },
+          {
+            "slug": "access-to-healthcare-network",
+            "name": "Access to Healthcare Network",
+            "job_count": 4
+          },
+          {
+            "slug": "accel-learning",
+            "name": "Accel Learning",
+            "job_count": 3
+          },
+          {
+            "slug": "access-control-devices",
+            "name": "Access Control Devices, Inc.",
+            "job_count": 3
+          },
+          {
+            "slug": "access-home-health",
+            "name": "Access Home Health",
+            "job_count": 3
+          },
+          {
+            "slug": "access-laser-company",
+            "name": "Access Laser Company",
+            "job_count": 3
+          },
+          {
+            "slug": "access-systems-operations-service",
+            "name": "Access Systems - Operations & Service",
+            "job_count": 3
+          },
+          {
+            "slug": "access-talent-group",
+            "name": "Access Talent Group",
+            "job_count": 3
+          },
+          {
+            "slug": "access-vascular",
+            "name": "Access Vascular",
+            "job_count": 3
+          },
+          {
+            "slug": "acres",
+            "name": "Acres",
+            "job_count": 3
+          },
+          {
+            "slug": "accel-it-services",
+            "name": "Accel It Services",
+            "job_count": 2
+          },
+          {
+            "slug": "access-alaska",
+            "name": "Access Alaska",
+            "job_count": 2
+          },
+          {
+            "slug": "access-ambulatory-surgery-center",
+            "name": "ACCESS AMBULATORY SURGERY CENTER LLC",
+            "job_count": 2
+          },
+          {
+            "slug": "access-nursecare",
+            "name": "Access Nursecare",
+            "job_count": 2
+          },
+          {
+            "slug": "access-one",
+            "name": "Access One",
+            "job_count": 2
+          },
+          {
+            "slug": "access-people-singapore",
+            "name": "ACCESS PEOPLE (SINGAPORE) PTE. LTD.",
+            "job_count": 2
+          },
+          {
+            "slug": "access-softek",
+            "name": "Access Softek",
+            "job_count": 2
+          },
+          {
+            "slug": "access-systems",
+            "name": "Access Systems",
+            "job_count": 2
+          },
+          {
+            "slug": "accec",
+            "name": "accec",
+            "job_count": 1
+          },
+          {
+            "slug": "accel-analytics",
+            "name": "ACCEL ANALYTICS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "accel-marketing-solutions",
+            "name": "Accel Marketing Solutions, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "accels-technology-sg",
+            "name": "ACCELS TECHNOLOGY SG PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "accesa-java",
+            "name": "ACCESA. Java",
+            "job_count": 1
+          },
+          {
+            "slug": "accesa-operations-support",
+            "name": "ACCESA. Operations & Support",
+            "job_count": 1
+          },
+          {
+            "slug": "access-1-properties",
+            "name": "Access 1 Properties",
+            "job_count": 1
+          },
+          {
+            "slug": "access-appointments-consultancy",
+            "name": "Access Appointments Consultancy Limited",
+            "job_count": 1
+          },
+          {
+            "slug": "access-business-technologies",
+            "name": "access-business-technologies",
+            "job_count": 1
+          },
+          {
+            "slug": "access-care-proactive-health",
+            "name": "Access Care Proactive Health",
+            "job_count": 1
+          },
+          {
+            "slug": "access-communications",
+            "name": "ACCESS COMMUNICATIONS PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-community-credit-union",
+            "name": "Access Community Credit Union",
+            "job_count": 1
+          },
+          {
+            "slug": "access-concept",
+            "name": "ACCESS CONCEPT PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-control-systems",
+            "name": "Access Control Systems LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "access-e-v-materials-and-processes",
+            "name": "Access e.V. Materials and Processes",
+            "job_count": 1
+          },
+          {
+            "slug": "access-garage-doors",
+            "name": "Access Garage Doors Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "access-harbour-services",
+            "name": "ACCESS HARBOUR SERVICES PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-health-ct",
+            "name": "Access Health CT",
+            "job_count": 1
+          },
+          {
+            "slug": "access-health-services",
+            "name": "Access Health Services LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "access-information-management",
+            "name": "Access Information Management",
+            "job_count": 1
+          },
+          {
+            "slug": "access-it-software",
+            "name": "Access-It Software Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "access-lapland",
+            "name": "Access Lapland Oy",
+            "job_count": 1
+          },
+          {
+            "slug": "access-mewp",
+            "name": "ACCESS MEWP PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-partnership",
+            "name": "Access Partnership",
+            "job_count": 1
+          },
+          {
+            "slug": "access-search",
+            "name": "Access Search, Inc.",
+            "job_count": 1
+          },
+          {
+            "slug": "access-systems-technology",
+            "name": "ACCESS SYSTEMS TECHNOLOGY PTE LTD",
+            "job_count": 1
+          },
+          {
+            "slug": "access-to-home-care-services",
+            "name": "Access To Home Care Services",
+            "job_count": 1
+          },
+          {
+            "slug": "access-ventures",
+            "name": "Access Ventures",
+            "job_count": 1
+          },
+          {
+            "slug": "accss-digital",
+            "name": "ACCSS DIGITAL PTE. LTD.",
+            "job_count": 1
+          },
+          {
+            "slug": "acesmei-yu-aces-english-tai-bei-shi-si-li-rui-zhi-yu-wen-duan-qi-bu-xi-ban-yi-fen-ban",
+            "name": "ACES美語(ACES English)_台北市私立睿智語文短期補習班一分班",
+            "job_count": 1
+          },
+          {
+            "slug": "aces-subs",
+            "name": "Aces Subs",
+            "job_count": 1
+          },
+          {
+            "slug": "acies",
+            "name": "Acies",
+            "job_count": 1
+          },
+          {
+            "slug": "alces-software",
+            "name": "Alces Software Ltd",
+            "job_count": 1
+          },
+          {
+            "slug": "the-access-group",
+            "name": "The Access Group",
+            "job_count": 94
+          },
+          {
+            "slug": "top-aces-tai",
+            "name": "Top Aces (TAI)",
+            "job_count": 21
+          },
+          {
+            "slug": "total-access-urgent-care",
+            "name": "Total Access Urgent Care",
+            "job_count": 17
+          },
+          {
+            "slug": "net-access",
+            "name": "NET ACCESS",
+            "job_count": 15
+          },
+          {
+            "slug": "project-access",
+            "name": "Project Access",
+            "job_count": 15
+          },
+          {
+            "slug": "arbor-acres-united-methodist-retirement-community",
+            "name": "ARBOR ACRES UNITED METHODIST RETIREMENT COMMUNITY INC",
+            "job_count": 14
+          },
+          {
+            "slug": "community-access-unlimited",
+            "name": "Community Access Unlimited",
+            "job_count": 14
+          }
+        ]
+      },
+      {
+        "query": "Henninger",
+        "url": "https://freehire.me/api/v1/companies?q=Henninger&limit=100",
+        "checked_at": "2026-10-27T19:46:20.682992+00:00",
+        "total": 17,
+        "companies": [
+          {
+            "slug": "henningerarchitekt",
+            "name": "henningerarchitekt GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "leonhard-henninger-haus",
+            "name": "leonhard-henninger-haus",
+            "job_count": 1
+          },
+          {
+            "slug": "lebensmittel-kg-heininger-und-dietz",
+            "name": "Lebensmittel KG Heininger und Dietz",
+            "job_count": 2
+          },
+          {
+            "slug": "menninger-clinic",
+            "name": "Menninger Clinic",
+            "job_count": 13
+          },
+          {
+            "slug": "henngineered-monchweiler-gmbh-co-kg",
+            "name": "HENNgineered Mönchweiler GmbH & Co.KG",
+            "job_count": 3
+          },
+          {
+            "slug": "henning-mortensen",
+            "name": "Henning Mortensen a/s",
+            "job_count": 3
+          },
+          {
+            "slug": "henning-broscheit",
+            "name": "Henning Broscheit GmbH",
+            "job_count": 2
+          },
+          {
+            "slug": "henning-marketing",
+            "name": "Henning Marketing",
+            "job_count": 2
+          },
+          {
+            "slug": "henniges-automotive-sealing-system-services-mexico-s-a-de-c-v",
+            "name": "Henniges Automotive Sealing System Services México S.A. de C.V",
+            "job_count": 1
+          },
+          {
+            "slug": "henning-companies",
+            "name": "Henning Companies",
+            "job_count": 1
+          },
+          {
+            "slug": "henningsen-backwaren",
+            "name": "Henningsen Backwaren GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "henning-staehr",
+            "name": "HENNING STÆHR A/S",
+            "job_count": 1
+          },
+          {
+            "slug": "hettinger-und-partner-gmbh-wirtschaftsprufungsgesellschaft",
+            "name": "Hettinger und Partner GmbH Wirtschaftsprüfungsgesellschaft",
+            "job_count": 1
+          },
+          {
+            "slug": "turner-henningsen-wolf-vandenburg",
+            "name": "Turner Henningsen Wolf & VanDenburg LLP",
+            "job_count": 4
+          },
+          {
+            "slug": "mark-henning-e-k",
+            "name": "Mark Henning e.K.",
+            "job_count": 2
+          },
+          {
+            "slug": "hsp-steuer-henniges-schulz-partner-steuerberatungsgesellschaft-mbb",
+            "name": "HSP STEUER Henniges, Schulz & Partner Steuerberatungsgesellschaft mbB",
+            "job_count": 4
+          },
+          {
+            "slug": "pagina-de-carreiras-heringer",
+            "name": "Página de Carreiras Heringer",
+            "job_count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rimap-hospitality",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "RIMAP Hospitality",
+        "url": "https://freehire.me/api/v1/companies?q=RIMAP+Hospitality&limit=100",
+        "checked_at": "2026-10-27T19:46:17.018789+00:00",
+        "total": 2,
+        "companies": [
+          {
+            "slug": "rimas-care-gmbh-ambulanter-pflegedienst",
+            "name": "Rimas-Care GmbH ambulanter Pflegedienst",
+            "job_count": 2
+          },
+          {
+            "slug": "bugatti-rimac-d-o-o",
+            "name": "Bugatti Rimac d.o.o.",
+            "job_count": 59
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "solmatech",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "Solmatech",
+        "url": "https://freehire.me/api/v1/companies?q=Solmatech&limit=100",
+        "checked_at": "2026-10-27T19:46:20.726590+00:00",
+        "total": 13,
+        "companies": [
+          {
+            "slug": "sigmatech",
+            "name": "SIGMATECH",
+            "job_count": 92
+          },
+          {
+            "slug": "sonatech",
+            "name": "Sonatech",
+            "job_count": 4
+          },
+          {
+            "slug": "solutech",
+            "name": "Solutech",
+            "job_count": 3
+          },
+          {
+            "slug": "soltech",
+            "name": "Soltech",
+            "job_count": 2
+          },
+          {
+            "slug": "somtech",
+            "name": "Somtech inc.",
+            "job_count": 2
+          },
+          {
+            "slug": "sigmatech-it-services",
+            "name": "Sigmatech IT Services",
+            "job_count": 1
+          },
+          {
+            "slug": "sigmatech-management-consultancies",
+            "name": "SIGMATECH Management Consultancies LLC",
+            "job_count": 1
+          },
+          {
+            "slug": "solartechnik-thiemann",
+            "name": "Solartechnik Thiemann",
+            "job_count": 1
+          },
+          {
+            "slug": "sylatech",
+            "name": "Sylatech GmbH",
+            "job_count": 1
+          },
+          {
+            "slug": "projekt-solartechnik",
+            "name": "Projekt - Solartechnik",
+            "job_count": 1
+          },
+          {
+            "slug": "pt-sigma-global-teknologi-sigmatech",
+            "name": "Pt. Sigma Global Teknologi (Sigmatech)",
+            "job_count": 22
+          },
+          {
+            "slug": "ad-fontes-solartechnik",
+            "name": "ad fontes Solartechnik",
+            "job_count": 2
+          },
+          {
+            "slug": "egs-plan-ingenieurgesellschaft-fur-energie-gebaude-und-solartechnik-mbh",
+            "name": "EGS-plan Ingenieurgesellschaft für Energie-, Gebäude- und Solartechnik mbH",
+            "job_count": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-denis-thompson",
+    "status": "no_matching_employer_found",
+    "queries": [
+      {
+        "query": "St-Denis Thompson",
+        "url": "https://freehire.me/api/v1/companies?q=St-Denis+Thompson&limit=100",
+        "checked_at": "2026-10-27T19:47:05.796997+00:00",
+        "total": 1015,
+        "companies": [
+          {
+            "slug": "sncf-st-denis-2-pl-aux-etoiles",
+            "name": "SNCF ST DENIS 2 PL AUX ETOILES",
+            "job_count": 1
+          },
+          {
+            "slug": "st-xavier-high-school",
+            "name": "St. Xavier High School",
+            "job_count": 2
+          },
+          {
+            "slug": "st-lukes-university-health-network",
+            "name": "St. Luke's University Health Network",
+            "job_count": 490
+          },
+          {
+            "slug": "st-engineering",
+            "name": "ST Engineering",
+            "job_count": 201
+          },
+          {
+            "slug": "st-josephs-health",
+            "name": "St. Joseph's Health",
+            "job_count": 190
+          },
+          {
+            "slug": "st-barnabas",
+            "name": "St. Barnabas",
+            "job_count": 185
+          },
+          {
+            "slug": "st-croix-hospice",
+            "name": "St. Croix Hospice",
+            "job_count": 150
+          },
+          {
+            "slug": "st-joseph-medical-center",
+            "name": "St. Joseph Medical Center",
+            "job_count": 118
+          },
+          {
+            "slug": "st-lukes-hospital-mo",
+            "name": "St. Luke's Hospital - MO",
+            "job_count": 90
+          },
+          {
+            "slug": "st-elisabeth-gruppe",
+            "name": "St. Elisabeth Gruppe GmbH",
+            "job_count": 86
+          },
+          {
+            "slug": "st-marys-healthcare",
+            "name": "St. Mary's Healthcare",
+            "job_count": 85
+          },
+          {
+            "slug": "st-frances-cabrini-catholic-school",
+            "name": "St. Frances Cabrini Catholic School",
+            "job_count": 78
+          },
+          {
+            "slug": "st-joseph-hospital-medical-center",
+            "name": "St. Joseph Hospital & Medical Center",
+            "job_count": 74
+          },
+          {
+            "slug": "st-anthony-hospital",
+            "name": "St Anthony Hospital",
+            "job_count": 63
+          },
+          {
+            "slug": "st-joseph-hospital",
+            "name": "St. Joseph Hospital",
+            "job_count": 62
+          },
+          {
+            "slug": "st-peters-health",
+            "name": "St. Peter's Health",
+            "job_count": 62
+          },
+          {
+            "slug": "st-michael-catholic-school",
+            "name": "St. Michael Catholic School",
+            "job_count": 61
+          },
+          {
+            "slug": "st-lukes-hospital-the-woodlands",
+            "name": "St. Luke's Hospital - The Woodlands",
+            "job_count": 55
+          },
+          {
+            "slug": "st-vrain-valley-school-district",
+            "name": "St. Vrain Valley School District",
+            "job_count": 55
+          },
+          {
+            "slug": "st-thomas-aquinas-parish-school",
+            "name": "St. Thomas Aquinas Parish School",
+            "job_count": 53
+          },
+          {
+            "slug": "st-austell-brewery",
+            "name": "St Austell Brewery",
+            "job_count": 49
+          },
+          {
+            "slug": "st-joe-resort-operations",
+            "name": "ST JOE RESORT OPERATIONS LLC",
+            "job_count": 48
+          },
+          {
+            "slug": "st-regis",
+            "name": "St. Regis",
+            "job_count": 47
+          },
+          {
+            "slug": "st-johns-riverside-hospital",
+            "name": "St. John's Riverside Hospital",
+            "job_count": 46
+          },
+          {
+            "slug": "st-marys-general-hospital",
+            "name": "St. Mary's General Hospital",
+            "job_count": 44
+          },
+          {
+            "slug": "st-clares-denville",
+            "name": "St. Clare's - Denville",
+            "job_count": 42
+          },
+          {
+            "slug": "st-johns-county-school-district",
+            "name": "St. Johns County School District",
+            "job_count": 42
+          },
+          {
+            "slug": "st-josephs-healthcare-hamilton",
+            "name": "St. Joseph's Healthcare Hamilton",
+            "job_count": 42
+          },
+          {
+            "slug": "st-francis-medical-center",
+            "name": "St. Francis Medical Center",
+            "job_count": 41
+          },
+          {
+            "slug": "st-michael-medical-center",
+            "name": "St Michael Medical Center",
+            "job_count": 41
+          },
+          {
+            "slug": "st-anthony-north-hospital",
+            "name": "St Anthony North Hospital",
+            "job_count": 40
+          },
+          {
+            "slug": "st-marys-healthcare-system-for-children",
+            "name": "ST. MARY'S HEALTHCARE SYSTEM FOR CHILDREN, INC",
+            "job_count": 40
+          },
+          {
+            "slug": "st-francis-health-services",
+            "name": "St. Francis Health Services",
+            "job_count": 37
+          },
+          {
+            "slug": "st-johns-community-health",
+            "name": "St. John’s Community Health",
+            "job_count": 36
+          },
+          {
+            "slug": "st-vincenz-kiniken",
+            "name": "St. Vincenz-Kiniken GmbH",
+            "job_count": 36
+          },
+          {
+            "slug": "st-jamess-place",
+            "name": "St. James's Place",
+            "job_count": 35
+          },
+          {
+            "slug": "st-olaf-college",
+            "name": "St. Olaf College",
+            "job_count": 34
+          },
+          {
+            "slug": "st-trinity-property-group",
+            "name": "St Trinity Property Group",
+            "job_count": 34
+          },
+          {
+            "slug": "st-olaf",
+            "name": "St. Olaf",
+            "job_count": 33
+          },
+          {
+            "slug": "st-pauls-senior-services",
+            "name": "St. Paul's Senior Services",
+            "job_count": 33
+          },
+          {
+            "slug": "st-louis-university",
+            "name": "St. Louis University",
+            "job_count": 31
+          },
+          {
+            "slug": "st-lukes-hospital-lufkin",
+            "name": "St. Luke's Hospital - Lufkin",
+            "job_count": 31
+          },
+          {
+            "slug": "st-marche-supermercados",
+            "name": "St. Marche Supermercados",
+            "job_count": 31
+          },
+          {
+            "slug": "st-elisabeth-stiftung",
+            "name": "St. Elisabeth-Stiftung",
+            "job_count": 30
+          },
+          {
+            "slug": "st-johns-regional-medical-center",
+            "name": "St Johns Regional Medical Center",
+            "job_count": 30
+          },
+          {
+            "slug": "st-clares-dover",
+            "name": "St. Clare's - Dover",
+            "job_count": 29
+          },
+          {
+            "slug": "st-johns-community-services",
+            "name": "ST JOHNS COMMUNITY SERVICES",
+            "job_count": 29
+          },
+          {
+            "slug": "st-willibrord-high-school",
+            "name": "St Willibrord High School",
+            "job_count": 29
+          },
+          {
+            "slug": "st-francis-hospital",
+            "name": "St Francis Hospital",
+            "job_count": 28
+          },
+          {
+            "slug": "st-johns-health",
+            "name": "ST JOHNS HEALTH",
+            "job_count": 28
+          },
+          {
+            "slug": "st-thomas-university",
+            "name": "ST THOMAS UNIVERSITY INC",
+            "job_count": 28
+          },
+          {
+            "slug": "st-anns-community",
+            "name": "St. Ann's Community",
+            "job_count": 26
+          },
+          {
+            "slug": "st-group-careers-jobs-hr-cloud-sap",
+            "name": "st-group-careers.jobs.hr.cloud.sap",
+            "job_count": 26
+          },
+          {
+            "slug": "st-barnabas-health-system",
+            "name": "ST BARNABAS HEALTH SYSTEM",
+            "job_count": 25
+          },
+          {
+            "slug": "st-elisabeth-verein-e-v",
+            "name": "ST. ELISABETH-VEREIN E.V.",
+            "job_count": 25
+          },
+          {
+            "slug": "st-mark-village",
+            "name": "St. Mark Village",
+            "job_count": 25
+          },
+          {
+            "slug": "st-anthony-regional-hospital",
+            "name": "St. Anthony Regional Hospital",
+            "job_count": 24
+          },
+          {
+            "slug": "st-lukes-rehabilitation-hospital",
+            "name": "St. Luke's Rehabilitation Hospital",
+            "job_count": 24
+          },
+          {
+            "slug": "st-marys-hospital",
+            "name": "ST. MARY'S HOSPITAL, INC.",
+            "job_count": 24
+          },
+          {
+            "slug": "st-cloud-area-school-district-742",
+            "name": "St. Cloud Area School District 742",
+            "job_count": 23
+          },
+          {
+            "slug": "st-edwards-university",
+            "name": "St. Edward's University",
+            "job_count": 23
+          },
+          {
+            "slug": "st-joseph-stift-bremen",
+            "name": "St. Joseph-Stift Bremen GmbH",
+            "job_count": 23
+          },
+          {
+            "slug": "st-lukes-health-patients-medical-center",
+            "name": "St. Luke's Health - Patients Medical Center",
+            "job_count": 23
+          },
+          {
+            "slug": "st-camillus",
+            "name": "St. Camillus",
+            "job_count": 22
+          },
+          {
+            "slug": "st-catherine-hospital-garden-city",
+            "name": "St Catherine Hospital Garden City",
+            "job_count": 22
+          },
+          {
+            "slug": "st-croix-health",
+            "name": "St. Croix Health",
+            "job_count": 22
+          },
+          {
+            "slug": "st-joseph-hospital-college-station",
+            "name": "St. Joseph Hospital - College Station",
+            "job_count": 22
+          },
+          {
+            "slug": "st-josephs-medical-center",
+            "name": "St Josephs Medical Center",
+            "job_count": 22
+          },
+          {
+            "slug": "st-anne-hospital",
+            "name": "St. Anne Hospital",
+            "job_count": 21
+          },
+          {
+            "slug": "st-lukes-hospital-brazosport",
+            "name": "St. Luke’s Hospital - Brazosport",
+            "job_count": 21
+          },
+          {
+            "slug": "st-franziskus-hospital",
+            "name": "St. Franziskus-Hospital GmbH",
+            "job_count": 19
+          },
+          {
+            "slug": "st-johns-hospital",
+            "name": "St. John's Hospital",
+            "job_count": 19
+          },
+          {
+            "slug": "st-marys-hospital-kankakee",
+            "name": "St. Mary's Hospital - Kankakee",
+            "job_count": 19
+          },
+          {
+            "slug": "st-vincent-de-paul-society-victoria",
+            "name": "St Vincent de Paul Society Victoria",
+            "job_count": 19
+          },
+          {
+            "slug": "st-barbara-klinik-hamm",
+            "name": "St. Barbara-Klinik Hamm GmbH",
+            "job_count": 18
+          },
+          {
+            "slug": "st-elizabeth-hospital",
+            "name": "St Elizabeth Hospital",
+            "job_count": 18
+          },
+          {
+            "slug": "st-labre-indian-catholic-school",
+            "name": "St. Labre Indian Catholic School",
+            "job_count": 18
+          },
+          {
+            "slug": "st-clares-boonton",
+            "name": "St. Clare's - Boonton",
+            "job_count": 17
+          },
+          {
+            "slug": "st-irmgardis-krankenhaus-suchteln",
+            "name": "St. Irmgardis-Krankenhaus Süchteln GmbH",
+            "job_count": 17
+          },
+          {
+            "slug": "st-lukes-hospital-sugar-land",
+            "name": "St. Luke's Hospital - Sugar Land",
+            "job_count": 17
+          },
+          {
+            "slug": "st-engineering-info-security",
+            "name": "ST ENGINEERING INFO-SECURITY PTE. LTD.",
+            "job_count": 16
+          },
+          {
+            "slug": "st-lukes-hospital-vintage",
+            "name": "St. Luke's Hospital - Vintage",
+            "job_count": 16
+          },
+          {
+            "slug": "st-annes-family-services",
+            "name": "St Anne's Family Services",
+            "job_count": 15
+          },
+          {
+            "slug": "st-joseph-residence",
+            "name": "St. Joseph Residence",
+            "job_count": 15
+          },
+          {
+            "slug": "st-mary-corwin-hospital",
+            "name": "St Mary Corwin Hospital",
+            "job_count": 15
+          },
+          {
+            "slug": "st-mary-medical-center",
+            "name": "St Mary Medical Center",
+            "job_count": 15
+          },
+          {
+            "slug": "st-nicolaiheim-e-v",
+            "name": "St. Nicolaiheim e.V.",
+            "job_count": 15
+          },
+          {
+            "slug": "st-anne-home",
+            "name": "St. Anne Home",
+            "job_count": 14
+          },
+          {
+            "slug": "st-bernardine-medical-center",
+            "name": "St Bernardine Medical Center",
+            "job_count": 14
+          },
+          {
+            "slug": "st-engineering-idirect",
+            "name": "ST Engineering iDirect",
+            "job_count": 14
+          },
+          {
+            "slug": "st-james-hospital",
+            "name": "St. James Hospital",
+            "job_count": 14
+          },
+          {
+            "slug": "st-josef-stift-sendenhorst",
+            "name": "St. Josef-Stift Sendenhorst",
+            "job_count": 14
+          },
+          {
+            "slug": "st-marys-medical-center",
+            "name": "St. Mary's Medical Center",
+            "job_count": 14
+          },
+          {
+            "slug": "st-antonius-hospital",
+            "name": "St. Antonius-Hospital",
+            "job_count": 13
+          },
+          {
+            "slug": "st-elizabeth-home-care",
+            "name": "St. Elizabeth Home Care",
+            "job_count": 13
+          },
+          {
+            "slug": "st-johns-healthcare",
+            "name": "St John's Healthcare Corporation",
+            "job_count": 13
+          },
+          {
+            "slug": "st-josephs-home-care",
+            "name": "St. Joseph's Home Care",
+            "job_count": 13
+          },
+          {
+            "slug": "st-luke-health-services",
+            "name": "St. Luke Health Services",
+            "job_count": 13
+          },
+          {
+            "slug": "st-lukes-eldercare",
+            "name": "ST LUKE'S ELDERCARE LTD.",
+            "job_count": 13
+          },
+          {
+            "slug": "st-marche",
+            "name": "ST MARCHE",
+            "job_count": 13
+          }
+        ]
+      }
+    ]
+  }
+]

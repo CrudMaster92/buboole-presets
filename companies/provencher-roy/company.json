@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "provencher-roy",
+  "name": "Provencher_Roy",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://provencherroy.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "architecture"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

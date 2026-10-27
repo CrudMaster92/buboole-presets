@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-27T19:48:34.297556+00:00",
+  "source": "https://freehire.me/api/v1/companies/sitemap",
+  "page_size": 10000,
+  "nonempty_pages": 44,
+  "terminal_empty_page": 44,
+  "unique_slugs": 438158,
+  "sha256": "11cf7091bb817eeb0d60e1ceb8a67ded3c0072d95ccabb7bf38979264f5ecce5",
+  "note": "Mutable paged directory, not an atomic export. Current alias queries and identity review supplement it. No matching employer found is an observed search result, not a guarantee of absence under every intermediary or hotel brand.",
+  "excluded": [
+    {
+      "name": "EQ3",
+      "reason": "FreeHire eq-3 is the same Canadian furniture company; its jobs link to eq3-ltd.breezy.hr. Excluded after profile identity check."
+    },
+    {
+      "name": "AGS Automotive",
+      "reason": "Accessible public listing was empty."
+    },
+    {
+      "name": "Honco",
+      "reason": "Listing JSON-LD reused the index URL as the posting URL. No safe executable recipe admitted."
+    },
+    {
+      "name": "Trica",
+      "reason": "Official hiring board contained only a spontaneous application."
+    },
+    {
+      "name": "Thermo 2000",
+      "reason": "Only old undated-on-listing PDF vacancies; not used to fill this batch."
+    }
+  ]
+}

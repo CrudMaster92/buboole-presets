@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nanoxplore",
+  "name": "NanoXplore",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://nanoxplore.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nolinor",
+  "name": "Nolinor Aviation",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://nolinor.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "aviation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

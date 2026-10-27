@@ -1,0 +1,2015 @@
+[
+  {
+    "id": "leclerc",
+    "name": "Leclerc Foods",
+    "checked_at": "2026-10-27T19:44:32.256632+00:00",
+    "strategy": "generic_html",
+    "job_count": 30,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 27 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Corporate Controller",
+        "location": "Saint-Augustin-de-Desmaures, Québec",
+        "source_url": "https://leclerc.ca/en/job/7185",
+        "description_chars": 0
+      },
+      {
+        "title": "Production Operator - 3x12 Night Shift",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7230",
+        "description_chars": 0
+      },
+      {
+        "title": "Engineering Project Manager",
+        "location": "Hawkesbury, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7235",
+        "description_chars": 0
+      },
+      {
+        "title": "Operator / Interim Internal Trainer",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7252",
+        "description_chars": 0
+      },
+      {
+        "title": "Operator",
+        "location": "Saint-Augustin-de-Desmaures, Québec",
+        "source_url": "https://leclerc.ca/en/job/6769",
+        "description_chars": 0
+      },
+      {
+        "title": "Quality Control Manager",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7338",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance Team Leader",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7015",
+        "description_chars": 0
+      },
+      {
+        "title": "Production Team Leader - Night Shift",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7365",
+        "description_chars": 0
+      },
+      {
+        "title": "Operator & Sanitation Worker",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7322",
+        "description_chars": 0
+      },
+      {
+        "title": "Business Unit Leader",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/6876",
+        "description_chars": 0
+      },
+      {
+        "title": "Sanitation Team Leader Night",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7385",
+        "description_chars": 0
+      },
+      {
+        "title": "Corporate Project Manager",
+        "location": "Saint-Augustin-de-Desmaures, Québec",
+        "source_url": "https://leclerc.ca/en/job/7392",
+        "description_chars": 0
+      },
+      {
+        "title": "Sanitation Worker- Part Time - Weekends",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7405",
+        "description_chars": 0
+      },
+      {
+        "title": "Forklift Operator - Evening Shift",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7412",
+        "description_chars": 0
+      },
+      {
+        "title": "Management Controller",
+        "location": "Saint-Augustin-de-Desmaures, Québec",
+        "source_url": "https://leclerc.ca/en/job/7416",
+        "description_chars": 0
+      },
+      {
+        "title": "Quality Control Technician",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7429",
+        "description_chars": 0
+      },
+      {
+        "title": "Shipping and Receiving Clerk - 1 Year Contract",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7432",
+        "description_chars": 0
+      },
+      {
+        "title": "Process Improvement Leader",
+        "location": "Hawkesbury, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7438",
+        "description_chars": 0
+      },
+      {
+        "title": "Business Development Manager - Private Label (CAN)",
+        "location": "Remote",
+        "source_url": "https://leclerc.ca/en/job/7442",
+        "description_chars": 0
+      },
+      {
+        "title": "Utilities Technician",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7445",
+        "description_chars": 0
+      },
+      {
+        "title": "Human Ressources Advisor - 15 Month Contract",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7456",
+        "description_chars": 0
+      },
+      {
+        "title": "Sanitation Worker - Weekend",
+        "location": "Kingsport, Tennessee",
+        "source_url": "https://leclerc.ca/en/job/7460",
+        "description_chars": 0
+      },
+      {
+        "title": "Human Resources Business Partner",
+        "location": "Montgomery, Pennsylvania",
+        "source_url": "https://leclerc.ca/en/job/7462",
+        "description_chars": 0
+      },
+      {
+        "title": "Team leader",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7484",
+        "description_chars": 0
+      },
+      {
+        "title": "Shipping and Receiving Clerk",
+        "location": "Cornwall, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7486",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance technician - Evening",
+        "location": "Hawkesbury, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7498",
+        "description_chars": 0
+      },
+      {
+        "title": "TN220 Warehouse Worker",
+        "location": "Kingsport, Tennessee",
+        "source_url": "https://leclerc.ca/en/job/7500",
+        "description_chars": 0
+      },
+      {
+        "title": "Sanitation Worker- Weekend Shifts",
+        "location": "Brockville, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7502",
+        "description_chars": 0
+      },
+      {
+        "title": "Sanitation Worker- CAN",
+        "location": "Hawkesbury, Ontario",
+        "source_url": "https://leclerc.ca/en/job/7506",
+        "description_chars": 0
+      },
+      {
+        "title": "Control Technician",
+        "location": "Kingsport, Tennessee",
+        "source_url": "https://leclerc.ca/en/job/7507",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "vicwest",
+    "name": "Vicwest",
+    "checked_at": "2026-10-27T19:44:32.150573+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "pages_fetched": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Sales & Marketing Specialist",
+        "location": "Unspecified",
+        "source_url": "https://www.vicwest.com/ca/careers/sales-marketing-specialist",
+        "description_chars": 0
+      },
+      {
+        "title": "Inside Sales Coordinator",
+        "location": "Unspecified",
+        "source_url": "https://www.vicwest.com/ca/careers/inside-sales-coordinator",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "keilhauer",
+    "name": "Keilhauer",
+    "checked_at": "2026-10-27T19:44:27.850056+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "pages_fetched": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Sewer – Full Time Position",
+        "location": "Unspecified",
+        "source_url": "https://keilhauer.com/job/sewer-full-time-position",
+        "description_chars": 0
+      },
+      {
+        "title": "Government Contracts Specialist",
+        "location": "Unspecified",
+        "source_url": "https://keilhauer.com/job/government-contracts-specialist",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "canadel",
+    "name": "Canadel",
+    "checked_at": "2026-10-27T19:44:33.276885+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit"
+    ],
+    "jobs": [
+      {
+        "title": "Opérateur[trice] machine à tailler le tissu",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/operateur-machine-tailler-tissu",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur[trice] produits non finis",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/inspecteur-produits-non-finis",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé[e] – chargement/déchargement",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/prepose-chargement-dechargement",
+        "description_chars": 0
+      },
+      {
+        "title": "Rembourreur[euse] – SOIR",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/rembourreur-soir",
+        "description_chars": 0
+      },
+      {
+        "title": "Couturier[ière] – SOIR",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/couturier-soir",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur[euse] de chaises",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/assembleur-chaises",
+        "description_chars": 3471
+      },
+      {
+        "title": "Journalier[ière]",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/journalier",
+        "description_chars": 3312
+      },
+      {
+        "title": "Rembourreur[euse]",
+        "location": "Unspecified",
+        "source_url": "https://canadel.com/fr/a-propos/carrieres/rembourreur",
+        "description_chars": 4220
+      }
+    ]
+  },
+  {
+    "id": "nolinor",
+    "name": "Nolinor Aviation",
+    "checked_at": "2026-10-27T19:44:30.570214+00:00",
+    "strategy": "generic_html",
+    "job_count": 14,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 11 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Aircraft maintenance inspector",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/aircraft-maintenance-inspector?id=Aircraft%20maintenance%20inspector&location=Edmonton%20(YEG)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified aircraft structure technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/technicien-en-structure-certifie?id=Certified%20aircraft%20structure%20technician&location=Edmonton%20(YEG)",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft structure technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/aircraft-structure-technician?id=Aircraft%20structure%20technician&location=Edmonton%20(YEG)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified aircraft maintenance technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/certified-aircraft-maintenance-technician?id=Certified%20aircraft%20maintenance%20technician&location=Edmonton%20(YEG)",
+        "description_chars": 0
+      },
+      {
+        "title": "MRO Development Director",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/mro-development-director?id=MRO%20Development%20Director&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Evening Shift – Certified aircraft maintenance technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/evening-shift-certified-aircraft-maintenance-technician?id=Evening%20Shift%20–%20Certified%20aircraft%20maintenance%20technician&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified Avionics Technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/certified-avionics-technician?id=Certified%20Avionics%20Technician&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "GSE Mechanic",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/gse-mechanic?id=GSE%20Mechanic&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Aeronautical Structures Engineer",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/aeronautical-structures-engineer?id=Aeronautical%20Structures%20Engineer&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft maintenance inspector",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/aircraft-maintenance-inspector-junior?id=Aircraft%20maintenance%20inspector&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified aircraft structure technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/technicien-en-structure-certifie?id=Certified%20aircraft%20structure%20technician&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified aircraft maintenance technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/technicien-certifie-en-entretien-des-aeronefs-3-3?id=Certified%20aircraft%20maintenance%20technician&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft structures technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/aircraft-structures-technician?id=Aircraft%20structures%20technician&location=Mirabel%20(YMX)",
+        "description_chars": 0
+      },
+      {
+        "title": "Certified aircraft maintenance technician",
+        "location": "Unspecified",
+        "source_url": "https://nolinor.com/en/careers/technicien-certifie-en-entretien-des-aeronefs-3?id=Certified%20aircraft%20maintenance%20technician&location=Yellowknife%20(YZF)",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "polykar",
+    "name": "Polykar",
+    "checked_at": "2026-10-27T19:44:31.928014+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "pages_fetched": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Plastic-film extrusion machine operator",
+        "location": "Edmonton",
+        "source_url": "https://www.polykar.com/en/careers/plastic-film-extrusion-machine-operator",
+        "description_chars": 0
+      },
+      {
+        "title": "Extrusion Operator",
+        "location": "Montréal, Québec",
+        "source_url": "https://www.polykar.com/en/careers/extrusion-operator",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "chrono-aviation",
+    "name": "Chrono Aviation",
+    "checked_at": "2026-10-27T19:44:38.799671+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "pages_fetched": 2,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Crew Scheduler (YQB)",
+        "location": "Unspecified",
+        "source_url": "https://chronoaviation.hiringplatform.ca/processes/942a72a7-1b4f-4897-b2f6-358c32340b96?locale=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "amisco",
+    "name": "Amisco",
+    "checked_at": "2026-10-27T19:45:48.594799+00:00",
+    "strategy": "generic_html",
+    "job_count": 7,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 4 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Couturier (ère)",
+        "location": "Saint-Pascal",
+        "source_url": "https://nous.amisco.com/offre_emploi/couturier-ere",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne)",
+        "location": "L’Islet",
+        "source_url": "https://nous.amisco.com/offre_emploi/electromecanicienne-2",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne)",
+        "location": "Saint-Pascal",
+        "source_url": "https://nous.amisco.com/offre_emploi/electromecanicienne",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) Machines",
+        "location": "L’Islet",
+        "source_url": "https://nous.amisco.com/offre_emploi/operateurtrice-machines",
+        "description_chars": 0
+      },
+      {
+        "title": "Polisseur(euse)",
+        "location": "L’Islet",
+        "source_url": "https://nous.amisco.com/offre_emploi/polisseureuse",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à l’expédition – jour et soir",
+        "location": "L’Islet",
+        "source_url": "https://nous.amisco.com/offre_emploi/preposee-a-lexpedition-soir",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) au sablage",
+        "location": "Saint-Pascal",
+        "source_url": "https://nous.amisco.com/offre_emploi/preposee-au-sablage",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "verbom",
+    "name": "Verbom",
+    "checked_at": "2026-10-27T19:44:42.560560+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit"
+    ],
+    "jobs": [
+      {
+        "title": "Matriceur (outilleur)",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/matriceur-outilleur",
+        "description_chars": 2560
+      },
+      {
+        "title": "Opérateur programmeur CMM",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/operateur-programmeur-cmm",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien en informatique - Support et réseau",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/technicien-en-informatique-support-et-reseau",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien - Mise en production",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/technicien-mise-en-production",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé expéditions/réceptions",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/prepose-expeditions-receptions",
+        "description_chars": 2398
+      },
+      {
+        "title": "Opérateur(trice) de presse thermoformage",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/operateur-trice-de-presse-thermoformage-27",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) au collage",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/prepose-au-collage-7",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de production",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/operateur-de-production-7",
+        "description_chars": 1274
+      },
+      {
+        "title": "Opérateur - programmeur CNC",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/operateur-programmeur-cnc-57",
+        "description_chars": 0
+      },
+      {
+        "title": "Outilleur",
+        "location": "Unspecified",
+        "source_url": "https://easyapply.co/job/outilleur-21",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "artopex",
+    "name": "Artopex",
+    "checked_at": "2026-10-27T19:48:21.781561+00:00",
+    "strategy": "generic_html",
+    "job_count": 9,
+    "pages_fetched": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Agent (e) à l'expédition | Sherbrooke",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/agent-à-lexpédition",
+        "description_chars": 158
+      },
+      {
+        "title": "Agent (e) expérience clients bilingue | Granby",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/agent-experience-clients-granby",
+        "description_chars": 223
+      },
+      {
+        "title": "Agent (e) expérience clients bilingue | Sherbrooke",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/agent-experience-clients-sherbrooke",
+        "description_chars": 223
+      },
+      {
+        "title": "Couturier (ère) | Sherbrooke",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/couturier-sherbrooke",
+        "description_chars": 133
+      },
+      {
+        "title": "Directeur(trice) usine Pro-Systèmes | Granby",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/directeur-usine-granby-usine-pro-systemes",
+        "description_chars": 208
+      },
+      {
+        "title": "Électromécanicien(ne) de soir (Pro-Systèmes) | Granby",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/electromecanicien-soir-granby",
+        "description_chars": 143
+      },
+      {
+        "title": "Opérateur(trice) de machines à contrôle numérique (CNC) | Laval",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/operateur-cnc-laval",
+        "description_chars": 155
+      },
+      {
+        "title": "Soudeur(se) | Laval",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/soudeur-soudeuse-laval",
+        "description_chars": 257
+      },
+      {
+        "title": "Technicien(ne) en aménagement CAD | Granby ou Sherbrooke",
+        "location": "Unspecified",
+        "source_url": "https://www.artopex.com/fr-ca/technicien-en-amenagement-cad-sherbrooke-granby",
+        "description_chars": 271
+      }
+    ]
+  },
+  {
+    "id": "wiptec",
+    "name": "Wiptec",
+    "checked_at": "2026-10-27T19:44:39.306771+00:00",
+    "strategy": "generic_html",
+    "job_count": 1,
+    "pages_fetched": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Maintenance Coordinator",
+        "location": "Unspecified",
+        "source_url": "https://wiptec.ca/en/jobs/maintenance-coordinator",
+        "description_chars": 450
+      }
+    ]
+  },
+  {
+    "id": "air-inuit",
+    "name": "Air Inuit",
+    "checked_at": "2026-10-27T19:44:42.158571+00:00",
+    "strategy": "generic_html",
+    "job_count": 12,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 9 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Ramp Agent - YGL",
+        "location": "La Grande",
+        "source_url": "https://careers.airinuit.com/jobs/cargo-handler-ramp-agent",
+        "description_chars": 0
+      },
+      {
+        "title": "AVIONICS ENGINEER (E) ACA - NORTH (1002)",
+        "location": "Montreal - Airport",
+        "source_url": "https://careers.airinuit.com/jobs/engineer-aca-20",
+        "description_chars": 0
+      },
+      {
+        "title": "AIRCRAFT MAINTENANCE ENGINEER (M) - ACA - NORTH (#1007)",
+        "location": "Montreal - Airport",
+        "source_url": "https://careers.airinuit.com/jobs/engineer-aca-21",
+        "description_chars": 0
+      },
+      {
+        "title": "APPRENTICE AVIONICS (E) - NORTH (#1000)",
+        "location": "Montreal - Airport",
+        "source_url": "https://careers.airinuit.com/jobs/apprentice-engineer-13",
+        "description_chars": 0
+      },
+      {
+        "title": "APPRENTICE AME (M) - NORTH (#1004)",
+        "location": "Montreal - Airport",
+        "source_url": "https://careers.airinuit.com/jobs/apprentice-engineer-11",
+        "description_chars": 0
+      },
+      {
+        "title": "GROUND SERVICE EQUIPMENT MECHANIC - YUL (#1028)",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/vehicule-technicien-1",
+        "description_chars": 0
+      },
+      {
+        "title": "VEHICLE MECHANIC - NORTH - EXTENSIVE EXPERIENCE (#1035)",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/technician-vehicles-1",
+        "description_chars": 0
+      },
+      {
+        "title": "AIRCRAFT MAINTENANCE ENGINEER - ACA – YUL - NIGHT SHIFT (#1008)",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/engineer-aca-22",
+        "description_chars": 0
+      },
+      {
+        "title": "APPRENTICE AME (M) YUL - NIGHTSHIFT (#1005)",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/apprentice-engineer-14",
+        "description_chars": 0
+      },
+      {
+        "title": "Lead Crew Scheduling Agent",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/lead-crew-scheduling-agent",
+        "description_chars": 0
+      },
+      {
+        "title": "Lead Crew Planning Agent",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/lead-crew-planning-agent",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent - Crew Scheduling",
+        "location": "Head office",
+        "source_url": "https://careers.airinuit.com/jobs/agent-crew-scheduling",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-mundial",
+    "name": "Groupe Mundial",
+    "checked_at": "2026-10-27T19:44:43.518366+00:00",
+    "strategy": "generic_html",
+    "job_count": 6,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 3 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Électromécanicien",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/electromecanicien",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur machines-outils",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/operateur-machines-outils",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en amélioration continue",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/technicien-technicienne-qualite",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/estimateur",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/soudeur-4",
+        "description_chars": 0
+      },
+      {
+        "title": "Manœuvre pliage",
+        "location": "Unspecified",
+        "source_url": "https://www.groupemundial.com/carrieres/manoeuvre-pliage-2",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "provencher-roy",
+    "name": "Provencher_Roy",
+    "checked_at": "2026-10-27T19:44:43.874981+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Architectural Technologist – Contract Administration And Construction Review (Ottawa/Gatineau)",
+        "location": "Ottawa",
+        "source_url": "https://provencherroy.ca/en/careers/38003/architectural-technologist---contract-administration-and-construction-review-ottawa-gatineau",
+        "description_chars": 0
+      },
+      {
+        "title": "Communications and Outreach Advisor",
+        "location": "Montréal",
+        "source_url": "https://provencherroy.ca/en/careers/39495/communications-and-outreach-advisor",
+        "description_chars": 0
+      },
+      {
+        "title": "Human Resources Coordinator (Maternity Leave Replacement)",
+        "location": "Montréal",
+        "source_url": "https://provencherroy.ca/en/careers/39838/human-resources-coordinator-maternity-leave-replacement",
+        "description_chars": 0
+      },
+      {
+        "title": "Intermediate interior designer (Ottawa)",
+        "location": "Ottawa",
+        "source_url": "https://provencherroy.ca/en/careers/36241/intermediate-interior-designer-ottawa",
+        "description_chars": 0
+      },
+      {
+        "title": "Intern Architect",
+        "location": "Montréal",
+        "source_url": "https://provencherroy.ca/en/careers/39823/intern-architect",
+        "description_chars": 0
+      },
+      {
+        "title": "Proposal Coordinator (Ottawa)",
+        "location": "Ottawa",
+        "source_url": "https://provencherroy.ca/en/careers/39666/proposal-coordinator",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Interior Designer (Ottawa)",
+        "location": "Ottawa",
+        "source_url": "https://provencherroy.ca/en/careers/36239/senior-interior-designer-ottawa",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Proposal Manager",
+        "location": "Montréal",
+        "source_url": "https://provencherroy.ca/en/careers/39587/senior-proposal-manager",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "avianor",
+    "name": "Avianor",
+    "checked_at": "2026-10-27T19:45:46.790185+00:00",
+    "strategy": "generic_html",
+    "job_count": 20,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 17 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Aircraft Interior Technician",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260814001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Maintenance Engineer",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260612001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Maintenance Engineer (Structure) S License",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260807002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Maintenance Engineer M2 Licensed (ACA)",
+        "location": "11805 Rue Service A 5, Mirabel, J7N 1A1 QC , Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260413002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Manager",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260706001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Structural Repair Specialist",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260617003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Technician Avionics",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260810001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aircraft Technician Structures",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260807001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste d'Affaires Chaîne d'Approvisionnement",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20261006002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Buyer",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conventional Machinist - Interior Solutions",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260617002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manual Machinist - MRO",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260729001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "New Graduates – Aircraft Maintenance and Aircraft Structures",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1A1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260911006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Patronniste",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "QA Analyst",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260715001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable adoption et performance des solutions numériques",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Safety Management System & Technical Investigations Specialist",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260702002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Supplier Quality Specialist",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) d’avion licencié(e) E (Avionique)",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Vice-Président Opérations",
+        "location": "11805 Rue Service A 5, Mirabel, QC J7N 1G1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/avianor/20260925001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "duroking",
+    "name": "Groupe Duroking",
+    "checked_at": "2026-10-27T19:44:45.766585+00:00",
+    "strategy": "generic_html",
+    "job_count": 24,
+    "pages_fetched": 1,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete."
+    ],
+    "jobs": [
+      {
+        "title": "Coordonnateur(trice) de projets - bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/coordonnateurtrice-de-projets-batiment",
+        "description_chars": 151
+      },
+      {
+        "title": "Chargé(e) de projet - Génie civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/charge-e-de-projet-grands-travaux",
+        "description_chars": 145
+      },
+      {
+        "title": "Estimateur(trice) - Bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/estimateurtrice-batiment",
+        "description_chars": 151
+      },
+      {
+        "title": "Adjoint(e) de projets - Génie civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/adjointe-de-projets-genie-civil",
+        "description_chars": 151
+      },
+      {
+        "title": "Chargé(e) de projets – Bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/chargee-de-projets-batiment",
+        "description_chars": 151
+      },
+      {
+        "title": "Analyste de projets PCO - Bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/analyste-de-projets-pco-batiment",
+        "description_chars": 151
+      },
+      {
+        "title": "Spécialiste en acquisition de talents senior",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/specialiste-en-acquisition-de-talents-senior",
+        "description_chars": 151
+      },
+      {
+        "title": "Coordonnateur(trice) de projet - Génie civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/coordonnateurtrice-de-projet-genie-civil",
+        "description_chars": 151
+      },
+      {
+        "title": "Stage - Assistant(e) chargé(e) de projets - Hiver 2027",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/stagiaire-assistante-chargee-de-projets-genie-civil",
+        "description_chars": 110
+      },
+      {
+        "title": "Directeur(trice) estimation - Civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/directeurtrice-estimation-civil",
+        "description_chars": 145
+      },
+      {
+        "title": "Aviseur technique",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/1023",
+        "description_chars": 151
+      },
+      {
+        "title": "Coordonnateur amélioration continue qualité et innovation technologique",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/coordonnateur-amelioration-continue-qualite-et-innovation-technologique",
+        "description_chars": 145
+      },
+      {
+        "title": "Estimateur(trice) senior génie civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/estimateurtrice-senior-genie-civil-2",
+        "description_chars": 145
+      },
+      {
+        "title": "Chauffeur(se) de charrue classe 3 - Déneigement",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/chauffeurse-de-charrue-classe-3-deneigement",
+        "description_chars": 132
+      },
+      {
+        "title": "Opérateur(trice) de tracteur à trottoir - Déneigement",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/operateurtrice-de-tracteur-a-trottoir-deneigement-2",
+        "description_chars": 132
+      },
+      {
+        "title": "Opérateur(trice) de niveleuse - Déneigement",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/operateurtrice-de-niveleuse-deneigement",
+        "description_chars": 132
+      },
+      {
+        "title": "Opérateur(trice) chargeur sur roue (loader) - Déneigement municipal",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/operateurtrice-chargeur-sur-roue-loader-deneigement-municipal",
+        "description_chars": 132
+      },
+      {
+        "title": "Opérateur(trice) chargeur sur roue (loader) - Déneigement commercial",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/operateurtrice-chargeur-sur-roue-loader-deneigement-commercial",
+        "description_chars": 132
+      },
+      {
+        "title": "Manœuvre génie civil (Projet Bonaventure)",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/manoeuvre-genie-civil-projet-bonaventure",
+        "description_chars": 146
+      },
+      {
+        "title": "Coordonnateur.trice de chantier",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/coordonnateur-trice-de-chantier",
+        "description_chars": 136
+      },
+      {
+        "title": "Planificateur.trice de projet",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/charge-de-projet-planificateur-de-projet",
+        "description_chars": 134
+      },
+      {
+        "title": "Opérateur de pelle mécanique",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/operateur-de-pelle-mecanique",
+        "description_chars": 142
+      },
+      {
+        "title": "Manoeuvre spécialisée- Égout et Acqueduc",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/manoeuvre-top-man-1er-poseur-2e-poseur",
+        "description_chars": 137
+      },
+      {
+        "title": "Contremaître - Génie civil",
+        "location": "Unspecified",
+        "source_url": "https://carrieres.duroking.com/emplois/contremaitre-genie-civil-2",
+        "description_chars": 142
+      }
+    ]
+  },
+  {
+    "id": "lemaymichaud",
+    "name": "LemayMichaud",
+    "checked_at": "2026-10-27T19:45:45.601737+00:00",
+    "strategy": "generic_html",
+    "job_count": 2,
+    "pages_fetched": 3,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Spécialiste en rendus architecturaux",
+        "location": "Unspecified",
+        "source_url": "https://www.lemaymichaud.com/en/career/specialiste-en-rendus-architecturaux",
+        "description_chars": 0
+      },
+      {
+        "title": "Intermediate or senior technologist",
+        "location": "Unspecified",
+        "source_url": "https://www.lemaymichaud.com/en/career/intermediate-or-senior-technologist",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "infrastructel",
+    "name": "Infrastructel",
+    "checked_at": "2026-10-27T19:47:10.506639+00:00",
+    "strategy": "generic_html",
+    "job_count": 7,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 4 jobs after the configured 3-posting limit"
+    ],
+    "jobs": [
+      {
+        "title": "Coordonnateur(trice) aux propositions et appels d'offres (SEAO | Génie-conseil)",
+        "location": "Boucherville, QC",
+        "source_url": "https://easyapply.co/job/coordonnateur-trice-aux-appels-d-offres-et-propositions-strategiques-2",
+        "description_chars": 5450
+      },
+      {
+        "title": "Coordonnateur·trice aux appels d'offres et propositions stratégiques",
+        "location": "Boucherville, QC",
+        "source_url": "https://easyapply.co/job/coordonnateur-trice-aux-appels-d-offres-et-propositions-strategiques-1",
+        "description_chars": 5439
+      },
+      {
+        "title": "Dessinateur·trice en bâtiment",
+        "location": "Boucherville, QC",
+        "source_url": "https://easyapply.co/job/dessinateur-trice-en-batiment-1",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur·rice en urbanisme et environnement_Apur -Outaouais",
+        "location": "Mirabel, QC",
+        "source_url": "https://easyapply.co/job/inspecteur-rice-en-urbanisme-et-environnement-apur-mirabel-ouest-de-l-outaouais",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur·rice en urbanisme et environnement_Apur - Laurentides",
+        "location": "Grenville, QC",
+        "source_url": "https://easyapply.co/job/inspecteur-rice-en-urbanisme-et-environnement-apur",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien.ne en inspection de poteau (poste saisonnier)",
+        "location": "Longueuil, QC",
+        "source_url": "https://easyapply.co/job/technicien-ne-en-inspection-de-poteau-poste-saisonnier",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef.fe d'équipe en inspection de poteaux (poste saisonnier)",
+        "location": "Longueuil, QC",
+        "source_url": "https://easyapply.co/job/chef-fe-d-equipe-en-inspection-de-poteaux-poste-saisonnier",
+        "description_chars": 2445
+      }
+    ]
+  },
+  {
+    "id": "houle-electric",
+    "name": "Houle Electric",
+    "checked_at": "2026-10-27T19:44:49.961884+00:00",
+    "strategy": "generic_html",
+    "job_count": 30,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 27 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Controls Service Technician",
+        "location": "Victoria, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/325121.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Desktop Support Analyst - Fulltime Temporary One-Year fixed contract",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/339786.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Electrical Planner",
+        "location": "CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337853.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Electrical Site Supervisor",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/328358.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Electricians, Journey and Apprentices",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/320632.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimator, Electrical",
+        "location": "CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337587.html",
+        "description_chars": 0
+      },
+      {
+        "title": "HR Coordinator",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/339579.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Manager, Prefabrication (Manufacturing)",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/338152.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Manager, Procurement",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/338154.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Coordinator - Edmonton, AB",
+        "location": "Edmonton, AB, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337064.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager - Edmonton, AB",
+        "location": "Edmonton, AB, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337065.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager, Project Delivery",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/336777.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/ Estimator - Preventative Maintenance",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/331375.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/Estimator - Project Delivery",
+        "location": "Victoria, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/333572.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/Estimator - Service",
+        "location": "Nanaimo, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/335908.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/Estimator - Service",
+        "location": "Victoria, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/328348.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/Estimator, Service Projects",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/338781.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager/Estimator, SME - Alberta",
+        "location": "AB, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/332871.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Revit Technician",
+        "location": "CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337797.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Scheduler",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/334942.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Security Systems Technician",
+        "location": "Prince George, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/312518.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Project Manager - Edmonton, AB",
+        "location": "Edmonton, AB, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/337069.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Project Manager - Healthcare",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/338110.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Coordinator",
+        "location": "Victoria, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/338332.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Dispatcher",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/340542.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Electrician",
+        "location": "Prince George, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/336241.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Electrician - Power Quality",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/328347.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Technician",
+        "location": "Victoria, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/307514.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Systems Administrator II",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/334322.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Technical Customer Support, Security Technology",
+        "location": "Burnaby, BC, CAN",
+        "source_url": "https://houle.prevueaps.com/iframe/mobile/335910.html",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "nanoxplore",
+    "name": "NanoXplore",
+    "checked_at": "2026-10-27T19:44:49.679779+00:00",
+    "strategy": "generic_html",
+    "job_count": 8,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 5 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "2nd Shift Production Operator",
+        "location": "Statesville, NC, USA",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/334920.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste en systèmes applicatifs",
+        "location": "Montréal, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/340037.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Battery Mfg. Technician",
+        "location": "Dollard-Des Ormeaux, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/335863.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Battery Process Technician/Production operator",
+        "location": "Dollard-Des Ormeaux, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/338359.html",
+        "description_chars": 0
+      },
+      {
+        "title": "General Labour (includes Finishing)",
+        "location": "Gimli, MB, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/330822.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste des matériaux Senior",
+        "location": "Montréal, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/332803.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Vice President Finance",
+        "location": "Montréal, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/337475.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Vice-président(e), Finances",
+        "location": "Montréal, QC, CAN",
+        "source_url": "https://nanoxplore.prevueaps.com/iframe/mobile/337476.html",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "meridian-lightweight-technologies",
+    "name": "Meridian Lightweight Technologies",
+    "checked_at": "2026-10-27T19:44:50.937079+00:00",
+    "strategy": "generic_html",
+    "job_count": 20,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 17 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Business Analyst",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/340119.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Business Analyst",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/340124.html",
+        "description_chars": 0
+      },
+      {
+        "title": "CNC Technician",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336697.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Engineering Program Manager",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336275.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Environmental Specialist",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336666.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial Millwright/ Electrician",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336727.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance Journeyman",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/338999.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Maintenance Journeyman",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336720.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Manufacturing Accountant",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/340439.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Manufacturing Engineer",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/336693.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Payroll and Benefits Specialist",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/339277.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Personal Assistant",
+        "location": "Oakville, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/340665.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Plant Manager",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/338702.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Production Manager",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/338701.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Purchasing Buyer",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/339465.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Quality Engineer",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/337288.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Recycle Operator/Foundry Operator",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/337764.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Sr Manufacturing Project Manager- Facilities and Capital Projects",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/338593.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Tool & Die Maker",
+        "location": "Strathroy-Caradoc, ON, CAN",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/338766.html",
+        "description_chars": 0
+      },
+      {
+        "title": "Tool & Die Maker",
+        "location": "Eaton Rapids, MI, USA",
+        "source_url": "https://mlti.prevueaps.com/iframe/mobile/337256.html",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "acces-industriel",
+    "name": "Accès Industriel",
+    "checked_at": "2026-10-27T19:45:46.608797+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Electric Vehicle Technician",
+        "location": "Rouyn-Noranda",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260522001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Engine and Components Technician",
+        "location": "Greater Sudbury",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260424012?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Geologist - FIFO",
+        "location": "Rouyn-Noranda",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Heavy Mobile Equipment Mechanic",
+        "location": "Rouyn-Noranda",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Labourer",
+        "location": "Rouyn-Noranda",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260618003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Land Cruiser Assembler",
+        "location": "Greater Sudbury",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260701001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mobile Equipment Mechanic or Welder - FIFO",
+        "location": "Nunavut",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260824001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Product Director - Mining Equipment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service technician",
+        "location": "Greater Sudbury",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260818001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Warehouse Clerk",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/acces-industriel/20260910002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "rimap-hospitality",
+    "name": "RIMAP Hospitality",
+    "checked_at": "2026-10-27T19:45:49.705536+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Accounting Technician",
+        "location": "Montréal, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261005017?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent de réception",
+        "location": "Boulevard René-Lévesque Ouest, Montréal, Québec, H2Z 0A7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261019002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent de réception",
+        "location": "Montréal, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261021004?l=en",
+        "description_chars": 3973
+      },
+      {
+        "title": "Agent(e) de réception",
+        "location": "H3G 0E3",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261006003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Auditeur(trice) de nuit",
+        "location": "Montréal, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261006005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cook - Moxy Ottawa Downtown (Part-time)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261006007?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonateur(trice )aux ventes",
+        "location": "Montréal, Québec, H3A 3K5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261016003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cuisinier(e)",
+        "location": "H3G 0E3",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261022001?l=en",
+        "description_chars": 2232
+      },
+      {
+        "title": "Directeur(trice) des ressources humaines",
+        "location": "Montréal, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261015004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Director of Engineering / Maintenance",
+        "location": "Montréal, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/rimap-hospitality/20261014001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "solmatech",
+    "name": "Solmatech",
+    "checked_at": "2026-10-27T19:45:49.691545+00:00",
+    "strategy": "generic_html",
+    "job_count": 10,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 7 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Chargé.e de projet - Environnement",
+        "location": "924 Rue Jean-Neveu, Longueuil, QC J4G 2M1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260227003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé.e de projet - Environnement",
+        "location": "434 Rue Isabey, Saint-Laurent, QC H4T 1V3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260501001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur(trice) en génie civil – Répartiteur / Formateur",
+        "location": "214 Ave Saint-Sacrement, Québec City, QC G1N 3X4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260410002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.ice principal.e en technologie de l’information & transformation numérique",
+        "location": "97 Rue de la Couronne, Repentigny, QC J5Z 0B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice de projet Géotechnique",
+        "location": "97 Rue de la Couronne, Repentigny, QC J5Z 0B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260826001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice Environnement - Lanaudière",
+        "location": "97 Rue de la Couronne, Repentigny, QC J5Z 0B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260804003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur.trice - Métallurgie",
+        "location": "214 Ave Saint-Sacrement, Québec City, QC G1N 3X4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20251010002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste infrastructure & soutien aux usagers",
+        "location": "97 Rue de la Couronne, Repentigny, QC J5Z 0B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260904001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien.ne en génie civil - chantier",
+        "location": "730 Av. Bombardier, Alma, QC G8B 7E9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260227004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien.ne en génie civil - Chantier",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/solmatech/20260731001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "st-denis-thompson",
+    "name": "St-Denis Thompson",
+    "checked_at": "2026-10-27T19:47:05.796997+00:00",
+    "strategy": "generic_html",
+    "job_count": 14,
+    "pages_fetched": 4,
+    "complete": false,
+    "partial_listing": true,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete.",
+      "description detail enrichment skipped 11 jobs after the configured 3-posting limit",
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "jobs": [
+      {
+        "title": "Coordonnateur(trice) de projets",
+        "location": "Québec, Québec, G1P 2J1",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Stagiaire - Gestion de projets",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets-Construction",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur(trice) de projets",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître, réfection de béton",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Briqueteur(euse)-maçon(ne)",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé - CCQ (excavation/béton)",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cimentier(ère) applicateur(trice) CCQ",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur de pelle mécanique CCQ",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Peintre commercial(e) - en hauteur",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260915001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé en maçonnerie - CCQ",
+        "location": "Québec, Québec, G1P 2J1",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260904002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Briqueteur(euse)-maçon(ne)",
+        "location": "Québec, Québec, G1P 2J1",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260904001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé en maçonnerie - CCQ",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260821001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier(ère)-Menuisier",
+        "location": "Montréal, Québec, H4E 1A8",
+        "source_url": "https://jobs.glowinthecloud.com/st-denis-thompson/20260605001?l=en",
+        "description_chars": 0
+      }
+    ]
+  }
+]

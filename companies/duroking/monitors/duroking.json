@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "duroking",
+  "company_id": "duroking",
+  "revision": 1,
+  "label": "Groupe Duroking public careers",
+  "careers_url": "https://carrieres.duroking.com/emplois/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T19:44:45.766585+00:00",
+    "job_count": 24,
+    "warnings": [
+      "Explicitly partial public listing. Missing roles must not be inferred closed; descriptions and location metadata may be incomplete."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Groupe Duroking",
+    "careers_url": "https://carrieres.duroking.com/emplois/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "carrieres.duroking.com"
+    ],
+    "request": {
+      "url": "https://carrieres.duroking.com/emplois/",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "a.ct-link[href*=\"/emplois/\"]:has(p.ct-text-block)",
+      "title": "p.ct-text-block span",
+      "link": ":scope",
+      "description": "div.ct-text-block span"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

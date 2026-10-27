@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-27T19:49:48.176001+00:00",
+  "validate_presets": "passed",
+  "build_catalog": {
+    "status": "passed",
+    "companies": 1270,
+    "monitors": 1153,
+    "collections": 20
+  },
+  "unittest": {
+    "status": "passed",
+    "tests": 11
+  },
+  "live_sources": 25,
+  "observed_source_records": 267,
+  "new_recipe_canonical_urls_unique_within_each_monitor": true,
+  "generated_artifacts_committed": false
+}
