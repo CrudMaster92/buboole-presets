@@ -1,5 +1,5 @@
 {
-  "status": "prepared_not_published",
+  "status": "human_approved_validated_for_manual_pinning",
   "catalog_repository": "CrudMaster92/buboole-presets",
   "feed_repository": "CrudMaster92/buboole-jobs",
   "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
@@ -247,10 +247,9 @@
     }
   ],
   "required_next_steps": [
-    "Review exact employer ownership and bounded coverage evidence.",
-    "Obtain explicit public-submission consent before submitting these proposals.",
-    "Complete the supported trusted runtime/review and maintainer merge gates.",
-    "Pin the approved merged catalog revisions through the canonical collector; do not hand-edit generated runtime.",
-    "Verify a successful public feed generation and all thirty company source statuses before claiming live coverage."
-  ]
+    "Merge the validated catalog PR.",
+    "Append thirty exact merged monitor pins through the existing manual maintainer-reviewed feed workflow, retaining every existing pin.",
+    "Verify a successful public generation and company coverage before claiming publication."
+  ],
+  "catalog_pr": "https://github.com/CrudMaster92/buboole-presets/pull/50"
 }

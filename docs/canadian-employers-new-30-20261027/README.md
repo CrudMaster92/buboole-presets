@@ -61,3 +61,7 @@ Current official adverts and representative posting links were inspected. Every 
 Authored monitor verification remains unverified pending the upstream trusted review process. No local tracker was installed or modified. No source was submitted, merged, enabled in a feed lock, or published. The public feed and website therefore do not yet contain these additions.
 
 Publication needs explicit submission consent and the documented maintainer review/merge gate. The local typed preparation package is ready; JobHound’s unavailable loopback preparation tool was not reported as having created a run or receipt. `publication-plan.json` records the thirty exact source hashes and remaining canonical admission steps. Repository PR #22 currently contains the unmerged trusted-contribution infrastructure; do not claim those hosted checks ran for this batch.
+
+## Approved publication review
+
+The human maintainer subsequently authorized publication and merge. Thirty exact recipes also passed the current deployed collector runtime and real public collector policy. Monitor verification is now maintainer-reviewed and verified; historical author proposals remain unverified. This is the existing manual reviewed source-pin workflow, not a claim that the unmerged automatic contribution infrastructure ran. See deployed-runtime-validation.json and maintainer-publication-review.json. Public-feed publication still requires the feed pin merge and observed successful generation.

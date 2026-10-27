@@ -11,11 +11,13 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-27T14:22:41.940504+00:00",
+    "job_count": 2,
     "warnings": [
-      "Awaiting trusted JobHound runtime validation."
+      "description detail enrichment was incomplete for 2 jobs",
+      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
+      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
     ]
   },
   "recipe": {
