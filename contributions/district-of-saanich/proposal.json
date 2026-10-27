@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "district-of-saanich",
+    "name": "District of Saanich",
+    "aliases": [],
+    "website_url": "https://saanich.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "district-of-saanich",
+    "company_id": "district-of-saanich",
+    "revision": 1,
+    "label": "District of Saanich public careers",
+    "careers_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities.html",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "District of Saanich",
+      "careers_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities.html",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.saanich.ca"
+      ],
+      "request": {
+        "url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities.html",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(td.opportunities-title a)",
+        "title": "td.opportunities-title a",
+        "link": "td.opportunities-title a",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities.html",
+    "fetched_at": "2026-10-27T13:07:57.545462Z",
+    "payload": "<html><body><div class=\"top\" id=\"top\"><div class=\"main_wrapper\" id=\"main_wrapper\"><div class=\"main_wrapper-inner\" id=\"main_wrapper-inner\"><div class=\"content_wrapper\" id=\"content_wrapper\"><div class=\"content_wrapper-inner\"><main class=\"content\" id=\"content\"><div class=\"opportunities-list jobs-list\" id=\"jobs-list\"><table class=\"table_border table_sortable opportunities-table jobs-table\"><tbody><tr>\n<td class=\"opportunities-category jobs-category\">\r\n              Community Services\r\n            </td>\n<td class=\"opportunities-title jobs-title\">\n<a href=\"/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html\" title=\"Program Leader I – Youth Centres\">Program Leader I – Youth Centres </a>\n</td>\n<td class=\"opportunities-department jobs-department\">\r\n              Parks, Recreation and Community Services \r\n            </td>\n<td class=\"opportunities-type jobs-type\">\r\n              Up to 6 Casual (CUPE Local 2011) Positions\r\n            </td>\n<td class=\"opportunities-closing jobs-closing\" data-sort-value=\"\">\n</td>\n</tr></tbody></table></div></main></div></div></div></div></div><div class=\"top\" id=\"top\"><div class=\"main_wrapper\" id=\"main_wrapper\"><div class=\"main_wrapper-inner\" id=\"main_wrapper-inner\"><div class=\"content_wrapper\" id=\"content_wrapper\"><div class=\"content_wrapper-inner\"><main class=\"content\" id=\"content\"><div class=\"opportunities-list jobs-list\" id=\"jobs-list\"><table class=\"table_border table_sortable opportunities-table jobs-table\"><tbody><tr>\n<td class=\"opportunities-category jobs-category\">\r\n              Engineering\r\n            </td>\n<td class=\"opportunities-title jobs-title\">\n<a href=\"/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html\" title=\"Engineering Technician III\">Engineering Technician III </a>\n</td>\n<td class=\"opportunities-department jobs-department\">\r\n              Engineering Department - Transportation and Development Services\r\n            </td>\n<td class=\"opportunities-type jobs-type\">\r\n              Temporary Full-Time Position (Up to 18 Months) (CUPE Local 2011)\r\n            </td>\n<td class=\"opportunities-closing jobs-closing\" data-sort-value=\"20261102234500\">\r\n              Nov 2, 2026\r\n            </td>\n</tr></tbody></table></div></main></div></div></div></div></div><div class=\"top\" id=\"top\"><div class=\"main_wrapper\" id=\"main_wrapper\"><div class=\"main_wrapper-inner\" id=\"main_wrapper-inner\"><div class=\"content_wrapper\" id=\"content_wrapper\"><div class=\"content_wrapper-inner\"><main class=\"content\" id=\"content\"><div class=\"opportunities-list jobs-list\" id=\"jobs-list\"><table class=\"table_border table_sortable opportunities-table jobs-table\"><tbody><tr>\n<td class=\"opportunities-category jobs-category\">\r\n              Engineering\r\n            </td>\n<td class=\"opportunities-title jobs-title\">\n<a href=\"/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html\" title=\"Engineering Technician II\">Engineering Technician II </a>\n</td>\n<td class=\"opportunities-department jobs-department\">\r\n              Engineering Department - Transportation &amp; Development Services\r\n            </td>\n<td class=\"opportunities-type jobs-type\">\r\n               Permanent Full-Time Position (C.U.P.E. Local 2011)\r\n            </td>\n<td class=\"opportunities-closing jobs-closing\" data-sort-value=\"\">\n</td>\n</tr></tbody></table></div></main></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://saanich.ca/",
+    "explanation": "Official employer website https://saanich.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html",
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html",
+      "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "authorization": "Explicit human approval to publish and merge this batch in the originating task on 2026-10-27.",
+  "catalog_pr": "https://github.com/CrudMaster92/buboole-presets/pull/50",
+  "review_mode": "Manual maintainer-reviewed source pins, matching the currently deployed publication workflow.",
+  "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+  "validation_origin": "Exact existing exported public collector executed locally from current main; its generated integrity check and 198 tests passed. This is not a hosted automatic contribution receipt.",
+  "author_proposals": "Historical author proposals remain unverified; the maintainer-reviewed monitor records are promoted only after fresh exported-runtime and collector success.",
+  "scope": "Thirty selected employers only; existing pins and generated runtime remain unchanged.",
+  "sources": 30,
+  "observed_public_records": 535
+}

@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "apotex",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "e81c29994c763392de91d5734d888c11753621ac4f2981dbcd734f970323dc1e",
+    "checked_at": "2026-10-27T14:22:38.961320+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 92,
+      "pages": 18,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 84 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "apotex",
+      "company_id": "apotex",
+      "company_name": "Apotex",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 92,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 72 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Scientific Leader, Analytical Product Life Cycle Mgmt/Method Life Cycle Mgmt",
+        "source_url": "https://careers.apotex.com/job/North-York-Scientific-Leader%2C-Analytical-Product-Life-Cycle-MgmtMethod-Life-Cycle-Mgmt-ON-M9L-1T9/603979617",
+        "location": "North York, ON, CA, M9L 1T9"
+      },
+      {
+        "title": "Manager, Ops Excellence",
+        "source_url": "https://careers.apotex.com/job/Bangalore-Manager%2C-Ops-Excellence-KA-560099/606505717",
+        "location": "Bangalore, KA, IN, 560099"
+      },
+      {
+        "title": "Verificador de Almacén",
+        "source_url": "https://careers.apotex.com/job/Mexico-City-Verificador-de-Almac%C3%A9n-MEX-08400/606524017",
+        "location": "Mexico City, MEX, MX, 08400"
+      }
+    ]
+  },
+  {
+    "id": "ballet-bc",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "fa43c254d466766a83a14bc282b5a023e9cab73b2da70b7df050b679d1fed838",
+    "checked_at": "2026-10-27T14:22:38.971862+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "ballet-bc",
+      "company_id": "ballet-bc",
+      "company_name": "Ballet BC",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Controller",
+        "source_url": "https://balletbc.com/app/uploads/2026/08/Ballet-BC-Job-Posting-Controller-1.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "cambridge-memorial-hospital",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "60934b5be389f820c5d78980f14c9f29aa0c3bd03a3675aa7fa768f04412c571",
+    "checked_at": "2026-10-27T14:22:38.961320+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "cambridge-memorial-hospital",
+      "company_id": "cambridge-memorial-hospital",
+      "company_name": "Cambridge Memorial Hospital",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 20,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Personal Support Worker - NRT PTC 2026-7061",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7061/personal-support-worker---nrt-ptc-2026-7061/job?in_iframe=1",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Registered Nurse, ICU (Unmastered Line) FT 2026-7059",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7059/registered-nurse%2c-icu-%28unmastered-line%29-ft-2026-7059/job?in_iframe=1",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Shift Administrator FT 2026-7058",
+        "source_url": "https://encareers-cmh.icims.com/jobs/7058/shift-administrator-ft-2026-7058/job?in_iframe=1",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "campbellford-memorial-hospital",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "423ad57bcfa9e603c51e7905e5a7cade74efb8e4dda273c66d7fb0c82ff844a1",
+    "checked_at": "2026-10-27T14:22:38.962323+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 9,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 9 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "campbellford-memorial-hospital",
+      "company_id": "campbellford-memorial-hospital",
+      "company_name": "Campbellford Memorial Hospital",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 9,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 9 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Registered Nurse - Inpatient Unit (Part Time)",
+        "source_url": "https://cmh.ca/document/026-29-ppt-rn-ipu-external",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Registered Nurse - Inpatient Unit (Part Time II)",
+        "source_url": "https://cmh.ca/document/026-28-ppt-ii-rn-ipu-external",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Registered Nurse - Emergency Department (Part Time)",
+        "source_url": "https://cmh.ca/document/o24-05-ppt-rn-ed-external",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "central-toronto-youth-services",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "113eb1a1c91a473780b5623c215bbb304e0f6a9c48ddc435af5572b7363b6e8d",
+    "checked_at": "2026-10-27T14:22:38.975113+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "central-toronto-youth-services",
+      "company_id": "central-toronto-youth-services",
+      "company_name": "Central Toronto Youth Services",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "YJ Mental Health Access Coordinator – Open Custody and Open Detention",
+        "source_url": "https://ctys.org/about-us/careers",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "city-of-chilliwack",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "c750af40ffe81e76a07275dbb2d14a834e376120622abcb984b3744990b14430",
+    "checked_at": "2026-10-27T14:22:41.695115+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "city-of-chilliwack",
+      "company_id": "city-of-chilliwack",
+      "company_name": "City of Chilliwack",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Senior Environmental Specialist -Landfill Systems Operator (Full Time)",
+        "source_url": "https://jobs.chilliwack.com/index.cfm?jobsAction=view&pID=10528",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "city-of-langley",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "5fe974a38bc7e410426bbec427b2e9195018cee7f55f04f4fa2dc10c49b68f16",
+    "checked_at": "2026-10-27T14:22:41.940504+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 2,
+      "pages": 3,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "city-of-langley",
+      "company_id": "city-of-langley",
+      "company_name": "City of Langley",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 2,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Fire Prevention Officer",
+        "source_url": "https://www.langleycity.ca/careers/fire-prevention-officer-1",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Clerical Pool",
+        "source_url": "https://www.langleycity.ca/careers/clerical-pool",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "city-of-maple-ridge",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "c430ee58a39633869198a1bfe065637fb100a8b648d9d862f8aad5dc791b4606",
+    "checked_at": "2026-10-27T14:22:42.095354+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 11,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 3 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "city-of-maple-ridge",
+      "company_id": "city-of-maple-ridge",
+      "company_name": "City of Maple Ridge",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 11,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 11 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "26-165 Database Administrator 1",
+        "source_url": "https://mapleridge.hiringplatform.ca/255057-26-165-database-administrator-1/1157744/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      },
+      {
+        "title": "26-171 Deputy Director of Finance (RFT)",
+        "source_url": "https://mapleridge.hiringplatform.ca/254858-26-171-deputy-director-of-finance-rft/1156665/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      },
+      {
+        "title": "26-173 Fitness Trainer",
+        "source_url": "https://mapleridge.hiringplatform.ca/254464-26-173-fitness-trainer/1154794/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "city-of-north-vancouver",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "01a7984aec74784084a30f2373d2244a03f804d16b9ab193263102c7d76497cf",
+    "checked_at": "2026-10-27T14:22:43.049993+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 9,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "city-of-north-vancouver",
+      "company_id": "city-of-north-vancouver",
+      "company_name": "City of North Vancouver",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 9,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Building Service Worker",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4331",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Facilities Maintenance Worker 1",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4329",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Plan Checker 1",
+        "source_url": "https://cnv.peopleadmin.ca/postings/4327",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "city-of-parksville",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "5c8faaa42b8198f5baa1c089f03fe765c455e8c0236d64f85d0929c49bf4ec04",
+    "checked_at": "2026-10-27T14:22:44.292836+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "city-of-parksville",
+      "company_id": "city-of-parksville",
+      "company_name": "City of Parksville",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "ENGINEERING TECHNOLOGIST II",
+        "source_url": "https://www.parksville.ca/cms/wpattachments/wpID94atID13118.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "college-of-new-caledonia",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "ce8c6a2e62fdeecdd83379e1d554bd9e25f3300ebadc95bc799bdbe2b0349fb9",
+    "checked_at": "2026-10-27T14:22:45.581245+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 49,
+      "pages": 3,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "college-of-new-caledonia",
+      "company_id": "college-of-new-caledonia",
+      "company_name": "College of New Caledonia",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 49,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Educational Technology and Multimedia Project Coordinator",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10909",
+        "location": "Unspecified"
+      },
+      {
+        "title": "CASUAL Laboratory Technologist - MLT",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10905",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Laboratory Technologist - MLT (Part-Time Seasonal)",
+        "source_url": "https://cnc.peopleadmin.ca/postings/10902",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "contemporary-calgary",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "7b1dffe14c9ab09185f7f0dcae65a7681c8e3d7fd9da57dd4ca1d7f9c782f395",
+    "checked_at": "2026-10-27T14:22:46.864545+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 2,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "contemporary-calgary",
+      "company_id": "contemporary-calgary",
+      "company_name": "Contemporary Calgary",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 2,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Capital Project Accountant",
+        "source_url": "https://www.contemporarycalgary.com/s/Capital-Project-Accountant_JobPosting-dhpg.pdf",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Event Staff",
+        "source_url": "https://www.contemporarycalgary.com/s/Event-Staff_CC-Job-Descriptiondocx.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "district-of-saanich",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "520311edd0cd62057747c46fc1796b94460373098d9df176372dc80c1ea65997",
+    "checked_at": "2026-10-27T14:22:48.282113+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 21,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 13 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "district-of-saanich",
+      "company_id": "district-of-saanich",
+      "company_name": "District of Saanich",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 21,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 1 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Program Leader I – Youth Centres",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Engineering Technician III",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Engineering Technician II",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "flemingdon-health-centre",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "e2fc405b75847db40a614a3148e4e843cfeca2b8227b639ad94dabd0f0179cfa",
+    "checked_at": "2026-10-27T14:22:52.151490+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 3,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "removed 3 duplicate source IDs",
+        "description detail enrichment skipped 3 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "flemingdon-health-centre",
+      "company_id": "flemingdon-health-centre",
+      "company_name": "Flemingdon Health Centre",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 3,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "removed 3 duplicate source IDs",
+        "description detail enrichment was incomplete for 3 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Job Posting – Nurse Practitioner- 0.4 FT Regular",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Job Posting – PA – 0.5 to 1.0 FTE – Aug 2026",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2026/08/Job-Posting-PA-0.5-to-1.0-FTE-Aug-2026.pdf",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Job Posting – Nurse Practitioner- 0.5 FT Contract",
+        "source_url": "https://www.fhc-chc.com/wp-content/uploads/2025/11/Job-Posting-Nurse-Practitioner-0.5-FT-Contract.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "genome-quebec",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "42a5730718d793cd08f1b4cfda2d915728f0ae737d2b3c935fe3da15312e0598",
+    "checked_at": "2026-10-27T14:22:55.220240+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 2,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "genome-quebec",
+      "company_id": "genome-quebec",
+      "company_name": "Genome Quebec",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Responsable qualité et accréditation",
+        "source_url": "https://genomequebec.com/carrieres/responsable-qualite-et-accreditation",
+        "location": "Montréal"
+      }
+    ]
+  },
+  {
+    "id": "groupe-guilbault",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "36e59bf5762370637c129e71f3d088949902182077ee02cd2d6564108a1a9820",
+    "checked_at": "2026-10-27T14:22:55.715722+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 3,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "groupe-guilbault",
+      "company_id": "groupe-guilbault",
+      "company_name": "Groupe Guilbault",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 3,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Heavy vehicle mechanic",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/heavy-vehicle-mechanic-evening-shift-boucherville",
+        "location": "Boucherville"
+      },
+      {
+        "title": "Class 1 Driver - Local Driver",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/class-1-driver-local-driver-day-shift-boucherville",
+        "location": "Boucherville"
+      },
+      {
+        "title": "Forklift operator - Loading dock",
+        "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities/forklift-operator-loading-dock-evening-and-night-shifts-boucherville",
+        "location": "Boucherville"
+      }
+    ]
+  },
+  {
+    "id": "headwaters-health-care-centre",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "6866ccb9d5269697f5c474cb655897360116ad8ab7b6e108397033c60d73f575",
+    "checked_at": "2026-10-27T14:22:56.991549+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 40,
+      "pages": 1,
+      "complete": false,
+      "warnings": []
+    },
+    "public_source": {
+      "id": "headwaters-health-care-centre",
+      "company_id": "headwaters-health-care-centre",
+      "company_name": "Headwaters Health Care Centre",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 40,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "samples": [
+      {
+        "title": "Ultrasound Technologist - 0.80 FTE Full Time (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23737",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Ultrasound Technologist - Part Time (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23738",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Ultrasound Technologist - Casual (Diagnostic Imaging)",
+        "source_url": "https://hwaternew.bluelemonmedia.com/hr?job=23731",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "joseph-brant-hospital",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "2c3bc331bf4e7cee47943cddf1ee090e3a59361ea55ca10200e989a7a884da1a",
+    "checked_at": "2026-10-27T14:22:57.926315+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 15,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 7 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "joseph-brant-hospital",
+      "company_id": "joseph-brant-hospital",
+      "company_name": "Joseph Brant Hospital",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 15,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 15 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Clerk III - Emergency - RFT-E (0.5 FTE) (255148-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255148-clerk-iii-emergency-rft-e-0-5-fte-255148-67/1158223/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Occupational Therapist - Allied Health - TFT (255052-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255052-occupational-therapist-allied-health-tft-255052-67/1157714/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Registered Nurse - Acute Medicine 7S - RFT (255035-67)",
+        "source_url": "https://josephbranthospital.hiringplatform.ca/255035-registered-nurse-acute-medicine-7s-rft-255035-67/1157615/en?source=vidcruiter_careers",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "lakeridge-health",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "d2ecf7114dca6345aaa76987121ed50b2faed986279d1918fcb74e517a7468fa",
+    "checked_at": "2026-10-27T14:23:00.827906+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 10,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 2 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "lakeridge-health",
+      "company_id": "lakeridge-health",
+      "company_name": "Lakeridge Health",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 10,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 10 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "2600001909 - Sr. Digital Solutions Developer",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000053430",
+        "location": "Unspecified"
+      },
+      {
+        "title": "2600002697 - Registered Nurse",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000054195",
+        "location": "Unspecified"
+      },
+      {
+        "title": "2600002407 - Registered Nurse",
+        "source_url": "https://careers.lakeridgehealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000053919",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "lumenus-community-services",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "e9cc9555728f56f821145eec33299b378bf8eade9c6a5177ccfcedeb57193436",
+    "checked_at": "2026-10-27T14:23:03.446720+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 5,
+      "pages": 6,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "lumenus-community-services",
+      "company_id": "lumenus-community-services",
+      "company_name": "Lumenus Community Services",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 5,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 5 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Health and Safety Specialist",
+        "source_url": "https://lumenus.hiringplatform.ca/255001-health-and-safety-specialist/1157368/en",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Psychotherapist (WSIB Mental Health Program of Care (MHPOC)",
+        "source_url": "https://lumenus.hiringplatform.ca/254237-psychotherapist-wsib-mental-health-program-of-care-mhpoc/1153449/en",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Behaviour Technician",
+        "source_url": "https://lumenus.hiringplatform.ca/245567-behaviour-technician/1116447/en",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "national-music-centre",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "b384feab192f51b68d9f7dcfa5af9bfaa5ed712f64b218e4b620465369889f61",
+    "checked_at": "2026-10-27T14:23:10.928260+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 2,
+      "pages": 3,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "national-music-centre",
+      "company_id": "national-music-centre",
+      "company_name": "National Music Centre",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 2,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Lighting Designer (Part-time)",
+        "source_url": "https://www.studiobell.ca/lighting-designer-part-time",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Audio Specialist (Part-time)",
+        "source_url": "https://www.studiobell.ca/audio-specialist-part-time",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "niagara-health",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "03e960f08d47234eb2182b03e1aa453859f4aa30a5795724bf33fd7950eac43a",
+    "checked_at": "2026-10-27T14:23:12.117077+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 10,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 2 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "niagara-health",
+      "company_id": "niagara-health",
+      "company_name": "Niagara Health",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 10,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 10 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "0000044737 - SENIOR PROJECT MANAGER, TFT",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041744",
+        "location": "Unspecified"
+      },
+      {
+        "title": "0000044781 - REGISTERED NURSE, RPTB",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041788",
+        "location": "Unspecified"
+      },
+      {
+        "title": "0000044060 - SR CASE COSTING PERFORMANCE ADVISOR, FT",
+        "source_url": "https://careers.niagarahealth.on.ca/erecruit/VacancyDetail.aspx?VacancyUID=000000041084",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "ocean-choice-international",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "4284ae6f204af46468057afa8c3b2674b48077eaa0aadc103fa811780aa14710",
+    "checked_at": "2026-10-27T14:23:13.093649+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 13,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 13 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "ocean-choice-international",
+      "company_id": "ocean-choice-international",
+      "company_name": "Ocean Choice International",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 13,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 13 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Logistics and Sales Coordinator",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/09/Job-Ad-Logistics-and-Sales-Coordinator-September-2026.pdf",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Power Engineers – Multiple Locations",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/06/Power-Engineer-Trition-Plant-June-2026.pdf",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Captain",
+        "source_url": "https://oceanchoice.com/wp-content/uploads/2026/07/Job-Ad-Captain-Groundfish-Vessels-July-2026.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "polycultural-immigrant-and-community-services",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "b8edffe40971dafd5ae751610c63c79b5563abeb57e351eee47ac847234737fb",
+    "checked_at": "2026-10-27T14:23:15.260454+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 2,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 2 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "polycultural-immigrant-and-community-services",
+      "company_id": "polycultural-immigrant-and-community-services",
+      "company_name": "Polycultural Immigrant and Community Services",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 2,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Intake Admin Assistant - Reception House",
+        "source_url": "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2303?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Engagement & Retention Specialist",
+        "source_url": "https://inclusionsystem.itacit.com/itacit-career-ui/postings/2323?CLIENT=7462587466797&SID=20&LANGUAGE=en",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "region-of-waterloo",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "c0d1dcbcf24b3529e3e1e3324dd7755ab07703ae7e97cc66d227893885cc1e3e",
+    "checked_at": "2026-10-27T14:23:17.123677+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 25,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 17 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "region-of-waterloo",
+      "company_id": "region-of-waterloo",
+      "company_name": "Region of Waterloo",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 25,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 5 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Roads Maintainer (Operations Programs)",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Roads-Maintainer-%28Operations-Programs%29-ON/607358417",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Operations Assistant (Transportation)",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Cambridge-Operations-Assistant-%28Transportation%29-ON/607357417",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Roads Maintainer, Sweeper",
+        "source_url": "https://careers.regionofwaterloo.ca/RoW/job/Wellesley-Roads-Maintainer%2C-Sweeper-ON/607351617",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "royal-ottawa-health-care-group",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "ceae056e3a9effec5571e3b891ac588551ea69a4a7743ab8edf1f99541a0ddf0",
+    "checked_at": "2026-10-27T14:23:20.524646+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 72,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 64 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "royal-ottawa-health-care-group",
+      "company_id": "royal-ottawa-health-care-group",
+      "company_name": "Royal Ottawa Health Care Group",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 72,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 52 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Administrative Assistant, Patient Care Leaders (RFT 1.0 FTE)",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/otuUAfwb",
+        "location": "Brockville, Ontario"
+      },
+      {
+        "title": "Clinical Team Secretary",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/obqRAfwM",
+        "location": "Brockville, Ontario"
+      },
+      {
+        "title": "Executive Assistant II (RFT 1.0 FTE)",
+        "source_url": "https://jobs.jobvite.com/theroyal/job/oowZAfwd",
+        "location": "Ottawa, Ontario"
+      }
+    ]
+  },
+  {
+    "id": "soulpepper-theatre",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "a4e0a5a259551305fd5813c3a92145e6276d5c7e3a13156bb47f2ecfc94ec5e9",
+    "checked_at": "2026-10-27T14:23:22.871882+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 1 jobs after the configured 0-posting limit"
+      ]
+    },
+    "public_source": {
+      "id": "soulpepper-theatre",
+      "company_id": "soulpepper-theatre",
+      "company_name": "Soulpepper Theatre",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 1 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Building Supervisor",
+        "source_url": "https://soulpepper.ca/wp-content/uploads/2026/10/Building-Supervisor-job-description-Oct-2026.pdf",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "transport-bourassa",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "a4aed96d21c82db695e247046609caf1f8301bfa99ce12f202df55ee50cd34b2",
+    "checked_at": "2026-10-27T14:23:24.161482+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 25,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 17 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "transport-bourassa",
+      "company_id": "transport-bourassa",
+      "company_name": "Transport Bourassa",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 25,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 5 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "COMMIS À L’ENTRÉE DE DONNÉES",
+        "source_url": "https://bourassa.ca/available-positions/commis-a-lentree-de-donnees",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada"
+      },
+      {
+        "title": "ADMINISTRATEUR DE SYSTÈMES",
+        "source_url": "https://bourassa.ca/available-positions/administrateur-de-systemes",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada"
+      },
+      {
+        "title": "TECHNICIEN COMPTABLE",
+        "source_url": "https://bourassa.ca/available-positions/5698",
+        "location": "Saint-Jean-Sur-Richelieu, Québec, Canada"
+      }
+    ]
+  },
+  {
+    "id": "west-neighbourhood-house",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "8a362fe4b10738c6a2c00d409a5f235a8154421efbf722bf0c7c264d5d1bbb6a",
+    "checked_at": "2026-10-27T14:23:25.365266+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 7,
+      "pages": 8,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 7 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "west-neighbourhood-house",
+      "company_id": "west-neighbourhood-house",
+      "company_name": "West Neighbourhood House",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 7,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 7 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Home Care Aide – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/home-care-aide-pt-ongoing-recruitment-mar-2024-external-4",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Personal Support Worker Overnight On Call – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/personal-support-worker-overnight-on-call-ongoing-recruitment-mar-2024-external-3",
+        "location": "Unspecified"
+      },
+      {
+        "title": "Personal Support Worker – Ongoing Recruitment (External)",
+        "source_url": "https://www.westnh.org/jobopportunities/personal-support-worker-ongoing-recruitment-mar-2024-external-3",
+        "location": "Unspecified"
+      }
+    ]
+  },
+  {
+    "id": "westburne",
+    "runtime_revision": "677ab9551c04255e7cbb2d8c8a55ecc7e1cd402d695ce0cc40e6134c09d0846a",
+    "recipe_sha256": "6276b0caae5309ae47a6de57ffa184c0327999f00074961ef9511df6249ffd12",
+    "checked_at": "2026-10-27T14:23:25.999669+00:00",
+    "status": "pass",
+    "validation_origin": "Maintainer-authorized local execution of the exact exported public collector; not a hosted automatic contribution receipt.",
+    "exact": {
+      "jobs": 82,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 74 jobs after the configured 8-posting limit",
+        "description detail enrichment was incomplete for 8 jobs"
+      ]
+    },
+    "public_source": {
+      "id": "westburne",
+      "company_id": "westburne",
+      "company_name": "Westburne",
+      "revision": 1,
+      "status": "partial",
+      "complete": false,
+      "job_count": 82,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment skipped 62 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ]
+    },
+    "samples": [
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100786",
+        "location": "Brockville"
+      },
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100815",
+        "location": "Tri City (Kitchener, Waterloo, and Cambridge)"
+      },
+      {
+        "title": "Account Manager",
+        "source_url": "https://www.fitzii.com/apply/100816",
+        "location": "London"
+      }
+    ]
+  }
+]

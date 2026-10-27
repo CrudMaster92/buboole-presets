@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-27T13:00:48.792950+00:00",
+  "unique_slugs": 438158,
+  "pages": 44,
+  "source": "https://freehire.me/api/v1/companies/sitemap",
+  "sha256": "d74614d4f0232b9ed476ded2a5c92ac3c00e6bec5d1c16bf11f38e4a3c91ca8a",
+  "caveat": "Mutable paged directory, not an atomic provider export; targeted current identity queries are also required."
+}

@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "city-of-maple-ridge",
+  "company_id": "city-of-maple-ridge",
+  "revision": 1,
+  "label": "City of Maple Ridge public careers",
+  "careers_url": "https://mapleridge.hiringplatform.ca/list/external",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T14:22:42.095354+00:00",
+    "job_count": 11,
+    "warnings": [
+      "description detail enrichment skipped 3 jobs after the configured 8-posting limit",
+      "description detail enrichment was incomplete for 8 jobs",
+      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
+      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "City of Maple Ridge",
+    "careers_url": "https://mapleridge.hiringplatform.ca/list/external",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "mapleridge.hiringplatform.ca"
+    ],
+    "request": {
+      "url": "https://mapleridge.hiringplatform.ca/list/external",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".vidcruiter-job-item",
+      "title": ".vidcruiter-job-item-title a",
+      "link": "a.vidcruiter-btn",
+      "description": ":scope"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

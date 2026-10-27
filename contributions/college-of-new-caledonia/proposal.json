@@ -1,0 +1,102 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "college-of-new-caledonia",
+    "name": "College of New Caledonia",
+    "aliases": [],
+    "website_url": "https://cnc.bc.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "education"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "college-of-new-caledonia",
+    "company_id": "college-of-new-caledonia",
+    "revision": 1,
+    "label": "College of New Caledonia public careers",
+    "careers_url": "https://cnc.peopleadmin.ca/postings/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "College of New Caledonia",
+      "careers_url": "https://cnc.peopleadmin.ca/postings/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "cnc.peopleadmin.ca"
+      ],
+      "request": {
+        "url": "https://cnc.peopleadmin.ca/postings/search",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "page",
+        "parameter": "page",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": 2,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-item-posting",
+        "title": "h3 a",
+        "link": "h3 a",
+        "description": ".job-description"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8,
+        "coverage_note": "Two public listing pages; future inventories beyond this scope remain explicitly partial."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://cnc.peopleadmin.ca/postings/search",
+    "fetched_at": "2026-10-27T13:07:56.841788Z",
+    "payload": "<html><body><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Educational Technology and Multimedia Project Coordinator\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10909\">Educational Technology and Multimedia Project Coordinator</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Centre for Teaching &amp; Learning\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Prince George\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              11/02/2026\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Yes\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                Supports teaching and learning by providing support and guidance on the use and integration of education technology, as well as the use of multimedia instructional resources in face to face or online learning. Provides training on various educational technologies, Microsoft 365 and media tools used for creating instructional resources. Acts as support and back-up personnel for the daily operati...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10909\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10909\" id=\"bookmark_posting_10909\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"CASUAL Laboratory Technologist - MLT\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10905\">CASUAL Laboratory Technologist - MLT</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              School of Health Sciences &amp; Human Services\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Prince George\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              03/31/2027\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              No\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                This position will work in collaboration with laboratory science programs in School of Health Sciences (SoHS). Under the direction of the Dean and/or Associate Dean, this position will set annual priorities for meeting the various and emerging needs of School of Health Sciences. Time allotted per program will vary throughout the year and will be determined prior to the beginning of each semester.\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10905\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10905\" id=\"bookmark_posting_10905\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Laboratory Technologist - MLT (Part-Time Seasonal)\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/10902\">Laboratory Technologist - MLT (Part-Time Seasonal)</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              School of Health Sciences &amp; Human Services\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Prince George\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              07/28/2026\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Yes\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                This position will work in collaboration with laboratory science programs in School of Health Sciences (SoHS). Under the direction of the Dean and/or Associate Dean, this position will set annual priorities for meeting the various and emerging needs of School of Health Sciences. Time allotted per program will vary throughout the year and will be determined prior to the beginning of each semester.\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/10902\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=10902\" id=\"bookmark_posting_10902\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://cnc.bc.ca/",
+    "explanation": "Official employer website https://cnc.bc.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://cnc.peopleadmin.ca/postings/10909",
+      "https://cnc.peopleadmin.ca/postings/10905",
+      "https://cnc.peopleadmin.ca/postings/10902"
+    ]
+  }
+}

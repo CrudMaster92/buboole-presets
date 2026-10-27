@@ -1,0 +1,554 @@
+{
+  "checked_at": "2026-10-27T13:03:27.280737+00:00",
+  "details": {
+    "studio-be": {
+      "data": {
+        "company": {
+          "slug": "studio-be",
+          "name": "studio be",
+          "collections": [],
+          "job_count": 2,
+          "regions": [
+            "eu"
+          ],
+          "countries": [
+            "de"
+          ],
+          "domains": [],
+          "company_types": [],
+          "company_sizes": [],
+          "industries": [],
+          "year_founded": null,
+          "employee_count": null,
+          "hq_country": null,
+          "organization_type": null,
+          "tagline": null,
+          "company_info": {},
+          "remote_regions": [],
+          "yc_batch": [],
+          "yc_status": [],
+          "yc_stage": [],
+          "yc_flags": [],
+          "maturity": null,
+          "upvote_count": 0,
+          "downvote_count": 0,
+          "my_vote": 0,
+          "feedback_count": 0,
+          "feedback_rating_avg": null
+        },
+        "jobs": [
+          {
+            "public_slug": "mediengestalter-in-digital-und-print-i-grafikdesigner-webdesigner-m-w-d-studio-be-qn5jqp2p",
+            "source": "join",
+            "manually_added": false,
+            "external_id": "138241:13949421",
+            "url": "https://join.com/companies/studio-be/16835649-mediengestalter-in-digital-und-print-i-grafikdesigner-webdesigner-m-w-d?utm_source=freehire.me",
+            "title": "Mediengestalter/in Digital und Print  I Grafikdesigner - Webdesigner (m/w/d)",
+            "company": "studio be",
+            "company_slug": "studio-be",
+            "location": "Greven, Germany",
+            "description": "<p>Wir sind eine innovative Agentur, spezialisiert auf Fotografie / CGI und<br>\ndigitale Kreativlösungen. Mit unserer Expertise und Kreativität<br>\nbegeistern wir unsere Kunden und setzen individuelle Projekte um. Zur<br>\nVerstärkung unseres Teams suchen wir einen motivierten <strong>Mediengestalter/in Digital und Print</strong><br>\n(Grafik I Webdesigner) (m/w/d), der gemeinsam mit uns durchstarten möchte</p>\n<h2>Aufgaben</h2>\n<p><strong>Deine Aufgaben:</strong></p>\n<ul>\n<li>\n<p><strong>Webdesign &amp; -pflege:</strong></p>\n</li>\n<li>\n<p>Erstellung von Websites und Programmierung</p>\n</li>\n<li>\n<p>Aktualisierung &amp; Pflege der Websites unserer Kunden</p>\n</li>\n<li>\n<p>Erstellung von Newslettern</p>\n</li>\n<li>\n<p><strong>Grafikdesign:</strong></p>\n</li>\n<li>\n<p>Gestaltung und Satz von visuellen Materialien für Print- und digitale Medien, einschließlich Broschüren, Anzeigen, Präsentationen und Online-Banner.</p>\n</li>\n<li>\n<p><strong>Content-Erstellung und -Management:</strong></p>\n</li>\n<li>\n<p>Unterstützung bei der Ent­wicklung und Gestaltung von Content für unsere Kunden und unsere eigenen Social-Media-Kanäle.</p>\n</li>\n<li>\n<p>Vorbereitende Bildbearbeitung, Fotoretusche und Erstellung von Illustrationen für verschiedenste Marketing­materialien.</p>\n</li>\n<li>\n<p>Eigenständige Planung und Organisation im Team von Projekten unter Einhaltung der Deadlines.</p>\n</li>\n<li>\n<p>Abstimmung mit internen Abteilungen und externen Dienst­leistern zur Sicherstellung einer reibungslosen Projekt­abwicklung.</p>\n</li>\n</ul>\n<h2>Qualifikation</h2>\n<p><strong>Dein Profil:</strong></p>\n<ul>\n<li>Abgeschlossene Ausbildung oder Studium im Bereich Grafikdesign, Webdesign, Medien­gestaltung oder einer vergleichbaren Fachrichtung.</li>\n<li>Mehrjährige Berufserfahrung im Grafik- und Webdesign, idealer­weise im B2B-Bereich oder in der Industrie.</li>\n<li>Fundierte Kenntnisse in den gängigen Design-Tools (z. B. Adobe Creative Suite: Photoshop, InDesign).</li>\n<li>Erfahrung mit Content-Management-Systemen (WordPress) und Grundkenntnisse in HTML / CSS.</li>\n<li>Kreatives Gespür für visuelles Storytelling und modernes Design, gepaart mit einem Auge fürs Detail.</li>\n<li>Gute Kommunikationsfähigkeiten und die Fähigkeit, komplexe Inhalte visuell an­sprechend und verständlich darzustellen.</li>\n<li>Sprachkenntnisse: Deutsch in Wort und Schrift</li>\n</ul>\n<p>Eine spannende und abwechslungsreiche Tätigkeit in einem dynamischen Team</p>\n<ul>\n<li>Individuelle Weiterbildungs- und Entwicklungsmöglichkeiten</li>\n<li>Flexible Arbeitszeiten</li>\n<li>Ein angenehmes Arbeitsumfeld mit flachen Hierarchien und kurzen Entscheidungswegen</li>\n</ul>\n",
+            "countries": [
+              "de"
+            ],
+            "regions": [
+              "eu"
+            ],
+            "skills": [
+              "adobe-creative-suite",
+              "css",
+              "html",
+              "indesign",
+              "photoshop",
+              "wordpress"
+            ],
+            "cities": [
+              "Greven"
+            ],
+            "metros": [
+              "Münster (DE)"
+            ],
+            "collections": [],
+            "is_tech": "tech",
+            "posted_at": "2025-04-09T07:25:26Z",
+            "created_at": "2026-09-03T00:01:52Z",
+            "updated_at": "2026-10-26T00:52:17Z",
+            "last_seen_at": "2026-10-27T01:59:58Z",
+            "closed_at": null,
+            "enrichment": {
+              "category": "design",
+              "posting_language": "de"
+            },
+            "enriched_at": null,
+            "enrichment_version": 0,
+            "view_count": 0,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          },
+          {
+            "public_slug": "bildbearbeiter-in-retuscheur-in-fotograf-m-w-d-studio-be-2xc2e5jc",
+            "source": "join",
+            "manually_added": false,
+            "external_id": "138241:16212991",
+            "url": "https://join.com/companies/studio-be/16860532-bildbearbeiter-in-retuscheur-in-fotograf-m-w-d?utm_source=freehire.me",
+            "title": "Bildbearbeiter-in  Retuscheur-in Fotograf (m/w/d)",
+            "company": "studio be",
+            "company_slug": "studio-be",
+            "location": "Greven, Germany",
+            "description": "<p>Wir sind eine innovative Agentur, spezialisiert auf Fotografie / CGI und<br>\ndigitale Kreativlösungen. Mit unserer Expertise und Kreativität<br>\nbegeistern wir unsere Kunden und setzen individuelle Projekte um. Zur<br>\nVerstärkung unseres Teams suchen wir einen motivierten <strong>Bildbearbeiter-in Retuscheur-in</strong> (m/w/d), der gemeinsam mit uns durchstarten möchte</p>\n<h2>Aufgaben</h2>\n<p><strong>Deine Aufgaben:</strong></p>\n<ul>\n<li><strong>Bildbearbeitung in RGB und CMYK</strong></li>\n<li>Videoschnitt</li>\n<li>Fotoassistenz, Fotografie</li>\n<li>Ausliefern der Kundendaten</li>\n<li>Archivierung</li>\n</ul>\n<h2>Qualifikation</h2>\n<p><strong>Dein Profil:</strong></p>\n<ul>\n<li>Abgeschlossene Ausbildung oder Studium im Bereich Grafikdesign, Webdesign, Medien­gestaltung oder einer vergleichbaren Fachrichtung.</li>\n<li>Mehrjährige Berufserfahrung in Photoshop und Premiere</li>\n<li>Fotoerfahrung</li>\n<li>Gespür für Licht und Schatten</li>\n<li>Ideal 3d Softeware erfahrung wie 3ds Max</li>\n</ul>\n<p>Eine spannende und abwechslungsreiche Tätigkeit in einem dynamischen Team</p>\n<ul>\n<li>Individuelle Weiterbildungs- und Entwicklungsmöglichkeiten</li>\n<li>Flexible Arbeitszeiten</li>\n<li>Ein angenehmes Arbeitsumfeld mit flachen Hierarchien und kurzen Entscheidungswegen</li>\n</ul>\n",
+            "countries": [
+              "de"
+            ],
+            "regions": [
+              "eu"
+            ],
+            "skills": [
+              "3ds-max",
+              "photoshop"
+            ],
+            "cities": [
+              "Greven"
+            ],
+            "metros": [
+              "Münster (DE)"
+            ],
+            "collections": [],
+            "is_tech": "tech",
+            "posted_at": "2026-05-26T08:24:12Z",
+            "created_at": "2026-09-03T00:01:52Z",
+            "updated_at": "2026-10-27T01:59:58Z",
+            "last_seen_at": "2026-10-27T01:59:58Z",
+            "closed_at": null,
+            "enrichment": {
+              "category": "creative",
+              "posting_language": "de"
+            },
+            "enriched_at": null,
+            "enrichment_version": 0,
+            "view_count": 0,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          }
+        ],
+        "referral_available": false
+      }
+    },
+    "studio-b": {
+      "data": {
+        "company": {
+          "slug": "studio-b",
+          "name": "Studio B",
+          "collections": [],
+          "job_count": 1,
+          "regions": [
+            "uk"
+          ],
+          "countries": [
+            "gb"
+          ],
+          "domains": [],
+          "company_types": [],
+          "company_sizes": [],
+          "industries": [],
+          "year_founded": null,
+          "employee_count": null,
+          "hq_country": null,
+          "organization_type": null,
+          "tagline": null,
+          "company_info": {},
+          "remote_regions": [],
+          "yc_batch": [],
+          "yc_status": [],
+          "yc_stage": [],
+          "yc_flags": [],
+          "maturity": null,
+          "upvote_count": 0,
+          "downvote_count": 0,
+          "my_vote": 0,
+          "feedback_count": 0,
+          "feedback_rating_avg": null
+        },
+        "jobs": [
+          {
+            "public_slug": "social-media-manager-studio-b-sgrfqblb",
+            "source": "teamtailor",
+            "manually_added": false,
+            "external_id": "join.studiob.net:8537031",
+            "url": "https://join.studiob.net/jobs/8537031-social-media-manager?utm_source=freehire.me",
+            "title": "Social Media Manager",
+            "company": "Studio B",
+            "company_slug": "studio-b",
+            "location": "London, GB",
+            "description": "<p><span>We&#39;re looking for an experienced, digitally obsessed Social Media Manager to take ownership of BrandonB and StudioB&#39;s social channels. If you understand what makes content perform, love getting stuck into analytics and know how to turn audiences into engaged communities, we&#39;d love to hear from you.</span></p><h2><span><strong>The Opportunity</strong></span></h2><p><span>StudioB is a fast-growing creative studio with a global audience of over 25 million followers and more than 15 billion views.</span></p><p><span>We create high-impact digital content for some of the world&#39;s biggest brands, blending social-first storytelling, world-class creative, production craft and VFX to make work that performs across YouTube, TikTok, Instagram, Facebook and beyond.</span></p><p><span>We&#39;re looking for an experienced, highly independent Social Media Manager to take ownership of the day-to-day management, performance and growth of BrandonB and StudioB&#39;s social channels.</span></p><p><span>This is a hands-on role for someone who genuinely understands social media, knows how platforms work and can confidently manage channels with audiences in the millions.</span></p><p><span>You&#39;ll be responsible for everything from content planning, scheduling and publishing to community management, performance analysis and identifying opportunities for growth.</span></p><p><span>But this isn&#39;t just about posting content.</span></p><p><span>We want someone who understands why content works, can spot opportunities before everyone else does and knows how to turn insights into actions that improve performance.</span></p><p><span>You&#39;ll work closely with our creative, production and editing teams to ensure the content we&#39;re creating is packaged, published and optimised to perform at its best.</span></p><p><span>We&#39;re looking for someone who can take real ownership, make decisions independently and bring fresh thinking to the table without needing constant direction.</span></p><p><span>If you&#39;re someone who sees a video with 20 million views and immediately wants to understand why it worked, what made people share it and how we could make something even better, this could be the role for you.</span></p><h2><span><strong>Where You&#39;ll Make An Impact</strong></span></h2><h3><span><strong>Social Channel Management &amp; Publishing</strong></span></h3><ul><li><p><span>Take ownership of the day-to-day management of BrandonB and StudioB&#39;s social channels across YouTube, TikTok, Instagram, Facebook and other relevant platforms.</span></p></li><li><p><span>Develop and manage content calendars, ensuring a consistent and engaging publishing schedule.</span></p></li><li><p><span>Schedule, publish and optimise content across all channels.</span></p></li><li><p><span>Ensure content is correctly formatted, packaged and tailored to each platform.</span></p></li><li><p><span>Write engaging captions, titles, descriptions and supporting copy that reflect the voice of each brand.</span></p></li><li><p><span>Optimise thumbnails, hashtags, metadata and other publishing elements to maximise discoverability and performance.</span></p></li><li><p><span>Maintain a consistent tone of voice and brand identity across all channels.</span></p></li><li><p><span>Identify opportunities to repurpose and redistribute existing content to reach new audiences.</span></p></li></ul><h3><span><strong>Social Strategy &amp; Audience Growth</strong></span></h3><ul><li><p><span>Develop and implement social strategies that support the continued growth of BrandonB and StudioB&#39;s channels.</span></p></li><li><p><span>Understand our audiences, what they engage with and what keeps them coming back.</span></p></li><li><p><span>Identify opportunities to grow followers, views, engagement and community interaction.</span></p></li><li><p><span>Stay ahead of platform developments, emerging trends, creators and cultural moments.</span></p></li><li><p><span>Recommend new content formats, publishing approaches and growth opportunities.</span></p></li><li><p><span>Work with creative and production teams to shape content ideas using audience and platform insights.</span></p></li><li><p><span>Understand the differences between short-form and long-form content and how to maximise performance across both.</span></p></li><li><p><span>Experiment with posting times, formats, hooks, titles, thumbnails and content packaging.</span></p></li><li><p><span>Bring a proactive, commercially aware approach to channel growth and performance.</span></p></li></ul><h3><span><strong>Analytics, Insights &amp; Performance</strong></span></h3><ul><li><p><span>Take ownership of tracking, analysing and reporting on channel performance.</span></p></li><li><p><span>Use platform analytics to understand what&#39;s working, what isn&#39;t and where we can improve.</span></p></li><li><p><span>Monitor key metrics including views, watch time, retention, CTR, engagement, shares, saves and follower growth.</span></p></li><li><p><span>Identify patterns in audience behaviour and translate data into clear, actionable recommendations.</span></p></li><li><p><span>Understand how algorithms and platform distribution influence content performance.</span></p></li><li><p><span>Work closely with Editors, Producers and Creatives to share insights that improve future content.</span></p></li><li><p><span>Build regular performance reports that highlight key learnings, opportunities and recommendations.</span></p></li><li><p><span>Track content experiments and use the results to inform future publishing and creative decisions.</span></p></li><li><p><span>Help establish a consistent approach to measuring social performance and success.</span></p></li></ul><p><span>We don&#39;t want someone who simply produces reports. We want someone who can explain why something happened and what we should do differently next time.</span></p><h3><span><strong>Community Management &amp; Engagement</strong></span></h3><ul><li><p><span>Take ownership of community management across BrandonB and StudioB&#39;s social channels.</span></p></li><li><p><span>Monitor and respond to comments, messages and audience interactions in the appropriate brand voice.</span></p></li><li><p><span>Build positive relationships with our audiences and encourage meaningful engagement.</span></p></li><li><p><span>Identify recurring audience questions, feedback and content requests.</span></p></li><li><p><span>Spot opportunities to turn community conversations into new content ideas.</span></p></li><li><p><span>Monitor audience sentiment and identify any potential reputational issues that need escalating.</span></p></li><li><p><span>Help develop community engagement approaches that strengthen audience loyalty and connection.</span></p></li><li><p><span>Ensure both BrandonB and StudioB maintain an authentic, consistent and engaging presence across platforms.</span></p></li></ul><h3><span><strong>Creative Collaboration &amp; Content Development</strong></span></h3><ul><li><p><span>Work closely with Producers, Editors and Creatives to ensure content is developed with platform performance in mind.</span></p></li><li><p><span>Bring audience insights, social trends and performance data into creative discussions.</span></p></li><li><p><span>Recommend improvements to hooks, pacing, formats, titles, thumbnails and publishing strategies.</span></p></li><li><p><span>Identify opportunities to create additional content from existing productions.</span></p></li><li><p><span>Contribute ideas for new content series, recurring formats and audience engagement opportunities.</span></p></li><li><p><span>Challenge assumptions and bring a clear point of view on what will work for our audiences.</span></p></li><li><p><span>Help create a continuous feedback loop between content performance and future creative development.</span></p></li></ul><h2><span><strong>What You&#39;ll Bring To The Team</strong></span></h2><p><span><strong>We&#39;re looking for someone who:</strong></span></p><ul><li><p><span>Is genuinely passionate about social media, internet culture and the creator economy.</span></p></li><li><p><span>Understands how YouTube, TikTok, Instagram and Facebook actually work, beyond simply using them.</span></p></li><li><p><span>Has a proven ability to manage and grow social channels independently.</span></p></li><li><p><span>Is highly organised and confident managing multiple platforms, content calendars and deadlines.</span></p></li><li><p><span>Is naturally analytical and enjoys understanding the data behind content performance.</span></p></li><li><p><span>Can turn complicated platform insights into simple, practical recommendations.</span></p></li><li><p><span>Has a strong instinct for what makes people stop scrolling, watch, engage and share.</span></p></li><li><p><span>Understands the importance of community management and building loyal audiences.</span></p></li><li><p><span>Is proactive, resourceful and comfortable making decisions without constant supervision.</span></p></li><li><p><span>Has excellent attention to detail, particularly when publishing content to large audiences.</span></p></li><li><p><span>Is confident collaborating with creative and production teams.</span></p></li><li><p><span>Can balance creativity with a data-led approach to performance.</span></p></li><li><p><span>Is constantly looking for ways to improve processes, content and audience growth.</span></p></li><li><p><span>Thrives in a fast-paced environment where priorities can change quickly.</span></p></li><li><p><span>Takes real ownership of their work and is accountable for results.</span></p></li></ul><p><span>Most importantly, we&#39;re looking for someone who combines strong platform knowledge, analytical thinking, community management experience and the independence to take full ownership of our social channels.</span></p><h2><span><strong>What You&#39;ll Need</strong></span></h2><ul><li><p><span>Proven experience as a Social Media Manager, Channel Manager, Social Strategist or similar role.</span></p></li><li><p><span>Demonstrable experience managing and growing established social media accounts.</span></p></li><li><p><span>Strong working knowledge of YouTube, TikTok, Instagram and Facebook.</span></p></li><li><p><span>Experience managing both short-form and long-form video content.</span></p></li><li><p><span>Excellent understanding of platform analytics, audience insights and performance metrics.</span></p></li><li><p><span>Experience using tools such as YouTube Studio, TikTok Analytics, Meta Business Suite and other social media management platforms.</span></p></li><li><p><span>Strong understanding of content optimisation, including titles, thumbnails, hooks, captions and publishing strategies.</span></p></li><li><p><span>Proven experience managing online communities, audience engagement and brand interactions.</span></p></li><li><p><span>Experience developing and managing content calendars and publishing schedules.</span></p></li><li><p><span>Strong written communication skills and the ability to adapt tone of voice across different brands.</span></p></li><li><p><span>Experience working with creative, production or editing teams.</span></p></li><li><p><span>Ability to analyse data and turn insights into clear recommendations.</span></p></li><li><p><span>Excellent organisational skills, attention to detail and the ability to manage competing priorities.</span></p></li></ul><p><span>Experience working with high-profile creators, large social audiences, digital publishers or social-first content businesses would be particularly valuable.</span></p><p><span>We care more about the channels you&#39;ve managed, the growth you&#39;ve delivered and the impact you&#39;ve made than simply the number of years you&#39;ve spent in the industry.</span></p><h2><span><strong>What Success Looks Like</strong></span></h2><h3><span><strong>First 30 Days</strong></span></h3><ul><li><p><span>Develop a strong understanding of BrandonB and StudioB&#39;s audiences, content, channels and brand identities.</span></p></li><li><p><span>Take ownership of the day-to-day publishing schedules and channel management.</span></p></li><li><p><span>Build strong relationships with the creative, production and editing teams.</span></p></li><li><p><span>Review existing channel performance and identify immediate opportunities for improvement.</span></p></li><li><p><span>Establish clear reporting and performance tracking across all key platforms.</span></p></li><li><p><span>Understand existing community engagement and audience interaction patterns.</span></p></li></ul><h3><span><strong>First 60 Days</strong></span></h3><ul><li><p><span>Independently manage content planning, scheduling, publishing and community engagement.</span></p></li><li><p><span>Develop clear recommendations for improving channel performance and audience growth.</span></p></li><li><p><span>Introduce testing across content packaging, posting strategies and formats.</span></p></li><li><p><span>Provide regular, actionable performance insights to the wider team.</span></p></li><li><p><span>Identify opportunities to improve community engagement and audience retention.</span></p></li><li><p><span>Build a consistent feedback loop between social performance and creative development.</span></p></li></ul><h3><span><strong>Longer Term</strong></span></h3><ul><li><p><span>Take full ownership of the ongoing management and growth of BrandonB and StudioB&#39;s social channels.</span></p></li><li><p><span>Deliver measurable improvements in audience growth, engagement and content performance.</span></p></li><li><p><span>Build engaged communities that actively interact with and share our content.</span></p></li><li><p><span>Establish clear, effective processes for publishing, analytics and community management.</span></p></li><li><p><span>Become a trusted voice within StudioB on platform performance, audience behaviour and social trends.</span></p></li><li><p><span>Help shape future content decisions through meaningful insights and recommendations.</span></p></li><li><p><span>Play a key role in growing our global audience beyond 25 million followers.</span></p></li></ul><h2><span><strong>Why StudioB?</strong></span></h2><p><span>StudioB is an independent creative studio built from the creator economy, working with leading brands to create content that captures attention and connects with audiences.</span></p><p><span>Founded by Brandon Baum, one of Europe&#39;s most-watched creators, StudioB brings together creative thinking, production expertise and a genuine understanding of what works on digital platforms.</span></p><p><span>Unlike traditional agencies, our approach starts with an understanding of creators, audiences and platforms. We combine that thinking with high-end production capabilities and VFX expertise to create work that stands out.</span></p><p><span>You&#39;ll have the opportunity to work directly with content that reaches millions of people around the world, alongside talented Creatives, Producers, Editors and VFX artists.</span></p><p><span>This isn&#39;t a role where your insights disappear into a report. You&#39;ll have a genuine opportunity to influence what we create, how we publish it and how we continue to grow.</span></p><h2><span><strong>What You&#39;ll Gain at StudioB</strong></span></h2><h3><span><strong>Performance &amp; Wellbeing Coaching</strong></span></h3><p><span>Access to ongoing 1-to-1 coaching designed to support your performance, mindset and overall wellbeing, helping you manage pressure, build resilience and perform at your best.</span></p><h3><span><strong>A Culture That Actually Lives Its Values</strong></span></h3><p><span>We care about how people feel at work. Expect a supportive, high-energy environment where people are encouraged to grow, collaborate and do their best work.</span></p><h3><span><strong>Make a Real Impact</strong></span></h3><p><span>Your work won&#39;t get lost. You&#39;ll have real ownership of channels reaching millions of people, with the opportunity to influence content performance, audience growth and creative decisions.</span></p><h3><span><strong>Offsites &amp; Away Days</strong></span></h3><p><span>Join regular team offsites, away days and creative sessions designed to bring the team together, spark ideas and celebrate wins.</span></p><h3><span><strong>Ownership &amp; Autonomy</strong></span></h3><p><span>Take real ownership of our social channels, content calendars, performance and community engagement, with the trust to make decisions and drive things forward.</span></p><h3><span><strong>Celebrating the Wins</strong></span></h3><p><span>From project wrap-ups to team moments, we make time to recognise great work and celebrate what the team achieves together.</span></p><h3><span><strong>A Front-Row Seat to Growth</strong></span></h3><p><span>Join a fast-growing company at an exciting stage, with the opportunity to help shape how our social channels, audiences and digital presence continue to develop.</span></p><p><span>At StudioB, we don&#39;t just focus on what you do; we invest in who you become. Alongside real opportunities for growth in a fast-scaling environment, you&#39;ll have access to performance and wellbeing coaching designed to help you manage pressure, build resilience and perform at your best.</span></p><p><span>We&#39;re building a culture where people feel supported, challenged and energised, because we believe that&#39;s where the best work comes from.</span></p><h2><span><strong>Before You Get Started</strong></span></h2><p><span>At StudioB, we actively use AI tools to move faster and work smarter, and we&#39;re excited about candidates who do the same.</span></p><p><span>However, for this application, we&#39;d love to hear your own voice and thinking. Please avoid using AI to generate your answers, as applications that appear heavily AI-generated may not be progressed.</span></p>",
+            "countries": [
+              "gb"
+            ],
+            "regions": [
+              "uk"
+            ],
+            "skills": [
+              "ai",
+              "analytics",
+              "community-management",
+              "spark"
+            ],
+            "cities": [
+              "London"
+            ],
+            "metros": [
+              "London (GB)"
+            ],
+            "collections": [],
+            "is_tech": "non_tech",
+            "posted_at": "2026-10-13T08:54:03Z",
+            "created_at": "2026-10-13T10:39:24Z",
+            "updated_at": "2026-10-13T10:39:24Z",
+            "last_seen_at": "2026-10-26T16:37:34Z",
+            "closed_at": null,
+            "enrichment": {
+              "category": "marketing",
+              "posting_language": "en",
+              "requirements": [
+                {
+                  "text": "Proven experience as a Social Media Manager, Channel Manager, Social Strategist or similar role.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Demonstrable experience managing and growing established social media accounts.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Strong working knowledge of YouTube, TikTok, Instagram and Facebook.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience managing both short-form and long-form video content.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Excellent understanding of platform analytics, audience insights and performance metrics.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience using tools such as YouTube Studio, TikTok Analytics, Meta Business Suite and other social media management platforms.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Strong understanding of content optimisation, including titles, thumbnails, hooks, captions and publishing strategies.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Proven experience managing online communities, audience engagement and brand interactions.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience developing and managing content calendars and publishing schedules.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Strong written communication skills and the ability to adapt tone of voice across different brands.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience working with creative, production or editing teams.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Ability to analyse data and turn insights into clear recommendations.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Excellent organisational skills, attention to detail and the ability to manage competing priorities.",
+                  "priority": "required"
+                }
+              ]
+            },
+            "enriched_at": null,
+            "enrichment_version": 0,
+            "view_count": 2,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          },
+          {
+            "public_slug": "editor-studio-b-lclp4ezm",
+            "source": "teamtailor",
+            "manually_added": false,
+            "external_id": "join.studiob.net:8527641",
+            "url": "https://join.studiob.net/jobs/8527641-editor?utm_source=freehire.me",
+            "title": "Editor",
+            "company": "Studio B",
+            "company_slug": "studio-b",
+            "location": "London, GB",
+            "description": "<p><span><strong>Full-time | London</strong></span></p><p><span>We’re Studio B: a fast-moving, creative production company making ambitious content for millions of people across YouTube, TikTok, Instagram and beyond. We’re looking for a brilliant mid-level Video Editor who lives and breathes social media, moves quickly and never compromises on the quality of the final cut.</span></p><p><span>This is a role for a true digital native: someone who instinctively understands what makes people stop scrolling, keep watching and share. You’ll bring ideas, energy and personality to every edit - whether it’s a punchy short-form video or a compelling YouTube format.</span></p><p><span><strong>About the role</strong></span></p><p><span>You’ll turn raw footage into standout, social-first content with pace, humour, storytelling and polish. You’ll be comfortable working in a high-output environment, responding rapidly to feedback and switching between projects without losing your creative edge or attention to detail. We want an editor who doesn’t just follow a brief - they make the work better.</span></p><p><span><strong>What you’ll do</strong></span></p><ul><li><p><span>Edit platform-native short-form content for TikTok, Instagram Reels, YouTube Shorts and other social channels, with strong hooks, tight pacing and brilliant payoffs.</span></p></li><li><p><span>Craft engaging long-form YouTube videos, including challenges, gameshow-style formats, behind-the-scenes content, interviews, vlogs, sketches and creator-led entertainment.</span></p></li><li><p><span>Own edits from rough cut through final delivery, shaping narrative, comedy, rhythm, music, sound design, captions and finishing details.</span></p></li><li><p><span>Work at speed on quick-turnaround briefs, managing competing deadlines while keeping every output sharp, accurate and on brand.</span></p></li><li><p><span>Collaborate closely with creatives, producers, VFX artists and fellow editors; contribute ideas in brainstorms and offer creative solutions, not just technical execution.</span></p></li><li><p><span>Use audience behaviour, emerging formats and evolving platform trends to push our content forward - proactively suggest stronger hooks, cuts and storytelling approaches.</span></p></li><li><p><span>Take feedback constructively, iterate quickly and maintain exceptionally high standards of creative and technical quality.</span></p></li><li><p><span>Create cut-downs, trailers, teasers, tutorials, breakdowns and social-first branded content as projects require.</span></p></li></ul><p><span><strong>What we’re looking for</strong></span></p><ul><li><p><span>A genuine digital native. Social media is part of your everyday world; you know the creators, formats, memes, trends and editing styles that make content resonate.</span></p></li><li><p><span>A strong social-first portfolio showing original creative judgement, excellent pacing, storytelling and edits that hold attention. Examples of both short-form and long-form work are highly valued.</span></p></li><li><p><span>Experience editing fast-paced social and digital content, with the confidence to take ownership of multiple edits and deliver quickly.</span></p></li><li><p><span>High creative standards and exceptional attention to detail - from the first to the last frame, every choice matters.</span></p></li><li><p><span>Proficiency in Adobe Premiere Pro and/or DaVinci Resolve; After Effects experience is a strong bonus.</span></p></li><li><p><span>Confidence with sound design, music selection, timing, basic colour finishing and platform-appropriate graphics or captions.</span></p></li><li><p><span>A proactive, collaborative mindset: curious, resourceful, receptive to feedback and willing to challenge an edit to make it stronger.</span></p></li><li><p><span>Excellent organisation and communication skills, with the ability to prioritise, adapt and stay calm when deadlines move.</span></p></li></ul><p><span><strong>You’ll thrive here if…</strong></span></p><p><span>You’re obsessed with making content people actually want to watch. You love the energy of a fast-paced creative environment, enjoy experimenting and can turn around great work quickly. You’re ambitious about your craft, bring solutions rather than problems, and take real pride in the quality of what you deliver.</span></p><p><span><strong>Why Studio B?</strong></span></p><ul><li><p><span>Creative freedom to bring your own ideas, humour and editing style into the work.</span></p></li><li><p><span>A collaborative, energetic team making inventive content across a wide range of formats.</span></p></li><li><p><span>Opportunities to develop your skills and work on exciting projects with major brands and creators.</span></p></li></ul><p></p>",
+            "countries": [
+              "gb"
+            ],
+            "regions": [
+              "uk"
+            ],
+            "skills": [
+              "davinci-resolve",
+              "premiere-pro"
+            ],
+            "cities": [
+              "London"
+            ],
+            "metros": [
+              "London (GB)"
+            ],
+            "collections": [],
+            "posted_at": "2026-10-09T19:32:42Z",
+            "created_at": "2026-10-09T20:30:06Z",
+            "updated_at": "2026-10-09T20:30:06Z",
+            "last_seen_at": "2026-10-26T16:37:34Z",
+            "closed_at": null,
+            "enrichment": {
+              "employment_type": "full_time",
+              "seniority": "middle",
+              "posting_language": "en",
+              "requirements": [
+                {
+                  "text": "A genuine digital native. Social media is part of your everyday world; you know the creators, formats, memes, trends and editing styles that make content resonate.",
+                  "priority": "required"
+                },
+                {
+                  "text": "A strong social-first portfolio showing original creative judgement, excellent pacing, storytelling and edits that hold attention. Examples of both short-form and long-form work are highly valued.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience editing fast-paced social and digital content, with the confidence to take ownership of multiple edits and deliver quickly.",
+                  "priority": "required"
+                },
+                {
+                  "text": "High creative standards and exceptional attention to detail - from the first to the last frame, every choice matters.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Proficiency in Adobe Premiere Pro and/or DaVinci Resolve; After Effects experience is a strong bonus.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Confidence with sound design, music selection, timing, basic colour finishing and platform-appropriate graphics or captions.",
+                  "priority": "required"
+                },
+                {
+                  "text": "A proactive, collaborative mindset: curious, resourceful, receptive to feedback and willing to challenge an edit to make it stronger.",
+                  "priority": "required"
+                },
+                {
+                  "text": "Excellent organisation and communication skills, with the ability to prioritise, adapt and stay calm when deadlines move.",
+                  "priority": "required"
+                }
+              ]
+            },
+            "enriched_at": null,
+            "enrichment_version": 0,
+            "view_count": 0,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          }
+        ],
+        "referral_available": false
+      }
+    },
+    "transport": {
+      "data": {
+        "company": {
+          "slug": "transport",
+          "name": "Transport",
+          "collections": [],
+          "job_count": 2,
+          "regions": [
+            "apac"
+          ],
+          "countries": [
+            "au"
+          ],
+          "domains": [
+            "govtech",
+            "mobility"
+          ],
+          "company_types": [
+            "government"
+          ],
+          "company_sizes": [],
+          "industries": [],
+          "year_founded": null,
+          "employee_count": null,
+          "hq_country": null,
+          "organization_type": null,
+          "tagline": null,
+          "company_info": {},
+          "remote_regions": [],
+          "yc_batch": [],
+          "yc_status": [],
+          "yc_stage": [],
+          "yc_flags": [],
+          "maturity": null,
+          "upvote_count": 0,
+          "downvote_count": 0,
+          "my_vote": 0,
+          "feedback_count": 0,
+          "feedback_rating_avg": null
+        },
+        "jobs": [
+          {
+            "public_slug": "senior-data-engineer-data-platform-lead-melbourne-transport-tfbxtivi",
+            "source": "whatjobs-au",
+            "manually_added": false,
+            "external_id": "data engineer:128901044",
+            "url": "https://au.whatjobs.com/pub_api__cpl__128901044__7084?geoID=1558&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+            "title": "Senior Data Engineer - Data Platform Lead (Melbourne)",
+            "company": "Transport",
+            "company_slug": "transport",
+            "location": "Melbourne, Australia",
+            "description": "<p>ST Vic is seeking a Senior Data Engineer to develop and maintain the Data Platform and associated Cloud environment in Melbourne. You will provide technical leadership, ensure data solutions meet purpose and support the Data Strategy, and drive the engineering integrity of the platform.</p><p>Key responsibilities include developing organisational capability, leading change, aligning outcomes with community expectations, and fostering a culture of quality by design in delivery.</p>",
+            "countries": [
+              "au"
+            ],
+            "regions": [
+              "apac"
+            ],
+            "skills": [],
+            "cities": [
+              "Melbourne"
+            ],
+            "metros": [
+              "Melbourne (AU)"
+            ],
+            "collections": [],
+            "is_tech": "tech",
+            "posted_at": "2026-10-27T05:12:03Z",
+            "created_at": "2026-10-27T05:12:03Z",
+            "updated_at": "2026-10-27T05:25:43Z",
+            "last_seen_at": "2026-10-27T09:20:35Z",
+            "closed_at": null,
+            "enrichment": {
+              "summary": "Senior Data Engineer leading the Data Platform and associated cloud environment for a Victorian transport authority in Melbourne — providing technical leadership, ensuring data solutions support the Data Strategy, and driving engineering quality in delivery.",
+              "seniority": "lead",
+              "category": "data_engineering",
+              "domains": [
+                "govtech",
+                "mobility"
+              ],
+              "posting_language": "en",
+              "company_type": "government"
+            },
+            "enriched_at": "2026-10-27T05:25:43Z",
+            "enrichment_version": 2,
+            "view_count": 0,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          },
+          {
+            "public_slug": "senior-data-engineer-transport-3q3ywt54",
+            "source": "whatjobs-au",
+            "manually_added": false,
+            "external_id": "data engineer:128905688",
+            "url": "https://au.whatjobs.com/pub_api__cpl__128905688__7084?geoID=1558&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+            "title": "Senior Data Engineer",
+            "company": "Transport",
+            "company_slug": "transport",
+            "location": "Melbourne, Australia",
+            "description": "<p><b>Location: </b>Melbourne - CBD and Inner Metro suburbs</p>\n<p><b>Reference: </b>13038</p>\n<h3>Job Title</h3>\n<p>VPS 6</p>\n<p>Fixed Term – 12 months</p>\n<h3>VPS Level</h3>\n<p>VPS 6</p>\n<h3>Salary</h3>\n<p>$142,790 - $191,084 plus superannuation</p>\n<h3>Work type</h3>\n<p>Fixed Term – 12 months</p>\n<h3>About the Role</h3>\n<p>Reporting to the Senior Manager, Data Platform the role is responsible for the development, maintenance, and improvement of the Data Platform and related Cloud environment. Providing technical leadership within the team, the role leads the engineering integrity of the ST Vic data platform and ensures data solutions are fit for purpose and support the Data Strategy.</p>\n<p>The responsibilities of the Senior Data Engineer will include, but are not limited to:</p>\n<ul>\n<li><p>Develop Organisational Capability – Apply your knowledge of external factors relating to capability development such as demographic trends, skills shortages and future workforce requirements.</p></li>\n<li><p>Lead and Navigate Change - Identify long-term organisational changes.</p></li>\n<li><p>Outcomes Thinking - Be up to date with the STV operational requirements and formulate strategies that align organisational deliverables with community expectations.</p></li>\n<li><p>Innovation and Continuous Improvement - Drive a culture of quality by design where quality practices are embedded in the service and solution delivery process.</p></li>\n</ul>\n<p>Using your credentials related to data science, mathematics, actuary, statistic or related fields, you will bring demonstrated experience working in high volume, high impact Data Literacy environments. Your experience in formulating complex data models or algorithms has enabled you to develop and maintain data architectures, including databases and large-scale processing systems. You have contributed to improved production reliability and created the environment for improved data quality decisions by your stakeholders.</p>\n<h3>About You</h3>\n<p>You will be known for and highly respected by your colleagues and leaders for your thought leadership and have been involved in building organisational capability in data literacy. Your deep expertise in formulating complex data models or algorithms and using advanced statistical techniques has led you to be a subject matter expert in this field.</p>\n<h3>Qualifications</h3>\n<p>Tertiary qualifications in Statistics, Engineering, Maths, Computer Science, Finance, Marketing, Economics or another relevant quantitative discipline will be highly regarded along with strong working experience in a data engineering capability.</p>\n<h3>Further Information</h3>\n<p>For a confidential discussion, please contact Dylan Matthews, Senior Manager Data Platform via email dylan.matthews@safetransport.vic.gov.au.</p>\n<p>It is an inherent requirement of this position that the employee is ready, willing, and able to perform work outside their ordinary place of residence, including at ST Vic workplaces.</p>\n<h3>Other relevant information</h3>\n<p>Preferred candidates will be required to undertake pre-employment screening, including a Declaration and Consent form and a National Police Check.</p>\n<p>To be eligible for appointment to this role, applicants will possess corresponding work rights for the advertised employment period. Appointment to an ongoing position is only available to an Australian/New Zealand citizen or an Australian Permanent Resident.</p>\n<h3>What we offer you?</h3>\n<p>ST Vic is committed to building a culture of flexible work arrangements, providing professional development programs and supporting ways of working that help employees balance work and life. We welcome applicants from a diverse range of backgrounds, including veterans, people who identify as Aboriginal and Torres Strait Islander, have a disability, are from varied cultural backgrounds and those who identify as LGBTIQ+.</p>\n<h3>A Workplace committed to safety and wellbeing</h3>\n<p>ST Vic is committed to providing a safe and healthy workplace for all its people, including contractors and visitors. We have a strong focus on initiating wellness events for our people to foster a sense of enjoyment and positive mental health. In some instances, ST Vic also offers flexible working arrangements.</p>\n<h3>Diversity and Inclusion</h3>\n<p>ST Vic’s broad diversity program enables us to attract, recruit, retain and develop a diverse workforce to foster greater innovation, greater customer connection and increased wellbeing and satisfaction.</p>\n<h3>Learning and Development</h3>\n<p>We want you to grow, develop and learn with us! ST Vic provides you with access to a range of internal and external learning and development opportunities to support your performance in your role and further your career aspirations.</p>",
+            "countries": [
+              "au"
+            ],
+            "regions": [
+              "apac"
+            ],
+            "skills": [
+              "cloud",
+              "data-engineering",
+              "data-quality",
+              "data-science",
+              "statistics"
+            ],
+            "cities": [
+              "Melbourne"
+            ],
+            "metros": [
+              "Melbourne (AU)"
+            ],
+            "collections": [],
+            "is_tech": "tech",
+            "posted_at": "2026-10-27T05:12:02Z",
+            "created_at": "2026-10-27T05:12:02Z",
+            "updated_at": "2026-10-27T05:28:58Z",
+            "last_seen_at": "2026-10-27T09:20:34Z",
+            "closed_at": null,
+            "enrichment": {
+              "summary": "Senior Data Engineer (VPS6, 12-month fixed term) at Safe Transport Victoria in Melbourne, developing, maintaining and improving the ST Vic data platform and its cloud environment. The role provides technical leadership, building data architectures, databases and large-scale processing systems to support the Data Strategy.",
+              "employment_type": "contract",
+              "visa_sponsorship": false,
+              "salary_min": 142790,
+              "salary_max": 191084,
+              "salary_currency": "AUD",
+              "salary_period": "year",
+              "seniority": "senior",
+              "category": "data_engineering",
+              "domains": [
+                "mobility",
+                "govtech"
+              ],
+              "posting_language": "en",
+              "company_type": "government",
+              "requirements": [
+                {
+                  "text": "Demonstrated experience working in high-volume, high-impact data literacy environments",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience formulating complex data models or algorithms, including advanced statistical techniques",
+                  "priority": "required"
+                },
+                {
+                  "text": "Experience developing and maintaining data architectures, including databases and large-scale processing systems",
+                  "priority": "required"
+                },
+                {
+                  "text": "Strong working experience in a data engineering capability",
+                  "priority": "required"
+                },
+                {
+                  "text": "Tertiary qualifications in Statistics, Engineering, Maths, Computer Science, Finance, Marketing, Economics or another relevant quantitative discipline",
+                  "priority": "preferred"
+                },
+                {
+                  "text": "Corresponding work rights for the advertised employment period (ongoing appointment only for Australian/NZ citizens or Australian Permanent Residents)",
+                  "priority": "required"
+                },
+                {
+                  "text": "Willing to work outside ordinary place of residence, including at ST Vic workplaces",
+                  "priority": "required"
+                },
+                {
+                  "text": "Pre-employment screening including Declaration and Consent form and National Police Check",
+                  "priority": "required"
+                }
+              ]
+            },
+            "enriched_at": "2026-10-27T05:28:58Z",
+            "enrichment_version": 2,
+            "view_count": 0,
+            "applied_count": 0,
+            "upvote_count": 0,
+            "downvote_count": 0,
+            "my_vote": 0
+          }
+        ],
+        "referral_available": false
+      }
+    }
+  }
+}

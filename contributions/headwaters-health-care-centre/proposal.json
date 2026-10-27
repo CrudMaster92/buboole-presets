@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "headwaters-health-care-centre",
+    "name": "Headwaters Health Care Centre",
+    "aliases": [],
+    "website_url": "https://headwatershealth.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "headwaters-health-care-centre",
+    "company_id": "headwaters-health-care-centre",
+    "revision": 1,
+    "label": "Headwaters Health Care Centre public careers",
+    "careers_url": "https://hwaternew.bluelemonmedia.com/hr",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Headwaters Health Care Centre",
+      "careers_url": "https://hwaternew.bluelemonmedia.com/hr",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "hwaternew.bluelemonmedia.com"
+      ],
+      "request": {
+        "url": "https://hwaternew.bluelemonmedia.com/hr",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "table.tbJobs tr:has(a[href*=\"?job=\"])",
+        "title": "a[href*=\"?job=\"]",
+        "link": "a[href*=\"?job=\"]",
+        "description": "td:nth-of-type(3)"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://hwaternew.bluelemonmedia.com/hr",
+    "fetched_at": "2026-10-27T13:07:57.179787Z",
+    "payload": "<html><body><div id=\"insideContent\"><div id=\"html_content\"><div><div id=\"Content_ctl00_pnlList\"><div id=\"hr1016\"><h3><table class=\"tbJobs\"><tr><td>2026-10-16</td><td>277-26</td><td><a href=\"/hr?job=23737\">Ultrasound Technologist - 0.80 FTE Full Time (Diagnostic Imaging)</a></td><td></td></tr></table></h3></div></div></div></div></div><div id=\"insideContent\"><div id=\"html_content\"><div><div id=\"Content_ctl00_pnlList\"><div id=\"hr1016\"><h3><table class=\"tbJobs\"><tr><td>2026-10-16</td><td>278-26</td><td><a href=\"/hr?job=23738\">Ultrasound Technologist - Part Time (Diagnostic Imaging)</a></td><td></td></tr></table></h3></div></div></div></div></div><div id=\"insideContent\"><div id=\"html_content\"><div><div id=\"Content_ctl00_pnlList\"><div id=\"hr1016\"><h3><table class=\"tbJobs\"><tr><td>2026-10-13</td><td>271-26</td><td><a href=\"/hr?job=23731\">Ultrasound Technologist - Casual (Diagnostic Imaging)</a></td><td></td></tr></table></h3></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://headwatershealth.ca/",
+    "explanation": "Official employer website https://headwatershealth.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://hwaternew.bluelemonmedia.com/hr?job=23737",
+      "https://hwaternew.bluelemonmedia.com/hr?job=23738",
+      "https://hwaternew.bluelemonmedia.com/hr?job=23731"
+    ]
+  }
+}

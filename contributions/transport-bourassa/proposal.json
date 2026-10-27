@@ -1,0 +1,102 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "transport-bourassa",
+    "name": "Transport Bourassa",
+    "aliases": [],
+    "website_url": "https://bourassa.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "transportation"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "transport-bourassa",
+    "company_id": "transport-bourassa",
+    "revision": 1,
+    "label": "Transport Bourassa public careers",
+    "careers_url": "https://bourassa.ca/carriere",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Transport Bourassa",
+      "careers_url": "https://bourassa.ca/carriere",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "bourassa.ca"
+      ],
+      "request": {
+        "url": "https://bourassa.ca/carriere/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".row-single-job",
+        "title": "a.single-job-link",
+        "link": "a.single-job-link",
+        "location": ".col-ville h4"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8,
+        "location_suffix": "Québec, Canada"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://bourassa.ca/carriere/",
+    "fetched_at": "2026-10-27T13:07:57.602527Z",
+    "payload": "<html><body><main id=\"main\"><div class=\"carriere\" id=\"carriere\"><section class=\"section-postes-disponibles\" id=\"postes-disponibles\"><ul class=\"department-list\"><li class=\"single-department\" id=\"administration\"><div class=\"liste1 liste-jobs\"><div class=\"row-single-job\" data-city=\"Saint-Jean-Sur-Richelieu\" data-row=\"row1\">\n<div class=\"col-12 col-xl-6 col-nom\">\n<a class=\"single-job-link\" href=\"https://bourassa.ca/available-positions/commis-a-lentree-de-donnees/\">\n                                            COMMIS À L’ENTRÉE DE DONNÉES                                        </a>\n</div>\n<div class=\"col-12 col-sm-7 col-xl-2 col-ville\">\n<h4>Saint-Jean-Sur-Richelieu</h4>\n</div>\n<div class=\"col-12 col-sm-5 col-xl-4 col-socials\">\n<a class=\"left-button btn no-transition\" href=\"https://bourassa.ca/available-positions/commis-a-lentree-de-donnees/?apply=true\">\n<span>Postulez</span>\n</a>\n<div class=\"socials\">\n<p class=\"partager\">Partager</p>\n<a class=\"share-facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://bourassa.ca/available-positions/commis-a-lentree-de-donnees/\" target=\"_blank\">\n\n</a>\n<a class=\"share-instagram\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://bourassa.ca/available-positions/commis-a-lentree-de-donnees/\" target=\"_blank\">\n\n</a>\n<a class=\"share-email\" href=\"mailto:?subject=Poste transport Bourassa COMMIS À L’ENTRÉE DE DONNÉES&amp;body=https://bourassa.ca/available-positions/commis-a-lentree-de-donnees/\">\n\n</a>\n</div>\n</div>\n</div></div></li></ul></section></div></main><main id=\"main\"><div class=\"carriere\" id=\"carriere\"><section class=\"section-postes-disponibles\" id=\"postes-disponibles\"><ul class=\"department-list\"><li class=\"single-department\" id=\"administration\"><div class=\"liste1 liste-jobs\"><div class=\"row-single-job\" data-city=\"Saint-Jean-Sur-Richelieu\" data-row=\"row1\">\n<div class=\"col-12 col-xl-6 col-nom\">\n<a class=\"single-job-link\" href=\"https://bourassa.ca/available-positions/administrateur-de-systemes/\">\n                                            ADMINISTRATEUR DE SYSTÈMES                                        </a>\n</div>\n<div class=\"col-12 col-sm-7 col-xl-2 col-ville\">\n<h4>Saint-Jean-Sur-Richelieu</h4>\n</div>\n<div class=\"col-12 col-sm-5 col-xl-4 col-socials\">\n<a class=\"left-button btn no-transition\" href=\"https://bourassa.ca/available-positions/administrateur-de-systemes/?apply=true\">\n<span>Postulez</span>\n</a>\n<div class=\"socials\">\n<p class=\"partager\">Partager</p>\n<a class=\"share-facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://bourassa.ca/available-positions/administrateur-de-systemes/\" target=\"_blank\">\n\n</a>\n<a class=\"share-instagram\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://bourassa.ca/available-positions/administrateur-de-systemes/\" target=\"_blank\">\n\n</a>\n<a class=\"share-email\" href=\"mailto:?subject=Poste transport Bourassa ADMINISTRATEUR DE SYSTÈMES&amp;body=https://bourassa.ca/available-positions/administrateur-de-systemes/\">\n\n</a>\n</div>\n</div>\n</div></div></li></ul></section></div></main><main id=\"main\"><div class=\"carriere\" id=\"carriere\"><section class=\"section-postes-disponibles\" id=\"postes-disponibles\"><ul class=\"department-list\"><li class=\"single-department\" id=\"administration\"><div class=\"liste1 liste-jobs\"><div class=\"row-single-job\" data-city=\"Saint-Jean-Sur-Richelieu\" data-row=\"row1\">\n<div class=\"col-12 col-xl-6 col-nom\">\n<a class=\"single-job-link\" href=\"https://bourassa.ca/available-positions/5698/\">\n                                            TECHNICIEN COMPTABLE                                        </a>\n</div>\n<div class=\"col-12 col-sm-7 col-xl-2 col-ville\">\n<h4>Saint-Jean-Sur-Richelieu</h4>\n</div>\n<div class=\"col-12 col-sm-5 col-xl-4 col-socials\">\n<a class=\"left-button btn no-transition\" href=\"https://bourassa.ca/available-positions/5698/?apply=true\">\n<span>Postulez</span>\n</a>\n<div class=\"socials\">\n<p class=\"partager\">Partager</p>\n<a class=\"share-facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://bourassa.ca/available-positions/5698/\" target=\"_blank\">\n\n</a>\n<a class=\"share-instagram\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://bourassa.ca/available-positions/5698/\" target=\"_blank\">\n\n</a>\n<a class=\"share-email\" href=\"mailto:?subject=Poste transport Bourassa TECHNICIEN COMPTABLE&amp;body=https://bourassa.ca/available-positions/5698/\">\n\n</a>\n</div>\n</div>\n</div></div></li></ul></section></div></main></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://bourassa.ca/",
+    "explanation": "Official employer website https://bourassa.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://bourassa.ca/available-positions/commis-a-lentree-de-donnees",
+      "https://bourassa.ca/available-positions/administrateur-de-systemes",
+      "https://bourassa.ca/available-positions/5698"
+    ]
+  }
+}

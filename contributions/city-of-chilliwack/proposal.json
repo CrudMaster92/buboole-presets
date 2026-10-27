@@ -1,0 +1,99 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-chilliwack",
+    "name": "City of Chilliwack",
+    "aliases": [],
+    "website_url": "https://chilliwack.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-chilliwack",
+    "company_id": "city-of-chilliwack",
+    "revision": 1,
+    "label": "City of Chilliwack public careers",
+    "careers_url": "https://jobs.chilliwack.com/postings",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "City of Chilliwack",
+      "careers_url": "https://jobs.chilliwack.com/postings",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "jobs.chilliwack.com"
+      ],
+      "request": {
+        "url": "https://jobs.chilliwack.com/postings/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "tr:has(a[href*=\"jobsAction=view\"]):has(td:-soup-contains(\"Closing in\"))",
+        "title": "td:nth-of-type(2)",
+        "link": "a[href*=\"jobsAction=view\"]",
+        "description": "td:nth-of-type(4)"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://jobs.chilliwack.com/postings/",
+    "fetched_at": "2026-10-27T13:07:58.060556Z",
+    "payload": "<html><body><div id=\"mainContainer\"><div id=\"hrContent\"><table class=\"infoTable postingList\"><tr bgcolor=\"#ffffff\" valign=\"top\">\n<td><a href=\"index.cfm?jobsAction=view&amp;pID=10528\">2026-91</a></td>\n<td>Senior Environmental Specialist -Landfill Systems Operator (Full Time)</td>\n<td>Nov 26, 2026</td>\n<td>Closing in 30 Days</td>\n<td align=\"right\"> </td>\n</tr></table></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://chilliwack.com/",
+    "explanation": "Official employer website https://chilliwack.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.chilliwack.com/index.cfm?jobsAction=view&pID=10528"
+    ]
+  }
+}

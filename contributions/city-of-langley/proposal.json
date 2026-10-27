@@ -1,0 +1,100 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-langley",
+    "name": "City of Langley",
+    "aliases": [],
+    "website_url": "https://langleycity.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-langley",
+    "company_id": "city-of-langley",
+    "revision": 1,
+    "label": "City of Langley public careers",
+    "careers_url": "https://www.langleycity.ca/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "City of Langley",
+      "careers_url": "https://www.langleycity.ca/careers",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.langleycity.ca"
+      ],
+      "request": {
+        "url": "https://www.langleycity.ca/careers",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".views-row:has(h3 a[href^=\"/careers/\"])",
+        "title": "h3 a",
+        "link": "h3 a",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.langleycity.ca/careers",
+    "fetched_at": "2026-10-27T13:07:07.040528Z",
+    "payload": "<html><body><div class=\"dialog-off-canvas-main-canvas\"><main class=\"main\"><div class=\"container\"><div class=\"content\" id=\"main-content\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-langley-upanupstarter\"><article class=\"node node--type-page node--promoted node--view-mode-full\"><div class=\"node__content\"><div class=\"field field--name-field-content-rows field--type-entity-reference-revisions field--label-hidden content-rows field__items\"><div class=\"field__item content-row\"><div class=\"paragraph paragraph--type--content-row paragraph--view-mode--default\"><div class=\"field field--name-field-row-component field--type-entity-reference-revisions field--label-hidden field__items content-row__component\"><div class=\"field__item\"><div class=\"paragraph paragraph--type--view paragraph--view-mode--default\"><div class=\"field field--name-field-view field--type-viewsreference field--label-hidden field__item\"><div class=\"views-element-container\"><div class=\"view view-job-postings view-id-job_postings view-display-id-block_1 js-view-dom-id-1d1bca6f03164a00437090175f518330031684a69789387b1579b37aef2a0fc0 contextual-region\"><div class=\"list-view view-content\"><div class=\"views-row\"><div class=\"views-field views-field-title\"><h3 class=\"field-content\"><a href=\"/careers/fire-prevention-officer-1\" hreflang=\"en\">Fire Prevention Officer </a></h3></div><div class=\"views-field views-field-field-date\"><strong class=\"views-label views-label-field-date\">Closing date: </strong><span class=\"field-content\"><time class=\"datetime\" datetime=\"2026-11-02T12:00:00Z\">November 2, 2026</time></span></div><div class=\"views-field views-field-field-competition-number\"><strong class=\"views-label views-label-field-competition-number\">Competition number: </strong><span class=\"field-content\">26-34</span></div><div class=\"views-field views-field-field-employment-type\"><strong class=\"views-label views-label-field-employment-type\">Employment Type: </strong><span class=\"field-content\">Regular Full-time, IAFF</span></div></div></div></div></div></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div><div class=\"dialog-off-canvas-main-canvas\"><main class=\"main\"><div class=\"container\"><div class=\"content\" id=\"main-content\"><div class=\"region region-content\"><div class=\"block block-system block-system-main-block\" id=\"block-langley-upanupstarter\"><article class=\"node node--type-page node--promoted node--view-mode-full\"><div class=\"node__content\"><div class=\"field field--name-field-content-rows field--type-entity-reference-revisions field--label-hidden content-rows field__items\"><div class=\"field__item content-row\"><div class=\"paragraph paragraph--type--content-row paragraph--view-mode--default\"><div class=\"field field--name-field-row-component field--type-entity-reference-revisions field--label-hidden field__items content-row__component\"><div class=\"field__item\"><div class=\"paragraph paragraph--type--view paragraph--view-mode--default\"><div class=\"field field--name-field-view field--type-viewsreference field--label-hidden field__item\"><div class=\"views-element-container\"><div class=\"view view-job-postings view-id-job_postings view-display-id-block_1 js-view-dom-id-1d1bca6f03164a00437090175f518330031684a69789387b1579b37aef2a0fc0 contextual-region\"><div class=\"list-view view-content\"><div class=\"views-row\"><div class=\"views-field views-field-title\"><h3 class=\"field-content\"><a href=\"/careers/clerical-pool\" hreflang=\"en\">Clerical Pool</a></h3></div><div class=\"views-field views-field-field-date\"><strong class=\"views-label views-label-field-date\">Closing date: </strong><span class=\"field-content\"><time class=\"datetime\" datetime=\"2026-11-20T12:00:00Z\">November 20, 2026</time></span></div><div class=\"views-field views-field-field-competition-number\"><strong class=\"views-label views-label-field-competition-number\">Competition number: </strong><span class=\"field-content\">26-35</span></div><div class=\"views-field views-field-field-employment-type\"><strong class=\"views-label views-label-field-employment-type\">Employment Type: </strong><span class=\"field-content\">Casual, CUPE </span></div></div></div></div></div></div></div></div></div></div></div></div></div></article></div></div></div></div></main></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://langleycity.ca/",
+    "explanation": "Official employer website https://langleycity.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.langleycity.ca/careers/fire-prevention-officer-1",
+      "https://www.langleycity.ca/careers/clerical-pool"
+    ]
+  }
+}

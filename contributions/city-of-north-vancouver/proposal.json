@@ -1,0 +1,101 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-north-vancouver",
+    "name": "City of North Vancouver",
+    "aliases": [],
+    "website_url": "https://cnv.org/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-north-vancouver",
+    "company_id": "city-of-north-vancouver",
+    "revision": 1,
+    "label": "City of North Vancouver public careers",
+    "careers_url": "https://cnv.peopleadmin.ca/postings/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "City of North Vancouver",
+      "careers_url": "https://cnv.peopleadmin.ca/postings/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "cnv.peopleadmin.ca"
+      ],
+      "request": {
+        "url": "https://cnv.peopleadmin.ca/postings/search",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".job-item-posting",
+        "title": "h3 a",
+        "link": "h3 a",
+        "description": ".job-description"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://cnv.peopleadmin.ca/postings/search",
+    "fetched_at": "2026-10-27T13:07:56.251822Z",
+    "payload": "<html><body><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Building Service Worker\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/4331\">Building Service Worker</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              2026-0117\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Corporate Services\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              City\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n</div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City.The Corporate Services Department – Facilities Division requires auxiliary Building Service Workers.\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/4331\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=4331\" id=\"bookmark_posting_4331\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Facilities Maintenance Worker 1\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/4329\">Facilities Maintenance Worker 1</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              2026-0112\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Corporate Services\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              City\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              11/03/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City.The Corporate Services Department – Facilities Division, is looking for an auxiliary Facilities Maintenance Worker 1.\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/4329\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=4329\" id=\"bookmark_posting_4329\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div><div class=\"container\" id=\"wrapperDiv\"><div id=\"mainBodyDiv\"><div id=\"contentWrapper\"><div class=\"mainContent\" id=\"content\"><div id=\"content_inner\"><div id=\"search_results\"><div class=\"job-item job-item-posting\" data-posting-title=\"Plan Checker 1\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-md-4 col-xs-12 job-title job-title-text-wrap\">\n<h3>\n<a href=\"/postings/4327\">Plan Checker 1</a>\n</h3>\n</div>\n<div class=\"col-md-8 col-xs-12\">\n<div class=\"col-md-2 col-xs-12\"></div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              2026-0116\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              Planning, Development &amp; Real Estate\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              City\n          </div>\n<div class=\"col-md-2 col-xs-12 job-title job-title-text-wrap col-md-push-2\">\n              11/04/2026\n          </div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-12 col-xs-12\">\n<div class=\"details\">\n<span class=\"job-description\">\n                The City of North Vancouver is the urban core of the beautiful North Shore and has a long-term vision to be “The Healthiest Small City in the World”, with five key priorities to be a City for People, a Resilient City, a Vibrant City, a Connected City and a Prosperous City. The Planning, Development &amp; Real Estate Department is looking for a temporary full-time Plan Checker 1 to join their te...\n              </span>\n<span class=\"job-actions\">\n<a class=\"btn primary_button_color\" href=\"/postings/4327\">View Details</a>\n<div aria-live=\"polite\" id=\"bookmark_status\"></div>\n<a class=\"btn tertiary_button_color\" data-method=\"post\" data-remote=\"true\" href=\"/bookmarks?posting_id=4327\" id=\"bookmark_posting_4327\" rel=\"nofollow\">Bookmark</a>\n</span>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://cnv.org/",
+    "explanation": "Official employer website https://cnv.org/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://cnv.peopleadmin.ca/postings/4331",
+      "https://cnv.peopleadmin.ca/postings/4329",
+      "https://cnv.peopleadmin.ca/postings/4327"
+    ]
+  }
+}

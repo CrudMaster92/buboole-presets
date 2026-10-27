@@ -1,0 +1,244 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-new-30-20261027",
+  "revision": 1,
+  "name": "Canadian Employers — 30 new sources, October 2026",
+  "description": "Thirty Canadian employer boards screened against existing catalog/tracker identities and FreeHire. Live-tested candidates awaiting upstream review; explicitly partial sources may include international roles and do not establish a complete Canadian-vacancy inventory.",
+  "tags": [
+    "Canada",
+    "Hiring expansion"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "cambridge-memorial-hospital",
+      "monitor_ids": [
+        "cambridge-memorial-hospital"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "apotex",
+      "monitor_ids": [
+        "apotex"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "region-of-waterloo",
+      "monitor_ids": [
+        "region-of-waterloo"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "westburne",
+      "monitor_ids": [
+        "westburne"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "niagara-health",
+      "monitor_ids": [
+        "niagara-health"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "lakeridge-health",
+      "monitor_ids": [
+        "lakeridge-health"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "city-of-langley",
+      "monitor_ids": [
+        "city-of-langley"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "genome-quebec",
+      "monitor_ids": [
+        "genome-quebec"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "west-neighbourhood-house",
+      "monitor_ids": [
+        "west-neighbourhood-house"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "ocean-choice-international",
+      "monitor_ids": [
+        "ocean-choice-international"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "ballet-bc",
+      "monitor_ids": [
+        "ballet-bc"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "contemporary-calgary",
+      "monitor_ids": [
+        "contemporary-calgary"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "soulpepper-theatre",
+      "monitor_ids": [
+        "soulpepper-theatre"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "flemingdon-health-centre",
+      "monitor_ids": [
+        "flemingdon-health-centre"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "city-of-maple-ridge",
+      "monitor_ids": [
+        "city-of-maple-ridge"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "joseph-brant-hospital",
+      "monitor_ids": [
+        "joseph-brant-hospital"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "lumenus-community-services",
+      "monitor_ids": [
+        "lumenus-community-services"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "city-of-north-vancouver",
+      "monitor_ids": [
+        "city-of-north-vancouver"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "college-of-new-caledonia",
+      "monitor_ids": [
+        "college-of-new-caledonia"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "district-of-saanich",
+      "monitor_ids": [
+        "district-of-saanich"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "campbellford-memorial-hospital",
+      "monitor_ids": [
+        "campbellford-memorial-hospital"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "polycultural-immigrant-and-community-services",
+      "monitor_ids": [
+        "polycultural-immigrant-and-community-services"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "headwaters-health-care-centre",
+      "monitor_ids": [
+        "headwaters-health-care-centre"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "national-music-centre",
+      "monitor_ids": [
+        "national-music-centre"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "transport-bourassa",
+      "monitor_ids": [
+        "transport-bourassa"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "groupe-guilbault",
+      "monitor_ids": [
+        "groupe-guilbault"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "city-of-chilliwack",
+      "monitor_ids": [
+        "city-of-chilliwack"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "city-of-parksville",
+      "monitor_ids": [
+        "city-of-parksville"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "royal-ottawa-health-care-group",
+      "monitor_ids": [
+        "royal-ottawa-health-care-group"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    },
+    {
+      "company_id": "central-toronto-youth-services",
+      "monitor_ids": [
+        "central-toronto-youth-services"
+      ],
+      "note": "Live-tested public employer source; bounded/partial coverage. Upstream review and public-feed admission are separate."
+    }
+  ]
+}

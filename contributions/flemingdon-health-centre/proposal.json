@@ -1,0 +1,102 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "flemingdon-health-centre",
+    "name": "Flemingdon Health Centre",
+    "aliases": [],
+    "website_url": "https://fhc-chc.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "flemingdon-health-centre",
+    "company_id": "flemingdon-health-centre",
+    "revision": 1,
+    "label": "Flemingdon Health Centre public careers",
+    "careers_url": "https://www.fhc-chc.com/get-involved/employment",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Flemingdon Health Centre",
+      "careers_url": "https://www.fhc-chc.com/get-involved/employment",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.fhc-chc.com"
+      ],
+      "request": {
+        "url": "https://www.fhc-chc.com/get-involved/employment/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".wpb_wrapper:has(p:-soup-contains(\"Open until filled\")):has(a[href$=\".pdf\"])",
+        "title": "a[href$=\".pdf\"]",
+        "link": "a[href$=\".pdf\"]",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 0,
+        "coverage_note": "Ongoing roles with explicit Open until filled wording only; dated adverts excluded."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.fhc-chc.com/get-involved/employment/",
+    "fetched_at": "2026-10-27T13:07:55.703175Z",
+    "payload": "<html><body><div><div class=\"wpb-content-wrapper\"><div class=\"vc_row wpb_row vc_row-fluid vc_custom_1768402715563 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\"><div class=\"wpb_column vc_column_container vc_col-sm-3\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Nurse Practitioner- 0.4 FT, Regular Part-Time</strong></p>\n<p>Deadline for Application: Open until filled</p>\n<p><a href=\"https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf\">Job Posting – Nurse Practitioner- 0.4 FT Regular</a></p>\n</div>\n</div>\n</div></div></div></div></div></div><div><div class=\"wpb-content-wrapper\"><div class=\"vc_row wpb_row vc_row-fluid vc_custom_1768402715563 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\"><div class=\"wpb_column vc_column_container vc_col-sm-3\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_text_column wpb_content_element\"><div class=\"wpb_wrapper\">\n<p><strong>Nurse Practitioner- 0.4 FT, Regular Part-Time</strong></p>\n<p>Deadline for Application: Open until filled</p>\n<p><a href=\"https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf\">Job Posting – Nurse Practitioner- 0.4 FT Regular</a></p>\n</div></div></div></div></div></div></div></div><div><div class=\"wpb-content-wrapper\"><div class=\"vc_row wpb_row vc_row-fluid vc_custom_1768402715563 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\"><div class=\"wpb_column vc_column_container vc_col-sm-3\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Physician Assistant (0.5 to 1.0 FTE)</strong></p>\n<p>Deadline for applications: Open until filled</p>\n<p><a href=\"https://www.fhc-chc.com/wp-content/uploads/2026/08/Job-Posting-PA-0.5-to-1.0-FTE-Aug-2026.pdf\">Job Posting – PA – 0.5 to 1.0 FTE – Aug 2026</a></p>\n</div>\n</div>\n</div></div></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://fhc-chc.com/",
+    "explanation": "Official employer website https://fhc-chc.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.fhc-chc.com/wp-content/uploads/2026/10/Job-Posting-Nurse-Practitioner-0.4-FT-Regular.pdf",
+      "https://www.fhc-chc.com/wp-content/uploads/2026/08/Job-Posting-PA-0.5-to-1.0-FTE-Aug-2026.pdf",
+      "https://www.fhc-chc.com/wp-content/uploads/2025/11/Job-Posting-Nurse-Practitioner-0.5-FT-Contract.pdf"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "groupe-guilbault",
+    "name": "Groupe Guilbault",
+    "aliases": [],
+    "website_url": "https://groupeguilbault.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "transportation"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "groupe-guilbault",
+    "company_id": "groupe-guilbault",
+    "revision": 1,
+    "label": "Groupe Guilbault public careers",
+    "careers_url": "https://www.groupeguilbault.com/en/career/job-opportunities-all",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Groupe Guilbault",
+      "careers_url": "https://www.groupeguilbault.com/en/career/job-opportunities-all",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.groupeguilbault.com"
+      ],
+      "request": {
+        "url": "https://www.groupeguilbault.com/en/career/job-opportunities-all",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".displayjob",
+        "title": ".titreJob",
+        "link": "a.jobDetails",
+        "location": ".villeJob span",
+        "description": ".categorieJob"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.groupeguilbault.com/en/career/job-opportunities-all",
+    "fetched_at": "2026-10-27T13:07:57.781773Z",
+    "payload": "<html><body><div class=\"container-fluid job opp\" id=\"carrieres\"><div class=\"row memeHauteur\"><div class=\"col-md-7 col-lg-8 section grisFonce\"><div class=\"displayjob\">\n<div class=\"titreJob\">Heavy vehicle mechanic </div>\n<div class=\"villeJob\">City : <span>Boucherville</span></div>\n<div class=\"categorieJob\">Category : <span>Mécanique</span></div>\n<div class=\"horaireJob\">Schedule : <span>Soir</span></div>\n<div class=\"description descriptionCourte\" id=\"description\"><p> </p>\n<p> </p>\n<p><strong>TO  KEEP ITS FLEET OF VEHICLES WELL-MAINTAINED, RUNNING SMOOTHLY AS WELL AS SHARP LOOKING, GUILBAULT IS LOOKING FOR A NEW MECHANIC.   </strong></p>\n<p>You are not afraid of getting your hands dirty? Big engines have no secrets for you? Take a trip with us! Being a mechanic at Guilbault is much more than performing oil changes: it is…</p></div>\n<a class=\"bouton jobDetails\" href=\"/en/career/job-opportunities/heavy-vehicle-mechanic-evening-shift-boucherville/\">See details</a>\n</div></div></div></div><div class=\"container-fluid job opp\" id=\"carrieres\"><div class=\"row memeHauteur\"><div class=\"col-md-7 col-lg-8 section grisFonce\"><div class=\"displayjob\">\n<div class=\"titreJob\">Class 1 Driver - Local Driver</div>\n<div class=\"villeJob\">City : <span>Boucherville</span></div>\n<div class=\"categorieJob\">Category : <span>Chauffeur classe 1</span></div>\n<div class=\"horaireJob\">Schedule : <span>Jour</span></div>\n<div class=\"description descriptionCourte\" id=\"description\"><p> </p>\n<p> </p>\n<p><strong>BECAUSE GOODS CANNOT REACH DESTINATION ON THEIR OWN, GUILBAULT IS LOOKING FOR A NEW LOCAL DRIVER.</strong></p>\n<p>Experienced, old or novice trucker? Take a drive with us! Being a Guilbault driver is much more than transporting goods from point A to point B: it is like going on a mission to make a real difference in people's daily l…</p></div>\n<a class=\"bouton jobDetails\" href=\"/en/career/job-opportunities/class-1-driver-local-driver-day-shift-boucherville/\">See details</a>\n</div></div></div></div><div class=\"container-fluid job opp\" id=\"carrieres\"><div class=\"row memeHauteur\"><div class=\"col-md-7 col-lg-8 section grisFonce\"><div class=\"displayjob\">\n<div class=\"titreJob\">Forklift operator - Loading dock</div>\n<div class=\"villeJob\">City : <span>Boucherville</span></div>\n<div class=\"categorieJob\">Category : <span>Quai de chargement</span></div>\n<div class=\"horaireJob\">Schedule : <span>Soir et nuit</span></div>\n<div class=\"description descriptionCourte\" id=\"description\"><p> </p>\n<p> </p>\n<p><strong>BECAUSE GOODS CANNOT MOVE AND BE STORED ON THEIR OWN, GUILBAULT IS LOOKING FOR A NEW FORKLIFT OPERATOR.</strong></p>\n<p><strong> </strong>Do you like small vehicles? Are you always on the move and enjoy working in a team? Are you interested in the transportation industry and are you meticulous while being in good physical shape? Take a trip with us!…</p></div>\n<a class=\"bouton jobDetails\" href=\"/en/career/job-opportunities/forklift-operator-loading-dock-evening-and-night-shifts-boucherville/\">See details</a>\n</div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://groupeguilbault.com/",
+    "explanation": "Official employer website https://groupeguilbault.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.groupeguilbault.com/en/career/job-opportunities/heavy-vehicle-mechanic-evening-shift-boucherville",
+      "https://www.groupeguilbault.com/en/career/job-opportunities/class-1-driver-local-driver-day-shift-boucherville",
+      "https://www.groupeguilbault.com/en/career/job-opportunities/forklift-operator-loading-dock-evening-and-night-shifts-boucherville"
+    ]
+  }
+}

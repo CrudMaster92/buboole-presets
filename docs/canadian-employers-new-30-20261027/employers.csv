@@ -1,0 +1,31 @@
+﻿company,id,observed_jobs,nonempty_description_records,strategy,partial,careers_url
+Apotex,apotex,92,0,generic_html,True,https://careers.apotex.com/search
+Westburne,westburne,82,0,generic_html,True,https://rexel.ca/westburne-view-jobs-en
+Royal Ottawa Health Care Group,royal-ottawa-health-care-group,72,0,generic_html,True,https://jobs.jobvite.com/theroyal/jobs?nl=1
+College of New Caledonia,college-of-new-caledonia,49,48,generic_html,True,https://cnc.peopleadmin.ca/postings/search
+Headwaters Health Care Centre,headwaters-health-care-centre,40,40,generic_html,True,https://hwaternew.bluelemonmedia.com/hr
+Region of Waterloo,region-of-waterloo,25,0,generic_html,True,https://careers.regionofwaterloo.ca/RoW/search?createNewAlert=false&q=
+Transport Bourassa,transport-bourassa,25,0,generic_html,True,https://bourassa.ca/carriere
+District of Saanich,district-of-saanich,21,0,generic_html,True,https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities.html
+Cambridge Memorial Hospital,cambridge-memorial-hospital,20,20,generic_html,True,https://encareers-cmh.icims.com/jobs/search
+Joseph Brant Hospital,joseph-brant-hospital,15,0,generic_html,True,https://josephbranthospital.hiringplatform.ca/list/careers
+Ocean Choice International,ocean-choice-international,13,0,generic_html,True,https://oceanchoice.com/careers
+City of Maple Ridge,city-of-maple-ridge,11,0,generic_html,True,https://mapleridge.hiringplatform.ca/list/external
+Niagara Health,niagara-health,10,0,generic_html,True,https://careers.niagarahealth.on.ca/erecruit/Search_Results.aspx
+Lakeridge Health,lakeridge-health,10,0,generic_html,True,https://careers.lakeridgehealth.on.ca/erecruit/Search_Results.aspx
+City of North Vancouver,city-of-north-vancouver,9,9,generic_html,True,https://cnv.peopleadmin.ca/postings/search
+Campbellford Memorial Hospital,campbellford-memorial-hospital,9,0,generic_html,True,https://cmh.ca/job-postings
+West Neighbourhood House,west-neighbourhood-house,7,0,generic_html,True,https://www.westnh.org/jobopportunities
+Lumenus Community Services,lumenus-community-services,5,0,generic_html,True,https://lumenus.hiringplatform.ca/list/careers
+Flemingdon Health Centre,flemingdon-health-centre,3,0,generic_html,True,https://www.fhc-chc.com/get-involved/employment
+Groupe Guilbault,groupe-guilbault,3,3,generic_html,True,https://www.groupeguilbault.com/en/career/job-opportunities-all
+City of Langley,city-of-langley,2,0,generic_html,True,https://www.langleycity.ca/careers
+Contemporary Calgary,contemporary-calgary,2,2,generic_html,True,https://www.contemporarycalgary.com/opportunities
+Polycultural Immigrant and Community Services,polycultural-immigrant-and-community-services,2,0,generic_html,True,https://www.polycultural.org/about-us/careers
+National Music Centre,national-music-centre,2,0,generic_html,True,https://www.studiobell.ca/careers
+Genome Quebec,genome-quebec,1,0,generic_html,True,https://genomequebec.com/carrieres
+Ballet BC,ballet-bc,1,1,generic_html,True,https://balletbc.com/employment
+Soulpepper Theatre,soulpepper-theatre,1,0,generic_html,True,https://soulpepper.ca/work-with-us
+City of Chilliwack,city-of-chilliwack,1,1,generic_html,True,https://jobs.chilliwack.com/postings
+City of Parksville,city-of-parksville,1,0,generic_html,True,https://www.parksville.ca/cms.asp?wpID=94
+Central Toronto Youth Services,central-toronto-youth-services,1,1,generic_html,True,https://ctys.org/about-us/careers

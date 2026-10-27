@@ -1,0 +1,103 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "cambridge-memorial-hospital",
+    "name": "Cambridge Memorial Hospital",
+    "aliases": [],
+    "website_url": "https://cmh.org/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "healthcare"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "cambridge-memorial-hospital",
+    "company_id": "cambridge-memorial-hospital",
+    "revision": 1,
+    "label": "Cambridge Memorial Hospital public careers",
+    "careers_url": "https://encareers-cmh.icims.com/jobs/search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Cambridge Memorial Hospital",
+      "careers_url": "https://encareers-cmh.icims.com/jobs/search",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "encareers-cmh.icims.com"
+      ],
+      "request": {
+        "url": "https://encareers-cmh.icims.com/jobs/search",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "ss": 1,
+          "in_iframe": 1
+        },
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "pr",
+        "page_size_parameter": null,
+        "page_size": 1,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".iCIMS_JobCardItem",
+        "title": ".title h3",
+        "link": ".title a[href]",
+        "location": ".header.left span:not(.field-label)",
+        "description": ".description"
+      },
+      "mapping": {},
+      "metadata": {
+        "detail_fetch_limit": 8,
+        "partial_listing": true
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://encareers-cmh.icims.com/jobs/search",
+    "fetched_at": "2026-10-27T13:07:05.873126Z",
+    "payload": "<html><body><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/22/2026 11:42 AM\">\n5 days ago<span class=\"sr-only\">(10/22/2026 11:42 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://encareers-cmh.icims.com/jobs/7061/personal-support-worker---nrt-ptc-2026-7061/job?in_iframe=1\" title=\"7061 - Personal Support Worker - NRT PTC 2026-7061\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nPersonal Support Worker - NRT PTC 2026-7061</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nJoin a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation.\r\nOur vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-7061</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nPart Time Contract</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nNursing Float Pool</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Number of Positions</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n1</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Union</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nSEIU Service – Part Time</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/21/2026 8:30 AM\">\n6 days ago<span class=\"sr-only\">(10/21/2026 8:30 AM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://encareers-cmh.icims.com/jobs/7059/registered-nurse%2c-icu-%28unmastered-line%29-ft-2026-7059/job?in_iframe=1\" title=\"7059 - Registered Nurse, ICU (Unmastered Line) FT 2026-7059\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nRegistered Nurse, ICU (Unmastered Line) FT 2026-7059</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nJoin a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation.\r\nOur vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-7059</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nFull Time</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nICU</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Number of Positions</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n4</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Union</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nONA</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div><div class=\"iCIMS_MainWrapper iCIMS_ListingsPage\"><ul class=\"container-fluid iCIMS_JobsTable\"><li class=\"iCIMS_JobCardItem\">\n<div class=\"row\">\n<div class=\"col-xs-6 header left\">\n</div>\n<div class=\"col-xs-6 header right\">\n<span class=\"sr-only field-label\">Posted Date</span>\n<span title=\"10/23/2026 3:58 PM\">\n4 days ago<span class=\"sr-only\">(10/23/2026 3:58 PM)</span></span>\n</div>\n<div class=\"col-xs-12 title\">\n<a class=\"iCIMS_Anchor\" href=\"https://encareers-cmh.icims.com/jobs/7058/shift-administrator-ft-2026-7058/job?in_iframe=1\" title=\"7058 - Shift Administrator FT 2026-7058\">\n<span class=\"sr-only field-label\">Job Title</span>\n<h3>\nShift Administrator FT 2026-7058</h3>\n</a>\n</div>\n<div class=\"col-xs-12 description\">\nJoin a hospital where everyone makes a difference! Cambridge Memorial Hospital (CMH) is a thriving community hospital that proudly provides acute care services including: Emergency, Surgery, Medicine, Women’s and Children’s Health, Intensive Care, Mental Health, and Inpatient Rehabilitation.\r\nOur vision is to creating healthier communities together. Our dedicated and skilled staff are passionate about providing...</div>\n<div class=\"col-xs-12 additionalFields\">\n<dl class=\"iCIMS_JobHeaderGroup\">\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job ID</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n2026-7058</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Job Type</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nFull Time</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Department</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nPatient Services</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Number of Positions</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\n1</span>\n</dd>\n</div>\n<div class=\"iCIMS_JobHeaderTag\">\n<dt class=\"iCIMS_JobHeaderField\">Union</dt>\n<dd class=\"iCIMS_JobHeaderData\"><span>\nONA</span>\n</dd>\n</div>\n</dl>\n</div>\n</div>\n</li></ul></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://cmh.org/",
+    "explanation": "Official employer website https://cmh.org/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://encareers-cmh.icims.com/jobs/7061/personal-support-worker---nrt-ptc-2026-7061/job?in_iframe=1",
+      "https://encareers-cmh.icims.com/jobs/7059/registered-nurse%2c-icu-%28unmastered-line%29-ft-2026-7059/job?in_iframe=1",
+      "https://encareers-cmh.icims.com/jobs/7058/shift-administrator-ft-2026-7058/job?in_iframe=1"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "city-of-parksville",
+    "name": "City of Parksville",
+    "aliases": [],
+    "website_url": "https://parksville.ca/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "public-sector"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "city-of-parksville",
+    "company_id": "city-of-parksville",
+    "revision": 1,
+    "label": "City of Parksville public careers",
+    "careers_url": "https://www.parksville.ca/cms.asp?wpID=94",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "City of Parksville",
+      "careers_url": "https://www.parksville.ca/cms.asp?wpID=94",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "www.parksville.ca"
+      ],
+      "request": {
+        "url": "https://www.parksville.ca/cms.asp?wpID=94",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": "#rt_txt:has(a[href*=\"wpID94atID\"])",
+        "title": ":scope > b:nth-of-type(2)",
+        "link": "a[href*=\"wpID94atID\"]"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 0,
+        "coverage_note": "Employer page currently advertises one position; PDF posting and job description links are preserved."
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://www.parksville.ca/cms.asp?wpID=94",
+    "fetched_at": "2026-10-27T13:07:58.117931Z",
+    "payload": "<html><body><div id=\"mainholder\"><div id=\"contentholder\"><div id=\"rt\"><div id=\"rt_txt\">\n<b>HUMAN RESOURCES</b><br/>\n<i>Employment, labour management, occupational health and safety</i>\n<ul>\n<b>General Inquiries</b><br/>\t\r\n250 954-3081<br/>\n<a href=\"mailto:hr@parksville.ca\">hr@parksville.ca</a>\n<p>\n<b>Director of Human Resources and OHS, Kelly Kalanchey</b><br/>\t\r\n250 954-3081<br/>\n<a href=\"mailto:kkalanchey@parksville.ca\">kkalanchey@parksville.ca</a>\n</p></ul>\n<div class=\"hr\"></div>\n<b>ENGINEERING TECHNOLOGIST II</b><br/>\r\nReporting to the Manager of Infrastructure, this is a technical position requiring both office and field assignments related to municipal civil engineering. Work involves civil engineering design and drafting of municipal infrastructure including roads, drainage, water and sewer utilities, parks, building and traffic facilities, inspection of works, hydraulic modeling, estimating, assisting with budgets, tendering and cost control of capital projects. This position may act as a project lead for moderately sized municipal capital projects.\r\n<p>\r\nApplicants may apply in confidence by providing a cover letter and current resume to <a \"=\"\" href=\"mailto:hr@parksville.ca\" target=\"_blank\">hr@parksville.ca</a> by 4 pm, Tuesday, November 3.\n<p>\n<ul>\n<a \"=\"\" href=\"/cms/wpattachments/wpID94atID13118.pdf\" target=\"_blank\">Job Posting</a><br/>\n<a \"=\"\" href=\"/cms/wpattachments/wpID94atID13119.pdf\" target=\"_blank\">Job Description</a>\n</ul>\n<div class=\"hr\"></div>\n\n</p></p></div></div></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://parksville.ca/",
+    "explanation": "Official employer website https://parksville.ca/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.parksville.ca/cms/wpattachments/wpID94atID13118.pdf"
+    ]
+  }
+}

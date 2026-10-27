@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "genome-quebec",
+  "company_id": "genome-quebec",
+  "revision": 1,
+  "label": "Genome Quebec public careers",
+  "careers_url": "https://genomequebec.com/carrieres",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T14:22:55.220240+00:00",
+    "job_count": 1,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs",
+      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
+      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Genome Quebec",
+    "careers_url": "https://genomequebec.com/carrieres",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "genomequebec.com"
+    ],
+    "request": {
+      "url": "https://genomequebec.com/carrieres/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".listing--careers > a",
+      "title": ".career-item__title",
+      "link": ":scope",
+      "location": ".career-item__place span",
+      "description": ":scope"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 8
+    }
+  }
+}

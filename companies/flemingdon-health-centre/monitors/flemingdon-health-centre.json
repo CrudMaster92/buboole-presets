@@ -1,0 +1,67 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "flemingdon-health-centre",
+  "company_id": "flemingdon-health-centre",
+  "revision": 1,
+  "label": "Flemingdon Health Centre public careers",
+  "careers_url": "https://www.fhc-chc.com/get-involved/employment",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T14:22:52.151490+00:00",
+    "job_count": 3,
+    "warnings": [
+      "removed 3 duplicate source IDs",
+      "description detail enrichment skipped 3 jobs after the configured 0-posting limit",
+      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
+      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "bounded",
+    "company": "Flemingdon Health Centre",
+    "careers_url": "https://www.fhc-chc.com/get-involved/employment",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.fhc-chc.com"
+    ],
+    "request": {
+      "url": "https://www.fhc-chc.com/get-involved/employment/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".wpb_wrapper:has(p:-soup-contains(\"Open until filled\")):has(a[href$=\".pdf\"])",
+      "title": "a[href$=\".pdf\"]",
+      "link": "a[href$=\".pdf\"]",
+      "description": ":scope"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 0,
+      "coverage_note": "Ongoing roles with explicit Open until filled wording only; dated adverts excluded."
+    }
+  }
+}

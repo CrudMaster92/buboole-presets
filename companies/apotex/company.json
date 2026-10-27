@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "apotex",
+  "name": "Apotex",
+  "aliases": [],
+  "website_url": "https://apotex.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "pharmaceuticals"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

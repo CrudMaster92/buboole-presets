@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lakeridge-health",
+  "name": "Lakeridge Health",
+  "aliases": [],
+  "website_url": "https://lakeridgehealth.on.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Canadian hiring expansion"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "base_commit": "fa302b9485289a85592ce9019e92535af5747395",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "genome-quebec",
+    "name": "Genome Quebec",
+    "aliases": [],
+    "website_url": "https://genomequebec.com/",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "nonprofit"
+      ],
+      "specialties": [],
+      "tags": [
+        "Canada",
+        "Canadian hiring expansion"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "genome-quebec",
+    "company_id": "genome-quebec",
+    "revision": 1,
+    "label": "Genome Quebec public careers",
+    "careers_url": "https://genomequebec.com/carrieres",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Awaiting trusted JobHound runtime validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "bounded",
+      "company": "Genome Quebec",
+      "careers_url": "https://genomequebec.com/carrieres",
+      "strategy": "generic_html",
+      "allowed_hosts": [
+        "genomequebec.com"
+      ],
+      "request": {
+        "url": "https://genomequebec.com/carrieres/",
+        "method": "GET",
+        "headers": {
+          "Accept": "text/html"
+        },
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 20.0,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 25,
+        "max_pages": 1,
+        "next_path": null
+      },
+      "source_key": null,
+      "source_filter": null,
+      "selectors": {
+        "item": ".listing--careers > a",
+        "title": ".career-item__title",
+        "link": ":scope",
+        "location": ".career-item__place span",
+        "description": ":scope"
+      },
+      "mapping": {},
+      "metadata": {
+        "partial_listing": true,
+        "detail_fetch_limit": 8
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://genomequebec.com/carrieres/",
+    "fetched_at": "2026-10-27T13:07:07.205994Z",
+    "payload": "<html><body><div class=\"content-container\" id=\"main-content\"><div class=\"content row\"><main class=\"main\"><div class=\"entry-content\"><div class=\"wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex\" id=\"postes\"><div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\"><section class=\"listing-wrapper\"><div class=\"listing--careers facetwp-template\"><a aria-label=\"Lire l'article &quot;Responsable qualité et accréditation&quot;\" class=\"career-item\" href=\"https://genomequebec.com/carrieres/responsable-qualite-et-accreditation/\">\n<div class=\"career-item__info\">\n<h5 class=\"career-item__title\">Responsable qualité et accréditation</h5>\n<p class=\"career-item__desc\">Génome Québec cherche à pourvoir un poste de Responsable qualité et accréditation.</p>\n</div>\n<div class=\"post-metas career-item__metas container\">\n<p class=\"career-item__place\">\n<strong>Lieu:</strong>\n<span>Montréal </span>\n</p>\n<p class=\"career-item__deadline\">\n<strong>Date limite:</strong>\n    8 novembre 2026  </p>\n</div>\n<span class=\"btn\">Voir l’offre</span>\n</a></div></section></div></div></div></main></div></div></body></html>"
+  },
+  "ownership": {
+    "company_url": "https://genomequebec.com/",
+    "explanation": "Official employer website https://genomequebec.com/ links to the selected dedicated public careers source. Current job titles and posting URLs were inspected for employer ownership. This source is explicitly partial; no partner or parent-company feed is relabelled.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://genomequebec.com/carrieres/responsable-qualite-et-accreditation"
+    ]
+  }
+}
