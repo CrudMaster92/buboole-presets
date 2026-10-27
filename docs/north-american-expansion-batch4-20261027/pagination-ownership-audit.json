@@ -1,0 +1,229 @@
+{
+  "sources": [
+    {
+      "id": "thermafix",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/thermafix?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.809090+00:00",
+      "terminal_response_sha256": "ed0e98de0493c38ce7ab8ca2a3d92dfedaef9e6f6a4aa276658f1716ec425a9d",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "nordikeau",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/nordikeau?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.915497+00:00",
+      "terminal_response_sha256": "c12185566e5db7ce8d29c688b87cee63f988e2ed5cd39b95b8e5bf5878fa0766",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "gaudreau-environnement",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/gaudreau-environnement?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.855315+00:00",
+      "terminal_response_sha256": "78367596f4608f28bfe3675e740e2933b1bc2cbaa9137af31199138351e1bbb0",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "nrj",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.775039+00:00",
+      "terminal_response_sha256": "9e7740e64aacf579ccf01e49b07e1ea9467be815268ef207405846627c615f16",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "cdl",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:58.069741+00:00",
+      "terminal_response_sha256": "cf025db2732c1ece8f3a8e401d299d3225c9b007315a7336c1a0eddbc2a51920",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "tisseur",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/tisseur?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.774511+00:00",
+      "terminal_response_sha256": "cf57c6c8f2927d35cc03732795d4534a14e24d814a4291a6254cf95405fc8183",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "palais-congres-montreal",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:57.773216+00:00",
+      "terminal_response_sha256": "7270800517033888a1e355846f8b419701508b5a4b9746691126a8d869badbe9",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "soucy-industriel",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/soucyindustriel?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:42:58.020155+00:00",
+      "terminal_response_sha256": "346f94d747044d6ce74ba8719cb84d226a0304f735f5af7e787c01efb6bf7411",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "shellex",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:00.942702+00:00",
+      "terminal_response_sha256": "f70909b3ce18d5f028af4530b9a3f74b9a89ef3b5dd054a06be9227b06ec6c49",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "asdr",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:00.938890+00:00",
+      "terminal_response_sha256": "eec9bc1a114b897210a099506302f76beb315b7461973e7f2da7574f7b0ae622",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "navada",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/navada?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:01.030508+00:00",
+      "terminal_response_sha256": "b71e7295795c2b49a4bc39ec7ceec3e991db09af28c14a7f9f1ff162bc5ac075",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "moreau",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/moreau-carriere?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:01.332344+00:00",
+      "terminal_response_sha256": "9e0700e7beca57152bdf2e69e06f340d651a83bef3f0b3bf175c77b6f6634be0",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "yourbarfactory",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/yourbarfactory?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:00.823248+00:00",
+      "terminal_response_sha256": "682c6b47daca9702174c6758f39e9a55807a074d541ca3fd97ef6ab0d78db6df",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "fournier-industries",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/fournier-industries?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:01.091221+00:00",
+      "terminal_response_sha256": "ea9e7cacd9e8325e4b999240800e65488710eaa9952e9ef4482867a62a740b91",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "fraco",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/fraco?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:00.818414+00:00",
+      "terminal_response_sha256": "84f197a3c648b829be14dce6ab88d5f2b5d758b589044710b3bd603a9e6f0c22",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "esterel-resort",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/esterel-resort?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:00.882188+00:00",
+      "terminal_response_sha256": "7da914d5c3eb45da79a6d5b7aa4c202df0ff85d943d71efb2d27ff1afc3dbe70",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "dube-excavation",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/dube-excavation?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.437091+00:00",
+      "terminal_response_sha256": "a087af1ee794cebd0fabc965b630e1e5331b4ee09a799e5dbfea653d7454d8c0",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "demex-centrem",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.354446+00:00",
+      "terminal_response_sha256": "8dd4f3cc2dede3855d34a433d92313d5f602278329b9143bc481f08436c4f1bf",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "scelltech",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/scelltech?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.324336+00:00",
+      "terminal_response_sha256": "b74fe1681694ab7a1676e27ed2660fba79e875779759b7e4695c770d39f8cff0",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "interprojet",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/interprojet?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.444408+00:00",
+      "terminal_response_sha256": "301b2376053daa0e5cad84e41ae170efe835c11659c142ba3ecfd9f24ff4817e",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "nutech",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupenutech?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.453227+00:00",
+      "terminal_response_sha256": "6f2943912247e0e8c9b4f51e67b064af89525197cd5f1030c0f16630fb45cdc6",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "alco-tmi",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupealcotmi?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.481471+00:00",
+      "terminal_response_sha256": "8e8d2ab53851e2119960c15e2f9c4c87e94662bb30a9728dfc401622598ca89e",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "horizon-sante",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/horizon-sante?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.533834+00:00",
+      "terminal_response_sha256": "18b2cfa6fc783649911be8d97c68b81dc374a671872ed94d89d2a5baf7c18dfc",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "groupe-vif",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupevif?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-27T23:43:03.275016+00:00",
+      "terminal_response_sha256": "6b328f4fbba1cee3f813353896cc6373b8eeff4f747bf04bf214add8a924a92e",
+      "terminal_selected_cards": 0,
+      "all_job_urls_match_employer_prefix": true
+    },
+    {
+      "id": "lepage-millwork",
+      "listing_pages": 1,
+      "source_ItemList_records": 10,
+      "pagination_control_empty": true,
+      "all_job_urls_match_employer_prefix": true
+    }
+  ],
+  "cross_source_duplicate_urls": 0,
+  "valid_job_urls": 303
+}

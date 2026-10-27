@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "navada",
+  "name": "Navada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://navada.com/accueil/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "building-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

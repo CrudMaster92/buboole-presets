@@ -1,0 +1,3743 @@
+[
+  {
+    "id": "thermafix",
+    "name": "Thermafix",
+    "checked_at": "2026-10-27T23:39:49.415971+00:00",
+    "job_count": 11,
+    "pages_including_details": 14,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 11 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260127001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20261005001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20261022001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20261009001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260421001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260803004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260804002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260421002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20260804003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/thermafix/20261016001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Agent(e) d'entretien ménager",
+        "location": "Saint-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent(e) d'entretien ménager",
+        "location": "Baie-St-Paul",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis(e) aux pièces",
+        "location": "Saint-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260421001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis(e) aux pièces",
+        "location": "Baie-Saint-Paul",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260421002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître d'usine",
+        "location": "St-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contrôleur(se) financier(ère)",
+        "location": "Saint-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260127001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur(trice) santé et sécurité",
+        "location": "Saint-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260803004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Electromécanicien(ne)",
+        "location": "Baie-Saint-Paul",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20261005001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) de production",
+        "location": "Saint-Nazaire",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260804002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) de production",
+        "location": "Baie-Saint-Paul",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20260804003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur d'usine",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/thermafix/20261022001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "nordikeau",
+    "name": "Nordikeau",
+    "checked_at": "2026-10-27T23:39:48.899158+00:00",
+    "job_count": 9,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 9 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260703001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20261022001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260910001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260911001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260930001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260625002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260923001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260916001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nordikeau/20260812001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Gestionnaire de division – Services techniques",
+        "location": "603 Bd Base-de-Roc, Joliette, QC J6E 5P3",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) — GMAO et opérations municipales",
+        "location": "Joliette, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets – Audits et supervision – Division services techniques",
+        "location": "603 Bd Base-de-Roc, Joliette, QC J6E 5P3",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne) - Lévis",
+        "location": "Lévis, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant(e) commercial(e) Produits – Partout au Québec",
+        "location": "603 Bd Base-de-Roc, Joliette, QC J6E 5P3",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en traitement des eaux - Lanaudière",
+        "location": "Lanaudière, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260910001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en traitement des eaux – Sept-Îles",
+        "location": "Sept-Îles, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260703001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en traitement des eaux – Lac Saint-Jean",
+        "location": "Lac Saint-Jean, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260625002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef(fe) de secteur - Secteur Minier",
+        "location": "Côte-Nord, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/nordikeau/20260812001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "gaudreau-environnement",
+    "name": "Gaudreau Environnement",
+    "checked_at": "2026-10-27T23:39:48.616699+00:00",
+    "job_count": 10,
+    "pages_including_details": 12,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 10 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260901001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260619001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260413002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20241030001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20251222001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260916001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260819001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260921001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260923001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260224001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Journalier et opérateur de presse",
+        "location": "245 rue Bulstrode",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20241030001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint(e) administratif(tive) et balance",
+        "location": "365 Boul de la Bonaventure",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260413002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur(se) de semi-remorque",
+        "location": "25 Route 116",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Trieur(se)",
+        "location": "245 Rue de la Bulstrode, Victoriaville, QC G6T 1P7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Répartiteur(trice)",
+        "location": "25 Route 116",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à l'entretien ménager",
+        "location": "245 rue Bulstrode",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260901001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur(se) sur appel",
+        "location": "25 Route 116",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cariste de soir",
+        "location": "245 Rue de la Bulstrode, Victoriaville, QC G6T 1P7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260619001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) CDT",
+        "location": "245 rue Bulstrode",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20251222001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) et Opérateur(trice)",
+        "location": "245 rue Bulstrode",
+        "source_url": "https://jobs.glowinthecloud.com/gaudreau-environnement/20260224001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "nrj",
+    "name": "Environnement Routier NRJ",
+    "checked_at": "2026-10-27T23:39:49.881799+00:00",
+    "job_count": 12,
+    "pages_including_details": 14,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs",
+      "Employer-operated group board: operating divisions/locations remain one employer identity; no divisions are counted as extra companies."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260526001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260402001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20261022001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260202005?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260202004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914009?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914007?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20261022002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914011?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Chargé(e) de projets constuction",
+        "location": "1200 Rue Bernard-Lefebvre, Laval, QC H7E 4P2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260202005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets électrique | Bâtiments",
+        "location": "8345 Rue Pascal-Gagnon, Saint-Léonard, QC H1P 1Y5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260202004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur(rice) électrique",
+        "location": "8345 Rue Pascal-Gagnon, Saint-Léonard, QC H1P 1Y5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260402001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) de machineries lourdes",
+        "location": "4865 Blvd. Sir-Wilfrid-Laurier, Longueuil, QC J3Y 3X5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260526001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) de machineries lourdes",
+        "location": "Lachine",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20261022002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) de machineries lourdes (Quart de soir)",
+        "location": "Lachine",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(rice) camion de sel | Déneigement",
+        "location": "3420 A 12e Avenue N, Sherbrooke, QC J1H 5H3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914011?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(rice) camion de sel | Déneigement",
+        "location": "4865 Blvd. Sir-Wilfrid-Laurier, Longueuil, QC J3Y 3X5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(rice) de chargeuse | Déneigement",
+        "location": "4865 Blvd. Sir-Wilfrid-Laurier, Longueuil, QC J3Y 3X5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(rice) de niveleuse | Déneigement",
+        "location": "4865 Blvd. Sir-Wilfrid-Laurier, Longueuil, QC J3Y 3X5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260917003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(rice) de tracteur | Déneigement",
+        "location": "St-Hubert",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914007?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) d'équipement à trottoir | Déneigement",
+        "location": "St-Hubert",
+        "source_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj/20260914009?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "cdl",
+    "name": "Les Équipements d’érablière CDL",
+    "checked_at": "2026-10-27T23:39:52.672118+00:00",
+    "job_count": 26,
+    "pages_including_details": 28,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 21 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260818006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260825002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260911001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20250502003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260813001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260930001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261002001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260819001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20250617001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260511001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260915003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260818001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260903002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261022002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261006002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260904004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261007001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260904005?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261023001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260819007?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260908001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261014001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260826001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261023002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260908002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Adjoint administratif et service à la clientèle",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis réception / expédition",
+        "location": "Saint-Lazare-de-Bellechasse",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260818001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis réception / expédition",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260904004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis technique",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260825002?l=en",
+        "description_chars": 5956
+      },
+      {
+        "title": "Contrôleur financier",
+        "location": "Saint-Lazare-de-Bellechasse",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261023002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur services techniques",
+        "location": "Saint-Lazare-de-Bellechasse",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260904005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien de maintenance",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260818006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gérant de magasin",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260911001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gérant de magasin",
+        "location": "Saint-Adalbert",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261022002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire de Production",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier de finition",
+        "location": "Sainte-Claire",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261006002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier de finition",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261023001?l=en",
+        "description_chars": 4082
+      },
+      {
+        "title": "Journalier de production",
+        "location": "Saint-Lazare-de-Bellechasse",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260813001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manœuvre en métallurgie (assembleur, journalier)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manœuvre en métallurgie (assembleur, journalier)",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260908002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien industriel",
+        "location": "Sainte-Claire",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur MIG",
+        "location": "Sainte-Claire",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260915003?l=en",
+        "description_chars": 5929
+      },
+      {
+        "title": "Soudeur TIG",
+        "location": "Sainte-Claire",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260511001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur TIG",
+        "location": "Saint-Honoré-De-Shenley",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260903002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur.euse TIG",
+        "location": "La Guadeloupe",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20250617001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Store and warehouse clerk",
+        "location": "Perth",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260826001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Store and Warehouse Clerk",
+        "location": "Oro Station",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20261002001?l=en",
+        "description_chars": 3411
+      },
+      {
+        "title": "Superviseur ventes et services",
+        "location": "Témiscouata-sur-le-Lac",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20250502003?l=en",
+        "description_chars": 3850
+      },
+      {
+        "title": "Technicien Génie manufacturier",
+        "location": "Sainte-Claire",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260819007?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Vendeur installateur réparateur",
+        "location": "Sainte-Marie",
+        "source_url": "https://jobs.glowinthecloud.com/httpswwwcdlinccafremplois/20260930001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "tisseur",
+    "name": "Tisseur",
+    "checked_at": "2026-10-27T23:39:51.930360+00:00",
+    "job_count": 22,
+    "pages_including_details": 24,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 22 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20241122001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250131002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20260603001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250122006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250130001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250204006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250319001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250306002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20260326001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250131001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250204002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20260929001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20260820001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250603001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250123002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250130002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250305001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250425001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250123001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20250122005?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tisseur/20251007001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Gestionnaire Régional SST",
+        "location": "Laurentides, Lanaudières, Montréal, Rive-Sud, Rive-Nord",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de l'entrepôt et livraisons",
+        "location": "3195 42e Rue N a, Saint-Benoît-Labre, QC G5Z 0V9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20260326001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) RH - Formation et Performance",
+        "location": "1221 R. de Courchevel bureau 103, Lévis, QC G6W 0V8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable qualité et système de gestion intégré (QSSE/SGI)",
+        "location": "Montréal, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20260820001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur",
+        "location": "Sainte-Adèle, Rive-Nord, Lanaudières, Montréal, Rive-Sud",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250425001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier(ère)-Menuisier(ère) - Civil",
+        "location": "Rive-Sud, Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250131001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre Spécialisé - Civil",
+        "location": "Rive-Nord, Rive-Sud, Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250131002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre Spécialisé - Égout et Aqueduc",
+        "location": "Laurentides, Lanaudières, Montréal, Rive-Sud",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20260603001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Arpenteur/Calculateur",
+        "location": "Rive-Sud, Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250319001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur(trice) d'offres de service",
+        "location": "Rive-Sud, Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20251007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coffreur",
+        "location": "Sainte-Adèle, Rive-Nord",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250603001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur SST",
+        "location": "Montréal, Lanaudières, Granby, Québec, Trois-Rivières, Laurentides",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250306002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur - Civil",
+        "location": "Brossard, Sainte-Adèle",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250305001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire de proposition",
+        "location": "Montréal, Brossard, Sainte-Adèle",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250204006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de Projets - Civil",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250204002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur de Projets - Civil",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250130002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre Spécialisé - Bâtiment",
+        "location": "Rive-Nord, Sainte-Adèle, Québec, Gatineau",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250123002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier(ère)-Menuisier(ère) - Bâtiment",
+        "location": "Montréal, Rive-Sud",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250123001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint Chargé Projets - Bâtiment",
+        "location": "Rive-Nord, Montréal, Lanaudières",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250122006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de Projets - Bâtiment",
+        "location": "Rive-Nord, Rive-Sud, Lanaudières, Montréal, Québec, Lévis",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20241122001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur - Bâtiment",
+        "location": "Sainte-Adèle, Rive-Nord, Rive-Sud, Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250130001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur de Projets - Bâtiment",
+        "location": "Rive-Sud, Lanaudières, Montréal, Rive-Nord",
+        "source_url": "https://jobs.glowinthecloud.com/tisseur/20250122005?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "palais-congres-montreal",
+    "name": "Palais des congrès de Montréal",
+    "checked_at": "2026-10-27T23:39:46.950423+00:00",
+    "job_count": 2,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal/20261020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal/20261022001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Administrateur(trice), cybersécurité et infrastructure réseau",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef(fe) d'équipe électricité",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal/20261020001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "soucy-industriel",
+    "name": "Soucy Industriel",
+    "checked_at": "2026-10-27T23:39:50.330814+00:00",
+    "job_count": 12,
+    "pages_including_details": 15,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20250618001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260604001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20250523002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260824001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20250418001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260410001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20261019002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260717001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260826001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20260505001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/soucyindustriel/20250417001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "CONTREMAÎTRE - USINE DE FABRICATION",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20261019002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "OPÉRATEUR.TRICE TABLE À DÉCOUPE",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "MÉCANICIEN.NE EN ATELIER DE RÉPARATION",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260717001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "SOUDEUR.EUSE EN CHANTIER",
+        "location": "Canada",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20250417001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "MÉCANICIEN.NE INDUSTRIEL.LE EN CHANTIER",
+        "location": "Canada",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20250418001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "CHARGÉ.E DE PROJETS",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260824001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "CPI - CHARGÉ.E DE PROJETS",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260826001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "SOUDEUR.EUSE-ASSEMBLEUR.EUSE EN USINE DE FABRICATION",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260410001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "MANŒUVRE SPÉCIALISÉ.E",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20250523002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "SOUDEUR.EUSE EN USINE DE RÉPARATION",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260505001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "COMMIS AUX PIÈCES",
+        "location": "Bas-Saint-Laurent",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20260604001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "SOUDEUR.EUSE EN USINE DE FABRICATION",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/soucyindustriel/20250618001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "shellex",
+    "name": "Shellex Groupe Conseil",
+    "checked_at": "2026-10-27T23:39:54.811263+00:00",
+    "job_count": 21,
+    "pages_including_details": 24,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 21 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260914001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260526001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261020002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261008002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260825001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260901001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260831003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260902001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260831004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260417002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260511004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260409002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260928001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260923001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260527001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Senior Process Engineer",
+        "location": "Beloeil",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Process Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) intermédiaire en procédés",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261020002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur(rice) approvisionnement",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261008002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets construction",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Surveillant(e) de chantier",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) sénior en énergies thermiques",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) en structure",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260914001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) mécanique du bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260902001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Industrial Electrical Engineer",
+        "location": "Toronto",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260901001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en électricité Industrielle",
+        "location": "Beloeil, Salaberry-de-Valleyfield, Terrebonne, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260831004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) en électricité industrielle",
+        "location": "Beloeil, Salaberry-de-Valleyfield, Terrebonne, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260831003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) concepteur(rice) DAO infrastructures",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260825001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) de Service – Mécanique et Électricité du bâtiment (MEP)",
+        "location": "Beloeil, Salaberry-de-Valleyfield, Sherbrooke, Terrebonne, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Senior Roadway Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Bridge Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260602001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) principal(e), traitement des eaux",
+        "location": "Beloeil, Salaberry-de-Valleyfield, Terrebonne, Québec, Sherbrooke",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260527001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur intermédiaire/ chargé(e) de projets pour le secteur Industriel",
+        "location": "Beloeil, Salaberry-de-Valleyfield",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260526001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Intermediate Structural Engineer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260511004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) technique en structure de bâtiment",
+        "location": "Beloeil, Québec, Salaberry-de-Valleyfield, Terrebonne",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260417002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur(e) intermédiaire/Chargé(e) de projets en infrastructures",
+        "location": "Québec, Beloeil, Salaberry-de-Valleyfield",
+        "source_url": "https://jobs.glowinthecloud.com/shellex-groupe-conseil/20260409002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "asdr",
+    "name": "ASDR",
+    "checked_at": "2026-10-27T23:39:52.900604+00:00",
+    "job_count": 12,
+    "pages_including_details": 15,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261015001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260623001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251215006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260910001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260608001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260909002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260909001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251215003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260917001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251124004?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Chef(fe) d'équipe en traitement des eaux",
+        "location": "540 Prom. Du Centropolis, Laval, QC H7T 3C2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260608001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller en ressources humaines",
+        "location": "691 Rue Royale, Malartic, QC J0Y 1Z0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire d'études en traitement des eaux",
+        "location": "540 Prom. Du Centropolis, Laval, QC H7T 3C2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260909001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire ECOMUD®",
+        "location": "540 Chem. Jolicoeur-et-Ste-Croix, Malartic, QC J0Y 1Z0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur en génie de procédés",
+        "location": "545 Prom. Du Centropolis, Laval, QC H7T 0A3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251124004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur en génie des structures",
+        "location": "700 Av. Dallaire, Rouyn-Noranda, QC J9X 4V9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251215006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur mécanique",
+        "location": "700 Av. Dallaire, Rouyn-Noranda, QC J9X 4V9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260623001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur en traitement des eaux",
+        "location": "691 Rue Royale, Malartic, QC J0Y 1Z0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260909002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé à la préparation des équipements",
+        "location": "27 Bd Industriel #120, Caraquet, NB E1W 1A9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260917001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur-monteur",
+        "location": "820 Chem. du Lac Mourier, Malartic, QC J0Y 1Z0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20251215003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste des propositions",
+        "location": "540 Prom. Du Centropolis, Laval, QC H7T 3C2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20260910001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Superviseur électrique",
+        "location": "540 Chem. Jolicoeur-et-Ste-Croix, Malartic, QC J0Y 1Z0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/httpsasdrcacarrieres/20261026001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "navada",
+    "name": "Navada",
+    "checked_at": "2026-10-27T23:41:32.919227+00:00",
+    "job_count": 7,
+    "pages_including_details": 9,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/navada?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261016001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261019003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261027002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/navada/20260720001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Project Manager - Plumbing",
+        "location": "Longueuil, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261027002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Project Manager – HVAC",
+        "location": "Longueuil, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pipefitter",
+        "location": "Longueuil, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Control system designer",
+        "location": "Longueuil, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261019003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pipefitter",
+        "location": "Sorel-Tracy, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Electrical Project Engineer",
+        "location": "Longueuil, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journeyman Refrigeration Technician",
+        "location": "Sorel-Tracy, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/navada/20260720001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "moreau",
+    "name": "Moreau",
+    "checked_at": "2026-10-27T23:40:00.279107+00:00",
+    "job_count": 26,
+    "pages_including_details": 29,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 26 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20261016001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260715001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260922001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260813001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20250522006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260715002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260415002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260501001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20261002001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260311002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260414002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20251218001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260226001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260612001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260501002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260701001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/moreau-carriere/20260813004?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien en contrôle documentaire - Soumissions (Poste 100% en télétravail)",
+        "location": "9812 Bd du Golf, Montréal, QC H1J 2Y7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260612001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent administratif - Soumissions",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projets fabrication électrique",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projets industriels et lignes",
+        "location": "160, boulevard industriel",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projets mécanique-structure",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260501002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier-Menuisier",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260311002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis comptes payables",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260922001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur à l'outillage",
+        "location": "Chicoutimi",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur industriel",
+        "location": "1221 Rue des Manufacturiers, Val-d'Or, QC J9P 6Y7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260701001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électricien résidentiel et commercial",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20250522006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur électrique senior",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur mécanique-structure",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260501001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur",
+        "location": "Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260226001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ingénieur électrique",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260918002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Instrumentation Technician",
+        "location": "Nord du Québec",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20251218001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manœuvre (chantier industriel lourd)",
+        "location": "Rouyn-Noranda",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien équipement de chantier",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260414002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien Industriel",
+        "location": "Saguenay",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260715002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien industriel d'expérience",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Plombier - secteurs résidentiel et commercial",
+        "location": "160 Boulevard Industriel, Rouyn-Noranda, J9X 6T3, Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260415002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Plombier - Tuyauteur",
+        "location": "Chicoutimi",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260714003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Power Plant Mechanic Operator",
+        "location": "Nord du Québec",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260813004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Saguenay",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260715001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur-monteur en atelier",
+        "location": "1221 Rue des Manufacturiers, Val-d'Or, QC J9P 6Y7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Underground Electrician",
+        "location": "Nord du Québec",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20260813001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Water Management Electrical Project Coordinator",
+        "location": "Nord du Québec",
+        "source_url": "https://jobs.glowinthecloud.com/moreau-carriere/20261007002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "yourbarfactory",
+    "name": "Yourbarfactory",
+    "checked_at": "2026-10-27T23:39:53.573258+00:00",
+    "job_count": 3,
+    "pages_including_details": 5,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/yourbarfactory?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/yourbarfactory?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/yourbarfactory/20260814001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/yourbarfactory/20260910002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/yourbarfactory/20260520001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Électromécanicien",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yourbarfactory/20260910002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable mise en boite",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yourbarfactory/20260814001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de machine de nuit",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/yourbarfactory/20260520001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "fournier-industries",
+    "name": "Fournier Industries",
+    "checked_at": "2026-10-27T23:39:57.788818+00:00",
+    "job_count": 15,
+    "pages_including_details": 18,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 15 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260828002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260714003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261013002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260325001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260714001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260814001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260930001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260713003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261015001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261002001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260326001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20260911002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fournier-industries/20261013001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien électrique SAV",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Monteur de panneaux électriques",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Chicoutimi",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261013002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien de procédés",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé à la préparation des métaux (Ferblantier)",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet Traitement des eaux",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien au montage (soir)",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur-soudeur (soir)",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260325001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet construction",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260326001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien en estimation",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260713003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller Santé, Sécurité, Environnement",
+        "location": "Trois-Rivières",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260814001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien en génie mécanique",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260911002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur mécanique",
+        "location": "Trois-Rivières",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260828002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet SAV",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260714003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur électrique",
+        "location": "Thetford Mines",
+        "source_url": "https://jobs.glowinthecloud.com/fournier-industries/20260714001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "fraco",
+    "name": "Les Produits Fraco",
+    "checked_at": "2026-10-27T23:39:54.283006+00:00",
+    "job_count": 5,
+    "pages_including_details": 7,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco/20260929002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco/20260924001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco/20260930001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco/20260928002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fraco/20260901003?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Ingénieur Civil – Structure",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fraco/20260924001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Électromécanicien(ne) – Chantiers / Mises en service",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fraco/20260901003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant(e) technique aux pièces",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fraco/20260929002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Concepteur mécanique sénior",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fraco/20260930001?l=en",
+        "description_chars": 1665
+      },
+      {
+        "title": "Chargé de produits – ascenseurs industriels et projets sur mesure",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/fraco/20260928002?l=en",
+        "description_chars": 3641
+      }
+    ]
+  },
+  {
+    "id": "esterel-resort",
+    "name": "Estérel Resort",
+    "checked_at": "2026-10-27T23:39:56.042321+00:00",
+    "job_count": 12,
+    "pages_including_details": 15,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20260817003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261014002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261014001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20260814001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261013001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261006001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20260818004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20260910001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20261007001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/esterel-resort/20260922001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Préposé (e) à l'entretien technique",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cuisinier (ère)",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20260817003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sous-chef (fe)",
+        "location": "39 Chemin Fridolin-Simard, Estérel, J0T 1E0",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Hôte (sse)",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261014002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé (e) aux aires communes",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé (e) aux invités",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Maitre d'hôtel",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur (trice) de la restauration",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gestionnaire hébergement",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20260922001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) de la maintenance",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20260910001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé (e) au centre d'activités",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20260818004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Suiteur (euse)",
+        "location": "39 Chem. Fridolin-Simard, Estérel, QC J0T 1E0, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/esterel-resort/20260814001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "dube-excavation",
+    "name": "Dubé Excavation",
+    "checked_at": "2026-10-27T23:40:00.911440+00:00",
+    "job_count": 24,
+    "pages_including_details": 27,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 24 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261007001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260508003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260916001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260413001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261025001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260908003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261016001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260130001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260908001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260807001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261023001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20251219004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260715002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260413002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260620001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260428001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260508004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260306001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260820001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260813001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260908002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20261008003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/dube-excavation/20260108002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Opérateur(trice) de pelle - Plusieurs chantiers",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261025001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Foreur(euse) - Akasaba Ouest",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Stagiaire Baccalauréat en génie de la construction",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'engins de chantier - Westwood",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260508004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère) spécialisé(e) - Duparquet",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de camion bi-train",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260413001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Acheteur(e) - Pièces d'équipements lourds",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260428001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) informatique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261008003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de camion articulé - Plusieurs chantiers Abitibi-Est",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20261007001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'engins de chantier - Akasaba Ouest",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260130001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur(trice) de chasse-neige",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) de véhicules lourds routiers - Akasaba Ouest",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260820001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste acquisition de talents",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260908003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ressources humaines",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260908002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) aux ressources humaines",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître génie civil minier",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260715002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint(e) de projets",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260813001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préventionniste - Chantiers Abitibi-Est",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260807001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'engins de chantier - Atelier Rouyn-Noranda",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260306001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) santé et sécurité - Prévention et Conformité",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260620001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260508003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'engins de chantier - LaRonde",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20251219004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'engins de chantier - MCM",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260413002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Crushing Foreman",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/dube-excavation/20260108002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "demex-centrem",
+    "name": "Groupe Demex-Centrem",
+    "checked_at": "2026-10-27T23:39:58.913955+00:00",
+    "job_count": 16,
+    "pages_including_details": 18,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 13 jobs",
+      "Employer-operated group board: operating divisions/locations remain one employer identity; no divisions are counted as extra companies."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260423001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261008002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260409002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260908001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260409001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260828001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261009003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261021002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260611001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260621002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261013001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261009002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260621001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260909002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261021001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Journalier opérateur",
+        "location": "1125 Rue des Pins O, Alma, QC J3V 5J6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître en décontamination",
+        "location": "Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261009003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier",
+        "location": "1300 Rue des Sociétaires, Saguenay, QC G7J 5B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261008002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur de pelle CCQ",
+        "location": "Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261008001?l=en",
+        "description_chars": 825
+      },
+      {
+        "title": "Journalier",
+        "location": "1125 Rue des Pins O, Alma, QC J3V 5J6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260909002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chauffeur de roll-off (classe 3)",
+        "location": "1300 Rue des Sociétaires, Saguenay, QC G7J 5B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Acheteur-magasinier",
+        "location": "1125 Rue des Pins O, Alma, QC J3V 5J6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260828001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien véhicules lourds",
+        "location": "1125 Rue des Pins O, Alma, QC J3V 5J6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260621002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre en démolition",
+        "location": "Montréal",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260611001?l=en",
+        "description_chars": 842
+      },
+      {
+        "title": "Mécanicien industriel",
+        "location": "1125 Rue des Pins O, Alma, QC J3V 5J6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260423001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet en démolition",
+        "location": "1300 Rue des Sociétaires, Saguenay, QC G7J 5B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260409002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet en démolition",
+        "location": "26 Bd Taschereau, La Prairie, QC J5R 0R9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260409001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre industriel",
+        "location": "Saguenay",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261009002?l=en",
+        "description_chars": 1872
+      },
+      {
+        "title": "Adjoint administratif de projet.",
+        "location": "1300 Rue des Sociétaires, Saguenay, QC G7J 5B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261021002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Surintendant en décontamination",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre en démolition",
+        "location": "Saguenay",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-demex-centrem/20260621001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "scelltech",
+    "name": "Scelltech",
+    "checked_at": "2026-10-27T23:39:56.422036+00:00",
+    "job_count": 4,
+    "pages_including_details": 6,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech/20260908001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech/20260831001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech/20260831002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/scelltech/20260828001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Opérateur de balai-aspirateur et camion-citerne - Classe 3",
+        "location": "1875 Rue Thomas Edison, Terrebonne, QC J6Y 2A5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/scelltech/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien d'entretien et de réparation",
+        "location": "1875 Rue Thomas Edison, Terrebonne, QC J6Y 2A5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/scelltech/20260831002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Installateur en signalisation permanente",
+        "location": "1875 Rue Thomas Edison, Terrebonne, QC J6Y 2A5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/scelltech/20260831001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier en signalisation (balisage) – Poste permanent",
+        "location": "1875 Rue Thomas Edison, Terrebonne, QC J6Y 2A5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/scelltech/20260828001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "interprojet",
+    "name": "Interprojet",
+    "checked_at": "2026-10-27T23:39:58.986643+00:00",
+    "job_count": 12,
+    "pages_including_details": 15,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260320001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260227001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260409001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20250924013?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260107001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20250924012?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20250924009?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260714001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260514002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260408001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20250924006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/interprojet/20260929001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Chargé(e) de projet Bâtiment",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur(trice) en bâtiment",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20250924012?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur·trice Génie Civil",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20250924013?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets / Génie Civil",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260107001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets / Estimateur(trice) - Ouvrages d'art",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20250924006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projets / Estimateur(trice) - Projets industriels",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20250924009?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien(ne) d'équipement lourd",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260514002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260714001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Manoeuvre en aménagement paysager",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260227001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Arpenteur CCQ",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260409001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Charpentier(ère) - Menuisier(ère)",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260408001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contremaître civil et béton",
+        "location": "3530 rue de l'énergie, Jonquière, G7X9H3, QC, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/interprojet/20260320001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "nutech",
+    "name": "Groupe Nutech",
+    "checked_at": "2026-10-27T23:39:56.269264+00:00",
+    "job_count": 4,
+    "pages_including_details": 6,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech/20260512001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech/20260420003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech/20260415001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupenutech/20261019001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Opérateur de Production",
+        "location": "Disraeli",
+        "source_url": "https://jobs.glowinthecloud.com/groupenutech/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier",
+        "location": "Saint-Hyacinthe",
+        "source_url": "https://jobs.glowinthecloud.com/groupenutech/20260512001?l=en",
+        "description_chars": 1233
+      },
+      {
+        "title": "Machiniste CNC",
+        "location": "Saint-Hyacinthe",
+        "source_url": "https://jobs.glowinthecloud.com/groupenutech/20260420003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Opérateur CNC",
+        "location": "Saint-Hyacinthe",
+        "source_url": "https://jobs.glowinthecloud.com/groupenutech/20260415001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "alco-tmi",
+    "name": "Groupe Alco-TMI",
+    "checked_at": "2026-10-27T23:40:02.615745+00:00",
+    "job_count": 11,
+    "pages_including_details": 13,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 11 jobs",
+      "Employer-operated group board: operating divisions/locations remain one employer identity; no divisions are counted as extra companies."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20261015001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260810001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260803001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupealcotmi/20260818001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Assembleur spécialisé",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Camionneur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé de projet",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller SSE",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260818001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contrôleur qualité",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260803001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Estimateur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Inspecteur qualité",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260810001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260710004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soudeur-assembleur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20260709004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien approvisionnement",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupealcotmi/20261015001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "horizon-sante",
+    "name": "Horizon Santé",
+    "checked_at": "2026-10-27T23:40:03.871754+00:00",
+    "job_count": 15,
+    "pages_including_details": 17,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 15 jobs",
+      "Employer-operated group board: operating divisions/locations remain one employer identity; no divisions are counted as extra companies."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261019003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261015001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20260930001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261008004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261019002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261008003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261016001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261023001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20260914001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261008002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261009003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261008006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/horizon-sante/20261023002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Responsable en pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261023002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Caissier(ère) à temps partiel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261023001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pharmacien(ne) - Temps partiel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e) technique en pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261008006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e) technique en pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261008003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Caissier(ère) à temps partiel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261019003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Caissier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261019002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Caissier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pharmacien(ne) — Temps partiel",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e) technique à la hotte stérile",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261009003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e)-gérant(e) de pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261008004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e) technique en pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261008002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistante technique à la robotisation",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Gérant(e)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20260930001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pharmacien(ne) remplaçant(e)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/horizon-sante/20260914001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-vif",
+    "name": "Groupe VIF",
+    "checked_at": "2026-10-27T23:40:00.018718+00:00",
+    "job_count": 2,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupevif?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupevif?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupevif/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupevif/20261027001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Sales Representative – Ontario CARVIN – Pools & Equipment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupevif/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier de production",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupevif/20261021001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "lepage-millwork",
+    "name": "Lepage Millwork",
+    "checked_at": "2026-10-27T23:40:09.890898+00:00",
+    "job_count": 10,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing, not the three-job company profile preview; exact Lepage posting path required. The inspected page contains ten source ItemList records and an empty pagination control."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/lepage-millwork/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur/17069855",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/chef.fe-de-produits/17191462",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/gestionnaire-de-comptes-reseau-de-distributeurs/17632230",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur-/17299199",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/dessinateur-technique/16834158",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/peintre-industriel/17351441",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur/17069837",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur-de-thermos/17551734",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/technicien.ne-innovation-de-produit/4474550",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/lepage-millwork/operateur.trice-de-machine-a-travailler-le-bois-cnc/17268488",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien.ne - innovation de produit",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/technicien.ne-innovation-de-produit/4474550",
+        "description_chars": 1503
+      },
+      {
+        "title": "Dessinateur technique",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/dessinateur-technique/16834158",
+        "description_chars": 1282
+      },
+      {
+        "title": "Chef.fe de produits",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/chef.fe-de-produits/17191462",
+        "description_chars": 2197
+      },
+      {
+        "title": "Assembleur de thermos",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur-de-thermos/17551734",
+        "description_chars": 770
+      },
+      {
+        "title": "Peintre industriel",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/peintre-industriel/17351441",
+        "description_chars": 1038
+      },
+      {
+        "title": "Assembleur",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur-/17299199",
+        "description_chars": 1756
+      },
+      {
+        "title": "Gestionnaire de comptes – Réseau de distributeurs",
+        "location": "Longueuil, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/gestionnaire-de-comptes-reseau-de-distributeurs/17632230",
+        "description_chars": 3766
+      },
+      {
+        "title": "Opérateur.trice de machine à travailler le bois - CNC",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/operateur.trice-de-machine-a-travailler-le-bois-cnc/17268488",
+        "description_chars": 1778
+      },
+      {
+        "title": "Assembleur",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur/17069837",
+        "description_chars": 673
+      },
+      {
+        "title": "Assembleur",
+        "location": "Rivière-du-Loup, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/lepage-millwork/assembleur/17069855",
+        "description_chars": 673
+      }
+    ]
+  }
+]

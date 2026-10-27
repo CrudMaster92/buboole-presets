@@ -1,0 +1,211 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "north-american-employers-new-25-batch4-20261027",
+  "revision": 1,
+  "name": "25 More Employers — October 2026, Batch 4",
+  "description": "Twenty-five additional employer identities screened against the expanded catalog and current FreeHire directory. All-role recipes have no page-count, role-count or description-attempt sampling caps. Live listing completeness and source description failures are reported separately.",
+  "tags": [
+    "Canada",
+    "Hiring expansion",
+    "Batch 4",
+    "All roles"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "alco-tmi",
+      "monitor_ids": [
+        "alco-tmi"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "asdr",
+      "monitor_ids": [
+        "asdr"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "cdl",
+      "monitor_ids": [
+        "cdl"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "demex-centrem",
+      "monitor_ids": [
+        "demex-centrem"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "dube-excavation",
+      "monitor_ids": [
+        "dube-excavation"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "esterel-resort",
+      "monitor_ids": [
+        "esterel-resort"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "fournier-industries",
+      "monitor_ids": [
+        "fournier-industries"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "fraco",
+      "monitor_ids": [
+        "fraco"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "gaudreau-environnement",
+      "monitor_ids": [
+        "gaudreau-environnement"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "groupe-vif",
+      "monitor_ids": [
+        "groupe-vif"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "horizon-sante",
+      "monitor_ids": [
+        "horizon-sante"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "interprojet",
+      "monitor_ids": [
+        "interprojet"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "lepage-millwork",
+      "monitor_ids": [
+        "lepage-millwork"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "moreau",
+      "monitor_ids": [
+        "moreau"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "navada",
+      "monitor_ids": [
+        "navada"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "nordikeau",
+      "monitor_ids": [
+        "nordikeau"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "nrj",
+      "monitor_ids": [
+        "nrj"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "nutech",
+      "monitor_ids": [
+        "nutech"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "palais-congres-montreal",
+      "monitor_ids": [
+        "palais-congres-montreal"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "scelltech",
+      "monitor_ids": [
+        "scelltech"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "shellex",
+      "monitor_ids": [
+        "shellex"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "soucy-industriel",
+      "monitor_ids": [
+        "soucy-industriel"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "thermafix",
+      "monitor_ids": [
+        "thermafix"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "tisseur",
+      "monitor_ids": [
+        "tisseur"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    },
+    {
+      "company_id": "yourbarfactory",
+      "monitor_ids": [
+        "yourbarfactory"
+      ],
+      "note": "Uncapped all-role collection; full employer source, no preview sampling."
+    }
+  ]
+}

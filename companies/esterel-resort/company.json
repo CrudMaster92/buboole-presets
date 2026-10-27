@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "esterel-resort",
+  "name": "Estérel Resort",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.esterel.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "hospitality"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

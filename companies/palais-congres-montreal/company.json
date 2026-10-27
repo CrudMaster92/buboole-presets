@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "palais-congres-montreal",
+  "name": "Palais des congrès de Montréal",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jobs.glowinthecloud.com/palais-des-congres-de-montreal?l=en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "events"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

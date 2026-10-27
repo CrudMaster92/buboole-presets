@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "lepage-millwork",
+  "company_id": "lepage-millwork",
+  "revision": 1,
+  "label": "Lepage Millwork all roles",
+  "careers_url": "https://www.jobillico.com/en/employers/lepage-millwork/view-all-jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T23:40:09.890898+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Full employer listing, not the three-job company profile preview; exact Lepage posting path required. The inspected page contains ten source ItemList records and an empty pagination control."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Lepage Millwork",
+    "careers_url": "https://www.jobillico.com/en/employers/lepage-millwork/view-all-jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.jobillico.com"
+    ],
+    "request": {
+      "url": "https://www.jobillico.com/en/employers/lepage-millwork/view-all-jobs",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "li:has(a[title][href*=\"/en/job-offer/lepage-millwork/\"])",
+      "title": "a[title]",
+      "link": "a[title]",
+      "location": "p:not(.date)",
+      "posted_date": ".date"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": false
+    }
+  }
+}

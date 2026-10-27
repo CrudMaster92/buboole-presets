@@ -1,0 +1,19 @@
+{
+  "catalog_baseline": "1aca5890ff9bc879d2ad688f9c3365bd97143137",
+  "runtime_repository": "CrudMaster92/buboole-jobs",
+  "runtime_commit": "ce167e507c1a66fd3c6f378fb5c32e0d8150dceb",
+  "directory_source": "https://freehire.me/api/v1/companies/sitemap",
+  "directory_completed_at": "2026-10-27T23:35:53.138292+00:00",
+  "directory_sha256": "11cf7091bb817eeb0d60e1ceb8a67ded3c0072d95ccabb7bf38979264f5ecce5",
+  "nonempty_pages": 44,
+  "page_size": 10000,
+  "terminal_empty_offset": 440000,
+  "unique_company_slugs": 438158,
+  "companies": 25,
+  "monitors": 25,
+  "source_records": 303,
+  "all_listing_traversals_complete": true,
+  "all_max_pages_null": true,
+  "description_attempt_quotas": false,
+  "caveat": "Mutable directory and fuzzy search: no matching employer found is a point-in-time review, not a guarantee against all intermediaries or unknown aliases."
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "interprojet",
+  "name": "Interprojet",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.interprojet.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "construction"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

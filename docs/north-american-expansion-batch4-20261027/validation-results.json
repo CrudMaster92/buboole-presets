@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-27T23:43:21.843161+00:00",
+  "catalog_validation": "passed",
+  "catalog_build": {
+    "companies": 1345,
+    "monitors": 1229,
+    "collections": 23
+  },
+  "catalog_tests": 11,
+  "collector_tests": 202,
+  "runtime_export_check": "passed; 51 unchanged generated files",
+  "verified_new_employers": 25,
+  "verified_new_monitors": 25,
+  "complete_listing_traversals": 25,
+  "source_records": 303,
+  "all_max_pages_null": true,
+  "all_coverage_mode_all": true,
+  "description_attempt_quotas": false,
+  "employer_URL_matches": 303,
+  "cross_source_duplicate_urls": 0,
+  "terminal_listing_checks": "24 native empty terminal pages plus one whole-board source with ten ItemList entries and an empty pagination control"
+}

@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "nrj",
+  "company_id": "nrj",
+  "revision": 1,
+  "label": "Environnement Routier NRJ all roles",
+  "careers_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-27T23:39:49.881799+00:00",
+    "job_count": 12,
+    "warnings": [
+      "description detail enrichment was incomplete for 12 jobs",
+      "Employer-operated group board: operating divisions/locations remain one employer identity; no divisions are counted as extra companies."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Environnement Routier NRJ",
+    "careers_url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.glowinthecloud.com"
+    ],
+    "request": {
+      "url": "https://jobs.glowinthecloud.com/environnement-routier-nrj?l=en",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "ul.jobs-listing > li:not(:has(a[title*=\"spontan\" i])):not(:has(a[title*=\"banque de candidatures\" i]))",
+      "title": ".job-title a",
+      "link": ".job-title a",
+      "location": "li[title=\"Address\"] span, li[title=\"Adresse\"] span, li[title=\"Territories\"] span, li[title=\"Territoires\"] span",
+      "employment_type": "li[title='Job types'] span, li[title=\"Types d'emploi\"] span"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": false
+    }
+  }
+}

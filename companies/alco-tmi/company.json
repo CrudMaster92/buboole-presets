@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "alco-tmi",
+  "name": "Groupe Alco-TMI",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.alcotmi.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "industrial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}
