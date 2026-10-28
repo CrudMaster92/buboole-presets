@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "central-toronto-youth-services",
   "company_id": "central-toronto-youth-services",
-  "revision": 1,
+  "revision": 2,
   "label": "Central Toronto Youth Services public careers",
   "careers_url": "https://ctys.org/about-us/careers",
   "compatibility": {
@@ -12,16 +12,16 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T14:22:38.975113+00:00",
+    "checked_at": "2026-10-28T13:11:27.929589+00:00",
     "job_count": 1,
     "warnings": [
-      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
-      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Repaired the production SelectorSyntaxError using plain row selectors. Every selected row still requires the employer-specific title and public link. Full board/detail traversal is attempted; unresolved details remain visibly incomplete."
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "Central Toronto Youth Services",
     "careers_url": "https://ctys.org/about-us/careers",
     "strategy": "generic_html",
@@ -44,13 +44,13 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "source_key": null,
     "source_filter": null,
     "selectors": {
-      "item": "body:has(article.entry-content h2.wp-block-heading + p.has-text-align-center)",
+      "item": "body",
       "title": "article.entry-content h2.wp-block-heading + p.has-text-align-center",
       "link": "a[href=\"https://ctys.org/about-us/careers/\"]",
       "description": ".entry-content .wp-block-kadence-column"
@@ -58,7 +58,6 @@
     "mapping": {},
     "metadata": {
       "partial_listing": true,
-      "detail_fetch_limit": 0,
       "coverage_note": "Single current CTYS Youth Justice Mental Health ACCESS advert, a collaboration with WoodGreen. The employer careers page is the original posting URL; this is not a general partner-employer feed."
     }
   }

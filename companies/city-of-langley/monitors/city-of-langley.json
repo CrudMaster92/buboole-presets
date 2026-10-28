@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "city-of-langley",
   "company_id": "city-of-langley",
-  "revision": 1,
+  "revision": 2,
   "label": "City of Langley public careers",
   "careers_url": "https://www.langleycity.ca/careers",
   "compatibility": {
@@ -12,17 +12,17 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-27T14:22:41.940504+00:00",
+    "checked_at": "2026-10-28T13:11:29.734501+00:00",
     "job_count": 2,
     "warnings": [
+      "Listing is incomplete; unseen roles are not confirmed closed.",
       "description detail enrichment was incomplete for 2 jobs",
-      "Maintainer explicitly approved publication and merge; exact deployed-runtime execution and employer/source ownership review passed.",
-      "This is an explicitly partial source. Unseen roles must not be inferred closed; observed counts are not a complete Canadian vacancy census."
+      "Repaired the production SelectorSyntaxError using plain row selectors. Every selected row still requires the employer-specific title and public link. Full board/detail traversal is attempted; unresolved details remain visibly incomplete."
     ]
   },
   "recipe": {
     "version": 1,
-    "coverage_mode": "bounded",
+    "coverage_mode": "all",
     "company": "City of Langley",
     "careers_url": "https://www.langleycity.ca/careers",
     "strategy": "generic_html",
@@ -45,21 +45,20 @@
       "parameter": null,
       "page_size_parameter": null,
       "page_size": 25,
-      "max_pages": 1,
+      "max_pages": null,
       "next_path": null
     },
     "source_key": null,
     "source_filter": null,
     "selectors": {
-      "item": ".views-row:has(h3 a[href^=\"/careers/\"])",
+      "item": ".views-row",
       "title": "h3 a",
       "link": "h3 a",
       "description": ":scope"
     },
     "mapping": {},
     "metadata": {
-      "partial_listing": true,
-      "detail_fetch_limit": 8
+      "partial_listing": true
     }
   }
 }

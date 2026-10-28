@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "canadian-employers-new-30-20261027",
-  "revision": 1,
+  "revision": 2,
   "name": "Canadian Employers — 30 new sources, October 2026",
   "description": "Thirty Canadian employer boards screened against existing catalog/tracker identities and FreeHire. Live-tested candidates awaiting upstream review; explicitly partial sources may include international roles and do not establish a complete Canadian-vacancy inventory.",
   "tags": [

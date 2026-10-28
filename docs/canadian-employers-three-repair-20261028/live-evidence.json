@@ -1,0 +1,190 @@
+[
+  {
+    "id": "central-toronto-youth-services",
+    "source": {
+      "id": "central-toronto-youth-services",
+      "company_id": "central-toronto-youth-services",
+      "company_name": "Central Toronto Youth Services",
+      "revision": 2,
+      "status": "partial",
+      "complete": false,
+      "job_count": 1,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed."
+      ]
+    },
+    "parser": {
+      "beautifulsoup4": "4.15.0",
+      "soupsieve": "2.10"
+    },
+    "same_source_urls_as_original": true,
+    "jobs": [
+      {
+        "title": "YJ Mental Health Access Coordinator – Open Custody and Open Detention",
+        "source_url": "https://ctys.org/about-us/careers",
+        "description": "1 Full Time, Permanent Position – 35 hrs./week\n\nUnion: OPSEU Bargaining Unit\n\nInternal/External Posting\n\nThis is an exciting opportunity to be a member of a YJ Mental Health ACCESS, a collaborative between CTYS and Woodgreen Community Services that supports youth and families involved with the youth justice system. The purpose of the position is to engage youth referred from Open Detention/Custody sites across the greater Toronto Area. You will provide brief mental health assessments and interventions. Flexibility is required to work some evenings to accommodate youth and family. This is a brief service model which will include outreach to meet youth at the detention sites. As employers, we are committed to building intervention and management teams that reflect the diversity of our clients. Priority will be given to qualified applicants who identify with and have experience supporting BIPOC communities.\n\nPrimary Responsibilities:\n\n• Provide mental health assessments and counselling intervention for youth referred by 3 open detention/ custody facilities across the GTA\n• Work collaboratively with youth,parentsand detention staff by developing individualized assessment and service/treatment plans using astrengthbased and trauma informed approach\n• Provide youth with a clear pathway to access a psychological or psychiatric assessment when needed\n• Providepsychoeducationto youth and/or families regardingmental health diagnosis and services\n• Develop andfacilitatemonthly mental health psycho-educational workshops to staff at participating custody/ detention sites\n• Provide consultation and support to staff in Open Custody and Detention facilities on acase-by-case basis\n• Work with youth and families to follow up on assessment recommendations and/ or connect with ongoing therapeutic supports\n• Advise Program Manager of any serious occurrence and ensure documentation\n• Provide case coverage/support for other team members due to vacation/illness/emergency when assigned\n• Participate in supervision, program meetings, all-staff meetings, clinical consultations, peer consultations and committee/partnership meetings when required\n• Ensure that all recordings and documentation meet CTYS Policy and Procedures requirements, accreditation standards and are completed in a timely manner\n• Participate in agency committees,special eventsor community activities when determined appropriate in consultation with the Program Manager\n• Participate in training and professional development activities as required\n• Other duties as assigned\n\nQualifications:\n\n• A graduate degree in Social Work or related helping profession\n• Membership in the appropriate professional regulatory body (R.SW or R.P) (Registered Social Worker or Registered Psychotherapist)\n• Demonstrated experience working from an anti-oppressive framework with youth and families from diverse ethno-cultural and socio-economic backgrounds including youth with diverse intellectual abilities and racialized communities\n• Minimum threeyears’ experienceworking in children’s mental health\n• Knowledge of and experience working in theYouth Justice system\n• Experience working with youth with complex concurrent disorders\n• Experience in strength based and trauma informed mental health assessments, brief intervention modalities and CBT\n• Demonstrate skills in assessment, counseling, caseplanning and coordination with marginalized, youth, their families and detention staff\n• Strong interpersonal skills and ability to build rapport and engage with detention staff and marginalized youth\n• Knowledge of child and adolescent development and crisis intervention techniques\n• Knowledge of community resources to support youth\n• Experience working from a community outreach model\n• Demonstrated ability to work collaboratively and effectively with theYouth Justice system and collateral service providers\n• Ability to work independently and as part of a team\n• A valid Ontario driver’s license and daily access to a vehicle\n• Proficient in use of computers and software applications\n• Proficiencyin a second language an asset\n\nWhat CTYS offers:\n\n• Vacation:15 days first year, 20 days after one year of service\n• Personal Leave:17days\n• Float Days:1 day\n• Educational Leave:7 days\n• Extended Health: Employer pays extended health and dental single and family coverage, employee and family assistance program, and travel insurance.\n• Pension: OPTrust Pension: EE-3% and ER -3%. In addition, ER contributes 2.5% towards RRSP.\n• Compensation: Competitive salary & support during approved medical leave (sick-leave, LTD).\n• Flexibility:Hybrid work,Flexible work week\n\nCompensation: $ 66,463.16 – $79,360.49 (1 FTE)\n\nApplication instructions:\n\nPlease submit your cover letter and chronological resume via email to:\n\nCentral Toronto Youth Services\n\nE-mail: [email protected]\n\nWe thank all interested candidates, but only those selected for an interview will be contacted.\n\nEquity and inclusion:\n\nWe acknowledge that Central Toronto Youth Services (CTYS) is situated on the ceded lands and territories of the Anishinaabeg, Haudenosaunee, the Chippewa, the Mississauga’s of the Credit, the Wendat Peoples, and is now home to many diverse nations. We also acknowledge that Toronto is covered by Treaty 13 signed with the Mississauga’s of the Credit. We respectfully recognize the presence of Indigenous peoples, both in the past and present, as we commit to action, education, meaningful dialogue and necessary change.\n\nAs an employer, we are dedicated to cultivating an inclusive workplace and building intervention and management teams that reflect the diversity of our clients and the communities we serve.\n\nWe actively seek to attract, develop, and retain talent from diverse backgrounds, including but not limited to racialized individuals, 2SLGBTQIA+ individuals, persons with disabilities, and those from various socio-economic backgrounds. We strive to cultivate an inclusive culture that eliminates barriers, advances equity, and supports the success and well-being of all employees.\n\nAccommodation:\n\nCTYS is committed to creating an accessible and inclusive organization. In accordance with the Accessibility for Ontarians with Disabilities Act, 2005 (AODA) and the Ontario Human Rights Code (OHRC), CTYS will provide accommodations throughout the recruitment and selection process to applicants with disabilities. During any stage of the recruitment process, please notify [email protected] of the nature of any accommodation(s) you may require. Any information received relating to accommodation measures will be addressed confidentially."
+      }
+    ]
+  },
+  {
+    "id": "city-of-langley",
+    "source": {
+      "id": "city-of-langley",
+      "company_id": "city-of-langley",
+      "company_name": "City of Langley",
+      "revision": 2,
+      "status": "partial",
+      "complete": false,
+      "job_count": 2,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 2 jobs"
+      ]
+    },
+    "parser": {
+      "beautifulsoup4": "4.15.0",
+      "soupsieve": "2.10"
+    },
+    "same_source_urls_as_original": true,
+    "jobs": [
+      {
+        "title": "Fire Prevention Officer",
+        "source_url": "https://www.langleycity.ca/careers/fire-prevention-officer-1",
+        "description": ""
+      },
+      {
+        "title": "Clerical Pool",
+        "source_url": "https://www.langleycity.ca/careers/clerical-pool",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "district-of-saanich",
+    "source": {
+      "id": "district-of-saanich",
+      "company_id": "district-of-saanich",
+      "company_name": "District of Saanich",
+      "revision": 2,
+      "status": "partial",
+      "complete": false,
+      "job_count": 21,
+      "warnings": [
+        "Listing is incomplete; unseen roles are not confirmed closed.",
+        "description detail enrichment was incomplete for 21 jobs"
+      ]
+    },
+    "parser": {
+      "beautifulsoup4": "4.15.0",
+      "soupsieve": "2.10"
+    },
+    "same_source_urls_as_original": true,
+    "jobs": [
+      {
+        "title": "Program Leader I – Youth Centres",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/program-leader-i-youth-centres.html",
+        "description": ""
+      },
+      {
+        "title": "Engineering Technician III",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-iii-5.html",
+        "description": ""
+      },
+      {
+        "title": "Engineering Technician II",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/engineering-technician-ii-17.html",
+        "description": ""
+      },
+      {
+        "title": "HR Specialist - Disability Management",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/hr-specialist-disability-management.html",
+        "description": ""
+      },
+      {
+        "title": "Parks Worker II - Maintenance Section (Employees Only)",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/parks-worker-ii-maintenance-section-employees-only.html",
+        "description": ""
+      },
+      {
+        "title": "Records Support Clerk",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/records-support-clerk-34.html",
+        "description": ""
+      },
+      {
+        "title": "Certified Mechanic",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/certified-mechanic-1.html",
+        "description": ""
+      },
+      {
+        "title": "Certified Mechanic",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/certified-mechanic.html",
+        "description": ""
+      },
+      {
+        "title": "Water Meter Reader (Employees Only)",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/water-meter-reader-employees-only.html",
+        "description": ""
+      },
+      {
+        "title": "Aquatic Instructor II",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/aquatic-instructor-ii-33.html",
+        "description": ""
+      },
+      {
+        "title": "Aquatic Instructor II / Lifeguard",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/aquatic-instructor-ii-lifeguard-2.html",
+        "description": ""
+      },
+      {
+        "title": "Building Service Worker I",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/building-service-worker-i-68.html",
+        "description": ""
+      },
+      {
+        "title": "Building Service Worker II - Arena",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/building-service-worker-ii-38.html",
+        "description": ""
+      },
+      {
+        "title": "Instructor II – Foundations for Sports Classes",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/instructor-ii-foundations-for-sports-classes-1.html",
+        "description": ""
+      },
+      {
+        "title": "Aquatic Instructor III",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/aquatic-instructor-iii.html",
+        "description": ""
+      },
+      {
+        "title": "Childminder",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/childminder-3.html",
+        "description": ""
+      },
+      {
+        "title": "Instructor III - Fitness",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/instructor-iii-fitness-7.html",
+        "description": ""
+      },
+      {
+        "title": "Instructor III - Aquafit Instructor",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/instructor-iii-aquafit-instructor-1.html",
+        "description": ""
+      },
+      {
+        "title": "Recreation Receptionist",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/recreation-receptionist-108.html",
+        "description": ""
+      },
+      {
+        "title": "Aquatic Instructor II / Lifeguard",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/aquatic-instructor-ii-lifeguard-3.html",
+        "description": ""
+      },
+      {
+        "title": "Aquatic Instructor II",
+        "source_url": "https://www.saanich.ca/EN/main/local-government/careers-at-saanich/current-employment-opportunities/aquatics-instructor-ii-1.html",
+        "description": ""
+      }
+    ]
+  }
+]
