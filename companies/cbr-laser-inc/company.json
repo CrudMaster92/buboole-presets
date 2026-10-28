@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cbr-laser-inc",
+  "name": "CBR Laser inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cbrlaser.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}

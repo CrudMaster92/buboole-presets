@@ -1,0 +1,212 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "quebec-jobillico-new-25-20261028",
+  "revision": 1,
+  "name": "25 New Quebec Employer Boards — October 2026",
+  "description": "Twenty-five additional businesses with dedicated Jobillico employer boards, screened against the existing Buboole catalog and current FreeHire company directory. Every monitor collects the complete employer-specific active listing board.",
+  "tags": [
+    "Canada",
+    "Québec",
+    "Hiring expansion",
+    "All roles",
+    "October 2026"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "Québec",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "acier-trimax",
+      "monitor_ids": [
+        "acier-trimax"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "aliments-asta-inc",
+      "monitor_ids": [
+        "aliments-asta-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "attitudeliving",
+      "monitor_ids": [
+        "attitudeliving"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "cbr-laser-inc",
+      "monitor_ids": [
+        "cbr-laser-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "cegerco-inc",
+      "monitor_ids": [
+        "cegerco-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "entosystem",
+      "monitor_ids": [
+        "entosystem"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "equipements-art",
+      "monitor_ids": [
+        "equipements-art"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "fabrimet-inc",
+      "monitor_ids": [
+        "fabrimet-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "genifab-inc",
+      "monitor_ids": [
+        "genifab-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "gosselin-express-ltee-les-sables-olimag-inc",
+      "monitor_ids": [
+        "gosselin-express-ltee-les-sables-olimag-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "groupe-castech-plessitech-inc",
+      "monitor_ids": [
+        "groupe-castech-plessitech-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "groupe-conseil-uda",
+      "monitor_ids": [
+        "groupe-conseil-uda"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "groupe-maska-inc",
+      "monitor_ids": [
+        "groupe-maska-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "guay",
+      "monitor_ids": [
+        "guay"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "iga-alimentation-a-d-r-inc",
+      "monitor_ids": [
+        "iga-alimentation-a-d-r-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "inter-cite-construction-ltee",
+      "monitor_ids": [
+        "inter-cite-construction-ltee"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "le-groupe-bell-horizon-inc",
+      "monitor_ids": [
+        "le-groupe-bell-horizon-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "le-marche-vegetarien",
+      "monitor_ids": [
+        "le-marche-vegetarien"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "machitech",
+      "monitor_ids": [
+        "machitech"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "novolecs-inc",
+      "monitor_ids": [
+        "novolecs-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "pieces-dauto-ggm",
+      "monitor_ids": [
+        "pieces-dauto-ggm"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "posi-plus-technologies-inc",
+      "monitor_ids": [
+        "posi-plus-technologies-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "structures-d-acier-elite-inc",
+      "monitor_ids": [
+        "structures-d-acier-elite-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "terapro",
+      "monitor_ids": [
+        "terapro"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    },
+    {
+      "company_id": "valcourt-securite-inc",
+      "monitor_ids": [
+        "valcourt-securite-inc"
+      ],
+      "note": "Uncapped complete traversal of the dedicated employer job board."
+    }
+  ]
+}

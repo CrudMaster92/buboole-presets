@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gosselin-express-ltee-les-sables-olimag-inc",
+  "name": "Gosselin Express ltée & Les Sables Olimag inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.gosselinexpress.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}

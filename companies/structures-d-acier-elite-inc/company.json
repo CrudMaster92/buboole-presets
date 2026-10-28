@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "structures-d-acier-elite-inc",
+  "name": "Structures d'acier Élite INC.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://structuresdacierelite.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}
