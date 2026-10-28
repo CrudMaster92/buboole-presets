@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "excelpro",
+  "name": "Excelpro",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://excelpro.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}

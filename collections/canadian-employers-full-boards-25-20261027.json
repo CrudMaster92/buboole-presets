@@ -1,0 +1,210 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-full-boards-25-20261027",
+  "revision": 1,
+  "name": "25 New Employers — Full Board Traversal",
+  "description": "Twenty-five new employer boards screened against the catalog and FreeHire. All-role traversal continues to the actual end of pagination. Description extraction failures remain explicit in verification evidence.",
+  "tags": [
+    "Canada",
+    "All roles",
+    "October 2026 expansion"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "bva",
+      "monitor_ids": [
+        "bva"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "balnea",
+      "monitor_ids": [
+        "balnea"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "cetam",
+      "monitor_ids": [
+        "cetam"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "college-communautaire-du-nouveau-brunswick",
+      "monitor_ids": [
+        "college-communautaire-du-nouveau-brunswick"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "cooperative-aide-chez-soi-beauce",
+      "monitor_ids": [
+        "cooperative-aide-chez-soi-beauce"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "excavation-tourigny",
+      "monitor_ids": [
+        "excavation-tourigny"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "excelpro",
+      "monitor_ids": [
+        "excelpro"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "fondation-paul-gerin-lajoie",
+      "monitor_ids": [
+        "fondation-paul-gerin-lajoie"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "groupe-beaucage",
+      "monitor_ids": [
+        "groupe-beaucage"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "hotel-gault",
+      "monitor_ids": [
+        "hotel-gault"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "hotel-monville",
+      "monitor_ids": [
+        "hotel-monville"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "hotel-universel-riviere-du-loup",
+      "monitor_ids": [
+        "hotel-universel-riviere-du-loup"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "lahutte",
+      "monitor_ids": [
+        "lahutte"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "morehouse-foods-canada",
+      "monitor_ids": [
+        "morehouse-foods-canada"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "nitek-laser",
+      "monitor_ids": [
+        "nitek-laser"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "pech",
+      "monitor_ids": [
+        "pech"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "pluritec",
+      "monitor_ids": [
+        "pluritec"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "red-deer-polytechnic",
+      "monitor_ids": [
+        "red-deer-polytechnic"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "sopiar",
+      "monitor_ids": [
+        "sopiar"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "solidev",
+      "monitor_ids": [
+        "solidev"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "teccart",
+      "monitor_ids": [
+        "teccart"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "tristan",
+      "monitor_ids": [
+        "tristan"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "ville-de-joliette",
+      "monitor_ids": [
+        "ville-de-joliette"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "ville-de-kirkland",
+      "monitor_ids": [
+        "ville-de-kirkland"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    },
+    {
+      "company_id": "ville-de-nicolet",
+      "monitor_ids": [
+        "ville-de-nicolet"
+      ],
+      "note": "Complete listing traversal; description failures are recorded separately."
+    }
+  ]
+}

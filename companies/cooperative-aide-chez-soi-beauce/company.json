@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cooperative-aide-chez-soi-beauce",
+  "name": "Coopérative Aide Chez Soi en Beauce",
+  "legal_name": null,
+  "aliases": [
+    "Coopérative aide chez soi"
+  ],
+  "website_url": "https://www.vivreadomicile.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}

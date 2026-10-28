@@ -1,0 +1,26 @@
+{
+  "catalog_schema": "passed",
+  "catalog_build": {
+    "passed": true,
+    "companies": 1395,
+    "monitors": 1280,
+    "collections": 25
+  },
+  "catalog_unit_tests": {
+    "passed": 11
+  },
+  "runtime_export_integrity": {
+    "checked": true,
+    "files": 51
+  },
+  "collector_tests": {
+    "passed": 202
+  },
+  "live_monitors": 25,
+  "live_listings": 274,
+  "listing_complete": 25,
+  "pending_continuations": 0,
+  "raw_audit_missing": 0,
+  "raw_audit_extra": 0,
+  "description_failures": "Recorded per monitor and role; not claimed complete."
+}

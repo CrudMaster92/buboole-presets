@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "college-communautaire-du-nouveau-brunswick",
+  "name": "Collège Communautaire du Nouveau-Brunswick",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://ccnb.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}

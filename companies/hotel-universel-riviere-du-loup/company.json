@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hotel-universel-riviere-du-loup",
+  "name": "Hôtel Universel Rivière-du-Loup",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.hoteluniverselrdl.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,3910 @@
+[
+  {
+    "id": "bva",
+    "name": "BVA",
+    "slug": "nos-emplois",
+    "checked_at": "2026-10-28T01:40:02.099391+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 10,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20250912001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20250821001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20250404004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20261013001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20260409002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20260610001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20260618001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nos-emplois/20260707001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Spécialiste en implémentation de solutions comptables",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20261013001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20261013001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur.trice en fiscalité - Réorganisation",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20250404004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20250404004?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Chef.fe d'équipe - Certification et services-conseils",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20260409002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20260409002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur.trice - Audit financier et risques TI",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20260707001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20260707001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller.ère en fiscalité - Taxes indirectes",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20260610001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20260610001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur.trice – Certification et services-conseils",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20250912001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20250912001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne en comptabilité - Certification",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20260618001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20260618001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne sénior en comptabilité - AGILI-T",
+        "location": "Lévis, Sainte-Marie,Saint-Georges ou Thetford",
+        "canonical_url": "https://jobs.glowinthecloud.com/nos-emplois/20250821001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nos-emplois/20250821001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "balnea",
+    "name": "Balnea",
+    "slug": "balnea",
+    "checked_at": "2026-10-28T01:39:57.995699+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 13,
+    "warnings": [
+      "description detail enrichment was incomplete for 11 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260512001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260831001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260507007?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20261022001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260929001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260925002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260930001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20261014001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260831005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20260914001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/balnea/20261015001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Réceptionniste d'hôtel (de jour)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260831001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260831001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Cuisinier.ère",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260929001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260929001?l=fr",
+        "employment_type": "Jour, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Plongeur.euse",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20261022001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20261022001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller.ère marketing de contenu et communications",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20261015001?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Agent.e de bien-être",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20261014001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20261014001?l=fr",
+        "employment_type": "Partiel",
+        "description_characters": 0
+      },
+      {
+        "title": "Agent.e de réservations",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260930001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260930001?l=fr",
+        "employment_type": "Jour, Fin de semaine, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé.e à la maintenance",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260831005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260831005?l=fr",
+        "employment_type": "Jour, Soir, Permanent, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Équipier.ère polyvalent.e de nuit (hôtel)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260925002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260925002?l=fr",
+        "employment_type": "Nuit, Permanent, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé.e à l'entretien ménager",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260914001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260914001?l=fr",
+        "employment_type": "Partiel, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Massothérapeute (travailleur.euse autonome)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260507007?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260507007?l=fr",
+        "employment_type": "Jour, Fin de semaine, Soir",
+        "description_characters": 0
+      },
+      {
+        "title": "Agent.e d'entretien de nuit",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/balnea/20260512001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/balnea/20260512001?l=fr",
+        "employment_type": "Nuit, Permanent",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "cetam",
+    "name": "CETAM",
+    "slug": "cetam",
+    "checked_at": "2026-10-28T01:39:46.784675+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 5,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/cetam?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cetam?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cetam/20260923001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cetam/20251127001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cetam/20260831001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "COORDONATRICE RH ET GESTION DE LA PRÉSENCE AU TRAVAIL",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cetam/20260923001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cetam/20260923001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "TECHNICIEN RÉPARTITEUR EN MAINTENANCE DES VÉHICULES",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cetam/20260831001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cetam/20260831001?l=fr",
+        "employment_type": null,
+        "description_characters": 5299
+      },
+      {
+        "title": "TECHNICIEN AMBULANCIER PARAMÉDIC",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cetam/20251127001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cetam/20251127001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "college-communautaire-du-nouveau-brunswick",
+    "name": "Collège Communautaire du Nouveau-Brunswick",
+    "slug": "college-communautaire-du-nouveau-brunswick",
+    "checked_at": "2026-10-28T01:40:02.437525+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 12,
+    "warnings": [
+      "description detail enrichment was incomplete for 9 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261015001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261022001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261019002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260922005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260623003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261021001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260901002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260928001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Chef des solutions technologiques",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261022001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261022001?l=fr",
+        "employment_type": "Terme - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Enseignante ou enseignant - Compétences essentielles au travail",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016001?l=fr",
+        "employment_type": "Occasionnel - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Instructor English Second Language",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261016002?l=fr",
+        "employment_type": "Occasionnel - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Doyenne associée ou Doyen associé, Affaires et industries créatives",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261021001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261021001?l=fr",
+        "employment_type": "Régulier - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Magasinière ou magasinier I",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261019002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261019002?l=fr",
+        "employment_type": "Terme - Temps partiel",
+        "description_characters": 0
+      },
+      {
+        "title": "Chef de projets - Petite enfance",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260922005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260922005?l=fr",
+        "employment_type": "Terme - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller ou conseillère en développement du capital humain",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260901002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260901002?l=fr",
+        "employment_type": "Régulier - Temps plein",
+        "description_characters": 4380
+      },
+      {
+        "title": "Chef de projets - Technologie de l'information (TI)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20261015001?l=fr",
+        "employment_type": "Régulier - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Direction adjointe des services administratifs",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260928001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260928001?l=fr",
+        "employment_type": "Régulier - Temps plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Enseignante ou Enseignant, technologie d'électrophysiologie médicale - cardiologie",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260623003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick/20260623003?l=fr",
+        "employment_type": "Terme - Temps partiel",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "cooperative-aide-chez-soi-beauce",
+    "name": "Coopérative Aide Chez Soi en Beauce",
+    "slug": "cooperative-aide-chez-soi",
+    "checked_at": "2026-10-28T01:39:32.649093+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 10,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261002001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260819001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261008001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261005001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261013001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424003?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Infirmier(ère) auxiliaire - Soins et hygiène des pieds",
+        "location": "Saint-Joseph-de-Beauce",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261008001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261008001?l=fr",
+        "employment_type": "Temps Plein",
+        "description_characters": 956
+      },
+      {
+        "title": "Service alimentaire – Cuisinier(ère) mobile",
+        "location": "Saint-Joseph-de-Beauce",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261013001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261013001?l=fr",
+        "employment_type": "Temps Plein, Une fin de semaine sur deux",
+        "description_characters": 0
+      },
+      {
+        "title": "Coordonnateur(trice) des soins",
+        "location": "700 Av. Robert Cliche, Saint-Joseph-de-Beauce, QC G0S 2V0, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261005001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261005001?l=fr",
+        "employment_type": "Permanent, Jour, Temps Plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Service alimentaire - Préposé(e) au service alimentaire",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261002001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20261002001?l=fr",
+        "employment_type": "Jour, Partiel, Permanent, Une fin de semaine sur trois",
+        "description_characters": 0
+      },
+      {
+        "title": "Service alimentaire - Service aux tables",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260819001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260819001?l=fr",
+        "employment_type": "Jour, Permanent, Temps Partiel, Temps Plein, Une fin de semaine sur deux",
+        "description_characters": 0
+      },
+      {
+        "title": "Aide à domicile - Soins d'assistance personnelle",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424004?l=fr",
+        "employment_type": "Jour, Soir, Permanent, Temps Partiel, Temps Plein, Une fin de semaine sur deux",
+        "description_characters": 0
+      },
+      {
+        "title": "Aide à domicile - Aide à la vie domestique",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424003?l=fr",
+        "employment_type": "Jour, Permanent, Temps Partiel, Temps Plein",
+        "description_characters": 0
+      },
+      {
+        "title": "Aide à domicile – Grand ménage",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi/20260424002?l=fr",
+        "employment_type": "Jour, Permanent, Temps Partiel, Temps Plein",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "excavation-tourigny",
+    "name": "Excavations Tourigny",
+    "slug": "excavation-tourigny",
+    "checked_at": "2026-10-28T01:39:03.178401+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 9,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260220002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260715001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20261026001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260918001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623002?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Opérateur-adjoint aux opérations de déneigement - Laurier-Station",
+        "location": "Laurier-Station",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20261026001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20261026001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Contremaître de garage - mécanicien(ne) de camions lourds et de machineries lourdes",
+        "location": "Victoriaville",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260918001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260918001?l=fr",
+        "employment_type": "Nuit",
+        "description_characters": 0
+      },
+      {
+        "title": "Manoeuvre 1er poseur CCQ",
+        "location": "St-Jean-sur-Richelieu, Rives sud de Québec",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) de camions lourds - Sénior",
+        "location": "Victoriaville",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260220002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260220002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Manutentionnaire - Responsable de cour",
+        "location": "Victoriaville",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260715001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260715001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Manoeuvre spécialisé(e) Topman CCQ",
+        "location": "Rives sud de Québec, St-Jean-sur-Richelieu",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623003?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Manoeuvre 2ième poseur CCQ",
+        "location": "Rives sud de Québec, St-Jean-sur-Richelieu",
+        "canonical_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excavation-tourigny/20260623002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "excelpro",
+    "name": "Excelpro",
+    "slug": "excelpro-carrieres",
+    "checked_at": "2026-10-28T01:39:03.423860+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 20,
+    "warnings": [
+      "description detail enrichment was incomplete for 16 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260113005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260915001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261001001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260922001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260826001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260410003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260908001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261027001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260925001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260623001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260818001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260810001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Adjoint.e administratif.ve aux ventes",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260908001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260908001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Agent.e de méthodes",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903002?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Assembleur.euse de panneaux de contrôle",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260410003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260410003?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Chargé.e de comptes",
+        "location": "Ottawa",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260623001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260623001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Chargé.e de soumission",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224002?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Chargé.e de soumissions",
+        "location": "Trois-Rivières",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260113005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260113005?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Chef.fe d'équipe - Production",
+        "location": "Trois-Rivières",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260922001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260922001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller.ère SSE",
+        "location": "Saint-Jérôme",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260903003?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur.trice du bureau gestion de projets (PMO)",
+        "location": "Saint-Jérôme",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260818001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260818001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 3733
+      },
+      {
+        "title": "Journalier.ière de production",
+        "location": "Drummondville",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260826001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260826001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Leader Technique OT",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20251224003?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Monteur-Assembleur mécanique et électrique",
+        "location": "Trois-Rivières",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261027001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261027001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Partenaire marketing B2B",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261001001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20261001001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 3679
+      },
+      {
+        "title": "Planificateur.trice",
+        "location": "Drummondville",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260925001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260925001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e aux ventes externes",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260915001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260915001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Superviseur.e Contrôle Qualité",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Superviseur.e Contrôle Qualité",
+        "location": "Trois-Rivières",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260924002?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien en Automation - département de service",
+        "location": "Trois-Rivières",
+        "canonical_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260810001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/excelpro-carrieres/20260810001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "fondation-paul-gerin-lajoie",
+    "name": "Fondation Paul Gérin-Lajoie",
+    "slug": "fondation-paul-gerin-lajoie",
+    "checked_at": "2026-10-28T01:39:34.828593+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie/20261008001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Personne conseillère en communication",
+        "location": "Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie/20261008001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie/20261008001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-beaucage",
+    "name": "Groupe Beaucage",
+    "slug": "groupe-beaucage",
+    "checked_at": "2026-10-28T01:39:12.806996+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 28,
+    "warnings": [
+      "description detail enrichment was incomplete for 26 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260831002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261020001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260908002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260708001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260219001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261008001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260805001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261015001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260512001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261014001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260909001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261006001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261026001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260825001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261023001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261027001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261016001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260911002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260716001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260424002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260316001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260128002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413003?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Réceptionniste",
+        "location": "4339 Boul Bourque, Rock Forest–Saint-Élie–Deauville, QC J1N 1S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261027001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261027001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur(ice) des ventes",
+        "location": "3625 Rue du Blanc-Coteau, Sherbrooke, QC J1L 0B4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261026001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261026001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Adjoint(e) du Directeur Commercial",
+        "location": "5650 Rue Martineau, Saint-Hyacinthe, QC J2R 1T6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261023001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261023001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Aviseur technique - Conseiller(ère)",
+        "location": "2800 Rue Sherbrooke, Magog, QC J1X 6C8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261020001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261020001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Laveur(euse) de véhicule",
+        "location": "5650 Rue Martineau, Saint-Hyacinthe, QC J2R 1T6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261016001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261016001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé(e) au service - Service Attendant",
+        "location": "5650 Rue Martineau, Saint-Hyacinthe, QC J2R 1T6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261015001?l=fr",
+        "employment_type": "Jour, Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Aviseur technique - Conseiller(ère)",
+        "location": "1405 Bd René-Lévesque, Drummondville, QC J2C 7V4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261014001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261014001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes",
+        "location": "1332 Rue Principale, Granby, QC J2J 0K9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261008001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261008001?l=fr",
+        "employment_type": "Jour, Soir, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé(e) au service - Service Attendant",
+        "location": "1405 Bd René-Lévesque, Drummondville, QC J2C 7V4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261006001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20261006001?l=fr",
+        "employment_type": "Jour, Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé(e) au service - Service Attendant",
+        "location": "1200 Bd René-Lévesque, Drummondville, QC J2C 5W4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260911002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260911002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon",
+        "location": "1376 Rue Principale, Granby, QC J2J 0M4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260909001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260909001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien(ne) automobile - Chef(fe) d'atelier",
+        "location": "1429 Rue Notre Dame O, Victoriaville, QC G6P 7L5, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260908002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260908002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien(ne) automobile",
+        "location": "3625 Rue du Blanc-Coteau, Sherbrooke, QC J1L 0B4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260825001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260825001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes",
+        "location": "1429 Rue Notre Dame O, Victoriaville, QC G6P 7L5, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260831002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260831002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes",
+        "location": "2800 Rue Sherbrooke, Magog, QC J1X 6C8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720001?l=fr",
+        "employment_type": "Jour, Soir, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Apprenti(e) mécanicien(ne)",
+        "location": "2960 Rue Sherbrooke, Magog, QC J1X 4G4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260512001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260512001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon",
+        "location": "4280 Boul Bourque, Sherbrooke, QC J1N 1W7, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260805001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260805001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon",
+        "location": "4339 Boul Bourque, Rock Forest–Saint-Élie–Deauville, QC J1N 1S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260716001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260716001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) automobile",
+        "location": "1405 Bd René-Lévesque, Drummondville, QC J2C 7V4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260720002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon",
+        "location": "1348 Rue Principale, Granby, QC J2J 0K9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260708001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260708001?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes - Mazda Magog",
+        "location": "2940 Rue Sherbrooke, Magog, QC J1X 6C7, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260128002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260128002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Apprenti(e) mécanicien(ne)",
+        "location": "1200 Bd René-Lévesque, Drummondville, QC J2C 5W4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260424002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260424002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon",
+        "location": "2800 Rue Sherbrooke, Magog, QC J1X 6C8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413003?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Apprenti(e) mécanicien(ne)",
+        "location": "1500 Bd René-Lévesque, Drummondville, QC J2C 8B3, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260413002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes",
+        "location": "1348 Rue Principale, Granby, QC J2J 0K9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260316001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260316001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Mécanicien(ne) compagnon - Mitsubishi Granby",
+        "location": "1332 Rue Principale, Granby, QC J2J 0K9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260219001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-beaucage/20260219001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "hotel-gault",
+    "name": "Hôtel Gault",
+    "slug": "hotelgault",
+    "checked_at": "2026-10-28T01:39:51.178823+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelgault?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelgault?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelgault/20261001001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Préposé.e aux chambres - Temps partiel",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotelgault/20261001001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotelgault/20261001001?l=fr",
+        "employment_type": "Part-time",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "hotel-monville",
+    "name": "Hôtel Monville",
+    "slug": "hotelmonville",
+    "checked_at": "2026-10-28T01:39:56.025125+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 4,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelmonville?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelmonville?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelmonville/20261026001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotelmonville/20261015001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien.ne de maintenance - Tps plein",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotelmonville/20261026001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotelmonville/20261026001?l=fr",
+        "employment_type": "Full-time",
+        "description_characters": 0
+      },
+      {
+        "title": "Agent(e) de réception nuit",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotelmonville/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotelmonville/20261015001?l=fr",
+        "employment_type": "Part-time",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "hotel-universel-riviere-du-loup",
+    "name": "Hôtel Universel Rivière-du-Loup",
+    "slug": "hotel-universel-riviere-du-loup",
+    "checked_at": "2026-10-28T01:39:52.712884+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 10,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260929002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260917002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260918001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260921001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261022001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261005001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260915001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261002001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Réceptionniste",
+        "location": "311 Bd de l'Hôtel de Ville, Rivière-du-Loup, QC G5R 5S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261022001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261022001?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Massothérapeute",
+        "location": "311 Bd de l'Hôtel de Ville, Rivière-du-Loup, QC G5R 5S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261005001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261005001?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Surveillant/surveillante du nettoyage et de l’entretien",
+        "location": "311 Bd de l'Hôtel de Ville, Rivière-du-Loup, QC G5R 5S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261002001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20261002001?l=fr",
+        "employment_type": "Jour, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé à l'entretien ménager",
+        "location": "311 Boulevard de l'Hôtel de Ville, Rivière-du-Loup",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260929002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260929002?l=fr",
+        "employment_type": "Jour, Fin de semaine, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Préposé/préposée de station thermale",
+        "location": "311 Bd de l'Hôtel de Ville, Rivière-du-Loup, QC G5R 5S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260921001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260921001?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Cuisinier/Cuisinière",
+        "location": "311 Bd de l'Hôtel de Ville, Rivière-du-Loup, QC G5R 5S4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260918001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260918001?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Serveur / Serveuse",
+        "location": "Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260917002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260917002?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Plongeur / Plongeuse",
+        "location": "311 Boulevard de l'Hôtel de Ville, Rivière-du-Loup (Québec) Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260915001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup/20260915001?l=fr",
+        "employment_type": "Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "lahutte",
+    "name": "La HUTTE",
+    "slug": "lahutte",
+    "checked_at": "2026-10-28T01:39:35.776968+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 6,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte/20261022001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte/20261019001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte/20260930002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/lahutte/20260924001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Commis à la réception et à la gestion des inventaires",
+        "location": "Terrebonne",
+        "canonical_url": "https://jobs.glowinthecloud.com/lahutte/20261022001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/lahutte/20261022001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Intervenant(e) psychosocial",
+        "location": "Joliette",
+        "canonical_url": "https://jobs.glowinthecloud.com/lahutte/20261019001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/lahutte/20261019001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Intervenant(e) psychosocial",
+        "location": "St Jérôme",
+        "canonical_url": "https://jobs.glowinthecloud.com/lahutte/20260930002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/lahutte/20260930002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Intervenant(e) psychosocial",
+        "location": "Terrebonne",
+        "canonical_url": "https://jobs.glowinthecloud.com/lahutte/20260924001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/lahutte/20260924001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "morehouse-foods-canada",
+    "name": "Morehouse Foods Canada",
+    "slug": "httpsmorehousefoodsca",
+    "checked_at": "2026-10-28T01:39:03.058748+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 9,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260823001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260723001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261021001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260519001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261014001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260917002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260921002?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Électromécanicien(ne) - Quart de jour",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261021001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261021001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Journalier - Quart de jour",
+        "location": "Laval",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260823001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260823001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e) administratif(ve) - Transactions d'inventaire",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261014001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20261014001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant entrepôt (JOUR)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260917002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260917002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien comptable",
+        "location": "Laval",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260921002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260921002?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Cariste - Quart de soir",
+        "location": "Laval",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260723001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260723001?l=fr",
+        "employment_type": "Soir",
+        "description_characters": 0
+      },
+      {
+        "title": "Cariste - Quart de jour",
+        "location": "Laval",
+        "canonical_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260519001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca/20260519001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "nitek-laser",
+    "name": "Nitek Laser",
+    "slug": "nitek-laser",
+    "checked_at": "2026-10-28T01:40:01.458257+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 7,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser/20251209001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser/20251209006?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser/20260212001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser/20260210001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/nitek-laser/20251209003?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Journalier",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/nitek-laser/20260212001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nitek-laser/20260212001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Journalier - expédition",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/nitek-laser/20260210001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nitek-laser/20260210001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien en traitement de dessins",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209006?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209006?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Chargé de projets",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209003?l=fr",
+        "employment_type": null,
+        "description_characters": 2158
+      },
+      {
+        "title": "Opérateur CNC",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/nitek-laser/20251209001?l=fr",
+        "employment_type": null,
+        "description_characters": 987
+      }
+    ]
+  },
+  {
+    "id": "pech",
+    "name": "PECH",
+    "slug": "pech",
+    "checked_at": "2026-10-28T01:38:58.987343+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 5,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/pech?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pech?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pech/20261019003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pech/20261019004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pech/20261019002?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Intervenant",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/pech/20261019004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pech/20261019004?l=fr",
+        "employment_type": "Jour, Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Intervenant",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/pech/20261019003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pech/20261019003?l=fr",
+        "employment_type": "Jour, Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Intervenant",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/pech/20261019002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pech/20261019002?l=fr",
+        "employment_type": "Jour, Nuit, Soir",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "pluritec",
+    "name": "Pluritec",
+    "slug": "pluritec",
+    "checked_at": "2026-10-28T01:42:04.006530+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 66,
+    "warnings": [
+      "description detail enrichment was incomplete for 63 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec?l=fr&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20261016001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903029?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904007?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903011?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903019?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903033?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260917004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260917001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903014?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903027?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904018?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910018?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910008?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903034?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903022?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903026?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903037?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903012?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904010?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904006?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903025?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910020?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903009?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910021?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903013?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903020?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20261016002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903023?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903030?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904015?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260915001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903015?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903017?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903035?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903024?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20261015001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903007?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903006?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904013?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910019?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260917003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903028?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904008?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910006?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910022?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903021?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260910004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904011?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904016?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903032?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260904009?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/pluritec/20260903016?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien.ne, Mécanique du bâtiment",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20261016002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20261016002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Mécanique du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20261015001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Candidat.e à la profession d'ingénieur.e, Mécanique du bâtiment",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20261016001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20261016001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne stagiaire, mécanique du bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910018?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910018?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne stagiaire, électricité du bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910020?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910020?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne stagiaire, mécanique du bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910019?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910019?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne stagiaire, électricité du bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910022?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910022?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne stagiaire, électricité du bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910021?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910021?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Stagiaire universitaire, mécanique du bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910008?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910008?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Stagiaire universitaire, électricité du bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910006?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910006?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Stagiaire universitaire, électricité du bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910005?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Stagiaire universitaire, électricité du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910004?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Stagiaire universitaire, mécanique du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260910003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260910003?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Adjoint.e administratif.ve",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260917003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260917003?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Coordonnateur.trice - Administration de projets",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260917004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260917004?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Candidat.e à la profession d'ingénieur.e, Génie civil",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260917001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260917001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Candidat.e à la profession d’ingénieur.e, Structure du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904018?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904018?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Candidat.e à la profession d’ingénieur.e, Mécanique du bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904016?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904016?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Candidat.e à la profession d’ingénieur.e, Mécanique du bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904015?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904015?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Mécanique du bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260915001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260915001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Électricité du bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904013?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904013?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Électricité du bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904011?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904011?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Électricité du bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904010?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904010?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Électricité du bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904009?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904009?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e intermédiaire, Ouvrages d’art – Conception et surveillance",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904008?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904008?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e intermédiaire, Ouvrages d’art – Conception et surveillance",
+        "location": "550 Av. de la Station, Shawinigan, QC G9N 1V9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904007?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904007?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e intermédiaire, Ouvrages d’art – Conception et surveillance",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904006?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904006?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e intermédiaire, Ouvrages d’art – Conception et surveillance",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904005?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, Ouvrages d’art",
+        "location": "550 Av. de la Station, Shawinigan, QC G9N 1V9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904004?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, Ouvrages d’art",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904003?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, Ouvrages d’art",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, Ouvrages d’art",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260904002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260904002?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier sénior.e, Génie du bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903005?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Infrastructures urbaines et transport",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903037?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903037?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Infrastructures urbaines et transport",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903035?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903035?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Infrastructures urbaines et transport",
+        "location": "550 Av. de la Station, Shawinigan, QC G9N 1V9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903034?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903034?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Infrastructures urbaines et transport",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903033?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903033?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Infrastructures urbaines et transport",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903032?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903032?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, génie civil",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903030?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903030?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, génie civil",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903029?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903029?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903028?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903028?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903027?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903027?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903026?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903026?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "550 Av. de la Station, Shawinigan, QC G9N 1V9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903025?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903025?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903024?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903024?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier, Ouvrages d’art",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903023?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903023?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, traitement des eaux",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903022?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903022?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, traitement des eaux",
+        "location": "1100 Pl. du Technoparc, Trois-Rivières, QC G9A 6M6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903021?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903021?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, traitement des eaux",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903020?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903020?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, électricité du bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903019?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903019?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, structure du bâtiment",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903017?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903017?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien.ne, structure du bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903016?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903016?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Dessinateur.trice, mécanique du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903014?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903014?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Génie civil",
+        "location": "550 Av. de la Station, Shawinigan, QC G9N 1V9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903013?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903013?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e, Génie civil",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903012?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903012?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e chargé.e de projets en bâtiment",
+        "location": "55 Rue Girouard, Victoriaville, QC G6P 5T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903011?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903011?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier sénior.e, Génie du bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903001?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur.trice, chargé.e de projets, Génie civil",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903015?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903015?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e chargé.e de projets en bâtiment",
+        "location": "233 Bd Frontenac O, Thetford Mines, QC G6G 6K2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903009?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903009?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e chargé.e de projets en bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903006?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903006?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Ingénieur.e chargé.e de projets en bâtiment",
+        "location": "235 Rue Hériot, Drummondville, QC J2C, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903007?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903007?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier sénior.e, Génie du bâtiment",
+        "location": "1100 Place du Technoparc, Trois-Rivières, G9A 6M6, Québec, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903004?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant.e de chantier sénior.e, Génie du bâtiment",
+        "location": "3229 Chem. des Quatre-Bourgeois, Québec, QC G1W 0C1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/pluritec/20260903002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/pluritec/20260903002?l=fr",
+        "employment_type": "Permanent",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "red-deer-polytechnic",
+    "name": "Red Deer Polytechnic",
+    "slug": "rd-polytech",
+    "checked_at": "2026-10-28T01:41:58.249687+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 36,
+    "warnings": [
+      "description detail enrichment was incomplete for 33 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?l=fr&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260914002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260915001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260915002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261001002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260914004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261009001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260902002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260922004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260831002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261026001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260917002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261001001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261014003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261005001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261014001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260914007?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260830001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261008001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260824002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261006004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261014002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260914001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260925001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260916001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261009002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260827001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261015001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261006001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261002001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261005002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261022002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20261020001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/rd-polytech/20260831001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technical Support Analyst II (Term Certain)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261026001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261026001?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Program Growth and Quality Manager, Donald School of Business",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260902002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260902002?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Operations Coordinator, Academic",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261015001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261015001?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Learning Designer, Scholarship of Teaching and Learning (SoTL)",
+        "location": "100 Donald Blvd.",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261020001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261020001?l=fr",
+        "employment_type": "Probationary Continious",
+        "description_characters": 0
+      },
+      {
+        "title": "Accounts Receivable Technician II (Term Certain)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261022002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261022002?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Applied Research Technician II",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261002001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261002001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Industrial Research (Engineer) Associate",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261001002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261001002?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Administrative Support Casual Pool",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014002?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Early Learning and Child Care (ELCC) Instructor, Full-Time Sessional",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261009002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261009002?l=fr",
+        "employment_type": "Sessional",
+        "description_characters": 0
+      },
+      {
+        "title": "Accessibility Coordinator",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014001?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Non Credit Instructor - Medical Office Assistant",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261014003?l=fr",
+        "employment_type": "Term-Certain",
+        "description_characters": 0
+      },
+      {
+        "title": "Artificial Intelligence and Data Analytics Instructor – Part time",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261006004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261006004?l=fr",
+        "employment_type": "Term-Certain",
+        "description_characters": 0
+      },
+      {
+        "title": "Library Virtual Student Experience Coordinator (Casual)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261009001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261009001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Director, People & Culture",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261008001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261008001?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Extended Reality (XR) Technician, School of Health and Wellness",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261005001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261005001?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Network Administration Instructor – Continuous Appointment (Probationary)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261006001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261006001?l=fr",
+        "employment_type": "Conditional Continuous Probationary",
+        "description_characters": 0
+      },
+      {
+        "title": "Instrumentation & Automation Engineering Technology – Probationary-Continuous Instructor",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261001001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261001001?l=fr",
+        "employment_type": "Probationary Continious",
+        "description_characters": 0
+      },
+      {
+        "title": "Aircraft Maintenance Engineering Technology Instructor",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260915002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260915002?l=fr",
+        "employment_type": "Probationary Continious",
+        "description_characters": 0
+      },
+      {
+        "title": "Business Development Specialist",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20261005002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20261005002?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Computer Programming Instructor – Continuous Appointment (Probationary)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260917002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260917002?l=fr",
+        "employment_type": "Probationary Continious",
+        "description_characters": 0
+      },
+      {
+        "title": "Program Development Manager – Transportation Grants (Part-Time)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914001?l=fr",
+        "employment_type": "Term-Certain",
+        "description_characters": 0
+      },
+      {
+        "title": "Security Services Manager",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260925001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260925001?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Marker - Humanities and Social Sciences (Casual)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260922004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260922004?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Athletics Games Lead Attendant (Hiring Year Round)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260831001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260831001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Athletics PA Announcer (Hiring Year-Round)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260831002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260831002?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Athletics Games Attendant (Hiring Year-Round)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260830001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260830001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Athletics Photographer (Hiring Year-Round)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260827001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260827001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Event & Bar Attendant (Casual)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260916001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260916001?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Director, Entrepreneurship Activation Lab (REAL)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260915001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260915001?l=fr",
+        "employment_type": "Term-Certain Full-Time",
+        "description_characters": 0
+      },
+      {
+        "title": "Practical Nurse Instructors - Part Time",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914007?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914007?l=fr",
+        "employment_type": "Term-Certain",
+        "description_characters": 0
+      },
+      {
+        "title": "Clinical Nursing Instructor Pool (RN, Part-Time)",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914004?l=fr",
+        "employment_type": "Term-Certain",
+        "description_characters": 0
+      },
+      {
+        "title": "Visual Art Model",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260914002?l=fr",
+        "employment_type": "Casual",
+        "description_characters": 0
+      },
+      {
+        "title": "Manager, Student Care",
+        "location": "Red Deer",
+        "canonical_url": "https://jobs.glowinthecloud.com/rd-polytech/20260824002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/rd-polytech/20260824002?l=fr",
+        "employment_type": "Permanent Full-Time",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "sopiar",
+    "name": "SOPIAR gestion sportive",
+    "slug": "sopiar",
+    "checked_at": "2026-10-28T01:39:47.356138+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 7,
+    "warnings": [
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar/20260422003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar/20260917001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar/20260904001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar/20260924001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/sopiar/20260422001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Entraîneur(e) qualifié(e) - kinésiologue",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/sopiar/20260924001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/sopiar/20260924001?l=fr",
+        "employment_type": "Durée indéterminée",
+        "description_characters": 0
+      },
+      {
+        "title": "Opérateur(trice)-concierge",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/sopiar/20260422003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/sopiar/20260422003?l=fr",
+        "employment_type": "Permanent, Soir",
+        "description_characters": 0
+      },
+      {
+        "title": "Concierge-appariteur(trice)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/sopiar/20260904001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/sopiar/20260904001?l=fr",
+        "employment_type": "Fin de semaine, Soir",
+        "description_characters": 0
+      },
+      {
+        "title": "Responsable administratif(ve)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/sopiar/20260917001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/sopiar/20260917001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Opérateur(trice)-concierge",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/sopiar/20260422001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/sopiar/20260422001?l=fr",
+        "employment_type": "Permanent, Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "solidev",
+    "name": "Solidev",
+    "slug": "solidev",
+    "checked_at": "2026-10-28T01:41:53.713987+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 17,
+    "warnings": [
+      "description detail enrichment was incomplete for 13 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev?l=fr&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260225001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260105001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20261021001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260707001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260302001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260814001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260106001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260119001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20261009001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260323001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260831003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20261016001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20251202001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/solidev/20260924001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "(Serbec) Charpentier(ère)s-Menuisier(ère)s",
+        "location": "8480 Boul. Saint-Laurent, Montréal",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20251202001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20251202001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "(Serbec) Manœuvre spécialisé en démolition et décontamination",
+        "location": "8480 Boul. St-Laurent, Montréal, Québec",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20261021001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20261021001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Serbec) Plâtrier(ère)s",
+        "location": "8480 Boul. Saint-Laurent, Montréal, QC",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260323001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260323001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 2252
+      },
+      {
+        "title": "(CPB) Directeur(trice) Estimation",
+        "location": "1440 Rue Hocquart Local 220, Saint-Bruno-de-Montarville, QC",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20261016001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20261016001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Lévesque) Charpentier(ère)-Menuisier(ère)",
+        "location": "1200 Ave Saint-Jean-Baptiste bureau 220, Québec, QC",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260302001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260302001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Demers) Responsable de l'entrepôt",
+        "location": "564 Lionel-Boulet, Varennes, Québec",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20261009001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20261009001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Demers) Manœuvre spécialisé",
+        "location": "2200 Rue Marie-Victorin, Saint-Bruno-de-Montarville",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260106001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260106001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "(Demers) Briqueteur(euse) - Maçon(ne)",
+        "location": "2200 Rue Marie-Victorin, Saint-Bruno-de-Montarville, QC",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260105001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260105001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "(CPB) Chargé(e) de projets",
+        "location": "1440 Rue Hocquart, Saint-Bruno-de-Montarville, Québec",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260225001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260225001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "(Serbec) Adjoint(e) de projets - Aéroport de Montréal",
+        "location": "975, boulevard Roméo-Vachon Nord",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260814001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260814001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Lévesque Construction) Partenaire d'affaires ressources humaines",
+        "location": "1200, avenue Saint-Jean-Baptiste, Suite #220, Québec, QC, G2E 5E8",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260924001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260924001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Lévesque Construction) Coordonnateur(trice) de projets",
+        "location": "1200, avenue Saint-Jean-Baptiste, Suite #220, Québec, QC, G2E 5E8",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260831003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260831003?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "(Lévesque) Manœuvre spécialisé en démolition et décontamination",
+        "location": "1200 Ave Saint-Jean-Baptiste suite 220, Québec, QC",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260119001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260119001?l=fr",
+        "employment_type": "Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "(Lévesque Construction) Directeur(trice) construction",
+        "location": "1200, avenue Saint-Jean-Baptiste. Suite #220, Québec, QC, G2E 5E8",
+        "canonical_url": "https://jobs.glowinthecloud.com/solidev/20260707001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/solidev/20260707001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "teccart",
+    "name": "Teccart",
+    "slug": "teccart",
+    "checked_at": "2026-10-28T01:39:07.479968+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 5,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/teccart?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/teccart?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/teccart/20260731001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/teccart/20260421001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/teccart/20260325001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Enseignant (e) en Courtage immobilier",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/teccart/20260731001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/teccart/20260731001?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Enseignant (e) de Design d'intérieur",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/teccart/20260421001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/teccart/20260421001?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      },
+      {
+        "title": "Banque de candidats en génie électriques",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/teccart/20260325001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/teccart/20260325001?l=fr",
+        "employment_type": "Temporaire",
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "tristan",
+    "name": "Tristan",
+    "slug": "tristan",
+    "checked_at": "2026-10-28T01:39:51.883483+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 29,
+    "warnings": [
+      "description detail enrichment was incomplete for 25 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan?l=fr&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan?l=fr&page=4",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022023?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022018?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022015?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022007?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022019?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022025?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022021?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022022?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261027001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022004?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022012?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20260423003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022024?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022003?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022020?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20260915032?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022008?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022013?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022016?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022005?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022014?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022017?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022006?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tristan/20261022009?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Gérant(e) - Galeries Rive-Nord",
+        "location": "100 Boul. Brien, Repentigny, QC J6A 5N4, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261027001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261027001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Outlet Mirabel",
+        "location": "19001 Chemin Notre Dame, Mirabel, QC J7J 0T1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022025?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022025?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Outlet Mirabel",
+        "location": "19001 Chemin Notre Dame, Mirabel, QC J7J 0T1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022024?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022024?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Rosemère",
+        "location": "Place rosemere, 401 Boul. Labelle m17, Rosemère, QC J7A 3T2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022023?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022023?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) responsable 3e clé à temps plein - Joliette",
+        "location": "1075 Bd Firestone, Joliette, QC J6E 6X6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022022?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022022?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) responsable 3e clé à temps partiel Joliette",
+        "location": "1075 Bd Firestone, Joliette, QC J6E 6X6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022021?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022021?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Drummondville",
+        "location": "755 Bd René-Lévesque, Drummondville, QC J2C 6Y7, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022020?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022020?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Place Laurier",
+        "location": "2700 Boul Laurier, Québec, QC G1V 2L8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022019?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022019?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Place Laurier",
+        "location": "2700 Boul Laurier, Québec, QC G1V 2L8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022018?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022018?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Co-Gérant(e) - Place Laurier",
+        "location": "2700 Boul Laurier, Québec, QC G1V 2L8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022017?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022017?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps partiel - Centre les Rivières Femmes",
+        "location": "4125 Bd des Forges, Trois-Rivières, QC G8Y 1W1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022016?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022016?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Centre les Rivières Femmes",
+        "location": "4125 Bd des Forges, Trois-Rivières, QC G8Y 1W1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022015?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022015?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Centre les Rivières Femme",
+        "location": "4125 Bd des Forges, Trois-Rivières, QC G8Y 1W1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022014?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022014?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Gérant(e) - Centre les Rivières Femmes",
+        "location": "4125 Bd des Forges, Trois-Rivières, QC G8Y 1W1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022013?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022013?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Place Ste-Foy",
+        "location": "2450 Boul Laurier, Québec, QC G1V 2L1, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022012?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022012?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Anjou",
+        "location": "7999 Bd des Galeries d'Anjou local 177, Anjou, QC H1M 1W6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022009?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022009?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Anjou",
+        "location": "7999 Bd des Galeries d'Anjou local 177, Anjou, QC H1M 1W6, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022008?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022008?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Ste-Catherine",
+        "location": "1001 Rue Sainte-Catherine O, Montréal, QC H3B 1H2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022007?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022007?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - St-Catherine",
+        "location": "1001 Rue Sainte-Catherine O, Montréal, QC H3B 1H2, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022006?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022006?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps plein - Mail Champlain",
+        "location": "2151 Boul. Lapinière, Brossard, QC J4W 2T5, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022005?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022005?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - Mail Champlain",
+        "location": "2151 Boul. Lapinière, Brossard, QC J4W 2T5, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022004?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022004?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Assistant(e)-Gérant(e) - St-Bruno",
+        "location": "401 Bd des Promenades, Saint-Bruno-de-Montarville, QC J3V 6A8, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022003?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Vendeur(euse) tps partiel - Saint-Hyacinthe",
+        "location": "3200 Bd Laframboise local 1520, Saint-Hyacinthe, QC J2S 4Z5, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20261022001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20261022001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Commis d'entrepôt (pick & pack)",
+        "location": "20 Rue des Seigneurs, Montréal, QC H3K 1A9, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20260915032?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20260915032?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Représentant des ventes (B2B)",
+        "location": "20 Rue des Seigneurs, Montréal, QC H3K 3k3, Canada",
+        "canonical_url": "https://jobs.glowinthecloud.com/tristan/20260423003?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/tristan/20260423003?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "ville-de-joliette",
+    "name": "Ville de Joliette",
+    "slug": "ville-de-joliette",
+    "checked_at": "2026-10-28T01:39:43.018057+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 4,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette/20260622001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette/20261005001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Agent de service aux citoyens - Remplacement d'un congé de maternité",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-joliette/20261005001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-joliette/20261005001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Technicien en urbanisme",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-joliette/20260622001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-joliette/20260622001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "ville-de-kirkland",
+    "name": "Ville de Kirkland",
+    "slug": "ville-de-kirkland-emplois",
+    "checked_at": "2026-10-28T01:40:08.840508+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 6,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260911001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260930001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20261023001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260914002?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Aide-bibliothécaire",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20261023001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20261023001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Chef de section - approvisionnements (remplacement temporaire)",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260914002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260914002?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Greffier et directeur/Greffière et directrice des affaires juridiques",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260930001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260930001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      },
+      {
+        "title": "Surveillant/Surveillante des patinoires extérieures",
+        "location": "Unspecified",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260911001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois/20260911001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  },
+  {
+    "id": "ville-de-nicolet",
+    "name": "Ville de Nicolet",
+    "slug": "ville-de-nicolet",
+    "checked_at": "2026-10-28T01:39:43.219593+00:00",
+    "complete": true,
+    "continuation_ready": false,
+    "pages_fetched": 5,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "trace": [
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet?l=fr&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet?l=fr&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019001?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019002?l=fr",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20260901001?l=fr",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Préposé(e) infrastructures sportives et récréatives",
+        "location": "Nicolet",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019002?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019002?l=fr",
+        "employment_type": "Occasionnel, Jour, Soir, Fin de semaine",
+        "description_characters": 0
+      },
+      {
+        "title": "Directeur de projet - Bureau transition écologique et innovation sociale",
+        "location": "Nicolet",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20261019001?l=fr",
+        "employment_type": "Cadres, Jour",
+        "description_characters": 0
+      },
+      {
+        "title": "Pompier",
+        "location": "Nicolet",
+        "canonical_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20260901001?l=fr",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-nicolet/20260901001?l=fr",
+        "employment_type": null,
+        "description_characters": 0
+      }
+    ]
+  }
+]

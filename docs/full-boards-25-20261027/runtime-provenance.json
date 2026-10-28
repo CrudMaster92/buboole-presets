@@ -1,0 +1,7 @@
+{
+  "repository": "CrudMaster92/buboole-jobs",
+  "commit": "e68bb35e6c863b7152a1ce006d4931dfdea8339c",
+  "entrypoint": "server.scrapers.runtime.run_scraper",
+  "transport": "Real HTTPX HTTPS through ambient environment proxy; no mocks/cookies/credentials. Explicit request-host confinement retained.",
+  "runtime_modified": false
+}

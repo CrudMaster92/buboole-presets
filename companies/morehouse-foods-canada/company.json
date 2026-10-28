@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "morehouse-foods-canada",
+  "name": "Morehouse Foods Canada",
+  "legal_name": null,
+  "aliases": [
+    "Morehouse"
+  ],
+  "website_url": "https://morehousefoods.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}

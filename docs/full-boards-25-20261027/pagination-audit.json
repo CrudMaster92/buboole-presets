@@ -1,0 +1,637 @@
+[
+  {
+    "slug": "nos-emplois",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 8,
+        "eligible_cards": 8,
+        "url": "https://jobs.glowinthecloud.com/nos-emplois?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/nos-emplois?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 8,
+    "runtime": 8,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:55.638165+00:00"
+  },
+  {
+    "slug": "balnea",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 11,
+        "eligible_cards": 11,
+        "url": "https://jobs.glowinthecloud.com/balnea?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/balnea?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 11,
+    "runtime": 11,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:55.606309+00:00"
+  },
+  {
+    "slug": "cetam",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 3,
+        "eligible_cards": 3,
+        "url": "https://jobs.glowinthecloud.com/cetam?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/cetam?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 3,
+    "runtime": 3,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:55.337347+00:00"
+  },
+  {
+    "slug": "college-communautaire-du-nouveau-brunswick",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 10,
+        "eligible_cards": 10,
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/college-communautaire-du-nouveau-brunswick?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 10,
+    "runtime": 10,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:59.295362+00:00"
+  },
+  {
+    "slug": "cooperative-aide-chez-soi",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 8,
+        "eligible_cards": 8,
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/cooperative-aide-chez-soi?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 8,
+    "runtime": 8,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:59.353999+00:00"
+  },
+  {
+    "slug": "excavation-tourigny",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 7,
+        "eligible_cards": 7,
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/excavation-tourigny?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 7,
+    "runtime": 7,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:40:59.280308+00:00"
+  },
+  {
+    "slug": "excelpro-carrieres",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 18,
+        "eligible_cards": 18,
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/excelpro-carrieres?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 18,
+    "runtime": 18,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:04.139442+00:00"
+  },
+  {
+    "slug": "fondation-paul-gerin-lajoie",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 1,
+        "eligible_cards": 1,
+        "url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/fondation-paul-gerin-lajoie?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 1,
+    "runtime": 1,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:02.770341+00:00"
+  },
+  {
+    "slug": "groupe-beaucage",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 26,
+        "eligible_cards": 26,
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/groupe-beaucage?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 26,
+    "runtime": 26,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:03.932819+00:00"
+  },
+  {
+    "slug": "hotelgault",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 1,
+        "eligible_cards": 1,
+        "url": "https://jobs.glowinthecloud.com/hotelgault?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/hotelgault?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 1,
+    "runtime": 1,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:08.394764+00:00"
+  },
+  {
+    "slug": "hotelmonville",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 2,
+        "eligible_cards": 2,
+        "url": "https://jobs.glowinthecloud.com/hotelmonville?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/hotelmonville?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 2,
+    "runtime": 2,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:08.517613+00:00"
+  },
+  {
+    "slug": "hotel-universel-riviere-du-loup",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 8,
+        "eligible_cards": 8,
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/hotel-universel-riviere-du-loup?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 8,
+    "runtime": 8,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:08.713142+00:00"
+  },
+  {
+    "slug": "lahutte",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 4,
+        "eligible_cards": 4,
+        "url": "https://jobs.glowinthecloud.com/lahutte?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/lahutte?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 4,
+    "runtime": 4,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:14.718722+00:00"
+  },
+  {
+    "slug": "httpsmorehousefoodsca",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 7,
+        "eligible_cards": 7,
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/httpsmorehousefoodsca?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 7,
+    "runtime": 7,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:14.576667+00:00"
+  },
+  {
+    "slug": "nitek-laser",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 5,
+        "eligible_cards": 5,
+        "url": "https://jobs.glowinthecloud.com/nitek-laser?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/nitek-laser?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 5,
+    "runtime": 5,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:14.661281+00:00"
+  },
+  {
+    "slug": "pech",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 3,
+        "eligible_cards": 3,
+        "url": "https://jobs.glowinthecloud.com/pech?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/pech?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 3,
+    "runtime": 3,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:17.922978+00:00"
+  },
+  {
+    "slug": "pluritec",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 50,
+        "eligible_cards": 50,
+        "url": "https://jobs.glowinthecloud.com/pluritec?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 13,
+        "eligible_cards": 13,
+        "url": "https://jobs.glowinthecloud.com/pluritec?page=2&l=fr",
+        "status": 200
+      },
+      {
+        "page": 3,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/pluritec?page=3&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 63,
+    "runtime": 63,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:19.991683+00:00"
+  },
+  {
+    "slug": "rd-polytech",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 20,
+        "eligible_cards": 20,
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 13,
+        "eligible_cards": 13,
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?page=2&l=fr",
+        "status": 200
+      },
+      {
+        "page": 3,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/rd-polytech?page=3&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 33,
+    "runtime": 33,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:19.408264+00:00"
+  },
+  {
+    "slug": "sopiar",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 5,
+        "eligible_cards": 5,
+        "url": "https://jobs.glowinthecloud.com/sopiar?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/sopiar?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 5,
+    "runtime": 5,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:21.154056+00:00"
+  },
+  {
+    "slug": "solidev",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 10,
+        "eligible_cards": 10,
+        "url": "https://jobs.glowinthecloud.com/solidev?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 4,
+        "eligible_cards": 4,
+        "url": "https://jobs.glowinthecloud.com/solidev?page=2&l=fr",
+        "status": 200
+      },
+      {
+        "page": 3,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/solidev?page=3&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 14,
+    "runtime": 14,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:21.499560+00:00"
+  },
+  {
+    "slug": "teccart",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 3,
+        "eligible_cards": 3,
+        "url": "https://jobs.glowinthecloud.com/teccart?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/teccart?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 3,
+    "runtime": 3,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:21.076029+00:00"
+  },
+  {
+    "slug": "tristan",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 10,
+        "eligible_cards": 10,
+        "url": "https://jobs.glowinthecloud.com/tristan?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 10,
+        "eligible_cards": 10,
+        "url": "https://jobs.glowinthecloud.com/tristan?page=2&l=fr",
+        "status": 200
+      },
+      {
+        "page": 3,
+        "raw_cards": 5,
+        "eligible_cards": 5,
+        "url": "https://jobs.glowinthecloud.com/tristan?page=3&l=fr",
+        "status": 200
+      },
+      {
+        "page": 4,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/tristan?page=4&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 25,
+    "runtime": 25,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:25.178756+00:00"
+  },
+  {
+    "slug": "ville-de-joliette",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 2,
+        "eligible_cards": 2,
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/ville-de-joliette?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 2,
+    "runtime": 2,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:24.083594+00:00"
+  },
+  {
+    "slug": "ville-de-kirkland-emplois",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 4,
+        "eligible_cards": 4,
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/ville-de-kirkland-emplois?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 4,
+    "runtime": 4,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:24.127112+00:00"
+  },
+  {
+    "slug": "ville-de-nicolet",
+    "pages": [
+      {
+        "page": 1,
+        "raw_cards": 3,
+        "eligible_cards": 3,
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet?page=1&l=fr",
+        "status": 200
+      },
+      {
+        "page": 2,
+        "raw_cards": 0,
+        "eligible_cards": 0,
+        "url": "https://jobs.glowinthecloud.com/ville-de-nicolet?page=2&l=fr",
+        "status": 200
+      }
+    ],
+    "expected": 3,
+    "runtime": 3,
+    "missing": [],
+    "extra": [],
+    "checked_at": "2026-10-28T01:41:28.542194+00:00"
+  }
+]

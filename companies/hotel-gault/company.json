@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hotel-gault",
+  "name": "Hôtel Gault",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://hotelgault.com/fr/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Full board traversal",
+      "October 2026 expansion"
+    ]
+  }
+}
