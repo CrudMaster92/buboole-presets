@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "prorec",
+  "name": "Prorec",
+  "aliases": [
+    "Prorec Inc."
+  ],
+  "website_url": "https://prorec.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "waste-management"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

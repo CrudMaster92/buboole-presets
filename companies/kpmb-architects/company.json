@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kpmb-architects",
+  "name": "KPMB Architects",
+  "aliases": [
+    "KPMB"
+  ],
+  "website_url": "https://kpmb.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "engineering"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

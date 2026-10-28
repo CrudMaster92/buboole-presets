@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "biontech",
+  "name": "BioNTech",
+  "aliases": [
+    "BioNTech SE"
+  ],
+  "website_url": "https://biontech.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "biotechnology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

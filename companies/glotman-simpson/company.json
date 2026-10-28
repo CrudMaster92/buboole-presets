@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "glotman-simpson",
+  "name": "Glotman Simpson",
+  "aliases": [
+    "Glotman Simpson Consulting Engineers",
+    "Glotman • Simpson"
+  ],
+  "website_url": "https://glotmansimpson.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "engineering"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

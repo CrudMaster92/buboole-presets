@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "kpmb-architects",
+  "company_id": "kpmb-architects",
+  "revision": 1,
+  "label": "KPMB Architects public careers",
+  "careers_url": "https://secure.collage.co/jobs/kpmbarchitects",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T15:44:52.404243+00:00",
+    "job_count": 2,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs",
+      "Complete listing traversal passed through the canonical exported runtime. Description availability is separate from listing completeness."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "KPMB Architects",
+    "careers_url": "https://secure.collage.co/jobs/kpmbarchitects",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "secure.collage.co"
+    ],
+    "request": {
+      "url": "https://secure.collage.co/jobs/kpmbarchitects",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".ATS-positions li",
+      "title": ".ATS-position-title",
+      "link": "a",
+      "location": ".ATS-commitment-and-location"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

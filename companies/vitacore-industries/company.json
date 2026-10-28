@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vitacore-industries",
+  "name": "Vitacore Industries",
+  "aliases": [
+    "Vitacore"
+  ],
+  "website_url": "https://vitacore.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "industries-mailhot",
+  "name": "Industries Mailhot",
+  "aliases": [
+    "Mailhot Industries"
+  ],
+  "website_url": "https://mailhotindustries.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

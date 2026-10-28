@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-deschenes",
+  "name": "Groupe Deschenes",
+  "aliases": [
+    "Deschenes Group",
+    "Deschênes Group"
+  ],
+  "website_url": "https://groupedeschenes.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "distribution"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

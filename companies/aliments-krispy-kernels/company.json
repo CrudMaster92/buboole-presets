@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "aliments-krispy-kernels",
+  "name": "Aliments Krispy Kernels",
+  "aliases": [
+    "Krispy Kernels",
+    "Croustilles Yum Yum"
+  ],
+  "website_url": "https://krispykernels.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "food-production"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}
