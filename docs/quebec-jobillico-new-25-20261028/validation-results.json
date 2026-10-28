@@ -1,0 +1,36 @@
+{
+  "preset_validator": {
+    "passed": true,
+    "output": "Validated optional legacy import presets: schema + contract."
+  },
+  "catalog_build": {
+    "passed": true,
+    "companies": 1420,
+    "monitors": 1305,
+    "collections": 26,
+    "generated_churn_committed": false
+  },
+  "catalog_unit_tests": {
+    "passed": true,
+    "tests": 11
+  },
+  "live_monitors": 25,
+  "live_listings": 317,
+  "descriptions_present": 317,
+  "listing_complete": 25,
+  "pending_continuations": 0,
+  "runtime_warnings": 0,
+  "raw_board_audit": {
+    "independent_employer_pages": 25,
+    "raw_unique_posting_urls": 317,
+    "runtime_unique_posting_urls": 317,
+    "missing": 0,
+    "extra": 0
+  },
+  "catalog_screen_exact_matches": 0,
+  "freehire_screen": {
+    "queries": 25,
+    "errors": 0,
+    "normalized_exact_matches": 0
+  }
+}

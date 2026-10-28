@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-castech-plessitech-inc",
+  "name": "Groupe Castech/Plessitech Inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.grcp.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}

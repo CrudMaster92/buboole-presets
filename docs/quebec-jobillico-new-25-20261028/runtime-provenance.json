@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-28T02:29:10.394746+00:00",
+  "preset_baseline_commit": "695b506aad1c6f6b1f4762e238aa38f89358950d",
+  "runtime_repository": "CrudMaster92/buboole-jobs",
+  "runtime_commit": "504ca56a1639987086d318dc9aad7fecee206034",
+  "python_version": "Python 3.12.14",
+  "runtime": "server.scrapers.runtime.run_scraper, one fresh HTTP client per monitor, no prior detail cache",
+  "monitor_count": 25,
+  "listing_count": 317,
+  "description_count": 317,
+  "all_listings_complete": true
+}

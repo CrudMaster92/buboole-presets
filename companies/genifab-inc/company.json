@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "genifab-inc",
+  "name": "Genifab inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.genifab.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}

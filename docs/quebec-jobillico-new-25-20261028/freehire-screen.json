@@ -1,0 +1,648 @@
+{
+  "checked_at": "2026-10-28T02:26:24.175347+00:00",
+  "catalog_baseline_commit": "695b506aad1c6f6b1f4762e238aa38f89358950d",
+  "catalog_screen": [
+    {
+      "company_id": "acier-trimax",
+      "name": "Acier Trimax",
+      "matches": []
+    },
+    {
+      "company_id": "aliments-asta-inc",
+      "name": "Aliments Asta inc.",
+      "matches": []
+    },
+    {
+      "company_id": "attitudeliving",
+      "name": "ATTITUDEliving",
+      "matches": []
+    },
+    {
+      "company_id": "cbr-laser-inc",
+      "name": "CBR Laser inc.",
+      "matches": []
+    },
+    {
+      "company_id": "cegerco-inc",
+      "name": "Cegerco inc.",
+      "matches": []
+    },
+    {
+      "company_id": "entosystem",
+      "name": "Entosystem",
+      "matches": []
+    },
+    {
+      "company_id": "equipements-art",
+      "name": "Équipements ART",
+      "matches": []
+    },
+    {
+      "company_id": "fabrimet-inc",
+      "name": "Fabrimet inc.",
+      "matches": []
+    },
+    {
+      "company_id": "genifab-inc",
+      "name": "Genifab inc.",
+      "matches": []
+    },
+    {
+      "company_id": "gosselin-express-ltee-les-sables-olimag-inc",
+      "name": "Gosselin Express ltée & Les Sables Olimag inc.",
+      "matches": []
+    },
+    {
+      "company_id": "groupe-castech-plessitech-inc",
+      "name": "Groupe Castech/Plessitech Inc.",
+      "matches": []
+    },
+    {
+      "company_id": "groupe-conseil-uda",
+      "name": "Groupe conseil UDA",
+      "matches": []
+    },
+    {
+      "company_id": "groupe-maska-inc",
+      "name": "Groupe Maska inc.",
+      "matches": []
+    },
+    {
+      "company_id": "guay",
+      "name": "GUAY",
+      "matches": []
+    },
+    {
+      "company_id": "iga-alimentation-a-d-r-inc",
+      "name": "IGA Alimentation A.D.R. Inc.",
+      "matches": []
+    },
+    {
+      "company_id": "inter-cite-construction-ltee",
+      "name": "Inter-Cité Construction ltée",
+      "matches": []
+    },
+    {
+      "company_id": "le-groupe-bell-horizon-inc",
+      "name": "Le Groupe Bell-Horizon inc.",
+      "matches": []
+    },
+    {
+      "company_id": "le-marche-vegetarien",
+      "name": "Le Marché Végétarien",
+      "matches": []
+    },
+    {
+      "company_id": "machitech",
+      "name": "Machitech",
+      "matches": []
+    },
+    {
+      "company_id": "novolecs-inc",
+      "name": "Novolecs inc.",
+      "matches": []
+    },
+    {
+      "company_id": "pieces-dauto-ggm",
+      "name": "Pièces d’auto GGM",
+      "matches": []
+    },
+    {
+      "company_id": "posi-plus-technologies-inc",
+      "name": "Posi-Plus Technologies inc.",
+      "matches": []
+    },
+    {
+      "company_id": "structures-d-acier-elite-inc",
+      "name": "Structures d'acier Élite INC.",
+      "matches": []
+    },
+    {
+      "company_id": "terapro",
+      "name": "Terapro",
+      "matches": []
+    },
+    {
+      "company_id": "valcourt-securite-inc",
+      "name": "Valcourt Sécurité inc.",
+      "matches": []
+    }
+  ],
+  "freehire_api_screen": [
+    {
+      "company_id": "acier-trimax",
+      "name": "Acier Trimax",
+      "query": "https://freehire.me/api/v1/companies?q=Acier%20Trimax&limit=100",
+      "total": 14,
+      "returned": 14,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Acier Ouellette",
+        "Acker",
+        "Aciner Gebäudereinigung",
+        "Acer",
+        "ACER COMPUTER (SINGAPORE) PTE LTD",
+        "ACER DIALYSIS PTE. LTD.",
+        "ACER PRECISION ENGINEERING & SERVICE PTE. LTD.",
+        "Acies",
+        "aier",
+        "careers.acer.com",
+        "Simon Acker",
+        "Van Acker Construction",
+        "Australian Council for Educational Research (ACER)",
+        "ServiceMaster Commercial Building Cleaning by Acker"
+      ]
+    },
+    {
+      "company_id": "aliments-asta-inc",
+      "name": "Aliments Asta inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Aliments%20Asta%20inc.&limit=100",
+      "total": 69,
+      "returned": 69,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Alimentos Balanceados Pénjamo, SA de CV",
+        "ALIMENTOS CON MAZAL TOV SA de CV",
+        "ALIMENTOS INTERNANCIONALES MARLO SA DE CV",
+        "MARIZA ALIMENTOS",
+        "PAMPLONA ALIMENTOS S/A",
+        "Veri Alimentos Eireli",
+        "Vigor Alimentos",
+        "VILMA ALIMENTOS",
+        "Plena Alimentos",
+        "MEGAG ALIMENTOS",
+        "Docile Alimentos",
+        "Pole alimentos",
+        "ARBAZA ALIMENTOS LTDA",
+        "Blume Alimentos | OH! A Água",
+        "Neugebauer Alimentos S/A",
+        "Quatá Alimentos",
+        "Real Alimentos",
+        "Sigma Alimentos",
+        "VB Alimentos",
+        "Linea Alimentos"
+      ]
+    },
+    {
+      "company_id": "attitudeliving",
+      "name": "ATTITUDEliving",
+      "query": "https://freehire.me/api/v1/companies?q=ATTITUDEliving&limit=100",
+      "total": 0,
+      "returned": 0,
+      "exact_matches": [],
+      "nearby_company_names": []
+    },
+    {
+      "company_id": "cbr-laser-inc",
+      "name": "CBR Laser inc.",
+      "query": "https://freehire.me/api/v1/companies?q=CBR%20Laser%20inc.&limit=100",
+      "total": 7,
+      "returned": 7,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "CBR Fashion Outlet GmbH",
+        "CBR eCommerce GmbH",
+        "CBR Fashion Retail GmbH",
+        "CBR Service GmbH",
+        "CBR Fashion Outlet Ges.m.b.H.",
+        "CBR COURSES S.A.S",
+        "CBR Fashion GmbH"
+      ]
+    },
+    {
+      "company_id": "cegerco-inc",
+      "name": "Cegerco inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Cegerco%20inc.&limit=100",
+      "total": 0,
+      "returned": 0,
+      "exact_matches": [],
+      "nearby_company_names": []
+    },
+    {
+      "company_id": "entosystem",
+      "name": "Entosystem",
+      "query": "https://freehire.me/api/v1/companies?q=Entosystem&limit=100",
+      "total": 122,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Ecosystem",
+        "Entosstech",
+        "Eurosystem SpA",
+        "Ren Ecosystem",
+        "VASS ECOSYSTEM",
+        "cary-institute-of-ecosystem-studies",
+        "Digital HR Ecosystem GmbH",
+        "Gulf Coast Ecosystem Restoration Council",
+        "INFI COMMERCE ECOSYSTEMS PTE. LTD.",
+        "SEK - Security Ecosystem Knowledge",
+        "Surge Digital Ecosystems",
+        "Explorex",
+        "AlgoTest",
+        "Mode Mobile",
+        "SplitMetrics",
+        "EMCD",
+        "Yunicorn",
+        "Copersucar ",
+        "Aurumverse",
+        "Praxis"
+      ]
+    },
+    {
+      "company_id": "equipements-art",
+      "name": "Équipements ART",
+      "query": "https://freehire.me/api/v1/companies?q=%C3%89quipements%20ART&limit=100",
+      "total": 1594,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "United Safety",
+        "Century Martial Arts",
+        "Lufkin Industries",
+        "ELGi Equipments",
+        "Aska Equipments Private Limited",
+        "GASSO EQUIPMENTS S.A.",
+        "KHENG SUN HIRING EQUIPMENTS PRIVATE LIMITED",
+        "Equipment Depot Inc.",
+        "Equipment Experts Inc.",
+        "Equipment Sales & Service Limited",
+        "Equipment International",
+        "Equipment Management Services LLC",
+        "Crown Equipment Corporation",
+        "RDO Equipment Co.",
+        "Arc'teryx Equipment",
+        "Alta Equipment Group",
+        "SMS Equipment",
+        "Original Equipment Solutions (OESL)",
+        "Sunstate Equipment",
+        "Battlefield Equipment Rentals"
+      ]
+    },
+    {
+      "company_id": "fabrimet-inc",
+      "name": "Fabrimet inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Fabrimet%20inc.&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Fabrinet"
+      ]
+    },
+    {
+      "company_id": "genifab-inc",
+      "name": "Genifab inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Genifab%20inc.&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "GeneFab"
+      ]
+    },
+    {
+      "company_id": "gosselin-express-ltee-les-sables-olimag-inc",
+      "name": "Gosselin Express ltée & Les Sables Olimag inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Gosselin%20Express%20lt%C3%A9e%20%26%20Les%20Sables%20Olimag%20inc.&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Gosselin Group"
+      ]
+    },
+    {
+      "company_id": "groupe-castech-plessitech-inc",
+      "name": "Groupe Castech/Plessitech Inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Groupe%20Castech/Plessitech%20Inc.&limit=100",
+      "total": 10821,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Groupe SII",
+        "Groupe Talents Handicap",
+        "Groupe Pomona",
+        "Groupe LR Technologies",
+        "Groupe Montpetit Ressources Humaines Inc",
+        "GROUPE ADF",
+        "Groupe ETAM",
+        "Groupe Touchette",
+        "Groupe Roullier",
+        "Groupe Barrière",
+        "Groupe LabelVie",
+        "Groupe Rocher",
+        "groupe Artemys",
+        "Groupe Serpe",
+        "Groupe E",
+        "Groupe Bourdoncle",
+        "Groupe la Bonbonnière",
+        "Groupe BMR",
+        "Groupe Helios",
+        "groupe-gcf"
+      ]
+    },
+    {
+      "company_id": "groupe-conseil-uda",
+      "name": "Groupe conseil UDA",
+      "query": "https://freehire.me/api/v1/companies?q=Groupe%20conseil%20UDA&limit=100",
+      "total": 10821,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Infotel UK",
+        "CBX Conseil ( CBX Group )",
+        "Groupe SII",
+        "Groupe Talents Handicap",
+        "Groupe Pomona",
+        "Groupe LR Technologies",
+        "Groupe Montpetit Ressources Humaines Inc",
+        "GROUPE ADF",
+        "Groupe ETAM",
+        "Groupe Touchette",
+        "Groupe Roullier",
+        "Groupe Barrière",
+        "Groupe LabelVie",
+        "Groupe Rocher",
+        "groupe Artemys",
+        "Groupe Serpe",
+        "Groupe E",
+        "Groupe Bourdoncle",
+        "Groupe la Bonbonnière",
+        "Groupe BMR"
+      ]
+    },
+    {
+      "company_id": "groupe-maska-inc",
+      "name": "Groupe Maska inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Groupe%20Maska%20inc.&limit=100",
+      "total": 10821,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Pink Mask Group",
+        "MASA Group PH",
+        "Groupe SII",
+        "Groupe Talents Handicap",
+        "Groupe Pomona",
+        "Groupe LR Technologies",
+        "Groupe Montpetit Ressources Humaines Inc",
+        "GROUPE ADF",
+        "Groupe ETAM",
+        "Groupe Touchette",
+        "Groupe Roullier",
+        "Groupe Barrière",
+        "Groupe LabelVie",
+        "Groupe Rocher",
+        "groupe Artemys",
+        "Groupe Serpe",
+        "Groupe E",
+        "Groupe Bourdoncle",
+        "Groupe la Bonbonnière",
+        "Groupe BMR"
+      ]
+    },
+    {
+      "company_id": "guay",
+      "name": "GUAY",
+      "query": "https://freehire.me/api/v1/companies?q=GUAY&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Banco Guayaquil"
+      ]
+    },
+    {
+      "company_id": "iga-alimentation-a-d-r-inc",
+      "name": "IGA Alimentation A.D.R. Inc.",
+      "query": "https://freehire.me/api/v1/companies?q=IGA%20Alimentation%20A.D.R.%20Inc.&limit=100",
+      "total": 6,
+      "returned": 6,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "IGA Southeast",
+        "Rowe's IGA Supermarkets",
+        "Hansen's IGA Market",
+        "HANSENS IGA INC",
+        "Columbus IGA Plus",
+        "Carlie C's IGA"
+      ]
+    },
+    {
+      "company_id": "inter-cite-construction-ltee",
+      "name": "Inter-Cité Construction ltée",
+      "query": "https://freehire.me/api/v1/companies?q=Inter-Cit%C3%A9%20Construction%20lt%C3%A9e&limit=100",
+      "total": 162,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Intercity",
+        "Intercity Technology",
+        "Intercity Packers Ltd.",
+        "Intercity Transit",
+        "Tornado Bus Company",
+        "Motor Coach Industries",
+        "Academy Bus",
+        "Inter",
+        "INTER-CON SECURITY SYSTEMS INC",
+        "Inter Carreiras",
+        "Inter Island Group",
+        "INTER-STATE STUDIO & PUBLISHING CO",
+        "Inter Miami CF",
+        "Inter Pipeline",
+        "Inter 24 LLC",
+        "Inter-Lakes Community Action Partnership",
+        "Inter Technologies Corporation",
+        "Inter Ad",
+        "Inter-American Development Bank",
+        "Inter Cars S.A."
+      ]
+    },
+    {
+      "company_id": "le-groupe-bell-horizon-inc",
+      "name": "Le Groupe Bell-Horizon inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Le%20Groupe%20Bell-Horizon%20inc.&limit=100",
+      "total": 853,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Le Groupe Maurice",
+        "Le Groupe SYD",
+        "Le Groupe Biribin",
+        "Le Groupe Septeo",
+        "GIRO Inc. / Le Groupe en informatique et recherche opérationnelle",
+        "LE SPA GROUP PTE. LTD.",
+        "Mume Hospitality Group 湘樂餐飲集團_慕梅餐飲股份有限公司",
+        "Le Collectionist",
+        "Le Meridian Element Salt Lake City",
+        "Le Ruban patisserie_法朋有限公司",
+        "Le Sueur Incorporated",
+        "LE BLEU ENTERPRISES",
+        "Le Fourgon",
+        "Le Jardin Academy",
+        "Le jazz",
+        "Le Méridien Houston Downtown",
+        "Le Méridien Lav",
+        "Le Meridien",
+        "Le Meridien Tampa, The Courthouse",
+        "Le Sueur County"
+      ]
+    },
+    {
+      "company_id": "le-marche-vegetarien",
+      "name": "Le Marché Végétarien",
+      "query": "https://freehire.me/api/v1/companies?q=Le%20March%C3%A9%20V%C3%A9g%C3%A9tarien&limit=100",
+      "total": 854,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "LeMarché, Inc.",
+        "Le Groupe Maurice",
+        "Le Collectionist",
+        "Le Meridian Element Salt Lake City",
+        "Le Ruban patisserie_法朋有限公司",
+        "Le Sueur Incorporated",
+        "LE BLEU ENTERPRISES",
+        "Le Fourgon",
+        "Le Jardin Academy",
+        "Le jazz",
+        "Le Méridien Houston Downtown",
+        "Le Méridien Lav",
+        "Le Meridien",
+        "Le Meridien Tampa, The Courthouse",
+        "Le Sueur County",
+        "LE CREUSET HONG KONG LIMITED_香港商酷彩法廚有限公司臺灣分公司",
+        "Le Duet Modern Kaiseki_木木秝有限公司",
+        "LE RAINBOW CATERING PTE. LTD.",
+        "LE_10 PM Pediatrics of Virginia, LLC",
+        "Le Comptoir du Malt"
+      ]
+    },
+    {
+      "company_id": "machitech",
+      "name": "Machitech",
+      "query": "https://freehire.me/api/v1/companies?q=Machitech&limit=100",
+      "total": 13,
+      "returned": 13,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Matchtech",
+        "Mactech Engineers",
+        "Maxitech AB",
+        "Mactech",
+        "MACROTECH DEVELOPERS LIMITED",
+        "Mactech Energy Group",
+        "MarkiTech",
+        "Matchtech Group",
+        "MACTECH ENGINEERING & TRADING PTE. LIMITED",
+        "MACZTECH PTE. LTD.",
+        "MarkiTech.AI",
+        "Mathtech",
+        "AART ACHITECHS AAR A/S"
+      ]
+    },
+    {
+      "company_id": "novolecs-inc",
+      "name": "Novolecs inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Novolecs%20inc.&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "ООО  ХК \"НОВОЛЕКС\""
+      ]
+    },
+    {
+      "company_id": "pieces-dauto-ggm",
+      "name": "Pièces d’auto GGM",
+      "query": "https://freehire.me/api/v1/companies?q=Pi%C3%A8ces%20d%E2%80%99auto%20GGM&limit=100",
+      "total": 18,
+      "returned": 18,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "PIECES",
+        "PIECES Holstebro",
+        "All Pieces Fit",
+        "Filling Pieces",
+        "Mending Broken Pieces Counseling & Consulting Services",
+        "Nelson Coleman Jewelers",
+        "Fromwhere",
+        "Article",
+        "Replacements, Ltd.",
+        "Piece by Piece Moving and Storage",
+        "Peeces GmbH",
+        "Pisces Healthcare Solutions",
+        "One Piece Consulting",
+        "Every Piece Counts",
+        "sapling",
+        "Dripos",
+        "LeafGuard",
+        "OSARO"
+      ]
+    },
+    {
+      "company_id": "posi-plus-technologies-inc",
+      "name": "Posi-Plus Technologies inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Posi-Plus%20Technologies%20inc.&limit=100",
+      "total": 0,
+      "returned": 0,
+      "exact_matches": [],
+      "nearby_company_names": []
+    },
+    {
+      "company_id": "structures-d-acier-elite-inc",
+      "name": "Structures d'acier Élite INC.",
+      "query": "https://freehire.me/api/v1/companies?q=Structures%20d%27acier%20%C3%89lite%20INC.&limit=100",
+      "total": 260,
+      "returned": 100,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Big D Metalworks",
+        "structures",
+        "Structured Agency",
+        "Structured AI",
+        "Resilient Structures",
+        "Florvets Structures",
+        "Landscape Structures",
+        "Coreslab Structures",
+        "Silverlake Structured Services",
+        "Falcon Structures",
+        "Quality Structures",
+        "WholeTrees Structures",
+        "ATCO Structures and Logistics",
+        "Enginious Structures, Inc - Structural Engineers",
+        "Hudson Structured Capital Management",
+        "Energy Panel Structures",
+        "Ulrich Lifestyle Structures",
+        "AMS Seat Structures",
+        "Calhoun Super Structures",
+        "Interlock Steel Structures"
+      ]
+    },
+    {
+      "company_id": "terapro",
+      "name": "Terapro",
+      "query": "https://freehire.me/api/v1/companies?q=Terapro&limit=100",
+      "total": 1,
+      "returned": 1,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "TeraTron GmbH"
+      ]
+    },
+    {
+      "company_id": "valcourt-securite-inc",
+      "name": "Valcourt Sécurité inc.",
+      "query": "https://freehire.me/api/v1/companies?q=Valcourt%20S%C3%A9curit%C3%A9%20inc.&limit=100",
+      "total": 4,
+      "returned": 4,
+      "exact_matches": [],
+      "nearby_company_names": [
+        "Valcourt",
+        "VALCOURT EXTERIOR BUILDING SERVICES OF FLORIDA L C",
+        "VALCOURT BUILDING SERVICES L C",
+        "VALCOURT ACQUISITION 2023 I LLC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "posi-plus-technologies-inc",
+  "name": "Posi-Plus Technologies inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.posi-plus.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}

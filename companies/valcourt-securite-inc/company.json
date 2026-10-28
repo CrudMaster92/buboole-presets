@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "valcourt-securite-inc",
+  "name": "Valcourt Sécurité inc.",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://equipevalcourt.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "October 2026 expansion"
+    ]
+  }
+}
