@@ -1,0 +1,2929 @@
+[
+  {
+    "id": "saint-sauveur",
+    "company_id": "saint-sauveur",
+    "name": "Ville de Saint-Sauveur",
+    "checked_at": "2026-10-28T01:03:00.881381+00:00",
+    "job_count": 2,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur/20260513001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur/20260722001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Journalier(ère) opérateur(rice)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur/20260513001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère)s parcs et espaces verts",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur/20260722001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "tremblay-cantin",
+    "company_id": "tremblay-cantin",
+    "name": "Tremblay Cantin Assurances",
+    "checked_at": "2026-10-28T01:03:01.028838+00:00",
+    "job_count": 3,
+    "pages_including_details": 5,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/tremblay-assurance?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tremblay-assurance?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tremblay-assurance/20250625001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tremblay-assurance/20250625002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/tremblay-assurance/20260916001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Courtier en assurance de dommages des particuliers",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/tremblay-assurance/20260916001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Courtier en assurance de dommages des entreprises",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/tremblay-assurance/20250625002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Courtier en assurance de dommages des particuliers",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/tremblay-assurance/20250625001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "fqcf",
+    "company_id": "fqcf",
+    "name": "Fédération québécoise des coopératives forestières",
+    "checked_at": "2026-10-28T01:03:01.462800+00:00",
+    "job_count": 2,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs",
+      "Shared federation/member board: only cards explicitly labelled Fédération québécoise des coopératives forestières as Client are admitted. Six member-cooperative listings in the inspected snapshot are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest/20260915002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest/20260915001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Directeur(trice) des finances et de l'administration",
+        "location": "3375 Ch Ste-Foy, Québec, QC G1X 1S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest/20260915002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) des ressources humaines",
+        "location": "3375 Ch Ste-Foy, Québec, QC G1X 1S7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest/20260915001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "gaa",
+    "company_id": "gaa",
+    "name": "Groupement des assureurs automobiles",
+    "checked_at": "2026-10-28T01:03:01.838359+00:00",
+    "job_count": 4,
+    "pages_including_details": 6,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20260330001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20260824001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20261002001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Contrôleur·euse de la qualité (Secteur Montréal, Laval, Laurentides et Outaouais)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Agent·e d’information",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20261002001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste en assurance automobile",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20260330001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur·rice des finances, de l’administration et des ressources humaines",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres/20260824001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "thetford",
+    "company_id": "thetford",
+    "name": "Ville de Thetford Mines",
+    "checked_at": "2026-10-28T01:03:01.706663+00:00",
+    "job_count": 4,
+    "pages_including_details": 6,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford/20260720004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford/20260720002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/ville-de-thetford/20261026001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Partenaire d'affaires temporaire",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-thetford/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journalier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-thetford/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Moniteur de natation",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-thetford/20260720004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Moniteur(trice) de mise en forme aquatique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/ville-de-thetford/20260720002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "peres-nature",
+    "company_id": "peres-nature",
+    "name": "Les Pères Nature",
+    "checked_at": "2026-10-28T01:03:02.495985+00:00",
+    "job_count": 8,
+    "pages_including_details": 10,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20251106001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260327004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260723001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260428001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260423003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260302003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20260410001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/les-peres-nature/20261013001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Aide-cuisinier poissonnerie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260327004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Plongeur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260428001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Aide-cuisinier(ère)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260410001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis boulangerie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260723001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicienne comptable",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20251106001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis boucherie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis aux fruits et légumes",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260302003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Cuisinier(ère) déjeuner",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/les-peres-nature/20260423003?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "joelle-collection",
+    "company_id": "joelle-collection",
+    "name": "JOELLE Collection",
+    "checked_at": "2026-10-28T01:03:05.395044+00:00",
+    "job_count": 14,
+    "pages_including_details": 16,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 7 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20260824009?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20260902001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20260824008?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261006002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20260824007?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261006004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20260824006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261014001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261006003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261020002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/joelle-collection/20261020003?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Infographiste",
+        "location": "3368 Rue Bellefeuille, Trois-Rivières, QC G9A 3Z3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Styliste",
+        "location": "1 Bd des Promenades, Saint-Bruno-de-Montarville, QC J3V 5J5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20260824009?l=en",
+        "description_chars": 1294
+      },
+      {
+        "title": "Chef.fe d'équipe - Boutique",
+        "location": "1451 Bd Talbot, Chicoutimi, QC G7H 5N6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ambassadeur.drice de la marque",
+        "location": "5065 Rue Marion, Trois-Rivières, QC G9A 2X9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261020003?l=en",
+        "description_chars": 1332
+      },
+      {
+        "title": "Agent.e au service à la clientèle",
+        "location": "5065 Rue Marion, Trois-Rivières, QC G9A 2X9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261020002?l=en",
+        "description_chars": 1337
+      },
+      {
+        "title": "Ambassadeur.drice de la marque",
+        "location": "1451 Bd Talbot, Chicoutimi, QC G7H 5N6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261020001?l=en",
+        "description_chars": 1332
+      },
+      {
+        "title": "Planificateur de la marchandise et de l’offre",
+        "location": "3368 Rue Bellefeuille, Trois-Rivières, QC G9A 3Z3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assistant(e) gérant(e) de magasin",
+        "location": "1 Bd des Promenades, Saint-Bruno-de-Montarville, QC J3V 5J5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20260824008?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Designer senior - Mode",
+        "location": "305 Rue de Bellechasse, Montréal, QC H2S 1W9, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20260902001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chef.fe d'équipe - Boutique",
+        "location": "3003 Boul. le Carrefour, Laval, QC H7T 1C7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20260824007?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ambassadeur.drice de la marque",
+        "location": "3003 Boul. le Carrefour, Laval, QC H7T 1C7, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20260824006?l=en",
+        "description_chars": 1332
+      },
+      {
+        "title": "Chef/cheffe d'équipe -Boutique",
+        "location": "2450 Boul Laurier, Québec, QC G1V 2L1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261006003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ambassadeur.drice de la marque -Temps plein et temps partiel",
+        "location": "2450 Boul Laurier, Québec, QC G1V 2L1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261006004?l=en",
+        "description_chars": 1332
+      },
+      {
+        "title": "Agent.e au service à la clientèle",
+        "location": "2450 Boul Laurier, Québec, QC G1V 2L1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/joelle-collection/20261006002?l=en",
+        "description_chars": 1340
+      }
+    ]
+  },
+  {
+    "id": "automobile-desjardins",
+    "company_id": "automobile-desjardins",
+    "name": "Groupe Automobile Desjardins",
+    "checked_at": "2026-10-28T01:03:17.535452+00:00",
+    "job_count": 50,
+    "pages_including_details": 56,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 45 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=4",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=5",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=6",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260903001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016005?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260731003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260729001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260610001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260928002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261013001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260826001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261015002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260910003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260814003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260917001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260415006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260831001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260806002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260323001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260422001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260415004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260507001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261015001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260831002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260406001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260817001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260928001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261009001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260910001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260623002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260825001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260507002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260605001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260715002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260302001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260827001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261026002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260825003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260826002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Automotive Detailer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261026002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Receptionist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) aux ventes",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Used Car Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260831002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à la cour",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Apprenti(e) Mécanicien(ne)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260928002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller(ère) technique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à la cour",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016005?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé(e) à la cour",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé à l'installation de pneus",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005004?l=en",
+        "description_chars": 1282
+      },
+      {
+        "title": "Directeur Général - Directrice Générale",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005001?l=en",
+        "description_chars": 2375
+      },
+      {
+        "title": "Parts Clerk",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260731003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Inventory Attendant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Préposé à l'esthétique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261015002?l=en",
+        "description_chars": 2598
+      },
+      {
+        "title": "Receptionist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260623002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien Compagnon",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260422001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien Compagnon",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016003?l=en",
+        "description_chars": 1603
+      },
+      {
+        "title": "Préposé(e) à la cour",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Réceptionniste",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261016001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Automotive Detailer",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260917001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Finance & Insurance (F&I) Manager",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260605001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Receptionist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261015001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Attendant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261013001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) adjoint(e) des ventes",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260415004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Advisor",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260817001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien·ne en mécanique automobile",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20261005003?l=en",
+        "description_chars": 2576
+      },
+      {
+        "title": "Parts Clerk",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260827001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Contrôleur(euse) adjoint(e)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260928001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "BDC Agent",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260831001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Secretary",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260825001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260814003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur(trice) de Service",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260610001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Appointment Coordinator",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260715002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Dent Repair Specialist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260826001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Vehicle Prep Specialist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260826002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Shop Foreman",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Attendant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260921003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260729001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journeyman Mechanic",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260302001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Débosseleur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260507002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien·ne en mécanique automobile",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260507001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Parts Clerk",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260406001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Journeyman Mechanic",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260415006?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260323001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Finance & Insurance (F&I) Manager",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260910003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Sales Consultant",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260910001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "BDC Agent",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260903001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Receptionist",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260825003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Service Advisor",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins/20260806002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "bravad",
+    "company_id": "bravad",
+    "name": "BRAVAD",
+    "checked_at": "2026-10-28T01:03:13.333982+00:00",
+    "job_count": 24,
+    "pages_including_details": 28,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 20 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad?l=en&page=4",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260805001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260630001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261019002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260929002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260529001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260715001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260930003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261014001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260929004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260930002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260617001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261026002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261006001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260504001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260707001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260806001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260911001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20251020001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260914001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260708002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20260929003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/bravad/20261008001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Représentant.e des ventes",
+        "location": "38 Bd Taché O, Montmagny, QC G5V 3A2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261026002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "28 Rue Child, Coaticook, QC J1A 2B1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261014001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "Boulevard des Écureuils, Donnacona, QC G3M 0J2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260929002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "400 Bd Saint-Joseph, Drummondville, QC J2C 2A8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "441 Rue Principale O, Magog, QC J1X 2B2, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260929004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable du département des commandes",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261019002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice de comptes Expérience client & Croissance",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261008001?l=en",
+        "description_chars": 5246
+      },
+      {
+        "title": "Directeur Adjoint/Directrice Adjointe De Magasin",
+        "location": "1670 Av. Jules-Verne, Québec, QC G2G 2R1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "310 Rue de Murano, Sainte-Julie, QC J3E 0C6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260930003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "559 Bd Sir-Wilfrid-Laurier, Beloeil, QC J3G 4J1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260930002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "1670 Av. Jules-Verne, Québec, QC G2G 2R1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260929003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Représentant.e des ventes en ligne",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260914001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint.e administratif.ve ventes affaires",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260911001?l=en",
+        "description_chars": 1446
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "2900 Gibford Dr, Ottawa, ON K1V 2R4, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260806001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Responsable des réseaux sociaux",
+        "location": "2424 Rue King Ouest, Sherbrooke, QC J1J 2E8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260805001?l=en",
+        "description_chars": 3320
+      },
+      {
+        "title": "Directeur Adjoint/Directrice Adjointe De Magasin",
+        "location": "28 Rue Child, Coaticook, QC J1A 2B1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260715001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice de compte région de Québec",
+        "location": "1670 Av. Jules-Verne, Québec, QC G2G 2R1, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260708002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice de compte",
+        "location": "QC",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20251020001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjoint(e) administratif(ve) aux ventes entreprises_Montérégie",
+        "location": "310 Rue de Murano, Sainte-Julie, QC J3E 0C6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260707001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé.e de projets senior & développement des affaires - Fabrique Numérique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260630001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste en prospection",
+        "location": "Québec, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260617001?l=en",
+        "description_chars": 2818
+      },
+      {
+        "title": "Représentant.e des ventes",
+        "location": "793 Rue King E, Sherbrooke, QC J1G 1C5, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260529001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur.trice rétention affaires (Sainte-Julie)",
+        "location": "310 Rue de Murano, Sainte-Julie, QC J3E 0C6, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/bravad/20260504001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "atelier-val-dor",
+    "company_id": "atelier-val-dor",
+    "name": "Atelier Val-d’Or",
+    "checked_at": "2026-10-28T01:03:06.709396+00:00",
+    "job_count": 5,
+    "pages_including_details": 7,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260813001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260205001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260108003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260708001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Agent Logistique - Réception/Expédition",
+        "location": "Val-d'Or, QC",
+        "source_url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller pièces et soutien clients",
+        "location": "Val-d'Or, QC",
+        "source_url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260813001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien en génie mécanique - Dessinateur - Concepteur",
+        "location": "Val-d'Or, QC",
+        "source_url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260708001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Machiniste usinage CNC",
+        "location": "Val-d'Or, QC",
+        "source_url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260108003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Mécanicien Électro-hydraulicien",
+        "location": "Val-d'Or, QC",
+        "source_url": "https://jobs.glowinthecloud.com/atelier-val-d-or/20260205001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "cssob",
+    "company_id": "cssob",
+    "name": "Centre de services scolaire de l’Or-et-des-Bois",
+    "checked_at": "2026-10-28T01:03:06.181338+00:00",
+    "job_count": 3,
+    "pages_including_details": 5,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Three candidate-bank listings are excluded; advertised current school support vacancies are retained."
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/cssob?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cssob?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cssob/20261022001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cssob/20260917001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/cssob/20261021001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Préposé(e) aux élèves handicapés",
+        "location": "500 Av. 6e, Val-d'Or, QC J9P 1B3, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cssob/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Secrétaire",
+        "location": "125 Rue Self, Val-d'Or, QC J9P 3M8, Canada",
+        "source_url": "https://jobs.glowinthecloud.com/cssob/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Secrétaire de centre",
+        "location": "700 Boulevard des Pins, Val-d'Or, Québec",
+        "source_url": "https://jobs.glowinthecloud.com/cssob/20260917001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "grics",
+    "company_id": "grics",
+    "name": "GRICS",
+    "checked_at": "2026-10-28T01:03:06.633250+00:00",
+    "job_count": 5,
+    "pages_including_details": 7,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/grics?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics/20260831001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics/20261006001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics/20260721002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/grics/20261019002?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Directeur ou directrice des communications",
+        "location": "Mode hybride (port d'attache à Montréal)",
+        "source_url": "https://jobs.glowinthecloud.com/grics/20261019002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller ou conseillère en soutien, accompagnement et formation-Domaine de l'intelligence numérique",
+        "location": "Mode hybride (port d'attache à Montréal)",
+        "source_url": "https://jobs.glowinthecloud.com/grics/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Propriétaire de produits - Gestion scolaire",
+        "location": "Mode hybride (port d'attache à Montréal)",
+        "source_url": "https://jobs.glowinthecloud.com/grics/20261006001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Conseiller ou conseillère, Paie et GRH",
+        "location": "Mode hybride (port d'attache à Montréal)",
+        "source_url": "https://jobs.glowinthecloud.com/grics/20260831001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Analyste d'affaires",
+        "location": "Mode hybride (port d'attache à Montréal)",
+        "source_url": "https://jobs.glowinthecloud.com/grics/20260721002?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "femtum",
+    "company_id": "femtum",
+    "name": "Femtum",
+    "checked_at": "2026-10-28T01:03:07.605355+00:00",
+    "job_count": 9,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 9 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20261022001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260521001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260526002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260908001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260804001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260922001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260825001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260526003?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Scientifique Laser & Optique",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Développeur Logiciel",
+        "location": "Québec, Qc",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260526002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste électronique",
+        "location": "1405 Bd du Parc Technologique, Québec, QC G1P 4P5",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260804001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Coordonnateur·trice Talent et Culture",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20261022001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Scientifique Procédés Laser",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260526003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Application Field Engineer",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260922001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien laser - Production",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260908001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technical Sales",
+        "location": "Taiwan",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260521001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste de la logistique",
+        "location": "Québec",
+        "source_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres/20260825001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "groupe-vl",
+    "company_id": "groupe-vl",
+    "name": "Groupe VL",
+    "checked_at": "2026-10-28T01:03:09.201886+00:00",
+    "job_count": 15,
+    "pages_including_details": 18,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 15 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl?l=en&page=3",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260819001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260828004?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260828002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260515007?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20251125001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260429001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260417001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260618001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260923001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260714001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260828003?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260929001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260929002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/groupe-vl/20260714003?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "ATP Temps partiel - Poste idéal pour étudiant(e)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260929002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ATP en centre de production d'ordonnances",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20251125001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ATP",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260923001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ATP",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260929001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ATP",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260828002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Caissier(ère) de laboratoire",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260819001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher et caisse",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260828004?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher et caisse",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260828003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher et caisse",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260714001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis de plancher",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260714003?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Pharmacien",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260618001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en pharmacie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260515007?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "ATP",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260429001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Infirmière clinicienne",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/groupe-vl/20260417001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "rousseau-metal",
+    "company_id": "rousseau-metal",
+    "name": "Rousseau Métal",
+    "checked_at": "2026-10-28T01:03:17.182478+00:00",
+    "job_count": 10,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing with exact employer posting prefix and dated job cards; separate spontaneous-application banks are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/rousseau-metal-inc/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production/17615286",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/electromecanicien/17572158",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/concepteur-mecanique/17572155",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-ligne-de-coupe/17572149",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/charge-de-projets-aux-ventes/17615301",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/concepteur-mecanique-/17615247",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production-tolerie/17572146",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/electromecanicien/17615277",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/partenaire-rh-dotation/17639238",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production-soudure/17572161",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Partenaire Rh - Dotation",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/partenaire-rh-dotation/17639238",
+        "description_chars": 1851
+      },
+      {
+        "title": "Concepteur mécanique",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/concepteur-mecanique-/17615247",
+        "description_chars": 2264
+      },
+      {
+        "title": "Électromécanicien",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/electromecanicien/17615277",
+        "description_chars": 717
+      },
+      {
+        "title": "Opérateur de production",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production/17615286",
+        "description_chars": 637
+      },
+      {
+        "title": "Chargé de projets aux ventes",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/charge-de-projets-aux-ventes/17615301",
+        "description_chars": 2305
+      },
+      {
+        "title": "Opérateur de production - Tôlerie",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production-tolerie/17572146",
+        "description_chars": 2319
+      },
+      {
+        "title": "Opérateur de ligne de coupe",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-ligne-de-coupe/17572149",
+        "description_chars": 1682
+      },
+      {
+        "title": "Concepteur mécanique",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/concepteur-mecanique/17572155",
+        "description_chars": 2336
+      },
+      {
+        "title": "Électromécanicien",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/electromecanicien/17572158",
+        "description_chars": 717
+      },
+      {
+        "title": "Opérateur de production - Soudure",
+        "location": "Saint-Jean-Port-Joli, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rousseau-metal-inc/operateur-de-production-soudure/17572161",
+        "description_chars": 725
+      }
+    ]
+  },
+  {
+    "id": "prometek",
+    "company_id": "prometek",
+    "name": "Prometek",
+    "checked_at": "2026-10-28T01:03:26.211351+00:00",
+    "job_count": 2,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/prometek?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/prometek?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/prometek/20260713001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/prometek/20260914001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Inspecteur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/prometek/20260713001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Assembleur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/prometek/20260914001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "buropro-citation",
+    "company_id": "buropro-citation",
+    "name": "Buropro Citation",
+    "checked_at": "2026-10-28T01:03:11.507455+00:00",
+    "job_count": 9,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261005001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261008001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261021001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261026001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261008009?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261002001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20260929006?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/buropro-citation/20261009001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Commis d'entrepôt",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Spécialiste service client - Mobilier et papeterie",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261026001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Livreur",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261021001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Directeur adjoint - Entrepôt & Logistique",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261002001?l=en",
+        "description_chars": 3095
+      },
+      {
+        "title": "Livreur (temporaire temps partiel)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261008009?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Livreur intersuccursale (sur appel)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261009001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis à la réception du livre",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261008001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Soutien aux opérations",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20261005001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Commis d'entrepôt temporaire (temps partiel)",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/buropro-citation/20260929006?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "corem",
+    "company_id": "corem",
+    "name": "Corem",
+    "checked_at": "2026-10-28T01:03:10.613158+00:00",
+    "job_count": 5,
+    "pages_including_details": 7,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 4 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://jobs.glowinthecloud.com/corem?l=en&page=1",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem?l=en&page=2",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem/20261026002?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem/20261019001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem/20261001001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem/20261027001?l=en",
+        "status": 200
+      },
+      {
+        "url": "https://jobs.glowinthecloud.com/corem/20261008001?l=en",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Ouvrier(ère) en maintenance du bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/corem/20261001001?l=en",
+        "description_chars": 2214
+      },
+      {
+        "title": "Journalier(ère) spécialisé(e) - traitement de minerai",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/corem/20261026002?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Ouvrier(ère) en maintenance du bâtiment",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/corem/20261027001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en administration - Gestion de projets",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/corem/20261019001?l=en",
+        "description_chars": 0
+      },
+      {
+        "title": "Technicien(ne) en instrumentation et contrôle",
+        "location": "Unspecified",
+        "source_url": "https://jobs.glowinthecloud.com/corem/20261008001?l=en",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "robovic",
+    "company_id": "robovic",
+    "name": "Robovic",
+    "checked_at": "2026-10-28T01:03:14.619031+00:00",
+    "job_count": 3,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Includes the advertised drafting/design internship as well as regular vacancies; generic spontaneous application is excluded. The headline vacancy number is not used as a cap."
+    ],
+    "requests": [
+      {
+        "url": "https://robovic.com/carriere/",
+        "status": 200
+      },
+      {
+        "url": "https://robovic.com/machiniste",
+        "status": 301
+      },
+      {
+        "url": "https://robovic.com/machiniste/",
+        "status": 200
+      },
+      {
+        "url": "https://robovic.com/stagiaire-dessinateur-industriel",
+        "status": 301
+      },
+      {
+        "url": "https://robovic.com/stagiaire-dessinateur-industriel/",
+        "status": 200
+      },
+      {
+        "url": "https://robovic.com/electromecanicien",
+        "status": 301
+      },
+      {
+        "url": "https://robovic.com/electromecanicien/",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "ÉLECTROMÉCANICIEN",
+        "location": "Unspecified",
+        "source_url": "https://robovic.com/electromecanicien",
+        "description_chars": 0
+      },
+      {
+        "title": "STAGE - DESSINATEUR/CONCEPTEUR",
+        "location": "Unspecified",
+        "source_url": "https://robovic.com/stagiaire-dessinateur-industriel",
+        "description_chars": 0
+      },
+      {
+        "title": "MACHINISTE",
+        "location": "Unspecified",
+        "source_url": "https://robovic.com/machiniste",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "structures-rbr",
+    "company_id": "structures-rbr",
+    "name": "Structures RBR",
+    "checked_at": "2026-10-28T01:03:21.854892+00:00",
+    "job_count": 11,
+    "pages_including_details": 12,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing with exact employer posting prefix and dated job cards; separate spontaneous-application banks are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/structures-rbr/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur/17072174",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/technicien-ne-informatique-support-et-experience-utilisateur/17638755",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/contrema-tre-soir-/11892790",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur/17072210",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/operateur-chargeur-loader-attacheur-/17407257",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/commis-aux-comptes-payables-et-recevables/17645799",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/charge-de-projet-en-automatisation-et-robotique/17645790",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/charpentier-menuisier/17409348",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/technicien-en-structures-de-bois/17072396",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur-de-murs-prefabriques/17072201",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur-quart-de-soir/17594781",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Chargé de projet en automatisation et robotique",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/charge-de-projet-en-automatisation-et-robotique/17645790",
+        "description_chars": 2908
+      },
+      {
+        "title": "Commis aux comptes payables et recevables",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/commis-aux-comptes-payables-et-recevables/17645799",
+        "description_chars": 2936
+      },
+      {
+        "title": "Technicien(ne) informatique - Support et expérience utilisateur",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/technicien-ne-informatique-support-et-experience-utilisateur/17638755",
+        "description_chars": 4363
+      },
+      {
+        "title": "Contremaître (soir)",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/contrema-tre-soir-/11892790",
+        "description_chars": 2558
+      },
+      {
+        "title": "Assembleur Quart de Soir",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur-quart-de-soir/17594781",
+        "description_chars": 1254
+      },
+      {
+        "title": "Assembleur",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur/17072174",
+        "description_chars": 1352
+      },
+      {
+        "title": "Assembleur de murs préfabriqués",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur-de-murs-prefabriques/17072201",
+        "description_chars": 1273
+      },
+      {
+        "title": "Assembleur",
+        "location": "Saint-Benoit-Labre, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/assembleur/17072210",
+        "description_chars": 1299
+      },
+      {
+        "title": "Technicien en structures de bois",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/technicien-en-structures-de-bois/17072396",
+        "description_chars": 1592
+      },
+      {
+        "title": "Charpentier-menuisier",
+        "location": "Lac-Etchemin, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/charpentier-menuisier/17409348",
+        "description_chars": 1099
+      },
+      {
+        "title": "Opérateur chargeur(loader) / Attacheur",
+        "location": "Saints-Anges, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/rbr-structures/operateur-chargeur-loader-attacheur-/17407257",
+        "description_chars": 1625
+      }
+    ]
+  },
+  {
+    "id": "technosoude",
+    "company_id": "technosoude",
+    "name": "Technosoude",
+    "checked_at": "2026-10-28T01:03:14.220699+00:00",
+    "job_count": 2,
+    "pages_including_details": 3,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing with exact employer posting prefix and dated job cards; separate spontaneous-application banks are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/technosoude-inc-.eRqjKw/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/technosoude-inc-.eRqjKw/soudeur-assembleur-/17639322",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/technosoude-inc-.eRqjKw/man-uvre-conduite-de-machinerie-et-manutention/17595888",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Soudeur-assembleur",
+        "location": "Saguenay, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/technosoude-inc-.eRqjKw/soudeur-assembleur-/17639322",
+        "description_chars": 3403
+      },
+      {
+        "title": "Manœuvre – Conduite de machinerie et manutention",
+        "location": "Saguenay, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/technosoude-inc-.eRqjKw/man-uvre-conduite-de-machinerie-et-manutention/17595888",
+        "description_chars": 1549
+      }
+    ]
+  },
+  {
+    "id": "jrt",
+    "company_id": "jrt",
+    "name": "Automatisation JRT",
+    "checked_at": "2026-10-28T01:03:16.134206+00:00",
+    "job_count": 8,
+    "pages_including_details": 9,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs"
+    ],
+    "requests": [
+      {
+        "url": "https://www.jrtinc.com/carriere",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/adjointe-administrative",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/manoeuvre-assembleur-monteur-panneaux-de-controle",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/technicien-chaine-approvisionnement",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/monteur-mecanique-2",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/concepteur-charge-de-projet-electrique-senior-automatisation",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/monteur-assembleur-de-panneaux-de-controle-electriques-mf",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/carriere/dessinateur-en-automatisation-traitement-des-eaux",
+        "status": 200
+      },
+      {
+        "url": "https://www.jrtinc.com/stages/monteur-de-panneaux-de-controle-electrique",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien à l'approvisionnement",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/technicien-chaine-approvisionnement",
+        "description_chars": 0
+      },
+      {
+        "title": "Adjointe administrative",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/adjointe-administrative",
+        "description_chars": 0
+      },
+      {
+        "title": "Monteur mécanique",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/monteur-mecanique-2",
+        "description_chars": 0
+      },
+      {
+        "title": "Dessinateur en automatisation - Traitement des eaux",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/dessinateur-en-automatisation-traitement-des-eaux",
+        "description_chars": 0
+      },
+      {
+        "title": "Concepteur / Chargé de projet électrique sénior – Automatisation",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/concepteur-charge-de-projet-electrique-senior-automatisation",
+        "description_chars": 0
+      },
+      {
+        "title": "Manœuvre / Assembleur - Monteur panneaux de contrôle",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/manoeuvre-assembleur-monteur-panneaux-de-controle",
+        "description_chars": 0
+      },
+      {
+        "title": "Monteur/assembleur de panneaux de contrôle électriques (MF)",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/carriere/monteur-assembleur-de-panneaux-de-controle-electriques-mf",
+        "description_chars": 0
+      },
+      {
+        "title": "Monteur de panneaux de contrôle électrique",
+        "location": "Québec",
+        "source_url": "https://www.jrtinc.com/stages/monteur-de-panneaux-de-controle-electrique",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "phaneuf",
+    "company_id": "phaneuf",
+    "name": "Phaneuf Équipements Agricoles",
+    "checked_at": "2026-10-28T01:03:17.499451+00:00",
+    "job_count": 6,
+    "pages_including_details": 7,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing with exact employer posting prefix and dated job cards; separate spontaneous-application banks are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/phaneuf-equipements-agricoles/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien-agricole/17227474",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien-agricole/17227453",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/aviseur-technique/17598363",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/commis-de-cours/17623062",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien/17227435",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/aviseur-technique/17269796",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Mécanicien",
+        "location": "Upton, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien/17227435",
+        "description_chars": 2016
+      },
+      {
+        "title": "Mécanicien Agricole",
+        "location": "Sainte-Brigide-d'Iberville, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien-agricole/17227453",
+        "description_chars": 2016
+      },
+      {
+        "title": "Mécanicien Agricole",
+        "location": "Shefford, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/mecanicien-agricole/17227474",
+        "description_chars": 2016
+      },
+      {
+        "title": "Commis de cours",
+        "location": "Upton, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/commis-de-cours/17623062",
+        "description_chars": 2235
+      },
+      {
+        "title": "Aviseur Technique",
+        "location": "Victoriaville, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/aviseur-technique/17269796",
+        "description_chars": 3600
+      },
+      {
+        "title": "Aviseur Technique",
+        "location": "Upton, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/phaneuf-agricultural-equipment/aviseur-technique/17598363",
+        "description_chars": 3600
+      }
+    ]
+  },
+  {
+    "id": "symac",
+    "company_id": "symac",
+    "name": "Groupe Symac",
+    "checked_at": "2026-10-28T01:03:25.241610+00:00",
+    "job_count": 10,
+    "pages_including_details": 11,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "Full employer listing with exact employer posting prefix and dated job cards; separate spontaneous-application banks are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://www.jobillico.com/en/employers/groupe-symac-nwqlbp/view-all-jobs",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/commis-aux-pieces-/17611182",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/commis-aux-pieces-/17619264",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/representant-e-aux-ventes-machinerie-agricole/17619279",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/mecanicien-ne-agricole/17619288",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-sur-la-route-/17619267",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-en-atelier/17628156",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/mecanicien-ne-agricole/17619252",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/aviseur-e-technique/17619261",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/aide-general-/17619237",
+        "status": 200
+      },
+      {
+        "url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-en-esthetique/17619249",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Technicien(ne) en atelier",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-en-atelier/17628156",
+        "description_chars": 1699
+      },
+      {
+        "title": "Aide Général",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/aide-general-/17619237",
+        "description_chars": 1629
+      },
+      {
+        "title": "Technicien(ne) en esthétique",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-en-esthetique/17619249",
+        "description_chars": 1984
+      },
+      {
+        "title": "Mécanicien(ne) agricole",
+        "location": "Saint-Bruno-Lac-Saint-Jean, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/mecanicien-ne-agricole/17619252",
+        "description_chars": 1529
+      },
+      {
+        "title": "Aviseur(e) Technique",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/aviseur-e-technique/17619261",
+        "description_chars": 1484
+      },
+      {
+        "title": "Commis Aux Pièces",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/commis-aux-pieces-/17619264",
+        "description_chars": 1452
+      },
+      {
+        "title": "Technicien(ne) sur la route",
+        "location": "Saint-Hyacinthe, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/technicien-ne-sur-la-route-/17619267",
+        "description_chars": 1770
+      },
+      {
+        "title": "Représentant(e) aux ventes machinerie agricole",
+        "location": "Parisville, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/representant-e-aux-ventes-machinerie-agricole/17619279",
+        "description_chars": 1843
+      },
+      {
+        "title": "Mécanicien(ne) agricole",
+        "location": "Parisville, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/mecanicien-ne-agricole/17619288",
+        "description_chars": 1528
+      },
+      {
+        "title": "Commis Aux Pièces",
+        "location": "Saint-Bruno-Lac-Saint-Jean, QC",
+        "source_url": "https://www.jobillico.com/en/job-offer/groupe-symac-nwqlbp/commis-aux-pieces-/17611182",
+        "description_chars": 1448
+      }
+    ]
+  },
+  {
+    "id": "mecart",
+    "company_id": "mecart",
+    "name": "Mecart",
+    "checked_at": "2026-10-28T01:03:17.529799+00:00",
+    "job_count": 3,
+    "pages_including_details": 4,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Mecart Canada and USA use separate employer careers pages under one company identity; general applications and unlinked historical detail pages are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://mecart.com/fr/emplois/",
+        "status": 200
+      },
+      {
+        "url": "https://mecart.com/fr/emplois/offre-demploi-installateur-de-batiment-modulaire-profil-chef-dequipe",
+        "status": 200
+      },
+      {
+        "url": "https://mecart.com/fr/emplois/offre-demploi-charge-de-projet-senior",
+        "status": 200
+      },
+      {
+        "url": "https://mecart.com/fr/emplois/offre-demploi-assembleur-soudeur-au-mig",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Soudeur-assembleur / Soudeuse-assembleuse au MIG/TIG/Flux Core",
+        "location": "📍 Saint-Augustin-de-Desmaures (Québec)",
+        "source_url": "https://mecart.com/fr/emplois/offre-demploi-assembleur-soudeur-au-mig",
+        "description_chars": 0
+      },
+      {
+        "title": "Chargé(e) de projet sénior",
+        "location": "Unspecified",
+        "source_url": "https://mecart.com/fr/emplois/offre-demploi-charge-de-projet-senior",
+        "description_chars": 0
+      },
+      {
+        "title": "Installateur-trice de Bâtiment Modulaire (Profil – Chef d’équipe)",
+        "location": "Unspecified",
+        "source_url": "https://mecart.com/fr/emplois/offre-demploi-installateur-de-batiment-modulaire-profil-chef-dequipe",
+        "description_chars": 0
+      }
+    ]
+  },
+  {
+    "id": "mecart-usa",
+    "company_id": "mecart",
+    "name": "Mecart",
+    "checked_at": "2026-10-28T01:03:17.426387+00:00",
+    "job_count": 2,
+    "pages_including_details": 3,
+    "complete": true,
+    "continuation_ready": false,
+    "coverage_mode": "all",
+    "max_pages": null,
+    "description_attempt_quota": null,
+    "warnings": [
+      "description detail enrichment was incomplete for 2 jobs",
+      "Mecart Canada and USA use separate employer careers pages under one company identity; general applications and unlinked historical detail pages are excluded."
+    ],
+    "requests": [
+      {
+        "url": "https://mecart.com/careers/",
+        "status": 200
+      },
+      {
+        "url": "https://mecart.com/careers/press-brake-and-sheet-metal-machine-operator",
+        "status": 200
+      },
+      {
+        "url": "https://mecart.com/careers/job-offer-welder-assembler-team-leader",
+        "status": 200
+      }
+    ],
+    "jobs": [
+      {
+        "title": "Welder-Assembler, Team Leader",
+        "location": "­­­­­­­- Job in Greenville, SC",
+        "source_url": "https://mecart.com/careers/job-offer-welder-assembler-team-leader",
+        "description_chars": 0
+      },
+      {
+        "title": "Press Brake and Sheet Metal Machine Operator",
+        "location": "­­­­­­­- Job in Greenville, SC",
+        "source_url": "https://mecart.com/careers/press-brake-and-sheet-metal-machine-operator",
+        "description_chars": 0
+      }
+    ]
+  }
+]

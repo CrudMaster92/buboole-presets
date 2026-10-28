@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cssob",
+  "name": "Centre de services scolaire de l’Or-et-des-Bois",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cssob.gouv.qc.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "education"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

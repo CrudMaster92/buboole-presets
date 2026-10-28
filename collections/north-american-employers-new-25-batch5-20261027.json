@@ -1,0 +1,218 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "north-american-employers-new-25-batch5-20261027",
+  "revision": 1,
+  "name": "25 More Employers — October 2026, Batch 5",
+  "description": "Twenty-five additional employer identities screened against the expanded catalog and current FreeHire directory. Twenty-six uncapped all-role monitors include separate Mecart Canada and USA boards. Listing completeness and source description failures are recorded separately.",
+  "tags": [
+    "Canada",
+    "USA",
+    "Hiring expansion",
+    "Batch 5",
+    "All roles"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      },
+      {
+        "city": "",
+        "region": "",
+        "country": "US"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "atelier-val-dor",
+      "monitor_ids": [
+        "atelier-val-dor"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "automobile-desjardins",
+      "monitor_ids": [
+        "automobile-desjardins"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "bravad",
+      "monitor_ids": [
+        "bravad"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "buropro-citation",
+      "monitor_ids": [
+        "buropro-citation"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "corem",
+      "monitor_ids": [
+        "corem"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "cssob",
+      "monitor_ids": [
+        "cssob"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "femtum",
+      "monitor_ids": [
+        "femtum"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "fqcf",
+      "monitor_ids": [
+        "fqcf"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "gaa",
+      "monitor_ids": [
+        "gaa"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "grics",
+      "monitor_ids": [
+        "grics"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "groupe-vl",
+      "monitor_ids": [
+        "groupe-vl"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "joelle-collection",
+      "monitor_ids": [
+        "joelle-collection"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "jrt",
+      "monitor_ids": [
+        "jrt"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "mecart",
+      "monitor_ids": [
+        "mecart",
+        "mecart-usa"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "peres-nature",
+      "monitor_ids": [
+        "peres-nature"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "phaneuf",
+      "monitor_ids": [
+        "phaneuf"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "prometek",
+      "monitor_ids": [
+        "prometek"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "robovic",
+      "monitor_ids": [
+        "robovic"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "rousseau-metal",
+      "monitor_ids": [
+        "rousseau-metal"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "saint-sauveur",
+      "monitor_ids": [
+        "saint-sauveur"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "structures-rbr",
+      "monitor_ids": [
+        "structures-rbr"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "symac",
+      "monitor_ids": [
+        "symac"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "technosoude",
+      "monitor_ids": [
+        "technosoude"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "thetford",
+      "monitor_ids": [
+        "thetford"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    },
+    {
+      "company_id": "tremblay-cantin",
+      "monitor_ids": [
+        "tremblay-cantin"
+      ],
+      "note": "Uncapped all-role collection; complete employer-source traversal."
+    }
+  ]
+}

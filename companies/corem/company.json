@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "corem",
+  "name": "Corem",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jobs.glowinthecloud.com/corem?l=en",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "mineral-research"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

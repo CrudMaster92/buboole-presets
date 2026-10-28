@@ -1,0 +1,231 @@
+{
+  "sources": [
+    {
+      "id": "saint-sauveur",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/ville-de-saint-sauveur?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.250669+00:00",
+      "terminal_response_sha256": "030ffbf01e53fd9cfcdebbea0b5963b29198a187f6e19a7157ee60d254ab0b48",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "tremblay-cantin",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/tremblay-assurance?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.067380+00:00",
+      "terminal_response_sha256": "c426d0c9013d44c2e76f2491c6d24e565b83272d4ab049b1d8400eed54eeb959",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "fqcf",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/federation-quebecoise-des-cooperatives-forest?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.475055+00:00",
+      "terminal_response_sha256": "9ff6b466dbd03d9fd010c51a218ff206dde669c4b69c04a01c95a336147988c5",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "gaa",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupement-des-assureurs-automobiles-carrieres?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.326966+00:00",
+      "terminal_response_sha256": "48aeafa2c5ecc5319a1a27ae0ea898b9ee8b76b4ed9e1b0a8785303cb408652e",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "thetford",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/ville-de-thetford?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.165224+00:00",
+      "terminal_response_sha256": "f49daefbff50e5e080036673f2e840fe0a1b3fa6b1b75c98e5f570677c5737bb",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "peres-nature",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/les-peres-nature?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.177638+00:00",
+      "terminal_response_sha256": "8fd05e4752ab42404797aa6a17e26fc7bf18cdf593a1320893941b084885d79c",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "joelle-collection",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/joelle-collection?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.577255+00:00",
+      "terminal_response_sha256": "faf190568fe44a96021861310c9be7cb373a08606e154fc6058d12b2d3799900",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "automobile-desjardins",
+      "listing_pages_including_empty_terminal": 6,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupe-automobile-desjardins?l=en&page=6",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:49.515548+00:00",
+      "terminal_response_sha256": "d148ae5a77d16e39564547158fbd5e1caf4b4bb4335ba115d8239f4114978a4a",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "bravad",
+      "listing_pages_including_empty_terminal": 4,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/bravad?l=en&page=4",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.828297+00:00",
+      "terminal_response_sha256": "b9d2478020145235ebcd84308b543348e9e5a338022a8609f263d085f27d533f",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "atelier-val-dor",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/atelier-val-d-or?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.608357+00:00",
+      "terminal_response_sha256": "761e382478d7487296a22fb19b1e7a320b4c159f478aa656acdc839bb6a77e29",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "cssob",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/cssob?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.784951+00:00",
+      "terminal_response_sha256": "b4b037a61eddeef2d17e488b0353463a8e36988b3522db46119c68dfca885c74",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "grics",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/grics?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.580380+00:00",
+      "terminal_response_sha256": "cf0f8b9b2ccddc5f20107ec2307e87a313ef2568d217d8f312244591cdf2763b",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "femtum",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/httpsfemtumcomfrcarrieres?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.661172+00:00",
+      "terminal_response_sha256": "db393ebfbd5a8967271153ff5fa8c30f577f5e71d9aab3a5f9959a11afdde6fe",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "groupe-vl",
+      "listing_pages_including_empty_terminal": 3,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/groupe-vl?l=en&page=3",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.651522+00:00",
+      "terminal_response_sha256": "04e3b966f92f9ab46934377222986a04d01164ffed4da2f81278d2edb245cdd2",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "rousseau-metal",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 10,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "prometek",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/prometek?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.574847+00:00",
+      "terminal_response_sha256": "1ffe33b78630c6b0536ac52e1439dfce3ab0e3aea22a0be9483fcf617881a6a3",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "buropro-citation",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/buropro-citation?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:51.797234+00:00",
+      "terminal_response_sha256": "781f83be086b93b9b17ce1669a4803f4926a90e703b83b74e3246b954eecf231",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "corem",
+      "listing_pages_including_empty_terminal": 2,
+      "empty_terminal_url": "https://jobs.glowinthecloud.com/corem?l=en&page=2",
+      "empty_terminal_rechecked_at": "2026-10-28T01:09:54.729542+00:00",
+      "terminal_response_sha256": "e805b2907f3b17dc240f414a8d33f2187daefeeb957ca804c245193b37a625a2",
+      "terminal_selected_and_unfiltered_cards": 0,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "robovic",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 3,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "structures-rbr",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 11,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "technosoude",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 2,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "jrt",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 8,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "phaneuf",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 6,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "symac",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 10,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "mecart",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 3,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    },
+    {
+      "id": "mecart-usa",
+      "listing_pages": 1,
+      "all_source_card_titles_and_urls_match": true,
+      "current_source_cards": 2,
+      "pagination_control_has_no_next_page": true,
+      "all_job_urls_match_employer_host_and_prefix": true
+    }
+  ],
+  "cross_source_duplicate_urls": 0,
+  "valid_job_urls": 219
+}

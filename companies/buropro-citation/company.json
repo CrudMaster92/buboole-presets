@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "buropro-citation",
+  "name": "Buropro Citation",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.buroprocitation.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "office-retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "October 2026 expansion"
+    ]
+  }
+}

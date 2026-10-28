@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-28T01:09:37.131791+00:00",
+  "catalog_schema": "passed",
+  "catalog_build": {
+    "companies": 1370,
+    "monitors": 1255,
+    "collections": 24
+  },
+  "catalog_unit_tests": 11,
+  "collector_tests": 202,
+  "runtime_export": {
+    "unchanged_files": 51,
+    "revision": "f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97"
+  },
+  "new_employers": 25,
+  "new_monitors": 26,
+  "live_source_records": 219,
+  "all_listing_traversals_complete": true,
+  "pending_continuations": 0,
+  "coverage_mode": "all",
+  "max_pages": null,
+  "role_quota": null,
+  "description_attempt_quota": null
+}

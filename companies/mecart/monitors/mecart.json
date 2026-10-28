@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mecart",
+  "company_id": "mecart",
+  "revision": 1,
+  "label": "Mecart all roles",
+  "careers_url": "https://mecart.com/fr/emplois/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T01:03:17.529799+00:00",
+    "job_count": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Mecart Canada and USA use separate employer careers pages under one company identity; general applications and unlinked historical detail pages are excluded."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Mecart",
+    "careers_url": "https://mecart.com/fr/emplois/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "mecart.com"
+    ],
+    "request": {
+      "url": "https://mecart.com/fr/emplois/",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {
+      "item": ".bloc.has_button:has(a.link_bloc_content[href*=\"/fr/emplois/\"])",
+      "title": "h3",
+      "link": "a.link_bloc_content",
+      "location": ".text_container p:-soup-contains(\"Saint-Augustin\")"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": false
+    }
+  }
+}

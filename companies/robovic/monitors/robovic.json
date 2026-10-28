@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "robovic",
+  "company_id": "robovic",
+  "revision": 1,
+  "label": "Robovic all roles",
+  "careers_url": "https://robovic.com/carriere/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T01:03:14.619031+00:00",
+    "job_count": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Includes the advertised drafting/design internship as well as regular vacancies; generic spontaneous application is excluded. The headline vacancy number is not used as a cap."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Robovic",
+    "careers_url": "https://robovic.com/carriere/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "robovic.com"
+    ],
+    "request": {
+      "url": "https://robovic.com/carriere/",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {
+      "item": ".et_section_specialty .et_pb_button_module_wrapper:not(:-soup-contains(\"CANDIDATURE SPONTANÉE\"))",
+      "title": "a",
+      "link": "a"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": false
+    }
+  }
+}
