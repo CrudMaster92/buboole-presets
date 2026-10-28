@@ -1,0 +1,1803 @@
+{
+  "checked_at": "2026-10-28T16:01:13.880907+00:00",
+  "companies": 25,
+  "monitors": 27,
+  "listing_complete_monitors": 27,
+  "observed_source_records": 466,
+  "description_records": 33,
+  "freehire_directory": {
+    "checked_at": "2026-10-28T15:31:17.565522+00:00",
+    "unique_slugs": 470724,
+    "pages": 48,
+    "source": "https://freehire.me/api/v1/companies/sitemap",
+    "sha256": "4b0912bcfc32c94afaadfba82bc16dbbadb72806efe168a0cb43968432cb3e1b",
+    "caveat": "Mutable paged directory, not an atomic provider export; targeted current identity queries also required."
+  },
+  "runtime_revision": "f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97",
+  "notes": [
+    "Explicit maintainer instruction authorizes publication; no auto-merge is enabled.",
+    "PPD has separate French and English inventories, both included.",
+    "Leclerc English and US editions have identical 30 requisition IDs. Its French edition has 20 IDs; the union contains 42 IDs. Eight bilingual requisitions appear in both authored language monitors; source-record counts are not unique vacancy counts.",
+    "Marmen Canadian and US careers pages both publish the same explicit ADP board. French and English API reads returned the same six US roles; no Canadian openings are claimed.",
+    "ASP was excluded after the alias A.S.P. Incorporated matched FreeHire and its exact JazzHR job URLs.",
+    "Groupe Bellemare was rejected because both language listings publish undefined titles; no placeholder roles were accepted.",
+    "No page, role, title, country or detail-count cap was introduced. Failed optional description enrichment remains visible in monitor warnings."
+  ],
+  "sources": [
+    {
+      "id": "biontech",
+      "name": "BioNTech",
+      "checked_at": "2026-10-28T15:40:16.805775+00:00",
+      "recipe_sha256": "c20013a8831aeba6889265d062db56162f3a08aee15a6adfef94df2d32246923",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 138,
+      "complete": true,
+      "pages": 140,
+      "warnings": [
+        "description detail enrichment deferred 118 jobs until retry backoff ends",
+        "description detail enrichment was incomplete for 20 jobs",
+        "Resuming metadata or descriptions from a prior listing snapshot; this is not a new absence check."
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "ServiceNow Product Owner for Platform AI Capabilities",
+          "location": "Mainz, RP, DE, 55116 +1 more…",
+          "source_url": "https://jobs.biontech.com/job/Mainz-ServiceNow-Product-Owner-for-Platform-AI-Capabilities-RP-55116/1442436533"
+        },
+        {
+          "title": "Manager MES Processes (m/w/d)",
+          "location": "Mainz, RP, DE, 55131",
+          "source_url": "https://jobs.biontech.com/job/Mainz-Manager-MES-Processes-%28mwd%29-RP-55131/1452126133"
+        },
+        {
+          "title": "Director, External Innovations",
+          "location": "Shanghai, SH, CN, 200050",
+          "source_url": "https://jobs.biontech.com/job/Shanghai-Director%2C-External-Innovations-SH-200050/1451951633"
+        },
+        {
+          "title": "MSAT下游主管",
+          "location": "Nantong, JS, CN, 226000",
+          "source_url": "https://jobs.biontech.com/job/Nantong-MSAT%E4%B8%8B%E6%B8%B8%E4%B8%BB%E7%AE%A1-JS-226000/1441729333"
+        },
+        {
+          "title": "MSAT下游主管",
+          "location": "Nantong, JS, CN, 226000",
+          "source_url": "https://jobs.biontech.com/job/Nantong-MSAT%E4%B8%8B%E6%B8%B8%E4%B8%BB%E7%AE%A1-JS-226000/1441729433"
+        }
+      ],
+      "company_id": "biontech",
+      "careers_url": "https://jobs.biontech.com/search",
+      "request_url": "https://jobs.biontech.com/search/",
+      "website_url": "https://biontech.com/",
+      "freehire": {
+        "id": "biontech",
+        "name": "BioNTech",
+        "status": "no_index_match",
+        "checked_at": 1793202491.6006646,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "BioNTech",
+            "total_candidates": 156
+          },
+          {
+            "query": "BioNTech SE",
+            "total_candidates": 70
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "glotman-simpson",
+      "name": "Glotman Simpson",
+      "checked_at": "2026-10-28T15:40:16.809262+00:00",
+      "recipe_sha256": "a4b936ff524a83a8b5feb6d7d6a9324d46bd8b72466a164c271db03d86489e12",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 6,
+      "complete": true,
+      "pages": 7,
+      "warnings": [
+        "description detail enrichment was incomplete for 6 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Structural Design Engineer • Victoria Office",
+          "location": "• Victoria Office",
+          "source_url": "https://glotmansimpson.com/career/structural-design-engineer-victoria"
+        },
+        {
+          "title": "Senior Structural Design Engineer • Los Angeles Office",
+          "location": "• Los Angeles Office",
+          "source_url": "https://glotmansimpson.com/career/senior-structural-design-engineer-los-angeles"
+        },
+        {
+          "title": "Junior Structural Design Engineer • Los Angeles Office",
+          "location": "• Los Angeles Office",
+          "source_url": "https://glotmansimpson.com/career/junior-structural-design-engineer-los-angeles"
+        },
+        {
+          "title": "Assistant Project Coordinator • Vancouver Office",
+          "location": "• Vancouver Office",
+          "source_url": "https://glotmansimpson.com/career/assistant-project-coordinator"
+        },
+        {
+          "title": "Structural Design Engineer • Vancouver Office",
+          "location": "• Vancouver Office",
+          "source_url": "https://glotmansimpson.com/career/structural-design-engineer"
+        }
+      ],
+      "company_id": "glotman-simpson",
+      "careers_url": "https://glotmansimpson.com/careers",
+      "request_url": "https://glotmansimpson.com/careers/",
+      "website_url": "https://glotmansimpson.com/",
+      "freehire": {
+        "id": "glotman-simpson",
+        "name": "Glotman Simpson",
+        "status": "no_index_match",
+        "checked_at": 1793202491.6862888,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Glotman Simpson",
+            "total_candidates": 0
+          },
+          {
+            "query": "Glotman Simpson Consulting Engineers",
+            "total_candidates": 0
+          },
+          {
+            "query": "Glotman • Simpson",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "vitacore-industries",
+      "name": "Vitacore Industries",
+      "checked_at": "2026-10-28T15:40:16.810323+00:00",
+      "recipe_sha256": "f8aa9273ee8fc1990908f1686eaf47adfa1fa455a7f42e9f4146fe62e30ea867",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 11,
+      "complete": true,
+      "pages": 12,
+      "warnings": [
+        "description detail enrichment was incomplete for 11 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Accountant/Bookkeeper",
+          "location": "Burnaby, BC",
+          "source_url": "https://www.vitacore.com/job-postings/accountant-bookkeeper"
+        },
+        {
+          "title": "Director of Finance",
+          "location": "Burnaby, BC",
+          "source_url": "https://www.vitacore.com/job-postings/director-of-finance"
+        },
+        {
+          "title": "Engineering Project Assistant - Compliance",
+          "location": "Port Coquitlam",
+          "source_url": "https://www.vitacore.com/job-postings/engineering-project-assistant---compliance"
+        },
+        {
+          "title": "Forklift Operator/Labourer",
+          "location": "Dorchester, Ontario",
+          "source_url": "https://www.vitacore.com/job-postings/forklift-operator-labourer"
+        },
+        {
+          "title": "Graphic Designer",
+          "location": "Burnaby, BC",
+          "source_url": "https://www.vitacore.com/job-postings/graphic-designer"
+        }
+      ],
+      "company_id": "vitacore-industries",
+      "careers_url": "https://www.vitacore.com/careers",
+      "request_url": "https://www.vitacore.com/careers",
+      "website_url": "https://vitacore.ca/",
+      "freehire": {
+        "id": "vitacore-industries",
+        "name": "Vitacore Industries",
+        "status": "no_index_match",
+        "checked_at": 1793202491.4715295,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Vitacore Industries",
+            "total_candidates": 1
+          },
+          {
+            "query": "Vitacore",
+            "total_candidates": 2
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "macdon-industries",
+      "name": "MacDon Industries",
+      "checked_at": "2026-10-28T15:40:26.114639+00:00",
+      "recipe_sha256": "be9f217f1d0d8492346e02601385e964ae4cedd87d7f652cf668e484a5f71028",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 20,
+      "complete": true,
+      "pages": 21,
+      "warnings": [
+        "description detail enrichment was incomplete for 20 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Accounting Administrator – 9 Month Term (Red Deer, AB)",
+          "location": "Unspecified",
+          "source_url": "https://www.macdon.com/careers/accounting-administrator-9-month-term-red-deer-ab-2"
+        },
+        {
+          "title": "Associate Category Manager (Winnipeg, MB)",
+          "location": "Unspecified",
+          "source_url": "https://www.macdon.com/careers/associate-category-manager-winnipeg-mb"
+        },
+        {
+          "title": "Manufacturing Engineer (EIT)",
+          "location": "Unspecified",
+          "source_url": "https://www.macdon.com/careers/manufacturing-engineer-eit"
+        },
+        {
+          "title": "Tool Design Engineer",
+          "location": "Unspecified",
+          "source_url": "https://www.macdon.com/careers/tool-design-engineer-3"
+        },
+        {
+          "title": "Manager, Parts Distribution Centre",
+          "location": "Unspecified",
+          "source_url": "https://www.macdon.com/careers/manager-parts-distribution-centre"
+        }
+      ],
+      "company_id": "macdon-industries",
+      "careers_url": "https://www.macdon.com/careers",
+      "request_url": "https://www.macdon.com/careers",
+      "website_url": "https://macdon.com/",
+      "freehire": {
+        "id": "macdon-industries",
+        "name": "MacDon Industries",
+        "status": "no_index_match",
+        "checked_at": 1793202491.5969896,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "MacDon Industries",
+            "total_candidates": 13
+          },
+          {
+            "query": "MacDon",
+            "total_candidates": 95
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "degelman-industries",
+      "name": "Degelman Industries",
+      "checked_at": "2026-10-28T15:40:30.067570+00:00",
+      "recipe_sha256": "7a1b4eaa77bf65b912ee3873b2d3907986cee6cde2c79c3c445b763d0048222b",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 5,
+      "complete": true,
+      "pages": 1,
+      "warnings": [],
+      "with_description": 5,
+      "samples": [
+        {
+          "title": "Outside Shipper/Receiver",
+          "location": "Location: Regina, Saskatchewan",
+          "source_url": "https://degelman.com/careers/outside-shipperreceiver-1"
+        },
+        {
+          "title": "Maintenance Mechanic",
+          "location": "Location: Regina, Saskatchewan",
+          "source_url": "https://degelman.com/careers/maintenance-mechanic-1"
+        },
+        {
+          "title": "Shotblast Operator",
+          "location": "Location: Regina, Saskatchewan",
+          "source_url": "https://degelman.com/careers/shotblast-operator"
+        },
+        {
+          "title": "Fabrication/Machine Operator",
+          "location": "Location: Hillsboro, ND",
+          "source_url": "https://degelman.com/careers/fabricationmachine-operator"
+        },
+        {
+          "title": "Welder",
+          "location": "Location: Hillsboro, ND",
+          "source_url": "https://degelman.com/careers/welder"
+        }
+      ],
+      "company_id": "degelman-industries",
+      "careers_url": "https://degelman.com/news/careers",
+      "request_url": "https://degelman.com/news/careers",
+      "website_url": "https://degelman.com/",
+      "freehire": {
+        "id": "degelman-industries",
+        "name": "Degelman Industries",
+        "status": "no_index_match",
+        "checked_at": 1793202491.431412,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Degelman Industries",
+            "total_candidates": 0
+          },
+          {
+            "query": "Degelman",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "kpmb-architects",
+      "name": "KPMB Architects",
+      "checked_at": "2026-10-28T15:44:52.404243+00:00",
+      "recipe_sha256": "ac498f8a0da2e11830faccaa2ed576a901ce184bc35015c293d7e07f8279a4f2",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Student Intern (January-April)",
+          "location": "Full Time Toronto, ON",
+          "source_url": "https://secure.collage.co/jobs/kpmbarchitects/66157"
+        },
+        {
+          "title": "Sustainable Design Specialist",
+          "location": "Full Time Toronto, ON",
+          "source_url": "https://secure.collage.co/jobs/kpmbarchitects/65309"
+        }
+      ],
+      "company_id": "kpmb-architects",
+      "careers_url": "https://secure.collage.co/jobs/kpmbarchitects",
+      "request_url": "https://secure.collage.co/jobs/kpmbarchitects",
+      "website_url": "https://kpmb.com/",
+      "freehire": {
+        "id": "kpmb-architects",
+        "name": "KPMB Architects",
+        "status": "no_index_match",
+        "checked_at": 1793202491.6828241,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "KPMB Architects",
+            "total_candidates": 0
+          },
+          {
+            "query": "KPMB",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-gilbert",
+      "name": "Groupe Gilbert",
+      "checked_at": "2026-10-28T15:44:52.402027+00:00",
+      "recipe_sha256": "29fc3158198f1ffcf65a73fb67329feb1fe456d16f9c38d14ed2327448c1cd73",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 37,
+      "complete": true,
+      "pages": 38,
+      "warnings": [
+        "description detail enrichment was incomplete for 37 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Acheteur·euse TFGL",
+          "location": "Saguenay",
+          "source_url": "https://www.groupegilbert.com/offre-demploi/acheteur-euse-tfgl"
+        },
+        {
+          "title": "Agent·e expédition-réception",
+          "location": "Saguenay",
+          "source_url": "https://www.groupegilbert.com/offre-demploi/agent-e-expedition-reception"
+        },
+        {
+          "title": "Arpenteur·euse CCQ",
+          "location": "En chantier",
+          "source_url": "https://www.groupegilbert.com/offre-demploi/arpenteur-euse-ccq"
+        },
+        {
+          "title": "Boutefeu",
+          "location": "Nunavut",
+          "source_url": "https://www.groupegilbert.com/offre-demploi/boutefeu"
+        },
+        {
+          "title": "Camionneur·euse classe 1 - Aiguillage de remorque",
+          "location": "Saguenay",
+          "source_url": "https://www.groupegilbert.com/offre-demploi/operateur-trice-de-camion-shunt"
+        }
+      ],
+      "company_id": "groupe-gilbert",
+      "careers_url": "https://www.groupegilbert.com/carriere",
+      "request_url": "https://www.groupegilbert.com/carriere",
+      "website_url": "https://groupegilbert.com/",
+      "freehire": {
+        "id": "groupe-gilbert",
+        "name": "Groupe Gilbert",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202491.9481852,
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "gilbert"
+        ],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Groupe Gilbert",
+            "total_candidates": 11057
+          },
+          {
+            "query": "Gilbert Group",
+            "total_candidates": 36
+          }
+        ]
+      },
+      "freehire_identity_review": "FreeHire gilbert is a Sacramento accounting employer with gilbert.bamboohr.com tax/accounting jobs, not Quebec construction/transportation Groupe Gilbert / groupegilbert.com.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-tyt",
+      "name": "Groupe TYT",
+      "checked_at": "2026-10-28T15:44:52.403159+00:00",
+      "recipe_sha256": "ef50065fdc0bfcaaea89d36e36abfe9f6d7c5783ee71c7260591037d714f7ecd",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 11,
+      "complete": true,
+      "pages": 12,
+      "warnings": [
+        "description detail enrichment was incomplete for 11 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Chauffeur(euse) Conteneur - Drummondville",
+          "location": "Unspecified",
+          "source_url": "https://www.groupetyt.com/carriere/chauffeur-euse-conteneur-drummondville"
+        },
+        {
+          "title": "Chauffeur(euse) Conteneur - Québec",
+          "location": "Unspecified",
+          "source_url": "https://www.groupetyt.com/carriere/chauffeur-euse-conteneur-quebec"
+        },
+        {
+          "title": "Chauffeur Classe 1 - Flat bed US",
+          "location": "Unspecified",
+          "source_url": "https://www.groupetyt.com/carriere/chauffeur-classe-1-flat-bed-us-1"
+        },
+        {
+          "title": "Directeur(trice) des opérations Transport spécialisé (Flatbed et hors norme)",
+          "location": "Unspecified",
+          "source_url": "https://www.groupetyt.com/carriere/directeur-trice-des-operations-transport-specialise-flatbed-et-hors-norme"
+        },
+        {
+          "title": "Chauffeur(euse) Flat Bed – Canada et États-Unis (Québec)",
+          "location": "Unspecified",
+          "source_url": "https://www.groupetyt.com/carriere/chauffeur-euse-flat-bed-canada-et-etats-unis-quebec"
+        }
+      ],
+      "company_id": "groupe-tyt",
+      "careers_url": "https://www.groupetyt.com/carriere",
+      "request_url": "https://www.groupetyt.com/carriere/",
+      "website_url": "https://groupetyt.com/",
+      "freehire": {
+        "id": "groupe-tyt",
+        "name": "Groupe TYT",
+        "status": "no_index_match",
+        "checked_at": 1793202492.0085726,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Groupe TYT",
+            "total_candidates": 11057
+          },
+          {
+            "query": "TYT Group",
+            "total_candidates": 1
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "industries-mailhot",
+      "name": "Industries Mailhot",
+      "checked_at": "2026-10-28T15:44:52.405435+00:00",
+      "recipe_sha256": "2df44d946dcb9a36869d33097c702e4b6fa2a1889dea073bd3939313c611f564",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 5,
+      "complete": true,
+      "pages": 6,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Conseiller(ère) ressources humaines et santé-sécurité",
+          "location": "Unspecified",
+          "source_url": "https://mailhotindustries.com/fr/emplois/ressources-humaines/conseillerere-ressources-humaines-et-sante-securite"
+        },
+        {
+          "title": "Directeur(trice) TI - Wipro Hydraulics - Amérique du Nord",
+          "location": "Unspecified",
+          "source_url": "https://mailhotindustries.com/fr/emplois/informatique/directeurtrice-ti"
+        },
+        {
+          "title": "Gestionnaire régional des ventes (États-Unis)",
+          "location": "Unspecified",
+          "source_url": "https://mailhotindustries.com/fr/emplois/ventes-marketing/gestionnaire-regional-des-ventes"
+        },
+        {
+          "title": "Représentant(e) au service à la clientèle et soutien aux ventes",
+          "location": "Unspecified",
+          "source_url": "https://mailhotindustries.com/fr/emplois/ventes-marketing/representante-aux-ventes-internes"
+        },
+        {
+          "title": "Technicien(ne) informatique",
+          "location": "Unspecified",
+          "source_url": "https://mailhotindustries.com/fr/emplois/informatique/technicienne-informatique"
+        }
+      ],
+      "company_id": "industries-mailhot",
+      "careers_url": "https://mailhotindustries.com/emplois",
+      "request_url": "https://mailhotindustries.com/emplois",
+      "website_url": "https://mailhotindustries.com/",
+      "freehire": {
+        "id": "industries-mailhot",
+        "name": "Industries Mailhot",
+        "status": "no_index_match",
+        "checked_at": 1793202491.9587808,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Industries Mailhot",
+            "total_candidates": 3817
+          },
+          {
+            "query": "Mailhot Industries",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "aliments-krispy-kernels",
+      "name": "Aliments Krispy Kernels",
+      "checked_at": "2026-10-28T15:44:54.237297+00:00",
+      "recipe_sha256": "907b19991087c01f337a1b7f8971b81a4ae6d9a630355d51f48f301907584c5c",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 25,
+      "complete": true,
+      "pages": 26,
+      "warnings": [
+        "description detail enrichment was incomplete for 25 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Journalier(ère) de production",
+          "location": "Unspecified",
+          "source_url": "https://jobs.alimentskrispykernels.com/emplois/journalierere-de-production"
+        },
+        {
+          "title": "Distributeur(trice) indépendant(e) Portneuf",
+          "location": "Unspecified",
+          "source_url": "https://jobs.alimentskrispykernels.com/emplois/distributeurtrice-independante-portneuf"
+        },
+        {
+          "title": "Distributeur(rice) corporatif(ive) Rimouski",
+          "location": "Unspecified",
+          "source_url": "https://jobs.alimentskrispykernels.com/emplois/distributeurrice-corporatifive-rimouski"
+        },
+        {
+          "title": "Coordonnateur(trice) formation et services aux distributeurs",
+          "location": "Unspecified",
+          "source_url": "https://jobs.alimentskrispykernels.com/emplois/coordonnateurtrice-formation-et-services-aux-distributeurs"
+        },
+        {
+          "title": "Gérant(e) de territoire Saguenay-Côte Nord",
+          "location": "Unspecified",
+          "source_url": "https://jobs.alimentskrispykernels.com/emplois/gerante-de-territoire-saguenay-cote-nord"
+        }
+      ],
+      "company_id": "aliments-krispy-kernels",
+      "careers_url": "https://jobs.alimentskrispykernels.com/carrieres",
+      "request_url": "https://jobs.alimentskrispykernels.com/carrieres/",
+      "website_url": "https://krispykernels.com/",
+      "freehire": {
+        "id": "aliments-krispy-kernels",
+        "name": "Aliments Krispy Kernels",
+        "status": "no_index_match",
+        "checked_at": 1793202492.2703595,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Aliments Krispy Kernels",
+            "total_candidates": 97
+          },
+          {
+            "query": "Krispy Kernels",
+            "total_candidates": 4
+          },
+          {
+            "query": "Croustilles Yum Yum",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-c-t-inox",
+      "name": "Groupe Côté Inox",
+      "checked_at": "2026-10-28T15:44:58.261928+00:00",
+      "recipe_sha256": "d61c620362ff172b9aa0b944c1b9db318fc6c6fe9d7790c48f739c27cf2754d4",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [],
+      "with_description": 3,
+      "samples": [
+        {
+          "title": "Agent(e) d’approvisionnement",
+          "location": "Unspecified",
+          "source_url": "https://coteinox.com/emplois/agente-dapprovisionnement"
+        },
+        {
+          "title": "Chef d’équipe – Soudeur Assembleur MIG TIG",
+          "location": "Unspecified",
+          "source_url": "https://coteinox.com/emplois/chef-dequipe-soudeur-assembleur-mig-tig"
+        },
+        {
+          "title": "Soudeur(euse)-Assembleur(euse) MIG TIG",
+          "location": "Unspecified",
+          "source_url": "https://coteinox.com/emplois/soudeur-assembleur-mig-tig"
+        }
+      ],
+      "company_id": "groupe-c-t-inox",
+      "careers_url": "https://coteinox.com/emplois",
+      "request_url": "https://coteinox.com/emplois/",
+      "website_url": "https://coteinox.com/",
+      "freehire": {
+        "id": "groupe-c-t-inox",
+        "name": "Groupe Côté Inox",
+        "status": "no_index_match",
+        "checked_at": 1793202492.1045418,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Groupe Côté Inox",
+            "total_candidates": 11057
+          },
+          {
+            "query": "Côté Inox",
+            "total_candidates": 14
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-deschenes",
+      "name": "Groupe Deschenes",
+      "checked_at": "2026-10-28T15:44:59.755425+00:00",
+      "recipe_sha256": "4c7b0f877b0e304883830605add2e1596dda19bd871934628d6aad798a2bce90",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 6,
+      "complete": true,
+      "pages": 7,
+      "warnings": [
+        "description detail enrichment was incomplete for 6 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Gestionnaire de projets TI",
+          "location": "Montréal",
+          "source_url": "https://groupedeschenes.com/fr/postes/gestionnaire-projets-oct2026"
+        },
+        {
+          "title": "Administrateur principal, réseau et télécommunications",
+          "location": "Montréal",
+          "source_url": "https://groupedeschenes.com/fr/postes/administrateur-principal-reseau-telecom-sept2026"
+        },
+        {
+          "title": "Développeur Salesforce",
+          "location": "Montréal",
+          "source_url": "https://groupedeschenes.com/fr/postes/developpeur-salesforce-july2026"
+        },
+        {
+          "title": "Gestionnaire administrateurs et systèmes",
+          "location": "Montréal",
+          "source_url": "https://groupedeschenes.com/fr/postes/gestionnaire-administrateurs-et-systemes-july2026"
+        },
+        {
+          "title": "Architecte de solutions",
+          "location": "Montréal",
+          "source_url": "https://groupedeschenes.com/fr/postes/architecte-solutions-april2026"
+        }
+      ],
+      "company_id": "groupe-deschenes",
+      "careers_url": "https://groupedeschenes.com/fr/emplois-disponibles",
+      "request_url": "https://groupedeschenes.com/fr/emplois-disponibles",
+      "website_url": "https://groupedeschenes.com/",
+      "freehire": {
+        "id": "groupe-deschenes",
+        "name": "Groupe Deschenes",
+        "status": "no_index_match",
+        "checked_at": 1793202492.5396824,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Groupe Deschenes",
+            "total_candidates": 11057
+          },
+          {
+            "query": "Deschenes Group",
+            "total_candidates": 3
+          },
+          {
+            "query": "Deschênes Group",
+            "total_candidates": 3
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "manac",
+      "name": "Manac",
+      "checked_at": "2026-10-28T15:45:04.679576+00:00",
+      "recipe_sha256": "6b90f1e011c703870cce6fcebf91875afca8570fd3b306089850fabd2dc566aa",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 25,
+      "complete": true,
+      "pages": 26,
+      "warnings": [
+        "description detail enrichment was incomplete for 25 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Journalier(ère)",
+          "location": "Saint-Georges, QC",
+          "source_url": "https://www.manac.com/ca/fr/compagnie/carrieres/journalier-ere"
+        },
+        {
+          "title": "Soudeur (Saint-Georges)",
+          "location": "Saint-Georges, QC",
+          "source_url": "https://www.manac.com/ca/fr/compagnie/carrieres/soudeur-saint-georges"
+        },
+        {
+          "title": "Chef(fe) d'équipe, mécanicien(ne) de remorques Soir",
+          "location": "Lévis, QC",
+          "source_url": "https://www.manac.com/ca/fr/compagnie/carrieres/chef-fe-d-equipe-mecanicien-ne-de-remorques-soir"
+        },
+        {
+          "title": "Mécanicien(ne) de remorques (Boucherville)",
+          "location": "Boucherville, QC",
+          "source_url": "https://www.manac.com/ca/fr/compagnie/carrieres/mecanicien-ne-de-remorques-boucherville"
+        },
+        {
+          "title": "Mecanicien(ne) de remorques (Lévis)",
+          "location": "Lévis, QC",
+          "source_url": "https://www.manac.com/ca/fr/compagnie/carrieres/mecanicien-ne-de-remorques-levis"
+        }
+      ],
+      "company_id": "manac",
+      "careers_url": "https://www.manac.com/ca/fr/compagnie/carrieres",
+      "request_url": "https://www.manac.com/ca/fr/compagnie/carrieres",
+      "website_url": "https://manac.com/",
+      "freehire": {
+        "id": "manac",
+        "name": "Manac",
+        "status": "no_index_match",
+        "checked_at": 1793202492.3352275,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Manac",
+            "total_candidates": 8771
+          },
+          {
+            "query": "Manac Inc.",
+            "total_candidates": 25
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "plastiques-gagnon",
+      "name": "Plastiques Gagnon",
+      "checked_at": "2026-10-28T15:45:05.221737+00:00",
+      "recipe_sha256": "edac34d3cf12c2caf584f3fd5176136932530d5d99a6737c928a867905ef6bdb",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 5,
+      "complete": true,
+      "pages": 6,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Opérateur(trice) de presse à injection",
+          "location": "Saint-Jean-Port-Joli",
+          "source_url": "https://www.plastiquesgagnon.com/blog-de-plastiques-gagnon/opérateurtrice-de-presse-à-injection"
+        },
+        {
+          "title": "Responsable qualité & amélioration continue",
+          "location": "Saint-Jean-Port-Joli",
+          "source_url": "https://www.plastiquesgagnon.com/blog-de-plastiques-gagnon/responsable-qualite-amelioration-continue"
+        },
+        {
+          "title": "Chargé(e) de projets au développement",
+          "location": "Saint-Jean-Port-Joli / Lévis",
+          "source_url": "https://www.plastiquesgagnon.com/blog-de-plastiques-gagnon/chargee-de-projets-au-developpement"
+        },
+        {
+          "title": "Monteur(euse)-Régleur(euse)",
+          "location": "Lévis",
+          "source_url": "https://www.plastiquesgagnon.com/blog-de-plastiques-gagnon/monteureuse-régleureuse"
+        },
+        {
+          "title": "Opérateur(trice) de presse à injection",
+          "location": "Lévis",
+          "source_url": "https://www.plastiquesgagnon.com/blog-de-plastiques-gagnon/operateur-/-operatrice-de-presse-à-injection"
+        }
+      ],
+      "company_id": "plastiques-gagnon",
+      "careers_url": "https://www.plastiquesgagnon.com/fr-ca/carriere",
+      "request_url": "https://www.plastiquesgagnon.com/fr-ca/carriere",
+      "website_url": "https://plastiquesgagnon.com/",
+      "freehire": {
+        "id": "plastiques-gagnon",
+        "name": "Plastiques Gagnon",
+        "status": "no_index_match",
+        "checked_at": 1793202492.2812843,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Plastiques Gagnon",
+            "total_candidates": 0
+          },
+          {
+            "query": "Plastiques Gagnon Inc.",
+            "total_candidates": 0
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "industries-bonneville",
+      "name": "Industries Bonneville",
+      "checked_at": "2026-10-28T15:45:09.516526+00:00",
+      "recipe_sha256": "044486b3a0178c4f6a2dac660a996c6ff4dfb0413294835f1f86fa32a52a0219",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 26,
+      "complete": true,
+      "pages": 27,
+      "warnings": [
+        "description detail enrichment was incomplete for 26 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "CONTREMAÎTRE DE CHANTIER",
+          "location": "Usine de Sainte-Anne-de-la-Rochelle",
+          "source_url": "https://bonneville.ca/fiche-emploi/superviseur-de-production"
+        },
+        {
+          "title": "PLOMBIER(E)",
+          "location": "Usine de Sainte-Anne-de-la-Rochelle",
+          "source_url": "https://bonneville.ca/fiche-emploi/plombiere-2"
+        },
+        {
+          "title": "POSEUR(EUSE) DE SYSTÈMES INTÉRIEURS",
+          "location": "Usine de Sainte-Anne-de-la-Rochelle",
+          "source_url": "https://bonneville.ca/fiche-emploi/poseureuse-de-gypse"
+        },
+        {
+          "title": "COUVREUR(EUSE)",
+          "location": "Usine de Sainte-Anne-de-la-Rochelle",
+          "source_url": "https://bonneville.ca/fiche-emploi/couvreureuse"
+        },
+        {
+          "title": "INSTALLATEUR(TRICE) DE REVÊTEMENT EXTÉRIEUR",
+          "location": "Usine de Sainte-Anne-de-la-Rochelle",
+          "source_url": "https://bonneville.ca/fiche-emploi/installateurtrice-de-revetement-exterieur"
+        }
+      ],
+      "company_id": "industries-bonneville",
+      "careers_url": "https://bonneville.ca/carrieres",
+      "request_url": "https://bonneville.ca/carrieres",
+      "website_url": "https://bonneville.ca/",
+      "freehire": {
+        "id": "industries-bonneville",
+        "name": "Industries Bonneville",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202778.6356804,
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "bonneville-joint-school-district-no-93",
+          "bonneville-power-administration",
+          "bonneville-builders",
+          "bonneville-county"
+        ],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Industries Bonneville",
+            "total_candidates": 3817
+          },
+          {
+            "query": "Bonneville Homes",
+            "total_candidates": 6
+          }
+        ]
+      },
+      "freehire_identity_review": "The similarly named FreeHire results are Bonneville Joint School District No. 93, Bonneville Power Administration, Bonneville County, and Bonneville Builders (bonnevillebuilders.com, Utah commercial construction). These are not Quebec modular-home manufacturer Industries Bonneville / bonneville.ca.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "proco",
+      "name": "Proco",
+      "checked_at": "2026-10-28T15:45:14.070971+00:00",
+      "recipe_sha256": "70176d49865b8a929a81ff7302857b834f5965a1b31a5677b5e03ecf9ffa65ec",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 16,
+      "complete": true,
+      "pages": 17,
+      "warnings": [
+        "description detail enrichment was incomplete for 16 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Peintre Industriel (La Baie)",
+          "location": "Saguenay (La Baie)",
+          "source_url": "https://www.proco.ca/fr/offre-demploi/3/peintre-la-baie-0?iref=fr/carriere?%2Ffr%2Fcarriere="
+        },
+        {
+          "title": "Grenailleur (La Baie)",
+          "location": "Saguenay (La Baie)",
+          "source_url": "https://www.proco.ca/fr/offre-demploi/3/grenailleur-la-baie?iref=fr/carriere?%2Ffr%2Fcarriere="
+        },
+        {
+          "title": "Machiniste",
+          "location": "Lac-Saint-Jean (Saint-Nazaire)",
+          "source_url": "https://www.proco.ca/fr/offre-demploi/3/machiniste?iref=fr/carriere?%2Ffr%2Fcarriere="
+        },
+        {
+          "title": "Vérificateur/vérificatrice par essai non destructif (inspecteur en soudage)",
+          "location": "Lac-Saint-Jean (Saint-Nazaire)",
+          "source_url": "https://www.proco.ca/fr/offre-demploi/3/technicien-en-inspection-visuelle?iref=fr/carriere?%2Ffr%2Fcarriere="
+        },
+        {
+          "title": "Estimateur/Modélisateur",
+          "location": "Lac-Saint-Jean (Saint-Nazaire)",
+          "source_url": "https://www.proco.ca/fr/offre-demploi/3/estimateurmodelisateur?iref=fr/carriere?%2Ffr%2Fcarriere="
+        }
+      ],
+      "company_id": "proco",
+      "careers_url": "https://www.proco.ca/fr/carriere",
+      "request_url": "https://www.proco.ca/fr/carriere",
+      "website_url": "https://proco.ca/",
+      "freehire": {
+        "id": "proco",
+        "name": "Proco",
+        "status": "no_index_match",
+        "checked_at": 1793202492.7251706,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Proco",
+            "total_candidates": 1431
+          },
+          {
+            "query": "Constructions Proco",
+            "total_candidates": 2947
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "rmh-industries",
+      "name": "RMH Industries",
+      "checked_at": "2026-10-28T15:45:21.895767+00:00",
+      "recipe_sha256": "0c34f3b702f9b845be0ca8f6b67468847ca57a2da8db4a38e9bb562154b33ec1",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 5,
+      "complete": true,
+      "pages": 6,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Mécanicien industriel - SOIR",
+          "location": "Unspecified",
+          "source_url": "https://www.rmhindustries.com/carrieres/mecanicien-industriel-soir-2"
+        },
+        {
+          "title": "Machiniste conventionnel - SOIR",
+          "location": "Unspecified",
+          "source_url": "https://www.rmhindustries.com/carrieres/machiniste-conventionnel-rmh-industries"
+        },
+        {
+          "title": "Machiniste tours verticaux - JOUR",
+          "location": "Unspecified",
+          "source_url": "https://www.rmhindustries.com/carrieres/machiniste-tours-verticaux-rmh-industries"
+        },
+        {
+          "title": "Électromécanicien - JOUR",
+          "location": "Unspecified",
+          "source_url": "https://www.rmhindustries.com/carrieres/electromecanicien"
+        },
+        {
+          "title": "Soudeur(euse)",
+          "location": "Unspecified",
+          "source_url": "https://www.rmhindustries.com/carrieres/soudeureuse"
+        }
+      ],
+      "company_id": "rmh-industries",
+      "careers_url": "https://www.rmhindustries.com/carrieres",
+      "request_url": "https://www.rmhindustries.com/carrieres",
+      "website_url": "https://rmhindustries.com/",
+      "freehire": {
+        "id": "rmh-industries",
+        "name": "RMH Industries",
+        "status": "no_index_match",
+        "checked_at": 1793202492.7218406,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "RMH Industries",
+            "total_candidates": 2
+          },
+          {
+            "query": "R.M.H. Industries",
+            "total_candidates": 1872
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "viandes-dubreton",
+      "name": "Viandes duBreton",
+      "checked_at": "2026-10-28T15:45:26.152826+00:00",
+      "recipe_sha256": "4053e70060d654625743caa11f649d9e7a66c605f7f8bd46216ebeeb37499626",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 25,
+      "complete": true,
+      "pages": 28,
+      "warnings": [],
+      "with_description": 25,
+      "samples": [
+        {
+          "title": "Technicien(ne) contrôle qualité",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.dubreton.com/jobs/8627016-technicien-ne-controle-qualite"
+        },
+        {
+          "title": "Laveur(se) de camion",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.dubreton.com/jobs/8626991-laveur-se-de-camion"
+        },
+        {
+          "title": "Technicien(ne) logistique",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.dubreton.com/jobs/8593160-technicien-ne-logistique"
+        },
+        {
+          "title": "Étudiant(e) en ingénierie",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.dubreton.com/jobs/8591575-etudiant-e-en-ingenierie"
+        },
+        {
+          "title": "Contremaître de production - quart de soir",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.dubreton.com/jobs/8580234-contremaitre-de-production-quart-de-soir"
+        }
+      ],
+      "company_id": "viandes-dubreton",
+      "careers_url": "https://carrieres.dubreton.com/jobs",
+      "request_url": "https://carrieres.dubreton.com/jobs/show_more",
+      "website_url": "https://dubreton.com/",
+      "freehire": {
+        "id": "viandes-dubreton",
+        "name": "Viandes duBreton",
+        "status": "no_index_match",
+        "checked_at": 1793202493.1038883,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Viandes duBreton",
+            "total_candidates": 0
+          },
+          {
+            "query": "duBreton",
+            "total_candidates": 0
+          },
+          {
+            "query": "Breton Tradition 1944",
+            "total_candidates": 46
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "propair",
+      "name": "Propair",
+      "checked_at": "2026-10-28T15:51:09.983985+00:00",
+      "recipe_sha256": "18ec6d295ca6c7ebe3d854b4e5f61712309f18426344c371b5d20a9a8fdaf2f5",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 8,
+      "complete": true,
+      "pages": 9,
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Coordonnateur·trice de vol",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/propair/20260911001?l=fr"
+        },
+        {
+          "title": "Technicien·ne d'entretien d'aéronefs - TEA M1",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/propair/20260708001?l=fr"
+        },
+        {
+          "title": "Escorte de sécurité",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/propair/20260714001?l=fr"
+        },
+        {
+          "title": "Infirmier·ière de vol surnuméraire",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/propair/20260708005?l=fr"
+        },
+        {
+          "title": "Médecin de vol",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/propair/20260708002?l=fr"
+        }
+      ],
+      "company_id": "propair",
+      "careers_url": "https://jobs.glowinthecloud.com/propair?l=fr",
+      "request_url": "https://jobs.glowinthecloud.com/propair?l=fr",
+      "website_url": "https://propair.ca/",
+      "freehire": {
+        "id": "propair",
+        "name": "Propair",
+        "status": "no_index_match",
+        "checked_at": 1793202492.821331,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Propair",
+            "total_candidates": 5
+          },
+          {
+            "query": "Propair Inc.",
+            "total_candidates": 3
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "prorec",
+      "name": "Prorec",
+      "checked_at": "2026-10-28T15:51:09.986019+00:00",
+      "recipe_sha256": "09dcdbf27f25fb6ec366e1f26fb0c8ac4cd5500d920b29b324965c8fcf6f7c86",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Contremaitre maintenance",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/prorec/20261026001"
+        },
+        {
+          "title": "Homme de cour (H/F) – Semaine de jour",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/prorec/20260507002"
+        },
+        {
+          "title": "Opérateur(trice) de production- Semaine de jour",
+          "location": "Unspecified",
+          "source_url": "https://jobs.glowinthecloud.com/prorec/20260831004"
+        }
+      ],
+      "company_id": "prorec",
+      "careers_url": "https://jobs.glowinthecloud.com/prorec",
+      "request_url": "https://jobs.glowinthecloud.com/prorec",
+      "website_url": "https://prorec.ca/",
+      "freehire": {
+        "id": "prorec",
+        "name": "Prorec",
+        "status": "no_index_match",
+        "checked_at": 1793202492.8615592,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Prorec",
+            "total_candidates": 1903
+          },
+          {
+            "query": "Prorec Inc.",
+            "total_candidates": 16
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "pattison-outdoor",
+      "name": "Pattison Outdoor",
+      "checked_at": "2026-10-28T15:51:09.987026+00:00",
+      "recipe_sha256": "90ff28f84c315cc3f1f16416fb6092b1d6a002fdda15f6e471837435ef28aa89",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 12,
+      "complete": true,
+      "pages": 8,
+      "warnings": [
+        "description detail enrichment was incomplete for 12 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Coordonnateur(trice) des ventes bilingue, Ventes régionales",
+          "location": "Montreal, QC",
+          "source_url": "https://www.linkedin.com/jobs/view/4483708564"
+        },
+        {
+          "title": "Network Analyst, NOC",
+          "location": "Mississauga, ON",
+          "source_url": "https://ca.indeed.com/job/network-analyst-noc-mississauga-7a52ddd6c8a7d667"
+        },
+        {
+          "title": "Retail Sales Coordinator",
+          "location": "Mississauga, ON",
+          "source_url": "https://ca.indeed.com/job/retail-sales-co-ordinator-mississauga-d0380a6b94e087a0"
+        },
+        {
+          "title": "Territory Manager",
+          "location": "Burnaby, BC",
+          "source_url": "https://ca.indeed.com/job/territory-manager-richmond-bc-acd5f979aa45e648"
+        },
+        {
+          "title": "Field Technician, Digital Signage",
+          "location": "Mississauga, ON",
+          "source_url": "https://ca.indeed.com/job/field-technician-digital-signage-mississauga-3a3d5844bdd2ef46"
+        }
+      ],
+      "company_id": "pattison-outdoor",
+      "careers_url": "https://www.pattisonoutdoor.com/company/careers",
+      "request_url": "https://www.pattisonoutdoor.com/company/careers",
+      "website_url": "https://pattisonoutdoor.com/",
+      "freehire": {
+        "id": "pattison-outdoor",
+        "name": "Pattison Outdoor",
+        "status": "no_index_match",
+        "checked_at": 1793202779.1611345,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Pattison Outdoor",
+            "total_candidates": 4
+          },
+          {
+            "query": "Pattison Outdoor Advertising",
+            "total_candidates": 4
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "axine-water-technologies",
+      "name": "Axine Water Technologies",
+      "checked_at": "2026-10-28T15:51:09.988032+00:00",
+      "recipe_sha256": "c5139f2fe3416248204665f56a7898ace202d9f68ae5af7079c394ca68013503",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Assistant Accounting Manager",
+          "location": "Unspecified",
+          "source_url": "https://axinewater.com/wp-content/uploads/JD-accounting-manager-assistant-2026-04.pdf"
+        }
+      ],
+      "company_id": "axine-water-technologies",
+      "careers_url": "https://axinewater.com/about-us/careers",
+      "request_url": "https://axinewater.com/about-us/careers/",
+      "website_url": "https://axinewater.com/",
+      "freehire": {
+        "id": "axine-water-technologies",
+        "name": "Axine Water Technologies",
+        "status": "no_index_match",
+        "checked_at": 1793202779.2981257,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Axine Water Technologies",
+            "total_candidates": 14
+          },
+          {
+            "query": "Axine",
+            "total_candidates": 39
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "biscuits-leclerc",
+      "name": "Biscuits Leclerc",
+      "checked_at": "2026-10-28T15:51:13.304244+00:00",
+      "recipe_sha256": "45dee7f6c60c794eaa31ba3bbd2adbb5fdcb15ece5a25f3902cf6f6f46f9ed2d",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 30,
+      "complete": true,
+      "pages": 31,
+      "warnings": [
+        "description detail enrichment deferred 29 jobs until retry backoff ends",
+        "description detail enrichment was incomplete for 1 jobs",
+        "Resuming metadata or descriptions from a prior listing snapshot; this is not a new absence check."
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Corporate Controller",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/en/job/7185"
+        },
+        {
+          "title": "Production Operator - 3x12 Night Shift",
+          "location": "Brockville, Ontario",
+          "source_url": "https://leclerc.ca/en/job/7230"
+        },
+        {
+          "title": "Engineering Project Manager",
+          "location": "Hawkesbury, Ontario",
+          "source_url": "https://leclerc.ca/en/job/7235"
+        },
+        {
+          "title": "Operator / Interim Internal Trainer",
+          "location": "Brockville, Ontario",
+          "source_url": "https://leclerc.ca/en/job/7252"
+        },
+        {
+          "title": "Operator",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/en/job/6769"
+        }
+      ],
+      "company_id": "biscuits-leclerc",
+      "careers_url": "https://leclerc.ca/en/jobs",
+      "request_url": "https://leclerc.ca/en/jobs",
+      "website_url": "https://leclerc.ca/",
+      "freehire": {
+        "id": "biscuits-leclerc",
+        "name": "Biscuits Leclerc",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202778.659395,
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "leclerc-approvisionnement-sud"
+        ],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Biscuits Leclerc",
+            "total_candidates": 8
+          },
+          {
+            "query": "Leclerc Foods",
+            "total_candidates": 4
+          }
+        ]
+      },
+      "freehire_identity_review": "FreeHire leclerc-approvisionnement-sud is a France-based distribution employer with EURES postings. It is not Canadian/US snack manufacturer Biscuits Leclerc / leclerc.ca / leclercfoods.com.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "biscuits-leclerc-fr",
+      "name": "Biscuits Leclerc",
+      "checked_at": "2026-10-28T15:55:59.407345+00:00",
+      "recipe_sha256": "2d6e6cf27ca32ce155dcab48dae008598646ea78a4cd82dbba9976a5a9eb8313",
+      "strategy": "generic_html",
+      "status": "ok",
+      "job_count": 20,
+      "complete": true,
+      "pages": 21,
+      "warnings": [
+        "description detail enrichment was incomplete for 20 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Contrôleur corporatif",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/fr/emploi/7185"
+        },
+        {
+          "title": "Chargé projets ingénierie",
+          "location": "Hawkesbury, Ontario",
+          "source_url": "https://leclerc.ca/fr/emploi/7235"
+        },
+        {
+          "title": "Électromécanicien - Quart de nuit 4x10h",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/fr/emploi/7250"
+        },
+        {
+          "title": "Opérateur de production",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/fr/emploi/6769"
+        },
+        {
+          "title": "Pâtissier de production",
+          "location": "Saint-Augustin-de-Desmaures, Québec",
+          "source_url": "https://leclerc.ca/fr/emploi/7036"
+        }
+      ],
+      "company_id": "biscuits-leclerc",
+      "careers_url": "https://leclerc.ca/fr/emplois",
+      "request_url": "https://leclerc.ca/fr/emplois",
+      "website_url": "https://leclerc.ca/",
+      "freehire": {
+        "id": "biscuits-leclerc",
+        "name": "Biscuits Leclerc",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202778.659395,
+        "match_basis": "live-identity-name-match",
+        "freehire_slugs": [
+          "leclerc-approvisionnement-sud"
+        ],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Biscuits Leclerc",
+            "total_candidates": 8
+          },
+          {
+            "query": "Leclerc Foods",
+            "total_candidates": 4
+          }
+        ]
+      },
+      "freehire_identity_review": "FreeHire leclerc-approvisionnement-sud is a France-based distribution employer with EURES postings. It is not Canadian/US snack manufacturer Biscuits Leclerc / leclerc.ca / leclercfoods.com.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "marmen",
+      "name": "Marmen",
+      "checked_at": "2026-10-28T15:51:15.956787+00:00",
+      "recipe_sha256": "53dd9161b1e4a5aeaf02d27c7547661399058c8043f737c49f0e52701714357a",
+      "strategy": "generic_json",
+      "status": "ok",
+      "job_count": 6,
+      "complete": true,
+      "pages": 7,
+      "warnings": [
+        "description detail enrichment was incomplete for 6 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Heavy Lift Truck Operator",
+          "location": "Brandon, SD, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6008c003-f9a4-47a3-8573-a3b0d594bcba&ccId=9201209146560_3&lang=en_US&jobId=579490"
+        },
+        {
+          "title": "NDT Inspector",
+          "location": "Brandon, SD, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6008c003-f9a4-47a3-8573-a3b0d594bcba&ccId=9201209146560_3&lang=en_US&jobId=579487"
+        },
+        {
+          "title": "Diesel/Heavy Duty Mechanic",
+          "location": "Brandon, SD, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6008c003-f9a4-47a3-8573-a3b0d594bcba&ccId=9201209146560_3&lang=en_US&jobId=578599"
+        },
+        {
+          "title": "Industrial Painter",
+          "location": "Brandon, SD, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6008c003-f9a4-47a3-8573-a3b0d594bcba&ccId=9201209146560_3&lang=en_US&jobId=578008"
+        },
+        {
+          "title": "Cutting Table Machine Operator",
+          "location": "Brandon, SD, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6008c003-f9a4-47a3-8573-a3b0d594bcba&ccId=9201209146560_3&lang=en_US&jobId=576928"
+        }
+      ],
+      "company_id": "marmen",
+      "careers_url": "https://marmeninc.com/carrieres/travailler-au-canada/offres-d-emplois",
+      "request_url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions",
+      "website_url": "https://marmeninc.com/",
+      "freehire": {
+        "id": "marmen",
+        "name": "Marmen",
+        "status": "no_index_match",
+        "checked_at": 1793202493.0520504,
+        "match_basis": null,
+        "freehire_slugs": [],
+        "fresh_directory_matches": [],
+        "queries": [
+          {
+            "query": "Marmen",
+            "total_candidates": 89
+          },
+          {
+            "query": "Marmen Energy",
+            "total_candidates": 34
+          }
+        ]
+      },
+      "freehire_identity_review": null,
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-ppd-fr",
+      "name": "Groupe PPD",
+      "checked_at": "2026-10-28T15:51:19.340424+00:00",
+      "recipe_sha256": "9ecc6bd4102b3914c87c2dca049ee68a8e1e364fb472136a14d3ccd1aa22b094",
+      "strategy": "generic_json",
+      "status": "ok",
+      "job_count": 14,
+      "complete": true,
+      "pages": 15,
+      "warnings": [
+        "description detail enrichment was incomplete for 14 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Analyste – soumission et révision des prix",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/postuler-emploi/analyste-soumission-et-revision-des-prix"
+        },
+        {
+          "title": "Chargé de projets – Maintenance",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/postuler-emploi/charge-de-projets-maintenance"
+        },
+        {
+          "title": "Machiniste conventionnel",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/postuler-emploi/machiniste-conventionnel"
+        },
+        {
+          "title": "Manutentionnaire",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/postuler-emploi/manutentionnaire-4"
+        },
+        {
+          "title": "Technicien – ingénierie de production",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/postuler-emploi/technicien-ingenierie-de-production"
+        }
+      ],
+      "company_id": "groupe-ppd",
+      "careers_url": "https://carrieres.ppdgroup.com/",
+      "request_url": "https://carrieres.ppdgroup.com/wp-json/wp/v2/lm-carriere",
+      "website_url": "https://ppdgroup.com/",
+      "freehire": {
+        "id": "groupe-ppd",
+        "name": "Groupe PPD",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202493.2836459,
+        "match_basis": null,
+        "freehire_slugs": [
+          "p-p-d"
+        ],
+        "fresh_directory_matches": [
+          "p-p-d"
+        ],
+        "queries": [
+          {
+            "query": "Groupe PPD",
+            "total_candidates": 11057
+          },
+          {
+            "query": "PPD Group",
+            "total_candidates": 5
+          },
+          {
+            "query": "PPD",
+            "total_candidates": 7
+          }
+        ]
+      },
+      "freehire_identity_review": "FreeHire p-p-d is P-P-D GMBH & CO. KG, a German staffing employer using join.com/companies/pannenbecker-personal-dienste. It is unrelated to Quebec polymer manufacturer Groupe PPD / ppdgroup.com.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    },
+    {
+      "id": "groupe-ppd-en",
+      "name": "Groupe PPD",
+      "checked_at": "2026-10-28T15:51:19.662507+00:00",
+      "recipe_sha256": "c42ae013a3c77ea923221658f7716f571f4d63eeaabec73e2c7867113f506802",
+      "strategy": "generic_json",
+      "status": "ok",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Compression Operators",
+          "location": "Unspecified",
+          "source_url": "https://carrieres.ppdgroup.com/en/postuler-emploi/compression-operators"
+        }
+      ],
+      "company_id": "groupe-ppd",
+      "careers_url": "https://carrieres.ppdgroup.com/en",
+      "request_url": "https://carrieres.ppdgroup.com/wp-json/wp/v2/lm-carriere",
+      "website_url": "https://ppdgroup.com/",
+      "freehire": {
+        "id": "groupe-ppd",
+        "name": "Groupe PPD",
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793202493.2836459,
+        "match_basis": null,
+        "freehire_slugs": [
+          "p-p-d"
+        ],
+        "fresh_directory_matches": [
+          "p-p-d"
+        ],
+        "queries": [
+          {
+            "query": "Groupe PPD",
+            "total_candidates": 11057
+          },
+          {
+            "query": "PPD Group",
+            "total_candidates": 5
+          },
+          {
+            "query": "PPD",
+            "total_candidates": 7
+          }
+        ]
+      },
+      "freehire_identity_review": "FreeHire p-p-d is P-P-D GMBH & CO. KG, a German staffing employer using join.com/companies/pannenbecker-personal-dienste. It is unrelated to Quebec polymer manufacturer Groupe PPD / ppdgroup.com.",
+      "ownership": "Official employer careers page or employer-branded dedicated board; current titles and source hosts reviewed. No guessed ATS tenant is accepted."
+    }
+  ]
+}

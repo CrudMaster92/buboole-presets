@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "viandes-dubreton",
+  "company_id": "viandes-dubreton",
+  "revision": 1,
+  "label": "Viandes duBreton public careers",
+  "careers_url": "https://carrieres.dubreton.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T15:45:26.152826+00:00",
+    "job_count": 25,
+    "warnings": [
+      "Complete listing traversal passed through the canonical exported runtime. Description availability is separate from listing completeness."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Viandes duBreton",
+    "careers_url": "https://carrieres.dubreton.com/jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "carrieres.dubreton.com"
+    ],
+    "request": {
+      "url": "https://carrieres.dubreton.com/jobs/show_more",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[href*=\"/jobs/\"])",
+      "title": "a[href*=\"/jobs/\"]",
+      "link": "a[href*=\"/jobs/\"]"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

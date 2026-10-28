@@ -1,0 +1,206 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "complete-boards-25-20261028",
+  "revision": 1,
+  "name": "25 additional employers — complete public boards",
+  "description": "Twenty-five additional employers checked against the current catalog, pending contributions, FreeHire company directory and live identity searches. Each recipe traverses its entire named public listing board without role or geographic filters and without a page or role limit. Language editions are included where they advertise different roles. Listing completeness does not assert description availability or guarantee future source availability.",
+  "tags": [
+    "Complete boards",
+    "Canada",
+    "United States"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "biontech",
+      "monitor_ids": [
+        "biontech"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "glotman-simpson",
+      "monitor_ids": [
+        "glotman-simpson"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "vitacore-industries",
+      "monitor_ids": [
+        "vitacore-industries"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "macdon-industries",
+      "monitor_ids": [
+        "macdon-industries"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "degelman-industries",
+      "monitor_ids": [
+        "degelman-industries"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "kpmb-architects",
+      "monitor_ids": [
+        "kpmb-architects"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "groupe-gilbert",
+      "monitor_ids": [
+        "groupe-gilbert"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "groupe-tyt",
+      "monitor_ids": [
+        "groupe-tyt"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "industries-mailhot",
+      "monitor_ids": [
+        "industries-mailhot"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "aliments-krispy-kernels",
+      "monitor_ids": [
+        "aliments-krispy-kernels"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "groupe-c-t-inox",
+      "monitor_ids": [
+        "groupe-c-t-inox"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "groupe-deschenes",
+      "monitor_ids": [
+        "groupe-deschenes"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "manac",
+      "monitor_ids": [
+        "manac"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "plastiques-gagnon",
+      "monitor_ids": [
+        "plastiques-gagnon"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "industries-bonneville",
+      "monitor_ids": [
+        "industries-bonneville"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "proco",
+      "monitor_ids": [
+        "proco"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "rmh-industries",
+      "monitor_ids": [
+        "rmh-industries"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "viandes-dubreton",
+      "monitor_ids": [
+        "viandes-dubreton"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "propair",
+      "monitor_ids": [
+        "propair"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "prorec",
+      "monitor_ids": [
+        "prorec"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "pattison-outdoor",
+      "monitor_ids": [
+        "pattison-outdoor"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "axine-water-technologies",
+      "monitor_ids": [
+        "axine-water-technologies"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "biscuits-leclerc",
+      "monitor_ids": [
+        "biscuits-leclerc",
+        "biscuits-leclerc-fr"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "marmen",
+      "monitor_ids": [
+        "marmen"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    },
+    {
+      "company_id": "groupe-ppd",
+      "monitor_ids": [
+        "groupe-ppd-fr",
+        "groupe-ppd-en"
+      ],
+      "note": "Complete public listing board; no title, country, first-page or role-count sampling."
+    }
+  ]
+}

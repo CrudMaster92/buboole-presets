@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "degelman-industries",
+  "company_id": "degelman-industries",
+  "revision": 1,
+  "label": "Degelman Industries public careers",
+  "careers_url": "https://degelman.com/news/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T15:40:30.067570+00:00",
+    "job_count": 5,
+    "warnings": [
+      "Complete listing traversal passed through the canonical exported runtime. Description availability is separate from listing completeness."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Degelman Industries",
+    "careers_url": "https://degelman.com/news/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "degelman.com"
+    ],
+    "request": {
+      "url": "https://degelman.com/news/careers",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".careerListingItem",
+      "title": ".careerHeading h3",
+      "link": ".careerHeading a",
+      "location": ".careerLocation p",
+      "description": ".careerDescription"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

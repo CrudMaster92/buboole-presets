@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-c-t-inox",
+  "name": "Groupe Côté Inox",
+  "aliases": [
+    "Groupe Côté Inox",
+    "Côté Inox"
+  ],
+  "website_url": "https://coteinox.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

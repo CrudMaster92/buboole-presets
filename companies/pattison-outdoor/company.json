@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pattison-outdoor",
+  "name": "Pattison Outdoor",
+  "aliases": [
+    "Pattison Outdoor Advertising"
+  ],
+  "website_url": "https://pattisonoutdoor.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "advertising"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "biscuits-leclerc-fr",
+  "company_id": "biscuits-leclerc",
+  "revision": 1,
+  "label": "Biscuits Leclerc public careers (French)",
+  "careers_url": "https://leclerc.ca/fr/emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T15:55:59.407345+00:00",
+    "job_count": 20,
+    "warnings": [
+      "description detail enrichment was incomplete for 20 jobs",
+      "Complete listing traversal passed through the canonical exported runtime. Description availability is separate from listing completeness."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Biscuits Leclerc",
+    "careers_url": "https://leclerc.ca/fr/emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "leclerc.ca"
+    ],
+    "request": {
+      "url": "https://leclerc.ca/fr/emplois",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".careers-index-list-item",
+      "title": ".careers-index-list-cell:nth-of-type(1)",
+      "link": "a",
+      "location": ".careers-index-list-cell:nth-of-type(3)"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

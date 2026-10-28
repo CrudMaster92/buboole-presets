@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-ppd",
+  "name": "Groupe PPD",
+  "aliases": [
+    "PPD Group",
+    "PPD"
+  ],
+  "website_url": "https://ppdgroup.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

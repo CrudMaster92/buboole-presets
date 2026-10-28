@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "biscuits-leclerc",
+  "name": "Biscuits Leclerc",
+  "aliases": [
+    "Leclerc Foods",
+    "Leclerc"
+  ],
+  "website_url": "https://leclerc.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "food-production"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

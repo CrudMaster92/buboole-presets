@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "plastiques-gagnon",
+  "name": "Plastiques Gagnon",
+  "aliases": [
+    "Plastiques Gagnon Inc."
+  ],
+  "website_url": "https://plastiquesgagnon.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}

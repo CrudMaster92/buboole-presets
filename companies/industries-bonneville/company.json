@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "industries-bonneville",
+  "name": "Industries Bonneville",
+  "aliases": [
+    "Bonneville Homes",
+    "Maisons Bonneville"
+  ],
+  "website_url": "https://bonneville.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete board listings",
+      "October 2026 expansion"
+    ]
+  }
+}
