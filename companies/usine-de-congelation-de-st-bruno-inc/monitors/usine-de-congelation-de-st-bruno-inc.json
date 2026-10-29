@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "usine-de-congelation-de-st-bruno-inc",
   "company_id": "usine-de-congelation-de-st-bruno-inc",
-  "revision": 1,
+  "revision": 2,
   "label": "Usine de Congélation de St-Bruno inc. — complete public board",
   "careers_url": "https://www.jobillico.com/fr/employeurs/usine-de-congelation-de-st-bruno-inc/voir-liste-emplois",
   "compatibility": {
@@ -12,11 +12,9 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-29T18:28:39.821687+00:00",
-    "job_count": 14,
-    "warnings": [
-      "description detail enrichment was incomplete for 1 jobs"
-    ]
+    "checked_at": "2026-10-29T19:05:40.793921+00:00",
+    "job_count": 13,
+    "warnings": []
   },
   "recipe": {
     "version": 1,
@@ -49,7 +47,7 @@
     "source_key": null,
     "source_filter": null,
     "selectors": {
-      "item": "li:has(a[title][href*=\"/fr/offre-d-emploi/usine-de-congelation-de-st-bruno-inc/\"]), li:has(a[title][href*=\"/fr/opportunite-d-emploi/usine-de-congelation-de-st-bruno-inc/\"])",
+      "item": "li:not(:has(a[href*=\"/candidature-spontanee/\"])):has(a[title][href*=\"/fr/offre-d-emploi/usine-de-congelation-de-st-bruno-inc/\"]), li:not(:has(a[href*=\"/candidature-spontanee/\"])):has(a[title][href*=\"/fr/opportunite-d-emploi/usine-de-congelation-de-st-bruno-inc/\"])",
       "title": "a[title][href*=\"/fr/\"]",
       "link": "a[title][href*=\"/fr/\"]",
       "location": "p:not(.date)",

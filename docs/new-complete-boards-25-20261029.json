@@ -2,7 +2,7 @@
   "checked_at": "2026-10-29T18:41:15.450609+00:00",
   "companies": 25,
   "monitors": 29,
-  "observed_source_records": 353,
+  "observed_source_records": 352,
   "description_records": 233,
   "fresh_freehire_directory": {
     "checked_at": "2026-10-29T18:14:09.881779+00:00",
@@ -14406,7 +14406,7 @@
     {
       "company_id": "usine-de-congelation-de-st-bruno-inc",
       "status": "ok",
-      "independent_inventory_count": 14,
+      "independent_inventory_count": 13,
       "official_linked_posting_ids": [],
       "official_links_confirmed_removed": [],
       "source_proofs": [
@@ -14465,7 +14465,11 @@
             }
           }
         }
-      ]
+      ],
+      "excluded_non_jobs": {
+        "17539770": "General unsolicited application; not an advertised vacancy."
+      },
+      "checked_at": "2026-10-29T19:05:40.793921+00:00"
     },
     {
       "company_id": "industries-machinex-inc",
@@ -15633,16 +15637,14 @@
     {
       "id": "usine-de-congelation-de-st-bruno-inc",
       "name": "Usine de Congélation de St-Bruno inc.",
-      "checked_at": "2026-10-29T18:28:39.821687+00:00",
-      "recipe_sha256": "87255d5ea8bbd754833c163b15e66c1b5fc922524e15cc55c5289d9b6e120057",
+      "checked_at": "2026-10-29T19:05:40.793921+00:00",
+      "recipe_sha256": "f6e461e1d8f79bba72b377a44bfa0deb57b40e11725a9d164a992f41c98be106",
       "strategy": "generic_html",
-      "job_count": 14,
+      "job_count": 13,
       "complete": true,
-      "pages": 15,
+      "pages": 14,
       "with_description": 13,
-      "warnings": [
-        "description detail enrichment was incomplete for 1 jobs"
-      ],
+      "warnings": [],
       "samples": [
         {
           "title": "Préposé(e) aux tables d'inspection",
@@ -15671,7 +15673,11 @@
         }
       ],
       "company_id": "usine-de-congelation-de-st-bruno-inc",
-      "careers_url": "https://www.jobillico.com/fr/employeurs/usine-de-congelation-de-st-bruno-inc/voir-liste-emplois"
+      "careers_url": "https://www.jobillico.com/fr/employeurs/usine-de-congelation-de-st-bruno-inc/voir-liste-emplois",
+      "revision": 2,
+      "excluded_non_jobs": {
+        "17539770": "General unsolicited application; not an advertised vacancy."
+      }
     },
     {
       "id": "industries-machinex-inc-en",
@@ -15814,7 +15820,8 @@
     "Lauzon has 21 published jobs across six load-more pages. The official UI query and total match the complete public WordPress emploi API; all records are collected, rather than only the first four visible cards.",
     "Prolam excluded: inline positions share page URLs and need canonical feed identity support before admission; publishing the narrower Canadian syndication would omit advertised US roles.",
     "Ciment Quebec official careers pages explicitly link both the Ciment Quebec and Unibeton boards; the latter is a division, not an unrelated employer.",
-    "FreeHire directory is a mutable paged observation, paired with current identity, alias and domain screening; absence is point-in-time evidence."
+    "FreeHire directory is a mutable paged observation, paired with current identity, alias and domain screening; absence is point-in-time evidence.",
+    "Revision 2 excludes St-Bruno general unsolicited-application entry 17539770 as a non-job. All 13 advertised vacancies remain; each has a full description. Other 24 source proofs remain their original timestamped observations; boards can add vacancies between validation and collection."
   ],
   "live_validation_runtime_revision": "f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97",
   "runtime_change": "Canonical terminal listing checkpoints refresh on the next run even when structured descriptions are unavailable; detail success/retry caches and resumed-snapshot absence semantics remain intact. Regression tests cover a yielded detail traversal followed by discovery of a newly advertised role."

@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "new-complete-boards-25-20261029",
-  "revision": 1,
+  "revision": 2,
   "name": "25 new employers — complete official boards",
   "description": "25 new employers screened against the catalog and FreeHire. Complete advertised boards, including differing language inventories, evergreen opportunities and the Unibeton division. All-role traversal with unlimited pagination. Description extraction remains source-dependent; warnings are retained. Machinex advertises Canadian and US roles.",
   "tags": [
