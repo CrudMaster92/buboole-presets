@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "chsld-cote-jardins-inc",
+  "name": "CHSLD Côté-Jardins inc.",
+  "aliases": [
+    "CHSLD Côté-Jardins"
+  ],
+  "website_url": "https://www.cotejardins.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

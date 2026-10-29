@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-noel-inc",
+  "name": "Groupe Noël inc.",
+  "aliases": [
+    "Groupe Noël"
+  ],
+  "website_url": "https://groupenoel.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

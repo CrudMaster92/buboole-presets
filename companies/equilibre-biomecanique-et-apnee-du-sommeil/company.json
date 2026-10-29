@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "equilibre-biomecanique-et-apnee-du-sommeil",
+  "name": "Équilibre - Biomécanique et Apnée du Sommeil",
+  "aliases": [
+    "Équilibre - Biomécanique et Apnée du Sommeil"
+  ],
+  "website_url": "https://equilibre.net",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

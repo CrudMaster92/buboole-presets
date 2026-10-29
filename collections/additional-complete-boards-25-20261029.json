@@ -1,0 +1,181 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "additional-complete-boards-25-20261029",
+  "revision": 1,
+  "name": "25 additional employers — complete public boards",
+  "description": "Twenty-five additional employers absent from the catalog and freshly screened against the FreeHire company directory and current identity searches. Collects complete employer-specific boards, separate opportunity inventories and EDGUY native postings. All-role coverage with no title, country, page-count, role-count or description-count sampling cap. Source warnings remain visible; description extraction depends on the source. Counts may overlap across boards and are not a unique vacancy census.",
+  "tags": [
+    "Complete boards",
+    "Canada"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "bmr-pierre-naud",
+      "monitor_ids": [
+        "bmr-pierre-naud"
+      ]
+    },
+    {
+      "company_id": "bosse-frere-inc",
+      "monitor_ids": [
+        "bosse-frere-inc"
+      ]
+    },
+    {
+      "company_id": "centre-damitie-autochtone-de-lanaudiere-caal",
+      "monitor_ids": [
+        "centre-damitie-autochtone-de-lanaudiere-caal"
+      ]
+    },
+    {
+      "company_id": "chsld-cote-jardins-inc",
+      "monitor_ids": [
+        "chsld-cote-jardins-inc"
+      ]
+    },
+    {
+      "company_id": "construction-pavage-portneuf-inc",
+      "monitor_ids": [
+        "construction-pavage-portneuf-inc"
+      ]
+    },
+    {
+      "company_id": "coopsco-sainte-foy",
+      "monitor_ids": [
+        "coopsco-sainte-foy"
+      ]
+    },
+    {
+      "company_id": "darocha-webster-paysages",
+      "monitor_ids": [
+        "darocha-webster-paysages"
+      ]
+    },
+    {
+      "company_id": "equilibre-biomecanique-et-apnee-du-sommeil",
+      "monitor_ids": [
+        "equilibre-biomecanique-et-apnee-du-sommeil"
+      ]
+    },
+    {
+      "company_id": "groupe-korok",
+      "monitor_ids": [
+        "groupe-korok"
+      ]
+    },
+    {
+      "company_id": "groupe-support-plus-labmetal-2017-inc",
+      "monitor_ids": [
+        "groupe-support-plus-labmetal-2017-inc",
+        "groupe-support-plus-labmetal-2017-inc-fr-opportunities"
+      ]
+    },
+    {
+      "company_id": "hamel-propane",
+      "monitor_ids": [
+        "hamel-propane"
+      ]
+    },
+    {
+      "company_id": "hardy-construction",
+      "monitor_ids": [
+        "hardy-construction"
+      ]
+    },
+    {
+      "company_id": "horizon-vertical-inc",
+      "monitor_ids": [
+        "horizon-vertical-inc"
+      ]
+    },
+    {
+      "company_id": "lcn-inc",
+      "monitor_ids": [
+        "lcn-inc"
+      ]
+    },
+    {
+      "company_id": "les-constructions-edguy-inc",
+      "monitor_ids": [
+        "les-constructions-edguy-inc",
+        "les-constructions-edguy-inc-native"
+      ]
+    },
+    {
+      "company_id": "les-fondations-andre-lemaire-2012-inc",
+      "monitor_ids": [
+        "les-fondations-andre-lemaire-2012-inc"
+      ]
+    },
+    {
+      "company_id": "metal-laurentide-inc",
+      "monitor_ids": [
+        "metal-laurentide-inc"
+      ]
+    },
+    {
+      "company_id": "oberson",
+      "monitor_ids": [
+        "oberson"
+      ]
+    },
+    {
+      "company_id": "seminaire-de-quebec",
+      "monitor_ids": [
+        "seminaire-de-quebec"
+      ]
+    },
+    {
+      "company_id": "stellaire-construction",
+      "monitor_ids": [
+        "stellaire-construction",
+        "stellaire-construction-fr-opportunities"
+      ]
+    },
+    {
+      "company_id": "transkid",
+      "monitor_ids": [
+        "transkid"
+      ]
+    },
+    {
+      "company_id": "usibeauce-m-g-inc",
+      "monitor_ids": [
+        "usibeauce-m-g-inc"
+      ]
+    },
+    {
+      "company_id": "brochot-industries-inc",
+      "monitor_ids": [
+        "brochot-industries-inc"
+      ]
+    },
+    {
+      "company_id": "groupe-noel-inc",
+      "monitor_ids": [
+        "groupe-noel-inc"
+      ]
+    },
+    {
+      "company_id": "lsm-son-lumieres",
+      "monitor_ids": [
+        "lsm-son-lumieres"
+      ]
+    }
+  ]
+}

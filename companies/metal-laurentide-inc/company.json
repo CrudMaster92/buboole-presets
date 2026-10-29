@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "metal-laurentide-inc",
+  "name": "Métal Laurentide inc.",
+  "aliases": [
+    "Métal Laurentide"
+  ],
+  "website_url": "https://www.metal-laurentide.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

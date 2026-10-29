@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "stellaire-construction",
+  "name": "Stellaire Construction",
+  "aliases": [
+    "Stellaire Construction"
+  ],
+  "website_url": "https://www.stellaireconstruction.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

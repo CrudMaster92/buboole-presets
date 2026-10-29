@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "construction-pavage-portneuf-inc",
+  "name": "Construction & Pavage Portneuf inc.",
+  "aliases": [
+    "Construction & Pavage Portneuf"
+  ],
+  "website_url": "https://www.cppinc.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

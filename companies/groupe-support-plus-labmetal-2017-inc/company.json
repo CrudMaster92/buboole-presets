@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-support-plus-labmetal-2017-inc",
+  "name": "Groupe Support Plus - Labmétal (2017) inc.",
+  "aliases": [
+    "Groupe Support Plus - Labmétal (2017)"
+  ],
+  "website_url": "https://www.groupe-spl.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

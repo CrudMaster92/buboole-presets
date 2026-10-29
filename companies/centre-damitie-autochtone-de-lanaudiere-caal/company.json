@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "centre-damitie-autochtone-de-lanaudiere-caal",
+  "name": "Centre d’amitié Autochtone de Lanaudière (CAAL)",
+  "aliases": [
+    "Centre d’amitié Autochtone de Lanaudière (CAAL)"
+  ],
+  "website_url": "https://www.caalanaudiere.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

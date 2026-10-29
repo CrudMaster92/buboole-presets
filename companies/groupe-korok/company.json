@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-korok",
+  "name": "Groupe KOROK",
+  "aliases": [
+    "Groupe KOROK"
+  ],
+  "website_url": "https://www.korokgroup.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
