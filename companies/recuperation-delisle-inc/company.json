@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "recuperation-delisle-inc",
+  "name": "Récupération Delisle inc.",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/recuperation-delisle-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}

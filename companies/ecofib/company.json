@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ecofib",
+  "name": "Ecofib",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/ecofibfxaxnn",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}

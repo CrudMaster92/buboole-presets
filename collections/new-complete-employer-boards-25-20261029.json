@@ -1,0 +1,214 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "new-complete-employer-boards-25-20261029",
+  "revision": 1,
+  "name": "25 new employers — complete public boards (October 29)",
+  "description": "Twenty-five additional employers absent from the baseline catalog and with no identity match found in the current Freehire directory/name checks. Every employer-specific Jobillico board passed a complete URL-inventory audit, French/English job-ID comparison, and live runtime validation with full posting descriptions. No country, title, role-count, or page-count sampling. Current postings are in Canada.",
+  "tags": [
+    "Canada",
+    "Québec",
+    "Complete boards"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "Québec",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": {
+    "name": "Employer-managed Jobillico boards",
+    "url": "https://www.jobillico.com/recherche-entreprise",
+    "edition": "2026-10-29"
+  },
+  "companies": [
+    {
+      "company_id": "qscale",
+      "monitor_ids": [
+        "qscale"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "nature-canneberge-inc",
+      "monitor_ids": [
+        "nature-canneberge-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "quirion-metal",
+      "monitor_ids": [
+        "quirion-metal"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "conn-x",
+      "monitor_ids": [
+        "conn-x"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "recuperation-delisle-inc",
+      "monitor_ids": [
+        "recuperation-delisle-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "construction-polaris-cmm-inc",
+      "monitor_ids": [
+        "construction-polaris-cmm-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "groupe-metiko-inc",
+      "monitor_ids": [
+        "groupe-metiko-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "solutions-electromecaniques-vp-inc-sevp",
+      "monitor_ids": [
+        "solutions-electromecaniques-vp-inc-sevp"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "tekdata-metal-solutions-inc",
+      "monitor_ids": [
+        "tekdata-metal-solutions-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "ma-th-inc",
+      "monitor_ids": [
+        "ma-th-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "les-equipements-claude-pedneault-inc",
+      "monitor_ids": [
+        "les-equipements-claude-pedneault-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "famec-equipement-industriel",
+      "monitor_ids": [
+        "famec-equipement-industriel"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "for-net-inc",
+      "monitor_ids": [
+        "for-net-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "le-groupe-jenaco",
+      "monitor_ids": [
+        "le-groupe-jenaco"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "dimension-composite-inc",
+      "monitor_ids": [
+        "dimension-composite-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "brodeur-and-letourneau-cpa-s-e-n-c-r-l",
+      "monitor_ids": [
+        "brodeur-and-letourneau-cpa-s-e-n-c-r-l"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "queensway-transport-inc",
+      "monitor_ids": [
+        "queensway-transport-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "bornes-quebec-inc",
+      "monitor_ids": [
+        "bornes-quebec-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "ecofib",
+      "monitor_ids": [
+        "ecofib"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "pantorama-1850",
+      "monitor_ids": [
+        "pantorama-1850"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "beton-prefabrique-fortier",
+      "monitor_ids": [
+        "beton-prefabrique-fortier"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "inventaires-de-lest-inc",
+      "monitor_ids": [
+        "inventaires-de-lest-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "leternel-spa",
+      "monitor_ids": [
+        "leternel-spa"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "hotel-a-la-maison-inc",
+      "monitor_ids": [
+        "hotel-a-la-maison-inc"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    },
+    {
+      "company_id": "clinique-medicale-privee-leblanc-savaria",
+      "monitor_ids": [
+        "clinique-medicale-privee-leblanc-savaria"
+      ],
+      "note": "Entire employer-specific public board; every posting has a description. French and English editions expose the same job IDs."
+    }
+  ]
+}

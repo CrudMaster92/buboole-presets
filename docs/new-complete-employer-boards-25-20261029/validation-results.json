@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "command": "python scripts/validate_presets.py",
+      "exit_code": 0,
+      "output": "Validated 0 optional legacy import preset(s): schema + contract.\n",
+      "checked_at": "2026-10-29T14:15:45.909379+00:00"
+    },
+    {
+      "command": "python scripts/build_catalog.py",
+      "exit_code": 0,
+      "output": "Built 1498 companies, 1398 monitors, and 29 collections.\n",
+      "checked_at": "2026-10-29T14:15:58.486251+00:00"
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "exit_code": 0,
+      "output": "Large collection starts empty; exact 200/200/47 batches; empty and oversized handoffs rejected.\n...........\n----------------------------------------------------------------------\nRan 11 tests in 123.520s\n\nOK\n",
+      "checked_at": "2026-10-29T14:18:02.650541+00:00"
+    }
+  ]
+}
+

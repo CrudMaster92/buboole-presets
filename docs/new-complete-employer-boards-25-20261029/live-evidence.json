@@ -1,0 +1,1469 @@
+{
+  "runtime_repository": "CrudMaster92/buboole-jobs",
+  "runtime_commit": "7d61ef8003bbe3070c454d9c4b0daf1dd570eb47",
+  "results": [
+    {
+      "company_id": "qscale",
+      "name": "QScale",
+      "board_url": "https://www.jobillico.com/fr/employeurs/qscale/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:31.251270+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Agent sénior en sécurité",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/qscale/agent-senior-en-securite/17629497",
+          "location": "Lévis, QC",
+          "description_chars": 2992
+        },
+        {
+          "title": "Technicien en appareillage électrique",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/qscale/technicien-en-appareillage-electrique/17363477",
+          "location": "Lévis, QC",
+          "description_chars": 3505
+        },
+        {
+          "title": "Mécanicien de machine fixe classe « B »",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/qscale/mecanicien-de-machine-fixe-classe-b-/13292478",
+          "location": "Lévis, QC",
+          "description_chars": 3312
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/qscale/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "nature-canneberge-inc",
+      "name": "Nature Canneberge inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/nature-canneberge-incbgnzdc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:33.951496+00:00",
+      "job_count": 6,
+      "raw_url_count": 6,
+      "directory_count": 6,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 7,
+      "description_count": 6,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Opérateur agricole",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/operateur-agricole/17571894",
+          "location": "Plessisville, QC",
+          "description_chars": 4020
+        },
+        {
+          "title": "Technicien(ne) comptable",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/technicien-ne-comptable/17653791",
+          "location": "Plessisville, QC",
+          "description_chars": 1239
+        },
+        {
+          "title": "Contrôleur adjoint",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/controleur-adjoint/17653839",
+          "location": "Plessisville, QC",
+          "description_chars": 1170
+        },
+        {
+          "title": "Opérateur(trice) de camion articulé (hors route)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/operateur-trice-de-camion-articule-hors-route-/17653887",
+          "location": "Plessisville, QC",
+          "description_chars": 683
+        },
+        {
+          "title": "Contrôleur financier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/controleur-financier/16744149",
+          "location": "Plessisville, QC",
+          "description_chars": 1160
+        },
+        {
+          "title": "Contremaître de production",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/nature-canneberge-incbgnzdc/contrema-tre-de-production/17025946",
+          "location": "Plessisville, QC",
+          "description_chars": 4027
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/nature-canneberge-incbgnzdc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "quirion-metal",
+      "name": "Quirion métal",
+      "board_url": "https://www.jobillico.com/fr/employeurs/quirion-metaleyysaj/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:35.906851+00:00",
+      "job_count": 4,
+      "raw_url_count": 4,
+      "directory_count": 4,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 5,
+      "description_count": 4,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Soudeur-assembleur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/quirion-metaleyysaj/soudeur-assembleur/16223137",
+          "location": "Beauceville, QC",
+          "description_chars": 1811
+        },
+        {
+          "title": "Opérateur CNC",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/quirion-metaleyysaj/operateur-cnc/16881318",
+          "location": "Beauceville, QC",
+          "description_chars": 2059
+        },
+        {
+          "title": "Journalier d'usine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/quirion-metaleyysaj/journalier-d-usine/17120821",
+          "location": "Beauceville, QC",
+          "description_chars": 1955
+        },
+        {
+          "title": "Assembleur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/quirion-metaleyysaj/assembleur/17288279",
+          "location": "Beauceville, QC",
+          "description_chars": 1390
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/quirion-metaleyysaj/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "conn-x",
+      "name": "Conn-X",
+      "board_url": "https://www.jobillico.com/fr/employeurs/conn-x/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:40.430738+00:00",
+      "job_count": 5,
+      "raw_url_count": 5,
+      "directory_count": 5,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 6,
+      "description_count": 5,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Vérificateur/Dessinateur en sctucture d'acier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/conn-x/verificateur-dessinateur-en-sctucture-d-acier/11410917",
+          "location": "Terrebonne, QC",
+          "description_chars": 1761
+        },
+        {
+          "title": "Vérificateur/Dessinateur en structure d'acier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/conn-x/verificateur-dessinateur-en-structure-d-acier/11520444",
+          "location": "Lévis, QC",
+          "description_chars": 1732
+        },
+        {
+          "title": "Dessinateur structure d'acier REVIT",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/conn-x/dessinateur-structure-d-acier-revit/11776951",
+          "location": "Terrebonne, QC",
+          "description_chars": 2223
+        },
+        {
+          "title": "Ingénieur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/conn-x/ingenieur-/12622387",
+          "location": "Terrebonne, QC",
+          "description_chars": 1997
+        },
+        {
+          "title": "Ingénieur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/conn-x/ingenieur/12784504",
+          "location": "Terrebonne, QC",
+          "description_chars": 3005
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/conn-x/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "recuperation-delisle-inc",
+      "name": "Récupération Delisle inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/recuperation-delisle-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:43.987197+00:00",
+      "job_count": 7,
+      "raw_url_count": 7,
+      "directory_count": 7,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 8,
+      "description_count": 7,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Journalier de production",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/journalier-de-production/11325900",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 402
+        },
+        {
+          "title": "Journalier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/journalier/17468700",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 896
+        },
+        {
+          "title": "Manoeuvre",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/manoeuvre/17504886",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 896
+        },
+        {
+          "title": "Chauffeur - classe 1",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/chauffeur-classe-1/11410863",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 1160
+        },
+        {
+          "title": "Chauffeur - classe 3",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/chauffeur-classe-3/12048710",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 1118
+        },
+        {
+          "title": "Technicien(ne) comptable",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/technicien-ne-comptable/13207264",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 1358
+        },
+        {
+          "title": "Chauffeur - classe 3",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/recuperation-delisle-inc/chauffeur-classe-3/16453873",
+          "location": "Saint-Apollinaire, QC",
+          "description_chars": 354
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/recuperation-delisle-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "construction-polaris-cmm-inc",
+      "name": "Construction Polaris CMM Inc",
+      "board_url": "https://www.jobillico.com/fr/employeurs/construction-polaris-cmm-incbwvaqg/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:47.321203+00:00",
+      "job_count": 6,
+      "raw_url_count": 6,
+      "directory_count": 6,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 7,
+      "description_count": 6,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Mécanicien(ne) de véhicules lourds",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/mecanicien-ne-de-vehicules-lourds-/17628219",
+          "location": "Québec, QC",
+          "description_chars": 2027
+        },
+        {
+          "title": "Opérateur de machinerie lourde",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/operateur-de-machinerie-lourde/17619498",
+          "location": "Sept-Îles, QC",
+          "description_chars": 2743
+        },
+        {
+          "title": "Soudeur/Soudeuse",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/soudeur-soudeuse/17525022",
+          "location": "Sept-Îles, QC",
+          "description_chars": 2008
+        },
+        {
+          "title": "Contremaître civil",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/contrema-tre-civil/16887489",
+          "location": "Sept-Îles, QC",
+          "description_chars": 2946
+        },
+        {
+          "title": "Journalier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/journalier/17590164",
+          "location": "Sept-Îles, QC",
+          "description_chars": 2671
+        },
+        {
+          "title": "Opérateur de chargeur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/construction-polaris-cmm-incbwvaqg/operateur-de-chargeur/17590320",
+          "location": "Sept-Îles, QC",
+          "description_chars": 2736
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/construction-polaris-cmm-incbwvaqg/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "groupe-metiko-inc",
+      "name": "GROUPE METIKO INC.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/groupe-metiko-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:48.193011+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Manoeuvre Déneigement Manuel",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-metiko-inc/manoeuvre-deneigement-manuel/12099743",
+          "location": "Pont-Rouge, QC",
+          "description_chars": 2095
+        },
+        {
+          "title": "Emploi Saisonnier Déneigement Manuel",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-metiko-inc/emploi-saisonnier-deneigement-manuel/12099755",
+          "location": "Pont-Rouge, QC",
+          "description_chars": 2095
+        },
+        {
+          "title": "Journalier Déneigement Manuel",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-metiko-inc/journalier-deneigement-manuel/14833660",
+          "location": "Pont-Rouge, QC",
+          "description_chars": 2019
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/groupe-metiko-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "solutions-electromecaniques-vp-inc-sevp",
+      "name": "Solutions Électromécaniques VP inc. (SEVP)",
+      "board_url": "https://www.jobillico.com/fr/employeurs/solutions-electromecaniques-vp-inc-sevp/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:51.517167+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Journalier d'usine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/solutions-electromecaniques-vp-inc-sevp/journalier-d-usine/14307114",
+          "location": "Lévis, QC",
+          "description_chars": 2248
+        },
+        {
+          "title": "Bobineur / Assembleur / Monteur électrique",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/solutions-electromecaniques-vp-inc-sevp/bobineur-assembleur-monteur-electrique/15391555",
+          "location": "Lévis, QC",
+          "description_chars": 1845
+        },
+        {
+          "title": "Électromécanicen sénior",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/solutions-electromecaniques-vp-inc-sevp/electromecanicen-senior/17327369",
+          "location": "Lévis, QC",
+          "description_chars": 2666
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/solutions-electromecaniques-vp-inc-sevp/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "tekdata-metal-solutions-inc",
+      "name": "Tekdata Metal Solutions inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/tekdata-metal-solutions-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:53.513755+00:00",
+      "job_count": 4,
+      "raw_url_count": 4,
+      "directory_count": 4,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 5,
+      "description_count": 4,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Tôlier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/tekdata-metal-solutions-inc/tolier/17437158",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 722
+        },
+        {
+          "title": "Soudeur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/tekdata-metal-solutions-inc/soudeur/17437188",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 683
+        },
+        {
+          "title": "Chargé de projets senior / Dessinateur-concepteur senior",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/tekdata-metal-solutions-inc/charge-de-projets-senior-dessinateur-concepteur-senior/17494794",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 4003
+        },
+        {
+          "title": "Journalier d'usine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/tekdata-metal-solutions-inc/journalier-d-usine/17488137",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 1949
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/tekdata-metal-solutions-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "ma-th-inc",
+      "name": "MA-TH inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/ma-th-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:56.893888+00:00",
+      "job_count": 4,
+      "raw_url_count": 4,
+      "directory_count": 4,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 5,
+      "description_count": 4,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Ingénieur en structure du bâtiment",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ma-th-inc/ingenieur-en-structure-du-batiment/15140791",
+          "location": "Drummondville, QC",
+          "description_chars": 1105
+        },
+        {
+          "title": "Ingénieur en structure du bâtiment",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ma-th-inc/ingenieur-en-structure-du-batiment/9815947",
+          "location": "Québec, QC",
+          "description_chars": 1122
+        },
+        {
+          "title": "Ingénieur en structure du bâtiment",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ma-th-inc/ingenieur-en-structure-du-batiment/14594552",
+          "location": "Montréal, QC",
+          "description_chars": 1591
+        },
+        {
+          "title": "Ingénieur structure industrielle",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ma-th-inc/ingenieur-structure-industrielle/17414511",
+          "location": "Québec, QC",
+          "description_chars": 1890
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/ma-th-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "les-equipements-claude-pedneault-inc",
+      "name": "Les Équipements Claude Pedneault inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/les-equipements-claude-pedneault-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:11:57.805093+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "SOUDEUR-MONTEUR / SOUDEUSE-MONTEUSE",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/les-equipements-claude-pedneault-inc/soudeur-monteur-soudeuse-monteuse/17640975",
+          "location": "Saguenay, QC",
+          "description_chars": 4154
+        },
+        {
+          "title": "MÉCANICIEN(NE) INDUSTRIEL(LE)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/les-equipements-claude-pedneault-inc/mecanicien-ne-industriel-le-/17623992",
+          "location": "Saguenay, QC",
+          "description_chars": 4462
+        },
+        {
+          "title": "Technicien de service - sur la route",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/les-equipements-claude-pedneault-inc/technicien-de-service-sur-la-route/17525658",
+          "location": "Saguenay, QC",
+          "description_chars": 3926
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/les-equipements-claude-pedneault-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "famec-equipement-industriel",
+      "name": "FAMEC équipement industriel",
+      "board_url": "https://www.jobillico.com/fr/employeurs/famec-equipement-industriel/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:03.566206+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Journalier de production - peintre",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/famec-equipement-industriel/journalier-de-production-peintre/17567880",
+          "location": "Saint-Alphonse-de-Granby, QC",
+          "description_chars": 981
+        },
+        {
+          "title": "Soudeur-assembleur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/famec-equipement-industriel/soudeur-assembleur/16251919",
+          "location": "Saint-Alphonse-de-Granby, QC",
+          "description_chars": 1519
+        },
+        {
+          "title": "Soudeur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/famec-equipement-industriel/soudeur/17423364",
+          "location": "Saint-Alphonse-de-Granby, QC",
+          "description_chars": 1519
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/famec-equipement-industriel/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "for-net-inc",
+      "name": "For-Net inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/for-net-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:06.906910+00:00",
+      "job_count": 4,
+      "raw_url_count": 4,
+      "directory_count": 4,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 5,
+      "description_count": 4,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/for-net-inc/prepose-a-l-entretien-menager/17654172",
+          "location": "Dorval, QC",
+          "description_chars": 1086
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/for-net-inc/prepose-a-l-entretien-menager/17144803",
+          "location": "Saguenay, QC",
+          "description_chars": 1736
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/for-net-inc/prepose-a-l-entretien-menager/17327630",
+          "location": "Sainte-Marie, QC",
+          "description_chars": 1591
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/for-net-inc/prepose-a-l-entretien-menager/17475909",
+          "location": "Québec, QC",
+          "description_chars": 1552
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/for-net-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "le-groupe-jenaco",
+      "name": "Le groupe Jenaco",
+      "board_url": "https://www.jobillico.com/fr/employeurs/le-groupe-jenaco/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:12.256565+00:00",
+      "job_count": 5,
+      "raw_url_count": 5,
+      "directory_count": 5,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 6,
+      "description_count": 5,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Agent·e aux comptes recevables",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/le-groupe-jenaco/agent-e-aux-comptes-recevables/17597058",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 2652
+        },
+        {
+          "title": "Adjoint.e administratif.ve en estimation",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/le-groupe-jenaco/adjoint.e-administratif.ve-en-estimation/10451342",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 2574
+        },
+        {
+          "title": "Coordonnateur / Répartiteur - service",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/le-groupe-jenaco/coordonnateur-repartiteur-service/17324378",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 2467
+        },
+        {
+          "title": "Coordonnateur(trice) BIM",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/le-groupe-jenaco/coordonnateur-trice-bim/17504985",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 2820
+        },
+        {
+          "title": "Agent.e aux comptes fournisseurs",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/le-groupe-jenaco/agent.e-aux-comptes-fournisseurs/17505045",
+          "location": "Saint-Hubert, QC",
+          "description_chars": 2597
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/le-groupe-jenaco/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "dimension-composite-inc",
+      "name": "Dimension Composite inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/dimension-composite-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:15.741044+00:00",
+      "job_count": 6,
+      "raw_url_count": 6,
+      "directory_count": 6,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 7,
+      "description_count": 6,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "MÉCANICIEN",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/mecanicien/17649015",
+          "location": "Princeville, QC",
+          "description_chars": 458
+        },
+        {
+          "title": "Chargé de projet (amélioration continue et efficacité de production)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/charge-de-projet-amelioration-continue-et-efficacite-de-production-/17649321",
+          "location": "Princeville, QC",
+          "description_chars": 1567
+        },
+        {
+          "title": "ASSEMBLEUR(EUSE)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/assembleur-euse-/17632185",
+          "location": "Saint-Georges, QC",
+          "description_chars": 1316
+        },
+        {
+          "title": "DÉCOUPEUR(EUSE)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/decoupeur-euse-/17632200",
+          "location": "Saint-Georges, QC",
+          "description_chars": 1653
+        },
+        {
+          "title": "Journalier de production",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/journalier-de-production/17632203",
+          "location": "Saint-Georges, QC",
+          "description_chars": 987
+        },
+        {
+          "title": "Conseiller / Conseillère en ressources humaines",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/dimension-composite-inc/conseiller-conseillere-en-ressources-humaines/17586633",
+          "location": "Sainte-Clotilde-de-Beauce, QC",
+          "description_chars": 2166
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/dimension-composite-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "brodeur-and-letourneau-cpa-s-e-n-c-r-l",
+      "name": "Brodeur & Létourneau CPA S.E.N.C.R.L.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/brodeur-letourneau-cpa-s-e-n-c-r-l/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:25.206885+00:00",
+      "job_count": 9,
+      "raw_url_count": 9,
+      "directory_count": 9,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 10,
+      "description_count": 9,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Responsable de dossier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/responsable-de-dossier/17376720",
+          "location": "Mont-Saint-Hilaire, QC",
+          "description_chars": 2739
+        },
+        {
+          "title": "Fiscaliste",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/fiscaliste/17377227",
+          "location": "Montréal, QC",
+          "description_chars": 3150
+        },
+        {
+          "title": "Comptable Professionnel Agréé (CPA)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/comptable-professionnel-agree-cpa-/17377434",
+          "location": "Mont-Saint-Hilaire, QC",
+          "description_chars": 2835
+        },
+        {
+          "title": "Responsable de dossier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/responsable-de-dossier/16876869",
+          "location": "Montréal, QC",
+          "description_chars": 3551
+        },
+        {
+          "title": "Responsable de dossier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/responsable-de-dossier/16876875",
+          "location": "Sherbrooke, QC",
+          "description_chars": 3391
+        },
+        {
+          "title": "Comptable Professionnel Agréé (CPA)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/comptable-professionnel-agree-cpa-/16847859",
+          "location": "Sherbrooke, QC",
+          "description_chars": 2818
+        },
+        {
+          "title": "Comptable Professionnel Agréé (CPA)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/comptable-professionnel-agree-cpa-/16847886",
+          "location": "Montréal, QC",
+          "description_chars": 2877
+        },
+        {
+          "title": "Fiscaliste",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/fiscaliste/16847910",
+          "location": "Sherbrooke, QC",
+          "description_chars": 3075
+        },
+        {
+          "title": "Fiscaliste",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/brodeur-letourneau-cpa-s-e-n-c-r-l/fiscaliste/16847922",
+          "location": "Mont-Saint-Hilaire, QC",
+          "description_chars": 3150
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/brodeur-letourneau-cpa-s-e-n-c-r-l/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "queensway-transport-inc",
+      "name": "Queensway Transport inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/queensway-transport-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:25.561270+00:00",
+      "job_count": 5,
+      "raw_url_count": 5,
+      "directory_count": 5,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 6,
+      "description_count": 5,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Camionneur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/queensway-transport-inc/camionneur/15141151",
+          "location": "Joliette, QC",
+          "description_chars": 1402
+        },
+        {
+          "title": "Camionneur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/queensway-transport-inc/camionneur/15821307",
+          "location": "Bécancour, QC",
+          "description_chars": 1344
+        },
+        {
+          "title": "Chauffeur classe 1 (longue distance)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/queensway-transport-inc/chauffeur-classe-1-longue-distance-/15821313",
+          "location": "Anjou, QC",
+          "description_chars": 1930
+        },
+        {
+          "title": "Camionneur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/queensway-transport-inc/camionneur/16801824",
+          "location": "Lévis, QC",
+          "description_chars": 1388
+        },
+        {
+          "title": "Camionneur",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/queensway-transport-inc/camionneur/17438985",
+          "location": "Lévis, QC",
+          "description_chars": 1303
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/queensway-transport-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "bornes-quebec-inc",
+      "name": "Bornes Québec inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/bornes-quebec-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:31.383495+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Account Manager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/bornes-quebec-inc/account-manager/17594676",
+          "location": "Toronto, ON",
+          "description_chars": 2748
+        },
+        {
+          "title": "Account manager-energy management solutions",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/bornes-quebec-inc/account-manager-energy-management-solutions/17581503",
+          "location": "Toronto, ON",
+          "description_chars": 2749
+        },
+        {
+          "title": "Commis à la production-commissionnaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/bornes-quebec-inc/commis-a-la-production-commissionnaire-/17377698",
+          "location": "Victoriaville, QC",
+          "description_chars": 2021
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/bornes-quebec-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "ecofib",
+      "name": "Ecofib",
+      "board_url": "https://www.jobillico.com/fr/employeurs/ecofibfxaxnn/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:35.905380+00:00",
+      "job_count": 7,
+      "raw_url_count": 7,
+      "directory_count": 7,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 8,
+      "description_count": 7,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Cariste de jour",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/cariste-de-jour-/10938777",
+          "location": "Drummondville, QC",
+          "description_chars": 1808
+        },
+        {
+          "title": "Électromécanicien(ne) de nuit – 100 000 $/an",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/electromecanicien-ne-de-nuit-100-000-an/10423547",
+          "location": "Drummondville, QC",
+          "description_chars": 4743
+        },
+        {
+          "title": "Journalier de production fin de semaine (42H/semaine en 3 jours et demi)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/journalier-de-production-fin-de-semaine-42h-semaine-en-3-jours-et-demi-/10423688",
+          "location": "Drummondville, QC",
+          "description_chars": 1614
+        },
+        {
+          "title": "Opérateur - quart de 12H soir/nuit",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/operateur-quart-de-12h-soir-nuit/12000902",
+          "location": "Drummondville, QC",
+          "description_chars": 1731
+        },
+        {
+          "title": "Technicien qualité /42H semaine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/technicien-qualite-42h-semaine/12772024",
+          "location": "Drummondville, QC",
+          "description_chars": 3812
+        },
+        {
+          "title": "Manœuvre spécialisé (conduite de chariot élévateur)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/man-uvre-specialise-conduite-de-chariot-elevateur-/16723839",
+          "location": "Drummondville, QC",
+          "description_chars": 2165
+        },
+        {
+          "title": "Cariste spécialisé – Fin de semaine de jour | 42 h/semaine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/ecofibfxaxnn/cariste-specialise-fin-de-semaine-de-jour-42-h-semaine/17508081",
+          "location": "Drummondville, QC",
+          "description_chars": 1854
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/ecofibfxaxnn/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "pantorama-1850",
+      "name": "Pantorama 1850",
+      "board_url": "https://www.jobillico.com/fr/employeurs/pantorama-1850/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:45.853474+00:00",
+      "job_count": 10,
+      "raw_url_count": 10,
+      "directory_count": 10,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 11,
+      "description_count": 10,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Styliste de vente - chef d'équipe",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/styliste-de-vente-chef-d-equipe/11817442",
+          "location": "Saguenay, QC",
+          "description_chars": 906
+        },
+        {
+          "title": "Caissier",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/caissier/12579169",
+          "location": "Saguenay, QC",
+          "description_chars": 762
+        },
+        {
+          "title": "Gérant adjoint",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/gerant-adjoint/11817409",
+          "location": "Saguenay, QC",
+          "description_chars": 1175
+        },
+        {
+          "title": "Styliste de vente/Styliste de vente - chef d'équipe",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/styliste-de-vente-styliste-de-vente-chef-d-equipe/16165969",
+          "location": "Saguenay, QC",
+          "description_chars": 1800
+        },
+        {
+          "title": "Styliste de vente",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/styliste-de-vente/11817460",
+          "location": "Saguenay, QC",
+          "description_chars": 867
+        },
+        {
+          "title": "Gérant adjoint",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/gerant-adjoint/11817490",
+          "location": "Saint-Bruno-de-Montarville, QC",
+          "description_chars": 1175
+        },
+        {
+          "title": "Styliste de vente",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/styliste-de-vente/11817628",
+          "location": "Québec, QC",
+          "description_chars": 864
+        },
+        {
+          "title": "Gérant de magasin/Gérant adjoint",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/gerant-de-magasin-gerant-adjoint/14689031",
+          "location": "Québec, QC",
+          "description_chars": 2508
+        },
+        {
+          "title": "Styliste de vente - chef d'équipe",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/styliste-de-vente-chef-d-equipe/16074136",
+          "location": "Rosemère, QC",
+          "description_chars": 906
+        },
+        {
+          "title": "Gérant adjoint",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/pantorama-1850/gerant-adjoint/16865541",
+          "location": "Anjou, QC",
+          "description_chars": 1203
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/pantorama-1850/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "beton-prefabrique-fortier",
+      "name": "Béton Préfabriqué Fortier",
+      "board_url": "https://www.jobillico.com/fr/employeurs/beton-prefabrique-fortieraknbiv/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:44.920453+00:00",
+      "job_count": 5,
+      "raw_url_count": 5,
+      "directory_count": 5,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 6,
+      "description_count": 5,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Électromécanicien",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/beton-prefabrique-fortieraknbiv/electromecanicien/14293461",
+          "location": "Saint-Henri-de-Lévis, QC",
+          "description_chars": 1722
+        },
+        {
+          "title": "Acheteur stratégique – Groupe Béton",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/beton-prefabrique-fortieraknbiv/acheteur-strategique-groupe-beton/17309378",
+          "location": "Québec, QC",
+          "description_chars": 4092
+        },
+        {
+          "title": "Journalier d'usine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/beton-prefabrique-fortieraknbiv/journalier-d-usine/15525337",
+          "location": "Laterriere, QC",
+          "description_chars": 1929
+        },
+        {
+          "title": "Mécanicien d'usine",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/beton-prefabrique-fortieraknbiv/mecanicien-d-usine/15972533",
+          "location": "Saint-Henri-de-Lévis, QC",
+          "description_chars": 1584
+        },
+        {
+          "title": "Chef d’équipe – Usine de Charlesbourg",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/beton-prefabrique-fortieraknbiv/chef-d-equipe-usine-de-charlesbourg/17248133",
+          "location": "Québec, QC",
+          "description_chars": 2859
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/beton-prefabrique-fortieraknbiv/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "inventaires-de-lest-inc",
+      "name": "Inventaires de l’Est inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/inventaires-de-l-est-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:53.230350+00:00",
+      "job_count": 5,
+      "raw_url_count": 5,
+      "directory_count": 5,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 6,
+      "description_count": 5,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Commis à l'inventaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inventaires-de-l-est-inc/commis-a-l-inventaire/11325579",
+          "location": "Sherbrooke, QC",
+          "description_chars": 819
+        },
+        {
+          "title": "Commis à l'inventaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inventaires-de-l-est-inc/commis-a-l-inventaire/11325609",
+          "location": "Québec, QC",
+          "description_chars": 1028
+        },
+        {
+          "title": "Superviseur d'inventaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inventaires-de-l-est-inc/superviseur-d-inventaire/14292876",
+          "location": "Longueuil, QC",
+          "description_chars": 1749
+        },
+        {
+          "title": "Superviseur à l'inventaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inventaires-de-l-est-inc/superviseur-a-l-inventaire/13589934",
+          "location": "Québec, QC",
+          "description_chars": 1749
+        },
+        {
+          "title": "Commis à l'inventaire",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inventaires-de-l-est-inc/commis-a-l-inventaire/11325603",
+          "location": "Longueuil, QC",
+          "description_chars": 819
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/inventaires-de-l-est-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "leternel-spa",
+      "name": "L’Éternel Spa",
+      "board_url": "https://www.jobillico.com/fr/employeurs/l-eternel-spabwnofk/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:55.859863+00:00",
+      "job_count": 6,
+      "raw_url_count": 6,
+      "directory_count": 6,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 7,
+      "description_count": 6,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Préposé à la surveillance & entretien des bassins",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/prepose-a-la-surveillance-entretien-des-bassins/17027560",
+          "location": "Falardeau, QC",
+          "description_chars": 1748
+        },
+        {
+          "title": "Responsable des opérations",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/responsable-des-operations/17123107",
+          "location": "Falardeau, QC",
+          "description_chars": 1758
+        },
+        {
+          "title": "Chef Cuisinier(ère)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/chef-cuisinier-ere-/17285741",
+          "location": "Falardeau, QC",
+          "description_chars": 2067
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/prepose-a-l-entretien-menager/17285747",
+          "location": "Falardeau, QC",
+          "description_chars": 2093
+        },
+        {
+          "title": "Massothérapeute",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/massotherapeute/17612823",
+          "location": "Falardeau, QC",
+          "description_chars": 1924
+        },
+        {
+          "title": "Aide-Cuisinier(ère)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/l-eternel-spabwnofk/aide-cuisinier-ere-/17411772",
+          "location": "Falardeau, QC",
+          "description_chars": 2053
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/l-eternel-spabwnofk/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "hotel-a-la-maison-inc",
+      "name": "Hôtel à la Maison inc.",
+      "board_url": "https://www.jobillico.com/fr/employeurs/hotel-a-la-maison-inc/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:12:59.303125+00:00",
+      "job_count": 4,
+      "raw_url_count": 4,
+      "directory_count": 4,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 5,
+      "description_count": 4,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/hotel-a-la-maison-inc/prepose-a-l-entretien-menager/17382870",
+          "location": "Orford, QC",
+          "description_chars": 672
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/hotel-a-la-maison-inc/prepose-a-l-entretien-menager/16771563",
+          "location": "Clermont, QC",
+          "description_chars": 651
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/hotel-a-la-maison-inc/prepose-a-l-entretien-menager/17610873",
+          "location": "Mansonville, QC",
+          "description_chars": 659
+        },
+        {
+          "title": "Préposé à l'entretien ménager",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/hotel-a-la-maison-inc/prepose-a-l-entretien-menager/17606124",
+          "location": "Beaupré, QC",
+          "description_chars": 648
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/hotel-a-la-maison-inc/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    },
+    {
+      "company_id": "clinique-medicale-privee-leblanc-savaria",
+      "name": "Clinique médicale privée LeBlanc + Savaria",
+      "board_url": "https://www.jobillico.com/fr/employeurs/clinique-medicale-privee-leblanc-savaria/voir-liste-emplois",
+      "checked_at": "2026-10-29T14:13:02.862286+00:00",
+      "job_count": 3,
+      "raw_url_count": 3,
+      "directory_count": 3,
+      "listing_complete": true,
+      "continuation_ready": false,
+      "listing_url_sets_equal": true,
+      "pagination_links": [],
+      "pages_including_details": 4,
+      "description_count": 3,
+      "warnings": [],
+      "jobs": [
+        {
+          "title": "Secrétaire médical (week-end)",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/clinique-medicale-privee-leblanc-savaria/secretaire-medical-week-end-/17430591",
+          "location": "Blainville, QC",
+          "description_chars": 1687
+        },
+        {
+          "title": "Secrétaire médical",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/clinique-medicale-privee-leblanc-savaria/secretaire-medical/17429022",
+          "location": "Blainville, QC",
+          "description_chars": 1667
+        },
+        {
+          "title": "Téléphoniste",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/clinique-medicale-privee-leblanc-savaria/telephoniste/17429031",
+          "location": "Blainville, QC",
+          "description_chars": 1757
+        }
+      ],
+      "pagination_followed": [
+        "https://www.jobillico.com/fr/employeurs/clinique-medicale-privee-leblanc-savaria/voir-liste-emplois"
+      ],
+      "pagination_parameters": {
+        "kind": "page",
+        "parameter": "ipage",
+        "page_size_parameter": "iPerPage",
+        "page_size": 25,
+        "max_pages": null,
+        "next_path": null
+      }
+    }
+  ]
+}

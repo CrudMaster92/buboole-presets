@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "inventaires-de-lest-inc",
+  "name": "Inventaires de l’Est inc.",
+  "aliases": [
+    "Eastern Inventories Inc."
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/inventaires-de-l-est-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}

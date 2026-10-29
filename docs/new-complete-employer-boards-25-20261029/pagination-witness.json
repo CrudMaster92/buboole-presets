@@ -1,0 +1,10 @@
+{
+  "board_url": "https://www.jobillico.com/fr/employeurs/cpe-la-becquee-et-des-petits-pommiers/voir-liste-emplois",
+  "job_count": 27,
+  "pages": 2,
+  "complete": true,
+  "warnings": [
+    "description detail enrichment skipped 27 jobs after the configured 0-posting limit"
+  ],
+  "purpose": "Native pagination witness only; unpublished employer; description fetching deliberately disabled for this listing-pagination check."
+}

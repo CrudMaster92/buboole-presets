@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "famec-equipement-industriel",
+  "name": "FAMEC équipement industriel",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/famec-equipement-industriel",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}
