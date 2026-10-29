@@ -1,0 +1,203 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "full-public-boards-25-20261029",
+  "revision": 1,
+  "name": "25 more employers — full public boards",
+  "description": "Twenty-five additional companies absent from the catalog and freshly screened against FreeHire. These recipes traverse the entire named employer-specific public Jobillico boards, including every pagination page and advertised career-opportunity item. English/French posting IDs were compared. All observed postings have full source descriptions. No title, country, role-count, page-count or description-count cap is authored. Completeness describes the named public boards, not an assertion that every worldwide vacancy is advertised on that provider.",
+  "tags": [
+    "Complete boards",
+    "Canada"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "comact",
+      "monitor_ids": [
+        "comact"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "amt-moulage-inc",
+      "monitor_ids": [
+        "amt-moulage-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "orizon-mobile",
+      "monitor_ids": [
+        "orizon-mobile"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "rcm-modulaire-inc",
+      "monitor_ids": [
+        "rcm-modulaire-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "mecanitec",
+      "monitor_ids": [
+        "mecanitec"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "blais-industries",
+      "monitor_ids": [
+        "blais-industries"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "usinage-marcotte-inc",
+      "monitor_ids": [
+        "usinage-marcotte-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "acme-decors-inc",
+      "monitor_ids": [
+        "acme-decors-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "fjordtech-industrie-inc",
+      "monitor_ids": [
+        "fjordtech-industrie-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "lar-machinerie-inc",
+      "monitor_ids": [
+        "lar-machinerie-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "tbc-fabrication",
+      "monitor_ids": [
+        "tbc-fabrication"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "vergers-leahy-inc",
+      "monitor_ids": [
+        "vergers-leahy-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "les-produits-metalliques-roy",
+      "monitor_ids": [
+        "les-produits-metalliques-roy"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "durabac-inc",
+      "monitor_ids": [
+        "durabac-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "groupe-p-bolduc",
+      "monitor_ids": [
+        "groupe-p-bolduc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "tapis-venture-inc",
+      "monitor_ids": [
+        "tapis-venture-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "caoutchoucs-et-plastiques-falpaco-inc",
+      "monitor_ids": [
+        "caoutchoucs-et-plastiques-falpaco-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "groupe-bibeau-inc",
+      "monitor_ids": [
+        "groupe-bibeau-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "eloi-moisan-inc",
+      "monitor_ids": [
+        "eloi-moisan-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "tafisa-canada",
+      "monitor_ids": [
+        "tafisa-canada"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "chocolat-lamontagne-inc",
+      "monitor_ids": [
+        "chocolat-lamontagne-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "voltam-inc",
+      "monitor_ids": [
+        "voltam-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "les-equipements-lapierre-inc",
+      "monitor_ids": [
+        "les-equipements-lapierre-inc"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "canmec",
+      "monitor_ids": [
+        "canmec"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    },
+    {
+      "company_id": "adapt-solutions",
+      "monitor_ids": [
+        "adapt-solutions"
+      ],
+      "note": "Complete named public board; unrestricted listings and full observed descriptions."
+    }
+  ]
+}

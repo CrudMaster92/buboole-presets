@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "vergers-leahy-inc",
+  "company_id": "vergers-leahy-inc",
+  "revision": 1,
+  "label": "Vergers Leahy Inc. — complete public board",
+  "careers_url": "https://www.jobillico.com/fr/employeurs/les-vergers-leahy-inc/voir-liste-emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-29T14:45:02.247157+00:00",
+    "job_count": 11,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Vergers Leahy Inc.",
+    "careers_url": "https://www.jobillico.com/fr/employeurs/les-vergers-leahy-inc/voir-liste-emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.jobillico.com"
+    ],
+    "request": {
+      "url": "https://www.jobillico.com/fr/employeurs/les-vergers-leahy-inc/voir-liste-emplois",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "ipage",
+      "page_size_parameter": "iPerPage",
+      "page_size": 25,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(> a[title][href*=\"/fr/offre-d-emploi/les-vergers-leahy-inc/\"]), li:has(> a[title][href*=\"/fr/opportunite-d-emploi/les-vergers-leahy-inc/\"])",
+      "title": "a[title][href*=\"/fr/\"]",
+      "link": "a[title][href*=\"/fr/\"]",
+      "location": "p:not(.date)",
+      "posted_date": "p.date"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

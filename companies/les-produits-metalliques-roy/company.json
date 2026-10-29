@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "les-produits-metalliques-roy",
+  "name": "Les Produits Métalliques Roy",
+  "aliases": [
+    "Les Produits Métalliques Roy"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/les-produits-metalliques-roy",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

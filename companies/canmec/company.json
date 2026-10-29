@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canmec",
+  "name": "CANMEC",
+  "aliases": [
+    "CANMEC"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/canmec",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
