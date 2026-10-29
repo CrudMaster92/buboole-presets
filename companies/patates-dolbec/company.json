@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "patates-dolbec",
+  "name": "Patates Dolbec",
+  "aliases": [
+    "Patates Dolbec"
+  ],
+  "website_url": "https://patatesdolbec.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

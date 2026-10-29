@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cvtech-ibc",
+  "name": "CVTech-IBC",
+  "aliases": [
+    "CVTech-IBC"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/cvtech-ibc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

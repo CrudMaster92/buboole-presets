@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rcm-architectural-inc",
+  "name": "RCM Architectural inc.",
+  "aliases": [
+    "RCM Architectural"
+  ],
+  "website_url": "https://rcm.qc.ca/contact/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

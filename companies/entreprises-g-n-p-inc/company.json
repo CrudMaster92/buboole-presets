@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "entreprises-g-n-p-inc",
+  "name": "Entreprises G.N.P. inc.",
+  "aliases": [
+    "Entreprises G.N.P."
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/entreprises-gnp-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

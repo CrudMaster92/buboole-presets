@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-dcm",
+  "name": "Groupe DCM",
+  "aliases": [
+    "Groupe DCM",
+    "DCM Aerospace"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/groupe-dcm",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

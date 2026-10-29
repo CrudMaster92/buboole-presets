@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hydrep-inc",
+  "name": "Hydrep Inc.",
+  "aliases": [
+    "Hydrep"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/hydrep-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "loisirs-du-faubourg",
+  "name": "Loisirs du Faubourg",
+  "aliases": [
+    "Loisirs du Faubourg"
+  ],
+  "website_url": "https://www.loisirsdufaubourg.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
