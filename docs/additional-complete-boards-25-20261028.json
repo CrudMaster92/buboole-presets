@@ -14,20 +14,6 @@
     "caveat": "Mutable paged directory, not an atomic provider export; targeted current identity queries also required."
   },
   "runtime_revision": "f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97",
-  "notes": [
-    "Maintainer explicitly authorized publication. No auto-merge is enabled.",
-    "Additional language sources preserve differing inventories, including Laserax French, English and German; translations can duplicate vacancies.",
-    "Canatal currently advertises explicit Canadian and United States roles. No geographic eligibility is guessed for other employers.",
-    "Fenplast uses its actual unfiltered AMP listing endpoint, with source-proven city fields, rather than treating WordPress archives as the live board.",
-    "D&V Electronics uses the current corporate careers listing. Its WordPress API returned an additional older role absent from that listing; it was excluded.",
-    "General applications and talent pools are not treated as current vacancies.",
-    "Source posting URLs, not titles or country filters, bound source ownership. PDFs remain valid public application/description destinations; unavailable description enrichment stays visible.",
-    "Production review excluded Groupe Morin and Laserax after GitHub received HTTP 403; neither is counted in the completed 25-company collection. Their catalog verification is explicitly degraded, with unknown current count.",
-    "Garaga and TC Industries replace the two blocked employers. Garaga advertises US and Canadian roles; TC Industries links its full ADP inventory and explicitly marks its other three plants Currently Not Hiring.",
-    "Laser AMP revision 2 uses a simple :has selector supported by the production CSS parser; no roles were removed. Armatures Bois-Francs revision 2 allows the existing maximum supported 30-second request timeout.",
-    "Groupe Honco was considered but rejected: its page advertises 24 roles while its structured metadata describes only one. No incomplete Honco scraper was admitted.",
-    "The final active batch has 36 source recipes for 25 companies. Existing pre-task public pins remain unchanged."
-  ],
   "sources": [
     {
       "checked_at": "2026-10-28T23:52:32.806880+00:00",
@@ -3450,13 +3436,6 @@
       "url": "https://sartigan.com/en/careers/"
     },
     {
-      "id": "laserax-de",
-      "board_items": 2,
-      "additional_posting_paths": 2,
-      "included": true,
-      "url": "https://www.laserax.com/de/karriere"
-    },
-    {
       "id": "mp-filtri-it",
       "board_items": 3,
       "additional_posting_paths": 0,
@@ -3629,5 +3608,31 @@
         ]
       }
     ]
-  }
+  },
+  "initial_validation_notes": [
+    "Maintainer explicitly authorized publication. No auto-merge is enabled.",
+    "Additional language sources preserve differing inventories, including Laserax French, English and German; translations can duplicate vacancies.",
+    "Canatal currently advertises explicit Canadian and United States roles. No geographic eligibility is guessed for other employers.",
+    "Fenplast uses its actual unfiltered AMP listing endpoint, with source-proven city fields, rather than treating WordPress archives as the live board.",
+    "D&V Electronics uses the current corporate careers listing. Its WordPress API returned an additional older role absent from that listing; it was excluded.",
+    "General applications and talent pools are not treated as current vacancies.",
+    "Source posting URLs, not titles or country filters, bound source ownership. PDFs remain valid public application/description destinations; unavailable description enrichment stays visible.",
+    "Production review excluded Groupe Morin and Laserax after GitHub received HTTP 403; neither is counted in the completed 25-company collection. Their catalog verification is explicitly degraded, with unknown current count.",
+    "Garaga and TC Industries replace the two blocked employers. Garaga advertises US and Canadian roles; TC Industries links its full ADP inventory and explicitly marks its other three plants Currently Not Hiring.",
+    "Laser AMP revision 2 uses a simple :has selector supported by the production CSS parser; no roles were removed. Armatures Bois-Francs revision 2 allows the existing maximum supported 30-second request timeout.",
+    "Groupe Honco was considered but rejected: its page advertises 24 roles while its structured metadata describes only one. No incomplete Honco scraper was admitted.",
+    "The final active batch has 36 source recipes for 25 companies. Existing pre-task public pins remain unchanged."
+  ],
+  "notes": [
+    "The maintainer explicitly authorized publication. No auto-merge is enabled.",
+    "The final active collection contains 25 companies and 36 complete public source inventories, with no title, country, role-count, page-count or detail-count cap.",
+    "Language records can describe the same vacancy; 183 observed source records are not a deduplicated vacancy count.",
+    "Groupe Morin and Laserax were held back after GitHub received HTTP 403. Their catalog status is degraded with an unknown count, and their four feed pins are excluded.",
+    "Garaga and TC Industries replace the two blocked employers. Garaga and Canatal advertise both US and Canadian openings. TC Industries links eight US roles and explicitly marks its other Canadian and UK plants Not Currently Hiring.",
+    "The 31 originally successful public sources and five repaired/replacement sources have independent GitHub runner evidence. The final publication generation is checked after this source review.",
+    "Laser AMP revision 2 uses a simple :has selector accepted by the production CSS parser. Armatures Bois-Francs revision 2 uses the supported 30-second timeout without changing its listing parameters.",
+    "D&V uses its current corporate listing rather than an older extra WordPress record. Fenplast uses the exact unfiltered AMP listing endpoint rather than an inferred archive.",
+    "Groupe Honco was rejected because its page advertises 24 roles while its structured metadata describes only one. No incomplete Honco scraper was admitted.",
+    "Unavailable description enrichment remains explicit. Public PDF destinations remain source links; general applications are excluded from vacancy counts."
+  ]
 }
