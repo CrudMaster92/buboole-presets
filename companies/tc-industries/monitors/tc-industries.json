@@ -1,0 +1,74 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "tc-industries",
+  "company_id": "tc-industries",
+  "revision": 1,
+  "label": "TC Industries complete public careers",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-29T07:39:43.123025+00:00",
+    "job_count": 8,
+    "warnings": [
+      "description detail enrichment was incomplete for 8 jobs",
+      "Complete employer board count independently validated on GitHub Linux; no country, role or page-count cap."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "TC Industries",
+    "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "tcindustries.com",
+      "workforcenow.adp.com"
+    ],
+    "request": {
+      "url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "cid": "9e6c3835-f8f3-4797-8a07-263db5c91b1f",
+        "ccId": "19000101_000001",
+        "lang": "en_US"
+      },
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "$skip",
+      "page_size_parameter": "$top",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(.jv-job-list-name)",
+      "title": ".jv-job-list-name a",
+      "link": ".jv-job-list-name a",
+      "location": ".jv-job-list-location"
+    },
+    "mapping": {
+      "items": "jobRequisitions",
+      "source_id": "itemID",
+      "title": "requisitionTitle",
+      "url": "customFieldGroup.stringFields.0.stringValue",
+      "location": "requisitionLocations.0.nameCode.shortName",
+      "posted_date": "postDate",
+      "employment_type": "workLevelCode.shortName"
+    },
+    "metadata": {
+      "posting_url_template": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId={url}"
+    }
+  }
+}

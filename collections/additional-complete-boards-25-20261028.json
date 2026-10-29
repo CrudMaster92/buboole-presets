@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "additional-complete-boards-25-20261028",
-  "revision": 1,
+  "revision": 2,
   "name": "25 further employers — complete public boards",
-  "description": "Twenty-five additional employers screened against the current catalog and a freshly fetched FreeHire company directory, with current name/alias checks. Deterministic full public board reads without country, title, role-count or page-count sampling. Additional language inventories are included where they advertise distinct posting paths. Counts are source records, not a deduplicated vacancy census.",
+  "description": "Twenty-five additional employers with complete public listing inventories, using unlimited deterministic traversal and differing language editions where needed. Local validation is paired with GitHub production evidence. Blocked employers are excluded; source records include translations and are not a unique-vacancy census.",
   "tags": [
     "Complete boards",
     "Canada",
@@ -31,14 +31,14 @@
         "acier-select",
         "acier-select-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "armatures-bois-francs",
       "monitor_ids": [
         "armatures-bois-francs"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "canatal",
@@ -46,56 +46,63 @@
         "canatal",
         "canatal-fr"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "d-v-electronics",
       "monitor_ids": [
         "d-v-electronics"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "denison-mines",
       "monitor_ids": [
         "denison-mines"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "fenergic",
       "monitor_ids": [
         "fenergic"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "fenplast",
       "monitor_ids": [
         "fenplast"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "fonderie-lemoltech",
       "monitor_ids": [
         "fonderie-lemoltech"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
+    },
+    {
+      "company_id": "garaga",
+      "monitor_ids": [
+        "garaga"
+      ],
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "genik",
       "monitor_ids": [
         "genik"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "groupe-ebm",
       "monitor_ids": [
         "groupe-ebm"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "groupe-ld",
@@ -103,14 +110,7 @@
         "groupe-ld",
         "groupe-ld-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
-    },
-    {
-      "company_id": "groupe-morin",
-      "monitor_ids": [
-        "groupe-morin"
-      ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "isothermic",
@@ -118,7 +118,7 @@
         "isothermic",
         "isothermic-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "laser-amp",
@@ -126,16 +126,7 @@
         "laser-amp",
         "laser-amp-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
-    },
-    {
-      "company_id": "laserax",
-      "monitor_ids": [
-        "laserax",
-        "laserax-en",
-        "laserax-de"
-      ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "lorendo",
@@ -143,7 +134,7 @@
         "lorendo",
         "lorendo-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "metal-duquet",
@@ -151,7 +142,7 @@
         "metal-duquet",
         "metal-duquet-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "metal-sartigan",
@@ -159,7 +150,7 @@
         "metal-sartigan",
         "metal-sartigan-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "mp-filtri",
@@ -167,28 +158,28 @@
         "mp-filtri",
         "mp-filtri-fr"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "nano-one-materials",
       "monitor_ids": [
         "nano-one-materials"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "o-sole-mio",
       "monitor_ids": [
         "o-sole-mio"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "pneus-ratte",
       "monitor_ids": [
         "pneus-ratte"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "portes-lambton",
@@ -196,14 +187,21 @@
         "portes-lambton",
         "portes-lambton-en"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "soudure-metalco",
       "monitor_ids": [
         "soudure-metalco"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
+    },
+    {
+      "company_id": "tc-industries",
+      "monitor_ids": [
+        "tc-industries"
+      ],
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
     {
       "company_id": "usinage-laurentides",
@@ -211,7 +209,7 @@
         "usinage-laurentides",
         "usinage-laurentides-fr"
       ],
-      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     }
   ]
 }

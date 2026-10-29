@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "garaga",
+  "name": "Garaga",
+  "aliases": [
+    "Garaga Inc"
+  ],
+  "website_url": "https://garaga.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
