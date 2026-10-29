@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "metal-pless",
+  "name": "Metal Pless",
+  "aliases": [
+    "Metal Pless"
+  ],
+  "website_url": "https://www.metalpless.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "atelier-d-usinage-poudrier",
+  "name": "Atelier d'usinage Poudrier",
+  "aliases": [
+    "Atelier d'usinage Poudrier",
+    "Poudrier"
+  ],
+  "website_url": "https://poudrier.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

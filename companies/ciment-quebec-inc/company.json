@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ciment-quebec-inc",
+  "name": "Ciment Québec inc.",
+  "aliases": [
+    "Ciment Québec",
+    "Ciment Quebec",
+    "Unibeton"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/ciment-quebec-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "les-distributions-alimentaires-roy",
+  "name": "Les distributions alimentaires Roy",
+  "aliases": [
+    "Les distributions alimentaires Roy"
+  ],
+  "website_url": "https://www.viandesroy.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

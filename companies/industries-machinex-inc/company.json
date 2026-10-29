@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "industries-machinex-inc",
+  "name": "Industries Machinex inc.",
+  "aliases": [
+    "Industries Machinex",
+    "Machinex"
+  ],
+  "website_url": "https://www.machinexrecycling.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

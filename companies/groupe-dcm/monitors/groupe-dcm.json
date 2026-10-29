@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "groupe-dcm",
+  "company_id": "groupe-dcm",
+  "revision": 1,
+  "label": "Groupe DCM — complete public board",
+  "careers_url": "https://www.jobillico.com/fr/employeurs/groupe-dcm/voir-liste-emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-29T18:25:19.551467+00:00",
+    "job_count": 44,
+    "warnings": [
+      "Resuming metadata or descriptions from a prior listing snapshot; this is not a new absence check."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Groupe DCM",
+    "careers_url": "https://www.jobillico.com/fr/employeurs/groupe-dcm/voir-liste-emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.jobillico.com"
+    ],
+    "request": {
+      "url": "https://www.jobillico.com/fr/employeurs/groupe-dcm/voir-liste-emplois",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "ipage",
+      "page_size_parameter": "iPerPage",
+      "page_size": 25,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[title][href*=\"/fr/offre-d-emploi/groupe-dcm/\"]), li:has(a[title][href*=\"/fr/opportunite-d-emploi/groupe-dcm/\"])",
+      "title": "a[title][href*=\"/fr/\"]",
+      "link": "a[title][href*=\"/fr/\"]",
+      "location": "p:not(.date)",
+      "posted_date": "p.date"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

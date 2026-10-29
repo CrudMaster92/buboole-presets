@@ -1,0 +1,208 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "new-complete-boards-25-20261029",
+  "revision": 1,
+  "name": "25 new employers — complete official boards",
+  "description": "25 new employers screened against the catalog and FreeHire. Complete advertised boards, including differing language inventories, evergreen opportunities and the Unibeton division. All-role traversal with unlimited pagination. Description extraction remains source-dependent; warnings are retained. Machinex advertises Canadian and US roles.",
+  "tags": [
+    "Complete boards",
+    "Canada",
+    "USA"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "atelier-d-usinage-poudrier",
+      "monitor_ids": [
+        "atelier-d-usinage-poudrier"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "centre-de-production-laflamme",
+      "monitor_ids": [
+        "centre-de-production-laflamme"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "ciment-quebec-inc",
+      "monitor_ids": [
+        "ciment-quebec-inc",
+        "ciment-quebec-unibeton"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "confort-expert-inc",
+      "monitor_ids": [
+        "confort-expert-inc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "cvtech-ibc",
+      "monitor_ids": [
+        "cvtech-ibc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "entreprises-g-n-p-inc",
+      "monitor_ids": [
+        "entreprises-g-n-p-inc",
+        "entreprises-g-n-p-inc-opportunities"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "groupe-aspec",
+      "monitor_ids": [
+        "groupe-aspec"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "groupe-dcm",
+      "monitor_ids": [
+        "groupe-dcm"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "groupe-quebeco-inc-plomberie-st-jovite",
+      "monitor_ids": [
+        "groupe-quebeco-inc-plomberie-st-jovite"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "hydrep-inc",
+      "monitor_ids": [
+        "hydrep-inc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "imprimerie-numerix",
+      "monitor_ids": [
+        "imprimerie-numerix"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "industrie-cbm",
+      "monitor_ids": [
+        "industrie-cbm"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "les-distributions-alimentaires-roy",
+      "monitor_ids": [
+        "les-distributions-alimentaires-roy"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "les-produits-forestiers-d-g-ltee",
+      "monitor_ids": [
+        "les-produits-forestiers-d-g-ltee"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "loisirs-du-faubourg",
+      "monitor_ids": [
+        "loisirs-du-faubourg"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "metal-pless",
+      "monitor_ids": [
+        "metal-pless"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "mi-maintenance-industrielle-inc",
+      "monitor_ids": [
+        "mi-maintenance-industrielle-inc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "patates-dolbec",
+      "monitor_ids": [
+        "patates-dolbec"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "pgs-experts-inc-et-pgs-industriel-inc",
+      "monitor_ids": [
+        "pgs-experts-inc-et-pgs-industriel-inc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "rcm-architectural-inc",
+      "monitor_ids": [
+        "rcm-architectural-inc",
+        "rcm-architectural-inc-opportunities"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "rexforet",
+      "monitor_ids": [
+        "rexforet"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "silo-j-m-lambert-inc-equipement-lambert",
+      "monitor_ids": [
+        "silo-j-m-lambert-inc-equipement-lambert"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "usine-de-congelation-de-st-bruno-inc",
+      "monitor_ids": [
+        "usine-de-congelation-de-st-bruno-inc"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "industries-machinex-inc",
+      "monitor_ids": [
+        "industries-machinex-inc-en",
+        "industries-machinex-inc-fr"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    },
+    {
+      "company_id": "lauzon-planchers-de-bois-exclusifs",
+      "monitor_ids": [
+        "lauzon-planchers-de-bois-exclusifs"
+      ],
+      "note": "Entire advertised board inventory; separate sources preserve language and career-opportunity coverage."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lauzon-planchers-de-bois-exclusifs",
+  "name": "Lauzon – Planchers de bois exclusifs",
+  "aliases": [
+    "Lauzon – Planchers de bois exclusifs",
+    "Lauzon",
+    "Lauzon Hardwood"
+  ],
+  "website_url": "https://www.boislauzon.com/carrieres/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
