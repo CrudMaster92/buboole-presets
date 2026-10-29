@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "o-sole-mio",
+  "name": "O'Sole Mio",
+  "aliases": [
+    "O Sole Mio"
+  ],
+  "website_url": "https://osolemio.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

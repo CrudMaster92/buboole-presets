@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "soudure-metalco",
+  "name": "Soudure MetalCo",
+  "aliases": [
+    "MetalCo"
+  ],
+  "website_url": "https://souduremetalco.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

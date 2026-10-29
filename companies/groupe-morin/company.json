@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-morin",
+  "name": "Groupe Morin",
+  "aliases": [
+    "Group Morin"
+  ],
+  "website_url": "https://groupemorin.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "transportation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

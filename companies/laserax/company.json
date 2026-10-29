@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "laserax",
+  "name": "Laserax",
+  "aliases": [
+    "Laserax"
+  ],
+  "website_url": "https://laserax.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "industrial-automation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

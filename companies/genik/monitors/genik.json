@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "genik",
+  "company_id": "genik",
+  "revision": 1,
+  "label": "Génik complete public careers",
+  "careers_url": "https://www.genikinc.com/offre-demploi",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T23:56:11.284762+00:00",
+    "job_count": 5,
+    "warnings": [
+      "Complete public listing traversal; descriptions are included only where safely available. Language source records may describe the same vacancy."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Génik",
+    "careers_url": "https://www.genikinc.com/offre-demploi",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.genikinc.com"
+    ],
+    "request": {
+      "url": "https://www.genikinc.com/offre-demploi/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".career-archive-box",
+      "title": "p.texte-md",
+      "link": "a.career-archive-box-link",
+      "description": "div.texte-sm"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}
