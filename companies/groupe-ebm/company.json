@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-ebm",
+  "name": "Groupe EBM",
+  "aliases": [
+    "EBM Laser",
+    "Groupe EBM"
+  ],
+  "website_url": "https://groupe-ebm.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

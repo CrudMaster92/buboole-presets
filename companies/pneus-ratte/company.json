@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pneus-ratte",
+  "name": "Pneus Ratté",
+  "aliases": [
+    "Pneus Ratte"
+  ],
+  "website_url": "https://pneusratte.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

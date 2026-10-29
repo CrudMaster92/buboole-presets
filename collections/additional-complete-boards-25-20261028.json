@@ -1,0 +1,217 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "additional-complete-boards-25-20261028",
+  "revision": 1,
+  "name": "25 further employers — complete public boards",
+  "description": "Twenty-five additional employers screened against the current catalog and a freshly fetched FreeHire company directory, with current name/alias checks. Deterministic full public board reads without country, title, role-count or page-count sampling. Additional language inventories are included where they advertise distinct posting paths. Counts are source records, not a deduplicated vacancy census.",
+  "tags": [
+    "Complete boards",
+    "Canada",
+    "United States"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "acier-select",
+      "monitor_ids": [
+        "acier-select",
+        "acier-select-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "armatures-bois-francs",
+      "monitor_ids": [
+        "armatures-bois-francs"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "canatal",
+      "monitor_ids": [
+        "canatal",
+        "canatal-fr"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "d-v-electronics",
+      "monitor_ids": [
+        "d-v-electronics"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "denison-mines",
+      "monitor_ids": [
+        "denison-mines"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "fenergic",
+      "monitor_ids": [
+        "fenergic"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "fenplast",
+      "monitor_ids": [
+        "fenplast"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "fonderie-lemoltech",
+      "monitor_ids": [
+        "fonderie-lemoltech"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "genik",
+      "monitor_ids": [
+        "genik"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "groupe-ebm",
+      "monitor_ids": [
+        "groupe-ebm"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "groupe-ld",
+      "monitor_ids": [
+        "groupe-ld",
+        "groupe-ld-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "groupe-morin",
+      "monitor_ids": [
+        "groupe-morin"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "isothermic",
+      "monitor_ids": [
+        "isothermic",
+        "isothermic-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "laser-amp",
+      "monitor_ids": [
+        "laser-amp",
+        "laser-amp-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "laserax",
+      "monitor_ids": [
+        "laserax",
+        "laserax-en",
+        "laserax-de"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "lorendo",
+      "monitor_ids": [
+        "lorendo",
+        "lorendo-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "metal-duquet",
+      "monitor_ids": [
+        "metal-duquet",
+        "metal-duquet-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "metal-sartigan",
+      "monitor_ids": [
+        "metal-sartigan",
+        "metal-sartigan-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "mp-filtri",
+      "monitor_ids": [
+        "mp-filtri",
+        "mp-filtri-fr"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "nano-one-materials",
+      "monitor_ids": [
+        "nano-one-materials"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "o-sole-mio",
+      "monitor_ids": [
+        "o-sole-mio"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "pneus-ratte",
+      "monitor_ids": [
+        "pneus-ratte"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "portes-lambton",
+      "monitor_ids": [
+        "portes-lambton",
+        "portes-lambton-en"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "soudure-metalco",
+      "monitor_ids": [
+        "soudure-metalco"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    },
+    {
+      "company_id": "usinage-laurentides",
+      "monitor_ids": [
+        "usinage-laurentides",
+        "usinage-laurentides-fr"
+      ],
+      "note": "Whole named public listing board; extra language sources preserve advertised coverage."
+    }
+  ]
+}

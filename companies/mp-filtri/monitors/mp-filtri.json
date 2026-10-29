@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mp-filtri",
+  "company_id": "mp-filtri",
+  "revision": 1,
+  "label": "MP Filtri complete public careers",
+  "careers_url": "https://www.mpfiltri.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-28T23:56:17.298085+00:00",
+    "job_count": 3,
+    "warnings": [
+      "description detail enrichment was incomplete for 3 jobs",
+      "Complete public listing traversal; descriptions are included only where safely available. Language source records may describe the same vacancy."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "MP Filtri",
+    "careers_url": "https://www.mpfiltri.com/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.mpfiltri.com"
+    ],
+    "request": {
+      "url": "https://www.mpfiltri.com/careers/",
+      "method": "GET",
+      "headers": {
+        "Accept": "text/html"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": ".careers-list a.single-career",
+      "title": ".name",
+      "link": ":scope",
+      "location": ".place"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

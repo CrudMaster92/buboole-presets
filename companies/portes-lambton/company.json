@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "portes-lambton",
+  "name": "Portes Lambton",
+  "aliases": [
+    "Lambton Doors"
+  ],
+  "website_url": "https://porteslambton.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

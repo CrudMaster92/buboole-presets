@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "fenplast",
+  "company_id": "fenplast",
+  "revision": 1,
+  "label": "Fenplast complete public careers",
+  "careers_url": "https://www.fenplast.com/carrieres",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-29T00:03:15.614991+00:00",
+    "job_count": 23,
+    "warnings": [
+      "Complete public listing traversal; descriptions are included only where safely available. Language source records may describe the same vacancy."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Fenplast",
+    "careers_url": "https://www.fenplast.com/carrieres",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.fenplast.com"
+    ],
+    "request": {
+      "url": "https://www.fenplast.com/liste-emploi-json/",
+      "method": "GET",
+      "headers": {
+        "Accept": "application/json"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(.jv-job-list-name)",
+      "title": ".jv-job-list-name a",
+      "link": ".jv-job-list-name a",
+      "location": ".jv-job-list-location"
+    },
+    "mapping": {
+      "items": "items",
+      "source_id": "id",
+      "title": "name",
+      "url": "link",
+      "location": "lieu"
+    },
+    "metadata": {}
+  }
+}

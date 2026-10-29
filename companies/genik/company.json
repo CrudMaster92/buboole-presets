@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "genik",
+  "name": "Génik",
+  "aliases": [
+    "Genik"
+  ],
+  "website_url": "https://genikinc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "industrial-automation"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

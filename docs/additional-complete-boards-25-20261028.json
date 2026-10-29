@@ -1,0 +1,1776 @@
+{
+  "checked_at": "2026-10-29T00:04:44.033917+00:00",
+  "companies": 25,
+  "monitors": 38,
+  "listing_complete_monitors": 38,
+  "observed_source_records": 176,
+  "description_records": 59,
+  "freehire_directory": {
+    "checked_at": "2026-10-28T23:58:03.886915+00:00",
+    "unique_slugs": 470724,
+    "pages": 48,
+    "source": "https://freehire.me/api/v1/companies/sitemap",
+    "sha256": "00f2291e3630b48e0c1cec024bf0b24f876a5f8881e89198fc398c12ed300a49",
+    "caveat": "Mutable paged directory, not an atomic provider export; targeted current identity queries also required."
+  },
+  "runtime_revision": "f3b4f2500d7a51bf5aa45fd2a2aa0a44d79b7a1f573950fbd9f3bc4d5af48f97",
+  "notes": [
+    "Maintainer explicitly authorized publication. No auto-merge is enabled.",
+    "Additional language sources preserve differing inventories, including Laserax French, English and German; translations can duplicate vacancies.",
+    "Canatal currently advertises explicit Canadian and United States roles. No geographic eligibility is guessed for other employers.",
+    "Fenplast uses its actual unfiltered AMP listing endpoint, with source-proven city fields, rather than treating WordPress archives as the live board.",
+    "D&V Electronics uses the current corporate careers listing. Its WordPress API returned an additional older role absent from that listing; it was excluded.",
+    "General applications and talent pools are not treated as current vacancies.",
+    "Source posting URLs, not titles or country filters, bound source ownership. PDFs remain valid public application/description destinations; unavailable description enrichment stays visible."
+  ],
+  "sources": [
+    {
+      "checked_at": "2026-10-28T23:52:32.806880+00:00",
+      "recipe_sha256": "23891939720c143c06a459dec9ced51983b0cec0740f234c8ce4ed08d83bb627",
+      "strategy": "generic_json",
+      "job_count": 2,
+      "complete": true,
+      "pages": 1,
+      "warnings": [],
+      "with_description": 2,
+      "samples": [
+        {
+          "title": "Chauffeur – classe 3",
+          "location": "Unspecified",
+          "source_url": "https://souduremetalco.com/emploi/chauffeur-classe-3"
+        },
+        {
+          "title": "Soudeur-assembleur",
+          "location": "Unspecified",
+          "source_url": "https://souduremetalco.com/emploi/soudeur-assembleur"
+        }
+      ],
+      "id": "soudure-metalco",
+      "company_id": "soudure-metalco",
+      "name": "Soudure MetalCo",
+      "careers_url": "https://souduremetalco.com/",
+      "request_url": "https://souduremetalco.com/wp-json/wp/v2/emploi",
+      "freehire": {
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793231942.7656202,
+        "freehire_slugs": [
+          "metalcool"
+        ],
+        "catalog_identity_matches": []
+      },
+      "identity_review": "FreeHire MetalCool is METALCOOL PTE. LTD. in Singapore (MyCareersFuture postings), not Soudure MetalCo / souduremetalco.com in Saint-Jerome, Quebec.",
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:52:32.808897+00:00",
+      "recipe_sha256": "1c26ed8382f3793387d719291a662decd57b80477062049eb9dc8188b466733c",
+      "strategy": "generic_json",
+      "job_count": 4,
+      "complete": true,
+      "pages": 5,
+      "warnings": [],
+      "with_description": 4,
+      "samples": [
+        {
+          "title": "Conseiller·ère RH",
+          "location": "Unspecified",
+          "source_url": "https://abf-inc.com/carriere/conseiller%c2%b7ere-rh"
+        },
+        {
+          "title": "Coordonnateur·trice SST",
+          "location": "Unspecified",
+          "source_url": "https://abf-inc.com/carriere/coordonnateur%c2%b7trice-sst"
+        },
+        {
+          "title": "Camionneur·euse",
+          "location": "Unspecified",
+          "source_url": "https://abf-inc.com/carriere/camionneur%c2%b7euse-repartiteur%c2%b7trice"
+        },
+        {
+          "title": "Chef·fe d’équipe",
+          "location": "Unspecified",
+          "source_url": "https://abf-inc.com/carriere/chef%c2%b7fe-dequipe-duplicate"
+        }
+      ],
+      "id": "armatures-bois-francs",
+      "company_id": "armatures-bois-francs",
+      "name": "Armatures Bois-Francs",
+      "careers_url": "https://abf-inc.com/",
+      "request_url": "https://abf-inc.com/wp-json/wp/v2/carriere",
+      "freehire": {
+        "status": "overlap_or_possible_overlap",
+        "checked_at": null,
+        "freehire_slugs": [
+          "abf"
+        ],
+        "catalog_identity_matches": []
+      },
+      "identity_review": "FreeHire ABF groups abfgroup.recruitee.com (Dutch industrial distributor ABF) and abf.bamboohr.com (American Bar Foundation fellowships), not Quebec reinforcing-steel employer Armatures Bois-Francs / abf-inc.com. All 13 returned job URLs were inspected.",
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:52:32.809916+00:00",
+      "recipe_sha256": "8d72cdbbc06deae11f5730b0d18ff7b105033bc9459860a03ff5ca07715323da",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 5,
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Préposé à la sanitation",
+          "location": "Unspecified",
+          "source_url": "https://www.osolemio.ca/offres-emploi/prepose-a-la-sanitation"
+        },
+        {
+          "title": "Opérateur(trice) de production",
+          "location": "Unspecified",
+          "source_url": "https://www.osolemio.ca/offres-emploi/operateurtrice-de-production"
+        },
+        {
+          "title": "Cariste",
+          "location": "Unspecified",
+          "source_url": "https://www.osolemio.ca/offres-emploi/cariste"
+        },
+        {
+          "title": "Électromécanicien(ne)",
+          "location": "Unspecified",
+          "source_url": "https://www.osolemio.ca/offres-emploi/electromecanicienne"
+        }
+      ],
+      "id": "o-sole-mio",
+      "company_id": "o-sole-mio",
+      "name": "O'Sole Mio",
+      "careers_url": "https://www.osolemio.ca/offres-emploi",
+      "request_url": "https://www.osolemio.ca/offres-emploi",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231942.7696495,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:52:32.810922+00:00",
+      "recipe_sha256": "ade1b983b42fb96c4b210306e904eafa4ed4c6b1b457b3586cac69e9751fe657",
+      "strategy": "generic_html",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [],
+      "with_description": 2,
+      "samples": [
+        {
+          "title": "Ingénieur mécanique",
+          "location": "Candiac, Québec, Canada . full-time . October 26, 2026",
+          "source_url": "https://nanoone.applytojobs.ca/engineering/51958"
+        },
+        {
+          "title": "Spécialiste paie (hybride)",
+          "location": "hybrid Candiac, Québec, Canada . full-time . August 27, 2026",
+          "source_url": "https://nanoone.applytojobs.ca/ressources+humaines/50474"
+        }
+      ],
+      "id": "nano-one-materials",
+      "company_id": "nano-one-materials",
+      "name": "Nano One Materials",
+      "careers_url": "https://nanoone.applytojobs.ca/",
+      "request_url": "https://nanoone.applytojobs.ca/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231942.7128,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:52:34.568597+00:00",
+      "recipe_sha256": "b245323b914013787a6b0dceec080ec9a61da9ee565ea4c2df84d982caa1617c",
+      "strategy": "generic_json",
+      "job_count": 13,
+      "complete": true,
+      "pages": 14,
+      "warnings": [
+        "description detail enrichment was incomplete for 13 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Construction Manager",
+          "location": "Athabasca Basin, Saskatchewan, Canada",
+          "source_url": "https://apply.workable.com/j/02B69DDDB1"
+        },
+        {
+          "title": "Contract Geologist",
+          "location": "Saskatoon, Saskatchewan, Canada",
+          "source_url": "https://apply.workable.com/j/B0B2B57EE4"
+        },
+        {
+          "title": "Contract Geotechnician",
+          "location": "Saskatoon, Saskatchewan, Canada",
+          "source_url": "https://apply.workable.com/j/6479C1B76F"
+        },
+        {
+          "title": "Hydrogeologist",
+          "location": "Saskatoon, Saskatchewan, Canada",
+          "source_url": "https://apply.workable.com/j/F1B5472A73"
+        },
+        {
+          "title": "Operations Manager",
+          "location": "Athabasca Basin, Saskatchewan, Canada",
+          "source_url": "https://apply.workable.com/j/6156053EB5"
+        }
+      ],
+      "id": "denison-mines",
+      "company_id": "denison-mines",
+      "name": "Denison Mines",
+      "careers_url": "https://denisonmines.com/careers-at-denison",
+      "request_url": "https://apply.workable.com/api/v1/widget/accounts/720329",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231942.7631283,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:00.035096+00:00",
+      "recipe_sha256": "42871148bafd038cb3cc30c8fb69e2dd4aa824d922beb1f9f03bb17050210ca0",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Manœuvre – Soir (Canada)",
+          "location": "Manœuvre – Soir (Canada)",
+          "source_url": "https://www.canatal.net/careers/manoeuvre-jour-canada"
+        },
+        {
+          "title": "Fitters-Welders (United States)",
+          "location": "Fitters-Welders (United States)",
+          "source_url": "https://www.canatal.net/careers/fitters-welders"
+        },
+        {
+          "title": "Électromécanicien (Canada)",
+          "location": "Électromécanicien (Canada)",
+          "source_url": "https://www.canatal.net/careers/electro-mecanicien"
+        }
+      ],
+      "id": "canatal",
+      "company_id": "canatal",
+      "name": "Canatal",
+      "careers_url": "https://www.canatal.net/careers",
+      "request_url": "https://www.canatal.net/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231942.7606552,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:00.037869+00:00",
+      "recipe_sha256": "2e7edba8512381765e3ad56e3a0a7ab80826761a75af0e3e2051427298864c20",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 5,
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Coordonnateur(trice) – Service après-vente et garanties",
+          "location": "Unspecified",
+          "source_url": "https://metalduquet.com/emplois/coordonnateurtrice-service-apres-vente-et-garanties"
+        },
+        {
+          "title": "Électricien(ne) – assemblage et câblage d’équipements",
+          "location": "Unspecified",
+          "source_url": "https://metalduquet.com/emplois/electricienne-assemblage-et-cablage-dequipements"
+        },
+        {
+          "title": "Polisseur",
+          "location": "Unspecified",
+          "source_url": "https://metalduquet.com/emplois/polisseur"
+        },
+        {
+          "title": "Superviseur de production",
+          "location": "Unspecified",
+          "source_url": "https://metalduquet.com/emplois/superviseur-de-production"
+        }
+      ],
+      "id": "metal-duquet",
+      "company_id": "metal-duquet",
+      "name": "Métal Duquet",
+      "careers_url": "https://metalduquet.com/emploi",
+      "request_url": "https://metalduquet.com/emploi/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.278086,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:00.040137+00:00",
+      "recipe_sha256": "eb5e70dbcb25a4a2e68bf2d728819026a19b08461bfd904aaddb3dd3b4c351c0",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 5,
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Assembleur",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/emploi/assembleur"
+        },
+        {
+          "title": "Journalier de production",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/emploi/journalier-de-production"
+        },
+        {
+          "title": "Soudeur",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/emploi/soudeur"
+        },
+        {
+          "title": "Opérateur de machine à commande numérique par ordinateur (CNC)",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/emploi/operateur-de-machine-a-commande-numerique-ordinateur-cnc-2"
+        }
+      ],
+      "id": "acier-select",
+      "company_id": "acier-select",
+      "name": "Acier Sélect",
+      "careers_url": "https://acierselect.com/emplois",
+      "request_url": "https://acierselect.com/emplois/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.2735624,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:00.052654+00:00",
+      "recipe_sha256": "0868557eb2d28d6aed598a19188b08ecb47f22599414e6749f5b15916fb4e1a4",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Électromécanicien",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/emploi/electromecanicien"
+        },
+        {
+          "title": "Journalier",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/emploi/journalier"
+        },
+        {
+          "title": "Opérateur de chargeuse sur pneus",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/emploi/operateur-de-chargeuse-sur-pneus"
+        }
+      ],
+      "id": "metal-sartigan",
+      "company_id": "metal-sartigan",
+      "name": "Métal Sartigan",
+      "careers_url": "https://sartigan.com/carrieres",
+      "request_url": "https://sartigan.com/carrieres/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.2196193,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:45.192187+00:00",
+      "recipe_sha256": "a29b7c50a0cadb40dce9881873c1196749586cbf70b059c2d72fd886d0e183e7",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Journalier",
+          "location": "Unspecified",
+          "source_url": "https://laseramp.com/careers/journalier"
+        }
+      ],
+      "id": "laser-amp",
+      "company_id": "laser-amp",
+      "name": "Laser AMP",
+      "careers_url": "https://laseramp.com/careers",
+      "request_url": "https://laseramp.com/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231529.1423752,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:06.940671+00:00",
+      "recipe_sha256": "92bf8e7bd5c13903860a601330a27212735e19da3402f50e415777a759f6bd62",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [],
+      "with_description": 1,
+      "samples": [
+        {
+          "title": "Assembleurs de fenêtres",
+          "location": "Unspecified",
+          "source_url": "https://www.lorendo.com/offre-emploi?id=20260508001"
+        }
+      ],
+      "id": "lorendo",
+      "company_id": "lorendo",
+      "name": "Lorendo",
+      "careers_url": "https://www.lorendo.com/carrieres",
+      "request_url": "https://www.lorendo.com/carrieres/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231556.6806939,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:08.997995+00:00",
+      "recipe_sha256": "72bf47e2aa951fb0a49d5e4f541314b37eaba8d60abf6ac0a1a2386131c39baf",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Opérateur de production",
+          "location": "Unspecified",
+          "source_url": "https://www.porteslambton.com/emplois/operateur-production"
+        },
+        {
+          "title": "Opérateur CNC",
+          "location": "Unspecified",
+          "source_url": "https://www.porteslambton.com/emplois/operateur-cnc"
+        },
+        {
+          "title": "Ébéniste",
+          "location": "Unspecified",
+          "source_url": "https://www.porteslambton.com/emplois/ebeniste-2"
+        }
+      ],
+      "id": "portes-lambton",
+      "company_id": "portes-lambton",
+      "name": "Portes Lambton",
+      "careers_url": "https://www.porteslambton.com/carrieres",
+      "request_url": "https://www.porteslambton.com/carrieres/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.3313248,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:11.284762+00:00",
+      "recipe_sha256": "a7b6b8d5317a0435eb2b5af3fbd7c5b1eabbec47d1cc1f0f3417563573a53cb0",
+      "strategy": "generic_html",
+      "job_count": 5,
+      "complete": true,
+      "pages": 1,
+      "warnings": [],
+      "with_description": 5,
+      "samples": [
+        {
+          "title": "Lead Technique – Mécanique",
+          "location": "Unspecified",
+          "source_url": "https://www.genikinc.com/emplois/lead-technique-mecanique"
+        },
+        {
+          "title": "Soudeure – Assembleur(se)",
+          "location": "Unspecified",
+          "source_url": "https://www.genikinc.com/emplois/soudeure-assembleurse"
+        },
+        {
+          "title": "Acheteur(se)",
+          "location": "Unspecified",
+          "source_url": "https://www.genikinc.com/emplois/acheteurse"
+        },
+        {
+          "title": "Gestionnaire de Projet",
+          "location": "Unspecified",
+          "source_url": "https://www.genikinc.com/emplois/gestionnaire-de-projet"
+        },
+        {
+          "title": "Machiniste conventionnel",
+          "location": "Unspecified",
+          "source_url": "https://www.genikinc.com/emplois/machiniste-conventionnel"
+        }
+      ],
+      "id": "genik",
+      "company_id": "genik",
+      "name": "Génik",
+      "careers_url": "https://www.genikinc.com/offre-demploi",
+      "request_url": "https://www.genikinc.com/offre-demploi/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.8126256,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:11.634555+00:00",
+      "recipe_sha256": "c1cae4a5182e5914ede86aba09f831faeef03dcf19c74a10b9685ea490ffc822",
+      "strategy": "generic_html",
+      "job_count": 13,
+      "complete": true,
+      "pages": 14,
+      "warnings": [],
+      "with_description": 13,
+      "samples": [
+        {
+          "title": "MÉCANICIEN",
+          "location": "| 3e Avenue, Québec",
+          "source_url": "https://pneusratte.com/carriere/87285/mecanicien"
+        },
+        {
+          "title": "AVISEUR TECHNIQUE",
+          "location": "| Trois-Rivières",
+          "source_url": "https://pneusratte.com/carriere/98355/aviseur-technique"
+        },
+        {
+          "title": "JOURNALIER D'USINE",
+          "location": "| Boulevard Cote Vertu Ouest, Montréal",
+          "source_url": "https://pneusratte.com/carriere/97456/journalier-dusine"
+        },
+        {
+          "title": "POSEUR DE PNEUS - SAISONNIER",
+          "location": "| Québec",
+          "source_url": "https://pneusratte.com/carriere/97459/poseur-de-pneus-saisonnier"
+        },
+        {
+          "title": "ASSISTANT(E) DIRECTEUR(TRICE)",
+          "location": "| Route du Président-Kennedy, Lévis",
+          "source_url": "https://pneusratte.com/carriere/98313/assistante-directeurtrice"
+        }
+      ],
+      "id": "pneus-ratte",
+      "company_id": "pneus-ratte",
+      "name": "Pneus Ratté",
+      "careers_url": "https://pneusratte.com/carriere",
+      "request_url": "https://pneusratte.com/carriere",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.3661523,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:11.857095+00:00",
+      "recipe_sha256": "b56509e8093eb4fdc5a2475c122063696571db85b168c3ff2445c56c4016b4d5",
+      "strategy": "generic_html",
+      "job_count": 5,
+      "complete": true,
+      "pages": 6,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Responsable de la Loi 430",
+          "location": "Unspecified",
+          "source_url": "https://www.groupemorin.ca/carriere/responsable-de-la-loi-430"
+        },
+        {
+          "title": "Responsable de la vente au détail (comptoir pneus)",
+          "location": "Unspecified",
+          "source_url": "https://www.groupemorin.ca/carriere/responsable-de-la-vente-au-detail-comptoir-pneus"
+        },
+        {
+          "title": "Opérateur / Opératrice de déneigeuse",
+          "location": "Unspecified",
+          "source_url": "https://www.groupemorin.ca/carriere/operateur-de-deneigeuse"
+        },
+        {
+          "title": "Opérateur / Opératrice de camions",
+          "location": "Unspecified",
+          "source_url": "https://www.groupemorin.ca/carriere/operateur-de-camions"
+        },
+        {
+          "title": "Mécanicien / Mécanicienne machineries lourdes",
+          "location": "Unspecified",
+          "source_url": "https://www.groupemorin.ca/carriere/mecanicien-machineries-lourdes"
+        }
+      ],
+      "id": "groupe-morin",
+      "company_id": "groupe-morin",
+      "name": "Groupe Morin",
+      "careers_url": "https://www.groupemorin.ca/carriere",
+      "request_url": "https://www.groupemorin.ca/carriere/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.5451512,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:13.985660+00:00",
+      "recipe_sha256": "e2bf13ce51825fdad4e8ae50fe8cf0ac38f7978d89ac0e9dd0ae45cecffa6f27",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 5,
+      "warnings": [
+        "description detail enrichment was incomplete for 4 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Camionneur",
+          "location": "Unspecified",
+          "source_url": "https://www.fenergic.com/carrieres-1/camionneur"
+        },
+        {
+          "title": "Journalier quart de jour",
+          "location": "Unspecified",
+          "source_url": "https://www.fenergic.com/carrieres-1/journalier-quart-de-jour"
+        },
+        {
+          "title": "Journalier quart de soir",
+          "location": "Unspecified",
+          "source_url": "https://www.fenergic.com/carrieres-1/journalier-quart-de-soir"
+        },
+        {
+          "title": "Agent de bureaux aux ventes",
+          "location": "Unspecified",
+          "source_url": "https://www.fenergic.com/carrieres-1/agent-de-bureaux-aux-ventes"
+        }
+      ],
+      "id": "fenergic",
+      "company_id": "fenergic",
+      "name": "Fenergic",
+      "careers_url": "https://www.fenergic.com/carrieres",
+      "request_url": "https://www.fenergic.com/carrieres",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231557.6910808,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:14.933051+00:00",
+      "recipe_sha256": "a4ca9763e66e4545542e76f4c72dd5434582e739fb3bf1c8073447e12fd399e0",
+      "strategy": "generic_html",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Ouvriers de Fonderie (Préposé aux Opérations Secondaires Remplaçant)",
+          "location": "Unspecified",
+          "source_url": "https://www.lemoltech.com/upload/jobs/6ac50f58b9e7f.pdf"
+        },
+        {
+          "title": "Mécanicien à l'Outillage",
+          "location": "Unspecified",
+          "source_url": "https://www.lemoltech.com/upload/jobs/6ac50ffd4ccdb.pdf"
+        }
+      ],
+      "id": "fonderie-lemoltech",
+      "company_id": "fonderie-lemoltech",
+      "name": "Fonderie Lemoltech",
+      "careers_url": "https://www.lemoltech.com/fr/emplois",
+      "request_url": "https://www.lemoltech.com/fr/emplois",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.4934154,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:17.043056+00:00",
+      "recipe_sha256": "7e3d1ffd8ffc4ab37a79fc37275ecf73cd7bd3e7355a8af92105c581a1a65da6",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 1,
+      "warnings": [],
+      "with_description": 4,
+      "samples": [
+        {
+          "title": "Press brake operator",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/en/careers1/press-brake-operator"
+        },
+        {
+          "title": "Welder-assembler evening shift",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/en/careers1/welder-assembler-evening-shift"
+        },
+        {
+          "title": "Welder-assembler Day shift",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/en/careers1/welder-assembler-day-shift"
+        },
+        {
+          "title": "Production Worker",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/en/careers1/production-worker"
+        }
+      ],
+      "id": "usinage-laurentides",
+      "company_id": "usinage-laurentides",
+      "name": "Usinage Laurentides",
+      "careers_url": "https://www.usinagelaurentides.com/en/careers",
+      "request_url": "https://www.usinagelaurentides.com/en/careers",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231510.758379,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:56:17.298085+00:00",
+      "recipe_sha256": "73c884d6f9990abc5e2bce791a2dba083ab164f70219e66cfaf25968d646126d",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Maintenance & Facilities Engineer",
+          "location": "Pessano con Bornago (MI)",
+          "source_url": "https://www.mpfiltri.com/career/maintenance-facilities-engineer"
+        },
+        {
+          "title": "Mechanical Engineer – Hydraulic Filtration",
+          "location": "Quakertown, PA",
+          "source_url": "https://www.mpfiltri.com/career/88862"
+        },
+        {
+          "title": "MS D365 TECHNICAL CONSULTANT",
+          "location": "Bengaluru – India",
+          "source_url": "https://www.mpfiltri.com/career/erp-technical-specialist-india"
+        }
+      ],
+      "id": "mp-filtri",
+      "company_id": "mp-filtri",
+      "name": "MP Filtri",
+      "careers_url": "https://www.mpfiltri.com/careers",
+      "request_url": "https://www.mpfiltri.com/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231370.2342064,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:45.227448+00:00",
+      "recipe_sha256": "213a8d87669c62dbc26c0665e4a89d692c90ceb38b0528c59929e94b95247424",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Controls Designer – [CANADA]",
+          "location": "Controls Designer – [CANADA]",
+          "source_url": "https://dvelectronics.com/wp-content/uploads/2026/07/Controls_Designer_2026-JUN.pdf"
+        }
+      ],
+      "id": "d-v-electronics",
+      "company_id": "d-v-electronics",
+      "name": "D&V Electronics",
+      "careers_url": "https://dvelectronics.com/company/careers-and-opportunities",
+      "request_url": "https://dvelectronics.com/company/careers-and-opportunities/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.4965818,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:15.614991+00:00",
+      "recipe_sha256": "adddd08fc0860235fdd9220b7c6269667e9959ce7a55b2736092dff271eb49b2",
+      "strategy": "generic_json",
+      "job_count": 23,
+      "complete": true,
+      "pages": 24,
+      "warnings": [],
+      "with_description": 23,
+      "samples": [
+        {
+          "title": "Installateur (trice) / aide-installateur (trice)",
+          "location": "Repentigny",
+          "source_url": "https://www.fenplast.com/carrieres/repentigny/installateur-trice-aide-installateur-trice"
+        },
+        {
+          "title": "Mesureur / Technicien de service",
+          "location": "Rimouski",
+          "source_url": "https://www.fenplast.com/carrieres/rimouski/mesureur-technicien-de-service"
+        },
+        {
+          "title": "Leader d’excellence opérationnelle",
+          "location": "Delson",
+          "source_url": "https://www.fenplast.com/carrieres/delson/leader-dexcellence-operationnelle"
+        },
+        {
+          "title": "Superviseur des ventes",
+          "location": "Delson",
+          "source_url": "https://www.fenplast.com/carrieres/delson/superviseur-des-ventes"
+        },
+        {
+          "title": "Installateur / Aide-installateur de portes et fenêtres",
+          "location": "Sorel-Tracy",
+          "source_url": "https://www.fenplast.com/carrieres/sorel-tracy/aide-installateurtrice-6"
+        }
+      ],
+      "id": "fenplast",
+      "company_id": "fenplast",
+      "name": "Fenplast",
+      "careers_url": "https://www.fenplast.com/carrieres",
+      "request_url": "https://www.fenplast.com/liste-emploi-json/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231553.9439337,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:45.224410+00:00",
+      "recipe_sha256": "8cd3540cb8f9c8d2979bb1c6c34ff62005506524bee1b9ed5a64c9245b5bc3ac",
+      "strategy": "generic_html",
+      "job_count": 10,
+      "complete": true,
+      "pages": 11,
+      "warnings": [
+        "description detail enrichment was incomplete for 10 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Journalier(ère)",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/carrieres/offres-demploi/journalierere"
+        },
+        {
+          "title": "Technicien(ne) - Service après-vente",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/carrieres/offres-demploi/technicienne-service-apres-vente"
+        },
+        {
+          "title": "Coordonnateur(trice) de bureau - Bois-des-Filion",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/carrieres/offres-demploi/coordonnateurtrice-de-bureau-bois-des-filion"
+        },
+        {
+          "title": "OPÉRATEUR / OPÉRATRICE DE MACHINE",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/carrieres/offres-demploi/opérateur-opératrice-de-machine"
+        },
+        {
+          "title": "Technicien(ne) de recherche et développement (R&D)",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/carrieres/offres-demploi/technicienne-r-d"
+        }
+      ],
+      "id": "isothermic",
+      "company_id": "isothermic",
+      "name": "Isothermic",
+      "careers_url": "https://www.isothermic.ca/carrieres/offres-demploi",
+      "request_url": "https://www.isothermic.ca/carrieres/offres-demploi",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231554.8270605,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:45.233875+00:00",
+      "recipe_sha256": "5cb1ddb5a4a05618dc5a661701f411d1287abf47c4ef959a02cb08f6715fa2e9",
+      "strategy": "generic_html",
+      "job_count": 8,
+      "complete": true,
+      "pages": 9,
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Chargé de projet Nouveau",
+          "location": "Saguenay",
+          "source_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois/278082/charge-de-projet"
+        },
+        {
+          "title": "Estimateur Nouveau",
+          "location": "Saguenay",
+          "source_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois/278083/estimateur"
+        },
+        {
+          "title": "Commis d'entrepôt Nouveau",
+          "location": "Sept-Îles",
+          "source_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois/269233/commis-dentrepot"
+        },
+        {
+          "title": "Technicien(ne) approvisionnement et transport Nouveau",
+          "location": "Saguenay",
+          "source_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois/307765/technicienne-approvisionnement-et-transport"
+        },
+        {
+          "title": "Adjoint(e) Approvisionnement Nouveau",
+          "location": "Saguenay",
+          "source_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois/308788/adjointe-approvisionnement"
+        }
+      ],
+      "id": "groupe-ld",
+      "company_id": "groupe-ld",
+      "name": "Groupe LD",
+      "careers_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois",
+      "request_url": "https://carrieres.jobsmedia.ca/8275/groupe-ld/emplois",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.8588762,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:46.966564+00:00",
+      "recipe_sha256": "431386c0191fb8f30a75a36c442fbbcd8a293d85dafe447db50acda58936ce1f",
+      "strategy": "generic_html",
+      "job_count": 5,
+      "complete": true,
+      "pages": 6,
+      "warnings": [
+        "description detail enrichment was incomplete for 5 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Chargé de projets",
+          "location": "Unspecified",
+          "source_url": "https://www.groupe-ebm.com/fr/offres-emploi/24/charge-de-projets"
+        },
+        {
+          "title": "Estimateur",
+          "location": "Unspecified",
+          "source_url": "https://www.groupe-ebm.com/fr/offres-emploi/25/estimateur"
+        },
+        {
+          "title": "Soudeur TIG",
+          "location": "Unspecified",
+          "source_url": "https://www.groupe-ebm.com/fr/offres-emploi/28/soudeur-tig"
+        },
+        {
+          "title": "Opérateur de presse-plieuse",
+          "location": "Unspecified",
+          "source_url": "https://www.groupe-ebm.com/fr/offres-emploi/29/operateur-de-presse-plieuse"
+        },
+        {
+          "title": "Opérateur Laser",
+          "location": "Unspecified",
+          "source_url": "https://www.groupe-ebm.com/fr/offres-emploi/30/operateur-laser"
+        }
+      ],
+      "id": "groupe-ebm",
+      "company_id": "groupe-ebm",
+      "name": "Groupe EBM",
+      "careers_url": "https://www.groupe-ebm.com/fr/offres-emploi",
+      "request_url": "https://www.groupe-ebm.com/fr/offres-emploi",
+      "freehire": {
+        "status": "overlap_or_possible_overlap",
+        "checked_at": 1793231945.2545168,
+        "freehire_slugs": [
+          "groupe-e"
+        ],
+        "catalog_identity_matches": []
+      },
+      "identity_review": "FreeHire Groupe E is Swiss energy employer groupe-e.ch. Quebec Groupe EBM / groupe-ebm.com and EBM Laser / ebmlaser.com are different employers.",
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:48.985380+00:00",
+      "recipe_sha256": "a653ca3c1cf9a86c1844064df1ff1c556fd18c3b395fdffd07475ab36b885fea",
+      "strategy": "generic_html",
+      "job_count": 8,
+      "complete": true,
+      "pages": 8,
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "ASSEMBLEUR - SYSTÈME LASER",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/fr/document/dd8db2bd-2183-4f6d-b74d-c37875ad937b"
+        },
+        {
+          "title": "Architecte d'Affaires IA",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/fr/document/1ac77c5c-24c3-4515-bf5b-cc92e40dfb08"
+        },
+        {
+          "title": "Conseiller(ère) en Ressources Humaines",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/fr/document/a6d5668e-ad40-41c4-a1df-523f7d72433b"
+        },
+        {
+          "title": "JOURNALIER(ÈRE)",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/fr/document/61617ba5-df3f-4f26-bcba-a21da7513b3b"
+        },
+        {
+          "title": "Ingénieur(e) mécanique",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/fr/document/a4cb406e-bf98-425f-a053-6e629e98f837"
+        }
+      ],
+      "id": "laserax",
+      "company_id": "laserax",
+      "name": "Laserax",
+      "careers_url": "https://www.laserax.com/fr/carrieres",
+      "request_url": "https://www.laserax.com/fr/carrieres",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231528.8943796,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-28T23:57:52.589601+00:00",
+      "recipe_sha256": "179dddf2aa0a19563d9bda638c7792f951bb29ebe7285b11560a03556e865321",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "SENIOR APPLICATION LAB ENGINEER",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/document/20a4681b-5220-49c5-9eff-8a36d9ad5ffd"
+        }
+      ],
+      "id": "laserax-en",
+      "company_id": "laserax",
+      "name": "Laserax",
+      "careers_url": "https://www.laserax.com/careers",
+      "request_url": "https://www.laserax.com/careers",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231528.8943796,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:15.637762+00:00",
+      "recipe_sha256": "0944d4396e928beae723a72c3fc1847d0c489165d5ea4a47235b148e64b1bd7e",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Manœuvre – Soir (Canada)",
+          "location": "Manœuvre – Soir (Canada)",
+          "source_url": "https://www.canatal.net/fr/carrieres/manoeuvre-soir"
+        },
+        {
+          "title": "Fitters-Welders (United States)",
+          "location": "Fitters-Welders (United States)",
+          "source_url": "https://www.canatal.net/fr/carrieres/fitters-welders"
+        },
+        {
+          "title": "Électromécanicien (Canada)",
+          "location": "Électromécanicien (Canada)",
+          "source_url": "https://www.canatal.net/fr/carrieres/electromecanicien"
+        }
+      ],
+      "id": "canatal-fr",
+      "company_id": "canatal",
+      "name": "Canatal",
+      "careers_url": "https://www.canatal.net/fr/travailler-chez-canatal",
+      "request_url": "https://www.canatal.net/fr/travailler-chez-canatal/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231942.7606552,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:15.640902+00:00",
+      "recipe_sha256": "bb8e9cb381e8013cc0eafb594b0d037b50220b9300e67f59670f3123ec0195ef",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Polisher",
+          "location": "Unspecified",
+          "source_url": "https://metalduquet.com/en/emplois/polisher"
+        }
+      ],
+      "id": "metal-duquet-en",
+      "company_id": "metal-duquet",
+      "name": "Métal Duquet",
+      "careers_url": "https://metalduquet.com/en/careers",
+      "request_url": "https://metalduquet.com/en/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.278086,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:15.644689+00:00",
+      "recipe_sha256": "ba882c88e870277fe5970fe89dadcdc8021219236e49e4b44717235f268d6e21",
+      "strategy": "generic_html",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Computer Numeric Command Machine Operator",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/en/emploi/operateur-de-machine-a-commande-numerique-ordinateur-cnc-2"
+        },
+        {
+          "title": "Machine Operator 2",
+          "location": "Unspecified",
+          "source_url": "https://acierselect.com/en/emploi/operateur-de-machine-2"
+        }
+      ],
+      "id": "acier-select-en",
+      "company_id": "acier-select",
+      "name": "Acier Sélect",
+      "careers_url": "https://acierselect.com/en/jobs",
+      "request_url": "https://acierselect.com/en/jobs/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.2735624,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:19.501033+00:00",
+      "recipe_sha256": "2a01443537f208280e3e8cb30e356f96ee404736973bc0a7969cadce1d8c1d6a",
+      "strategy": "generic_html",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "PRODUCTION OPERATOR",
+          "location": "Unspecified",
+          "source_url": "https://www.lambtondoors.com/emplois/production-operator"
+        },
+        {
+          "title": "Woodworker",
+          "location": "Unspecified",
+          "source_url": "https://www.lambtondoors.com/emplois/woodworker"
+        }
+      ],
+      "id": "portes-lambton-en",
+      "company_id": "portes-lambton",
+      "name": "Portes Lambton",
+      "careers_url": "https://www.lambtondoors.com/careers",
+      "request_url": "https://www.lambtondoors.com/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.3313248,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:21.231645+00:00",
+      "recipe_sha256": "a729e9d44d4fb68357e29ce2e328aa6f4a79519ce8edc3c65646624bca05c930",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Laborer",
+          "location": "Unspecified",
+          "source_url": "https://laseramp.com/en/careers/laborer"
+        }
+      ],
+      "id": "laser-amp-en",
+      "company_id": "laser-amp",
+      "name": "Laser AMP",
+      "careers_url": "https://laseramp.com/en/careers",
+      "request_url": "https://laseramp.com/en/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231529.1423752,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:21.988148+00:00",
+      "recipe_sha256": "5f00c20a44f9320c5cc2cb51f801ef529d081290f1cda8acb4e26e66070c18e5",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [],
+      "with_description": 1,
+      "samples": [
+        {
+          "title": "Assembleurs de fenêtres",
+          "location": "Unspecified",
+          "source_url": "https://www.lorendo.com/en/job-offer?id=20260508001"
+        }
+      ],
+      "id": "lorendo-en",
+      "company_id": "lorendo",
+      "name": "Lorendo",
+      "careers_url": "https://www.lorendo.com/en/careers",
+      "request_url": "https://www.lorendo.com/en/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231556.6806939,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:22.859521+00:00",
+      "recipe_sha256": "d262e446156bbabb109d787eef2c5f3ef55afcca9569185e9735b21cc93931c6",
+      "strategy": "generic_html",
+      "job_count": 4,
+      "complete": true,
+      "pages": 1,
+      "warnings": [],
+      "with_description": 4,
+      "samples": [
+        {
+          "title": "Opérateur de presse plieuse",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/fr/carrieres/operateur-de-presse-plieuse"
+        },
+        {
+          "title": "Soudeur-Assembleur quart de soir",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/fr/carrieres/soudeur-assembleur-quart-de-soir"
+        },
+        {
+          "title": "Soudeur-Assembleur quart de Jour",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/fr/carrieres/soudeur-assembleur-quart-de-jour"
+        },
+        {
+          "title": "Journalier de production",
+          "location": "Unspecified",
+          "source_url": "https://www.usinagelaurentides.com/fr/carrieres/journalier-de-production"
+        }
+      ],
+      "id": "usinage-laurentides-fr",
+      "company_id": "usinage-laurentides",
+      "name": "Usinage Laurentides",
+      "careers_url": "https://www.usinagelaurentides.com/fr/carriere",
+      "request_url": "https://www.usinagelaurentides.com/fr/carriere",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231510.758379,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:23.591397+00:00",
+      "recipe_sha256": "d152612a7539424335ea466c7252b2bea70b7fac6a7788f1802e935ab3c9ea5a",
+      "strategy": "generic_html",
+      "job_count": 8,
+      "complete": true,
+      "pages": 9,
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Chargé de projet New",
+          "location": "Saguenay",
+          "source_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs/278082/charge-de-projet"
+        },
+        {
+          "title": "Estimateur New",
+          "location": "Saguenay",
+          "source_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs/278083/estimateur"
+        },
+        {
+          "title": "Commis d'entrepôt New",
+          "location": "Sept-Îles",
+          "source_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs/269233/commis-dentrepot"
+        },
+        {
+          "title": "Technicien(ne) approvisionnement et transport New",
+          "location": "Saguenay",
+          "source_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs/307765/technicienne-approvisionnement-et-transport"
+        },
+        {
+          "title": "Adjoint(e) Approvisionnement New",
+          "location": "Saguenay",
+          "source_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs/308788/adjointe-approvisionnement"
+        }
+      ],
+      "id": "groupe-ld-en",
+      "company_id": "groupe-ld",
+      "name": "Groupe LD",
+      "careers_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs",
+      "request_url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231944.8588762,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:23.697836+00:00",
+      "recipe_sha256": "7d641812be3fe11b9c781b0ed7cd5ff14c779b77e3313bf1d474619e52a043ee",
+      "strategy": "generic_html",
+      "job_count": 10,
+      "complete": true,
+      "pages": 11,
+      "warnings": [
+        "description detail enrichment was incomplete for 10 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Door and Window Assembler",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/en/careers/job-openings/monteureuse-de-portes-et-fenetres"
+        },
+        {
+          "title": "Technicien(ne) - Service après-vente",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/en/careers/job-openings/monteureuse-de-portes-et-fenetres-4"
+        },
+        {
+          "title": "Coordonnateur(trice) de bureau - Bois-des-Filion",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/en/careers/job-openings/monteureuse-de-portes-et-fenetres-3-3-2-2"
+        },
+        {
+          "title": "OPÉRATEUR / OPÉRATRICE DE MACHINE",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/en/careers/job-openings/monteureuse-de-portes-et-fenetres-6"
+        },
+        {
+          "title": "Technicien(ne) de recherche et développement (R&D)",
+          "location": "Unspecified",
+          "source_url": "https://www.isothermic.ca/en/careers/job-openings/monteureuse-de-portes-et-fenetres-4-2"
+        }
+      ],
+      "id": "isothermic-en",
+      "company_id": "isothermic",
+      "name": "Isothermic",
+      "careers_url": "https://www.isothermic.ca/en/careers/job-openings",
+      "request_url": "https://www.isothermic.ca/en/careers/job-openings",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231554.8270605,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:24.848411+00:00",
+      "recipe_sha256": "49815da7e84263d141f8a57f52771063e0b0617139c8457c03e3d46ad36fa07e",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Electromechanic",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/en/jobs/electromechanic"
+        },
+        {
+          "title": "General Laborer",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/en/jobs/general-laborer"
+        },
+        {
+          "title": "Loader Operator",
+          "location": "Unspecified",
+          "source_url": "https://sartigan.com/en/jobs/loader-operator"
+        }
+      ],
+      "id": "metal-sartigan-en",
+      "company_id": "metal-sartigan",
+      "name": "Métal Sartigan",
+      "careers_url": "https://sartigan.com/en/careers",
+      "request_url": "https://sartigan.com/en/careers/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231943.2196193,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:29.915072+00:00",
+      "recipe_sha256": "3c0b380b5772875500ca08f5afff7446483cfccd1f43a6268ae583a5bb7146b7",
+      "strategy": "generic_html",
+      "job_count": 2,
+      "complete": true,
+      "pages": 3,
+      "warnings": [
+        "description detail enrichment was incomplete for 2 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Servicetechniker",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/de/document/eba26a2d-7fc6-41b5-8d5e-82498e89e34b"
+        },
+        {
+          "title": "Anwendungstechniker",
+          "location": "Unspecified",
+          "source_url": "https://www.laserax.com/de/document/f9348098-9c48-4743-83da-79d0be42eec1"
+        }
+      ],
+      "id": "laserax-de",
+      "company_id": "laserax",
+      "name": "Laserax",
+      "careers_url": "https://www.laserax.com/de/karriere",
+      "request_url": "https://www.laserax.com/de/karriere",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231528.8943796,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "checked_at": "2026-10-29T00:03:31.858204+00:00",
+      "recipe_sha256": "72f3a24e83fcbe9858a6c43fb99f3a1aef1dac089dd9f5a77a389e2be42c2d52",
+      "strategy": "generic_html",
+      "job_count": 3,
+      "complete": true,
+      "pages": 4,
+      "warnings": [
+        "description detail enrichment was incomplete for 3 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Maintenance & Facilities Engineer",
+          "location": "Pessano con Bornago (MI)",
+          "source_url": "https://www.mpfiltri.com/fr/career/maintenance-facilities-engineer"
+        },
+        {
+          "title": "Mechanical Engineer – Hydraulic Filtration",
+          "location": "Quakertown, PA",
+          "source_url": "https://www.mpfiltri.com/fr/career/88862"
+        },
+        {
+          "title": "MS D365 TECHNICAL CONSULTANT",
+          "location": "Jamshedpur – India",
+          "source_url": "https://www.mpfiltri.com/fr/career/area-sales-engineer-jamshedpur-eastern-india-2"
+        }
+      ],
+      "id": "mp-filtri-fr",
+      "company_id": "mp-filtri",
+      "name": "MP Filtri",
+      "careers_url": "https://www.mpfiltri.com/fr/emplois",
+      "request_url": "https://www.mpfiltri.com/fr/emplois/",
+      "freehire": {
+        "status": "no_index_match",
+        "checked_at": 1793231370.2342064,
+        "freehire_slugs": [],
+        "catalog_identity_matches": []
+      },
+      "identity_review": null,
+      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    }
+  ],
+  "language_review": [
+    {
+      "id": "canatal-fr",
+      "board_items": 3,
+      "additional_posting_paths": 3,
+      "included": true,
+      "url": "https://www.canatal.net/fr/travailler-chez-canatal/"
+    },
+    {
+      "id": "m-tal-duquet-en",
+      "board_items": 1,
+      "additional_posting_paths": 1,
+      "included": true,
+      "url": "https://metalduquet.com/en/careers/"
+    },
+    {
+      "id": "acier-s-lect-en",
+      "board_items": 2,
+      "additional_posting_paths": 1,
+      "included": true,
+      "url": "https://acierselect.com/en/jobs/"
+    },
+    {
+      "id": "portes-lambton-en",
+      "board_items": 2,
+      "additional_posting_paths": 2,
+      "included": true,
+      "url": "https://www.lambtondoors.com/careers/"
+    },
+    {
+      "id": "laser-amp-en",
+      "board_items": 1,
+      "additional_posting_paths": 1,
+      "included": true,
+      "url": "https://laseramp.com/en/careers/"
+    },
+    {
+      "id": "lorendo-en",
+      "board_items": 1,
+      "additional_posting_paths": 1,
+      "included": true,
+      "url": "https://www.lorendo.com/en/careers/"
+    },
+    {
+      "id": "usinage-laurentides-fr",
+      "board_items": 4,
+      "additional_posting_paths": 4,
+      "included": true,
+      "url": "https://www.usinagelaurentides.com/fr/carriere"
+    },
+    {
+      "id": "groupe-ld-en",
+      "board_items": 8,
+      "additional_posting_paths": 8,
+      "included": true,
+      "url": "https://careers.jobsmedia.ca/8275/groupe-ld/jobs"
+    },
+    {
+      "id": "isothermic-en",
+      "board_items": 10,
+      "additional_posting_paths": 10,
+      "included": true,
+      "url": "https://www.isothermic.ca/en/careers/job-openings"
+    },
+    {
+      "id": "m-tal-sartigan-en",
+      "board_items": 3,
+      "additional_posting_paths": 3,
+      "included": true,
+      "url": "https://sartigan.com/en/careers/"
+    },
+    {
+      "id": "laserax-de",
+      "board_items": 2,
+      "additional_posting_paths": 2,
+      "included": true,
+      "url": "https://www.laserax.com/de/karriere"
+    },
+    {
+      "id": "mp-filtri-it",
+      "board_items": 3,
+      "additional_posting_paths": 0,
+      "included": false,
+      "url": "https://www.mpfiltri.com/it/careers-2/"
+    },
+    {
+      "id": "mp-filtri-de",
+      "board_items": 3,
+      "additional_posting_paths": 0,
+      "included": false,
+      "url": "https://www.mpfiltri.com/de/karriere/"
+    },
+    {
+      "id": "mp-filtri-fr",
+      "board_items": 3,
+      "additional_posting_paths": 1,
+      "included": true,
+      "url": "https://www.mpfiltri.com/fr/emplois/"
+    },
+    {
+      "id": "mp-filtri-pt",
+      "board_items": 3,
+      "additional_posting_paths": 0,
+      "included": false,
+      "url": "https://www.mpfiltri.com/pt-pt/carreiras/"
+    },
+    {
+      "id": "mp-filtri-ru",
+      "board_items": 3,
+      "additional_posting_paths": 0,
+      "included": false,
+      "url": "https://www.mpfiltri.com/ru/%d0%ba%d0%b0%d1%80%d1%8c%d0%b5%d1%80%d0%b0/"
+    },
+    {
+      "id": "mp-filtri-zh",
+      "board_items": 3,
+      "additional_posting_paths": 0,
+      "included": false,
+      "url": "https://www.mpfiltri.com/zh-hans/%e8%81%8c%e4%b8%9a%e7%94%9f%e6%b6%af/"
+    }
+  ]
+}

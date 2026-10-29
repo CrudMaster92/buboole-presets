@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nano-one-materials",
+  "name": "Nano One Materials",
+  "aliases": [
+    "Nano One"
+  ],
+  "website_url": "https://nanoone.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "advanced-materials"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "usinage-laurentides",
+  "name": "Usinage Laurentides",
+  "aliases": [
+    "Usinage Laurentides"
+  ],
+  "website_url": "https://usinagelaurentides.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

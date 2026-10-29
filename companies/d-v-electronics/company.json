@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "d-v-electronics",
+  "name": "D&V Electronics",
+  "aliases": [
+    "D V Electronics",
+    "D&V Electronics"
+  ],
+  "website_url": "https://dvelectronics.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

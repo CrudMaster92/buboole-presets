@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "armatures-bois-francs",
+  "name": "Armatures Bois-Francs",
+  "aliases": [
+    "ABF"
+  ],
+  "website_url": "https://abf-inc.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
