@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "additional-complete-boards-25-20261028",
-  "revision": 2,
+  "revision": 3,
   "name": "25 further employers — complete public boards",
   "description": "Twenty-five additional employers with complete public listing inventories, using unlimited deterministic traversal and differing language editions where needed. Local validation is paired with GitHub production evidence. Blocked employers are excluded; source records include translations and are not a unique-vacancy census.",
   "tags": [
@@ -30,13 +30,6 @@
       "monitor_ids": [
         "acier-select",
         "acier-select-en"
-      ],
-      "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
-    },
-    {
-      "company_id": "armatures-bois-francs",
-      "monitor_ids": [
-        "armatures-bois-francs"
       ],
       "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
     },
@@ -111,6 +104,13 @@
         "groupe-ld-en"
       ],
       "note": "Whole public listing inventories; no country, title, role-count or page-count sampling."
+    },
+    {
+      "company_id": "inogec",
+      "monitor_ids": [
+        "inogec"
+      ],
+      "note": "Entire unfiltered employer board from the employer-endorsed public source; no role, country or page-count sample."
     },
     {
       "company_id": "isothermic",

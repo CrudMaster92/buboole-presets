@@ -1,15 +1,14 @@
 # 25 further employers: complete public boards
 
-Final active collection: 25 employers, 36 complete listing sources and 183 observed source records. Counts include language translations and are not a unique-vacancy census.
+Final active collection: **25 companies and 36 complete source recipes**. Observed 180 source records; language translations can duplicate vacancies, so this is not a unique-vacancy count.
 
-Every recipe uses all-role coverage and unlimited end-of-source traversal, without country, title, role-count or description-count caps. The source JSON records timestamps, hashes, counts, pages, warnings and ownership/FreeHire evidence. Optional description availability remains separate from listing completeness.
+All recipes use all-role coverage and unlimited end-of-source traversal. No country, title, role-count, page-count or detail-count sampling is imposed. Description availability remains explicit and separate from listing completeness.
 
-Production review held back Groupe Morin and Laserax because GitHub receives HTTP 403. They are excluded from this collection and active feed pins. Garaga and TC Industries replace them; both full boards passed on GitHub Linux. The repaired Laser AMP and Armatures Bois-Francs sources also passed.
+Groupe Morin, Laserax and Armatures Bois-Francs are held back because normal GitHub collection is unavailable. They are excluded from this completed collection and active feed pins. Garaga, TC Industries and INOGEC replace them; their full source counts passed from GitHub Linux.
 
 | Company | Sources | Observed source records |
 |---|---:|---:|
 | Acier Sélect | 2 | 6 |
-| Armatures Bois-Francs | 1 | 4 |
 | Canatal | 2 | 6 |
 | D&V Electronics | 1 | 1 |
 | Denison Mines | 1 | 13 |
@@ -20,6 +19,7 @@ Production review held back Groupe Morin and Laserax because GitHub receives HTT
 | Génik | 1 | 5 |
 | Groupe EBM | 1 | 5 |
 | Groupe LD | 2 | 16 |
+| INOGEC | 1 | 1 |
 | Isothermic | 2 | 20 |
 | Laser AMP | 2 | 2 |
 | Lorendo | 2 | 2 |
@@ -34,8 +34,8 @@ Production review held back Groupe Morin and Laserax because GitHub receives HTT
 | TC Industries | 1 | 8 |
 | Usinage Laurentides | 2 | 8 |
 
-Garaga and Canatal currently advertise both US and Canadian openings. TC Industries advertises eight US roles and explicitly says its Canadian and UK plants are not currently hiring.
+Garaga and Canatal advertise both US and Canadian openings. TC Industries advertises eight US roles and explicitly says its other Canadian and UK plants are not currently hiring.
 
-The 470,724-company FreeHire directory snapshot is paired with current live company/alias checks. Three unrelated similarly named employers are documented in the JSON identity reviews.
+Source hashes, timestamps, counts, pages, ownership URLs, FreeHire identity checks and optional-description warnings are recorded in the accompanying JSON. The 470,724-company directory snapshot is supplemented with current live employer/alias checks.
 
-Runner repair proof: https://github.com/CrudMaster92/buboole-jobs/actions/runs/40836827454
+INOGEC full-board runner proof: https://github.com/CrudMaster92/buboole-jobs/actions/runs/40841695863
