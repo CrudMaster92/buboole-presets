@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-29T00:04:44.033917+00:00",
+  "checked_at": "2026-10-29T07:42:12.384439+00:00",
   "companies": 25,
-  "monitors": 38,
-  "listing_complete_monitors": 38,
-  "observed_source_records": 176,
+  "monitors": 36,
+  "listing_complete_monitors": 36,
+  "observed_source_records": 183,
   "description_records": 59,
   "freehire_directory": {
     "checked_at": "2026-10-28T23:58:03.886915+00:00",
@@ -21,7 +21,12 @@
     "Fenplast uses its actual unfiltered AMP listing endpoint, with source-proven city fields, rather than treating WordPress archives as the live board.",
     "D&V Electronics uses the current corporate careers listing. Its WordPress API returned an additional older role absent from that listing; it was excluded.",
     "General applications and talent pools are not treated as current vacancies.",
-    "Source posting URLs, not titles or country filters, bound source ownership. PDFs remain valid public application/description destinations; unavailable description enrichment stays visible."
+    "Source posting URLs, not titles or country filters, bound source ownership. PDFs remain valid public application/description destinations; unavailable description enrichment stays visible.",
+    "Production review excluded Groupe Morin and Laserax after GitHub received HTTP 403; neither is counted in the completed 25-company collection. Their catalog verification is explicitly degraded, with unknown current count.",
+    "Garaga and TC Industries replace the two blocked employers. Garaga advertises US and Canadian roles; TC Industries links its full ADP inventory and explicitly marks its other three plants Currently Not Hiring.",
+    "Laser AMP revision 2 uses a simple :has selector supported by the production CSS parser; no roles were removed. Armatures Bois-Francs revision 2 allows the existing maximum supported 30-second request timeout.",
+    "Groupe Honco was considered but rejected: its page advertises 24 roles while its structured metadata describes only one. No incomplete Honco scraper was admitted.",
+    "The final active batch has 36 source recipes for 25 companies. Existing pre-task public pins remain unchanged."
   ],
   "sources": [
     {
@@ -62,8 +67,8 @@
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
-      "checked_at": "2026-10-28T23:52:32.808897+00:00",
-      "recipe_sha256": "1c26ed8382f3793387d719291a662decd57b80477062049eb9dc8188b466733c",
+      "checked_at": "2026-10-29T07:40:26.424813+00:00",
+      "recipe_sha256": "4bfe0a09038231bfcdc0c0ff144ed2c6bcb87e9da15659fe789dc65eedf8b94b",
       "strategy": "generic_json",
       "job_count": 4,
       "complete": true,
@@ -421,8 +426,8 @@
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
-      "checked_at": "2026-10-28T23:57:45.192187+00:00",
-      "recipe_sha256": "a29b7c50a0cadb40dce9881873c1196749586cbf70b059c2d72fd886d0e183e7",
+      "checked_at": "2026-10-29T07:40:26.453356+00:00",
+      "recipe_sha256": "865353ab822a6c5832394a3e30c1fbbb227ed85562d0f149b7b0e7f450a28ef7",
       "strategy": "generic_html",
       "job_count": 1,
       "complete": true,
@@ -618,58 +623,6 @@
       "freehire": {
         "status": "no_index_match",
         "checked_at": 1793231944.3661523,
-        "freehire_slugs": [],
-        "catalog_identity_matches": []
-      },
-      "identity_review": null,
-      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
-    },
-    {
-      "checked_at": "2026-10-28T23:56:11.857095+00:00",
-      "recipe_sha256": "b56509e8093eb4fdc5a2475c122063696571db85b168c3ff2445c56c4016b4d5",
-      "strategy": "generic_html",
-      "job_count": 5,
-      "complete": true,
-      "pages": 6,
-      "warnings": [
-        "description detail enrichment was incomplete for 5 jobs"
-      ],
-      "with_description": 0,
-      "samples": [
-        {
-          "title": "Responsable de la Loi 430",
-          "location": "Unspecified",
-          "source_url": "https://www.groupemorin.ca/carriere/responsable-de-la-loi-430"
-        },
-        {
-          "title": "Responsable de la vente au détail (comptoir pneus)",
-          "location": "Unspecified",
-          "source_url": "https://www.groupemorin.ca/carriere/responsable-de-la-vente-au-detail-comptoir-pneus"
-        },
-        {
-          "title": "Opérateur / Opératrice de déneigeuse",
-          "location": "Unspecified",
-          "source_url": "https://www.groupemorin.ca/carriere/operateur-de-deneigeuse"
-        },
-        {
-          "title": "Opérateur / Opératrice de camions",
-          "location": "Unspecified",
-          "source_url": "https://www.groupemorin.ca/carriere/operateur-de-camions"
-        },
-        {
-          "title": "Mécanicien / Mécanicienne machineries lourdes",
-          "location": "Unspecified",
-          "source_url": "https://www.groupemorin.ca/carriere/mecanicien-machineries-lourdes"
-        }
-      ],
-      "id": "groupe-morin",
-      "company_id": "groupe-morin",
-      "name": "Groupe Morin",
-      "careers_url": "https://www.groupemorin.ca/carriere",
-      "request_url": "https://www.groupemorin.ca/carriere/",
-      "freehire": {
-        "status": "no_index_match",
-        "checked_at": 1793231944.5451512,
         "freehire_slugs": [],
         "catalog_identity_matches": []
       },
@@ -1088,90 +1041,6 @@
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
-      "checked_at": "2026-10-28T23:57:48.985380+00:00",
-      "recipe_sha256": "a653ca3c1cf9a86c1844064df1ff1c556fd18c3b395fdffd07475ab36b885fea",
-      "strategy": "generic_html",
-      "job_count": 8,
-      "complete": true,
-      "pages": 8,
-      "warnings": [
-        "description detail enrichment was incomplete for 8 jobs"
-      ],
-      "with_description": 0,
-      "samples": [
-        {
-          "title": "ASSEMBLEUR - SYSTÈME LASER",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/fr/document/dd8db2bd-2183-4f6d-b74d-c37875ad937b"
-        },
-        {
-          "title": "Architecte d'Affaires IA",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/fr/document/1ac77c5c-24c3-4515-bf5b-cc92e40dfb08"
-        },
-        {
-          "title": "Conseiller(ère) en Ressources Humaines",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/fr/document/a6d5668e-ad40-41c4-a1df-523f7d72433b"
-        },
-        {
-          "title": "JOURNALIER(ÈRE)",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/fr/document/61617ba5-df3f-4f26-bcba-a21da7513b3b"
-        },
-        {
-          "title": "Ingénieur(e) mécanique",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/fr/document/a4cb406e-bf98-425f-a053-6e629e98f837"
-        }
-      ],
-      "id": "laserax",
-      "company_id": "laserax",
-      "name": "Laserax",
-      "careers_url": "https://www.laserax.com/fr/carrieres",
-      "request_url": "https://www.laserax.com/fr/carrieres",
-      "freehire": {
-        "status": "no_index_match",
-        "checked_at": 1793231528.8943796,
-        "freehire_slugs": [],
-        "catalog_identity_matches": []
-      },
-      "identity_review": null,
-      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
-    },
-    {
-      "checked_at": "2026-10-28T23:57:52.589601+00:00",
-      "recipe_sha256": "179dddf2aa0a19563d9bda638c7792f951bb29ebe7285b11560a03556e865321",
-      "strategy": "generic_html",
-      "job_count": 1,
-      "complete": true,
-      "pages": 2,
-      "warnings": [
-        "description detail enrichment was incomplete for 1 jobs"
-      ],
-      "with_description": 0,
-      "samples": [
-        {
-          "title": "SENIOR APPLICATION LAB ENGINEER",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/document/20a4681b-5220-49c5-9eff-8a36d9ad5ffd"
-        }
-      ],
-      "id": "laserax-en",
-      "company_id": "laserax",
-      "name": "Laserax",
-      "careers_url": "https://www.laserax.com/careers",
-      "request_url": "https://www.laserax.com/careers",
-      "freehire": {
-        "status": "no_index_match",
-        "checked_at": 1793231528.8943796,
-        "freehire_slugs": [],
-        "catalog_identity_matches": []
-      },
-      "identity_review": null,
-      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
-    },
-    {
       "checked_at": "2026-10-29T00:03:15.637762+00:00",
       "recipe_sha256": "0944d4396e928beae723a72c3fc1847d0c489165d5ea4a47235b148e64b1bd7e",
       "strategy": "generic_html",
@@ -1320,8 +1189,8 @@
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
-      "checked_at": "2026-10-29T00:03:21.231645+00:00",
-      "recipe_sha256": "a729e9d44d4fb68357e29ce2e328aa6f4a79519ce8edc3c65646624bca05c930",
+      "checked_at": "2026-10-29T07:40:26.577947+00:00",
+      "recipe_sha256": "2705483494fa428d5ae4d4d0294d2689791b26643b6763db08bf371bf859e8b1",
       "strategy": "generic_html",
       "job_count": 1,
       "complete": true,
@@ -1573,43 +1442,6 @@
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
-      "checked_at": "2026-10-29T00:03:29.915072+00:00",
-      "recipe_sha256": "3c0b380b5772875500ca08f5afff7446483cfccd1f43a6268ae583a5bb7146b7",
-      "strategy": "generic_html",
-      "job_count": 2,
-      "complete": true,
-      "pages": 3,
-      "warnings": [
-        "description detail enrichment was incomplete for 2 jobs"
-      ],
-      "with_description": 0,
-      "samples": [
-        {
-          "title": "Servicetechniker",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/de/document/eba26a2d-7fc6-41b5-8d5e-82498e89e34b"
-        },
-        {
-          "title": "Anwendungstechniker",
-          "location": "Unspecified",
-          "source_url": "https://www.laserax.com/de/document/f9348098-9c48-4743-83da-79d0be42eec1"
-        }
-      ],
-      "id": "laserax-de",
-      "company_id": "laserax",
-      "name": "Laserax",
-      "careers_url": "https://www.laserax.com/de/karriere",
-      "request_url": "https://www.laserax.com/de/karriere",
-      "freehire": {
-        "status": "no_index_match",
-        "checked_at": 1793231528.8943796,
-        "freehire_slugs": [],
-        "catalog_identity_matches": []
-      },
-      "identity_review": null,
-      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
-    },
-    {
       "checked_at": "2026-10-29T00:03:31.858204+00:00",
       "recipe_sha256": "72f3a24e83fcbe9858a6c43fb99f3a1aef1dac089dd9f5a77a389e2be42c2d52",
       "strategy": "generic_html",
@@ -1650,6 +1482,1900 @@
       },
       "identity_review": null,
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
+    },
+    {
+      "id": "garaga",
+      "company_id": "garaga",
+      "name": "Garaga",
+      "ownership": "Official employer careers source; entire active inventory and source ownership independently checked from GitHub Linux.",
+      "freehire": {
+        "id": "garaga",
+        "name": "Garaga",
+        "domain": "garaga.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "live_queries": [
+          {
+            "query": "Garaga",
+            "total": 100,
+            "companies": [
+              {
+                "slug": "garage",
+                "name": "Garage",
+                "job_count": 23
+              },
+              {
+                "slug": "garageplay-che-ku-yu-le-gu-fen-you-xian-gong-si",
+                "name": "GaragePlay_車庫娛樂股份有限公司",
+                "job_count": 7
+              },
+              {
+                "slug": "garageco",
+                "name": "GarageCo",
+                "job_count": 5
+              },
+              {
+                "slug": "garage-door-doctor",
+                "name": "Garage Door Doctor",
+                "job_count": 4
+              },
+              {
+                "slug": "garage-team",
+                "name": "Garage Team",
+                "job_count": 3
+              },
+              {
+                "slug": "garage-baschnagel",
+                "name": "Garage Baschnagel AG",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-door-marketing-lab",
+                "name": "Garage Door Marketing Lab",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-door-partners",
+                "name": "Garage Door Partners",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-gautschi",
+                "name": "Garage Gautschi AG",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-catedral-s-l",
+                "name": "GARAGE CATEDRAL S.L.",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-club",
+                "name": "GARAGE CLUB",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-collective",
+                "name": "Garage Collective",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-force",
+                "name": "Garage Force",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-force-of-miami",
+                "name": "Garage Force of Miami",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-hofmann",
+                "name": "Garage Hofmann AG",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-in-estacionamentos",
+                "name": "Garage In Estacionamentos",
+                "job_count": 1
+              },
+              {
+                "slug": "garageinn",
+                "name": "Garageinn",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kings-albany",
+                "name": "Garage Kings Albany",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kings-cincinnati-dayton",
+                "name": "Garage Kings Cincinnati, Dayton",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kk",
+                "name": "株式会社Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-lager",
+                "name": "Garage/lager",
+                "job_count": 1
+              },
+              {
+                "slug": "garageplug",
+                "name": "garageplug",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-pros",
+                "name": "Garage Pros",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-vonlanthen",
+                "name": "Garage Vonlanthen AG",
+                "job_count": 1
+              },
+              {
+                "slug": "garagewerket",
+                "name": "Garagewerket AB",
+                "job_count": 1
+              },
+              {
+                "slug": "fords-garage",
+                "name": "Ford's Garage",
+                "job_count": 37
+              },
+              {
+                "slug": "guild-garage-group",
+                "name": "Guild Garage Group",
+                "job_count": 34
+              },
+              {
+                "slug": "midland-garage-door",
+                "name": "Midland Garage Door",
+                "job_count": 11
+              },
+              {
+                "slug": "a1-garage-door-service",
+                "name": "A1 Garage Door Service",
+                "job_count": 9
+              },
+              {
+                "slug": "digital-garage",
+                "name": "Digital Garage",
+                "job_count": 6
+              },
+              {
+                "slug": "dons-garage-doors",
+                "name": "Don's Garage Doors",
+                "job_count": 6
+              },
+              {
+                "slug": "fords-garage-liberty",
+                "name": "fords garage liberty",
+                "job_count": 6
+              },
+              {
+                "slug": "madhus-garage-equipment",
+                "name": "MADHUS GARAGE EQUIPMENT",
+                "job_count": 6
+              },
+              {
+                "slug": "reynolds-garage-marine",
+                "name": "Reynolds' Garage & Marine",
+                "job_count": 6
+              },
+              {
+                "slug": "hamster-garage",
+                "name": "Hamster Garage",
+                "job_count": 4
+              },
+              {
+                "slug": "safeway-garage-doors",
+                "name": "SAFEWAY GARAGE DOORS, LLC",
+                "job_count": 4
+              },
+              {
+                "slug": "swansway-garages",
+                "name": "Swansway Garages",
+                "job_count": 4
+              },
+              {
+                "slug": "action-garage-doors",
+                "name": "Action Garage Doors",
+                "job_count": 3
+              },
+              {
+                "slug": "century-garage-door-repair-service",
+                "name": "CENTURY GARAGE DOOR REPAIR SERVICE",
+                "job_count": 3
+              },
+              {
+                "slug": "guardian-garage-floors",
+                "name": "Guardian Garage Floors",
+                "job_count": 3
+              },
+              {
+                "slug": "wayne-garage-door-sales-service",
+                "name": "Wayne Garage Door Sales & Service",
+                "job_count": 3
+              },
+              {
+                "slug": "betts-garage-b-g-glass",
+                "name": "Betts Garage & B&G Glass",
+                "job_count": 2
+              },
+              {
+                "slug": "gaithersburg-garage-doors",
+                "name": "Gaithersburg Garage Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "goody-garage-doors",
+                "name": "Goody Garage Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "ringways-garages",
+                "name": "Ringways Garages",
+                "job_count": 2
+              },
+              {
+                "slug": "suya-garage-bi-sa-guo-ji-shang-xing",
+                "name": "SUYA garage_比薩國際商行",
+                "job_count": 2
+              },
+              {
+                "slug": "welborn-garage",
+                "name": "Welborn Garage",
+                "job_count": 2
+              },
+              {
+                "slug": "access-garage-doors",
+                "name": "Access Garage Doors Ltd",
+                "job_count": 1
+              },
+              {
+                "slug": "city-garage",
+                "name": "City Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "corner-garage",
+                "name": "CORNER GARAGE OY",
+                "job_count": 1
+              },
+              {
+                "slug": "fenrir-garage",
+                "name": "Fenrir garage",
+                "job_count": 1
+              },
+              {
+                "slug": "gator-garage-doors",
+                "name": "Gator Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "grillen-garage",
+                "name": "Grillen Garage AG",
+                "job_count": 1
+              },
+              {
+                "slug": "griots-garage",
+                "name": "Griot's Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "hunters-garage",
+                "name": "Hunter's Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "kitsap-garage-door",
+                "name": "Kitsap Garage Door Co.",
+                "job_count": 1
+              },
+              {
+                "slug": "leonhardt-garagen",
+                "name": "Leonhardt Garagen GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "madhus-garage-eqts",
+                "name": "MADHUS GARAGE EQTS P LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "paddock-garage-automocion-sl",
+                "name": "PADDOCK GARAGE AUTOMOCION SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "ponderosa-garage-doors",
+                "name": "Ponderosa Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "rammar-garage-sl",
+                "name": "RAMMAR GARAGE SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "santos-garage-sociedad-limitada",
+                "name": "SANTOS GARAGE SOCIEDAD LIMITADA.",
+                "job_count": 1
+              },
+              {
+                "slug": "scheidweg-garage",
+                "name": "Scheidweg-Garage AG",
+                "job_count": 1
+              },
+              {
+                "slug": "transpennine-garage-equipment",
+                "name": "Transpennine Garage Equipment",
+                "job_count": 1
+              },
+              {
+                "slug": "trojan-garage-equipment-service",
+                "name": "Trojan Garage Equipment Service Ltd",
+                "job_count": 1
+              },
+              {
+                "slug": "designo-exotic-garage",
+                "name": "Designo Exotic Garage LLC",
+                "job_count": 3
+              },
+              {
+                "slug": "right-way-garage-doors",
+                "name": "Right Way Garage Doors",
+                "job_count": 3
+              },
+              {
+                "slug": "the-detroit-garage",
+                "name": "The Detroit Garage",
+                "job_count": 3
+              },
+              {
+                "slug": "all-four-seasons-garage",
+                "name": "All Four Seasons Garage",
+                "job_count": 2
+              },
+              {
+                "slug": "a-plus-garage-doors-utah",
+                "name": "A Plus Garage Doors - Utah",
+                "job_count": 2
+              },
+              {
+                "slug": "sonic-auto-garage",
+                "name": "SONIC AUTO GARAGE PTE. LTD.",
+                "job_count": 2
+              },
+              {
+                "slug": "action-overhead-garage-door",
+                "name": "Action Overhead Garage Door",
+                "job_count": 1
+              },
+              {
+                "slug": "camel-king-auto-repairing-garage",
+                "name": "Camel king auto repairing garage",
+                "job_count": 1
+              },
+              {
+                "slug": "ogd-overhead-garage-door",
+                "name": "OGD Overhead Garage Door",
+                "job_count": 1
+              },
+              {
+                "slug": "pink-lab-garage",
+                "name": "pink lab garage",
+                "job_count": 1
+              },
+              {
+                "slug": "tip-top-garage-doors",
+                "name": "Tip Top Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "turia-auto-garage-sl",
+                "name": "Turia Auto Garage SL",
+                "job_count": 1
+              },
+              {
+                "slug": "we-are-garage",
+                "name": "WE ARE GARAGE",
+                "job_count": 1
+              },
+              {
+                "slug": "garapagosu-kk",
+                "name": "株式会社ガラパゴス",
+                "job_count": 2
+              },
+              {
+                "slug": "one-clear-choice",
+                "name": "One Clear Choice",
+                "job_count": 2
+              },
+              {
+                "slug": "precision-door-service",
+                "name": "Precision Door Service",
+                "job_count": 23
+              },
+              {
+                "slug": "pdq-doors",
+                "name": "PDQ Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "clopay",
+                "name": "clopay",
+                "job_count": 34
+              },
+              {
+                "slug": "chamberlain-group",
+                "name": "Chamberlain Group",
+                "job_count": 32
+              },
+              {
+                "slug": "the-mcalear-group",
+                "name": "The McAlear Group",
+                "job_count": 7
+              },
+              {
+                "slug": "banko-overhead-doors",
+                "name": "Banko Overhead Doors",
+                "job_count": 6
+              },
+              {
+                "slug": "fringe-sport",
+                "name": "Fringe Sport",
+                "job_count": 6
+              },
+              {
+                "slug": "napoleon-spring-works",
+                "name": "Napoleon Spring Works",
+                "job_count": 6
+              },
+              {
+                "slug": "idc-spring",
+                "name": "IDC Spring",
+                "job_count": 5
+              },
+              {
+                "slug": "action-industries",
+                "name": "Action Industries",
+                "job_count": 3
+              },
+              {
+                "slug": "raynor-manufacturing",
+                "name": "Raynor Manufacturing",
+                "job_count": 3
+              },
+              {
+                "slug": "cheney-door-company",
+                "name": "Cheney Door Company",
+                "job_count": 2
+              },
+              {
+                "slug": "quality-overhead-door",
+                "name": "Quality Overhead Door",
+                "job_count": 2
+              },
+              {
+                "slug": "apple-door-systems",
+                "name": "Apple Door Systems",
+                "job_count": 1
+              },
+              {
+                "slug": "genson-overhead-door",
+                "name": "Genson Overhead Door",
+                "job_count": 1
+              },
+              {
+                "slug": "overhead-door-solutions",
+                "name": "Overhead Door Solutions",
+                "job_count": 1
+              },
+              {
+                "slug": "tuff-shed",
+                "name": "Tuff Shed",
+                "job_count": 19
+              },
+              {
+                "slug": "thrasher-group",
+                "name": "Thrasher Group",
+                "job_count": 4
+              },
+              {
+                "slug": "idcautomatic",
+                "name": "idcAutomatic",
+                "job_count": 2
+              },
+              {
+                "slug": "absolute-services",
+                "name": "Absolute Services",
+                "job_count": 4
+              }
+            ]
+          },
+          {
+            "query": "Garaga Inc",
+            "total": 90,
+            "companies": [
+              {
+                "slug": "garage",
+                "name": "Garage",
+                "job_count": 23
+              },
+              {
+                "slug": "garage-door-doctor",
+                "name": "Garage Door Doctor",
+                "job_count": 4
+              },
+              {
+                "slug": "garage-team",
+                "name": "Garage Team",
+                "job_count": 3
+              },
+              {
+                "slug": "garage-baschnagel",
+                "name": "Garage Baschnagel AG",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-door-marketing-lab",
+                "name": "Garage Door Marketing Lab",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-door-partners",
+                "name": "Garage Door Partners",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-gautschi",
+                "name": "Garage Gautschi AG",
+                "job_count": 2
+              },
+              {
+                "slug": "garage-catedral-s-l",
+                "name": "GARAGE CATEDRAL S.L.",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-club",
+                "name": "GARAGE CLUB",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-collective",
+                "name": "Garage Collective",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-force",
+                "name": "Garage Force",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-force-of-miami",
+                "name": "Garage Force of Miami",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-hofmann",
+                "name": "Garage Hofmann AG",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-in-estacionamentos",
+                "name": "Garage In Estacionamentos",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kings-albany",
+                "name": "Garage Kings Albany",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kings-cincinnati-dayton",
+                "name": "Garage Kings Cincinnati, Dayton",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-kk",
+                "name": "株式会社Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-lager",
+                "name": "Garage/lager",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-pros",
+                "name": "Garage Pros",
+                "job_count": 1
+              },
+              {
+                "slug": "garage-vonlanthen",
+                "name": "Garage Vonlanthen AG",
+                "job_count": 1
+              },
+              {
+                "slug": "fords-garage",
+                "name": "Ford's Garage",
+                "job_count": 37
+              },
+              {
+                "slug": "guild-garage-group",
+                "name": "Guild Garage Group",
+                "job_count": 34
+              },
+              {
+                "slug": "midland-garage-door",
+                "name": "Midland Garage Door",
+                "job_count": 11
+              },
+              {
+                "slug": "a1-garage-door-service",
+                "name": "A1 Garage Door Service",
+                "job_count": 9
+              },
+              {
+                "slug": "digital-garage",
+                "name": "Digital Garage",
+                "job_count": 6
+              },
+              {
+                "slug": "dons-garage-doors",
+                "name": "Don's Garage Doors",
+                "job_count": 6
+              },
+              {
+                "slug": "fords-garage-liberty",
+                "name": "fords garage liberty",
+                "job_count": 6
+              },
+              {
+                "slug": "madhus-garage-equipment",
+                "name": "MADHUS GARAGE EQUIPMENT",
+                "job_count": 6
+              },
+              {
+                "slug": "reynolds-garage-marine",
+                "name": "Reynolds' Garage & Marine",
+                "job_count": 6
+              },
+              {
+                "slug": "hamster-garage",
+                "name": "Hamster Garage",
+                "job_count": 4
+              },
+              {
+                "slug": "safeway-garage-doors",
+                "name": "SAFEWAY GARAGE DOORS, LLC",
+                "job_count": 4
+              },
+              {
+                "slug": "action-garage-doors",
+                "name": "Action Garage Doors",
+                "job_count": 3
+              },
+              {
+                "slug": "century-garage-door-repair-service",
+                "name": "CENTURY GARAGE DOOR REPAIR SERVICE",
+                "job_count": 3
+              },
+              {
+                "slug": "guardian-garage-floors",
+                "name": "Guardian Garage Floors",
+                "job_count": 3
+              },
+              {
+                "slug": "wayne-garage-door-sales-service",
+                "name": "Wayne Garage Door Sales & Service",
+                "job_count": 3
+              },
+              {
+                "slug": "betts-garage-b-g-glass",
+                "name": "Betts Garage & B&G Glass",
+                "job_count": 2
+              },
+              {
+                "slug": "gaithersburg-garage-doors",
+                "name": "Gaithersburg Garage Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "goody-garage-doors",
+                "name": "Goody Garage Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "suya-garage-bi-sa-guo-ji-shang-xing",
+                "name": "SUYA garage_比薩國際商行",
+                "job_count": 2
+              },
+              {
+                "slug": "welborn-garage",
+                "name": "Welborn Garage",
+                "job_count": 2
+              },
+              {
+                "slug": "access-garage-doors",
+                "name": "Access Garage Doors Ltd",
+                "job_count": 1
+              },
+              {
+                "slug": "city-garage",
+                "name": "City Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "corner-garage",
+                "name": "CORNER GARAGE OY",
+                "job_count": 1
+              },
+              {
+                "slug": "fenrir-garage",
+                "name": "Fenrir garage",
+                "job_count": 1
+              },
+              {
+                "slug": "gator-garage-doors",
+                "name": "Gator Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "grillen-garage",
+                "name": "Grillen Garage AG",
+                "job_count": 1
+              },
+              {
+                "slug": "griots-garage",
+                "name": "Griot's Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "hunters-garage",
+                "name": "Hunter's Garage",
+                "job_count": 1
+              },
+              {
+                "slug": "kitsap-garage-door",
+                "name": "Kitsap Garage Door Co.",
+                "job_count": 1
+              },
+              {
+                "slug": "madhus-garage-eqts",
+                "name": "MADHUS GARAGE EQTS P LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "paddock-garage-automocion-sl",
+                "name": "PADDOCK GARAGE AUTOMOCION SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "ponderosa-garage-doors",
+                "name": "Ponderosa Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "rammar-garage-sl",
+                "name": "RAMMAR GARAGE SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "santos-garage-sociedad-limitada",
+                "name": "SANTOS GARAGE SOCIEDAD LIMITADA.",
+                "job_count": 1
+              },
+              {
+                "slug": "scheidweg-garage",
+                "name": "Scheidweg-Garage AG",
+                "job_count": 1
+              },
+              {
+                "slug": "transpennine-garage-equipment",
+                "name": "Transpennine Garage Equipment",
+                "job_count": 1
+              },
+              {
+                "slug": "trojan-garage-equipment-service",
+                "name": "Trojan Garage Equipment Service Ltd",
+                "job_count": 1
+              },
+              {
+                "slug": "designo-exotic-garage",
+                "name": "Designo Exotic Garage LLC",
+                "job_count": 3
+              },
+              {
+                "slug": "right-way-garage-doors",
+                "name": "Right Way Garage Doors",
+                "job_count": 3
+              },
+              {
+                "slug": "the-detroit-garage",
+                "name": "The Detroit Garage",
+                "job_count": 3
+              },
+              {
+                "slug": "all-four-seasons-garage",
+                "name": "All Four Seasons Garage",
+                "job_count": 2
+              },
+              {
+                "slug": "a-plus-garage-doors-utah",
+                "name": "A Plus Garage Doors - Utah",
+                "job_count": 2
+              },
+              {
+                "slug": "sonic-auto-garage",
+                "name": "SONIC AUTO GARAGE PTE. LTD.",
+                "job_count": 2
+              },
+              {
+                "slug": "action-overhead-garage-door",
+                "name": "Action Overhead Garage Door",
+                "job_count": 1
+              },
+              {
+                "slug": "camel-king-auto-repairing-garage",
+                "name": "Camel king auto repairing garage",
+                "job_count": 1
+              },
+              {
+                "slug": "ogd-overhead-garage-door",
+                "name": "OGD Overhead Garage Door",
+                "job_count": 1
+              },
+              {
+                "slug": "pink-lab-garage",
+                "name": "pink lab garage",
+                "job_count": 1
+              },
+              {
+                "slug": "tip-top-garage-doors",
+                "name": "Tip Top Garage Doors",
+                "job_count": 1
+              },
+              {
+                "slug": "turia-auto-garage-sl",
+                "name": "Turia Auto Garage SL",
+                "job_count": 1
+              },
+              {
+                "slug": "we-are-garage",
+                "name": "WE ARE GARAGE",
+                "job_count": 1
+              },
+              {
+                "slug": "one-clear-choice",
+                "name": "One Clear Choice",
+                "job_count": 2
+              },
+              {
+                "slug": "precision-door-service",
+                "name": "Precision Door Service",
+                "job_count": 23
+              },
+              {
+                "slug": "pdq-doors",
+                "name": "PDQ Doors",
+                "job_count": 2
+              },
+              {
+                "slug": "clopay",
+                "name": "clopay",
+                "job_count": 34
+              },
+              {
+                "slug": "chamberlain-group",
+                "name": "Chamberlain Group",
+                "job_count": 32
+              },
+              {
+                "slug": "the-mcalear-group",
+                "name": "The McAlear Group",
+                "job_count": 7
+              },
+              {
+                "slug": "banko-overhead-doors",
+                "name": "Banko Overhead Doors",
+                "job_count": 6
+              },
+              {
+                "slug": "fringe-sport",
+                "name": "Fringe Sport",
+                "job_count": 6
+              },
+              {
+                "slug": "napoleon-spring-works",
+                "name": "Napoleon Spring Works",
+                "job_count": 6
+              },
+              {
+                "slug": "idc-spring",
+                "name": "IDC Spring",
+                "job_count": 5
+              },
+              {
+                "slug": "action-industries",
+                "name": "Action Industries",
+                "job_count": 3
+              },
+              {
+                "slug": "raynor-manufacturing",
+                "name": "Raynor Manufacturing",
+                "job_count": 3
+              },
+              {
+                "slug": "cheney-door-company",
+                "name": "Cheney Door Company",
+                "job_count": 2
+              },
+              {
+                "slug": "quality-overhead-door",
+                "name": "Quality Overhead Door",
+                "job_count": 2
+              },
+              {
+                "slug": "apple-door-systems",
+                "name": "Apple Door Systems",
+                "job_count": 1
+              },
+              {
+                "slug": "genson-overhead-door",
+                "name": "Genson Overhead Door",
+                "job_count": 1
+              },
+              {
+                "slug": "overhead-door-solutions",
+                "name": "Overhead Door Solutions",
+                "job_count": 1
+              },
+              {
+                "slug": "thrasher-group",
+                "name": "Thrasher Group",
+                "job_count": 4
+              },
+              {
+                "slug": "idcautomatic",
+                "name": "idcAutomatic",
+                "job_count": 2
+              },
+              {
+                "slug": "absolute-services",
+                "name": "Absolute Services",
+                "job_count": 4
+              }
+            ]
+          }
+        ],
+        "checked_at": 1793258967.3377688,
+        "screen_version": 2
+      },
+      "checked_at": "2026-10-29T07:29:56.107501+00:00",
+      "recipe_sha256": "267a2cddb92820f720f20180d142b60273d9b4950bee9704adc0445f4119c604",
+      "strategy": "generic_html",
+      "job_count": 15,
+      "complete": true,
+      "pages": 16,
+      "warnings": [
+        "description detail enrichment was incomplete for 15 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Human Resources Manager",
+          "location": "Unspecified",
+          "source_url": "https://www.garaga.com/job-offer/human-resources-manager"
+        },
+        {
+          "title": "Applications Engineering Technician",
+          "location": "Unspecified",
+          "source_url": "https://www.garaga.com/job-offer/applications-engineering-technician"
+        },
+        {
+          "title": "Applications Engineering Technician NC",
+          "location": "Unspecified",
+          "source_url": "https://www.garaga.com/job-offer/applications-engineering-technician-nc"
+        },
+        {
+          "title": "Human Resources Business Partner",
+          "location": "Unspecified",
+          "source_url": "https://www.garaga.com/ca/job-offer/human-resources-business-partner"
+        },
+        {
+          "title": "Driver/Warehouse Team Member",
+          "location": "Unspecified",
+          "source_url": "https://www.garaga.com/ca/job-offer/driver-warehouse-team-member-red-deer"
+        }
+      ],
+      "careers_url": "https://www.garaga.com/about-us/careers",
+      "request_url": "https://www.garaga.com/about-us/careers"
+    },
+    {
+      "id": "tc-industries",
+      "company_id": "tc-industries",
+      "name": "TC Industries",
+      "ownership": "Official employer careers source; entire active inventory and source ownership independently checked from GitHub Linux.",
+      "freehire": {
+        "id": "tc-industries",
+        "name": "TC Industries",
+        "domain": "tcindustries.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "live_queries": [
+          {
+            "query": "TC Industries",
+            "total": 30,
+            "companies": [
+              {
+                "slug": "tc-pharmaceutical-industries",
+                "name": "TC Pharmaceutical Industries Co., Ltd.",
+                "job_count": 2
+              },
+              {
+                "slug": "tdindustries",
+                "name": "TDIndustries",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-restaurant-group",
+                "name": "TC Restaurant Group",
+                "job_count": 58
+              },
+              {
+                "slug": "tc-energy",
+                "name": "TC Energy",
+                "job_count": 18
+              },
+              {
+                "slug": "tc-north-shore",
+                "name": "TC North Shore",
+                "job_count": 12
+              },
+              {
+                "slug": "tc-services",
+                "name": "TC Services LLC",
+                "job_count": 8
+              },
+              {
+                "slug": "tc-squared",
+                "name": "TC Squared",
+                "job_count": 3
+              },
+              {
+                "slug": "tc-global",
+                "name": "TC Global",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-import-export",
+                "name": "TC IMPORT & EXPORT PTE LTD",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-shadowlight",
+                "name": "TC Shadowlight",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-56",
+                "name": "TC 56",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-coatings",
+                "name": "TC Coatings",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-consulting",
+                "name": "TC Consulting",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-flights-germany",
+                "name": "TC Flights Germany GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-montacargas",
+                "name": "TC Montacargas",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-networks",
+                "name": "TC Networks",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-rhinozon",
+                "name": "TC Rhinozon",
+                "job_count": 1
+              },
+              {
+                "slug": "tryton-tc",
+                "name": "Tryton TC LLC",
+                "job_count": 4
+              },
+              {
+                "slug": "green-tc",
+                "name": "Green TC GmbH",
+                "job_count": 3
+              },
+              {
+                "slug": "instal-tc-sl",
+                "name": "INSTAL TC SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "warisan-tc-holdings-bhd",
+                "name": "Warisan TC Holdings Bhd",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-c-technology",
+                "name": "T.C.C. Technology",
+                "job_count": 2
+              },
+              {
+                "slug": "t-c-homeplus",
+                "name": "T.C. HOMEPLUS PTE LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-kk",
+                "name": "株式会社T&C",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-l-network-yk",
+                "name": "有限会社T.C.L.Network",
+                "job_count": 1
+              },
+              {
+                "slug": "t-t-czhu-shi-hui-she-heng-bang-zhi-dian",
+                "name": "T.T.C株式会社横浜支店",
+                "job_count": 1
+              },
+              {
+                "slug": "nanak-t-c",
+                "name": "NANAK T&C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "sammicon-t-c",
+                "name": "SAMMICON T & C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "bao-kang-t-c-m-therapy",
+                "name": "BAO KANG T.C.M THERAPY",
+                "job_count": 1
+              },
+              {
+                "slug": "mtd-mec-t-c",
+                "name": "Mtd Mec T&C Llc",
+                "job_count": 1
+              }
+            ]
+          },
+          {
+            "query": "T.C. Industries",
+            "total": 979,
+            "companies": [
+              {
+                "slug": "c-t-s-industries",
+                "name": "C.T.S. INDUSTRIES PTE LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-pharmaceutical-industries",
+                "name": "TC Pharmaceutical Industries Co., Ltd.",
+                "job_count": 2
+              },
+              {
+                "slug": "t-c-c-technology",
+                "name": "T.C.C. Technology",
+                "job_count": 2
+              },
+              {
+                "slug": "t-c-homeplus",
+                "name": "T.C. HOMEPLUS PTE LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-kk",
+                "name": "株式会社T&C",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-l-network-yk",
+                "name": "有限会社T.C.L.Network",
+                "job_count": 1
+              },
+              {
+                "slug": "t-t-czhu-shi-hui-she-heng-bang-zhi-dian",
+                "name": "T.T.C株式会社横浜支店",
+                "job_count": 1
+              },
+              {
+                "slug": "nanak-t-c",
+                "name": "NANAK T&C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "sammicon-t-c",
+                "name": "SAMMICON T & C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "bao-kang-t-c-m-therapy",
+                "name": "BAO KANG T.C.M THERAPY",
+                "job_count": 1
+              },
+              {
+                "slug": "mtd-mec-t-c",
+                "name": "Mtd Mec T&C Llc",
+                "job_count": 1
+              },
+              {
+                "slug": "t-b-c-transportation-trading",
+                "name": "T B C TRANSPORTATION & TRADING PTE LTD",
+                "job_count": 2
+              },
+              {
+                "slug": "c-t-personalsolutions",
+                "name": "C&T PersonalSolutions GmbH",
+                "job_count": 3
+              },
+              {
+                "slug": "samsung-c-t",
+                "name": "Samsung C&T",
+                "job_count": 3
+              },
+              {
+                "slug": "sg-c-t",
+                "name": "SG C&T PTE. LTD.",
+                "job_count": 3
+              },
+              {
+                "slug": "c-t-corporation-system-de",
+                "name": "C T Corporation System (DE)",
+                "job_count": 2
+              },
+              {
+                "slug": "a-c-t-services",
+                "name": "A.C.T. Services",
+                "job_count": 1
+              },
+              {
+                "slug": "c-t-care",
+                "name": "C&T Care GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "c-t-s-d-o-o",
+                "name": "C. T. S. d.o.o.",
+                "job_count": 1
+              },
+              {
+                "slug": "l-c-t-builders-design",
+                "name": "L C T BUILDERS & DESIGN PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "3-i-c-t",
+                "name": "3 I.C.T. CO., LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "chris-chong-c-t-ho",
+                "name": "CHRIS CHONG & C T HO LLP",
+                "job_count": 1
+              },
+              {
+                "slug": "it-security-c-t",
+                "name": "IT Security C&T",
+                "job_count": 1
+              },
+              {
+                "slug": "i-m-p-a-c-t",
+                "name": "I.M.P.A.C.T.",
+                "job_count": 1
+              },
+              {
+                "slug": "a-t-engineering-p-c",
+                "name": "A & T Engineering P.C.",
+                "job_count": 2
+              },
+              {
+                "slug": "c-a-t-resources",
+                "name": "C-A-T Resources",
+                "job_count": 2
+              },
+              {
+                "slug": "t-systems-mexico-s-a-de-c-v",
+                "name": "T-Systems México S.A. de C.V.",
+                "job_count": 2
+              },
+              {
+                "slug": "c-h-r-i-s-t-klima",
+                "name": "C.H.R.I.S.T. Klima GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "h-u-t-internacional-s-a-de-c-v",
+                "name": "H.U.T. INTERNACIONAL, S.A. DE C.V.",
+                "job_count": 7
+              },
+              {
+                "slug": "prestadora-de-servicios-m-t-s-a-de-c-v",
+                "name": "Prestadora de Servicios M-T, S.A. de C.V.",
+                "job_count": 2
+              },
+              {
+                "slug": "a-la-c-a-r-t-e-solutions",
+                "name": "a-la-carte-solutions",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-restaurant-group",
+                "name": "TC Restaurant Group",
+                "job_count": 58
+              },
+              {
+                "slug": "tc-energy",
+                "name": "TC Energy",
+                "job_count": 18
+              },
+              {
+                "slug": "tc-north-shore",
+                "name": "TC North Shore",
+                "job_count": 12
+              },
+              {
+                "slug": "tc-services",
+                "name": "TC Services LLC",
+                "job_count": 8
+              },
+              {
+                "slug": "tc-squared",
+                "name": "TC Squared",
+                "job_count": 3
+              },
+              {
+                "slug": "tc-global",
+                "name": "TC Global",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-import-export",
+                "name": "TC IMPORT & EXPORT PTE LTD",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-shadowlight",
+                "name": "TC Shadowlight",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-56",
+                "name": "TC 56",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-coatings",
+                "name": "TC Coatings",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-consulting",
+                "name": "TC Consulting",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-flights-germany",
+                "name": "TC Flights Germany GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-montacargas",
+                "name": "TC Montacargas",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-networks",
+                "name": "TC Networks",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-rhinozon",
+                "name": "TC Rhinozon",
+                "job_count": 1
+              },
+              {
+                "slug": "tryton-tc",
+                "name": "Tryton TC LLC",
+                "job_count": 4
+              },
+              {
+                "slug": "green-tc",
+                "name": "Green TC GmbH",
+                "job_count": 3
+              },
+              {
+                "slug": "instal-tc-sl",
+                "name": "INSTAL TC SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "warisan-tc-holdings-bhd",
+                "name": "Warisan TC Holdings Bhd",
+                "job_count": 1
+              },
+              {
+                "slug": "t-mobile",
+                "name": "T-Mobile",
+                "job_count": 387
+              },
+              {
+                "slug": "t-mapp-jobs",
+                "name": "T-mapp Jobs",
+                "job_count": 275
+              },
+              {
+                "slug": "t-bank",
+                "name": "T-Bank",
+                "job_count": 176
+              },
+              {
+                "slug": "t-rowe-price",
+                "name": "T. Rowe Price",
+                "job_count": 100
+              },
+              {
+                "slug": "t-systems-international",
+                "name": "T-Systems International",
+                "job_count": 61
+              },
+              {
+                "slug": "t-en",
+                "name": "T.EN",
+                "job_count": 60
+              },
+              {
+                "slug": "t-en-career-site",
+                "name": "T.EN Career Site",
+                "job_count": 60
+              },
+              {
+                "slug": "t-fitness-dvinci-de",
+                "name": "t-fitness.dvinci.de",
+                "job_count": 54
+              },
+              {
+                "slug": "t-systems",
+                "name": "T systems",
+                "job_count": 49
+              },
+              {
+                "slug": "t-j-regional-health",
+                "name": "T.J. Regional Health",
+                "job_count": 46
+              },
+              {
+                "slug": "t-systems-iberia",
+                "name": "T-Systems Iberia",
+                "job_count": 37
+              },
+              {
+                "slug": "t-rex-solutions",
+                "name": "T-Rex Solutions",
+                "job_count": 32
+              },
+              {
+                "slug": "t-n-fuels",
+                "name": "T&N FUELS",
+                "job_count": 28
+              },
+              {
+                "slug": "t-tgurupu-kk",
+                "name": "株式会社T&Tグループ",
+                "job_count": 27
+              },
+              {
+                "slug": "t-d-newton-associates",
+                "name": "T D Newton & Associates",
+                "job_count": 19
+              },
+              {
+                "slug": "t-o-n-corporate-services",
+                "name": "T.O.N Corporate Services",
+                "job_count": 19
+              },
+              {
+                "slug": "t-g-constructors",
+                "name": "T&G Constructors",
+                "job_count": 15
+              },
+              {
+                "slug": "t-s-technology-strategy",
+                "name": "T&S (Technology & Strategy)",
+                "job_count": 15
+              },
+              {
+                "slug": "t-d-cleaning-services",
+                "name": "T&D Cleaning Services",
+                "job_count": 14
+              },
+              {
+                "slug": "t-kienle",
+                "name": "T Kienle",
+                "job_count": 12
+              },
+              {
+                "slug": "t-g-global",
+                "name": "T&G Global",
+                "job_count": 11
+              },
+              {
+                "slug": "t-mobile-polska",
+                "name": "T-Mobile Polska",
+                "job_count": 11
+              },
+              {
+                "slug": "t-t-torashao-rou-liang-yan-gu-fen-you-xian-gong-si",
+                "name": "T. T. Tora燒肉_良炎股份有限公司",
+                "job_count": 11
+              },
+              {
+                "slug": "t-o-n-e-home-health-services",
+                "name": "T O N E HOME HEALTH SERVICES INC",
+                "job_count": 10
+              },
+              {
+                "slug": "t-t-jia-hong-you-xian-gong-si",
+                "name": "T+T_嘉竑有限公司",
+                "job_count": 9
+              },
+              {
+                "slug": "t-t-supermarket",
+                "name": "T&T Supermarket",
+                "job_count": 9
+              },
+              {
+                "slug": "t-log-trinklogistik-oberhausen",
+                "name": "t-log trinklogistik Oberhausen GmbH",
+                "job_count": 8
+              },
+              {
+                "slug": "t-m-associates",
+                "name": "T&M Associates",
+                "job_count": 8
+              },
+              {
+                "slug": "t-m-cobb-companies",
+                "name": "T.M. Cobb Companies",
+                "job_count": 8
+              },
+              {
+                "slug": "t-squared-social",
+                "name": "T-Squared Social",
+                "job_count": 8
+              },
+              {
+                "slug": "t-cetra",
+                "name": "T-Cetra",
+                "job_count": 7
+              },
+              {
+                "slug": "t-i-telematica-informatica",
+                "name": "T.I. Telematica Informatica s.r.l",
+                "job_count": 7
+              },
+              {
+                "slug": "t-n-reliable-nursing-care",
+                "name": "T & N RELIABLE NURSING CARE LLC",
+                "job_count": 7
+              },
+              {
+                "slug": "t-defence",
+                "name": "T-Defence",
+                "job_count": 6
+              },
+              {
+                "slug": "t-log-trinklogistik-hamm",
+                "name": "t-log trinklogistik Hamm GmbH",
+                "job_count": 6
+              },
+              {
+                "slug": "ts-restaurant-group",
+                "name": "T's Restaurant Group",
+                "job_count": 6
+              },
+              {
+                "slug": "t-j-heating-air-conditioning",
+                "name": "T & J Heating & Air Conditioning",
+                "job_count": 5
+              },
+              {
+                "slug": "t-k-h-deco",
+                "name": "T.K.H DECO PTE. LTD.",
+                "job_count": 5
+              },
+              {
+                "slug": "t-k-h-lighting-electrical-trading",
+                "name": "T.K.H LIGHTING & ELECTRICAL TRADING PTE. LTD.",
+                "job_count": 5
+              },
+              {
+                "slug": "t-m-services",
+                "name": "T&M Services",
+                "job_count": 5
+              },
+              {
+                "slug": "t-solutions",
+                "name": "T-Solutions, Inc.",
+                "job_count": 5
+              },
+              {
+                "slug": "t-t-produce",
+                "name": "T&T Produce Co., Inc.",
+                "job_count": 5
+              },
+              {
+                "slug": "t-a-covenant-solutions-llc-ab913220-049a-4635-ac22-7767c39fb4f1",
+                "name": "t-a-covenant-solutions-llc-ab913220-049a-4635-ac22-7767c39fb4f1",
+                "job_count": 4
+              },
+              {
+                "slug": "t-con",
+                "name": "T.CON",
+                "job_count": 4
+              },
+              {
+                "slug": "t-consult",
+                "name": "T.consulT",
+                "job_count": 4
+              },
+              {
+                "slug": "t-e-stevens-construction",
+                "name": "T.E. Stevens Construction",
+                "job_count": 4
+              },
+              {
+                "slug": "t-hansen-gruppen",
+                "name": "T. Hansen Gruppen A/S",
+                "job_count": 4
+              },
+              {
+                "slug": "t-j-travel-centers",
+                "name": "T&J Travel Centers",
+                "job_count": 4
+              },
+              {
+                "slug": "t-k-asphalt-services",
+                "name": "T&K Asphalt Services",
+                "job_count": 4
+              },
+              {
+                "slug": "t-m-hardware-rental",
+                "name": "T & M Hardware & Rental",
+                "job_count": 4
+              }
+            ]
+          },
+          {
+            "query": "TC Industries Inc",
+            "total": 30,
+            "companies": [
+              {
+                "slug": "tc-pharmaceutical-industries",
+                "name": "TC Pharmaceutical Industries Co., Ltd.",
+                "job_count": 2
+              },
+              {
+                "slug": "tdindustries",
+                "name": "TDIndustries",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-restaurant-group",
+                "name": "TC Restaurant Group",
+                "job_count": 58
+              },
+              {
+                "slug": "tc-energy",
+                "name": "TC Energy",
+                "job_count": 18
+              },
+              {
+                "slug": "tc-north-shore",
+                "name": "TC North Shore",
+                "job_count": 12
+              },
+              {
+                "slug": "tc-services",
+                "name": "TC Services LLC",
+                "job_count": 8
+              },
+              {
+                "slug": "tc-squared",
+                "name": "TC Squared",
+                "job_count": 3
+              },
+              {
+                "slug": "tc-global",
+                "name": "TC Global",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-import-export",
+                "name": "TC IMPORT & EXPORT PTE LTD",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-shadowlight",
+                "name": "TC Shadowlight",
+                "job_count": 2
+              },
+              {
+                "slug": "tc-56",
+                "name": "TC 56",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-coatings",
+                "name": "TC Coatings",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-consulting",
+                "name": "TC Consulting",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-flights-germany",
+                "name": "TC Flights Germany GmbH",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-montacargas",
+                "name": "TC Montacargas",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-networks",
+                "name": "TC Networks",
+                "job_count": 1
+              },
+              {
+                "slug": "tc-rhinozon",
+                "name": "TC Rhinozon",
+                "job_count": 1
+              },
+              {
+                "slug": "tryton-tc",
+                "name": "Tryton TC LLC",
+                "job_count": 4
+              },
+              {
+                "slug": "green-tc",
+                "name": "Green TC GmbH",
+                "job_count": 3
+              },
+              {
+                "slug": "instal-tc-sl",
+                "name": "INSTAL TC SL.",
+                "job_count": 1
+              },
+              {
+                "slug": "warisan-tc-holdings-bhd",
+                "name": "Warisan TC Holdings Bhd",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-c-technology",
+                "name": "T.C.C. Technology",
+                "job_count": 2
+              },
+              {
+                "slug": "t-c-homeplus",
+                "name": "T.C. HOMEPLUS PTE LTD",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-kk",
+                "name": "株式会社T&C",
+                "job_count": 1
+              },
+              {
+                "slug": "t-c-l-network-yk",
+                "name": "有限会社T.C.L.Network",
+                "job_count": 1
+              },
+              {
+                "slug": "t-t-czhu-shi-hui-she-heng-bang-zhi-dian",
+                "name": "T.T.C株式会社横浜支店",
+                "job_count": 1
+              },
+              {
+                "slug": "nanak-t-c",
+                "name": "NANAK T&C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "sammicon-t-c",
+                "name": "SAMMICON T & C PTE. LTD.",
+                "job_count": 1
+              },
+              {
+                "slug": "bao-kang-t-c-m-therapy",
+                "name": "BAO KANG T.C.M THERAPY",
+                "job_count": 1
+              },
+              {
+                "slug": "mtd-mec-t-c",
+                "name": "Mtd Mec T&C Llc",
+                "job_count": 1
+              }
+            ]
+          }
+        ],
+        "checked_at": 1793259416.1798973,
+        "screen_version": 2
+      },
+      "checked_at": "2026-10-29T07:37:03.700951+00:00",
+      "recipe_sha256": "e03f08e8d95211afccd3166e75ab992d3306a6c038f30a16ad77278a149a8b89",
+      "strategy": "generic_json",
+      "job_count": 8,
+      "complete": true,
+      "pages": 9,
+      "warnings": [
+        "description detail enrichment was incomplete for 8 jobs"
+      ],
+      "with_description": 0,
+      "samples": [
+        {
+          "title": "Maintenance Worker II",
+          "location": "Crystal Lake, IL, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=616341"
+        },
+        {
+          "title": "CNC Machine Operator",
+          "location": "Crystal Lake, IL, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=616340"
+        },
+        {
+          "title": "Leader MP",
+          "location": "Crystal Lake, IL, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615760"
+        },
+        {
+          "title": "Multi Machine Operator III (2nd Shift 4PM-12AM or 12AM-8AM 3rd)",
+          "location": "Crystal Lake, IL, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615205"
+        },
+        {
+          "title": "Multi Machine Operator III (2nd Shift 4PM-12AM or 12AM-8AM 3rd)",
+          "location": "Crystal Lake, IL, US",
+          "source_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615204"
+        }
+      ],
+      "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US",
+      "request_url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions"
     }
   ],
   "language_review": [
@@ -1772,5 +3498,136 @@
       "included": false,
       "url": "https://www.mpfiltri.com/zh-hans/%e8%81%8c%e4%b8%9a%e7%94%9f%e6%b6%af/"
     }
-  ]
+  ],
+  "production_repairs": {
+    "run": "https://github.com/CrudMaster92/buboole-jobs/actions/runs/40836827454",
+    "sources": [
+      {
+        "id": "tc-industries",
+        "checked_at": "2026-10-29T07:39:43.123025+00:00",
+        "complete": true,
+        "job_count": 8,
+        "pages": 9,
+        "warnings": [
+          "description detail enrichment was incomplete for 8 jobs"
+        ],
+        "titles": [
+          "Maintenance Worker II",
+          "CNC Machine Operator",
+          "Leader MP",
+          "Multi Machine Operator III (2nd Shift 4PM-12AM or 12AM-8AM 3rd)",
+          "Multi Machine Operator III (2nd Shift 4PM-12AM or 12AM-8AM 3rd)",
+          "Multi Machine Operator II",
+          "Multi Machine Operator I (1st, 2nd and 3rd Shift Available)",
+          "Maintenance Worker II"
+        ],
+        "source_urls": [
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=616341",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=616340",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615760",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615205",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615204",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615202",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=615201",
+          "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US&jobId=614880"
+        ]
+      },
+      {
+        "id": "laser-amp",
+        "checked_at": "2026-10-29T07:39:46.007003+00:00",
+        "complete": true,
+        "job_count": 1,
+        "pages": 2,
+        "warnings": [
+          "description detail enrichment was incomplete for 1 jobs"
+        ],
+        "titles": [
+          "Journalier"
+        ],
+        "source_urls": [
+          "https://laseramp.com/careers/journalier"
+        ]
+      },
+      {
+        "id": "laser-amp-en",
+        "checked_at": "2026-10-29T07:39:49.489726+00:00",
+        "complete": true,
+        "job_count": 1,
+        "pages": 2,
+        "warnings": [
+          "description detail enrichment was incomplete for 1 jobs"
+        ],
+        "titles": [
+          "Laborer"
+        ],
+        "source_urls": [
+          "https://laseramp.com/en/careers/laborer"
+        ]
+      },
+      {
+        "id": "armatures-bois-francs",
+        "checked_at": "2026-10-29T07:39:51.417819+00:00",
+        "complete": true,
+        "job_count": 4,
+        "pages": 5,
+        "warnings": [],
+        "titles": [
+          "Conseiller·ère RH",
+          "Coordonnateur·trice SST",
+          "Camionneur·euse",
+          "Chef·fe d’équipe"
+        ],
+        "source_urls": [
+          "https://abf-inc.com/carriere/conseiller%c2%b7ere-rh",
+          "https://abf-inc.com/carriere/coordonnateur%c2%b7trice-sst",
+          "https://abf-inc.com/carriere/camionneur%c2%b7euse-repartiteur%c2%b7trice",
+          "https://abf-inc.com/carriere/chef%c2%b7fe-dequipe-duplicate"
+        ]
+      },
+      {
+        "id": "garaga",
+        "checked_at": "2026-10-29T07:39:59.859704+00:00",
+        "complete": true,
+        "job_count": 15,
+        "pages": 16,
+        "warnings": [
+          "description detail enrichment was incomplete for 15 jobs"
+        ],
+        "titles": [
+          "Human Resources Manager",
+          "Applications Engineering Technician",
+          "Applications Engineering Technician NC",
+          "Human Resources Business Partner",
+          "Driver/Warehouse Team Member",
+          "Warehouse Associate",
+          "Analyste Financier 3MEI",
+          "Coordonnateur Marketing Junior",
+          "Coordonnateur Marketing Sénior",
+          "Directeur des ressources humaines - Services partagés",
+          "Gestionnaire Acquisition de talents",
+          "Journalier",
+          "Programmeur-Analyste Sénior",
+          "Technicien en ressources humaines",
+          "Stagiaire - Développeur Données"
+        ],
+        "source_urls": [
+          "https://www.garaga.com/job-offer/human-resources-manager",
+          "https://www.garaga.com/job-offer/applications-engineering-technician",
+          "https://www.garaga.com/job-offer/applications-engineering-technician-nc",
+          "https://www.garaga.com/ca/job-offer/human-resources-business-partner",
+          "https://www.garaga.com/ca/job-offer/driver-warehouse-team-member-red-deer",
+          "https://www.garaga.com/ca/job-offer/warehouse-associate-vancouver",
+          "https://www.garaga.com/fr-ca/offres-emploi/3mei-analyste-financier",
+          "https://www.garaga.com/fr-ca/offres-emploi/coordonnateur-marketing-junior",
+          "https://www.garaga.com/fr-ca/offres-emploi/coordonnateur-marketing-senior",
+          "https://www.garaga.com/fr-ca/offres-emploi/directeur-rh-services-partages",
+          "https://www.garaga.com/fr-ca/offres-emploi/gestionnaire-acquisitions-de-talents",
+          "https://www.garaga.com/fr-ca/offres-emploi/journalier",
+          "https://www.garaga.com/fr-ca/offres-emploi/programmeur-analyste-senior",
+          "https://www.garaga.com/fr-ca/offres-emploi/technicien-rh",
+          "https://www.garaga.com/fr-ca/offres-emploi/stagiaire-developpeur-donnees"
+        ]
+      }
+    ]
+  }
 }

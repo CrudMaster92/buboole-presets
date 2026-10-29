@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "laser-amp-en",
   "company_id": "laser-amp",
-  "revision": 1,
+  "revision": 2,
   "label": "Laser AMP complete public careers (en)",
   "careers_url": "https://laseramp.com/en/careers",
   "compatibility": {
@@ -12,11 +12,11 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-29T00:03:21.231645+00:00",
+    "checked_at": "2026-10-29T07:39:49.489726+00:00",
     "job_count": 1,
     "warnings": [
       "description detail enrichment was incomplete for 1 jobs",
-      "Complete public listing traversal; descriptions are included only where safely available. Language source records may describe the same vacancy."
+      "Complete source count also validated on GitHub Linux using the production dependency versions."
     ]
   },
   "recipe": {
@@ -50,7 +50,7 @@
     "source_key": null,
     "source_filter": null,
     "selectors": {
-      "item": "article:has(.entry-title a)",
+      "item": "article:has(.entry-title)",
       "title": ".entry-title a",
       "link": ".entry-title a"
     },
