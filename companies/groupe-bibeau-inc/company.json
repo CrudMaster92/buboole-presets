@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "groupe-bibeau-inc",
+  "name": "Groupe Bibeau inc.",
+  "aliases": [
+    "Groupe Bibeau"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/groupe-bibeau-inc-.vUxdKa",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

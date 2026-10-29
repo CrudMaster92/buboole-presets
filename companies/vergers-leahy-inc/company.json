@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vergers-leahy-inc",
+  "name": "Vergers Leahy Inc.",
+  "aliases": [
+    "Vergers Leahy",
+    "Les Vergers Leahy",
+    "Leahy Orchards"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/les-vergers-leahy-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "food-production"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "adapt-solutions",
+  "name": "Adapt Solutions",
+  "aliases": [
+    "Adapt Solutions"
+  ],
+  "website_url": "https://adaptsolutions.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

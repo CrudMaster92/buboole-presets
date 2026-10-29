@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "orizon-mobile",
+  "name": "Orizon Mobile",
+  "aliases": [
+    "Orizon Mobile"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/orizon-mobile",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "telecommunications"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

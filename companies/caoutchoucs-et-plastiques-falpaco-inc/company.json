@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "caoutchoucs-et-plastiques-falpaco-inc",
+  "name": "Caoutchoucs et Plastiques Falpaco inc.",
+  "aliases": [
+    "Caoutchoucs et Plastiques Falpaco"
+  ],
+  "website_url": "https://www.falpaco.ca/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

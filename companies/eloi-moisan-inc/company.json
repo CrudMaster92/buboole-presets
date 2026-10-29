@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "eloi-moisan-inc",
+  "name": "Éloi Moisan inc.",
+  "aliases": [
+    "Éloi Moisan"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/eloi-moisan-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

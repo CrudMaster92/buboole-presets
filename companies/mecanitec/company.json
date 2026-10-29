@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mecanitec",
+  "name": "Mécanitec",
+  "aliases": [
+    "Mécanitec",
+    "Groupe Mecanitec"
+  ],
+  "website_url": "https://www.jobillico.com/voir-entreprise/mecanitec",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

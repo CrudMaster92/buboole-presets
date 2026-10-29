@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "comact",
+  "name": "Comact",
+  "aliases": [
+    "Comact",
+    "BID Group",
+    "Groupe BID"
+  ],
+  "website_url": "https://comact.com/fr/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "manufacturing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
