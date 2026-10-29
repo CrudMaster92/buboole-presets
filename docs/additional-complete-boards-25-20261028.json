@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-29T07:42:12.384439+00:00",
+  "checked_at": "2026-10-29T08:25:52.627896+00:00",
   "companies": 25,
   "monitors": 36,
   "listing_complete_monitors": 36,
-  "observed_source_records": 183,
-  "description_records": 59,
+  "observed_source_records": 180,
+  "description_records": 56,
   "freehire_directory": {
     "checked_at": "2026-10-28T23:58:03.886915+00:00",
     "unique_slugs": 470724,
@@ -50,53 +50,6 @@
         "catalog_identity_matches": []
       },
       "identity_review": "FreeHire MetalCool is METALCOOL PTE. LTD. in Singapore (MyCareersFuture postings), not Soudure MetalCo / souduremetalco.com in Saint-Jerome, Quebec.",
-      "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
-    },
-    {
-      "checked_at": "2026-10-29T07:40:26.424813+00:00",
-      "recipe_sha256": "4bfe0a09038231bfcdc0c0ff144ed2c6bcb87e9da15659fe789dc65eedf8b94b",
-      "strategy": "generic_json",
-      "job_count": 4,
-      "complete": true,
-      "pages": 5,
-      "warnings": [],
-      "with_description": 4,
-      "samples": [
-        {
-          "title": "Conseiller·ère RH",
-          "location": "Unspecified",
-          "source_url": "https://abf-inc.com/carriere/conseiller%c2%b7ere-rh"
-        },
-        {
-          "title": "Coordonnateur·trice SST",
-          "location": "Unspecified",
-          "source_url": "https://abf-inc.com/carriere/coordonnateur%c2%b7trice-sst"
-        },
-        {
-          "title": "Camionneur·euse",
-          "location": "Unspecified",
-          "source_url": "https://abf-inc.com/carriere/camionneur%c2%b7euse-repartiteur%c2%b7trice"
-        },
-        {
-          "title": "Chef·fe d’équipe",
-          "location": "Unspecified",
-          "source_url": "https://abf-inc.com/carriere/chef%c2%b7fe-dequipe-duplicate"
-        }
-      ],
-      "id": "armatures-bois-francs",
-      "company_id": "armatures-bois-francs",
-      "name": "Armatures Bois-Francs",
-      "careers_url": "https://abf-inc.com/",
-      "request_url": "https://abf-inc.com/wp-json/wp/v2/carriere",
-      "freehire": {
-        "status": "overlap_or_possible_overlap",
-        "checked_at": null,
-        "freehire_slugs": [
-          "abf"
-        ],
-        "catalog_identity_matches": []
-      },
-      "identity_review": "FreeHire ABF groups abfgroup.recruitee.com (Dutch industrial distributor ABF) and abf.bamboohr.com (American Bar Foundation fellowships), not Quebec reinforcing-steel employer Armatures Bois-Francs / abf-inc.com. All 13 returned job URLs were inspected.",
       "ownership": "Official employer board or dedicated employer-branded source; listing titles and all posting hosts reviewed."
     },
     {
@@ -3362,6 +3315,83 @@
       ],
       "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9e6c3835-f8f3-4797-8a07-263db5c91b1f&ccId=19000101_000001&lang=en_US",
       "request_url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions"
+    },
+    {
+      "checked_at": "2026-10-29T08:22:45.327141+00:00",
+      "recipe_sha256": "4649a683e0f9b9651aa7a95854ffa0d95a8970267bc6320007d549a76b4960a4",
+      "strategy": "generic_html",
+      "job_count": 1,
+      "complete": true,
+      "pages": 2,
+      "warnings": [],
+      "with_description": 1,
+      "samples": [
+        {
+          "title": "Ingénieur(e) Concepteur(trice) en électricité et automatisation",
+          "location": "Sherbrooke, QC",
+          "source_url": "https://www.jobillico.com/fr/offre-d-emploi/inogec-inc/ingenieur-e-concepteur-trice-en-electricite-et-automatisation-/17596110"
+        }
+      ],
+      "id": "inogec",
+      "company_id": "inogec",
+      "name": "INOGEC",
+      "careers_url": "https://www.jobillico.com/fr/employeurs/inogec-inc/voir-liste-emplois",
+      "request_url": "https://www.jobillico.com/fr/employeurs/inogec-inc/voir-liste-emplois",
+      "freehire": {
+        "id": "inogec",
+        "name": "INOGEC",
+        "domain": "inogec.com",
+        "status": "no_index_match",
+        "match_basis": null,
+        "freehire_slugs": [],
+        "live_queries": [
+          {
+            "query": "INOGEC",
+            "total": 3,
+            "companies": [
+              {
+                "slug": "inogen",
+                "name": "Inogen",
+                "job_count": 4
+              },
+              {
+                "slug": "inotec-sicherheitstechnik",
+                "name": "INOTEC Sicherheitstechnik GmbH",
+                "job_count": 2
+              },
+              {
+                "slug": "inotec-amd",
+                "name": "Inotec AMD",
+                "job_count": 1
+              }
+            ]
+          },
+          {
+            "query": "INOGEC inc.",
+            "total": 3,
+            "companies": [
+              {
+                "slug": "inogen",
+                "name": "Inogen",
+                "job_count": 4
+              },
+              {
+                "slug": "inotec-sicherheitstechnik",
+                "name": "INOTEC Sicherheitstechnik GmbH",
+                "job_count": 2
+              },
+              {
+                "slug": "inotec-amd",
+                "name": "Inotec AMD",
+                "job_count": 1
+              }
+            ]
+          }
+        ],
+        "checked_at": 1793262016.4222434,
+        "screen_version": 2
+      },
+      "ownership": "The official inogec.com/careers page links this exact dedicated employer board; its full visible job inventory and runtime count both equal one."
     }
   ],
   "language_review": [
@@ -3627,12 +3657,31 @@
     "The maintainer explicitly authorized publication. No auto-merge is enabled.",
     "The final active collection contains 25 companies and 36 complete public source inventories, with no title, country, role-count, page-count or detail-count cap.",
     "Language records can describe the same vacancy; 183 observed source records are not a deduplicated vacancy count.",
-    "Groupe Morin and Laserax were held back after GitHub received HTTP 403. Their catalog status is degraded with an unknown count, and their four feed pins are excluded.",
     "Garaga and TC Industries replace the two blocked employers. Garaga and Canatal advertise both US and Canadian openings. TC Industries links eight US roles and explicitly marks its other Canadian and UK plants Not Currently Hiring.",
-    "The 31 originally successful public sources and five repaired/replacement sources have independent GitHub runner evidence. The final publication generation is checked after this source review.",
-    "Laser AMP revision 2 uses a simple :has selector accepted by the production CSS parser. Armatures Bois-Francs revision 2 uses the supported 30-second timeout without changing its listing parameters.",
     "D&V uses its current corporate listing rather than an older extra WordPress record. Fenplast uses the exact unfiltered AMP listing endpoint rather than an inferred archive.",
     "Groupe Honco was rejected because its page advertises 24 roles while its structured metadata describes only one. No incomplete Honco scraper was admitted.",
-    "Unavailable description enrichment remains explicit. Public PDF destinations remain source links; general applications are excluded from vacancy counts."
-  ]
+    "Unavailable description enrichment remains explicit. Public PDF destinations remain source links; general applications are excluded from vacancy counts.",
+    "Groupe Morin, Laserax and Armatures Bois-Francs are excluded from the completed batch and active feed pins after repeated GitHub HTTP availability failures. Their catalog state is degraded with an unknown current count.",
+    "INOGEC replaces Armatures Bois-Francs after its full employer-endorsed board passed on GitHub Linux. The final active collection has 25 companies, 36 complete listing sources and 180 observed source records including translations."
+  ],
+  "final_replacement_proof": {
+    "run": "https://github.com/CrudMaster92/buboole-jobs/actions/runs/40841695863",
+    "head_sha": "263dd301261be5fcea579d04a567d3f597cc228f",
+    "sources": [
+      {
+        "id": "inogec",
+        "checked_at": "2026-10-29T08:22:59.149681+00:00",
+        "complete": true,
+        "job_count": 1,
+        "pages": 2,
+        "warnings": [],
+        "titles": [
+          "Ingénieur(e) Concepteur(trice) en électricité et automatisation"
+        ],
+        "source_urls": [
+          "https://www.jobillico.com/fr/offre-d-emploi/inogec-inc/ingenieur-e-concepteur-trice-en-electricite-et-automatisation-/17596110"
+        ]
+      }
+    ]
+  }
 }
