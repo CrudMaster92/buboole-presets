@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "horizon-vertical-inc",
+  "name": "Horizon Vertical inc.",
+  "aliases": [
+    "Horizon Vertical"
+  ],
+  "website_url": "https://horizonvertical.qc.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

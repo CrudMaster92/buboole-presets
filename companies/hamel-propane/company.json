@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hamel-propane",
+  "name": "Hamel Propane",
+  "aliases": [
+    "Hamel Propane"
+  ],
+  "website_url": "https://www.hamelpropane.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bosse-frere-inc",
+  "name": "Bossé & Frère inc.",
+  "aliases": [
+    "Bossé & Frère"
+  ],
+  "website_url": "https://www.bosse-frere.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

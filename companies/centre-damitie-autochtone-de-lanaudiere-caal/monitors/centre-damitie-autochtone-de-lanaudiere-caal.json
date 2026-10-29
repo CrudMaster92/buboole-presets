@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "centre-damitie-autochtone-de-lanaudiere-caal",
+  "company_id": "centre-damitie-autochtone-de-lanaudiere-caal",
+  "revision": 1,
+  "label": "Centre d’amitié Autochtone de Lanaudière (CAAL) — complete public board",
+  "careers_url": "https://www.jobillico.com/fr/employeurs/centre-d-amitie-autochtone-de-lanaudiere-caal/voir-liste-emplois",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-29T19:06:53.253342+00:00",
+    "job_count": 5,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Centre d’amitié Autochtone de Lanaudière (CAAL)",
+    "careers_url": "https://www.jobillico.com/fr/employeurs/centre-d-amitie-autochtone-de-lanaudiere-caal/voir-liste-emplois",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.jobillico.com"
+    ],
+    "request": {
+      "url": "https://www.jobillico.com/fr/employeurs/centre-d-amitie-autochtone-de-lanaudiere-caal/voir-liste-emplois",
+      "method": "GET",
+      "headers": {
+        "Accept-Encoding": "gzip, deflate"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 10000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "ipage",
+      "page_size_parameter": "iPerPage",
+      "page_size": 25,
+      "max_pages": null,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[title][href*=\"/fr/offre-d-emploi/centre-d-amitie-autochtone-de-lanaudiere-caal/\"]), li:has(a[title][href*=\"/fr/opportunite-d-emploi/centre-d-amitie-autochtone-de-lanaudiere-caal/\"])",
+      "title": "a[title][href*=\"/fr/\"]",
+      "link": "a[title][href*=\"/fr/\"]",
+      "location": "p:not(.date)",
+      "posted_date": "p.date"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

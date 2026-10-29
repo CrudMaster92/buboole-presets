@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "oberson",
+  "name": "Oberson",
+  "aliases": [
+    "Oberson"
+  ],
+  "website_url": "https://www.oberson.com/fr/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

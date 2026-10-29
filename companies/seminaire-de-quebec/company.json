@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "seminaire-de-quebec",
+  "name": "Séminaire de Québec",
+  "aliases": [
+    "Séminaire de Québec"
+  ],
+  "website_url": "https://www.seminairedequebec.org/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

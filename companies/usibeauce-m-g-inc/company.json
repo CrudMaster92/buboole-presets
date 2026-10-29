@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "usibeauce-m-g-inc",
+  "name": "Usibeauce M.G. inc.",
+  "aliases": [
+    "Usibeauce M.G."
+  ],
+  "website_url": "https://www.usibeaucemg.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}

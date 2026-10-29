@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "coopsco-sainte-foy",
+  "name": "Coopsco Sainte-Foy",
+  "aliases": [
+    "Coopsco Sainte-Foy"
+  ],
+  "website_url": "https://coopscosf.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Complete public boards",
+      "October 2026 expansion"
+    ]
+  }
+}
