@@ -1,0 +1,2583 @@
+{
+  "catalog_baseline_commit": "79a021531d4ee8fe900695f1c4a24a0ae5a3abd3",
+  "catalog_identity_checks": "Company ID, legal/display name, aliases, corporate-suffix-normalized identities, distinctive name tokens; existing Thermafix identity excluded.",
+  "results": [
+    {
+      "company_id": "qscale",
+      "name": "QScale",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=QScale&limit=100",
+          "response_sha256": "cafb47e303eea24038eb3d2291f71d4125ff2a4126dab2dfad9a8024d928d43e",
+          "total_matches": 0,
+          "returned_count": 0,
+          "nearby_companies": [],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=QScale&limit=100",
+          "response_sha256": "cafb47e303eea24038eb3d2291f71d4125ff2a4126dab2dfad9a8024d928d43e",
+          "total_matches": 0,
+          "returned_count": 0,
+          "nearby_companies": [],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "nature-canneberge-inc",
+      "name": "Nature Canneberge inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Nature+Canneberge+inc.&limit=100",
+          "response_sha256": "11c97236da6bbf8a117a02f2061ab1c94ca34c1155b93843bb2fc53cd5d8cb95",
+          "total_matches": 110,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "nature",
+              "name": "nature",
+              "job_count": 26
+            },
+            {
+              "slug": "natures-fare-markets",
+              "name": "Nature's Fare Markets",
+              "job_count": 17
+            },
+            {
+              "slug": "natures-touch",
+              "name": "Nature's Touch",
+              "job_count": 16
+            },
+            {
+              "slug": "nature-kk",
+              "name": "Nature株式会社",
+              "job_count": 11
+            },
+            {
+              "slug": "natures-herbs-and-wellness-high-plainz-strains",
+              "name": "Nature's Herbs and Wellness / High Plainz Strains",
+              "job_count": 10
+            },
+            {
+              "slug": "natures-path",
+              "name": "Nature's Path",
+              "job_count": 10
+            },
+            {
+              "slug": "natures-path-foods",
+              "name": "Nature's Path Foods",
+              "job_count": 10
+            },
+            {
+              "slug": "natures-grace-and-wellness",
+              "name": "Nature's Grace and Wellness",
+              "job_count": 9
+            },
+            {
+              "slug": "natures-way",
+              "name": "Nature's Way",
+              "job_count": 7
+            },
+            {
+              "slug": "nature-heart",
+              "name": "Nature Heart GmbH & Co KG",
+              "job_count": 5
+            },
+            {
+              "slug": "natures-sunshine",
+              "name": "Nature's Sunshine",
+              "job_count": 4
+            },
+            {
+              "slug": "nature-first-landscaping",
+              "name": "Nature First Landscaping",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Canneberge&limit=100",
+          "response_sha256": "d917dc4ecb6a8fee0f07c1372d0e41084eba5ece9a866c76faa9ad343c4287a5",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "tanneberger-veterinary-hospital",
+              "name": "Tanneberger Veterinary Hospital",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "quirion-metal",
+      "name": "Quirion métal",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Quirion+m%C3%A9tal&limit=100",
+          "response_sha256": "cafb47e303eea24038eb3d2291f71d4125ff2a4126dab2dfad9a8024d928d43e",
+          "total_matches": 0,
+          "returned_count": 0,
+          "nearby_companies": [],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Quirion&limit=100",
+          "response_sha256": "2ea013b8899862e85bfde961a1994e2ffc2f7d97ca9fa776f1516efb732676e7",
+          "total_matches": 5,
+          "returned_count": 5,
+          "nearby_companies": [
+            {
+              "slug": "quironsalud",
+              "name": "Quirónsalud",
+              "job_count": 14
+            },
+            {
+              "slug": "quironprevencion",
+              "name": "Quirónprevención",
+              "job_count": 4
+            },
+            {
+              "slug": "quironprevencion-portugal",
+              "name": "QUIRÓNPREVENCIÓN PORTUGAL",
+              "job_count": 3
+            },
+            {
+              "slug": "quiring-general",
+              "name": "Quiring General",
+              "job_count": 1
+            },
+            {
+              "slug": "quironprevencion-mexico",
+              "name": "QUIRONPREVENCION MEXICO",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "conn-x",
+      "name": "Conn-X",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Conn-X&limit=100",
+          "response_sha256": "1852771a745b4309881d56865b67e94427b45a31a677781bf43ecf6f41e2099c",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "conn-selmer",
+              "name": "Conn Selmer",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Conn&limit=100",
+          "response_sha256": "a4243bb4d31d31e456574e458c700f343c095017567801809ad49f4d4485a1ed",
+          "total_matches": 1572,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "conn-selmer",
+              "name": "Conn Selmer",
+              "job_count": 3
+            },
+            {
+              "slug": "connections-academy",
+              "name": "Connections Academy",
+              "job_count": 181
+            },
+            {
+              "slug": "connect-energy",
+              "name": "connect-energy",
+              "job_count": 167
+            },
+            {
+              "slug": "connecticut-childrens",
+              "name": "Connecticut Children's",
+              "job_count": 161
+            },
+            {
+              "slug": "connections-health-solutions",
+              "name": "Connections Health Solutions",
+              "job_count": 141
+            },
+            {
+              "slug": "connect",
+              "name": "connect",
+              "job_count": 116
+            },
+            {
+              "slug": "connexr-solutions",
+              "name": "ConnexR Solutions",
+              "job_count": 107
+            },
+            {
+              "slug": "connect-pediatrics",
+              "name": "Connect Pediatrics",
+              "job_count": 81
+            },
+            {
+              "slug": "connor",
+              "name": "Connor",
+              "job_count": 69
+            },
+            {
+              "slug": "connect2-cleaning",
+              "name": "Connect2 Cleaning GmbH",
+              "job_count": 66
+            },
+            {
+              "slug": "connexzia",
+              "name": "Connexzia",
+              "job_count": 63
+            },
+            {
+              "slug": "connectos",
+              "name": "ConnectOS",
+              "job_count": 58
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "recuperation-delisle-inc",
+      "name": "Récupération Delisle inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=R%C3%A9cup%C3%A9ration+Delisle+inc.&limit=100",
+          "response_sha256": "ffd013fe56b10e076841772780259773d6f5f413cf65d51620b22ceb9562263f",
+          "total_matches": 2,
+          "returned_count": 2,
+          "nearby_companies": [
+            {
+              "slug": "recuperation-frontenac",
+              "name": "Récupération Frontenac Inc.",
+              "job_count": 1
+            },
+            {
+              "slug": "national-health-foundation",
+              "name": "National Health Foundation",
+              "job_count": 11
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Delisle&limit=100",
+          "response_sha256": "94b2cb57bc6648b91367d973f411b3a378ea3ac9d9840f3aa91a3e380f1ccade",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "deliseux-sociedade-individual-de-advocacia",
+              "name": "Deliseux Sociedade Individual de Advocacia",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "construction-polaris-cmm-inc",
+      "name": "Construction Polaris CMM Inc",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Construction+Polaris+CMM+Inc&limit=100",
+          "response_sha256": "fedeee32adeec63c7e8a9bec1844084cc4520d211e4d20fdfc79dbd3b9d77978",
+          "total_matches": 2918,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "polaris-epc",
+              "name": "Polaris EPC",
+              "job_count": 4
+            },
+            {
+              "slug": "construction-specialties",
+              "name": "Construction Specialties",
+              "job_count": 33
+            },
+            {
+              "slug": "construction-resources",
+              "name": "Construction Resources",
+              "job_count": 30
+            },
+            {
+              "slug": "shook-construction",
+              "name": "SHOOK CONSTRUCTION CO",
+              "job_count": 25
+            },
+            {
+              "slug": "c-w-wright-construction-company",
+              "name": "C.W. Wright Construction Company",
+              "job_count": 11
+            },
+            {
+              "slug": "stevens-construction",
+              "name": "Stevens Construction",
+              "job_count": 10
+            },
+            {
+              "slug": "a-g-construction",
+              "name": "A & G Construction",
+              "job_count": 6
+            },
+            {
+              "slug": "cannon-construction",
+              "name": "Cannon Construction",
+              "job_count": 5
+            },
+            {
+              "slug": "construction-afdeling",
+              "name": "Construction afdeling",
+              "job_count": 5
+            },
+            {
+              "slug": "construction-industry-training-board",
+              "name": "Construction Industry Training Board",
+              "job_count": 5
+            },
+            {
+              "slug": "durr-heavy-construction",
+              "name": "Durr Heavy Construction",
+              "job_count": 4
+            },
+            {
+              "slug": "construction-forms",
+              "name": "Construction Forms",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Polaris&limit=100",
+          "response_sha256": "562a248472497ba8b110316a6d7834a4c9147d9fe64077f843fc0db63bb53029",
+          "total_matches": 34,
+          "returned_count": 34,
+          "nearby_companies": [
+            {
+              "slug": "polaris",
+              "name": "Polaris",
+              "job_count": 78
+            },
+            {
+              "slug": "polaris-bank",
+              "name": "Polaris Bank",
+              "job_count": 15
+            },
+            {
+              "slug": "polaris-pharmacy-services",
+              "name": "Polaris Pharmacy Services",
+              "job_count": 15
+            },
+            {
+              "slug": "polaris-raumflugzeuge",
+              "name": "Polaris Raumflugzeuge Gmbh",
+              "job_count": 12
+            },
+            {
+              "slug": "polaris-kk",
+              "name": "株式会社Polaris",
+              "job_count": 5
+            },
+            {
+              "slug": "polaris-ai-kk",
+              "name": "Polaris.AI 株式会社",
+              "job_count": 4
+            },
+            {
+              "slug": "polaris-epc",
+              "name": "Polaris EPC",
+              "job_count": 4
+            },
+            {
+              "slug": "polaris-software",
+              "name": "Polaris Software",
+              "job_count": 4
+            },
+            {
+              "slug": "polaris-direct",
+              "name": "Polaris Direct",
+              "job_count": 3
+            },
+            {
+              "slug": "polaris-laboratories",
+              "name": "POLARIS Laboratories",
+              "job_count": 3
+            },
+            {
+              "slug": "polaris-consulting",
+              "name": "Polaris Consulting Ltd.",
+              "job_count": 2
+            },
+            {
+              "slug": "polaris-pharmacy-services-of-tampa",
+              "name": "POLARIS PHARMACY SERVICES OF TAMPA LLC",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "groupe-metiko-inc",
+      "name": "GROUPE METIKO INC.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=GROUPE+METIKO+INC.&limit=100",
+          "response_sha256": "4427329145262a9a4b00ffc7e2b1c43ca4491af5673b2a33d78af7737c76f456",
+          "total_matches": 11057,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "groupe-sii",
+              "name": "Groupe Sii",
+              "job_count": 152
+            },
+            {
+              "slug": "groupe-talents-handicap",
+              "name": "Groupe Talents Handicap",
+              "job_count": 136
+            },
+            {
+              "slug": "groupe-pomona",
+              "name": "Groupe Pomona",
+              "job_count": 129
+            },
+            {
+              "slug": "groupe-etam",
+              "name": "Groupe ETAM",
+              "job_count": 109
+            },
+            {
+              "slug": "groupe-lr-technologies",
+              "name": "Groupe LR Technologies",
+              "job_count": 109
+            },
+            {
+              "slug": "groupe-adf",
+              "name": "GROUPE ADF",
+              "job_count": 82
+            },
+            {
+              "slug": "groupe-montpetit-ressources-humaines",
+              "name": "Groupe Montpetit Ressources Humaines Inc",
+              "job_count": 78
+            },
+            {
+              "slug": "groupe-roullier",
+              "name": "Groupe Roullier",
+              "job_count": 71
+            },
+            {
+              "slug": "groupe-touchette",
+              "name": "Groupe Touchette",
+              "job_count": 57
+            },
+            {
+              "slug": "groupe-barriere",
+              "name": "Groupe Barrière",
+              "job_count": 39
+            },
+            {
+              "slug": "groupe-labelvie",
+              "name": "Groupe LabelVie",
+              "job_count": 39
+            },
+            {
+              "slug": "groupe-rocher",
+              "name": "Groupe Rocher",
+              "job_count": 32
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=METIKO&limit=100",
+          "response_sha256": "353fa767bc92675d628828e14d9da2867557fdadd6513a26dc8aed4a4b6efec6",
+          "total_matches": 60,
+          "returned_count": 60,
+          "nearby_companies": [
+            {
+              "slug": "mediko",
+              "name": "MEDIKO INC",
+              "job_count": 68
+            },
+            {
+              "slug": "medikom-consulting",
+              "name": "Medikom Consulting GmbH",
+              "job_count": 2
+            },
+            {
+              "slug": "metko",
+              "name": "metko",
+              "job_count": 2
+            },
+            {
+              "slug": "medikout",
+              "name": "Medikout",
+              "job_count": 1
+            },
+            {
+              "slug": "meiko",
+              "name": "MEIKO",
+              "job_count": 1
+            },
+            {
+              "slug": "meiko-deutschland",
+              "name": "Meiko Deutschland GmbH",
+              "job_count": 1
+            },
+            {
+              "slug": "meiko-maschinenbau",
+              "name": "MEIKO Maschinenbau GmbH & Co. KG",
+              "job_count": 1
+            },
+            {
+              "slug": "meiko-riesel",
+              "name": "Meiko Riesel",
+              "job_count": 1
+            },
+            {
+              "slug": "meiko-textil",
+              "name": "meiko Textil GmbH",
+              "job_count": 1
+            },
+            {
+              "slug": "mediko-sanitarnaia-chast-145-federal-nogo-gosudarstvennogo-biudzhetnogo-uchrezhdeniia-zdravookhraneniia-iuzhnyi-okruzhnoi-meditsinskii-tsentr-federal-nogo-mediko-biologicheskogo-agentstva",
+              "name": "\"МЕДИКО-САНИТАРНАЯ ЧАСТЬ № 145\" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО БЮДЖЕТНОГО УЧРЕЖДЕНИЯ ЗДРАВООХРАНЕНИЯ \"ЮЖНЫЙ ОКРУЖНОЙ МЕДИЦИНСКИЙ ЦЕНТР ФЕДЕРАЛЬНОГО МЕДИКО-БИОЛОГИЧЕСКОГО АГЕНТСТВА\"",
+              "job_count": 11
+            },
+            {
+              "slug": "mediko-sanitarnaia-chast-5-federal-nogo-gosudarstvennogo-biudzhetnogo-uchrezhdeniia-zdravookhraneniia-novorossiiskii-klinicheskii-tsentr-federal-nogo-mediko-biologicheskogo-agentstva",
+              "name": "\"МЕДИКО-САНИТАРНАЯ ЧАСТЬ № 5\" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО БЮДЖЕТНОГО УЧРЕЖДЕНИЯ ЗДРАВООХРАНЕНИЯ \"НОВОРОССИЙСКИЙ КЛИНИЧЕСКИЙ ЦЕНТР ФЕДЕРАЛЬНОГО МЕДИКО-БИОЛОГИЧЕСКОГО АГЕНТСТВА\"",
+              "job_count": 5
+            },
+            {
+              "slug": "mediko-sanitarnaia-chast-kosmodroma-vostochnyi-federal-nogo-gosudarstvennogo-biudzhetnogo-uchrezhdeniia-zdravookhraneniia-dal-nevostochnyi-okruzhnoi-meditsinskii-tsentr-federal-nogo-mediko-biologicheskogo-agentstva",
+              "name": "МЕДИКО-САНИТАРНАЯ ЧАСТЬ КОСМОДРОМА \"ВОСТОЧНЫЙ\" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО БЮДЖЕТНОГО УЧРЕЖДЕНИЯ ЗДРАВООХРАНЕНИЯ \"ДАЛЬНЕВОСТОЧНЫЙ ОКРУЖНОЙ МЕДИЦИНСКИЙ ЦЕНТР ФЕДЕРАЛЬНОГО МЕДИКО-БИОЛОГИЧЕСКОГО АГЕНТСТВА\"",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "solutions-electromecaniques-vp-inc-sevp",
+      "name": "Solutions Électromécaniques VP inc. (SEVP)",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Solutions+%C3%89lectrom%C3%A9caniques+VP+inc.+%28SEVP%29&limit=100",
+          "response_sha256": "f4279b15cf6e43d8d22cd1cb84ee705d54f19eca99819452f943ddf95b035fec",
+          "total_matches": 10844,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "solutions",
+              "name": "solutions",
+              "job_count": 49
+            },
+            {
+              "slug": "solutions-30",
+              "name": "Solutions 30",
+              "job_count": 16
+            },
+            {
+              "slug": "solutions-healthcare",
+              "name": "SOLUTIONS HEALTHCARE",
+              "job_count": 16
+            },
+            {
+              "slug": "solutions-behavioral-healthcare-professionals",
+              "name": "SOLUTIONS BEHAVIORAL HEALTHCARE PROFESSIONALS",
+              "job_count": 11
+            },
+            {
+              "slug": "solutions-rh",
+              "name": "SOLUTIONS RH",
+              "job_count": 11
+            },
+            {
+              "slug": "solutions-exchange",
+              "name": "SOLUTIONS EXCHANGE, INC.",
+              "job_count": 7
+            },
+            {
+              "slug": "solutions-2-go",
+              "name": "Solutions 2 GO",
+              "job_count": 5
+            },
+            {
+              "slug": "solutions-resource",
+              "name": "Solutions Resource",
+              "job_count": 5
+            },
+            {
+              "slug": "solutions-aec",
+              "name": "Solutions AEC",
+              "job_count": 4
+            },
+            {
+              "slug": "solutions-by-text",
+              "name": "Solutions by Text",
+              "job_count": 4
+            },
+            {
+              "slug": "solutions-group",
+              "name": "Solutions Group",
+              "job_count": 4
+            },
+            {
+              "slug": "solutions-insurance-group",
+              "name": "Solutions Insurance Group",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=SEVP&limit=100",
+          "response_sha256": "751dfd4626029b1020e29c1ed04d5c3f1ccad77532b8f10babb1a21217834a07",
+          "total_matches": 3,
+          "returned_count": 3,
+          "nearby_companies": [
+            {
+              "slug": "sevprirodnadzor",
+              "name": "СЕВПРИРОДНАДЗОР",
+              "job_count": 1
+            },
+            {
+              "slug": "ooo-sevproektmontazh",
+              "name": "ООО \"СЕВПРОЕКТМОНТАЖ\"",
+              "job_count": 9
+            },
+            {
+              "slug": "ooo-sevprod",
+              "name": "ООО \"СЕВПРОД\"",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "tekdata-metal-solutions-inc",
+      "name": "Tekdata Metal Solutions inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Tekdata+Metal+Solutions+inc.&limit=100",
+          "response_sha256": "d6eef706d06f3fc402f9908b853ae68153ee04c31858fb2b1c21d021fc674182",
+          "total_matches": 5,
+          "returned_count": 5,
+          "nearby_companies": [
+            {
+              "slug": "tecdata-engineering",
+              "name": "TECDATA ENGINEERING",
+              "job_count": 707
+            },
+            {
+              "slug": "tecdata",
+              "name": "Tecdata",
+              "job_count": 15
+            },
+            {
+              "slug": "tecdata-tecnociber-mexico",
+              "name": "TECDATA TECNOCIBER MEXICO",
+              "job_count": 1
+            },
+            {
+              "slug": "tedata",
+              "name": "Tedata GmbH",
+              "job_count": 1
+            },
+            {
+              "slug": "grupo-tecdata-engineering",
+              "name": "Grupo TECDATA Engineering",
+              "job_count": 29
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Tekdata&limit=100",
+          "response_sha256": "d6eef706d06f3fc402f9908b853ae68153ee04c31858fb2b1c21d021fc674182",
+          "total_matches": 5,
+          "returned_count": 5,
+          "nearby_companies": [
+            {
+              "slug": "tecdata-engineering",
+              "name": "TECDATA ENGINEERING",
+              "job_count": 707
+            },
+            {
+              "slug": "tecdata",
+              "name": "Tecdata",
+              "job_count": 15
+            },
+            {
+              "slug": "tecdata-tecnociber-mexico",
+              "name": "TECDATA TECNOCIBER MEXICO",
+              "job_count": 1
+            },
+            {
+              "slug": "tedata",
+              "name": "Tedata GmbH",
+              "job_count": 1
+            },
+            {
+              "slug": "grupo-tecdata-engineering",
+              "name": "Grupo TECDATA Engineering",
+              "job_count": 29
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "ma-th-inc",
+      "name": "MA-TH inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=MA-TH+inc.&limit=100",
+          "response_sha256": "7116733b9a375817cf812e175e4380be5f628d63f79e03705e3d3e4acc4110b1",
+          "total_matches": 624,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "national-math-and-science-initiative",
+              "name": "NATIONAL MATH AND SCIENCE INITIATIVE INC",
+              "job_count": 3
+            },
+            {
+              "slug": "age-of-learning",
+              "name": "Age of Learning, Inc.",
+              "job_count": 6
+            },
+            {
+              "slug": "math-channel-kk",
+              "name": "株式会社math channel",
+              "job_count": 1
+            },
+            {
+              "slug": "math-insurance-service",
+              "name": "Math Insurance Service",
+              "job_count": 1
+            },
+            {
+              "slug": "magma-math",
+              "name": "Magma Math",
+              "job_count": 4
+            },
+            {
+              "slug": "magma-math-us",
+              "name": "Magma Math US",
+              "job_count": 3
+            },
+            {
+              "slug": "strive-math",
+              "name": "Strive Math",
+              "job_count": 3
+            },
+            {
+              "slug": "launch-math-science-centers",
+              "name": "Launch Math + Science Centers",
+              "job_count": 2
+            },
+            {
+              "slug": "national-math-stars",
+              "name": "National Math Stars",
+              "job_count": 2
+            },
+            {
+              "slug": "singapore-math-classes-camps",
+              "name": "Singapore Math Classes & Camps",
+              "job_count": 2
+            },
+            {
+              "slug": "advanced-math-and-science-academy-charter-school",
+              "name": "Advanced Math and Science Academy Charter School",
+              "job_count": 1
+            },
+            {
+              "slug": "axiom-math",
+              "name": "Axiom Math",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=MA-TH+inc.&limit=100",
+          "response_sha256": "7116733b9a375817cf812e175e4380be5f628d63f79e03705e3d3e4acc4110b1",
+          "total_matches": 624,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "national-math-and-science-initiative",
+              "name": "NATIONAL MATH AND SCIENCE INITIATIVE INC",
+              "job_count": 3
+            },
+            {
+              "slug": "age-of-learning",
+              "name": "Age of Learning, Inc.",
+              "job_count": 6
+            },
+            {
+              "slug": "math-channel-kk",
+              "name": "株式会社math channel",
+              "job_count": 1
+            },
+            {
+              "slug": "math-insurance-service",
+              "name": "Math Insurance Service",
+              "job_count": 1
+            },
+            {
+              "slug": "magma-math",
+              "name": "Magma Math",
+              "job_count": 4
+            },
+            {
+              "slug": "magma-math-us",
+              "name": "Magma Math US",
+              "job_count": 3
+            },
+            {
+              "slug": "strive-math",
+              "name": "Strive Math",
+              "job_count": 3
+            },
+            {
+              "slug": "launch-math-science-centers",
+              "name": "Launch Math + Science Centers",
+              "job_count": 2
+            },
+            {
+              "slug": "national-math-stars",
+              "name": "National Math Stars",
+              "job_count": 2
+            },
+            {
+              "slug": "singapore-math-classes-camps",
+              "name": "Singapore Math Classes & Camps",
+              "job_count": 2
+            },
+            {
+              "slug": "advanced-math-and-science-academy-charter-school",
+              "name": "Advanced Math and Science Academy Charter School",
+              "job_count": 1
+            },
+            {
+              "slug": "axiom-math",
+              "name": "Axiom Math",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "les-equipements-claude-pedneault-inc",
+      "name": "Les Équipements Claude Pedneault inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Les+%C3%89quipements+Claude+Pedneault+inc.&limit=100",
+          "response_sha256": "e10b9d03e143a8020ad0d4e74e0c956922712cdc7e02d5ff20d9899b6599787d",
+          "total_matches": 121,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "les",
+              "name": "les",
+              "job_count": 4
+            },
+            {
+              "slug": "les-nouvelles-recrues",
+              "name": "Les Nouvelles Recrues",
+              "job_count": 29
+            },
+            {
+              "slug": "les-olson-company",
+              "name": "Les Olson Company",
+              "job_count": 9
+            },
+            {
+              "slug": "les-maisons-du-clair-de-la-plume",
+              "name": "Les Maisons du Clair de la Plume",
+              "job_count": 6
+            },
+            {
+              "slug": "les-filles-les-garcons-de-la-tech",
+              "name": "Les Filles & Les Garçons de la Tech",
+              "job_count": 5
+            },
+            {
+              "slug": "les-compagnons-du-devoir-et-du-tour-de-france",
+              "name": "Les Compagnons du Devoir et du Tour de France",
+              "job_count": 4
+            },
+            {
+              "slug": "les-amis-holdings",
+              "name": "LES AMIS HOLDINGS PTE. LTD.",
+              "job_count": 3
+            },
+            {
+              "slug": "les-colettes-sourcing",
+              "name": "Les Colettes Sourcing",
+              "job_count": 3
+            },
+            {
+              "slug": "les-stumpf-ford",
+              "name": "Les Stumpf Ford",
+              "job_count": 3
+            },
+            {
+              "slug": "les-deux",
+              "name": "Les Deux",
+              "job_count": 2
+            },
+            {
+              "slug": "les-experts-de-lemploi",
+              "name": "LES EXPERTS DE L'EMPLOI",
+              "job_count": 2
+            },
+            {
+              "slug": "les-filles-et-les-gar",
+              "name": "Les-Filles-Et-Les-Gar",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Pedneault&limit=100",
+          "response_sha256": "0b2b4729ed13d69e9ba8ae67de61c886480e2aa0f872491eae1398fad9a91f4c",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "meubles-jc-perreault",
+              "name": "Meubles JC Perreault",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "famec-equipement-industriel",
+      "name": "FAMEC équipement industriel",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=FAMEC+%C3%A9quipement+industriel&limit=100",
+          "response_sha256": "39b677b670a16d5f90ebaede933e6d3a436d034db27721fad36f476f0b932b09",
+          "total_matches": 13,
+          "returned_count": 13,
+          "nearby_companies": [
+            {
+              "slug": "fame-partners",
+              "name": "Fame & Partners",
+              "job_count": 1
+            },
+            {
+              "slug": "fame-recruitment-consultants",
+              "name": "Fame Recruitment Consultants Ltd",
+              "job_count": 1
+            },
+            {
+              "slug": "fatec-group",
+              "name": "FATEC GROUP",
+              "job_count": 1
+            },
+            {
+              "slug": "grupo-fame",
+              "name": "GRUPO FAME",
+              "job_count": 1
+            },
+            {
+              "slug": "salong-fame",
+              "name": "Salong Fame",
+              "job_count": 1
+            },
+            {
+              "slug": "country-music-hall-of-fame-and-museum",
+              "name": "Country Music Hall of Fame and Museum",
+              "job_count": 9
+            },
+            {
+              "slug": "national-baseball-hall-of-fame-and-museum",
+              "name": "National Baseball Hall of Fame and Museum",
+              "job_count": 3
+            },
+            {
+              "slug": "hall-of-fame",
+              "name": "Hall of Fame",
+              "job_count": 2
+            },
+            {
+              "slug": "hall-of-fame-car-wash",
+              "name": "Hall of Fame Car Wash",
+              "job_count": 2
+            },
+            {
+              "slug": "hall-of-fame-resort-entertainment",
+              "name": "Hall of Fame Resort & Entertainment",
+              "job_count": 1
+            },
+            {
+              "slug": "national-inventors-hall-of-fame",
+              "name": "National Inventors Hall of Fame",
+              "job_count": 1
+            },
+            {
+              "slug": "pro-football-hall-of-fame",
+              "name": "Pro Football Hall of Fame",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=%C3%A9quipement&limit=100",
+          "response_sha256": "9af46aed65c1c9700e2e2384bab6867788531688b2db7922fffacf561502d0c5",
+          "total_matches": 1639,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "equipmentshare",
+              "name": "EquipmentShare",
+              "job_count": 166
+            },
+            {
+              "slug": "equipment-depot",
+              "name": "Equipment Depot Inc.",
+              "job_count": 56
+            },
+            {
+              "slug": "equipmentshare-megasites",
+              "name": "EquipmentShare Megasites",
+              "job_count": 12
+            },
+            {
+              "slug": "equipment-experts",
+              "name": "Equipment Experts Inc.",
+              "job_count": 2
+            },
+            {
+              "slug": "equipment-sales-service",
+              "name": "Equipment Sales & Service Limited",
+              "job_count": 2
+            },
+            {
+              "slug": "equipment-international",
+              "name": "Equipment International",
+              "job_count": 1
+            },
+            {
+              "slug": "equipment-management-services",
+              "name": "Equipment Management Services LLC",
+              "job_count": 1
+            },
+            {
+              "slug": "crown-equipment",
+              "name": "Crown Equipment Corporation",
+              "job_count": 178
+            },
+            {
+              "slug": "rdo-equipment",
+              "name": "RDO Equipment Co.",
+              "job_count": 154
+            },
+            {
+              "slug": "arcteryx-equipment",
+              "name": "Arc'teryx Equipment",
+              "job_count": 95
+            },
+            {
+              "slug": "sms-equipment",
+              "name": "SMS Equipment",
+              "job_count": 57
+            },
+            {
+              "slug": "alta-equipment-group",
+              "name": "Alta Equipment Group",
+              "job_count": 56
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "for-net-inc",
+      "name": "For-Net inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=For-Net+inc.&limit=100",
+          "response_sha256": "fe9ac92c2065a6d10f7d800db79a7bf8866e8cbaa7b55ba0bc0285758a77e9ea",
+          "total_matches": 19560,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "net-friends",
+              "name": "Net Friends, Inc.",
+              "job_count": 2
+            },
+            {
+              "slug": "vault",
+              "name": "Vault",
+              "job_count": 3
+            },
+            {
+              "slug": "fortis",
+              "name": "fortis",
+              "job_count": 11
+            },
+            {
+              "slug": "lido-advisors",
+              "name": "Lido Advisors",
+              "job_count": 6
+            },
+            {
+              "slug": "ieq-capital",
+              "name": "IEQ Capital",
+              "job_count": 5
+            },
+            {
+              "slug": "true-north-advisors",
+              "name": "True North Advisors",
+              "job_count": 4
+            },
+            {
+              "slug": "lenox-advisors",
+              "name": "Lenox Advisors",
+              "job_count": 3
+            },
+            {
+              "slug": "lmw-financial",
+              "name": "LMW Financial LLC",
+              "job_count": 2
+            },
+            {
+              "slug": "medical-home-network",
+              "name": "Medical Home Network",
+              "job_count": 2
+            },
+            {
+              "slug": "strittmatter-wealth",
+              "name": "Strittmatter Wealth",
+              "job_count": 2
+            },
+            {
+              "slug": "the-calendar-group",
+              "name": "The Calendar Group",
+              "job_count": 14
+            },
+            {
+              "slug": "abend-net-marketing-for-events",
+              "name": "Abend.net Marketing for Events",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=For-Net+inc.&limit=100",
+          "response_sha256": "fe9ac92c2065a6d10f7d800db79a7bf8866e8cbaa7b55ba0bc0285758a77e9ea",
+          "total_matches": 19560,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "net-friends",
+              "name": "Net Friends, Inc.",
+              "job_count": 2
+            },
+            {
+              "slug": "vault",
+              "name": "Vault",
+              "job_count": 3
+            },
+            {
+              "slug": "fortis",
+              "name": "fortis",
+              "job_count": 11
+            },
+            {
+              "slug": "lido-advisors",
+              "name": "Lido Advisors",
+              "job_count": 6
+            },
+            {
+              "slug": "ieq-capital",
+              "name": "IEQ Capital",
+              "job_count": 5
+            },
+            {
+              "slug": "true-north-advisors",
+              "name": "True North Advisors",
+              "job_count": 4
+            },
+            {
+              "slug": "lenox-advisors",
+              "name": "Lenox Advisors",
+              "job_count": 3
+            },
+            {
+              "slug": "lmw-financial",
+              "name": "LMW Financial LLC",
+              "job_count": 2
+            },
+            {
+              "slug": "medical-home-network",
+              "name": "Medical Home Network",
+              "job_count": 2
+            },
+            {
+              "slug": "strittmatter-wealth",
+              "name": "Strittmatter Wealth",
+              "job_count": 2
+            },
+            {
+              "slug": "the-calendar-group",
+              "name": "The Calendar Group",
+              "job_count": 14
+            },
+            {
+              "slug": "abend-net-marketing-for-events",
+              "name": "Abend.net Marketing for Events",
+              "job_count": 3
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "le-groupe-jenaco",
+      "name": "Le groupe Jenaco",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Le+groupe+Jenaco&limit=100",
+          "response_sha256": "2d68a07a2978126c57d3da1bd6ccfa5d048a8f958b84567b3d6353eec3647db0",
+          "total_matches": 892,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "le-groupe-maurice",
+              "name": "Le Groupe Maurice",
+              "job_count": 22
+            },
+            {
+              "slug": "le-groupe-syd",
+              "name": "Le Groupe SYD",
+              "job_count": 3
+            },
+            {
+              "slug": "le-groupe-biribin",
+              "name": "Le Groupe Biribin",
+              "job_count": 1
+            },
+            {
+              "slug": "le-groupe-septeo",
+              "name": "Le Groupe Septeo",
+              "job_count": 1
+            },
+            {
+              "slug": "giro-inc-le-groupe-en-informatique-et-recherche-operationnelle",
+              "name": "GIRO Inc. / Le Groupe en informatique et recherche opérationnelle",
+              "job_count": 17
+            },
+            {
+              "slug": "le-spa-group",
+              "name": "LE SPA GROUP PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "mume-hospitality-group-xiang-le-can-yin-ji-tuan-mu-mei-can-yin-gu-fen-you-xian-gong-si",
+              "name": "Mume Hospitality Group 湘樂餐飲集團_慕梅餐飲股份有限公司",
+              "job_count": 42
+            },
+            {
+              "slug": "le-collectionist",
+              "name": "Le Collectionist",
+              "job_count": 20
+            },
+            {
+              "slug": "le-meridian-element-salt-lake-city",
+              "name": "Le Meridian Element Salt Lake City",
+              "job_count": 17
+            },
+            {
+              "slug": "le-ruban-patisserie-fa-peng-you-xian-gong-si",
+              "name": "Le Ruban patisserie_法朋有限公司",
+              "job_count": 16
+            },
+            {
+              "slug": "le-sueur",
+              "name": "Le Sueur Incorporated",
+              "job_count": 16
+            },
+            {
+              "slug": "le-fourgon",
+              "name": "Le Fourgon",
+              "job_count": 13
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Jenaco&limit=100",
+          "response_sha256": "2d24f081c0cabd60ddc96c25142a699feb319a5360bb89e02573bd42242e1922",
+          "total_matches": 2,
+          "returned_count": 2,
+          "nearby_companies": [
+            {
+              "slug": "jenachoctaw",
+              "name": "jenachoctaw",
+              "job_count": 12
+            },
+            {
+              "slug": "jendco-safety-supply",
+              "name": "Jendco Safety Supply",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "dimension-composite-inc",
+      "name": "Dimension Composite inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Dimension+Composite+inc.&limit=100",
+          "response_sha256": "92f108bc685d91b537ccb39dea5ee3c72687326974993042ddf8fbfd3723edc0",
+          "total_matches": 50,
+          "returned_count": 50,
+          "nearby_companies": [
+            {
+              "slug": "dimension",
+              "name": "Dimension",
+              "job_count": 1
+            },
+            {
+              "slug": "dimension-master",
+              "name": "DIMENSION MASTER",
+              "job_count": 48
+            },
+            {
+              "slug": "dimension-data-south-africa",
+              "name": "Dimension Data South Africa",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-data-south-africa-an-ntt-data-company",
+              "name": "Dimension Data South Africa (an NTT DATA company)",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-fabricators",
+              "name": "Dimension Fabricators",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-plus",
+              "name": "Dimension Plus",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-consultants",
+              "name": "DIMENSION CONSULTANTS PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "dimension-data",
+              "name": "Dimension Data",
+              "job_count": 1
+            },
+            {
+              "slug": "seventh-dimension",
+              "name": "seventh-dimension",
+              "job_count": 8
+            },
+            {
+              "slug": "direct-dimension",
+              "name": "Direct Dimension",
+              "job_count": 3
+            },
+            {
+              "slug": "slice-dimension-lda",
+              "name": "Slice Dimension Lda",
+              "job_count": 3
+            },
+            {
+              "slug": "three-dimension-physical-performance",
+              "name": "Three Dimension Physical Performance",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Dimension&limit=100",
+          "response_sha256": "f7395e5d9b83845014769071cfb099a4df43c58f1cd04039d512a22c2296a8d8",
+          "total_matches": 54,
+          "returned_count": 54,
+          "nearby_companies": [
+            {
+              "slug": "dimension",
+              "name": "Dimension",
+              "job_count": 1
+            },
+            {
+              "slug": "dimension-master",
+              "name": "DIMENSION MASTER",
+              "job_count": 48
+            },
+            {
+              "slug": "dimension-data-south-africa",
+              "name": "Dimension Data South Africa",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-data-south-africa-an-ntt-data-company",
+              "name": "Dimension Data South Africa (an NTT DATA company)",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-fabricators",
+              "name": "Dimension Fabricators",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-plus",
+              "name": "Dimension Plus",
+              "job_count": 2
+            },
+            {
+              "slug": "dimension-consultants",
+              "name": "DIMENSION CONSULTANTS PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "dimension-data",
+              "name": "Dimension Data",
+              "job_count": 1
+            },
+            {
+              "slug": "dimensions",
+              "name": "DIMENSIONS",
+              "job_count": 59
+            },
+            {
+              "slug": "dimensional",
+              "name": "dimensional",
+              "job_count": 41
+            },
+            {
+              "slug": "dimensions-hrd-consultants",
+              "name": "Dimensions HRD Consultants",
+              "job_count": 25
+            },
+            {
+              "slug": "dimensional-innovations",
+              "name": "DIMENSIONAL INNOVATIONS INC",
+              "job_count": 15
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "brodeur-and-letourneau-cpa-s-e-n-c-r-l",
+      "name": "Brodeur & Létourneau CPA S.E.N.C.R.L.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Brodeur+%26+L%C3%A9tourneau+CPA+S.E.N.C.R.L.&limit=100",
+          "response_sha256": "9db5430d260addf1fda880d83d977ef4f6334a49a9ad0280ef625f23c63655d3",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "broder-sachse",
+              "name": "Broder & Sachse",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=L%C3%A9tourneau&limit=100",
+          "response_sha256": "cafb47e303eea24038eb3d2291f71d4125ff2a4126dab2dfad9a8024d928d43e",
+          "total_matches": 0,
+          "returned_count": 0,
+          "nearby_companies": [],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "queensway-transport-inc",
+      "name": "Queensway Transport inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Queensway+Transport+inc.&limit=100",
+          "response_sha256": "fa584ea0c4f664803e7f1bd18b9f20bcf7485552c4858bac3a6f6c56fdd61c70",
+          "total_matches": 2,
+          "returned_count": 2,
+          "nearby_companies": [
+            {
+              "slug": "pinecrest-queensway-community-health-centre",
+              "name": "Pinecrest-Queensway Community Health Centre",
+              "job_count": 10
+            },
+            {
+              "slug": "jackie-wilsher-staff-service-amp-queensway-personnel",
+              "name": "Jackie Wilsher Staff Service &amp; Queensway Personnel",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Queensway&limit=100",
+          "response_sha256": "a7f2e9526d40cd1bb6f8243ddedf5d834731fd7186fce5639a3bad85aeed1c53",
+          "total_matches": 62,
+          "returned_count": 62,
+          "nearby_companies": [
+            {
+              "slug": "pinecrest-queensway-community-health-centre",
+              "name": "Pinecrest-Queensway Community Health Centre",
+              "job_count": 10
+            },
+            {
+              "slug": "jackie-wilsher-staff-service-amp-queensway-personnel",
+              "name": "Jackie Wilsher Staff Service &amp; Queensway Personnel",
+              "job_count": 1
+            },
+            {
+              "slug": "queensland-health",
+              "name": "Queensland Health",
+              "job_count": 28
+            },
+            {
+              "slug": "queensland-investment-corporation-qic",
+              "name": "Queensland Investment Corporation (QIC)",
+              "job_count": 7
+            },
+            {
+              "slug": "queensland-government",
+              "name": "Queensland Government",
+              "job_count": 6
+            },
+            {
+              "slug": "queensland-rail",
+              "name": "Queensland Rail",
+              "job_count": 5
+            },
+            {
+              "slug": "queensland-parliament-service",
+              "name": "Queensland Parliament Service",
+              "job_count": 4
+            },
+            {
+              "slug": "cleanco-queensland",
+              "name": "CleanCo Queensland",
+              "job_count": 3
+            },
+            {
+              "slug": "queensland-country-bank",
+              "name": "Queensland Country Bank",
+              "job_count": 3
+            },
+            {
+              "slug": "queensland-university-of-technology",
+              "name": "Queensland University of Technology",
+              "job_count": 3
+            },
+            {
+              "slug": "queenscare",
+              "name": "QueensCare",
+              "job_count": 2
+            },
+            {
+              "slug": "queensland-fire-department",
+              "name": "Queensland Fire Department",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "bornes-quebec-inc",
+      "name": "Bornes Québec inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Bornes+Qu%C3%A9bec+inc.&limit=100",
+          "response_sha256": "0c7b3bdefaaf59854929238d95c2cafe67a43967241c7aadfd689d3b0a89a097",
+          "total_matches": 61,
+          "returned_count": 61,
+          "nearby_companies": [
+            {
+              "slug": "obornes-aix-en-provence-it",
+              "name": "O'BORNES AIX EN PROVENCE - IT",
+              "job_count": 2
+            },
+            {
+              "slug": "barnes-group",
+              "name": "Barnes Group",
+              "job_count": 59
+            },
+            {
+              "slug": "barnes-thornburg",
+              "name": "Barnes & Thornburg LLP",
+              "job_count": 26
+            },
+            {
+              "slug": "barnes-noble-education",
+              "name": "Barnes & Noble Education, Inc.",
+              "job_count": 19
+            },
+            {
+              "slug": "barnes-aerospace",
+              "name": "Barnes Aerospace",
+              "job_count": 13
+            },
+            {
+              "slug": "barnes-healthcare-services",
+              "name": "Barnes Healthcare Services",
+              "job_count": 11
+            },
+            {
+              "slug": "barnes-dennig",
+              "name": "Barnes Dennig",
+              "job_count": 5
+            },
+            {
+              "slug": "barnes",
+              "name": "Barnes, Inc.",
+              "job_count": 4
+            },
+            {
+              "slug": "barnes-place-oasisrecruit-com",
+              "name": "barnes-place.oasisrecruit.com",
+              "job_count": 3
+            },
+            {
+              "slug": "barnes-foundation",
+              "name": "Barnes Foundation",
+              "job_count": 2
+            },
+            {
+              "slug": "barnes-noble-college",
+              "name": "Barnes & Noble College",
+              "job_count": 2
+            },
+            {
+              "slug": "barnes-feed-store",
+              "name": "Barnes Feed Store",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Bornes&limit=100",
+          "response_sha256": "bdfcbb32ed52e94af3c081f0fe93b8afe2b9effb7d10c896dee62ead8cdcf0d5",
+          "total_matches": 484,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "obornes-aix-en-provence-it",
+              "name": "O'BORNES AIX EN PROVENCE - IT",
+              "job_count": 2
+            },
+            {
+              "slug": "borneslottet",
+              "name": "Børneslottet",
+              "job_count": 1
+            },
+            {
+              "slug": "bornesnak",
+              "name": "Børnesnak",
+              "job_count": 1
+            },
+            {
+              "slug": "bornesygepleje-v-mette-liltorp-stabell",
+              "name": "Børnesygepleje v/ Mette Liltorp Stabell",
+              "job_count": 1
+            },
+            {
+              "slug": "barnes-group",
+              "name": "Barnes Group",
+              "job_count": 59
+            },
+            {
+              "slug": "barnes-thornburg",
+              "name": "Barnes & Thornburg LLP",
+              "job_count": 26
+            },
+            {
+              "slug": "barnes-noble-education",
+              "name": "Barnes & Noble Education, Inc.",
+              "job_count": 19
+            },
+            {
+              "slug": "barnes-aerospace",
+              "name": "Barnes Aerospace",
+              "job_count": 13
+            },
+            {
+              "slug": "barnes-healthcare-services",
+              "name": "Barnes Healthcare Services",
+              "job_count": 11
+            },
+            {
+              "slug": "bonnessinc",
+              "name": "bonnessinc",
+              "job_count": 8
+            },
+            {
+              "slug": "barnes-dennig",
+              "name": "Barnes Dennig",
+              "job_count": 5
+            },
+            {
+              "slug": "barnes",
+              "name": "Barnes, Inc.",
+              "job_count": 4
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "ecofib",
+      "name": "Ecofib",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Ecofib&limit=100",
+          "response_sha256": "9870673f54b5b45b5f65f4bd38939f5f3feb39910ba63d8049442094e1bca24f",
+          "total_matches": 6,
+          "returned_count": 6,
+          "nearby_companies": [
+            {
+              "slug": "ecolibrium",
+              "name": "Ecolibrium",
+              "job_count": 2
+            },
+            {
+              "slug": "ecofiltro-europe-s-l",
+              "name": "ECOFILTRO EUROPE S.L.",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofinancas",
+              "name": "EcoFinanças",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofinance",
+              "name": "EcoFinance",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofit-academia",
+              "name": "ECOFIT ACADEMIA",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofitnesshub",
+              "name": "Ecofitnesshub",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Ecofib&limit=100",
+          "response_sha256": "9870673f54b5b45b5f65f4bd38939f5f3feb39910ba63d8049442094e1bca24f",
+          "total_matches": 6,
+          "returned_count": 6,
+          "nearby_companies": [
+            {
+              "slug": "ecolibrium",
+              "name": "Ecolibrium",
+              "job_count": 2
+            },
+            {
+              "slug": "ecofiltro-europe-s-l",
+              "name": "ECOFILTRO EUROPE S.L.",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofinancas",
+              "name": "EcoFinanças",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofinance",
+              "name": "EcoFinance",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofit-academia",
+              "name": "ECOFIT ACADEMIA",
+              "job_count": 1
+            },
+            {
+              "slug": "ecofitnesshub",
+              "name": "Ecofitnesshub",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "pantorama-1850",
+      "name": "Pantorama 1850",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Pantorama+1850&limit=100",
+          "response_sha256": "0b9141fdb4411f3501835b8b03999ddef8e531dfb478e08eebf79ef0c854dcd3",
+          "total_matches": 20,
+          "returned_count": 20,
+          "nearby_companies": [
+            {
+              "slug": "panorama",
+              "name": "Panorama",
+              "job_count": 53
+            },
+            {
+              "slug": "panorama-mountain-resort",
+              "name": "Panorama Mountain Resort",
+              "job_count": 18
+            },
+            {
+              "slug": "panorama-eyecare",
+              "name": "Panorama Eyecare",
+              "job_count": 12
+            },
+            {
+              "slug": "panorama-orthopedics-spine-center",
+              "name": "Panorama Orthopedics & Spine Center",
+              "job_count": 11
+            },
+            {
+              "slug": "panorama-education",
+              "name": "Panorama Education",
+              "job_count": 7
+            },
+            {
+              "slug": "panorama-mortgage-group",
+              "name": "Panorama Mortgage Group",
+              "job_count": 5
+            },
+            {
+              "slug": "panorama-global",
+              "name": "Panorama Global",
+              "job_count": 4
+            },
+            {
+              "slug": "plantorama-a-s-hovedkontor",
+              "name": "Plantorama A/S Hovedkontor",
+              "job_count": 2
+            },
+            {
+              "slug": "plantorama-hillerod",
+              "name": "Plantorama Hillerød",
+              "job_count": 2
+            },
+            {
+              "slug": "panorama-konstanz",
+              "name": "PANORAMA KONSTANZ",
+              "job_count": 1
+            },
+            {
+              "slug": "panorama-pet-hospital",
+              "name": "Panorama Pet Hospital",
+              "job_count": 1
+            },
+            {
+              "slug": "panorama-resort-spa",
+              "name": "Panorama Resort & Spa",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=1850&limit=100",
+          "response_sha256": "2f63c95d3c7615ff270cf534802725946698e8f096b5e9fb159a1ca0d5c2d670",
+          "total_matches": 1,
+          "returned_count": 1,
+          "nearby_companies": [
+            {
+              "slug": "1850-micron-memory-malaysia-sd",
+              "name": "1850 Micron Memory Malaysia SD",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "beton-prefabrique-fortier",
+      "name": "Béton Préfabriqué Fortier",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=B%C3%A9ton+Pr%C3%A9fabriqu%C3%A9+Fortier&limit=100",
+          "response_sha256": "55d8c0717fc7235cca2b3636a920ae4bcf0ff58428e3e5dc8da1cc7a1549e336",
+          "total_matches": 130,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "beton-entreprenoren",
+              "name": "Beton Entreprenøren APS",
+              "job_count": 1
+            },
+            {
+              "slug": "beton-perkasa-wijaksana",
+              "name": "Beton Perkasa Wijaksana",
+              "job_count": 1
+            },
+            {
+              "slug": "berding-beton",
+              "name": "BERDING BETON GmbH",
+              "job_count": 66
+            },
+            {
+              "slug": "industri-beton",
+              "name": "Industri Beton",
+              "job_count": 4
+            },
+            {
+              "slug": "rinn-beton-und-naturstein",
+              "name": "Rinn Beton- und Naturstein GmbH & Co. KG",
+              "job_count": 4
+            },
+            {
+              "slug": "aco-beton",
+              "name": "aco-beton",
+              "job_count": 2
+            },
+            {
+              "slug": "bg-beton",
+              "name": "BG Beton A/S",
+              "job_count": 2
+            },
+            {
+              "slug": "lichtner-beton-brandenburg",
+              "name": "Lichtner Beton Brandenburg GmbH & Co. KG",
+              "job_count": 2
+            },
+            {
+              "slug": "tsn-beton-hannover",
+              "name": "TSN-Beton Hannover GmbH",
+              "job_count": 2
+            },
+            {
+              "slug": "bg-beton-a-s-horsens",
+              "name": "BG BETON A/S HORSENS",
+              "job_count": 1
+            },
+            {
+              "slug": "dk-beton",
+              "name": "DK BETON A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "dk-beton-a-s-afd-82",
+              "name": "DK BETON A/S Afd. 82",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Fortier&limit=100",
+          "response_sha256": "561bbf666295f8a17015f496cafb47becacbe2066b875985d0886099aed3180d",
+          "total_matches": 9,
+          "returned_count": 9,
+          "nearby_companies": [
+            {
+              "slug": "fortserv",
+              "name": "FortServ",
+              "job_count": 170
+            },
+            {
+              "slug": "forterra",
+              "name": "Forterra",
+              "job_count": 45
+            },
+            {
+              "slug": "forter",
+              "name": "forter",
+              "job_count": 32
+            },
+            {
+              "slug": "forterro",
+              "name": "Forterro",
+              "job_count": 28
+            },
+            {
+              "slug": "fortera-credit-union",
+              "name": "Fortera Credit Union",
+              "job_count": 9
+            },
+            {
+              "slug": "fortiedge",
+              "name": "FORTIEDGE PTE. LTD.",
+              "job_count": 4
+            },
+            {
+              "slug": "fortera",
+              "name": "Fortera",
+              "job_count": 2
+            },
+            {
+              "slug": "fortiro",
+              "name": "Fortiro",
+              "job_count": 2
+            },
+            {
+              "slug": "fortior-solutions",
+              "name": "FORTIOR SOLUTIONS, LLC",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "inventaires-de-lest-inc",
+      "name": "Inventaires de l’Est inc.",
+      "aliases": [
+        "Eastern Inventories Inc."
+      ],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Inventaires+de+l%E2%80%99Est+inc.&limit=100",
+          "response_sha256": "96df7562da2a7fd38d8a5c7ee0b28abd3eb2e1fe1e318ded7f581be431e3d1db",
+          "total_matches": 2,
+          "returned_count": 2,
+          "nearby_companies": [
+            {
+              "slug": "greehill",
+              "name": "greehill",
+              "job_count": 5
+            },
+            {
+              "slug": "3yourmind",
+              "name": "3yourmind",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Inventaires&limit=100",
+          "response_sha256": "4ca588370161b099de69c843758c6113159df158d0e3513c3d607476710b8110",
+          "total_matches": 3,
+          "returned_count": 3,
+          "nearby_companies": [
+            {
+              "slug": "a-s-inventarsnedkeriet-aarhus",
+              "name": "A/S INVENTARSNEDKERIET, AARHUS",
+              "job_count": 1
+            },
+            {
+              "slug": "greehill",
+              "name": "greehill",
+              "job_count": 5
+            },
+            {
+              "slug": "3yourmind",
+              "name": "3yourmind",
+              "job_count": 2
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Eastern+Inventories+Inc.&limit=100",
+          "response_sha256": "6da8daf9c90a4dcac3416eee07f00f95bd422d7ffc28731441aa9596864c25f3",
+          "total_matches": 178,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "eastern-virginia-medical-school",
+              "name": "Eastern Virginia Medical School",
+              "job_count": 43
+            },
+            {
+              "slug": "eastern-carver-county-schools",
+              "name": "Eastern Carver County Schools",
+              "job_count": 36
+            },
+            {
+              "slug": "eastern-lift-truck",
+              "name": "Eastern Lift Truck",
+              "job_count": 26
+            },
+            {
+              "slug": "eastern-metal-supply",
+              "name": "Eastern Metal Supply",
+              "job_count": 23
+            },
+            {
+              "slug": "eastern-mennonite-university",
+              "name": "Eastern Mennonite University",
+              "job_count": 21
+            },
+            {
+              "slug": "eastern-shipbuilding-group",
+              "name": "Eastern Shipbuilding Group",
+              "job_count": 21
+            },
+            {
+              "slug": "eastern-bank",
+              "name": "Eastern Bank",
+              "job_count": 19
+            },
+            {
+              "slug": "eastern-warehouse-distributors",
+              "name": "EASTERN WAREHOUSE DISTRIBUTORS LLC",
+              "job_count": 19
+            },
+            {
+              "slug": "eastern-plumas-health-care-district",
+              "name": "EASTERN PLUMAS HEALTH CARE DISTRICT",
+              "job_count": 16
+            },
+            {
+              "slug": "eastern-contractors",
+              "name": "Eastern Contractors Corporation",
+              "job_count": 15
+            },
+            {
+              "slug": "eastern-industrial-supplies",
+              "name": "Eastern Industrial Supplies, Inc.",
+              "job_count": 15
+            },
+            {
+              "slug": "eastern-shore-rural-health-system",
+              "name": "Eastern Shore Rural Health System",
+              "job_count": 14
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "leternel-spa",
+      "name": "L’Éternel Spa",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=L%E2%80%99%C3%89ternel+Spa&limit=100",
+          "response_sha256": "f9e668f15c670b77983b508600cdd2c28da46ea54aaa8287bc447c69b5611b5a",
+          "total_matches": 1976,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "l",
+              "name": "L",
+              "job_count": 1
+            },
+            {
+              "slug": "l-l-bean",
+              "name": "L.L.Bean",
+              "job_count": 90
+            },
+            {
+              "slug": "l-i-t-chemical-contract-logistics",
+              "name": "L.I.T. chemical & contract logistics GmbH",
+              "job_count": 66
+            },
+            {
+              "slug": "l-r-distributors",
+              "name": "L&R Distributors",
+              "job_count": 43
+            },
+            {
+              "slug": "loccitane-en-provence",
+              "name": "L'Occitane En Provence",
+              "job_count": 34
+            },
+            {
+              "slug": "l-b-foster",
+              "name": "L.B. Foster",
+              "job_count": 27
+            },
+            {
+              "slug": "l-m-development-partners",
+              "name": "L+M Development Partners",
+              "job_count": 26
+            },
+            {
+              "slug": "l-s-electric",
+              "name": "L&S Electric",
+              "job_count": 26
+            },
+            {
+              "slug": "l-f-distributors",
+              "name": "L&F Distributors",
+              "job_count": 20
+            },
+            {
+              "slug": "l-e-a-se",
+              "name": "L.E.A.SE. S.A.",
+              "job_count": 19
+            },
+            {
+              "slug": "lecole-francaise",
+              "name": "L'École Française",
+              "job_count": 19
+            },
+            {
+              "slug": "lagence",
+              "name": "L'AGENCE",
+              "job_count": 15
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=%C3%89ternel&limit=100",
+          "response_sha256": "bf167938c2d97109a84724446a54d4b204d5f3f70a1f08de2e2663b43aca3ade",
+          "total_matches": 10,
+          "returned_count": 10,
+          "nearby_companies": [
+            {
+              "slug": "eternal-ag",
+              "name": "eternal.ag",
+              "job_count": 9
+            },
+            {
+              "slug": "eternal-sun-group",
+              "name": "Eternal Sun Group BV",
+              "job_count": 2
+            },
+            {
+              "slug": "eternal-blue",
+              "name": "Eternal Blue",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-construction-and-renovation",
+              "name": "ETERNAL CONSTRUCTION AND RENOVATION PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-grace",
+              "name": "ETERNAL GRACE PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-materials",
+              "name": "Eternal Materials",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-robotics",
+              "name": "Eternal Robotics",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-sun",
+              "name": "Eternal Sun",
+              "job_count": 1
+            },
+            {
+              "slug": "eternal-word-television-network",
+              "name": "Eternal Word Television Network",
+              "job_count": 1
+            },
+            {
+              "slug": "wavelabs-eternal-sun",
+              "name": "Wavelabs Eternal Sun GmbH",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "hotel-a-la-maison-inc",
+      "name": "Hôtel à la Maison inc.",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=H%C3%B4tel+%C3%A0+la+Maison+inc.&limit=100",
+          "response_sha256": "000c7542d8cc2172e47f7b0911bc14d04c8a9e509f202e439381b8b18ee1b108",
+          "total_matches": 1799,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "hotel-la-posada-potosina-s-a-de-c-v",
+              "name": "HOTEL LA POSADA POTOSINA S.A. DE C.V.",
+              "job_count": 1
+            },
+            {
+              "slug": "admiral-hotel",
+              "name": "Admiral Hotel A/S",
+              "job_count": 2
+            },
+            {
+              "slug": "scandic-hotel",
+              "name": "Scandic Hotel A/S",
+              "job_count": 26
+            },
+            {
+              "slug": "taastrup-park-hotel",
+              "name": "Taastrup Park Hotel A/S",
+              "job_count": 2
+            },
+            {
+              "slug": "aarhus-hostel-og-hotel",
+              "name": "AARHUS HOSTEL OG HOTEL A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "papoa-hotel-cheng-gang-kai-fa-gu-fen-you-xian-gong-si",
+              "name": "Papo’a Hotel_承崗開發股份有限公司",
+              "job_count": 6
+            },
+            {
+              "slug": "hotel-viking",
+              "name": "Hotel Viking A/S",
+              "job_count": 2
+            },
+            {
+              "slug": "hotel-fredericia",
+              "name": "Hotel Fredericia A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "hotel-fuglsocentret",
+              "name": "HOTEL FUGLSØCENTRET A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "hotel-hedegaarden",
+              "name": "HOTEL HEDEGAARDEN A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "hotel-icefiord",
+              "name": "HOTEL ICEFIORD A/S",
+              "job_count": 1
+            },
+            {
+              "slug": "hotel-randers",
+              "name": "Hotel Randers A/S",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Maison&limit=100",
+          "response_sha256": "a48f029cdfaac27f4433195a29e9d41395e28facaf13ea153a65c98fc908a5f4",
+          "total_matches": 234,
+          "returned_count": 100,
+          "nearby_companies": [
+            {
+              "slug": "maison-123",
+              "name": "Maison 123",
+              "job_count": 24
+            },
+            {
+              "slug": "maison-fahrenheit-seven-roc-seven",
+              "name": "MAISON FAHRENHEIT SEVEN / ROC SEVEN",
+              "job_count": 4
+            },
+            {
+              "slug": "maison-uk",
+              "name": "Maison UK",
+              "job_count": 4
+            },
+            {
+              "slug": "maison-heler-metz",
+              "name": "Maison Heler Metz",
+              "job_count": 3
+            },
+            {
+              "slug": "maison-options",
+              "name": "Maison Options",
+              "job_count": 3
+            },
+            {
+              "slug": "maison-carat",
+              "name": "Maison Carat SA",
+              "job_count": 2
+            },
+            {
+              "slug": "maison-codage-kimpton-los-monteros",
+              "name": "Maison CODAGE Kimpton Los Monteros",
+              "job_count": 2
+            },
+            {
+              "slug": "maison-de-vision",
+              "name": "Maison De Vision",
+              "job_count": 2
+            },
+            {
+              "slug": "maison-ace",
+              "name": "MAISON ACE PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "maison-anli",
+              "name": "MAISON ANLI (PTE. LTD.)",
+              "job_count": 1
+            },
+            {
+              "slug": "maison-cl",
+              "name": "MAISON CL PTE. LTD.",
+              "job_count": 1
+            },
+            {
+              "slug": "maison-commerce",
+              "name": "Maison Commerce",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    },
+    {
+      "company_id": "clinique-medicale-privee-leblanc-savaria",
+      "name": "Clinique médicale privée LeBlanc + Savaria",
+      "aliases": [],
+      "directory_exact_matches": [],
+      "queries": [
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Clinique+m%C3%A9dicale+priv%C3%A9e+LeBlanc+%2B+Savaria&limit=100",
+          "response_sha256": "05518ed47646b8c01bfb421eebff5f534dfc1f5bd038726f900073da74407b3f",
+          "total_matches": 2,
+          "returned_count": 2,
+          "nearby_companies": [
+            {
+              "slug": "utopia-clinique",
+              "name": "UTOPIA CLINIQUE",
+              "job_count": 1
+            },
+            {
+              "slug": "medfar",
+              "name": "medfar",
+              "job_count": 27
+            }
+          ],
+          "nearby_preview_limit": 12
+        },
+        {
+          "url": "https://freehire.me/api/v1/companies?q=Savaria&limit=100",
+          "response_sha256": "e6c0002670840d5e8499550e1b2e84c8cf073a1a3bfaf5f3c0393b58ba021ccc",
+          "total_matches": 4,
+          "returned_count": 4,
+          "nearby_companies": [
+            {
+              "slug": "savaria",
+              "name": "Savaria",
+              "job_count": 19
+            },
+            {
+              "slug": "savara-hospitality",
+              "name": "Savara Hospitality",
+              "job_count": 10
+            },
+            {
+              "slug": "salaria-sales-solutions",
+              "name": "Salaria Sales Solutions",
+              "job_count": 1
+            },
+            {
+              "slug": "lev-haolam",
+              "name": "Lev Haolam",
+              "job_count": 1
+            }
+          ],
+          "nearby_preview_limit": 12
+        }
+      ]
+    }
+  ]
+}

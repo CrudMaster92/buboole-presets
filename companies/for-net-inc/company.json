@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "for-net-inc",
+  "name": "For-Net inc.",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/for-net-inc",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}

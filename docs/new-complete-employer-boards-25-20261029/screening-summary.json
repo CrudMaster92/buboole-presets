@@ -1,0 +1,218 @@
+{
+  "catalog_baseline_commit": "79a021531d4ee8fe900695f1c4a24a0ae5a3abd3",
+  "freehire_directory": {
+    "checked_at": "2026-10-29T14:04:37.801118+00:00",
+    "pages": [
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=0",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=10000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=20000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=30000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=40000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=50000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=60000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=70000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=80000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=90000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=100000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=110000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=120000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=130000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=140000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=150000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=160000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=170000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=180000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=190000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=200000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=210000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=220000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=230000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=240000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=250000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=260000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=270000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=280000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=290000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=300000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=310000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=320000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=330000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=340000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=350000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=360000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=370000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=380000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=390000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=400000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=410000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=420000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=430000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=440000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=450000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=460000",
+        "count": 10000
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=470000",
+        "count": 724
+      },
+      {
+        "url": "https://freehire.me/api/v1/companies/sitemap?limit=10000&offset=480000",
+        "count": 0
+      }
+    ],
+    "count": 470724,
+    "sha256": "d22054f64c50f8ccc767598dd0bb2a75033a6d44f641148e3f4465fde8919a31"
+  },
+  "new_company_count": 25,
+  "new_monitor_count": 25,
+  "listing_count": 123,
+  "description_count": 123,
+  "all_url_inventories_equal": true,
+  "all_language_id_inventories_equal": true,
+  "all_listing_traversals_complete": true,
+  "all_max_pages_null": true,
+  "runtime": "server.scrapers.runtime.run_scraper; fresh per-monitor HTTP session and empty detail cache; explicit complete=true, continuation_ready=false, no warnings.",
+  "scope": "Complete dedicated employer Jobillico boards. Does not assert coverage of a separate employer ATS or independently operated subsidiary.",
+  "geography": "All observed posting locations are in Canada; no USA-and-Canada hiring claim.",
+  "freehire_caveat": "No matching employer identity found at observation time. Mutable directory and fuzzy search cannot rule out unknown aliases or intermediary reposts."
+}

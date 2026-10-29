@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pantorama-1850",
+  "name": "Pantorama 1850",
+  "aliases": [],
+  "website_url": "https://www.jobillico.com/voir-entreprise/pantorama-1850",
+  "logo_url": null,
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Québec",
+      "Complete employer boards"
+    ]
+  }
+}
