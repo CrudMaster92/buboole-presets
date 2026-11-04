@@ -1,0 +1,207 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "canadian-employers-20261023",
+  "revision": 1,
+  "name": "Canadian Employers — Major employer expansion, October 23",
+  "description": "20 large Canadian employers missing from the Buboole catalog, with fresh live canonical runtime validation and documented FreeHire overlap. Official Workday sources include Canadian country filters or explicitly partial location/board scope. Descriptions resume within source budgets.",
+  "tags": [
+    "Canada",
+    "Canadian employers"
+  ],
+  "facets": {
+    "collection_types": [
+      "geography"
+    ],
+    "industries": [
+      "aerospace",
+      "apparel",
+      "banking",
+      "energy",
+      "engineering",
+      "environmental-services",
+      "financial-services",
+      "food-manufacturing",
+      "industrial-equipment",
+      "information-services",
+      "insurance",
+      "restaurants",
+      "retail"
+    ],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "companies": [
+    {
+      "company_id": "bmo",
+      "monitor_ids": [
+        "bmo"
+      ],
+      "rank": 1,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "cibc",
+      "monitor_ids": [
+        "cibc"
+      ],
+      "rank": 2,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "desjardins",
+      "monitor_ids": [
+        "desjardins"
+      ],
+      "rank": 3,
+      "note": "Official Desjardins board with Canadian roles; no country facet published; partial employer scope. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "manulife",
+      "monitor_ids": [
+        "manulife"
+      ],
+      "rank": 4,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "sun-life",
+      "monitor_ids": [
+        "sun-life"
+      ],
+      "rank": 5,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "intact-financial",
+      "monitor_ids": [
+        "intact-financial"
+      ],
+      "rank": 6,
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "enbridge",
+      "monitor_ids": [
+        "enbridge"
+      ],
+      "rank": 7,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "suncor",
+      "monitor_ids": [
+        "suncor"
+      ],
+      "rank": 8,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "cenovus",
+      "monitor_ids": [
+        "cenovus"
+      ],
+      "rank": 9,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "canadian-tire",
+      "monitor_ids": [
+        "canadian-tire"
+      ],
+      "rank": 10,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "atkinsrealis",
+      "monitor_ids": [
+        "atkinsrealis"
+      ],
+      "rank": 11,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "saputo",
+      "monitor_ids": [
+        "saputo"
+      ],
+      "rank": 12,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "finning",
+      "monitor_ids": [
+        "finning"
+      ],
+      "rank": 13,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "thomson-reuters",
+      "monitor_ids": [
+        "thomson-reuters"
+      ],
+      "rank": 14,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "cae",
+      "monitor_ids": [
+        "cae"
+      ],
+      "rank": 15,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "tc-energy",
+      "monitor_ids": [
+        "tc-energy"
+      ],
+      "rank": 16,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "restaurant-brands-international",
+      "monitor_ids": [
+        "restaurant-brands-international"
+      ],
+      "rank": 17,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "canada-goose",
+      "monitor_ids": [
+        "canada-goose"
+      ],
+      "rank": 18,
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "element-fleet",
+      "monitor_ids": [
+        "element-fleet"
+      ],
+      "rank": 19,
+      "note": "Explicitly labelled Canadian location subset; additional Canadian locations may be omitted. Live canonical runtime validated; scope remains partial."
+    },
+    {
+      "company_id": "gfl-environmental",
+      "monitor_ids": [
+        "gfl-environmental"
+      ],
+      "rank": 20,
+      "note": "Canada country facet. Live canonical runtime validated; scope remains partial."
+    }
+  ]
+}

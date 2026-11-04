@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "suncor",
+  "name": "Suncor Energy",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.suncor.com",
+  "logo_url": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/assets/logo",
+  "facets": {
+    "industries": [
+      "energy"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

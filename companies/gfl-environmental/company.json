@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gfl-environmental",
+  "name": "GFL Environmental",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://gflenv.com",
+  "logo_url": "https://gflenv.wd3.myworkdayjobs.com/Careers/assets/logo",
+  "facets": {
+    "industries": [
+      "environmental-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

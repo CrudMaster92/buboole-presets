@@ -1,0 +1,1823 @@
+[
+  {
+    "monitor_id": "bmo",
+    "source_url": "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs",
+    "fetched_at": "2026-10-23T17:29:52.511144+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Pre-Delinquency Contact Center Agent",
+          "externalPath": "/job/REMOTETELETRAVAIL-ON-CAN/Pre-Delinquency-Contact-Center-Agent_R260029647",
+          "locationsText": "8 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R260029647"
+          ]
+        },
+        {
+          "title": "Customer Service Representative",
+          "externalPath": "/job/Toronto-ON-CAN/Customer-Service-Representative_R260029528",
+          "locationsText": "Toronto, ON, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R260029528"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/job/REMOTETELETRAVAIL-ON-CAN/Pre-Delinquency-Contact-Center-Agent_R260029647": {
+        "jobPostingInfo": {
+          "id": "99321eda8a501001f670f0028fb20000",
+          "title": "Pre-Delinquency Contact Center Agent",
+          "jobDescription": "<div><div><div><div><div><div><div><div><div><div><div><div><div><div><p style=\"text-align:left\"><span>Application Deadline:</span></p></div></div></div></div></div></div></div></div></div></div></div></div></div></div>11/14/2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Address:</span></p>VIRTUAL59 - REMOTE/TELETRAVAIL - ON - BMO<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div><div><div><div><div><div><div><p style=\"text-align:left\">Job Family Group:</p></div></div></div></div></div></div></div>Customer Shared Services<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Shift: 1pm to 9pm Tuesday to Friday, Saturday 10am to 6pm. </p><p style=\"text-align:inherit\"></p><p style=\"text-align:inhe",
+          "location": "REMOTE/TELETRAVAIL, ON, CAN",
+          "additionalLocations": [
+            "REMOTE/TELETRAVAIL, BC, CAN",
+            "REMOTE/TELETRAVAIL, NB, CAN",
+            "REMOTE/TELETRAVAIL, YT, CAN",
+            "REMOTE/TELETRAVAIL, MB, CAN",
+            "REMOTE/TELETRAVAIL, NT, CAN",
+            "REMOTE/TELETRAVAIL, AB, CAN",
+            "REMOTE/TELETRAVAIL, NU, CAN"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "",
+          "jobReqId": "R260029647",
+          "jobPostingId": "Pre-Delinquency-Contact-Center-Agent_R260029647",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://bmo.wd3.myworkdayjobs.com/External/job/REMOTETELETRAVAIL-ON-CAN/Pre-Delinquency-Contact-Center-Agent_R260029647"
+        },
+        "hiringOrganization": {
+          "name": "Bank of Montreal",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/job/Toronto-ON-CAN/Customer-Service-Representative_R260029528": {
+        "jobPostingInfo": {
+          "id": "e7dd2a2a7a9e1001f42283a3664e0000",
+          "title": "Customer Service Representative",
+          "jobDescription": "<div><div><div><div><div><div><div><div><div><div><div><div><div><div><p style=\"text-align:left\"><span>Application Deadline:</span></p></div></div></div></div></div></div></div></div></div></div></div></div></div></div>11/09/2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Address:</span></p>1225 McCowan Road<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div><div><div><div><div><div><div><p style=\"text-align:left\">Job Family Group:</p></div></div></div></div></div></div></div>Retail Banking Sales &amp; Service<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p>Delivers exceptional service to BMO customers and prospects. ",
+          "location": "Toronto, ON, CAN",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Part time",
+          "jobReqId": "R260029528",
+          "jobPostingId": "Customer-Service-Representative_R260029528",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Customer-Service-Representative_R260029528"
+        },
+        "hiringOrganization": {
+          "name": "Bank of Montreal",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "cibc",
+    "source_url": "https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs",
+    "fetched_at": "2026-10-23T17:29:52.512216+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Sr. Consultant, Business Systems Analysis",
+          "externalPath": "/job/Toronto-ON/Sr-Consultant--Business-Systems-Analysis_2621166",
+          "locationsText": "Toronto, ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "2621166"
+          ]
+        },
+        {
+          "title": "Consultant, Business Effectiveness - Governance and Risk",
+          "externalPath": "/job/Toronto-ON/Consultant--Business-Effectiveness---Governance-and-Risk_2621629",
+          "locationsText": "Toronto, ON",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "2621629"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/job/Toronto-ON/Sr-Consultant--Business-Systems-Analysis_2621166": {
+        "jobPostingInfo": {
+          "id": "600e61f6022d10022939b1eb02210000",
+          "title": "Sr. Consultant, Business Systems Analysis",
+          "jobDescription": "<p><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>We’re building a <span><span><span>relationship-oriented</span></span></span> bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p></p><p><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><sp",
+          "location": "Toronto, ON",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "2621166",
+          "jobPostingId": "Sr-Consultant--Business-Systems-Analysis_2621166",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Sr-Consultant--Business-Systems-Analysis_2621166"
+        },
+        "hiringOrganization": {
+          "name": "Canadian Imperial Bank of Commerce (Canada)",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/job/Toronto-ON/Consultant--Business-Effectiveness---Governance-and-Risk_2621629": {
+        "jobPostingInfo": {
+          "id": "600e61f6022d1002288ffe45a4c60000",
+          "title": "Consultant, Business Effectiveness - Governance and Risk",
+          "jobDescription": "<p><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>We’re building a <span><span><span>relationship-oriented</span></span></span> bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p></p><p><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><sp",
+          "location": "Toronto, ON",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "2621629",
+          "jobPostingId": "Consultant--Business-Effectiveness---Governance-and-Risk_2621629",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Consultant--Business-Effectiveness---Governance-and-Risk_2621629"
+        },
+        "hiringOrganization": {
+          "name": "Canadian Imperial Bank of Commerce (Canada)",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "desjardins",
+    "source_url": "https://desjardins.wd10.myworkdayjobs.com/wday/cxs/desjardins/Desjardins/jobs",
+    "fetched_at": "2026-10-23T17:29:52.513174+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Manager",
+          "externalPath": "/job/Lvis/Directeur-ou-directrice--Croissance-et-performance--Assurance-de-dommages-des-particuliers_R2610521-1",
+          "locationsText": "4 Locations",
+          "postedOn": "Posted Today",
+          "remoteType": "The work arrangement for the position is hybrid work",
+          "bulletFields": [
+            "R2610521"
+          ]
+        },
+        {
+          "title": "Analyst, System and infrastructure operations, maintenance and development",
+          "externalPath": "/job/Montral/Spcialiste-assurance-qualit--Dveloppement-solutions-IA_R2612818-1",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "remoteType": "The work arrangement for the position is hybrid work",
+          "bulletFields": [
+            "R2612818"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://desjardins.wd10.myworkdayjobs.com/wday/cxs/desjardins/Desjardins/job/Lvis/Directeur-ou-directrice--Croissance-et-performance--Assurance-de-dommages-des-particuliers_R2610521-1": {
+        "jobPostingInfo": {
+          "id": "4ecc27b8d00a1001fcaed11024520001",
+          "title": "Manager",
+          "jobDescription": "<p>Your role involves using your ability to make quality decisions and build effective teams to manage a large subset of sales or operations activities or a support sub-function that offers specialized services to the sector. You are responsible for administrating your group’s service offer, developing and implementing its business plan, and overseeing activities supporting the administrative department’s strategic orientations. With an ability to develop talent and drive results, you are able to effectively manage people and performance, produce reports and ensure member/client satisfaction. More specifically, you will be required to:</p><ul><li>Support the immediate supervisor by helping with work organization, operational planning and special initiatives</li><li>Develop, implement and t",
+          "location": "Lévis",
+          "additionalLocations": [
+            "Montréal",
+            "Mississauga",
+            "Aurora"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R2610521",
+          "jobPostingId": "Directeur-ou-directrice--Croissance-et-performance--Assurance-de-dommages-des-particuliers_R2610521-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Lvis/Directeur-ou-directrice--Croissance-et-performance--Assurance-de-dommages-des-particuliers_R2610521-1"
+        },
+        "hiringOrganization": {
+          "name": "Desjardins General Insurance Group",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://desjardins.wd10.myworkdayjobs.com/wday/cxs/desjardins/Desjardins/job/Montral/Spcialiste-assurance-qualit--Dveloppement-solutions-IA_R2612818-1": {
+        "jobPostingInfo": {
+          "id": "b97c4ca6f33f1001f82d09cc37f90000",
+          "title": "Analyst, System and infrastructure operations, maintenance and development",
+          "jobDescription": "<p>As a systems and infrastructure operations, maintenance and development analyst, you support IT efficiency. You design, configure, administer, maintain, upgrade and test the quality of business solutions, computer networks, management systems, programs and database servers based on the organization&#39;s needs. You analyze and diagnose issues related to controls, quality assurance and large-scale deliveries and rollouts. You provide opinions in accordance with your discipline&#39;s rules and recommend solutions to improve and optimize standards, policies and programs. You recommend implementation plans. You actively help establish and implement multiple quality assurance strategies for business solutions in a large-scale and highly complex focus area.  Your projects and initiatives requ",
+          "location": "Montréal",
+          "additionalLocations": [
+            "Lévis"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R2612818",
+          "jobPostingId": "Spcialiste-assurance-qualit--Dveloppement-solutions-IA_R2612818-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Montral/Spcialiste-assurance-qualit--Dveloppement-solutions-IA_R2612818-1"
+        },
+        "hiringOrganization": {
+          "name": "Desjardins Technology Group",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "manulife",
+    "source_url": "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/MFCJH_Jobs/jobs",
+    "fetched_at": "2026-10-23T17:29:52.514066+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Senior  Branch Manager",
+          "externalPath": "/job/Toronto-Ontario/Senior--Branch-Manager_JR26091674-1",
+          "locationsText": "Toronto, Ontario",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR26091674",
+            "Toronto"
+          ]
+        },
+        {
+          "title": "AVP Head of Partner and Direct Sales Channel",
+          "externalPath": "/job/Toronto-Ontario/AVP-Head-of-Partner-and-Direct-Sales-Channel_JR26091937-1",
+          "locationsText": "3 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR26091937",
+            "Toronto"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/MFCJH_Jobs/job/Toronto-Ontario/Senior--Branch-Manager_JR26091674-1": {
+        "jobPostingInfo": {
+          "id": "7387c22838d610019e3135e4a1680000",
+          "title": "Senior  Branch Manager",
+          "jobDescription": "<p><b>The Opportunity:</b></p><p> </p><p>The Senior Branch Manager is a supervision management position within Manulife Wealth. The Senior Branch Manager is responsible for providing Daily Tier 1 supervision of advisors registered with the Canadian Investment Regulatory Organization (CIRO).</p><p> </p><p>This position reports directly to the Regional Field Supervision Officer for their region and is expected to encourage and foster a compliance culture focused on providing advice and supervision to protect clients, dealer and advisors.</p><p> </p><p><b>Position Responsibilities:</b></p><ul><li>Responsible for Tier 1 supervision, approval of daily, monthly, quarterly trade reports </li><li>Review and approve new accounts and KYC updates. </li><li>Provide training and education to advisor te",
+          "location": "Toronto, Ontario",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR26091674",
+          "jobPostingId": "Senior--Branch-Manager_JR26091674-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Toronto-Ontario/Senior--Branch-Manager_JR26091674-1"
+        },
+        "hiringOrganization": {
+          "name": "Company 1 - The Manufacturers Life Insurance Company",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/MFCJH_Jobs/job/Toronto-Ontario/AVP-Head-of-Partner-and-Direct-Sales-Channel_JR26091937-1": {
+        "jobPostingInfo": {
+          "id": "b9a65c15fb6e1001f4866e8380140000",
+          "title": "AVP Head of Partner and Direct Sales Channel",
+          "jobDescription": "<p>This is an opportunity to shape the next phase of profitable growth for Manulife Affinity, deepen relationships with major North American brands, and build a high-performing partner distribution organization. Reporting to the Head of Commercialization &amp; Emerging Business, the AVP, Head of Partner Growth will set and execute the strategy across Affinity ’s sponsor and partner channels, expand strategic partnerships, strengthen sales performance, and build a scalable distribution engine that advances the business’s growth ambitions.</p><br /><p>You will lead the segment leaders who own relationships with major partners across Financial Institutions, Retail, Alumni, Professional, and Special Interest segments. With accountability for profitable growth across this diverse portfolio, you",
+          "location": "Toronto, Ontario",
+          "additionalLocations": [
+            "CAN, Quebec, Montreal, 900 Boulevard de Maisonneuve Ouest",
+            "CAN, Ontario, Ottawa, 55 Metcalfe Street, Suite 910"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR26091937",
+          "jobPostingId": "AVP-Head-of-Partner-and-Direct-Sales-Channel_JR26091937-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Toronto-Ontario/AVP-Head-of-Partner-and-Direct-Sales-Channel_JR26091937-1"
+        },
+        "hiringOrganization": {
+          "name": "Company 1 - The Manufacturers Life Insurance Company",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "sun-life",
+    "source_url": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Experienced/jobs",
+    "fetched_at": "2026-10-23T17:29:58.042901+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunities",
+          "externalPath": "/job/Calgary-Alberta/Advisor-Trainee--Advisor-Development-Program_JR00122674-1",
+          "locationsText": "Calgary, Alberta",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR00122674"
+          ]
+        },
+        {
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunties",
+          "externalPath": "/job/Windsor-Ontario/Advisor-Trainee--Advisor-Development-Program_JR00121845-1",
+          "locationsText": "3 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR00121845"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Experienced/job/Calgary-Alberta/Advisor-Trainee--Advisor-Development-Program_JR00122674-1": {
+        "jobPostingInfo": {
+          "id": "7395a60768001001531edf82444c0001",
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunities",
+          "jobDescription": "<p style=\"text-align:left !important\">You are as unique as your background, experience and point of view. Here, you’ll be encouraged, empowered and challenged to be your best self. You&#39;ll work with dynamic colleagues - experts in their fields - who are eager to share their knowledge with you. Your leaders will inspire and help you reach your potential and soar to new heights. Every day, you&#39;ll have new and exciting opportunities to make life brighter for our Clients - who are at the heart of everything we do.      </p><br /><p>At Sun Life, we&#39;re driven by our Purpose: helping our Clients achieve lifetime financial security and live healthier lives. Our values shape how we work: caring, authentic, bold, inspiring, and impactful.</p><br /><p>When you join Sun Life, you&#39;ll wor",
+          "location": "Calgary, Alberta",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR00122674",
+          "jobPostingId": "Advisor-Trainee--Advisor-Development-Program_JR00122674-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://sunlife.wd3.myworkdayjobs.com/Experienced/job/Calgary-Alberta/Advisor-Trainee--Advisor-Development-Program_JR00122674-1"
+        },
+        "hiringOrganization": {
+          "name": "Sun Life Assurance Company of Canada",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Experienced/job/Windsor-Ontario/Advisor-Trainee--Advisor-Development-Program_JR00121845-1": {
+        "jobPostingInfo": {
+          "id": "10b3f279adef100152463ea962900000",
+          "title": "Advisor Trainee- Advisor Development Program -Future Opportunties",
+          "jobDescription": "<p style=\"text-align:left !important\">You are as unique as your background, experience and point of view. Here, you’ll be encouraged, empowered and challenged to be your best self. You&#39;ll work with dynamic colleagues - experts in their fields - who are eager to share their knowledge with you. Your leaders will inspire and help you reach your potential and soar to new heights. Every day, you&#39;ll have new and exciting opportunities to make life brighter for our Clients - who are at the heart of everything we do.      </p><br /><p>At Sun Life, we&#39;re driven by our Purpose: helping our Clients achieve lifetime financial security and live healthier lives. Our values shape how we work: caring, authentic, bold, inspiring, and impactful.</p><br /><p>When you join Sun Life, you&#39;ll wor",
+          "location": "Windsor, Ontario",
+          "additionalLocations": [
+            "London, Ontario",
+            "Stratford, Ontario"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR00121845",
+          "jobPostingId": "Advisor-Trainee--Advisor-Development-Program_JR00121845-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://sunlife.wd3.myworkdayjobs.com/Experienced/job/Windsor-Ontario/Advisor-Trainee--Advisor-Development-Program_JR00121845-1"
+        },
+        "hiringOrganization": {
+          "name": "Sun Life Assurance Company of Canada",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "intact-financial",
+    "source_url": "https://intactfc.wd3.myworkdayjobs.com/wday/cxs/intactfc/intactfc/jobs",
+    "fetched_at": "2026-10-23T17:34:23.391722+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Senior Commercial Property Adjuster",
+          "externalPath": "/job/Vancouver-British-Columbia-CAN/Senior-Commercial-Property-Adjuster_R155807",
+          "locationsText": "5 Locations",
+          "postedOn": "Posted 16 Days Ago",
+          "bulletFields": [
+            "R155807"
+          ]
+        },
+        {
+          "title": "Manager Finance, IT Finance",
+          "externalPath": "/job/Montral-Quebec-CAN/Manager-Finance--IT-Finance_R156118",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R156118"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://intactfc.wd3.myworkdayjobs.com/wday/cxs/intactfc/intactfc/job/Vancouver-British-Columbia-CAN/Senior-Commercial-Property-Adjuster_R155807": {
+        "jobPostingInfo": {
+          "id": "7428e74efbd31001571df6eabcc30000",
+          "title": "Senior Commercial Property Adjuster",
+          "jobDescription": "<p><i>Our employees are at the heart of everything we do. Together, we help people, businesses, and society prosper in good times and be resilient in bad times.</i></p><p><br /><i>Our employee promise represents Intact’s commitment to you in exchange for living our Values, striving to do your best work, being open to change and investing in your career. In return, we promise to provide support, opportunities and performance-led financial rewards at a workplace where you can shape the future, win as a team and grow with us.</i></p><p></p><p><b>Pay at Intact is about much more than just salary.</b></p><p></p><ul><li><p><b>Flexible</b> work arrangements and a <b>hybrid</b> work model</p></li><li><p>Possibility to purchase up to <b>5 extra days off</b> per year</p></li><li><p>Multiple benefits",
+          "location": "Vancouver, British Columbia, CAN",
+          "additionalLocations": [
+            "Victoria, British Columbia, CAN",
+            "Winnipeg, Manitoba, CAN",
+            "Edmonton, Alberta, CAN",
+            "Calgary, Alberta, CAN"
+          ],
+          "postedOn": "Posted 16 Days Ago",
+          "startDate": "2026-10-07",
+          "timeType": "Full time",
+          "jobReqId": "R155807",
+          "jobPostingId": "Senior-Commercial-Property-Adjuster_R155807",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Vancouver-British-Columbia-CAN/Senior-Commercial-Property-Adjuster_R155807"
+        },
+        "hiringOrganization": {
+          "name": "Intact Financial Corporation",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://intactfc.wd3.myworkdayjobs.com/wday/cxs/intactfc/intactfc/job/Montral-Quebec-CAN/Manager-Finance--IT-Finance_R156118": {
+        "jobPostingInfo": {
+          "id": "0a2fabeebe2e1001f574afcac2810000",
+          "title": "Manager Finance, IT Finance",
+          "jobDescription": "<p><i>Our employees are at the heart of everything we do. Together, we help people, businesses, and society prosper in good times and be resilient in bad times.</i></p><p><br /><i>Our employee promise represents Intact’s commitment to you in exchange for living our Values, striving to do your best work, being open to change and investing in your career. In return, we promise to provide support, opportunities and performance-led financial rewards at a workplace where you can shape the future, win as a team and grow with us.</i></p><p></p><p><b>Pay at Intact is about much more than just salary.</b></p><p></p><ul><li><p><b>Flexible</b> work arrangements and a <b>hybrid</b> work model</p></li><li><p>Possibility to purchase up to <b>5 extra days off</b> per year</p></li><li><p>Multiple benefits",
+          "location": "Montréal, Quebec, CAN",
+          "additionalLocations": [
+            "Toronto, Ontario, CAN"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R156118",
+          "jobPostingId": "Manager-Finance--IT-Finance_R156118",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Montral-Quebec-CAN/Manager-Finance--IT-Finance_R156118"
+        },
+        "hiringOrganization": {
+          "name": "Intact Financial Corporation",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "enbridge",
+    "source_url": "https://enbridge.wd3.myworkdayjobs.com/wday/cxs/enbridge/enbridge_careers/jobs",
+    "fetched_at": "2026-10-23T17:34:21.639915+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Corrosion Technician",
+          "externalPath": "/job/HopeStn-8B-HopeOthello/Corrosion-Technician_73374",
+          "locationsText": "HopeStn 8B Hope/Othello",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "73374"
+          ]
+        },
+        {
+          "title": "Asset Investment Planning & Management Specialist",
+          "externalPath": "/job/Edmonton-AB-CAN/Asset-Investment-Planning---Management-Specialist_73469-1",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Yesterday",
+          "remoteType": "Hybrid: Remote and Office",
+          "bulletFields": [
+            "73469"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://enbridge.wd3.myworkdayjobs.com/wday/cxs/enbridge/enbridge_careers/job/HopeStn-8B-HopeOthello/Corrosion-Technician_73374": {
+        "jobPostingInfo": {
+          "id": "469d4a474d201001ecfe490da3ad0000",
+          "title": "Corrosion Technician",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Posting End Date:</b></p>November 05, 2026<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Employee Type:</b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>Regular-Full time<span><span><span><span><span><span><span><span><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Union/Non: </b></s",
+          "location": "HopeStn 8B Hope/Othello",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "73374",
+          "jobPostingId": "Corrosion-Technician_73374",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/HopeStn-8B-HopeOthello/Corrosion-Technician_73374"
+        },
+        "hiringOrganization": {
+          "name": "Westcoast Energy Inc",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://enbridge.wd3.myworkdayjobs.com/wday/cxs/enbridge/enbridge_careers/job/Edmonton-AB-CAN/Asset-Investment-Planning---Management-Specialist_73469-1": {
+        "jobPostingInfo": {
+          "id": "a5db4e82a8801001b34c78f286b10001",
+          "title": "Asset Investment Planning & Management Specialist",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Posting End Date:</b></p>October 29, 2026<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Employee Type:</b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>Regular-Full time<span><span><span><span><span><span><span><span><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Union/Non: </b></sp",
+          "location": "Edmonton, AB, CAN",
+          "additionalLocations": [
+            "Calgary, AB, CAN"
+          ],
+          "postedOn": "Posted Yesterday",
+          "startDate": "2026-10-22",
+          "timeType": "Full time",
+          "jobReqId": "73469",
+          "jobPostingId": "Asset-Investment-Planning---Management-Specialist_73469-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/Edmonton-AB-CAN/Asset-Investment-Planning---Management-Specialist_73469-1"
+        },
+        "hiringOrganization": {
+          "name": "Enbridge Employee Services CAN",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "suncor",
+    "source_url": "https://suncor.wd1.myworkdayjobs.com/wday/cxs/suncor/Suncor_External/jobs",
+    "fetched_at": "2026-10-23T17:35:29.044025+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Mine Planning Engineer in Training",
+          "externalPath": "/job/Fort-McMurray-Fort-Hills-AB-CAN/Mine-Planning-Engineer-in-Training_R0018416",
+          "locationsText": "Fort McMurray (Fort Hills), AB, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R0018416"
+          ]
+        },
+        {
+          "title": "Coordinator Production Control - Transportation",
+          "externalPath": "/job/Calgary-AB-CAN/Coordinator-Production-Control---Transportation_R0018231",
+          "locationsText": "Calgary, AB, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R0018231"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://suncor.wd1.myworkdayjobs.com/wday/cxs/suncor/Suncor_External/job/Fort-McMurray-Fort-Hills-AB-CAN/Mine-Planning-Engineer-in-Training_R0018416": {
+        "jobPostingInfo": {
+          "id": "2e79a201ed251001f13c936c4d030000",
+          "title": "Mine Planning Engineer in Training",
+          "jobDescription": "<p><span style=\"color:#494949\"><b>At Suncor, we produce and provide energy. </b></span></p><p></p><p><span style=\"color:#494949\">When you join Suncor, you become part of a company that has built a solid foundation for both business and employee success. We are a place where talented people thrive. As part of our team, you play a vital role in delivering energy we all rely on, and you&#39;ll make a meaningful impact in the communities where we live and work.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>FLY IN FLY OUT OPPORTUNITY!</b></p><br /><p><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Join our team as a Mine Planning Engineer in Training and play a key role in shaping short-range mine plans that drive safe, efficient, and compliant ",
+          "location": "Fort McMurray (Fort Hills), AB, CAN",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "",
+          "jobReqId": "R0018416",
+          "jobPostingId": "Mine-Planning-Engineer-in-Training_R0018416",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Fort-McMurray-Fort-Hills-AB-CAN/Mine-Planning-Engineer-in-Training_R0018416"
+        },
+        "hiringOrganization": {
+          "name": "1750 Suncor Energy Operating Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://suncor.wd1.myworkdayjobs.com/wday/cxs/suncor/Suncor_External/job/Calgary-AB-CAN/Coordinator-Production-Control---Transportation_R0018231": {
+        "jobPostingInfo": {
+          "id": "fb4bbf12fd7a1001f24cc2d477e30000",
+          "title": "Coordinator Production Control - Transportation",
+          "jobDescription": "<p><span style=\"color:#494949\"><b>At Suncor, we produce and provide energy. </b></span></p><p></p><p><span style=\"color:#494949\">When you join Suncor, you become part of a company that has built a solid foundation for both business and employee success. We are a place where talented people thrive. As part of our team, you play a vital role in delivering energy we all rely on, and you&#39;ll make a meaningful impact in the communities where we live and work.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Are you looking for a new role as a Coordinator Production Control - Transportation with Suncor? In this role, you will coordinate production planning, performance visibility, and cross-functional alignment across Suncor’s Midstream Transportation operation",
+          "location": "Calgary, AB, CAN",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R0018231",
+          "jobPostingId": "Coordinator-Production-Control---Transportation_R0018231",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Calgary-AB-CAN/Coordinator-Production-Control---Transportation_R0018231"
+        },
+        "hiringOrganization": {
+          "name": "1060 Suncor Energy Products Partnership",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "cenovus",
+    "source_url": "https://cenovus.wd3.myworkdayjobs.com/wday/cxs/cenovus/careers/jobs",
+    "fetched_at": "2026-10-23T17:31:42.141572+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Team Lead, Treasury Intercompany Strategy",
+          "externalPath": "/job/CA-AB-Calgary/Team-Lead--Treasury-Intercompany-Strategy_R-411189",
+          "locationsText": "CA-AB-Calgary",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-411189"
+          ]
+        },
+        {
+          "title": "Senior Advisor, Program Planning & Scheduling",
+          "externalPath": "/job/CA-AB-Calgary/Program-Planning---Scheduling-Advisor_R-411245",
+          "locationsText": "CA-AB-Calgary",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R-411245"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://cenovus.wd3.myworkdayjobs.com/wday/cxs/cenovus/careers/job/CA-AB-Calgary/Team-Lead--Treasury-Intercompany-Strategy_R-411189": {
+        "jobPostingInfo": {
+          "id": "e8dae1e376861001f25232e2984e0000",
+          "title": "Team Lead, Treasury Intercompany Strategy",
+          "jobDescription": "Worker Type: Employee<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Job Post End Date: 11/04/2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><br /><p><b><u>About this opportunity:</u></b></p><p>The Team Lead, Treasury Intercompany Strategy is responsible for leading a team of Treasury professionals in developing and optimizing Cenovus’s global banking structures leveraging lending strategies to support global liquidity. This new role will lead leads the planning and execution of the current international lending initiatives while exploring new opportunities to maximize value.</p><p> </p><p><b><u>What you’ll do:</u></b></p><p> </p><ul><li>Develop and implement innovative funding strategies while overseeing and enhancing existing international int",
+          "location": "CA-AB-Calgary",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R-411189",
+          "jobPostingId": "Team-Lead--Treasury-Intercompany-Strategy_R-411189",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Team-Lead--Treasury-Intercompany-Strategy_R-411189"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://cenovus.wd3.myworkdayjobs.com/wday/cxs/cenovus/careers/job/CA-AB-Calgary/Program-Planning---Scheduling-Advisor_R-411245": {
+        "jobPostingInfo": {
+          "id": "93c36c4cb06f1001b3ed7fb1f4ad0000",
+          "title": "Senior Advisor, Program Planning & Scheduling",
+          "jobDescription": "Worker Type: Employee<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Job Post End Date: 11/06/2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b><u>About this opportunity:</u></b></p><p>We are looking for a Senior Advisor, Program Planning &amp; Scheduling, to support the Well Delivery Program Integration Team. Reporting to the Program Planning Manager, this role will be responsible for integrated planning, scheduling, and performance analysis across a Well Delivery sustaining capital portfolio of approximately $300 million annually.</p><p>The Senior Advisor will partner with multidisciplinary teams to develop executable plans that align scope, schedule, cost, resources, risks, and business priorities, providing forward-looking analysis, scena",
+          "location": "CA-AB-Calgary",
+          "postedOn": "Posted Yesterday",
+          "startDate": "2026-10-22",
+          "timeType": "Full time",
+          "jobReqId": "R-411245",
+          "jobPostingId": "Program-Planning---Scheduling-Advisor_R-411245",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Program-Planning---Scheduling-Advisor_R-411245"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "canadian-tire",
+    "source_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/wday/cxs/canadiantirecorporation/Enterprise_External_Careers_Site/jobs",
+    "fetched_at": "2026-10-23T17:34:16.624094+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Purchase Coordinator, Womenswear (18 Month Contract)",
+          "externalPath": "/job/Calgary-AB/Purchase-Coordinator--Womenswear_JR167217",
+          "locationsText": "Calgary, AB",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR167217",
+            "Mark's Work Wearhouse Ltd.",
+            "Mark's"
+          ]
+        },
+        {
+          "title": "Analyst, Data Governance",
+          "externalPath": "/job/Oakville-ON/Analyst--Data-Governance_JR151508",
+          "locationsText": "Oakville, ON",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "JR151508",
+            "Canadian Tire Bank",
+            "CT Bank"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://canadiantirecorporation.wd3.myworkdayjobs.com/wday/cxs/canadiantirecorporation/Enterprise_External_Careers_Site/job/Calgary-AB/Purchase-Coordinator--Womenswear_JR167217": {
+        "jobPostingInfo": {
+          "id": "ec2f1bf7915a1001f06b8f8875460000",
+          "title": "Purchase Coordinator, Womenswear (18 Month Contract)",
+          "jobDescription": "<p><span style=\"color:#333333\"><b><span style=\"font-size:inherit\">Job Description</span></b></span></p><p style=\"color:!important\"><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Reporting to the Buyer, the </span><b><span style=\"font-size:inherit\">Purchase Coordinator, Womenswear</span></b><span style=\"font-size:inherit\"> is specifically responsible for supporting the buying team and partnering with cross functional partners to execute the merchandising strategy that meets or exceeds financial goals for their respective categories. Core areas of responsibility are as follows: assortment execution, daily vendor and internal communication, sample management, purchase order management, promotions and marketing and business analysis.</span></span></p><br /><p style=\"color:!importa",
+          "location": "Calgary, AB",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR167217",
+          "jobPostingId": "Purchase-Coordinator--Womenswear_JR167217",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Calgary-AB/Purchase-Coordinator--Womenswear_JR167217"
+        },
+        "hiringOrganization": {
+          "name": "Mark's Work Wearhouse Ltd.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://canadiantirecorporation.wd3.myworkdayjobs.com/wday/cxs/canadiantirecorporation/Enterprise_External_Careers_Site/job/Oakville-ON/Analyst--Data-Governance_JR151508": {
+        "jobPostingInfo": {
+          "id": "08d6aa10257b100113590cbb8fe00000",
+          "title": "Analyst, Data Governance",
+          "jobDescription": "<p><b>What You Will Do:</b> </p><br /><ul><li><b>Data Governance Leadership: </b>Support the development, implementation, maintenance, monitoring, and enforcement of data governance standards, policies, procedures, and controls to ensure adherence to privacy, compliance, risk, regulatory, and legal requirements. This includes AI Governance to ensure ethical use and compliance with regulatory standards for AI-driven processes. </li></ul><ul><li><b>Stakeholder Collaboration: </b>Collaborate with leadership, IT departments, business units, Legal, Compliance, Privacy, Risk teams, data producers and consumers, and IT data platform teams to align on data governance goals and support the operationalization of a robust data governance framework. </li></ul><ul><li>Promote data literacy by developin",
+          "location": "Oakville, ON",
+          "postedOn": "Posted Yesterday",
+          "startDate": "2026-10-22",
+          "timeType": "Full time",
+          "jobReqId": "JR151508",
+          "jobPostingId": "Analyst--Data-Governance_JR151508",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Oakville-ON/Analyst--Data-Governance_JR151508"
+        },
+        "hiringOrganization": {
+          "name": "Canadian Tire Bank",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "atkinsrealis",
+    "source_url": "https://slihrms.wd3.myworkdayjobs.com/wday/cxs/slihrms/Careers/jobs",
+    "fetched_at": "2026-10-23T17:31:42.143317+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "New Graduate, Environment",
+          "externalPath": "/job/CAABCalgary2200---144-4th-avenue-SW/New-Graduate--Environment-Division_R-162347",
+          "locationsText": "7 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-162347"
+          ]
+        },
+        {
+          "title": "Water Resources Engineer",
+          "externalPath": "/job/CAONToronto191-The-West-Mall/Water-Resources-Engineer_R-166321",
+          "locationsText": "CA.ON.Toronto.191 The West Mall",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-166321"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://slihrms.wd3.myworkdayjobs.com/wday/cxs/slihrms/Careers/job/CAABCalgary2200---144-4th-avenue-SW/New-Graduate--Environment-Division_R-162347": {
+        "jobPostingInfo": {
+          "id": "2493b680616a1001b661580a5efa0000",
+          "title": "New Graduate, Environment",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><h3><b>Job Description</b></h3><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Overview</b> </h2><p></p><p><i><span>Please note that this job posting is intended for you to express your interest in future opportunities within AtkinsRéalis.</span></i><span> </span></p><p></p><p><b>Kickstart your career with our Odyssey Program! </b>  </p><p>Designed exclusively for recent graduates, Odyssey is more than a job - it’s a launchpad for your professional journey. Over the course of the program, you’ll gain hands-on experience, personalized mentorship, and exposure to diverse projects that will challenge and inspire you. We’ll equip you with the tools, training, and network you need to grow into a future leader. If you’re curious, ambit",
+          "location": "CA.AB.Calgary.2200 - 144 4th avenue SW",
+          "additionalLocations": [
+            "CA.BC.Vancouver. 733 Seymour St.",
+            "CA.ON.Toronto.191 The West Mall",
+            "CA.BC.Fort St John.10012 97th Avenue",
+            "CA.AB.Edmonton.8915 51st Avenue, Suite 201",
+            "CA.SK.Saskatoon.406 Jessop Avenue",
+            "CA.YT.Whitehorse.102, 4149 4th Avenue"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R-162347",
+          "jobPostingId": "New-Graduate--Environment-Division_R-162347",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://slihrms.wd3.myworkdayjobs.com/Careers/job/CAABCalgary2200---144-4th-avenue-SW/New-Graduate--Environment-Division_R-162347"
+        },
+        "hiringOrganization": {
+          "name": "AtkinsRéalis Canada Inc.",
+          "url": ""
+        },
+        "similarJobs": [
+          {
+            "title": "Environmental Scientist / Engineer",
+            "externalPath": "/job/CABCVancouver-733-Seymour-St/Environmental-Scientist---Engineer_R-157897",
+            "timeType": "Full time",
+            "locationsText": "CA.BC.Vancouver. 733 Seymour St.",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-06-18"
+          },
+          {
+            "title": "Senior Environmental Scientist or Engineer",
+            "externalPath": "/job/CABCFort-St-John10012-97th-Avenue/Senior-Environmental-Scientist-or-Engineer_R-163013",
+            "timeType": "Full time",
+            "locationsText": "2 Locations",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-09-08"
+          },
+          {
+            "title": "Project Manager, Tailings, Water and Environment",
+            "externalPath": "/job/CABCVancouver-733-Seymour-St/Project-Manager--Tailings--Water-and-Environment_R-165151",
+            "timeType": "Full time",
+            "locationsText": "CA.BC.Vancouver. 733 Seymour St.",
+            "postedOn": "Posted 28 Days Ago",
+            "startDate": "2026-09-25"
+          }
+        ],
+        "userAuthenticated": false
+      },
+      "https://slihrms.wd3.myworkdayjobs.com/wday/cxs/slihrms/Careers/job/CAONToronto191-The-West-Mall/Water-Resources-Engineer_R-166321": {
+        "jobPostingInfo": {
+          "id": "640db0fe2a051001f13ceff56a300000",
+          "title": "Water Resources Engineer",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><h3><b>Job Description</b></h3><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Overview</b></h2><p><b> </b></p><p>Join AtkinsRéalis and help shape the future of transportation infrastructure through innovative water resources engineering solutions. As a Water Resources Engineer, you will be part of a multidisciplinary engineering team supporting the planning, analysis, and design of drainage and stormwater management systems for major transportation projects across Ontario. This is an exciting opportunity to contribute to sustainable infrastructure, collaborate with industry experts, and grow your engineering career.</p><p> </p><h2><b>Your role</b></h2><p><b> </b></p><ul><li>Lead and support the planning, analysis, and detailed d",
+          "location": "CA.ON.Toronto.191 The West Mall",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R-166321",
+          "jobPostingId": "Water-Resources-Engineer_R-166321",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://slihrms.wd3.myworkdayjobs.com/Careers/job/CAONToronto191-The-West-Mall/Water-Resources-Engineer_R-166321"
+        },
+        "hiringOrganization": {
+          "name": "AtkinsRéalis Canada Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "saputo",
+    "source_url": "https://saputo.wd5.myworkdayjobs.com/wday/cxs/saputo/Saputo_External_Careers/jobs",
+    "fetched_at": "2026-10-23T17:34:25.692145+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Warehouse Worker - Relief",
+          "externalPath": "/job/Port-Coquitlam-BC/Warehouse-Worker---Relief_JR64028",
+          "locationsText": "Port Coquitlam, BC",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR64028"
+          ]
+        },
+        {
+          "title": "Part Time Warehouse Attendant",
+          "externalPath": "/job/Spruce-Lake-NB/Part-Time-Warehouse-Attendant_JR67871",
+          "locationsText": "Spruce Lake, NB",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR67871"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://saputo.wd5.myworkdayjobs.com/wday/cxs/saputo/Saputo_External_Careers/job/Port-Coquitlam-BC/Warehouse-Worker---Relief_JR64028": {
+        "jobPostingInfo": {
+          "id": "ec919313bf44100163ffc8b9c1bc0000",
+          "title": "Warehouse Worker - Relief",
+          "jobDescription": "<p><span>At Saputo, we bring good to the table by making high-quality products, investing in our people, and supporting communities around the world . As a top 10 global dairy processor, we value contributions that matter and strive to foster an inclusive, growth-driven work environment. Ready to bring your best?</span></p><p></p><p></p><p><u>Warehouse Worker – Port Coquitlam </u> </p><p> </p><p><u>Overview of the role :</u> </p><p>You&#39;ll discover a stimulating atmosphere that fosters your professional growth in a clean and safe environment. This is a part-time position offering up to 4 shifts, 36 hours per week. Our facility operates 24/7; on-call shift work is required. Full time opportunities will be posted and awarded by seniority as they become vacant. Position requires morning, n",
+          "location": "Port Coquitlam, BC",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Part time",
+          "jobReqId": "JR64028",
+          "jobPostingId": "Warehouse-Worker---Relief_JR64028",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Port-Coquitlam-BC/Warehouse-Worker---Relief_JR64028"
+        },
+        "hiringOrganization": {
+          "name": "DPC Saputo Dairy Products Canada G.P.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://saputo.wd5.myworkdayjobs.com/wday/cxs/saputo/Saputo_External_Careers/job/Spruce-Lake-NB/Part-Time-Warehouse-Attendant_JR67871": {
+        "jobPostingInfo": {
+          "id": "93a1ca85e74c1001eb44a2953be90000",
+          "title": "Part Time Warehouse Attendant",
+          "jobDescription": "<p><span>At Saputo, we bring good to the table by making high-quality products, investing in our people, and supporting communities around the world . As a top 10 global dairy processor, we value contributions that matter and strive to foster an inclusive, growth-driven work environment. Ready to bring your best?</span></p><p></p><p></p><p><u>We support and care for our employees by providing them with:</u></p><p> </p><ul><li>Competitive pay</li></ul><ul><li>Advantageous corporate agreements </li></ul><ul><li>Full range of group insurance benefits </li></ul><ul><li>Group retirement pension plan with employer contribution </li></ul><ul><li>Purchase option of company stocks </li></ul><ul><li>Group RRSP </li></ul><ul><li>Health and wellness program in the workplace </li></ul><ul><li>Assistanc",
+          "location": "Spruce Lake, NB",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Part time",
+          "jobReqId": "JR67871",
+          "jobPostingId": "Part-Time-Warehouse-Attendant_JR67871",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Spruce-Lake-NB/Part-Time-Warehouse-Attendant_JR67871"
+        },
+        "hiringOrganization": {
+          "name": "DPC Saputo Dairy Products Canada G.P.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "finning",
+    "source_url": "https://finning.wd3.myworkdayjobs.com/wday/cxs/finning/External/jobs",
+    "fetched_at": "2026-10-23T17:31:47.966436+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Gas Compression Field Technician",
+          "externalPath": "/job/Fort-St-John-BC-CA/Gas-Compression-Field-Technician_R-2026-2419",
+          "locationsText": "Fort St John, BC, CA",
+          "postedOn": "Posted 3 Days Ago",
+          "bulletFields": [
+            "R-2026-2419",
+            "2026-10-30"
+          ]
+        },
+        {
+          "title": "Service Supervisor - Power & Energy",
+          "externalPath": "/job/Edmonton-AB-CA/Service-Supervisor---Power---Energy_R-2026-3919",
+          "locationsText": "Edmonton, AB, CA",
+          "postedOn": "Posted 9 Days Ago",
+          "bulletFields": [
+            "R-2026-3919",
+            "2026-10-30"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://finning.wd3.myworkdayjobs.com/wday/cxs/finning/External/job/Fort-St-John-BC-CA/Gas-Compression-Field-Technician_R-2026-2419": {
+        "jobPostingInfo": {
+          "id": "c2229f1b6366100165b3b0cdde660000",
+          "title": "Gas Compression Field Technician",
+          "jobDescription": "<h2><b>Company:</b></h2>Finning Canada<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Number of Openings:</b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></h2>6<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Worker Type:</b></h2>Permanent<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Position Overview:</b><",
+          "location": "Fort St John, BC, CA",
+          "postedOn": "Posted 3 Days Ago",
+          "startDate": "2026-10-20",
+          "timeType": "Full time",
+          "jobReqId": "R-2026-2419",
+          "jobPostingId": "Gas-Compression-Field-Technician_R-2026-2419",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://finning.wd3.myworkdayjobs.com/External/job/Fort-St-John-BC-CA/Gas-Compression-Field-Technician_R-2026-2419"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [
+          {
+            "title": "Gas Compression Field Technician",
+            "externalPath": "/job/Fort-St-John-BC-CA/Gas-Compression-Field-Technician_R-2026-2421-1",
+            "timeType": "Full time",
+            "locationsText": "Fort St John, BC, CA",
+            "postedOn": "Posted 8 Days Ago",
+            "startDate": "2026-10-15",
+            "timeLeftToApply": "6 days left to apply",
+            "jobPostingEndDateAsText": "End Date: October 30, 2026"
+          },
+          {
+            "title": "Gas Compression Field Technician",
+            "externalPath": "/job/Edmonton-AB-CA/Gas-Compression-Field-Technician_R-2026-3384",
+            "timeType": "Full time",
+            "locationsText": "4 Locations",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-07-21",
+            "timeLeftToApply": "30+ days left to apply",
+            "jobPostingEndDateAsText": "End Date: December 31, 2026"
+          }
+        ],
+        "userAuthenticated": false
+      },
+      "https://finning.wd3.myworkdayjobs.com/wday/cxs/finning/External/job/Edmonton-AB-CA/Service-Supervisor---Power---Energy_R-2026-3919": {
+        "jobPostingInfo": {
+          "id": "75e88244219c10016fa72ddd529f0000",
+          "title": "Service Supervisor - Power & Energy",
+          "jobDescription": "<h2><b>Company:</b></h2>Finning Canada<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><b>Number of Openings:</b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></h2>1<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Worker Type:</b></h2>Permanent<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b>Position Overview:</b><",
+          "location": "Edmonton, AB, CA",
+          "postedOn": "Posted 9 Days Ago",
+          "startDate": "2026-10-14",
+          "timeType": "Full time",
+          "jobReqId": "R-2026-3919",
+          "jobPostingId": "Service-Supervisor---Power---Energy_R-2026-3919",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://finning.wd3.myworkdayjobs.com/External/job/Edmonton-AB-CA/Service-Supervisor---Power---Energy_R-2026-3919"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [
+          {
+            "title": "Field Service Supervisor",
+            "externalPath": "/job/Elkford-BC-CA/Field-Service-Supervisor_R-2026-3911",
+            "timeType": "Full time",
+            "locationsText": "5 Locations",
+            "postedOn": "Posted 3 Days Ago",
+            "startDate": "2026-10-20",
+            "timeLeftToApply": "21 days left to apply",
+            "jobPostingEndDateAsText": "End Date: November 14, 2026"
+          }
+        ],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "thomson-reuters",
+    "source_url": "https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/jobs",
+    "fetched_at": "2026-10-23T17:31:48.611337+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Senior Software Engineer",
+          "externalPath": "/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer-II_JREQ202092",
+          "postedOn": "Posted Today",
+          "remoteType": "Hybrid",
+          "bulletFields": [
+            "Frisco; Toronto; Eagan",
+            "Texas; Ontario; Minnesota",
+            "JREQ202092"
+          ]
+        },
+        {
+          "title": "Senior Manager, AI Engineering",
+          "externalPath": "/job/Canada-Toronto-Ontario/Senior-Manager--AI-Engineering_JREQ204565-1",
+          "postedOn": "Posted Today",
+          "remoteType": "Hybrid",
+          "bulletFields": [
+            "Toronto",
+            "Ontario",
+            "JREQ204565"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer-II_JREQ202092": {
+        "jobPostingInfo": {
+          "id": "9009995f8b36100102e5257339110000",
+          "title": "Senior Software Engineer",
+          "jobDescription": "<p>Senior Software Engineer — Content Tools</p><p><i>Content Tools •  CoCounsel Legal Integrations </i></p><p></p><p><u>Overview of the Role</u></p><p>The CoCounsel Legal Integrations team within Thomson Reuters is seeking Senior Software Engineers to join the Content Tools team in building purpose-built APIs that give AI agents precise, governed access to TR’s proprietary legal content across various international jurisdictions. These tools are the bridge between TR’s authoritative content and the AI products, such as CoCounsel Legal, that depend on them, and they carry high stakes — every result must be accurate and grounded in TR’s authoritative content. This is a full-ownership engineering role on a team that designs, develops, tests, deploys, and operates the production content APIs t",
+          "location": "United States of America, Eagan, Minnesota",
+          "additionalLocations": [
+            "United States of America, Frisco, Texas",
+            "Canada, Toronto, Ontario"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JREQ202092",
+          "jobPostingId": "Senior-Software-Engineer-II_JREQ202092",
+          "country": {
+            "descriptor": "United States of America",
+            "id": "bc33aa3152ec42d4995f4791a106ed09"
+          },
+          "externalUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer-II_JREQ202092"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [
+          {
+            "title": "Senior Software Engineer",
+            "externalPath": "/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer_JREQ204689",
+            "timeType": "Full time",
+            "locationsText": "3 Locations",
+            "postedOn": "Posted 2 Days Ago",
+            "startDate": "2026-10-21",
+            "remoteType": "Hybrid",
+            "timeLeftToApply": "30+ days left to apply",
+            "jobPostingEndDateAsText": "End Date: December 25, 2026"
+          },
+          {
+            "title": "Senior Software Engineer",
+            "externalPath": "/job/Canada-Toronto-Ontario/Senior-Software-Engineer_JREQ203432",
+            "timeType": "Full time",
+            "locationsText": "Canada, Toronto, Ontario",
+            "postedOn": "Posted 3 Days Ago",
+            "startDate": "2026-10-20",
+            "remoteType": "Hybrid",
+            "timeLeftToApply": "30+ days left to apply",
+            "jobPostingEndDateAsText": "End Date: November 27, 2026"
+          },
+          {
+            "title": "Senior Software Engineer - AI, CoCounsel International",
+            "externalPath": "/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer---AI--CoCounsel-International_JREQ203612-1",
+            "timeType": "Full time",
+            "locationsText": "4 Locations",
+            "postedOn": "Posted 21 Days Ago",
+            "startDate": "2026-10-02",
+            "remoteType": "Hybrid",
+            "timeLeftToApply": "20 days left to apply",
+            "jobPostingEndDateAsText": "End Date: November 13, 2026"
+          },
+          {
+            "title": "Senior Software Engineer",
+            "externalPath": "/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer_JREQ204687",
+            "timeType": "Full time",
+            "locationsText": "3 Locations",
+            "postedOn": "Posted 2 Days Ago",
+            "startDate": "2026-10-21",
+            "remoteType": "Hybrid",
+            "timeLeftToApply": "30+ days left to apply",
+            "jobPostingEndDateAsText": "End Date: December 25, 2026"
+          },
+          {
+            "title": "Senior Software Engineer, AI",
+            "externalPath": "/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer--AI_JREQ202878",
+            "timeType": "Full time",
+            "locationsText": "3 Locations",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-09-09",
+            "remoteType": "Hybrid",
+            "timeLeftToApply": "27 days left to apply",
+            "jobPostingEndDateAsText": "End Date: November 20, 2026"
+          }
+        ],
+        "userAuthenticated": false
+      },
+      "https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/job/Canada-Toronto-Ontario/Senior-Manager--AI-Engineering_JREQ204565-1": {
+        "jobPostingInfo": {
+          "id": "706d046e28431001ef7eed4479590001",
+          "title": "Senior Manager, AI Engineering",
+          "jobDescription": "<p><b>Job Description</b></p><p>KeyCite is a foundational capability within Westlaw. It helps legal professionals understand and navigate legal authority with confidence, including how a case or statute has been treated over time.</p><p>We are looking for a Senior Manager, AI Engineering to build and lead a team that is evolving KeyCite for the next generation of AI-powered legal research. You will lead engineers across AI, large-scale data processing, backend services, and platform modernization. This is a hands-on technical leadership role. You will lead the team and stay close enough to the technology to make sound architecture and delivery decisions.</p><p>This role includes both modernizing a critical, long-running platform and building new AI capabilities. The work involves some ambi",
+          "location": "Canada, Toronto, Ontario",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JREQ204565",
+          "jobPostingId": "Senior-Manager--AI-Engineering_JREQ204565-1",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Canada-Toronto-Ontario/Senior-Manager--AI-Engineering_JREQ204565-1"
+        },
+        "hiringOrganization": {
+          "name": "CAN002 Thomson Reuters Canada Ltd",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "cae",
+    "source_url": "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/jobs",
+    "fetched_at": "2026-10-23T17:31:48.704075+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Engineering Manager, Operations Support (Andon)",
+          "externalPath": "/job/Montreal-St-Laurent/Manager---operations-support_122545",
+          "locationsText": "Montreal (St. Laurent)",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "122545"
+          ]
+        },
+        {
+          "title": "Senior Manager, Safety & Quality Intelligence",
+          "externalPath": "/job/Montreal-St-Laurent/Senior-Manager--Safety---Quality-Intelligence_122369",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "122369"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/job/Montreal-St-Laurent/Manager---operations-support_122545": {
+        "jobPostingInfo": {
+          "id": "46ae89a675c31001663fe8833a470000",
+          "title": "Engineering Manager, Operations Support (Andon)",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>As part of our Manufacturing team, you’ll bring innovation to life, transforming visionary designs into world-class training solutions. You’ll play a key role in assembling, refining, and delivering products that support aviation and defence missions worldwide. Every detail you shape contributes to safety, precision, and performance.<p style=\"text-align:inherit\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WKQ0\">                                                                                                         </span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p>At CAE, ",
+          "location": "Montreal (St. Laurent)",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "122545",
+          "jobPostingId": "Manager---operations-support_122545",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Manager---operations-support_122545"
+        },
+        "hiringOrganization": {
+          "name": "10 CAE Canada Inc",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/job/Montreal-St-Laurent/Senior-Manager--Safety---Quality-Intelligence_122369": {
+        "jobPostingInfo": {
+          "id": "164ab3a8cdc11000ca0c716a39430000",
+          "title": "Senior Manager, Safety & Quality Intelligence",
+          "jobDescription": "<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WKQ0\">                                                                                                         </span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><ul><li><i><b>The role can be located in Montreal, Canada, or in any relevant location within Europe.</b></i></li></ul><p> </p><p>We are seeking an experienced and forward-thinking leader to establish and lead CAE&#39;s Safety &amp; Quality Intelligence capability. This role will transform fragmented Safety and Quality data into actionable inte",
+          "location": "Montreal (St. Laurent)",
+          "additionalLocations": [
+            "Schiphol, Netherlands"
+          ],
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "122369",
+          "jobPostingId": "Senior-Manager--Safety---Quality-Intelligence_122369",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Senior-Manager--Safety---Quality-Intelligence_122369"
+        },
+        "hiringOrganization": {
+          "name": "10 CAE Canada Inc",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "tc-energy",
+    "source_url": "https://tcenergy.wd3.myworkdayjobs.com/wday/cxs/tcenergy/CAREER_SITE_TC/jobs",
+    "fetched_at": "2026-10-23T17:31:49.450024+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Intern, Canada Gas Operations, Lakehead Pipeline Team",
+          "externalPath": "/job/Winnipeg-Manitoba/Intern--Canada-Gas-Operations--Lakehead-Pipeline-Team_JR-10960",
+          "timeType": "Full time",
+          "locationsText": "Winnipeg, Manitoba",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "JR-10960"
+          ]
+        },
+        {
+          "title": "Intern, Canada Gas Operations",
+          "externalPath": "/job/Swift-Current-Saskatchewan/Intern--Canada-Gas-Operations_JR-10851",
+          "timeType": "Full time",
+          "locationsText": "Swift Current, Saskatchewan",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "JR-10851"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://tcenergy.wd3.myworkdayjobs.com/wday/cxs/tcenergy/CAREER_SITE_TC/job/Winnipeg-Manitoba/Intern--Canada-Gas-Operations--Lakehead-Pipeline-Team_JR-10960": {
+        "jobPostingInfo": {
+          "id": "f558fdcb22a21001f3717280e3c70000",
+          "title": "Intern, Canada Gas Operations, Lakehead Pipeline Team",
+          "jobDescription": "<p><b>At TC Energy, we are proud to connect the world to the energy it needs.</b> Guided by our values of <i>safety in every step, personal accountability, one team and active learning</i>, we deliver the critical energy that North America and the world rely on while balancing reliability, affordability and sustainability.</p><br /><p>Join us. Connect to what matters.</p><p><b>Work Term: May 2027 - August 2027</b></p><br /><p><b>To be considered, applications must include a resume and unofficial academic transcript. Incomplete submissions may not be reviewed. We appreciate your attention to detail and look forward to learning more about you!</b></p><br /><p><b>The Opportunity</b></p><br /><p>We are seeking a Student Intern to support pipeline operations and integrity activities through con",
+          "location": "Winnipeg, Manitoba",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "JR-10960",
+          "jobPostingId": "Intern--Canada-Gas-Operations--Lakehead-Pipeline-Team_JR-10960",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Winnipeg-Manitoba/Intern--Canada-Gas-Operations--Lakehead-Pipeline-Team_JR-10960"
+        },
+        "hiringOrganization": {
+          "name": "1001 TransCanada PipeLines Limited",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://tcenergy.wd3.myworkdayjobs.com/wday/cxs/tcenergy/CAREER_SITE_TC/job/Swift-Current-Saskatchewan/Intern--Canada-Gas-Operations_JR-10851": {
+        "jobPostingInfo": {
+          "id": "ff665de7e4571001b18301c9b0320000",
+          "title": "Intern, Canada Gas Operations",
+          "jobDescription": "<p><b>At TC Energy, we are proud to connect the world to the energy it needs.</b> Guided by our values of <i>safety in every step, personal accountability, one team and active learning</i>, we deliver the critical energy that North America and the world rely on while balancing reliability, affordability and sustainability.</p><br /><p>Join us. Connect to what matters.</p><br /><p><b>Work Term: May 3, 2027 to August 26, 2027</b></p><br /><p><b>To be considered, applications must include a resume and unofficial academic transcript. Incomplete submissions may not be reviewed. We appreciate your attention to detail and look forward to learning more about you!</b></p><br /><p><b>The Opportunity</b></p><br /><p>We are seeking a Student Intern to support field operations involved in the safe and ",
+          "location": "Swift Current, Saskatchewan",
+          "postedOn": "Posted Yesterday",
+          "startDate": "2026-10-22",
+          "timeType": "Full time",
+          "jobReqId": "JR-10851",
+          "jobPostingId": "Intern--Canada-Gas-Operations_JR-10851",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Swift-Current-Saskatchewan/Intern--Canada-Gas-Operations_JR-10851"
+        },
+        "hiringOrganization": {
+          "name": "1001 TransCanada PipeLines Limited",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "restaurant-brands-international",
+    "source_url": "https://rbi.wd3.myworkdayjobs.com/wday/cxs/rbi/RBI_External_Career_Site/jobs",
+    "fetched_at": "2026-10-23T17:34:24.816733+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Manager, Research and Development, Tim Hortons, Canada",
+          "externalPath": "/job/Mftg---Fruition-Fruits--Fills/Manager--Research-and-Development_R4009",
+          "locationsText": "Mftg - Fruition Fruits & Fills",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "R4009"
+          ]
+        },
+        {
+          "title": "Manager, Strategic Sourcing",
+          "externalPath": "/job/Corp---Toronto-Corporate-Office/Manager--Strategic-Sourcing_R4026",
+          "locationsText": "Corp - Toronto Corporate Office",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "R4026"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://rbi.wd3.myworkdayjobs.com/wday/cxs/rbi/RBI_External_Career_Site/job/Mftg---Fruition-Fruits--Fills/Manager--Research-and-Development_R4009": {
+        "jobPostingInfo": {
+          "id": "00b11be2489f100158f45b3dd3640000",
+          "title": "Manager, Research and Development, Tim Hortons, Canada",
+          "jobDescription": "<p><b>Ready to make your next big professional move? Join us on our journey to achieve our big dream of building the most loved restaurant brands in the world.   </b></p><br /><p>Restaurant Brands International Inc. is one of the world&#39;s largest quick service restaurant companies with nearly $49 billion in annual system-wide sales and over 33,000 restaurants in more than 120 countries and territories.</p><br /><p>RBI owns four of the world&#39;s most prominent and iconic quick service restaurant brands – TIM HORTONS®, BURGER KING®, POPEYES®, and FIREHOUSE SUBS®. These independently operated brands have been serving their respective guests, franchisees and communities for decades. Through its Restaurant Brands for Good framework, RBI is improving sustainable outcomes related to its food",
+          "location": "Mftg - Fruition Fruits & Fills",
+          "postedOn": "Posted 2 Days Ago",
+          "startDate": "2026-10-21",
+          "timeType": "Full time",
+          "jobReqId": "R4009",
+          "jobPostingId": "Manager--Research-and-Development_R4009",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Mftg---Fruition-Fruits--Fills/Manager--Research-and-Development_R4009"
+        },
+        "hiringOrganization": {
+          "name": "2105 The TDL Group Corp./ Groupe TDL Corporation",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://rbi.wd3.myworkdayjobs.com/wday/cxs/rbi/RBI_External_Career_Site/job/Corp---Toronto-Corporate-Office/Manager--Strategic-Sourcing_R4026": {
+        "jobPostingInfo": {
+          "id": "ca7b097e69ca1001590debdc77560000",
+          "title": "Manager, Strategic Sourcing",
+          "jobDescription": "<p><b>Ready to make your next big professional move? Join us on our journey to achieve our big dream of building the most loved restaurant brands in the world.   </b></p><br /><p>Restaurant Brands International Inc. is one of the world&#39;s largest quick service restaurant companies with nearly $49 billion in annual system-wide sales and over 33,000 restaurants in more than 120 countries and territories.</p><br /><p>RBI owns four of the world&#39;s most prominent and iconic quick service restaurant brands – TIM HORTONS®, BURGER KING®, POPEYES®, and FIREHOUSE SUBS®. These independently operated brands have been serving their respective guests, franchisees and communities for decades. Through its Restaurant Brands for Good framework, RBI is improving sustainable outcomes related to its food",
+          "location": "Corp - Toronto Corporate Office",
+          "postedOn": "Posted 2 Days Ago",
+          "startDate": "2026-10-21",
+          "timeType": "Full time",
+          "jobReqId": "R4026",
+          "jobPostingId": "Manager--Strategic-Sourcing_R4026",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Corp---Toronto-Corporate-Office/Manager--Strategic-Sourcing_R4026"
+        },
+        "hiringOrganization": {
+          "name": "2105 The TDL Group Corp./ Groupe TDL Corporation",
+          "url": ""
+        },
+        "similarJobs": [
+          {
+            "title": "Sr. Manager, Supply Chain Data, Analytics and Systems, Tim Hortons",
+            "externalPath": "/job/Corp---Toronto-Corporate-Office/Sr-Manager--Supply-Chain-Excellence--TH--Canada_R3295",
+            "timeType": "Full time",
+            "locationsText": "Corp - Toronto Corporate Office",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-07-23"
+          },
+          {
+            "title": "Sr. Manager, Pricing, Tim Hortons, Supply Chain",
+            "externalPath": "/job/Corp---Toronto-Corporate-Office/Sr-Manager--Pricing--Tim-Hortons--Supply-Chain_R3749-1",
+            "timeType": "Full time",
+            "locationsText": "Corp - Toronto Corporate Office",
+            "postedOn": "Posted 30+ Days Ago",
+            "startDate": "2026-08-28"
+          }
+        ],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "canada-goose",
+    "source_url": "https://canadagoose.wd3.myworkdayjobs.com/wday/cxs/canadagoose/CanadaGooseCareers/jobs",
+    "fetched_at": "2026-10-23T17:34:16.735859+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Project Specialist, Production",
+          "externalPath": "/job/Toronto-Ontario-CAN/Project-Specialist--Production_R16435",
+          "locationsText": "Toronto, Ontario, CAN",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R16435"
+          ]
+        },
+        {
+          "title": "QC In Line Inspector",
+          "externalPath": "/job/Winnipeg-Manitoba-CAN/QC-In-Line-Inspector_R16409",
+          "locationsText": "Winnipeg, Manitoba, CAN",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "R16409"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://canadagoose.wd3.myworkdayjobs.com/wday/cxs/canadagoose/CanadaGooseCareers/job/Toronto-Ontario-CAN/Project-Specialist--Production_R16435": {
+        "jobPostingInfo": {
+          "id": "f5d42bc5a42f1001ebea1731c43a0000",
+          "title": "Project Specialist, Production",
+          "jobDescription": "<p>Location:</p>Toronto<p></p><p>Address: </p>100 Queens Quay East Toronto, Ontario M5E 1V3 Canada<p></p><p>Job Title: </p>Project Specialist, Production<br /><p style=\"text-align:left !important\">Canada Goose isn&#39;t like anything else. We&#39;ve built something great, something special - an iconic lifestyle brand with an inspirational and authentic story. At the heart of it is our promise to inspire and enable all people to thrive in the world outside. At Canada Goose, you&#39;re part of a movement that belongs to something bigger. One that seeks out the restorative power of nature and is driven by our purpose to embolden explorers and preserve the planet they roam. We endure any condition, observe every detail, and are building a community that believes in living bravely and coming to",
+          "location": "Toronto, Ontario, CAN",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R16435",
+          "jobPostingId": "Project-Specialist--Production_R16435",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/job/Toronto-Ontario-CAN/Project-Specialist--Production_R16435"
+        },
+        "hiringOrganization": {
+          "name": "Canada Goose Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://canadagoose.wd3.myworkdayjobs.com/wday/cxs/canadagoose/CanadaGooseCareers/job/Winnipeg-Manitoba-CAN/QC-In-Line-Inspector_R16409": {
+        "jobPostingInfo": {
+          "id": "d29c5d1f65b710010363979c9fe30000",
+          "title": "QC In Line Inspector",
+          "jobDescription": "<p style=\"text-align:left\">Location:</p>CGW1<p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Address:</p>365 Bannatyne Avenue Winnipeg, Manitoba R3A 0E5 Canada<p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Job Title:</p>QC In Line Inspector<br /><p>Canada Goose isn&#39;t like anything else. We&#39;ve built something great, something special - an iconic lifestyle brand with an inspirational and authentic story. At the heart of it is our promise to inspire and enable all people to thrive in the world outside. At Canada Goose, you&#39;re part of a movement that belongs to something bigger. One that seeks out the restorative power of nature and is driven by our purpose to embolden explorers and preserve the planet they roam. We endure any condition, observe every deta",
+          "location": "Winnipeg, Manitoba, CAN",
+          "postedOn": "Posted 2 Days Ago",
+          "startDate": "2026-10-21",
+          "timeType": "Full time",
+          "jobReqId": "R16409",
+          "jobPostingId": "QC-In-Line-Inspector_R16409",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/job/Winnipeg-Manitoba-CAN/QC-In-Line-Inspector_R16409"
+        },
+        "hiringOrganization": {
+          "name": "Canada Goose Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "element-fleet",
+    "source_url": "https://elementfleet.wd3.myworkdayjobs.com/wday/cxs/elementfleet/External_Career_Site/jobs",
+    "fetched_at": "2026-10-23T17:34:16.905395+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Bilingual Customer Care Representative (English/French)",
+          "externalPath": "/job/Canada-Remote/Bilingual-Customer-Care-Representative_R105966",
+          "timeType": "Full time",
+          "locationsText": "Canada Remote",
+          "postedOn": "Posted 9 Days Ago",
+          "bulletFields": [
+            "R105966"
+          ]
+        },
+        {
+          "title": "Future Opportunities: Relationship Manager",
+          "externalPath": "/job/Canada-Remote/Future-Opportunities--Relationship-Manager_R105940",
+          "timeType": "Full time",
+          "locationsText": "Canada Remote",
+          "postedOn": "Posted 30+ Days Ago",
+          "bulletFields": [
+            "R105940"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://elementfleet.wd3.myworkdayjobs.com/wday/cxs/elementfleet/External_Career_Site/job/Canada-Remote/Bilingual-Customer-Care-Representative_R105966": {
+        "jobPostingInfo": {
+          "id": "965d710b13631001ef4962ae30b20000",
+          "title": "Bilingual Customer Care Representative (English/French)",
+          "jobDescription": "<h2><b><i>Get started on an exciting career at Element!</i></b></h2><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Element employees make a difference in the lives of others every day. We are re-defining the fleet management industry to be people first, then business – delivering on our promise of a superior client experience. This takes hard work and innovation, and we need more like-minded people on our team.</span></p><p style=\"text-align:inherit\"></p><p><i>Support clients and drivers in French and English, helping resolve fleet service questions with care and clarity.</i></p><br /><p><b>THE OPPORTUNITY</b></p><br /><p>At Element Fleet Management, you will help clients and drivers get the answers they need across a range of fleet ser",
+          "location": "Canada Remote",
+          "postedOn": "Posted 9 Days Ago",
+          "startDate": "2026-10-14",
+          "timeType": "Full time",
+          "jobReqId": "R105966",
+          "jobPostingId": "Bilingual-Customer-Care-Representative_R105966",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Canada-Remote/Bilingual-Customer-Care-Representative_R105966"
+        },
+        "hiringOrganization": {
+          "name": "EFM Element Fleet Management Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://elementfleet.wd3.myworkdayjobs.com/wday/cxs/elementfleet/External_Career_Site/job/Canada-Remote/Future-Opportunities--Relationship-Manager_R105940": {
+        "jobPostingInfo": {
+          "id": "8d3b6a2617a610011c52cf2676f50000",
+          "title": "Future Opportunities: Relationship Manager",
+          "jobDescription": "<h2><b><i>Get started on an exciting career at Element!</i></b></h2><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Element employees make a difference in the lives of others every day. We are re-defining the fleet management industry to be people first, then business – delivering on our promise of a superior client experience. This takes hard work and innovation, and we need more like-minded people on our team.</span></p><p style=\"text-align:inherit\"></p><p><i>This is an evergreen position intended to build a pipeline of qualified candidates for anticipated future openings. While we may not have an immediate vacancy today, we regularly hire for this role and encourage interested candidates to apply so we can connect as opportunities bec",
+          "location": "Canada Remote",
+          "postedOn": "Posted 30+ Days Ago",
+          "startDate": "2026-09-22",
+          "timeType": "Full time",
+          "jobReqId": "R105940",
+          "jobPostingId": "Future-Opportunities--Relationship-Manager_R105940",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Canada-Remote/Future-Opportunities--Relationship-Manager_R105940"
+        },
+        "hiringOrganization": {
+          "name": "",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  },
+  {
+    "monitor_id": "gfl-environmental",
+    "source_url": "https://gflenv.wd3.myworkdayjobs.com/wday/cxs/gflenv/Careers/jobs",
+    "fetched_at": "2026-10-23T17:34:21.114347+00:00",
+    "trimmed": true,
+    "note": "Two real rows only; total=2 is a replay seam, not the source total. Detail text is trimmed to 800 characters per posting.",
+    "payload": {
+      "total": 2,
+      "jobPostings": [
+        {
+          "title": "Driver - Roll Off with Trailer",
+          "externalPath": "/job/9330-Crown-Road-Trail-BC/Driver---Roll-Off-with-Trailer_R40532",
+          "locationsText": "9330 Crown Road, Trail, BC",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R40532"
+          ]
+        },
+        {
+          "title": "Customer Service Representative",
+          "externalPath": "/job/Squamish-British-Columbia/Customer-Service-Representative_R40279",
+          "locationsText": "Squamish, British Columbia",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "R40279"
+          ]
+        }
+      ],
+      "facets": []
+    },
+    "details": {
+      "https://gflenv.wd3.myworkdayjobs.com/wday/cxs/gflenv/Careers/job/9330-Crown-Road-Trail-BC/Driver---Roll-Off-with-Trailer_R40532": {
+        "jobPostingInfo": {
+          "id": "6f5184041da31001f3fdbb2415c20000",
+          "title": "Driver - Roll Off with Trailer",
+          "jobDescription": "<p style=\"text-align:inherit\"><br /><br /> </p><p><b>Job Summary:</b></p><br /><p>At GFL, our Roll-Off Drivers do more than collect waste—they represent our commitment to safety, efficiency, and premier customer service. In this key role, you will be responsible for safely, efficiently, and courteously providing waste removal services to customers across multiple lines of business, collecting waste from customer sites and transporting it to post-collection facilities for proper disposal.<b><br /></b></p><p><b>Why GFL:</b></p><ul><li><b>Competitive Pay:</b> Individual pay is determined by responsibilities, experience, and location.</li><li><b>Comprehensive Health Benefits:</b> Full employer-paid medical, dental, and vision coverage for you and your family.</li><li><b>Retirement Savings:</b>",
+          "location": "9330 Crown Road, Trail, BC",
+          "postedOn": "Posted Today",
+          "startDate": "2026-10-23",
+          "timeType": "Full time",
+          "jobReqId": "R40532",
+          "jobPostingId": "Driver---Roll-Off-with-Trailer_R40532",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://wd3.myworkdaysite.com/recruiting/gflenv/Careers/job/9330-Crown-Road-Trail-BC/Driver---Roll-Off-with-Trailer_R40532"
+        },
+        "hiringOrganization": {
+          "name": "C0100 GFL Environmental Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      },
+      "https://gflenv.wd3.myworkdayjobs.com/wday/cxs/gflenv/Careers/job/Squamish-British-Columbia/Customer-Service-Representative_R40279": {
+        "jobPostingInfo": {
+          "id": "6f5184041da31001becefe401ae20000",
+          "title": "Customer Service Representative",
+          "jobDescription": "<p style=\"text-align:inherit\"><br /><br /> </p><p><span style=\"color:#000000\"><b><u>Job Summary</u></b></span></p><br /><p><span style=\"color:#000000\">At GFL, our Customer Service Representatives do more than answer calls—they represent our</span></p><p><span style=\"color:#000000\">commitment to premier customer service, community satisfaction, and operational excellence. In this key role, you will assist in selling and promoting GFL’s solid waste services to businesses and industrial establishments by placing outgoing calls, handling incoming inquiries, and supporting outside sales with appointment setting, customer tracking, and quotations.</span></p><br /><p><span style=\"color:#000000\">Working for GFL is more than a job—it’s an opportunity to grow in your career, make new friends, and ma",
+          "location": "Squamish, British Columbia",
+          "postedOn": "Posted Yesterday",
+          "startDate": "2026-10-22",
+          "timeType": "Full time",
+          "jobReqId": "R40279",
+          "jobPostingId": "Customer-Service-Representative_R40279",
+          "country": {
+            "descriptor": "Canada",
+            "id": "a30a87ed25634629aa6c3958aa2b91ea"
+          },
+          "externalUrl": "https://wd3.myworkdaysite.com/recruiting/gflenv/Careers/job/Squamish-British-Columbia/Customer-Service-Representative_R40279"
+        },
+        "hiringOrganization": {
+          "name": "C0100 GFL Environmental Inc.",
+          "url": ""
+        },
+        "similarJobs": [],
+        "userAuthenticated": false
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cibc",
+  "name": "CIBC",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cibc.com",
+  "logo_url": "https://cibc.wd3.myworkdayjobs.com/search/assets/logo",
+  "facets": {
+    "industries": [
+      "banking"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

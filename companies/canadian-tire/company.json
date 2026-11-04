@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canadian-tire",
+  "name": "Canadian Tire Corporation",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://corp.canadiantire.ca",
+  "logo_url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/assets/logo",
+  "facets": {
+    "industries": [
+      "retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}

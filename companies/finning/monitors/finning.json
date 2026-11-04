@@ -1,0 +1,68 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "finning",
+  "company_id": "finning",
+  "revision": 1,
+  "label": "Finning International — Canadian careers",
+  "careers_url": "https://finning.wd3.myworkdayjobs.com/External",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-23T17:44:13.983997+00:00",
+    "job_count": 63,
+    "warnings": [
+      "Canada country facet. Group-owned subsidiaries or brands may appear on the official employer board.",
+      "Explicit partial scope; unseen roles must not be inferred closed.",
+      "Facet unions could not establish full coverage for 1 searches.",
+      "Source result window could not be fully traversed: observed 63/101 advertised postings.",
+      "Description traversal paused; 21 eligible roles resume next run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "coverage_mode": "all",
+    "company": "Finning International",
+    "careers_url": "https://finning.wd3.myworkdayjobs.com/External",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "finning.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://finning.wd3.myworkdayjobs.com/wday/cxs/finning/External/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "Location_Country": [
+            "a30a87ed25634629aa6c3958aa2b91ea"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "finning",
+      "site": "External",
+      "partial_listing": true
+    }
+  }
+}

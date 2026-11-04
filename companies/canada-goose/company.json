@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canada-goose",
+  "name": "Canada Goose",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.canadagoose.com",
+  "logo_url": "https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers/assets/logo",
+  "facets": {
+    "industries": [
+      "apparel"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada",
+      "Large Canadian employers"
+    ]
+  }
+}
