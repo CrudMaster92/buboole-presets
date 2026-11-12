@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "authzed",
+  "name": "Authzed",
+  "aliases": [],
+  "website_url": "https://authzed.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Technology",
+      "Complete public boards"
+    ]
+  }
+}

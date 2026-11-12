@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "e2b",
+  "name": "E2B",
+  "aliases": [],
+  "website_url": "https://e2b.dev/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Technology",
+      "Complete public boards"
+    ]
+  }
+}
