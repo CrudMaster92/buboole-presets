@@ -1,0 +1,210 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "more-career-boards-30-20261112",
+  "revision": 1,
+  "name": "30 more career boards — November 2026",
+  "description": "Thirty additional technology employers with official-site ownership evidence and freshly validated public Ashby boards. Complete all-role listings, with no country, title, page-count, role-count or description sampling limit. Posting counts are point-in-time observations, not guarantees of continued availability.",
+  "tags": [
+    "Technology",
+    "Complete boards"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [
+      "technology"
+    ],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "livekit",
+      "monitor_ids": [
+        "livekit-careers"
+      ]
+    },
+    {
+      "company_id": "paraform",
+      "monitor_ids": [
+        "paraform-careers"
+      ]
+    },
+    {
+      "company_id": "metaview",
+      "monitor_ids": [
+        "metaview-careers"
+      ]
+    },
+    {
+      "company_id": "compa",
+      "monitor_ids": [
+        "compa-careers"
+      ]
+    },
+    {
+      "company_id": "9fin",
+      "monitor_ids": [
+        "9fin-careers"
+      ]
+    },
+    {
+      "company_id": "quo",
+      "monitor_ids": [
+        "quo-careers"
+      ]
+    },
+    {
+      "company_id": "front",
+      "monitor_ids": [
+        "front-careers"
+      ]
+    },
+    {
+      "company_id": "fathom",
+      "monitor_ids": [
+        "fathom-careers"
+      ]
+    },
+    {
+      "company_id": "read-ai",
+      "monitor_ids": [
+        "read-ai-careers"
+      ]
+    },
+    {
+      "company_id": "e2b",
+      "monitor_ids": [
+        "e2b-careers"
+      ]
+    },
+    {
+      "company_id": "steel",
+      "monitor_ids": [
+        "steel-careers"
+      ]
+    },
+    {
+      "company_id": "firecrawl",
+      "monitor_ids": [
+        "firecrawl-careers"
+      ]
+    },
+    {
+      "company_id": "exa",
+      "monitor_ids": [
+        "exa-careers"
+      ]
+    },
+    {
+      "company_id": "parallel",
+      "monitor_ids": [
+        "parallel-careers"
+      ]
+    },
+    {
+      "company_id": "linkup",
+      "monitor_ids": [
+        "linkup-careers"
+      ]
+    },
+    {
+      "company_id": "render",
+      "monitor_ids": [
+        "render-careers"
+      ]
+    },
+    {
+      "company_id": "knock",
+      "monitor_ids": [
+        "knock-careers"
+      ]
+    },
+    {
+      "company_id": "svix",
+      "monitor_ids": [
+        "svix-careers"
+      ]
+    },
+    {
+      "company_id": "convex",
+      "monitor_ids": [
+        "convex-careers"
+      ]
+    },
+    {
+      "company_id": "clerk",
+      "monitor_ids": [
+        "clerk-careers"
+      ]
+    },
+    {
+      "company_id": "workos",
+      "monitor_ids": [
+        "workos-careers"
+      ]
+    },
+    {
+      "company_id": "authzed",
+      "monitor_ids": [
+        "authzed-careers"
+      ]
+    },
+    {
+      "company_id": "oso",
+      "monitor_ids": [
+        "oso-careers"
+      ]
+    },
+    {
+      "company_id": "teleport",
+      "monitor_ids": [
+        "teleport-careers"
+      ]
+    },
+    {
+      "company_id": "opal-security",
+      "monitor_ids": [
+        "opal-security-careers"
+      ]
+    },
+    {
+      "company_id": "socket",
+      "monitor_ids": [
+        "socket-careers"
+      ]
+    },
+    {
+      "company_id": "semgrep",
+      "monitor_ids": [
+        "semgrep-careers"
+      ]
+    },
+    {
+      "company_id": "snyk",
+      "monitor_ids": [
+        "snyk-careers"
+      ]
+    },
+    {
+      "company_id": "braintrust",
+      "monitor_ids": [
+        "braintrust-careers"
+      ]
+    },
+    {
+      "company_id": "dash0",
+      "monitor_ids": [
+        "dash0-careers"
+      ]
+    }
+  ]
+}
