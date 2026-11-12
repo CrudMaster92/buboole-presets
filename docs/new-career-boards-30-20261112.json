@@ -1,0 +1,3203 @@
+{
+  "checked_at": "2026-11-12T14:24:04.220344+00:00",
+  "companies": 30,
+  "monitors": 30,
+  "observed_postings": 1040,
+  "description_records": 1040,
+  "runtime_revision": "658d022cbe149ac00ad3931651f0dba9243ebea6751fb513c5bba8e61b0ddcf5",
+  "runtime_unchanged": true,
+  "scope": "New public catalog sources and feed admission; publication requires submission and merge authorization. No website or canonical app code changed.",
+  "identity_review": "Compared IDs, names, aliases, original and redirected official domains, and ATS request URLs against current catalog main. All selected ATS tenants are distinct. Official-site pages directly link or embed each selected tenant. No claim of absence from other external job aggregators.",
+  "inventory_review": "Separate fresh public API reads matched every listed source ID against canonical runtime normalized results. All sources completed, no continuation or warnings. Every selected posting has a description and an HTTPS URL under its expected ATS tenant.",
+  "sources": [
+    {
+      "id": "linear",
+      "name": "Linear",
+      "website_url": "https://linear.app/",
+      "checked_at": "2026-11-12T14:22:04.504251+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://linear.app/",
+          "status": 200,
+          "sha256": "2051e0dc0fa9a86426c6eef7760599b71c84a9278b0b54f90833bac562d25c8e",
+          "ashby_slugs": [],
+          "title": "Linear – The system for product development",
+          "board_links": []
+        },
+        {
+          "url": "https://linear.app/careers",
+          "status": 200,
+          "sha256": "3f8bd0e3578fd2cd2c5aac5e8da52b63ff81b6df240ad39af7a8e8ee250ac5d7",
+          "ashby_slugs": [
+            "linear"
+          ],
+          "title": "We're hiring – Linear",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "linear",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Linear",
+        "careers_url": "https://jobs.ashbyhq.com/linear",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/linear",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "linear",
+          "ownership_source": "https://linear.app/careers"
+        }
+      },
+      "recipe_sha256": "a328788bf6dea4750c9dc191e191721f4e3adb0789edbb362030cf2240d0d3ee",
+      "job_count": 33,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 33,
+      "independent_inventory_count": 33,
+      "inventory_ids_match": true,
+      "inventory_sha256": "ac2e34215a8b41df85b357494c444e8df2505cc8d762cfd6951d7f9bd2e3d35a",
+      "samples": [
+        {
+          "title": "Senior / Staff Fullstack Engineer",
+          "location": "Europe",
+          "source_url": "https://jobs.ashbyhq.com/linear/d3bc1ced-3ce4-4086-a050-555055dbb1ff"
+        },
+        {
+          "title": "Senior / Staff Fullstack Engineer",
+          "location": "North America",
+          "source_url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32"
+        },
+        {
+          "title": "Senior / Staff Product Engineer",
+          "location": "Europe",
+          "source_url": "https://jobs.ashbyhq.com/linear/069c4628-88d7-4e4d-b393-c996fc7f3076"
+        },
+        {
+          "title": "Senior / Staff Product Engineer",
+          "location": "North America",
+          "source_url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e"
+        },
+        {
+          "title": "Product Engineer",
+          "location": "North America",
+          "source_url": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "website_url": "https://ramp.com/",
+      "checked_at": "2026-11-12T14:22:04.505258+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://ramp.com/",
+          "status": 200,
+          "sha256": "98b1eff1358b8c3770f958ffed97b9deb716bf1f572f7136390f299011374d25",
+          "ashby_slugs": [],
+          "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+          "board_links": []
+        },
+        {
+          "url": "https://ramp.com/careers",
+          "status": 200,
+          "sha256": "c9da7171131658fac74d6b2f03fac8e89cd4b4acfa2b42799c64bfd475f70454",
+          "ashby_slugs": [
+            "ramp"
+          ],
+          "title": "Careers - Change How Businesses Run | Ramp",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "ramp",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Ramp",
+        "careers_url": "https://jobs.ashbyhq.com/ramp",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "ramp",
+          "ownership_source": "https://ramp.com/careers"
+        }
+      },
+      "recipe_sha256": "542cb96aca6dd2157c41f2e3295c4ad15d37c67867c41578ae2392c7052bead1",
+      "job_count": 176,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 176,
+      "independent_inventory_count": 176,
+      "inventory_ids_match": true,
+      "inventory_sha256": "920382c8c3fca8d4405789e3558dd1f5d26e0259100f975b39ac184a30c30a68",
+      "samples": [
+        {
+          "title": "Security Engineer, Cloud",
+          "location": "New York, NY (HQ); Remote (Canada); Remote (US); Miami, FL",
+          "source_url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245"
+        },
+        {
+          "title": "Software Engineer, Android",
+          "location": "New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US)",
+          "source_url": "https://jobs.ashbyhq.com/ramp/f564dcf9-9390-4a3f-896f-8047a5086040"
+        },
+        {
+          "title": "Account Executive | Strategic",
+          "location": "San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/ramp/707d5f91-bcf7-42b2-a0e6-8130bf13e56b"
+        },
+        {
+          "title": "Software Engineer, iOS",
+          "location": "New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US)",
+          "source_url": "https://jobs.ashbyhq.com/ramp/4859cd5e-f2a9-44d7-81f7-8bfc0e62369f"
+        },
+        {
+          "title": "Partner Development Representative | Accounting",
+          "location": "New York, NY (HQ); Remote (US)",
+          "source_url": "https://jobs.ashbyhq.com/ramp/b55447c0-4adc-42eb-9ca2-f88fd44e0e5b"
+        }
+      ]
+    },
+    {
+      "id": "drata",
+      "name": "Drata",
+      "website_url": "https://drata.com/",
+      "checked_at": "2026-11-12T14:22:04.506375+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://drata.com/",
+          "status": 200,
+          "sha256": "d263559ceeee780e346b539e3852234b37a4789d34dc14a357d414079ca0820b",
+          "ashby_slugs": [],
+          "title": "The Agentic Trust Management Platform | Drata",
+          "board_links": []
+        },
+        {
+          "url": "https://drata.com/about/careers",
+          "status": 200,
+          "sha256": "735a16f2dce48110bfd6a50ce48191e11613406634c8e40c23e0bb6828da87f9",
+          "ashby_slugs": [
+            "drata"
+          ],
+          "title": "Building the Trust Layer Between Great Companies",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "drata",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Drata",
+        "careers_url": "https://jobs.ashbyhq.com/drata",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/drata",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "drata",
+          "ownership_source": "https://drata.com/about/careers"
+        }
+      },
+      "recipe_sha256": "0f92bdbe5b7e23128075fb27f52e8ae2c91a1bff041697c3fcdf6a67c435faf2",
+      "job_count": 23,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 23,
+      "independent_inventory_count": 23,
+      "inventory_ids_match": true,
+      "inventory_sha256": "4e83022752684ad71dada1791b4bd821052d24913a9a85864cca69350b6aa9a4",
+      "samples": [
+        {
+          "title": "Senior Software Engineer 2",
+          "location": "Hybrid - San Diego",
+          "source_url": "https://jobs.ashbyhq.com/drata/452756bd-2f92-47aa-8459-cb8f29f02b08"
+        },
+        {
+          "title": "Senior Product Manager 2, Assurance",
+          "location": "Hybrid - San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/drata/cf5e1a06-8720-4e5c-93c6-5494c39c862c"
+        },
+        {
+          "title": "Senior Product Engineer 2, Audit",
+          "location": "Hybrid - San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/drata/d3fd0f22-f933-4a3d-85a6-c37d70a3f7a9"
+        },
+        {
+          "title": "Senior Product Engineer 2, Evidence",
+          "location": "Hybrid - San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/drata/855d1119-f88e-4421-b0f3-884926f48a21"
+        },
+        {
+          "title": "Senior Product Engineer 2, Control Monitoring",
+          "location": "Hybrid - San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/drata/03b2d32a-b1af-4a67-8239-5ae3abcc2118"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "website_url": "https://supabase.com/",
+      "checked_at": "2026-11-12T14:22:06.108815+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://supabase.com/",
+          "status": 200,
+          "sha256": "6cd16eebd82827f244cea27c2f2b8a5f7a98323d65c3101176a6af0a6ac66e6b",
+          "ashby_slugs": [],
+          "title": "Supabase | The Postgres Development Platform",
+          "board_links": []
+        },
+        {
+          "url": "https://supabase.com/careers",
+          "status": 200,
+          "sha256": "b2424fef9e3a5233b5c5ab7a2212813eb2a075f430c8e99a889f3b795f90d131",
+          "ashby_slugs": [
+            "supabase"
+          ],
+          "title": "Careers | Supabase",
+          "board_links": [
+            "https://jobs.ashbyhq.com/supabase/a0b46de3-5617-41cc-8623-2be9b6fd6b49",
+            "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
+            "https://jobs.ashbyhq.com/supabase/51da9786-43c9-446e-bb84-653b17b5d6ac",
+            "https://jobs.ashbyhq.com/supabase/9073c0cd-2545-473a-b2ac-63e4615c69b5",
+            "https://jobs.ashbyhq.com/supabase/48950725-e0d9-4025-92d9-f75e1b60ce45",
+            "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d",
+            "https://jobs.ashbyhq.com/supabase/33caf92a-986f-4695-a84c-792720ff832d",
+            "https://jobs.ashbyhq.com/supabase/3ab0b926-c9b5-4197-aff2-88d5bf009e13",
+            "https://jobs.ashbyhq.com/supabase/621516b5-4d8f-4ee9-8287-2da12e63d023",
+            "https://jobs.ashbyhq.com/supabase/950e8ffc-79a5-4626-b1dd-115fcbcddad0",
+            "https://jobs.ashbyhq.com/supabase/9f2ba0b2-6d3b-43ea-990f-5b4bf3930520",
+            "https://jobs.ashbyhq.com/supabase/99a80436-89ec-412b-b782-1dd462bd16dc",
+            "https://jobs.ashbyhq.com/supabase/ed6cedb1-b9bf-4609-ac5c-c75c33b31bf3",
+            "https://jobs.ashbyhq.com/supabase/b75ba81e-54cc-4393-a575-bc41776b0113",
+            "https://jobs.ashbyhq.com/supabase/f6035bf8-4f44-4425-9944-d5509a3c8652",
+            "https://jobs.ashbyhq.com/supabase/98ef6a11-9898-4960-9931-1264285849f3",
+            "https://jobs.ashbyhq.com/supabase/11beb619-0c25-4b11-9818-3f18e278c65b",
+            "https://jobs.ashbyhq.com/supabase/5d09daeb-2d7e-42de-9151-81a1341195c4",
+            "https://jobs.ashbyhq.com/supabase/4eb14408-51e6-4c58-812a-3782d5c0b045",
+            "https://jobs.ashbyhq.com/supabase/06752423-eebb-472c-95b5-c7ff2559fd60",
+            "https://jobs.ashbyhq.com/supabase/6c9de03c-e289-4612-9045-492985d0274b",
+            "https://jobs.ashbyhq.com/supabase/fab1525f-3d89-4d1c-9094-84d21647415e",
+            "https://jobs.ashbyhq.com/supabase/b65287c7-2071-4bc6-8717-58c090e2a372",
+            "https://jobs.ashbyhq.com/supabase/c9f78e74-fb9d-4cd0-af0b-b1cec4632331",
+            "https://jobs.ashbyhq.com/supabase/73ddf93b-fe0c-455d-ba27-cdde0d3fb94f",
+            "https://jobs.ashbyhq.com/supabase/6b314e83-6617-49fc-8c73-021ebae9a757",
+            "https://jobs.ashbyhq.com/supabase/c6d89ec0-76ee-4de7-92d0-2e0262e9e025",
+            "https://jobs.ashbyhq.com/supabase/6f7656fc-9983-48be-bbd3-8b40e0e3027a",
+            "https://jobs.ashbyhq.com/supabase/13478d3f-0093-458f-9f84-af71e66db03f",
+            "https://jobs.ashbyhq.com/supabase/7c5eb3fc-1087-4c1c-b3a2-a19fe01dd259",
+            "https://jobs.ashbyhq.com/supabase/fb0b563a-e541-43fd-8555-9eb6473aaa11",
+            "https://jobs.ashbyhq.com/supabase/8999613e-cbca-4a00-9516-09681a46749e",
+            "https://jobs.ashbyhq.com/supabase/0055f731-cffa-4c74-9c00-8abfa579873d",
+            "https://jobs.ashbyhq.com/supabase/a6fc3980-3f96-4df9-a1b4-d7ed0e1ff7c4",
+            "https://jobs.ashbyhq.com/supabase/b566fbf8-2894-4314-9533-8fa920e80c19",
+            "https://jobs.ashbyhq.com/supabase/da036d07-6ca2-436b-8ebd-7105d1f8f5b2",
+            "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+            "https://jobs.ashbyhq.com/supabase/9c04bc60-78a1-4529-950d-4704ab475764",
+            "https://jobs.ashbyhq.com/supabase/d5573afa-636c-4219-832f-386f498243bf",
+            "https://jobs.ashbyhq.com/supabase/b3f21933-4009-4454-899a-8e8a17f7ddfb",
+            "https://jobs.ashbyhq.com/supabase/66bab062-b769-43cf-ac3c-a2630257624c",
+            "https://jobs.ashbyhq.com/supabase/282d1dfb-b162-4ce4-a938-c4b2173230e0",
+            "https://jobs.ashbyhq.com/supabase/dca463e6-b6d0-4003-a30b-e0970a8dcee2",
+            "https://jobs.ashbyhq.com/supabase/c01f7436-1fdd-4a3e-8b96-8cadc33b006e",
+            "https://jobs.ashbyhq.com/supabase/e4e3ccb7-7b7d-42a2-be0f-26cbb5ae4abd",
+            "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+            "https://jobs.ashbyhq.com/supabase/4857bb69-da99-4027-87f1-a6a4d03699b3",
+            "https://jobs.ashbyhq.com/supabase/dcf09dfe-55bc-44ba-b5db-1a2de7f33216",
+            "https://jobs.ashbyhq.com/supabase/590a0742-97f1-47f4-81a2-567efc939ae2",
+            "https://jobs.ashbyhq.com/supabase/f18b1173-51c3-4ff6-bcda-89f8111931f4",
+            "https://jobs.ashbyhq.com/supabase/3889002e-536e-4046-a330-70e942b0cc96",
+            "https://jobs.ashbyhq.com/supabase/62945518-2468-4cf5-9f36-904b60f75183",
+            "https://jobs.ashbyhq.com/supabase/ab8d1463-bc97-417f-97b1-bfc1fe619b3e",
+            "https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca",
+            "https://jobs.ashbyhq.com/supabase/985abb8d-cb2b-4f32-97d7-497e9f89e3ce",
+            "https://jobs.ashbyhq.com/supabase/715ba1ea-bd0b-4960-9d5a-defca99f2e24",
+            "https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb",
+            "https://jobs.ashbyhq.com/supabase/26f7817d-ca92-4094-a2b5-f22e07a218c4",
+            "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d",
+            "https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5",
+            "https://jobs.ashbyhq.com/supabase/62dfb104-ae18-46ce-a9ef-836f024c3d6d",
+            "https://jobs.ashbyhq.com/supabase/05226c15-0501-4559-833d-3815fdf01f56",
+            "https://jobs.ashbyhq.com/supabase/a069c886-1107-408e-88b4-e1aa8d33d4bc",
+            "https://jobs.ashbyhq.com/supabase/da17f206-229f-4789-8f11-78df74e24dda",
+            "https://jobs.ashbyhq.com/supabase/9a48e441-16c8-488d-a056-0e132f09d65d",
+            "https://jobs.ashbyhq.com/supabase/47bcfdb8-b954-423e-8a9e-85256434575c",
+            "https://jobs.ashbyhq.com/supabase/68a397e7-8a1a-4566-ae41-e8c61dd6ed93",
+            "https://jobs.ashbyhq.com/supabase/bd5ce178-84c9-469e-89f4-493c21b50622",
+            "https://jobs.ashbyhq.com/supabase/9a4c9984-07c7-4b47-982f-371de3f6ff50",
+            "https://jobs.ashbyhq.com/supabase/c20228c2-45ff-4b77-ab77-906f39a06ca3",
+            "https://jobs.ashbyhq.com/supabase/85f4d148-4602-4139-802a-962705133892",
+            "https://jobs.ashbyhq.com/supabase/a9ad80ae-4514-41c0-8062-35963d33748e",
+            "https://jobs.ashbyhq.com/supabase/cb04ae3a-3a47-4e21-928f-c2456b7b214e",
+            "https://jobs.ashbyhq.com/supabase/344787f2-d115-4056-87ca-7668fc14be3d",
+            "https://jobs.ashbyhq.com/supabase/8e4ddc16-6308-432a-acea-55709c15ddc7",
+            "https://jobs.ashbyhq.com/supabase/090aa2a7-e0ee-49a6-837e-6817147d2d31",
+            "https://jobs.ashbyhq.com/supabase/1dfafad5-e177-4d31-bc94-e8b6d0a7a046",
+            "https://jobs.ashbyhq.com/supabase/form/talent-community-form"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "supabase",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Supabase",
+        "careers_url": "https://jobs.ashbyhq.com/supabase",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "supabase",
+          "ownership_source": "https://supabase.com/careers"
+        }
+      },
+      "recipe_sha256": "6ef3bcda6df02f3f488f54e6a2a391bafb562db759fa3e6a76dee20239cbcc80",
+      "job_count": 77,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 77,
+      "independent_inventory_count": 77,
+      "inventory_ids_match": true,
+      "inventory_sha256": "7eb32d16c0369ff7107f3f10995c61e4430d4919a0a5d15bf3f9b4f16c6c46ef",
+      "samples": [
+        {
+          "title": "Head of Ecosystem",
+          "location": "Remote, AMER",
+          "source_url": "https://jobs.ashbyhq.com/supabase/a0b46de3-5617-41cc-8623-2be9b6fd6b49"
+        },
+        {
+          "title": "Senior Accountant",
+          "location": "Remote, AMER",
+          "source_url": "https://jobs.ashbyhq.com/supabase/a6fc3980-3f96-4df9-a1b4-d7ed0e1ff7c4"
+        },
+        {
+          "title": "AI Platform Engineer",
+          "location": "Remote, Global",
+          "source_url": "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541"
+        },
+        {
+          "title": "Customer Solution Architect (AMER)",
+          "location": "Remote, AMER",
+          "source_url": "https://jobs.ashbyhq.com/supabase/d5573afa-636c-4219-832f-386f498243bf"
+        },
+        {
+          "title": "Support Engineer (EMEA)",
+          "location": "Remote, EMEA",
+          "source_url": "https://jobs.ashbyhq.com/supabase/c01f7436-1fdd-4a3e-8b96-8cadc33b006e"
+        }
+      ]
+    },
+    {
+      "id": "motherduck",
+      "name": "MotherDuck",
+      "website_url": "https://motherduck.com/",
+      "checked_at": "2026-11-12T14:22:07.202171+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://motherduck.com/",
+          "status": 200,
+          "sha256": "5e7d8d6a4246d3b95ef552598bda410b3045f1f16f1ab0c57cec89068bce3d2c",
+          "ashby_slugs": [],
+          "title": "MotherDuck | Your AI Data Team",
+          "board_links": []
+        },
+        {
+          "url": "https://motherduck.com/careers/",
+          "status": 200,
+          "sha256": "5ae7b6548d658e3abc72877b42d082e3b47723956a75156cdd583997dcca135e",
+          "ashby_slugs": [
+            "MotherDuck"
+          ],
+          "title": "Careers at MotherDuck",
+          "board_links": [
+            "https://jobs.ashbyhq.com/MotherDuck/111fd8f5-a8ad-4aa4-937f-79da7c2184db",
+            "https://jobs.ashbyhq.com/MotherDuck/2e2ea1b3-935f-425f-a608-038994ff72c9",
+            "https://jobs.ashbyhq.com/MotherDuck/eff4aac0-e75c-4a1a-83fc-f2f4f00a084b",
+            "https://jobs.ashbyhq.com/MotherDuck/20df87d4-bcb0-42d3-b302-7266fe0830da",
+            "https://jobs.ashbyhq.com/MotherDuck/b48c0b10-7eca-438a-a04f-07ca2b8aa7e0",
+            "https://jobs.ashbyhq.com/MotherDuck/cb12cd4d-a465-4bed-9182-bd6160e4f1ae",
+            "https://jobs.ashbyhq.com/MotherDuck/form/talent-community",
+            "https://jobs.ashbyhq.com/MotherDuck/form/talent-community"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "MotherDuck",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "MotherDuck",
+        "careers_url": "https://jobs.ashbyhq.com/MotherDuck",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/MotherDuck",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "MotherDuck",
+          "ownership_source": "https://motherduck.com/careers/"
+        }
+      },
+      "recipe_sha256": "585c8c97f83767403b22563433570bbb9d9a6be338a8d6758667602e509d5cd0",
+      "job_count": 6,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 6,
+      "independent_inventory_count": 6,
+      "inventory_ids_match": true,
+      "inventory_sha256": "fa23edb642406e42bba9944b4c740209f5445a91f5d74623ae2c3598ffd89f9b",
+      "samples": [
+        {
+          "title": "Business Development Representative",
+          "location": "New York City",
+          "source_url": "https://jobs.ashbyhq.com/MotherDuck/cb12cd4d-a465-4bed-9182-bd6160e4f1ae"
+        },
+        {
+          "title": "Software Engineer - Database",
+          "location": "Berlin",
+          "source_url": "https://jobs.ashbyhq.com/MotherDuck/eff4aac0-e75c-4a1a-83fc-f2f4f00a084b"
+        },
+        {
+          "title": "Product Marketing Manager",
+          "location": "Seattle; New York City; San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/MotherDuck/b48c0b10-7eca-438a-a04f-07ca2b8aa7e0"
+        },
+        {
+          "title": "Software Engineer - Database",
+          "location": "Amsterdam",
+          "source_url": "https://jobs.ashbyhq.com/MotherDuck/2e2ea1b3-935f-425f-a608-038994ff72c9"
+        },
+        {
+          "title": "Software Engineer - Database",
+          "location": "New York City",
+          "source_url": "https://jobs.ashbyhq.com/MotherDuck/111fd8f5-a8ad-4aa4-937f-79da7c2184db"
+        }
+      ]
+    },
+    {
+      "id": "rillet",
+      "name": "Rillet",
+      "website_url": "https://rillet.com/",
+      "checked_at": "2026-11-12T14:22:07.364717+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.rillet.com/",
+          "status": 200,
+          "sha256": "23dd69a8838973f24943449a976b515bb3421a888aa9b768c5ccba0a78ad3fd3",
+          "ashby_slugs": [],
+          "title": "Rillet | The AI-Native ERP | Zero-day close starts here",
+          "board_links": []
+        },
+        {
+          "url": "https://www.rillet.com/about/careers",
+          "status": 200,
+          "sha256": "d15b0562609527612332fd16321693fba26b753c8ab26387d73c13ffb64d198e",
+          "ashby_slugs": [
+            "rillet"
+          ],
+          "title": "Careers at Rillet | Join Our Team",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "rillet",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Rillet",
+        "careers_url": "https://jobs.ashbyhq.com/rillet",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/rillet",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "rillet",
+          "ownership_source": "https://www.rillet.com/about/careers"
+        }
+      },
+      "recipe_sha256": "5680e4537487d0002861d67521ebf16749bacd85a0578b70f8774bfa1deb4739",
+      "job_count": 42,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 42,
+      "independent_inventory_count": 42,
+      "inventory_ids_match": true,
+      "inventory_sha256": "866909cd5d1ed9ea0e8a096ff27c2e3f6fc9286e2469c3f468595c1774a27a3f",
+      "samples": [
+        {
+          "title": "Accounting Success Manager",
+          "location": "San Francisco; New York City; Chicago",
+          "source_url": "https://jobs.ashbyhq.com/rillet/30ac8f73-bd93-43fb-8a17-60e03a98dbff"
+        },
+        {
+          "title": "Engineering Manager",
+          "location": "San Francisco; New York City",
+          "source_url": "https://jobs.ashbyhq.com/rillet/0210e455-5cdf-4ea0-b99e-65ba4843a09d"
+        },
+        {
+          "title": "Manager, Deployment Team - Accounting Solutions",
+          "location": "Remote; New York City; San Francisco; Chicago",
+          "source_url": "https://jobs.ashbyhq.com/rillet/d6904109-84e8-4e22-b883-10c1b34f8a1e"
+        },
+        {
+          "title": "Product Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/rillet/a182464e-76c1-4f0b-af78-76ba8a611281"
+        },
+        {
+          "title": "Business Development Representative",
+          "location": "San Francisco; New York City; Chicago",
+          "source_url": "https://jobs.ashbyhq.com/rillet/7685bbbd-25ad-425f-a4fe-9e856359a2cc"
+        }
+      ]
+    },
+    {
+      "id": "numeric",
+      "name": "Numeric",
+      "website_url": "https://numeric.io/",
+      "checked_at": "2026-11-12T14:22:07.857188+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.numeric.io/",
+          "status": 200,
+          "sha256": "835dfd6798451dff5c445579f5463099d7596450743c5f2c04aa72515e6fd65a",
+          "ashby_slugs": [],
+          "title": "Numeric | The Data Platform for Finance",
+          "board_links": []
+        },
+        {
+          "url": "https://www.numeric.io/careers",
+          "status": 200,
+          "sha256": "217cc48d5a143260f7e6ab5521b3cf3d004374431080cf1dd452a892b458b840",
+          "ashby_slugs": [
+            "numeric"
+          ],
+          "title": "Careers | Numeric",
+          "board_links": [
+            "https://jobs.ashbyhq.com/numeric?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/11b7a65c-b9e5-44ee-9c1c-41d446abefb5?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/0a3810c1-4b59-4593-b426-9fd37d962018?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/b5af3992-c45a-413a-8de6-38e4bce92349",
+            "https://jobs.ashbyhq.com/numeric/acc26c47-3521-4f94-8882-4f69803ffd49",
+            "https://jobs.ashbyhq.com/numeric/70c9ec5a-7393-4be1-8d47-27e407485e32",
+            "https://jobs.ashbyhq.com/numeric/ab300c31-df75-48a7-937a-d882774be688?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/630b02e5-72b2-4c41-8eb1-a3b696fc1076?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/d1678fd7-8809-4b8c-b1ad-637521edad5f?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/f508976c-a20b-4ac4-a103-4c30d65b81eb?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/a4cf1ea3-feef-44bf-9648-f7ec9bb2b57a?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/78fb5afa-b70f-44c2-b778-eaa1d1cc3a89?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/47b4e39c-3286-4d04-b3fd-6709ce0e7223?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/f91cebcf-749e-4bc1-8ab4-fbe5e6fa9da1?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/f2db141e-1548-48ed-98ba-63ea0f7549e4?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/1dd57644-88c8-42fb-82c3-05ab1bae646f?utm_source=p1XXdXXN7Q",
+            "https://jobs.ashbyhq.com/numeric/bb1e6e52-c4cb-4ea8-a1a1-63fa16fea268",
+            "https://jobs.ashbyhq.com/numeric?utm_source=p1XXdXXN7Q"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "numeric",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Numeric",
+        "careers_url": "https://jobs.ashbyhq.com/numeric",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/numeric",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "numeric",
+          "ownership_source": "https://www.numeric.io/careers"
+        }
+      },
+      "recipe_sha256": "8e7b11eb08b81291d465180cf43bfc0cc7b0875f5b9460b545f63ddaa94c4756",
+      "job_count": 24,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 24,
+      "independent_inventory_count": 24,
+      "inventory_ids_match": true,
+      "inventory_sha256": "04639418eb2f82001b8bed47b63a55f8629f43860686cf2d72497fdfbfc001cd",
+      "samples": [
+        {
+          "title": "Account Executive",
+          "location": "San Francisco; New York",
+          "source_url": "https://jobs.ashbyhq.com/numeric/bb1e6e52-c4cb-4ea8-a1a1-63fa16fea268"
+        },
+        {
+          "title": "Customer Success Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/numeric/d77a953b-cfae-4364-a6da-e85ac30b5fd8"
+        },
+        {
+          "title": "Software Engineer, Product",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/numeric/78fb5afa-b70f-44c2-b778-eaa1d1cc3a89"
+        },
+        {
+          "title": "Engineering Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/numeric/ae832151-652a-4b77-aba9-d529d5ba0a9c"
+        },
+        {
+          "title": "Software Engineer, Product",
+          "location": "New York",
+          "source_url": "https://jobs.ashbyhq.com/numeric/ab300c31-df75-48a7-937a-d882774be688"
+        }
+      ]
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "website_url": "https://meetcampfire.com/",
+      "checked_at": "2026-11-12T14:22:08.756125+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://campfire.ai/",
+          "status": 200,
+          "sha256": "e45686a785440b245066baac2b2be609c4c544e9a9dbf29fc3dc60394e3ac3a5",
+          "ashby_slugs": [],
+          "title": "Campfire | The AI-Native ERP",
+          "board_links": []
+        },
+        {
+          "url": "https://campfire.ai/careers",
+          "status": 200,
+          "sha256": "31edb66c970805541e28a4f16c51949593c0a7a5a8032c8ec98436169ba7c545",
+          "ashby_slugs": [
+            "campfire"
+          ],
+          "title": "Careers",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "campfire",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Campfire",
+        "careers_url": "https://jobs.ashbyhq.com/campfire",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/campfire",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "campfire",
+          "ownership_source": "https://campfire.ai/careers"
+        }
+      },
+      "recipe_sha256": "fa044bc749052e55f77023e1a1b4f5c45cb0a61a49a99be0311fabcda769e109",
+      "job_count": 52,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 52,
+      "independent_inventory_count": 52,
+      "inventory_ids_match": true,
+      "inventory_sha256": "166f24824f251685095c9ce9043874dca555f71b5123fd7d54b6ffe8bbf3f68f",
+      "samples": [
+        {
+          "title": "Account Executive - Non Tech Vertical",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/campfire/44e536af-f292-4dfa-86b8-85a5c04804b1"
+        },
+        {
+          "title": "SEO & AEO Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/campfire/368c109a-9934-4b1e-b2f5-c032b1be9276"
+        },
+        {
+          "title": "Campaigns & ABM Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/campfire/0aa77839-4ca5-48fa-bdb3-5971477dea93"
+        },
+        {
+          "title": "Senior Partner Marketing Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/campfire/4217a41c-700e-4f10-b45e-d088cf644a5a"
+        },
+        {
+          "title": "Product Marketing Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/campfire/c3a03aa6-e4f0-49b8-975c-749ae1a1ed8d"
+        }
+      ]
+    },
+    {
+      "id": "zip",
+      "name": "Zip",
+      "website_url": "https://ziphq.com/",
+      "checked_at": "2026-11-12T14:22:09.891333+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://zip.com/",
+          "status": 200,
+          "sha256": "0ffbdc858d41bb86286c769bc9301a70ddfd8e1fead87b6bcdcd110787435c79",
+          "ashby_slugs": [],
+          "title": "AI for Procurement | Zip AI Procurement Platform",
+          "board_links": []
+        },
+        {
+          "url": "https://zip.com/careers",
+          "status": 200,
+          "sha256": "37e61a626dbe11c714fdedffaba49e304f6eec92ebe0963381868885ad04d95d",
+          "ashby_slugs": [
+            "zip"
+          ],
+          "title": "Careers at Zip | Building AI for Procurement",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "zip",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Zip",
+        "careers_url": "https://jobs.ashbyhq.com/zip",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/zip",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "zip",
+          "ownership_source": "https://zip.com/careers"
+        }
+      },
+      "recipe_sha256": "02894b2ac93d5aae99705c0532c42d26e3ee9641bb0d7a8507f36e6a8d99569d",
+      "job_count": 98,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 98,
+      "independent_inventory_count": 98,
+      "inventory_ids_match": true,
+      "inventory_sha256": "277facfd8f1078e7d0b9f70f8d73f88e002e909494ce71f38dd7de9f2be01fdf",
+      "samples": [
+        {
+          "title": "Senior / Principal Product Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/zip/b20653a0-1a06-4c81-a3a0-2ef41e728b3b"
+        },
+        {
+          "title": "Solution Engineer (Pre-Sales)",
+          "location": "Remote - West Coast",
+          "source_url": "https://jobs.ashbyhq.com/zip/92c2b94a-3963-4c1e-8e5a-b83f548f8f0d"
+        },
+        {
+          "title": "Software Engineer, Frontend (All Levels)",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/zip/0c1b3417-9ba4-4630-8590-f6b45c40310a"
+        },
+        {
+          "title": "Senior/Staff Product Designer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/zip/c6307162-44d9-47f3-a147-3adb39adc970"
+        },
+        {
+          "title": "Senior ERP Solutions Consultant",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/zip/75e03022-0d92-426f-b3af-945590a976ed"
+        }
+      ]
+    },
+    {
+      "id": "airops",
+      "name": "AirOps",
+      "website_url": "https://airops.com/",
+      "checked_at": "2026-11-12T14:22:10.280862+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.airops.com/",
+          "status": 200,
+          "sha256": "559dc5e9b2a18a46dff5b6b7c3c7023f012e62c13b5c348ff5e12db5eda3127e",
+          "ashby_slugs": [
+            "airops"
+          ],
+          "title": "AirOps | Run the strategy that wins AI discovery",
+          "board_links": [
+            "https://jobs.ashbyhq.com/airops"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "airops",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "AirOps",
+        "careers_url": "https://jobs.ashbyhq.com/airops",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/airops",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "airops",
+          "ownership_source": "https://www.airops.com/"
+        }
+      },
+      "recipe_sha256": "5373fffc63b6a6cdc296c58b04dcca381322b4a72ed4f255986166a290ed30a8",
+      "job_count": 15,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 15,
+      "independent_inventory_count": 15,
+      "inventory_ids_match": true,
+      "inventory_sha256": "0d4573b21495463f6ff4534bac19639ef7cbe6a9633dd8fa5e5c36010380584c",
+      "samples": [
+        {
+          "title": "Biz Ops Lead",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/airops/ead990bf-a1e1-4d83-ba9d-093dece030b1"
+        },
+        {
+          "title": "Product Designer",
+          "location": "New York City or San Francisco (Onsite)",
+          "source_url": "https://jobs.ashbyhq.com/airops/74341d78-7a8c-462d-93bf-648472710b43"
+        },
+        {
+          "title": "Forward Deployed Engineer",
+          "location": "New York; Remote",
+          "source_url": "https://jobs.ashbyhq.com/airops/a2583e53-e8e9-44c9-8660-43c75592ded9"
+        },
+        {
+          "title": "Product Engineer",
+          "location": "New York City or San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/airops/01f88dc8-5f04-4c68-8df1-64f8e6089f09"
+        },
+        {
+          "title": "Enterprise Account Manager - New Verticals",
+          "location": "New York , San Francisco or US-Remote",
+          "source_url": "https://jobs.ashbyhq.com/airops/af75570b-36a1-4fb5-936c-7b4300482756"
+        }
+      ]
+    },
+    {
+      "id": "writer",
+      "name": "Writer",
+      "website_url": "https://writer.com/",
+      "checked_at": "2026-11-12T14:22:10.819313+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://writer.com/",
+          "status": 200,
+          "sha256": "bf47ddc29354750b01a2ce080101a864a978a822d5d6d3311b9bd193a4903238",
+          "ashby_slugs": [],
+          "title": "WRITER - Reach the frontier of enterprise growth",
+          "board_links": []
+        },
+        {
+          "url": "https://writer.com/company/careers/",
+          "status": 200,
+          "sha256": "0508ab36411e5c0984bd06ce5816b219e0dd726547577d9dcfea8c59a15e75d1",
+          "ashby_slugs": [
+            "writer"
+          ],
+          "title": "Career opportunities at WRITER",
+          "board_links": [
+            "https://jobs.ashbyhq.com/writer",
+            "https://jobs.ashbyhq.com/writer"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "writer",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Writer",
+        "careers_url": "https://jobs.ashbyhq.com/writer",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/writer",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "writer",
+          "ownership_source": "https://writer.com/company/careers/"
+        }
+      },
+      "recipe_sha256": "32c2abe8429c3098c2d5a039af679e04b4b318943957c3ba355fc7d01208b919",
+      "job_count": 43,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 43,
+      "independent_inventory_count": 43,
+      "inventory_ids_match": true,
+      "inventory_sha256": "318d9d2920d26274a7c69fee77781da59a38e33f9454590ac75104465a66728a",
+      "samples": [
+        {
+          "title": "Sales recruiter (Contract)",
+          "location": "San Francisco, CA; New York City, NY; US - Remote",
+          "source_url": "https://jobs.ashbyhq.com/WRITER/f893ffbb-3303-4aa4-98ef-04e080aa1898"
+        },
+        {
+          "title": "Software engineer, agents (UK)",
+          "location": "London, UK",
+          "source_url": "https://jobs.ashbyhq.com/WRITER/19ebb038-e398-4a45-b40b-53333d534777"
+        },
+        {
+          "title": "Staff security engineer, application security",
+          "location": "New York City, NY; Seattle, WA; San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/WRITER/e523bb66-545f-4357-89f6-4b8b3f7033db"
+        },
+        {
+          "title": "Enterprise account executive (UK)",
+          "location": "London, UK",
+          "source_url": "https://jobs.ashbyhq.com/WRITER/3c14f1fa-56e3-401a-b078-f3495b40a63a"
+        },
+        {
+          "title": "AI transformation lead (Central)",
+          "location": "Chicago, IL; Austin, TX",
+          "source_url": "https://jobs.ashbyhq.com/WRITER/bb04804e-6332-4a89-8651-b962ca529fd7"
+        }
+      ]
+    },
+    {
+      "id": "mutiny",
+      "name": "Mutiny",
+      "website_url": "https://mutinyhq.com/",
+      "checked_at": "2026-11-12T14:22:11.572678+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.mutinyhq.com/",
+          "status": 200,
+          "sha256": "4c667f18a75d12ba045e5dbeb99fb51219803213af9b025ccbdf8b01974168b4",
+          "ashby_slugs": [],
+          "title": "Mutiny | The sales assistant built for customer-facing work",
+          "board_links": []
+        },
+        {
+          "url": "https://www.mutinyhq.com/join-us",
+          "status": 200,
+          "sha256": "98c573869e7a4646fdc704f9f181e353a70ea6c509b21d4498a4012c3c30d14f",
+          "ashby_slugs": [
+            "Mutiny"
+          ],
+          "title": "Join Us | Build the future of how GTM teams operate",
+          "board_links": [
+            "https://jobs.ashbyhq.com/Mutiny/6cd2f53a-5865-4f69-836d-07bc3751643d",
+            "https://jobs.ashbyhq.com/Mutiny/13d38c51-7bdf-44c5-ab92-4ee876933913",
+            "https://jobs.ashbyhq.com/Mutiny/ad7bcb8b-8616-46d2-987e-38a00f736bd1",
+            "https://jobs.ashbyhq.com/Mutiny/c152fd1d-1f53-468b-923c-d29a3afaec0c",
+            "https://jobs.ashbyhq.com/Mutiny/c676aecb-8d8b-469f-8afa-057834dee11b",
+            "https://jobs.ashbyhq.com/Mutiny/abe9348f-b758-4456-a8e7-31bd4710dce4",
+            "https://jobs.ashbyhq.com/Mutiny/ceda815a-f5c3-46cb-a043-87e427aeb5e2",
+            "https://jobs.ashbyhq.com/Mutiny/b1d69184-0117-432d-96bf-3fafd6bf26f2"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "Mutiny",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Mutiny",
+        "careers_url": "https://jobs.ashbyhq.com/Mutiny",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/Mutiny",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "Mutiny",
+          "ownership_source": "https://www.mutinyhq.com/join-us"
+        }
+      },
+      "recipe_sha256": "b84904e8e922d82303090e53ac7b11ff04ab652719dbdb1d3ab45de8292b78c3",
+      "job_count": 7,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 7,
+      "independent_inventory_count": 7,
+      "inventory_ids_match": true,
+      "inventory_sha256": "4a351beff7b2bc8b4c79d81d2f144774d448a61f28b6219ffb1acf4e7af95b36",
+      "samples": [
+        {
+          "title": "Social Media Creator",
+          "location": "In person in New York City",
+          "source_url": "https://jobs.ashbyhq.com/Mutiny/6cd2f53a-5865-4f69-836d-07bc3751643d"
+        },
+        {
+          "title": "Enterprise Account Executive",
+          "location": "In person in New York City",
+          "source_url": "https://jobs.ashbyhq.com/Mutiny/13d38c51-7bdf-44c5-ab92-4ee876933913"
+        },
+        {
+          "title": "AI Strategist Lead",
+          "location": "In person in New York City",
+          "source_url": "https://jobs.ashbyhq.com/Mutiny/c152fd1d-1f53-468b-923c-d29a3afaec0c"
+        },
+        {
+          "title": "Staff Product Designer",
+          "location": "In person in New York City",
+          "source_url": "https://jobs.ashbyhq.com/Mutiny/c676aecb-8d8b-469f-8afa-057834dee11b"
+        },
+        {
+          "title": "Senior Software Engineer (AI Products)",
+          "location": "In person in New York City",
+          "source_url": "https://jobs.ashbyhq.com/Mutiny/abe9348f-b758-4456-a8e7-31bd4710dce4"
+        }
+      ]
+    },
+    {
+      "id": "unify",
+      "name": "Unify",
+      "website_url": "https://unifygtm.com/",
+      "checked_at": "2026-11-12T14:22:12.169139+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.unifygtm.com/",
+          "status": 200,
+          "sha256": "ad560704a3901a5321d62df9ede74286362016360d28c9fdb0cf579a84402dfc",
+          "ashby_slugs": [],
+          "title": "Unify | Outbound agents for every rep",
+          "board_links": []
+        },
+        {
+          "url": "https://www.unifygtm.com/careers",
+          "status": 200,
+          "sha256": "d6efce816cb3fe662f9a9b53fbb5af7c7b0f637eaa617119fcf6500038d2f516",
+          "ashby_slugs": [
+            "api",
+            "unify"
+          ],
+          "title": "Unify Careers | Build The Future Of Growth",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "unify",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Unify",
+        "careers_url": "https://jobs.ashbyhq.com/unify",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/unify",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "unify",
+          "ownership_source": "https://www.unifygtm.com/careers"
+        }
+      },
+      "recipe_sha256": "41c1aa6cb646114261fd65e78ad55b2cf5725d1cb0dcf06e1802a6ac61c33231",
+      "job_count": 11,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 11,
+      "independent_inventory_count": 11,
+      "inventory_ids_match": true,
+      "inventory_sha256": "8d4ce14b1712b443666261490302337297680c69808a4d201fa1d3297592598f",
+      "samples": [
+        {
+          "title": "Applied AI Engineer",
+          "location": "San Francisco Office; New York Office",
+          "source_url": "https://jobs.ashbyhq.com/unify/cf6a04a0-dd94-4345-aef2-168f38b50ae1"
+        },
+        {
+          "title": "Senior Product Engineer, Product",
+          "location": "San Francisco Office; New York Office",
+          "source_url": "https://jobs.ashbyhq.com/unify/ae1448d0-498f-4316-9255-ac5050391e25"
+        },
+        {
+          "title": "Senior Product Manager",
+          "location": "San Francisco Office; New York Office",
+          "source_url": "https://jobs.ashbyhq.com/unify/fb1e97d7-d1f0-404f-b38e-51b42618292a"
+        },
+        {
+          "title": "Staff Software Engineer, Platform",
+          "location": "San Francisco Office; New York Office",
+          "source_url": "https://jobs.ashbyhq.com/unify/07590b87-dc35-4375-8738-6482ea9998dd"
+        },
+        {
+          "title": "Staff Software Engineer, Product",
+          "location": "San Francisco Office; New York Office",
+          "source_url": "https://jobs.ashbyhq.com/unify/7e5a6120-df44-4846-9277-7e8f01d7f3e0"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "name": "Plain",
+      "website_url": "https://plain.com/",
+      "checked_at": "2026-11-12T14:22:12.442647+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.plain.com/",
+          "status": 200,
+          "sha256": "a16c8c504c0ec870a922a8a3627018a0e5a1fa78c29a0f3f30a8233409aebe94",
+          "ashby_slugs": [],
+          "title": "Plain â The AI Support Stack Built for B2B",
+          "board_links": []
+        },
+        {
+          "url": "https://www.plain.com/careers",
+          "status": 200,
+          "sha256": "4e0fd6767b1b50ce6bd5aa0018a45c01a36b2636cda0c0073e2de5f2fc52d83e",
+          "ashby_slugs": [],
+          "title": "Plain Careers â Come work with us!",
+          "board_links": []
+        },
+        {
+          "url": "https://www.plain.com/careers#open-roles",
+          "status": 200,
+          "sha256": "4e0fd6767b1b50ce6bd5aa0018a45c01a36b2636cda0c0073e2de5f2fc52d83e",
+          "ashby_slugs": [],
+          "title": "Plain Careers â Come work with us!",
+          "board_links": []
+        },
+        {
+          "url": "https://www.plain.com/careers/forward-deployed-engineer",
+          "status": 200,
+          "sha256": "35ad996a4c2ebc1bb4bb630d49568980c55ace2d4a50a16f07fbd6e14c6a8560",
+          "ashby_slugs": [
+            "plain"
+          ],
+          "title": "Plain â Forward Deployed Engineer",
+          "board_links": [
+            "https://jobs.ashbyhq.com/plain/8952a4fb-6c96-4a68-9b4c-b2fb1f6329f4",
+            "https://jobs.ashbyhq.com/plain/8952a4fb-6c96-4a68-9b4c-b2fb1f6329f4"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "plain",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Plain",
+        "careers_url": "https://jobs.ashbyhq.com/plain",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/plain",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "plain",
+          "ownership_source": "https://www.plain.com/careers/forward-deployed-engineer"
+        }
+      },
+      "recipe_sha256": "1e22c03325168a9352d48f465d364eaa270e2550ef4dfc3c8a139fd5a6103435",
+      "job_count": 5,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 5,
+      "independent_inventory_count": 5,
+      "inventory_ids_match": true,
+      "inventory_sha256": "084428346d291658e29beedd445caadc7a05ae91bd160c60e5e368d62ad2d674",
+      "samples": [
+        {
+          "title": "Senior Product Engineer",
+          "location": "London office",
+          "source_url": "https://jobs.ashbyhq.com/plain/c2053301-23c4-46fd-9fe7-3c6425410819"
+        },
+        {
+          "title": "Senior Product Engineer (AI)",
+          "location": "London office",
+          "source_url": "https://jobs.ashbyhq.com/plain/fd10161b-2139-4432-ab75-59be1a12da23"
+        },
+        {
+          "title": "Product Engineer (Full Stack)",
+          "location": "London office",
+          "source_url": "https://jobs.ashbyhq.com/plain/11251278-77a8-475a-afa6-aa62e0a2a1df"
+        },
+        {
+          "title": "Product Marketing Lead",
+          "location": "San Francisco office",
+          "source_url": "https://jobs.ashbyhq.com/plain/865d8882-8c80-4145-b139-a644b40ff1e7"
+        },
+        {
+          "title": "Forward Deployed Engineer",
+          "location": "San Francisco office",
+          "source_url": "https://jobs.ashbyhq.com/plain/8952a4fb-6c96-4a68-9b4c-b2fb1f6329f4"
+        }
+      ]
+    },
+    {
+      "id": "pylon",
+      "name": "Pylon",
+      "website_url": "https://usepylon.com/",
+      "checked_at": "2026-11-12T14:22:13.174922+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.usepylon.com/",
+          "status": 200,
+          "sha256": "6f9973aa3d65fbc41ce35426cf60404a4201c88d3dce1c6a2dcc0ebbf4569177",
+          "ashby_slugs": [],
+          "title": "Pylon: Agentic B2B Support",
+          "board_links": []
+        },
+        {
+          "url": "https://www.usepylon.com/careers",
+          "status": 200,
+          "sha256": "727f6043d7d42340a2da0de2dbfcf5c61df7f61d5030e4e690c7f2425ca20d4a",
+          "ashby_slugs": [
+            "pylon-labs"
+          ],
+          "title": "Careers | Pylon",
+          "board_links": [
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs",
+            "https://jobs.ashbyhq.com/pylon-labs"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "pylon-labs",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Pylon",
+        "careers_url": "https://jobs.ashbyhq.com/pylon-labs",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/pylon-labs",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "pylon-labs",
+          "ownership_source": "https://www.usepylon.com/careers"
+        }
+      },
+      "recipe_sha256": "4cdd93137bf14ba663c904cdbb5f171235c6a6d3b9737d37d73cc6a4c468bd28",
+      "job_count": 14,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 14,
+      "independent_inventory_count": 14,
+      "inventory_ids_match": true,
+      "inventory_sha256": "a1dce03f7a5c8d422735aa21fc0fb31764edd10f1968ce621fe7d3b41f9435dd",
+      "samples": [
+        {
+          "title": "Product Support Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/pylon-labs/2b1c3ce3-0b80-4daa-b9b8-8f48b24e491f"
+        },
+        {
+          "title": "Account Executive",
+          "location": "New York",
+          "source_url": "https://jobs.ashbyhq.com/pylon-labs/0aaf0a08-c08b-44d6-a86f-05036dfe20fd"
+        },
+        {
+          "title": "Product Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/pylon-labs/6fabb5e9-7bc8-4098-826f-d4793c43b2b5"
+        },
+        {
+          "title": "Head of Support",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/pylon-labs/c8b37f74-66bb-4829-851f-7d2d3afe1560"
+        },
+        {
+          "title": "Product Designer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/pylon-labs/c661a9b3-a15a-4992-bfcd-394e010a16dd"
+        }
+      ]
+    },
+    {
+      "id": "delphi",
+      "name": "Delphi",
+      "website_url": "https://delphi.ai/",
+      "checked_at": "2026-11-12T14:22:13.618331+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.delphi.co/",
+          "status": 200,
+          "sha256": "22132c4b00782f63a0991fe1ef6d329379f6b8eab0ecdc305d5595942828d551",
+          "ashby_slugs": [],
+          "title": "Delphi - Ask The World's Experts",
+          "board_links": []
+        },
+        {
+          "url": "https://www.delphi.co/careers",
+          "status": 200,
+          "sha256": "927f55a129b273f4448c674f1f8cfdc4b2c6d74db25c0f0709698fd1641f140c",
+          "ashby_slugs": [
+            "delphi"
+          ],
+          "title": "Careers at Delphi",
+          "board_links": [
+            "https://jobs.ashbyhq.com/delphi/6ed530d0-0939-478f-96ea-745edecbb53d",
+            "https://jobs.ashbyhq.com/delphi/03d8c502-d48e-4e44-9002-1a73dc147128",
+            "https://jobs.ashbyhq.com/delphi/81a220c3-1338-426f-ba34-5d77753add24",
+            "https://jobs.ashbyhq.com/delphi/9e2040f8-ecbf-4192-85b9-02e08a20675f",
+            "https://jobs.ashbyhq.com/delphi/b07c7be0-53da-4607-835d-c4f5ee35485b"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "delphi",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Delphi",
+        "careers_url": "https://jobs.ashbyhq.com/delphi",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/delphi",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "delphi",
+          "ownership_source": "https://www.delphi.co/careers"
+        }
+      },
+      "recipe_sha256": "82bafaa7a8e346e234d69c0a3626f4b08f7097809ed4124cc2157ac04240d773",
+      "job_count": 5,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 5,
+      "independent_inventory_count": 5,
+      "inventory_ids_match": true,
+      "inventory_sha256": "3e136cac9011158650fd44a72e89ef9ec9fc8934ba8528c24b7b8b85d8962747",
+      "samples": [
+        {
+          "title": "VP Engineering",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/delphi/6ed530d0-0939-478f-96ea-745edecbb53d"
+        },
+        {
+          "title": "Full Stack (Product) Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/delphi/03d8c502-d48e-4e44-9002-1a73dc147128"
+        },
+        {
+          "title": "Design Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/delphi/81a220c3-1338-426f-ba34-5d77753add24"
+        },
+        {
+          "title": "Product Designer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/delphi/9e2040f8-ecbf-4192-85b9-02e08a20675f"
+        },
+        {
+          "title": "Growth Marketer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/delphi/b07c7be0-53da-4607-835d-c4f5ee35485b"
+        }
+      ]
+    },
+    {
+      "id": "trigger-dev",
+      "name": "Trigger.dev",
+      "website_url": "https://trigger.dev/",
+      "checked_at": "2026-11-12T14:22:14.757389+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://trigger.dev/",
+          "status": 200,
+          "sha256": "7f0970e663c9bca8e7708550c4a2325b4d92d9ac036cf6363e6eb6346e6d76e3",
+          "ashby_slugs": [],
+          "title": "Trigger.dev | The open source platform for durable AI agents",
+          "board_links": []
+        },
+        {
+          "url": "https://trigger.dev/careers",
+          "status": 200,
+          "sha256": "b73aaa79004cb10abdf79e017e85ffe12bf90e2e753bb942c6dfb708f312ffdc",
+          "ashby_slugs": [
+            "triggerdev"
+          ],
+          "title": "Careers | Trigger.dev",
+          "board_links": [
+            "https://jobs.ashbyhq.com/triggerdev/cf7e7521-b323-41b8-917b-2972685c7791",
+            "https://jobs.ashbyhq.com/triggerdev/d1197ead-55d9-4a9c-b577-715ee20b732c",
+            "https://jobs.ashbyhq.com/triggerdev/6f0f1783-fb08-4ec6-97d1-3f2c26005faf",
+            "https://jobs.ashbyhq.com/triggerdev/417480f5-15b0-4a37-84d0-6c3d173191fc",
+            "https://jobs.ashbyhq.com/triggerdev/d6edd660-0996-4067-8df3-99095476ae76"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "triggerdev",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Trigger.dev",
+        "careers_url": "https://jobs.ashbyhq.com/triggerdev",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/triggerdev",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "triggerdev",
+          "ownership_source": "https://trigger.dev/careers"
+        }
+      },
+      "recipe_sha256": "0a24c4f0a92b14caddc15df3409d52f3d7d070b27a2e700ba93526af7b119d4c",
+      "job_count": 5,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 5,
+      "independent_inventory_count": 5,
+      "inventory_ids_match": true,
+      "inventory_sha256": "c8a38771c0d6fd0c7b1c231685b7a2e75df97c189e2f6b4e0180f42fbce91c6b",
+      "samples": [
+        {
+          "title": "Senior Backend Engineer (Europe)",
+          "location": "Remote or Hybrid UK",
+          "source_url": "https://jobs.ashbyhq.com/triggerdev/6f0f1783-fb08-4ec6-97d1-3f2c26005faf"
+        },
+        {
+          "title": "DevRel (SF Events)",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/triggerdev/417480f5-15b0-4a37-84d0-6c3d173191fc"
+        },
+        {
+          "title": "Design Engineer",
+          "location": "Remote or Hybrid UK",
+          "source_url": "https://jobs.ashbyhq.com/triggerdev/d1197ead-55d9-4a9c-b577-715ee20b732c"
+        },
+        {
+          "title": "Senior Software Engineer (AppSec)",
+          "location": "Remote or Hybrid UK",
+          "source_url": "https://jobs.ashbyhq.com/triggerdev/cf7e7521-b323-41b8-917b-2972685c7791"
+        },
+        {
+          "title": "Compliance & Security Lead",
+          "location": "Remote or Hybrid UK",
+          "source_url": "https://jobs.ashbyhq.com/triggerdev/d6edd660-0996-4067-8df3-99095476ae76"
+        }
+      ]
+    },
+    {
+      "id": "inngest",
+      "name": "Inngest",
+      "website_url": "https://inngest.com/",
+      "checked_at": "2026-11-12T14:22:15.340360+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.inngest.com/",
+          "status": 200,
+          "sha256": "4da1bb3ce80dc490bbaf83bb3562a0b15edf8cb540196ebd2cb9ee4c21505096",
+          "ashby_slugs": [
+            "inngest"
+          ],
+          "title": "Durable Execution for Workflows & AI | Inngest",
+          "board_links": [
+            "https://jobs.ashbyhq.com/inngest"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "inngest",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Inngest",
+        "careers_url": "https://jobs.ashbyhq.com/inngest",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/inngest",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "inngest",
+          "ownership_source": "https://www.inngest.com/"
+        }
+      },
+      "recipe_sha256": "e6cd0a417609c9acaba9a847d6e5aad5afefdd1b4fa8ef0b943babb5c4a0e2ab",
+      "job_count": 2,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 2,
+      "independent_inventory_count": 2,
+      "inventory_ids_match": true,
+      "inventory_sha256": "3fe65843e47df096497eb7307b27c3c6b891b46cbcfa9907cc350a0093d68440",
+      "samples": [
+        {
+          "title": "Distributed Systems Engineer - Platform",
+          "location": "US/Remote; San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inngest/ae72d036-b98b-4abb-8454-a687870cf0ca"
+        },
+        {
+          "title": "Developer Success Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inngest/33b9f4ae-3be8-4a00-8548-8a00c276fd88"
+        }
+      ]
+    },
+    {
+      "id": "runpod",
+      "name": "Runpod",
+      "website_url": "https://runpod.io/",
+      "checked_at": "2026-11-12T14:22:15.867217+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.runpod.io/",
+          "status": 200,
+          "sha256": "6a909c02fb8438c9dbed41ff6f63583f6a61ca51db841f91d5a26e4cda66b4a0",
+          "ashby_slugs": [],
+          "title": "The AI Developer Cloud | Runpod",
+          "board_links": []
+        },
+        {
+          "url": "https://www.runpod.io/careers",
+          "status": 200,
+          "sha256": "2847caf7a54bd2e370e978ec79be1ccc32ba0ec49c951d9ab69c7d3e08bb7e7f",
+          "ashby_slugs": [
+            "runpod"
+          ],
+          "title": "Careers at Runpod | Build the AI Developer Cloud",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "runpod",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Runpod",
+        "careers_url": "https://jobs.ashbyhq.com/runpod",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/runpod",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "runpod",
+          "ownership_source": "https://www.runpod.io/careers"
+        }
+      },
+      "recipe_sha256": "173e17767781968c0202a763ac8dd2627dd8c2197795ee29465f0f38ee118173",
+      "job_count": 21,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 21,
+      "independent_inventory_count": 21,
+      "inventory_ids_match": true,
+      "inventory_sha256": "1e0e731158188ab8679e6e1a7ac1e22edfbcd71f171df3a630c0925415548a3e",
+      "samples": [
+        {
+          "title": "Manager, Software Engineering",
+          "location": "Remote - USA",
+          "source_url": "https://jobs.ashbyhq.com/runpod/e80fc6f8-8590-4161-b6b8-c44ace57f2b1"
+        },
+        {
+          "title": "Cloud Infrastructure Security Engineer (Systems/Kernel)",
+          "location": "Remote - USA",
+          "source_url": "https://jobs.ashbyhq.com/runpod/475e7a21-59af-4ef4-b2a3-6a0e60fc1356"
+        },
+        {
+          "title": "Director, Infrastructure Engineering",
+          "location": "Remote - USA",
+          "source_url": "https://jobs.ashbyhq.com/runpod/33f23f31-4751-49d8-b6ce-8e26df7104a6"
+        },
+        {
+          "title": "Site Reliability Engineer",
+          "location": "Remote - USA",
+          "source_url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413"
+        },
+        {
+          "title": "Senior Product Manager",
+          "location": "Remote - USA",
+          "source_url": "https://jobs.ashbyhq.com/runpod/700a0ac4-9ca7-4bde-84f8-09005a401055"
+        }
+      ]
+    },
+    {
+      "id": "inference-net",
+      "name": "Inference.net",
+      "website_url": "https://inference.net/",
+      "checked_at": "2026-11-12T14:22:16.770059+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://inference.net/",
+          "status": 200,
+          "sha256": "67ea39b665238ea4ae3c87f095d61cd0d91fe379b81fe8b5d9f52ef232aae1a0",
+          "ashby_slugs": [
+            "inference"
+          ],
+          "title": "Inference.net | Inference for developers",
+          "board_links": [
+            "https://jobs.ashbyhq.com/inference"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "inference",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Inference.net",
+        "careers_url": "https://jobs.ashbyhq.com/inference",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/inference",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "inference",
+          "ownership_source": "https://inference.net/"
+        }
+      },
+      "recipe_sha256": "300e49e53dccf007a7566bc81f38e1aee5fac62d9cdbe53a116a13f6f5115123",
+      "job_count": 5,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 5,
+      "independent_inventory_count": 5,
+      "inventory_ids_match": true,
+      "inventory_sha256": "217709269f1b7bd045c75e8aaca1008810f2ba593ff66f628dd6ce8063921639",
+      "samples": [
+        {
+          "title": "Filmmaker / Storyteller",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inference/fc28c0b4-3032-4817-ab9b-389057a924c8"
+        },
+        {
+          "title": "Fullstack Engineer - Frontend Focus",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inference/efe67830-9257-499c-a41c-021c9b96b15f"
+        },
+        {
+          "title": "Machine Learning Researcher",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inference/fba2457b-6ef7-4b65-8086-8bf61790279d"
+        },
+        {
+          "title": "Applied Machine Learning Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inference/b6798110-1218-4ac0-bcf4-9ee8b51810cb"
+        },
+        {
+          "title": "Senior Software Engineer - Model Performance",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/inference/7a2963de-1b33-4dfc-b711-990faa93a6a5"
+        }
+      ]
+    },
+    {
+      "id": "prime-intellect",
+      "name": "Prime Intellect",
+      "website_url": "https://primeintellect.ai/",
+      "checked_at": "2026-11-12T14:22:17.025482+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.primeintellect.ai/",
+          "status": 200,
+          "sha256": "612ae3d4551e969e0fdba93a0667d04f6760cd119001d4e050944772dbeb1b82",
+          "ashby_slugs": [],
+          "title": "Prime Intellect - The Open Superintelligence Stack",
+          "board_links": []
+        },
+        {
+          "url": "https://www.primeintellect.ai/careers",
+          "status": 200,
+          "sha256": "2e413d2b7717df6128f08eae59c582fa6d085c1ce34288243524815be0008167",
+          "ashby_slugs": [],
+          "title": "Careers | Prime Intellect",
+          "board_links": []
+        },
+        {
+          "url": "https://www.primeintellect.ai/careers/cbaa59ec-c133-400a-a0ae-ae95857f0690",
+          "status": 200,
+          "sha256": "e4a1f259b5b15fc8a0114b5097ffe0f3080e6d8ba21142db978ebfb4f78a5e14",
+          "ashby_slugs": [
+            "PrimeIntellect"
+          ],
+          "title": "Applied Researcher - Agentic RL | Prime Intellect",
+          "board_links": [
+            "https://jobs.ashbyhq.com/PrimeIntellect/cbaa59ec-c133-400a-a0ae-ae95857f0690/application"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "PrimeIntellect",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Prime Intellect",
+        "careers_url": "https://jobs.ashbyhq.com/PrimeIntellect",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/PrimeIntellect",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "PrimeIntellect",
+          "ownership_source": "https://www.primeintellect.ai/careers/cbaa59ec-c133-400a-a0ae-ae95857f0690"
+        }
+      },
+      "recipe_sha256": "18c784d10c376ad7f310dfe9538364137fd34837e94b82472ed0b99bcfbb439f",
+      "job_count": 37,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 37,
+      "independent_inventory_count": 37,
+      "inventory_ids_match": true,
+      "inventory_sha256": "fe08422b264497574f1464e2a14987cb8f2fd138f14120dc9ae1a33ed4172059",
+      "samples": [
+        {
+          "title": "Research Engineer - Distributed Training",
+          "location": "San Francisco; Remote",
+          "source_url": "https://jobs.ashbyhq.com/PrimeIntellect/8bd52610-175c-42a7-a7cd-b29c45f9d305"
+        },
+        {
+          "title": "Member of Technical Staff - GPU Infrastructure",
+          "location": "San Francisco; Remote; APAC; United States",
+          "source_url": "https://jobs.ashbyhq.com/PrimeIntellect/297d925e-5a42-40bd-b02f-5c928d226f18"
+        },
+        {
+          "title": "Head of Growth",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/PrimeIntellect/4c6ccfd6-6512-4905-979a-6dcc6d64a935"
+        },
+        {
+          "title": "Member of Technical Staff - Training Platform",
+          "location": "San Francisco; Remote",
+          "source_url": "https://jobs.ashbyhq.com/PrimeIntellect/8706578d-5a01-4270-9d43-ed9cd998a982"
+        },
+        {
+          "title": "Compute Finance and Strategy",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/PrimeIntellect/82084989-3721-475b-8253-46faab74a0ab"
+        }
+      ]
+    },
+    {
+      "id": "lambda",
+      "name": "Lambda",
+      "website_url": "https://lambda.ai/",
+      "checked_at": "2026-11-12T14:22:17.547234+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://lambda.com/",
+          "status": 200,
+          "sha256": "cd8e4aa8a1ed4624d90b9584db0f0afd796aecf2fdacdfafb7ae5b6793d291ab",
+          "ashby_slugs": [],
+          "title": "AI compute in the cloud | Lambda",
+          "board_links": []
+        },
+        {
+          "url": "https://lambda.com/careers",
+          "status": 200,
+          "sha256": "41ed884eec3d2bd0f9756aea0cd74749de43d2a4eecd81c592b873785f9ac27e",
+          "ashby_slugs": [
+            "lambda"
+          ],
+          "title": "Careers at Lambda | Build the Future of AI Infrastructure",
+          "board_links": [
+            "https://jobs.ashbyhq.com/lambda/aedcfc9e-c2ad-4e69-8962-1ffe1f455ba1",
+            "https://jobs.ashbyhq.com/lambda/8216a47e-d8d4-44b6-b1f8-6d5b0120b1eb",
+            "https://jobs.ashbyhq.com/lambda/bb47e828-8b60-42dd-8d4e-d2692c87cdc8",
+            "https://jobs.ashbyhq.com/lambda/c7ecb434-fdc0-434e-a455-9c200055cda0"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "lambda",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Lambda",
+        "careers_url": "https://jobs.ashbyhq.com/lambda",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/lambda",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "lambda",
+          "ownership_source": "https://lambda.com/careers"
+        }
+      },
+      "recipe_sha256": "9d09f387716df567b62a4d77ec650966af4c934d480c637752db365465fb7fdf",
+      "job_count": 92,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 92,
+      "independent_inventory_count": 92,
+      "inventory_ids_match": true,
+      "inventory_sha256": "8b76d90c63ab86df47df966adf5fb2301bb5f21dc3700f2e7c56f509351e777c",
+      "samples": [
+        {
+          "title": "Senior HPC Platform Hardware Engineer",
+          "location": "San Jose Office (Zanker)",
+          "source_url": "https://jobs.ashbyhq.com/Lambda/3fede5ab-bd58-4539-b846-f613c8bc81ff"
+        },
+        {
+          "title": "Senior Software Engineer - Fleet Engineering",
+          "location": "San Francisco Office (Fremont St); San Jose Office (Zanker); Bellevue Office",
+          "source_url": "https://jobs.ashbyhq.com/Lambda/d96f72bd-d78e-4a2b-9d9f-faa10b9ec883"
+        },
+        {
+          "title": "Senior Network Engineer",
+          "location": "San Francisco Office (Fremont St); San Jose Office (First St); San Jose Office (Zanker); Bellevue Office",
+          "source_url": "https://jobs.ashbyhq.com/Lambda/0b24367a-59b6-4e1e-a9f4-7c23542536fa"
+        },
+        {
+          "title": "Account CTO",
+          "location": "Remote, USA; San Jose Office (Zanker); San Francisco Office (Second St); Bellevue Office",
+          "source_url": "https://jobs.ashbyhq.com/Lambda/4605a295-8303-45be-9ba7-f26af3bae8cd"
+        },
+        {
+          "title": "Hardware Quality Engineer",
+          "location": "San Jose Office (Zanker); San Jose Office (First St)",
+          "source_url": "https://jobs.ashbyhq.com/Lambda/9644bc3d-966a-4a5e-85ef-3afbe080a7a6"
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "website_url": "https://pika.art/",
+      "checked_at": "2026-11-12T14:22:18.184588+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://pika.art/",
+          "status": 200,
+          "sha256": "38658e894a1954aadb598d6551789001691deda63afd60338b65ac7d7eb02e76",
+          "ashby_slugs": [],
+          "title": "Pika: AI Creative Tools for Video, Image & Audio",
+          "board_links": []
+        },
+        {
+          "url": "https://pika.art/careers",
+          "status": 200,
+          "sha256": "59d2904da91d7c8654ad17d26859940b9e7d55d271e7dc47e47648645bfa651e",
+          "ashby_slugs": [
+            "pika"
+          ],
+          "title": "Careers — Pika",
+          "board_links": [
+            "https://jobs.ashbyhq.com/pika",
+            "https://jobs.ashbyhq.com/pika"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "pika",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Pika",
+        "careers_url": "https://jobs.ashbyhq.com/pika",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/pika",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "pika",
+          "ownership_source": "https://pika.art/careers"
+        }
+      },
+      "recipe_sha256": "9eb8b2289c1cce7e7832ff982edd5989d9be46a9913dc3f6c179b9482a61e548",
+      "job_count": 18,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 18,
+      "independent_inventory_count": 18,
+      "inventory_ids_match": true,
+      "inventory_sha256": "1291066fd64e4e2d67c8496a7504ab0a4720d396b1277a6c469065c8bbaf9c28",
+      "samples": [
+        {
+          "title": "Product Designer (AI Native)",
+          "location": "US remote",
+          "source_url": "https://jobs.ashbyhq.com/pika/cc4dffe4-2cad-4287-a28b-b875ee35b541"
+        },
+        {
+          "title": "Research Scientist, Post-Training — Video Generation",
+          "location": "US remote",
+          "source_url": "https://jobs.ashbyhq.com/pika/d3993c91-4dd5-4868-8108-4e9b78133e7b"
+        },
+        {
+          "title": "ML Engineer, Inference & Optimization",
+          "location": "US remote",
+          "source_url": "https://jobs.ashbyhq.com/pika/fb9e43d7-36b8-46c7-93cd-2b7504e30363"
+        },
+        {
+          "title": "Senior/Staff Software Engineer, Backend",
+          "location": "US remote",
+          "source_url": "https://jobs.ashbyhq.com/pika/8dab8b44-71cd-4ed9-a598-34111d534ac1"
+        },
+        {
+          "title": "Research Scientist, Data",
+          "location": "US remote",
+          "source_url": "https://jobs.ashbyhq.com/pika/82835e51-284c-47af-b254-088fff23acd5"
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "website_url": "https://higgsfield.ai/",
+      "checked_at": "2026-11-12T14:22:19.367058+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://higgsfield.ai/",
+          "status": 200,
+          "sha256": "5cb01b30b193db1cfb4197e78fb7b1b6c39343b4731edcab8e4d56e57f22f48c",
+          "ashby_slugs": [
+            "higgsfieldai"
+          ],
+          "title": "Higgsfield AI — AI-native creative suite",
+          "board_links": [
+            "https://jobs.ashbyhq.com/higgsfieldai",
+            "https://jobs.ashbyhq.com/higgsfieldai"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "higgsfieldai",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Higgsfield",
+        "careers_url": "https://jobs.ashbyhq.com/higgsfieldai",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/higgsfieldai",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "higgsfieldai",
+          "ownership_source": "https://higgsfield.ai/"
+        }
+      },
+      "recipe_sha256": "692f08241c492bbd87881c8d4f8afc968c2a2cd7373da43c8265a7ac04829beb",
+      "job_count": 97,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 97,
+      "independent_inventory_count": 97,
+      "inventory_ids_match": true,
+      "inventory_sha256": "a1747a991e27c6be730d9444d31666472ef920dea81c134be88077e5e4d20a01",
+      "samples": [
+        {
+          "title": "Content Editor",
+          "location": "Remote",
+          "source_url": "https://jobs.ashbyhq.com/higgsfieldai/b9720c4e-23a6-4a59-bb1e-745986cf4ac2"
+        },
+        {
+          "title": "GTM Engineer",
+          "location": "San Francisco Bay Area, USA",
+          "source_url": "https://jobs.ashbyhq.com/higgsfieldai/c6ab1b04-6ec6-411e-afe0-6f97040925a9"
+        },
+        {
+          "title": "Growth Manager",
+          "location": "Almaty, Kazakhstan",
+          "source_url": "https://jobs.ashbyhq.com/higgsfieldai/82a5d241-3f4a-4835-bb6a-5ad71d79ebe7"
+        },
+        {
+          "title": "Regional GTM Director, France",
+          "location": "Remote, France",
+          "source_url": "https://jobs.ashbyhq.com/higgsfieldai/34aca283-f7db-4e16-bb9c-b66c956e5af8"
+        },
+        {
+          "title": "Regional GTM Director, Germany",
+          "location": "Remote, Germany",
+          "source_url": "https://jobs.ashbyhq.com/higgsfieldai/7a2caafb-1b86-4cd6-8b51-93497a7a27ce"
+        }
+      ]
+    },
+    {
+      "id": "cartesia",
+      "name": "Cartesia",
+      "website_url": "https://cartesia.ai/",
+      "checked_at": "2026-11-12T14:22:20.466848+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.cartesia.ai/",
+          "status": 200,
+          "sha256": "42fbc4c2f4ae7cb919962aed3c2c9153e09e87c5f6c042b3a423dfdce8ecb4f4",
+          "ashby_slugs": [],
+          "title": "Realtime AI models and voice agents | Cartesia",
+          "board_links": []
+        },
+        {
+          "url": "https://www.cartesia.ai/careers",
+          "status": 200,
+          "sha256": "ebed3b3378c406f759f0b8dbb24033b95c7998394c14022683ba1148dd524954",
+          "ashby_slugs": [
+            "cartesia"
+          ],
+          "title": "Careers | Cartesia",
+          "board_links": [
+            "https://jobs.ashbyhq.com/cartesia"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "cartesia",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Cartesia",
+        "careers_url": "https://jobs.ashbyhq.com/cartesia",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cartesia",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "cartesia",
+          "ownership_source": "https://www.cartesia.ai/careers"
+        }
+      },
+      "recipe_sha256": "a0a0c4220abae2e4f15257eff23b088fb181d5a34ed1c9dc9e81cb91d3bed158",
+      "job_count": 23,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 23,
+      "independent_inventory_count": 23,
+      "inventory_ids_match": true,
+      "inventory_sha256": "0cd15200e25666f7e2dc992abee05e8760a02d1d98a7831d0dd65a9853cc23c8",
+      "samples": [
+        {
+          "title": "Inference Engineer",
+          "location": "*HQ - San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/cartesia/bd9d6688-5486-470f-a273-20874a44f107"
+        },
+        {
+          "title": "Researcher, Models",
+          "location": "*HQ - San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/cartesia/d74e142f-6f20-4e32-8e41-308369ed5106"
+        },
+        {
+          "title": "Researcher, Models (UK)",
+          "location": "London",
+          "source_url": "https://jobs.ashbyhq.com/cartesia/7ecc288b-6eb0-41d6-b17c-3187fac43f95"
+        },
+        {
+          "title": "Applied Researcher, Audio",
+          "location": "*HQ - San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/cartesia/d26f0158-f7d1-440b-9c1a-f9b7a884437c"
+        },
+        {
+          "title": "Researcher, Evals",
+          "location": "*HQ - San Francisco, CA",
+          "source_url": "https://jobs.ashbyhq.com/cartesia/53fb0b93-d49d-47c7-a679-35ee76b007c5"
+        }
+      ]
+    },
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "website_url": "https://deepgram.com/",
+      "checked_at": "2026-11-12T14:22:21.001980+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://deepgram.com/",
+          "status": 200,
+          "sha256": "e96c46a94208f02c364733a5fc7b9ec7ebb1239caaf7c7ef4b1b116ab9b221f6",
+          "ashby_slugs": [],
+          "title": "Enterprise voice AI: STT, TTS & agent APIs | Deepgram",
+          "board_links": []
+        },
+        {
+          "url": "https://deepgram.com/careers",
+          "status": 200,
+          "sha256": "5573fc50339b8dc623f459c60bbd381af822260892f8f673c7dcd6d5f090af1b",
+          "ashby_slugs": [
+            "Deepgram"
+          ],
+          "title": "Careers at Deepgram: Open roles in voice AI | Deepgram",
+          "board_links": [
+            "https://jobs.ashbyhq.com/Deepgram",
+            "https://jobs.ashbyhq.com/Deepgram/form/join-our-talent-community",
+            "https://jobs.ashbyhq.com/Deepgram",
+            "https://jobs.ashbyhq.com/Deepgram/c4477ce6-29db-45e8-b2cd-01ff2292b4a8",
+            "https://jobs.ashbyhq.com/Deepgram/7ac1a5bc-f305-4f2a-a547-394566a549b2",
+            "https://jobs.ashbyhq.com/Deepgram/3c9a9729-7ff1-49e3-a388-f108745e4b41",
+            "https://jobs.ashbyhq.com/Deepgram/dd71e31d-2b22-4e9b-8f24-bdd221ea13fa",
+            "https://jobs.ashbyhq.com/Deepgram/77d4c84e-e1e6-444b-8cbd-0d34a7235639",
+            "https://jobs.ashbyhq.com/Deepgram"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "Deepgram",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Deepgram",
+        "careers_url": "https://jobs.ashbyhq.com/Deepgram",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/Deepgram",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "Deepgram",
+          "ownership_source": "https://deepgram.com/careers"
+        }
+      },
+      "recipe_sha256": "0156898482cc6735002cea2638b9e9402c6721f5106585c5836d882195a5ad3f",
+      "job_count": 66,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 66,
+      "independent_inventory_count": 66,
+      "inventory_ids_match": true,
+      "inventory_sha256": "6b617919e0e83e0c2c216b9aad38c59acc3237c4c07076e5c82c900cf9f38b23",
+      "samples": [
+        {
+          "title": "Strategic Account Executive (Chicago/MidWest)",
+          "location": "USA - Remote",
+          "source_url": "https://jobs.ashbyhq.com/Deepgram/7fe7bd7d-b337-4337-b459-a892be80789e"
+        },
+        {
+          "title": "Research Staff, Voice AI Foundations",
+          "location": "USA - Remote; San Francisco, CA; Ann Arbor, Michigan",
+          "source_url": "https://jobs.ashbyhq.com/Deepgram/7cf277bc-a192-4007-a77a-fafbf8276a5e"
+        },
+        {
+          "title": "Research Staff, Voice AI Foundations - Remote",
+          "location": "The Netherlands",
+          "source_url": "https://jobs.ashbyhq.com/Deepgram/1518fd8f-7e9d-4712-9e6b-a7e10ba25bdd"
+        },
+        {
+          "title": "Sales Development Representative",
+          "location": "USA - Remote",
+          "source_url": "https://jobs.ashbyhq.com/Deepgram/a6c59ee7-4d92-423c-a6e6-99adcd9e6ff3"
+        },
+        {
+          "title": "Senior Data Scientist, Audio",
+          "location": "USA - Remote",
+          "source_url": "https://jobs.ashbyhq.com/Deepgram/ba60a541-fdf7-44bf-a6bb-0e821f15af54"
+        }
+      ]
+    },
+    {
+      "id": "rime",
+      "name": "Rime",
+      "website_url": "https://rime.ai/",
+      "checked_at": "2026-11-12T14:22:21.693610+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.rime.ai/",
+          "status": 200,
+          "sha256": "762048bd64de5f2514bee28d22d82bacbce37b5de7896443ed34729f8a5df68a",
+          "ashby_slugs": [
+            "rime"
+          ],
+          "title": "Rime AI | Conversational Voice Models for Enterprise",
+          "board_links": [
+            "https://jobs.ashbyhq.com/rime"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "rime",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Rime",
+        "careers_url": "https://jobs.ashbyhq.com/rime",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/rime",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "rime",
+          "ownership_source": "https://www.rime.ai/"
+        }
+      },
+      "recipe_sha256": "0eb8c478208ab5a8505f2ac0c01a6ccae0bc3eb17727c496df4590f82ce9d3bc",
+      "job_count": 3,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 3,
+      "independent_inventory_count": 3,
+      "inventory_ids_match": true,
+      "inventory_sha256": "6c67bc4bee8206b3e2deaa77cb623fb7be067d923174f01e82a2b04bb8f31f7c",
+      "samples": [
+        {
+          "title": "Machine Learning Scientist",
+          "location": "United States",
+          "source_url": "https://jobs.ashbyhq.com/rime/b76243da-3ce0-463e-9f29-2b6d1b78666e"
+        },
+        {
+          "title": "Founding Account Executive",
+          "location": "San Francisco Bay Area; New York City",
+          "source_url": "https://jobs.ashbyhq.com/rime/385985d7-42fd-4686-9ded-3aeee0a246dd"
+        },
+        {
+          "title": "Demand Generation",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/rime/0a3bf1d9-d239-4d7a-9ecf-169181534feb"
+        }
+      ]
+    },
+    {
+      "id": "bland-ai",
+      "name": "Bland AI",
+      "website_url": "https://bland.ai/",
+      "checked_at": "2026-11-12T14:22:22.098061+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.bland.ai/",
+          "status": 200,
+          "sha256": "338d1f94cc2df5e19a2537bdf94d86066f3daf8ef81d3f118a4f6f5ef3af3cc7",
+          "ashby_slugs": [],
+          "title": "Bland | Enterprise Voice AI Platform for Phone Agents",
+          "board_links": []
+        },
+        {
+          "url": "https://www.bland.ai/careers",
+          "status": 200,
+          "sha256": "963acfd6bd26237677e59ed7afe593c364b1d00f0089a4b88085b6ddc62161d2",
+          "ashby_slugs": [
+            "bland"
+          ],
+          "title": "Careers | Bland AI",
+          "board_links": [
+            "https://jobs.ashbyhq.com/bland/2e815d0d-8e7a-43cc-8853-c1b029aeb499",
+            "https://jobs.ashbyhq.com/bland/681dfcda-f016-4bda-826e-7e813fae0083",
+            "https://jobs.ashbyhq.com/bland/f0d879a1-5919-4d61-addd-8f0f1867428c",
+            "https://jobs.ashbyhq.com/bland/a3a383e0-9c15-4777-a95b-536cb8c1174c",
+            "https://jobs.ashbyhq.com/bland/f1009d1a-4198-4627-82a8-1c5f81e88ee6",
+            "https://jobs.ashbyhq.com/bland/2ae3b8f9-2856-4e28-a0d0-8b2b1081e32c",
+            "https://jobs.ashbyhq.com/bland/0393fafd-0681-4b60-82e0-9f97e8e62393",
+            "https://jobs.ashbyhq.com/bland/824f7ebb-6d71-4484-bc7d-a2bcd4441a70",
+            "https://jobs.ashbyhq.com/bland/a21585d3-b6ce-47bf-af44-f384d40315a3",
+            "https://jobs.ashbyhq.com/bland/65bd2e9d-e5c5-4642-b49f-9cb4ab931e31",
+            "https://jobs.ashbyhq.com/bland/f47deb2b-c31a-467e-afc1-cf38134cd370",
+            "https://jobs.ashbyhq.com/bland/ba9e3ca6-a132-4fe2-9886-42f80100e062",
+            "https://jobs.ashbyhq.com/bland/dc26ae53-bd0f-4e58-9e01-dea3777c0830",
+            "https://jobs.ashbyhq.com/bland/184b06fb-f1c2-4dbb-8634-8b324410a096",
+            "https://jobs.ashbyhq.com/bland/ea532833-f3d8-4dad-b5b2-f9bbeaa1a1a5",
+            "https://jobs.ashbyhq.com/bland/56f3fd9f-4018-4bbf-9208-4831449b4792"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "bland",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Bland AI",
+        "careers_url": "https://jobs.ashbyhq.com/bland",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/bland",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "bland",
+          "ownership_source": "https://www.bland.ai/careers"
+        }
+      },
+      "recipe_sha256": "35401c1ee0fea5758565b4ebc3075e3ffe454fb8427eabc0f80e7fa61884e5c7",
+      "job_count": 16,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 16,
+      "independent_inventory_count": 16,
+      "inventory_ids_match": true,
+      "inventory_sha256": "d5ca881116c534aad735ab4fc5569972125dd61829c94f7d0ecbcc0490e2f323",
+      "samples": [
+        {
+          "title": "Senior Infrastructure Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/bland/a3a383e0-9c15-4777-a95b-536cb8c1174c"
+        },
+        {
+          "title": "Director of SI Partnerships",
+          "location": "San Francisco or Remote",
+          "source_url": "https://jobs.ashbyhq.com/bland/a21585d3-b6ce-47bf-af44-f384d40315a3"
+        },
+        {
+          "title": "Business Development Representative",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/bland/f47deb2b-c31a-467e-afc1-cf38134cd370"
+        },
+        {
+          "title": "Mid-Market Account Executive",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/bland/56f3fd9f-4018-4bbf-9208-4831449b4792"
+        },
+        {
+          "title": "Enterprise Account Executive",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/bland/dc26ae53-bd0f-4e58-9e01-dea3777c0830"
+        }
+      ]
+    },
+    {
+      "id": "vapi",
+      "name": "Vapi",
+      "website_url": "https://vapi.ai/",
+      "checked_at": "2026-11-12T14:22:22.703055+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://vapi.ai/",
+          "status": 200,
+          "sha256": "f1cb95072262d14f3a6fd9ddb0528a3141192ebfdd9bc0e70effe7d77ec34b88",
+          "ashby_slugs": [],
+          "title": "Vapi - Build Advanced Voice AI Agents",
+          "board_links": []
+        },
+        {
+          "url": "https://vapi.ai/careers",
+          "status": 200,
+          "sha256": "23bf1ca9217f34569035878bb918395bafbc59d40680ec1260756fef382b3a98",
+          "ashby_slugs": [
+            "vapi"
+          ],
+          "title": "VAPI - Careers",
+          "board_links": [
+            "https://jobs.ashbyhq.com/vapi/50d82ec9-720a-4aea-9a2d-c502786f737e",
+            "https://jobs.ashbyhq.com/vapi/68b5209c-f814-4528-a340-7d958cc7ed79",
+            "https://jobs.ashbyhq.com/vapi/0ac869b1-0697-479d-a22b-17a5e160ffe5",
+            "https://jobs.ashbyhq.com/vapi/03532365-7180-4999-b534-24595884aeb9",
+            "https://jobs.ashbyhq.com/vapi/0ec4a11b-09ec-43ed-aa79-e4718bebec1e"
+          ]
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "vapi",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Vapi",
+        "careers_url": "https://jobs.ashbyhq.com/vapi",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/vapi",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "vapi",
+          "ownership_source": "https://vapi.ai/careers"
+        }
+      },
+      "recipe_sha256": "f5abf578b8b5df558fcf81fd612c3a1f4d18e94f507a2514200b82790c560e72",
+      "job_count": 5,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 5,
+      "independent_inventory_count": 5,
+      "inventory_ids_match": true,
+      "inventory_sha256": "500abd6825cf747f74893b465ac160c0bec981e828043a18c0ff9cdcddb908e3",
+      "samples": [
+        {
+          "title": "Enterprise Account Executive",
+          "location": "San Francisco; New York",
+          "source_url": "https://jobs.ashbyhq.com/vapi/50d82ec9-720a-4aea-9a2d-c502786f737e"
+        },
+        {
+          "title": "Enterprise Account Executive",
+          "location": "New York",
+          "source_url": "https://jobs.ashbyhq.com/vapi/68b5209c-f814-4528-a340-7d958cc7ed79"
+        },
+        {
+          "title": "Solutions Engineer",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/vapi/0ac869b1-0697-479d-a22b-17a5e160ffe5"
+        },
+        {
+          "title": "Solutions Engineer",
+          "location": "New York",
+          "source_url": "https://jobs.ashbyhq.com/vapi/03532365-7180-4999-b534-24595884aeb9"
+        },
+        {
+          "title": "Senior Product Manager",
+          "location": "San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/vapi/0ec4a11b-09ec-43ed-aa79-e4718bebec1e"
+        }
+      ]
+    },
+    {
+      "id": "retell-ai",
+      "name": "Retell AI",
+      "website_url": "https://retellai.com/",
+      "checked_at": "2026-11-12T14:22:23.424188+00:00",
+      "ownership_pages": [
+        {
+          "url": "https://www.retellai.com/",
+          "status": 200,
+          "sha256": "5bbc28e275b1e5face12507c537844bbbec85feda3f7ad6d8df5e913dd5d696a",
+          "ashby_slugs": [],
+          "title": "AI Voice Agents That Automate Phone Calls | Retell AI",
+          "board_links": []
+        },
+        {
+          "url": "https://www.retellai.com/careers",
+          "status": 200,
+          "sha256": "b904cd71ea473cabffdc8907b3fc7fa61bee7015dd84847c10cca482aefb77f2",
+          "ashby_slugs": [
+            "retell-ai"
+          ],
+          "title": "Careers at Retell AI | Join the Future of AI Voice Technology",
+          "board_links": []
+        }
+      ],
+      "status": "verified",
+      "strategy": "ashby",
+      "slug": "retell-ai",
+      "recipe": {
+        "version": 1,
+        "coverage_mode": "all",
+        "company": "Retell AI",
+        "careers_url": "https://jobs.ashbyhq.com/retell-ai",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "api.ashbyhq.com",
+          "jobs.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/retell-ai",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 30,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": null,
+          "next_path": null
+        },
+        "source_key": null,
+        "source_filter": null,
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "retell-ai",
+          "ownership_source": "https://www.retellai.com/careers"
+        }
+      },
+      "recipe_sha256": "d083e6004148ad29369e04b0b0e04004ef73f9e373af76617e004fcc3635d6b1",
+      "job_count": 19,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "description_count": 19,
+      "independent_inventory_count": 19,
+      "inventory_ids_match": true,
+      "inventory_sha256": "b63afaa8a31473cfc33defcf490ecd0811e2a7012961202ab5804789f17f67df",
+      "samples": [
+        {
+          "title": "Senior Product Designer",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/retell-ai/9b165c15-aa78-49a7-a755-8c2379fd5416"
+        },
+        {
+          "title": "Senior Software Engineer, Backend",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/retell-ai/3e4fa860-4673-49bf-b577-57e73b6292fe"
+        },
+        {
+          "title": "Senior Software Engineer, Full Stack",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/retell-ai/dc995420-9909-4867-83f4-0816fe758a6f"
+        },
+        {
+          "title": "Senior Software Engineer, Frontend",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/retell-ai/26e3aa9d-f22d-4870-8db5-bb488c207559"
+        },
+        {
+          "title": "Staff Engineer, Platform & Systems",
+          "location": "San Francisco Bay Area",
+          "source_url": "https://jobs.ashbyhq.com/retell-ai/b408ee8c-69af-4be3-a4a3-12ed5766fe1f"
+        }
+      ]
+    }
+  ]
+}
