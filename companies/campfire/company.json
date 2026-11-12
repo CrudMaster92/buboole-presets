@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "campfire",
+  "name": "Campfire",
+  "aliases": [],
+  "website_url": "https://campfire.ai/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Technology",
+      "Complete public boards"
+    ]
+  }
+}

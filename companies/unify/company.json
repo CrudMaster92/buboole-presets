@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "unify",
+  "name": "Unify",
+  "aliases": [],
+  "website_url": "https://unifygtm.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Technology",
+      "Complete public boards"
+    ]
+  }
+}

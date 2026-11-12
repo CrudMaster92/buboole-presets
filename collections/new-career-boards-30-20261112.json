@@ -1,0 +1,210 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "new-career-boards-30-20261112",
+  "revision": 1,
+  "name": "30 new career boards — November 2026",
+  "description": "Thirty additional technology employers with official-site ownership evidence and freshly validated public Ashby boards. Complete all-role listings, with no country, title, page-count, role-count or description sampling limit. Posting counts are point-in-time observations, not guarantees of continued availability.",
+  "tags": [
+    "Technology",
+    "Complete boards"
+  ],
+  "facets": {
+    "collection_types": [
+      "curated"
+    ],
+    "industries": [
+      "technology"
+    ],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "linear",
+      "monitor_ids": [
+        "linear-careers"
+      ]
+    },
+    {
+      "company_id": "ramp",
+      "monitor_ids": [
+        "ramp-careers"
+      ]
+    },
+    {
+      "company_id": "drata",
+      "monitor_ids": [
+        "drata-careers"
+      ]
+    },
+    {
+      "company_id": "supabase",
+      "monitor_ids": [
+        "supabase-careers"
+      ]
+    },
+    {
+      "company_id": "motherduck",
+      "monitor_ids": [
+        "motherduck-careers"
+      ]
+    },
+    {
+      "company_id": "rillet",
+      "monitor_ids": [
+        "rillet-careers"
+      ]
+    },
+    {
+      "company_id": "numeric",
+      "monitor_ids": [
+        "numeric-careers"
+      ]
+    },
+    {
+      "company_id": "campfire",
+      "monitor_ids": [
+        "campfire-careers"
+      ]
+    },
+    {
+      "company_id": "zip",
+      "monitor_ids": [
+        "zip-careers"
+      ]
+    },
+    {
+      "company_id": "airops",
+      "monitor_ids": [
+        "airops-careers"
+      ]
+    },
+    {
+      "company_id": "writer",
+      "monitor_ids": [
+        "writer-careers"
+      ]
+    },
+    {
+      "company_id": "mutiny",
+      "monitor_ids": [
+        "mutiny-careers"
+      ]
+    },
+    {
+      "company_id": "unify",
+      "monitor_ids": [
+        "unify-careers"
+      ]
+    },
+    {
+      "company_id": "plain",
+      "monitor_ids": [
+        "plain-careers"
+      ]
+    },
+    {
+      "company_id": "pylon",
+      "monitor_ids": [
+        "pylon-careers"
+      ]
+    },
+    {
+      "company_id": "delphi",
+      "monitor_ids": [
+        "delphi-careers"
+      ]
+    },
+    {
+      "company_id": "trigger-dev",
+      "monitor_ids": [
+        "trigger-dev-careers"
+      ]
+    },
+    {
+      "company_id": "inngest",
+      "monitor_ids": [
+        "inngest-careers"
+      ]
+    },
+    {
+      "company_id": "runpod",
+      "monitor_ids": [
+        "runpod-careers"
+      ]
+    },
+    {
+      "company_id": "inference-net",
+      "monitor_ids": [
+        "inference-net-careers"
+      ]
+    },
+    {
+      "company_id": "prime-intellect",
+      "monitor_ids": [
+        "prime-intellect-careers"
+      ]
+    },
+    {
+      "company_id": "lambda",
+      "monitor_ids": [
+        "lambda-careers"
+      ]
+    },
+    {
+      "company_id": "pika",
+      "monitor_ids": [
+        "pika-careers"
+      ]
+    },
+    {
+      "company_id": "higgsfield",
+      "monitor_ids": [
+        "higgsfield-careers"
+      ]
+    },
+    {
+      "company_id": "cartesia",
+      "monitor_ids": [
+        "cartesia-careers"
+      ]
+    },
+    {
+      "company_id": "deepgram",
+      "monitor_ids": [
+        "deepgram-careers"
+      ]
+    },
+    {
+      "company_id": "rime",
+      "monitor_ids": [
+        "rime-careers"
+      ]
+    },
+    {
+      "company_id": "bland-ai",
+      "monitor_ids": [
+        "bland-ai-careers"
+      ]
+    },
+    {
+      "company_id": "vapi",
+      "monitor_ids": [
+        "vapi-careers"
+      ]
+    },
+    {
+      "company_id": "retell-ai",
+      "monitor_ids": [
+        "retell-ai-careers"
+      ]
+    }
+  ]
+}

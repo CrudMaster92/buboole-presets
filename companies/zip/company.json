@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "zip",
+  "name": "Zip",
+  "aliases": [
+    "ZipHQ"
+  ],
+  "website_url": "https://zip.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [],
+    "tags": [
+      "Technology",
+      "Complete public boards"
+    ]
+  }
+}
